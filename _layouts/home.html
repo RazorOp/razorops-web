@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/js/app.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
+  </head>
+
+
+	<body id="top">
+    {% include /header.html %}
+
+    {{ content }}
+
+
+    <section class="banner">
+      <div class="container">
+        <div class="banner-msg">
+          <h1>Continuous delivery simplified on kubernetes</h1>
+          <p>Heroku User Experience in your cloud account within minutes.</p>
+
+          <div class="banner-actions">
+            <a href="#" class="btn btn-primary">Get Started</a>
+            <a href="#" class="btn btn-secondary">How it Works</a>
+          </div>
+        </div>
+        <div class="banner-illustration">
+          <img src="/images/banner-illustration.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works">
+      <div class="container">
+        <div class="how-it-works-content">
+          <h2>How it Works</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="step-item">
+                <figure class="step-icon"><img src="/images/setup.svg" alt="Setup"></figure>
+                <h4>Setup</h4>
+                <p>
+                  Connect your code repositories, docker registry or preferred build system.
+                  Create new clusters on any server or cloud or easily connect your existing clusters no matter where they run.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="step-item">
+                <figure class="step-icon"><img src="/images/pipeline.svg" alt="Define Pipeline"></figure>
+                <h4>Define Pipeline</h4>
+                <p>
+                  Create continuous delivery pipelines in a few clicks using visual dashboards across apps, environments and teams. Provision environments and set optional approvals at every stage to give your team full control over how software moves through your delivery pipeline
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="step-item">
+                <figure class="step-icon"><img src="/images/monitor.svg" alt="Deploy & Monitor"></figure>
+                <h4>Deploy & Monitor</h4>
+                <p>
+                  Promote releases between target environment and perform automatic health-check, logs metrics and rollback automatically if the risk is high. Uses machine learning to protect when deployment fail.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="step-item">
+                <figure class="step-icon"><img src="/images/notification.svg" alt="Keep you notified"></figure>
+                <h4>Keep you notified</h4>
+                <p>
+                  Get automatic notifications of every build and deployment via Slack, HipChat, email, or webhooks. Make it easy to work as a team and know who did what and when. Continuous delivery has never been so simple.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include /footer.html %}
+  </body>
+</html>

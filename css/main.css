@@ -1,0 +1,100 @@
+body {
+	font-family: 'Ubuntu';
+}
+/*// $primary-color: #5449D2;*/
+/*// $secondary-color: #FE825A;*/
+.navbar-default {
+	background-color: #fff;
+	border-bottom: 0;
+	padding: 5px 0;
+	margin-bottom: 0;
+}
+.navbar-brand {
+	padding: 0;
+}
+.btn-primary {
+	background-color: #FE825A;
+	color: #fff;
+	border-color: #FE825A;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #470FF4;
+	color: #fff;
+	border-color: #470FF4;
+}
+.btn {
+	height: 42px;
+	padding: 10px 12px;
+	border-radius: 2px;
+}
+.banner {
+	min-height: 600px;
+	position: relative;
+	/*background-image: linear-gradient(to top, #d43f8d 0%, #0250c5 100%);*/
+	/*background-image: linear-gradient(to bottom, #58355E, #372E6C);*/
+	background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+	padding: 20px 0;
+}
+.banner-msg {
+	position: relative;
+	padding: 20px;
+	width: 50%;
+	float: left;
+}
+.banner-msg p {
+	color: #fff;
+	font-weight: 300;
+	font-size: 20px;
+}
+.banner-illustration {
+	float: right;
+	padding: 30px 0;
+}
+.banner-msg h1 {
+	font-size: 60px;
+	color: #fff;
+}
+.banner-actions .btn {
+	width: 180px;
+	height: 52px;
+	padding: 10px 14px;
+	font-size: 20px;
+	margin-right: 15px;
+}
+.btn-secondary {
+	background-color: #fff;
+	border-color: #fff;
+	color: #470FF4;
+}/*------how-it-works----*/
+.step-item {
+	padding: 20px;
+}
+.step-icon {
+	display: block;
+	margin-bottom: 2px;
+}
+.step-icon img {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+.how-it-works {
+	padding: 50px 0;
+}
+.how-it-works-content {
+	background-color: #fff;
+}
+.how-it-works h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.step-item p {
+	color: #737383;
+}
+.step-item h4 {
+	font-size: 20px;
+	font-weight: 500;
+}
