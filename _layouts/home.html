@@ -10,8 +10,6 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
@@ -35,8 +33,7 @@
           <p>Heroku User Experience in your cloud account within minutes.</p>
 
           <div class="banner-actions">
-            <a href="#" class="btn btn-primary">Get Started</a>
-            <a href="#" class="btn btn-secondary">How it Works</a>
+            <a href="#" class="btn btn-secondary">Learn More</a>
           </div>
         </div>
         <div class="banner-illustration">
@@ -45,56 +42,135 @@
       </div>
     </section>
 
-    <section class="how-it-works">
+    <section class="how-it-works" id="how-works">
       <div class="container">
         <div class="how-it-works-content">
-          <h2>How it Works</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="step-item">
-                <figure class="step-icon"><img src="/images/setup.svg" alt="Setup"></figure>
-                <h4>Setup</h4>
-                <p>
-                  Connect your code repositories, docker registry or preferred build system.
-                  Create new clusters on any server or cloud or easily connect your existing clusters no matter where they run.
-                </p>
-              </div>
+          <h2 class="header">How it Works</h2>
+          <div class="steps-wraper">
+            <div class="step-item step-item-right">
+              <figure class="step-icon"><img src="/images/setup.svg" alt="Setup"></figure>
+              <h4>Setup</h4>
+              <p>
+                Connect your code repositories, docker registry or preferred build system.
+                Create new clusters on any server or cloud or easily connect your existing clusters no matter where they run.
+              </p>
             </div>
-
-            <div class="col-md-6">
-              <div class="step-item">
-                <figure class="step-icon"><img src="/images/pipeline.svg" alt="Define Pipeline"></figure>
-                <h4>Define Pipeline</h4>
-                <p>
-                  Create continuous delivery pipelines in a few clicks using visual dashboards across apps, environments and teams. Provision environments and set optional approvals at every stage to give your team full control over how software moves through your delivery pipeline
-                </p>
-              </div>
+          
+            <div class="step-item step-item-left">
+              <figure class="step-icon"><img src="/images/pipeline.svg" alt="Define Pipeline"></figure>
+              <h4>Define Pipeline</h4>
+              <p>
+                Create continuous delivery pipelines in a few clicks using visual dashboards across apps, environments and teams. Provision environments and set optional approvals at every stage to give your team full control over how software moves through your delivery pipeline
+              </p>
             </div>
-
-            <div class="col-md-6">
-              <div class="step-item">
-                <figure class="step-icon"><img src="/images/monitor.svg" alt="Deploy & Monitor"></figure>
-                <h4>Deploy & Monitor</h4>
-                <p>
-                  Promote releases between target environment and perform automatic health-check, logs metrics and rollback automatically if the risk is high. Uses machine learning to protect when deployment fail.
-                </p>
-              </div>
+         
+            <div class="step-item step-item-right">
+              <figure class="step-icon"><img src="/images/monitor.svg" alt="Deploy & Monitor"></figure>
+              <h4>Deploy & Monitor</h4>
+              <p>
+                Promote releases between target environment and perform automatic health-check, logs metrics and rollback automatically if the risk is high. Uses machine learning to protect when deployment fail.
+              </p>
             </div>
-
-            <div class="col-md-6">
-              <div class="step-item">
-                <figure class="step-icon"><img src="/images/notification.svg" alt="Keep you notified"></figure>
-                <h4>Keep you notified</h4>
-                <p>
-                  Get automatic notifications of every build and deployment via Slack, HipChat, email, or webhooks. Make it easy to work as a team and know who did what and when. Continuous delivery has never been so simple.
-                </p>
-              </div>
+          
+            <div class="step-item step-item-left">
+              <figure class="step-icon"><img src="/images/notification.svg" alt="Keep you notified"></figure>
+              <h4>Keep you notified</h4>
+              <p>
+                Get automatic notifications of every build and deployment via Slack, HipChat, email, or webhooks. Make it easy to work as a team and know who did what and when. Continuous delivery has never been so simple.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="header">Features</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="feature-item">
+              <figure><img src="images/deployment-pipeline.svg" alt="Deployment Pipeline"></figure>
+              <h4>Deployment Pipeline</h4>
+              <p>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <figure><img src="images/connect-environment.svg" alt="Connect Environment"></figure>
+              <h4>Connect Environments</h4>
+              <p>Create new clusters on any server or cloud or easily connect your existing clusters no matter where they run. Integrate and provision multiple environments according to your needs.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <figure><img src="images/hosted.svg" alt="Hosted"></figure>
+              <h4>Hosted Helm and docker Registries</h4>
+              <p>Use our built-in registry and Helm Repos, or connect your own.</p>
+            </div>
+          </div>
+       
+          <div class="col-md-6">
+            <div class="feature-item">
+              <figure><img src="images/automatic-rollback.svg" alt="Automatic Rollback"></figure>
+              <h4>Automatic rollback</h4>
+              <p>We analyze data from monitoring tools and uses automated testing tools to look for anomalies and failures to rollback broken within seconds</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <figure><img src="images/git-logo.svg" alt="Incorporate Gitops"></figure>
+              <h4>Incorporate Gitops</h4>
+              <p>Align your pipelines with the branch structure, making it easier to work with branching workflows like feature branching or git-flow.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <figure><img src="images/code-configuration.svg" alt="Code as configuration"></figure>
+              <h4>Code as configuration</h4>
+              <p>Store and manage your configurations in a single pipelines.yml file. Only few lines of code to get you started.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="contact-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Contact Us</h4>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Mobile Number</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="message" id="" cols="30" rows="4" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send Message</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
     {% include /footer.html %}
   </body>
 </html>
+
