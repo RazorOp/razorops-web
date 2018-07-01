@@ -1081,7 +1081,7 @@ select {
 
 .footer {
   background-color: #ffffff;
-  padding: 36pt 0; }
+  padding: 5pt 0; }
 
 .footer__inner {
   -js-display: flex;
@@ -1323,6 +1323,50 @@ select {
 
 .app__image {
   max-width: 100%; }
+
+
+
+/*price Table*/
+
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #6C63FF;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
 
 /* Vertical menu */
 .vMenu {

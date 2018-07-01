@@ -1,13 +1,16 @@
 # Site settings
-title: DataCol
-email: dinesh@codecrux.com
+title: RazorOps
+email: contact@razorops.com
 description: > # this means to ignore newlines until "baseurl:"
-  Datacol is the easiest way to connect salesforce to your back-office data system.
+  Continuous delivery simplified on kubernetes
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://datacol.io" # the base hostname & protocol for your site
-twitter_username: datacol
-github_username:  datacol
+url: "http://razorops.com/" # the base hostname & protocol for your site
+twitter_username: razorops
+github_username:  razorop
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag

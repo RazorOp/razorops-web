@@ -1,293 +1,207 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-	<meta class="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>RazorOps | Continuous delivery simplified on kubernetes </title>
-	<!-- Don't forget to add your metadata here -->
-	<link rel='stylesheet' href='css/style.css' />
-	<link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="./images/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="./images/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+---
+layout: home
+title: Continuous delivery simplified on kubernetes
+description: Automate your code to test to production across environments, apps in few steps.
+keywords: Continuous delivery, kubernetes, Docker, docker registry
+<!-- permalink: /pricing/ -->
+---
+<!-- Hero unit -->
 
-
-</head>
-<body>
-	<!-- Hero(extended) navbar -->
-	<div class="navbar navbar--extended">
-		<nav class="nav__mobile"></nav>
+<div class="hero">
+	<div class="hero__overlay hero__overlay--gradient"></div>
+	<div class="hero__mask"></div>
+	<div class="hero__inner">
 		<div class="container">
-			<div class="navbar__inner">
-				<a href="/" class="navbar__logo"><b>RazorOps</b></a>
-				<nav class="navbar__menu">
-					<ul>
-						<!-- <li><a rel="nofollow" href="/documentation.html">Documentation</a></li> -->
-						<!-- <li><a href="/auth.html">Log In</a></li> -->
-					</ul>
-				</nav>
-				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
-			</div>
-		</div>
-	</div>
-	<!-- Hero unit -->
-
-	<div class="hero">
-		<div class="hero__overlay hero__overlay--gradient"></div>
-		<div class="hero__mask"></div>
-		<div class="hero__inner">
-			<div class="container">
-				<div class="hero__content">
-					<div class="hero__content__inner" id='navConverter'>
-						<h1 class="hero__title">Continuous delivery simplified on kubernetes</h1>
-						<p class="hero__text">Automate your code to test to production across environments, apps in few steps.</p>
-						<a href="#" class="button button__accent">Request a demo</a>
-						<a href="#how-it-works" class="button hero__button">Learn more</a>
-					</div>
+			<div class="hero__content">
+				<div class="hero__content__inner" id='navConverter'>
+					<h1 class="hero__title">Continuous delivery simplified on kubernetes</h1>
+					<p class="hero__text">Automate your code to test to production across environments, apps in few steps.</p>
+					<a href="#" class="button button__accent">Schedule Demo</a>
+					<a href="#how-it-works" class="button hero__button">Learn more</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="hero__sub">
-		<span id="scrollToNext" class="scroll">
-			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
-		</span>
+</div>
+
+<div class="hero__sub">
+	<span id="scrollToNext" class="scroll">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
+	</span>
+</div>
+
+<!-- Steps -->
+<div class="steps landing__section" id="how-it-works">
+	<div class="container">
+		<h2>How it Works?</h2>
+		<p>Here's who we can think of, but surely creative people will surprise us.</p>
 	</div>
+	<div class="container">
+		<div class="steps__inner" >
 
-	<!-- Steps -->
-	<div class="steps landing__section" id="how-it-works">
-		<div class="container">
-			<h2>How it Works?</h2>
-			<p>Here's who we can think of, but surely creative people will surprise us.</p>
-		</div>
-		<div class="container">
-			<div class="steps__inner" >
-
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/undraw_creation.svg" class="step__image">
-					</div>
-					<h4>1. Code Setup</h4>
-					<p class="step__text">Connect your code repositories, docker registry or preferred build system.</p>
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/undraw_creation.svg" class="step__image">
 				</div>
+				<h4>1. Code Setup</h4>
+				<p class="step__text">Connect your code repositories, docker registry or preferred build system.</p>
+			</div>
 
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/undraw_responsive.svg" class="step__image">
-					</div>
-					<h4>2. Define Pipeline</h4>
-					<p class="step__text">Create continuous delivery pipelines in a few clicks using visual
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/undraw_responsive.svg" class="step__image">
+				</div>
+				<h4>2. Define Pipeline</h4>
+				<p class="step__text">Create continuous delivery pipelines in a few clicks using visual
 dashboards across apps, environments and teams.</p>
-				</div>
+			</div>
 
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/undraw_designer.svg" class="step__image">
-					</div>
-					<h4>3. Deploy & Monitor</h4>
-					<p class="step__text">Promote releases between target environment and perform automatic health-check, logs metrics and rollback automatically.</p>
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/undraw_designer.svg" class="step__image">
 				</div>
+				<h4>3. Deploy & Monitor</h4>
+				<p class="step__text">Promote releases between target environment and perform automatic health-check, logs metrics and rollback automatically.</p>
+			</div>
 
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/undraw_selfie.svg" class="step__image">
-					</div>
-					<h4>4. Keep you notified</h4>
-					<p class="step__text">Get automatic notifications of every build and deployment via Slack, HipChat, email, or webhooks.</p>
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/undraw_selfie.svg" class="step__image">
 				</div>
+				<h4>4. Keep you notified</h4>
+				<p class="step__text">Get automatic notifications of every build and deployment via Slack, HipChat, email, or webhooks.</p>
+			</div>
 
+		</div>
+	</div>
+</div>
+
+<!-- Expanded sections -->
+<div class="expanded landing__section">
+	<div class="container">
+		<div class="expanded__inner">
+			<div class="expanded__media">
+				<img src="./images/undraw_browser.svg" class="expanded__image">
+			</div>
+			<div class="expanded__content">
+				<h2 class="expanded__title">Natural styling with almost nothing to learn</h2>
+				<p class="expanded__text">Create continuous delivery pipelines in a few clicks using visual dashboards across apps, environments and teams.</p>
 			</div>
 		</div>
 	</div>
-
-	<!-- Expanded sections -->
-	<div class="expanded landing__section">
-		<div class="container">
-			<div class="expanded__inner">
-				<div class="expanded__media">
-					<img src="./images/undraw_browser.svg" class="expanded__image">
-				</div>
-				<div class="expanded__content">
-					<h2 class="expanded__title">Natural styling with almost nothing to learn</h2>
-					<p class="expanded__text">Create continuous delivery pipelines in a few clicks using visual dashboards across apps, environments and teams.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+</div>
 
 
 <!-- Steps -->
-	<div class="steps landing__section" id="how-it-works">
-		<div class="container">
-			<h2>Features</h2>
-			<p>RazorOps is loaded with following features.</p>
-		</div>
-		<div class="container">
-			<div class="steps__inner">
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/deployment-pipeline.svg" class="step__image">
-					</div>
-					<h4>Deployment Pipeline</h4>
-					<p class="step__text">Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</p>
-				</div>
-
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/connect-environment.svg" class="step__image">
-					</div>
-					<h4>Connect Environments</h4>
-					<p class="step__text">Create new clusters on any server or cloud or easily connect your existing clusters no matter where they run. Integrate and provision multiple environments according to your needs.</p>
-				</div>
-
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/hosted.svg" class="step__image">
-					</div>
-					<h4>Hosted Helm and docker Registries</h4>
-					<p class="step__text">Use our built-in registry and Helm Repos, or connect your own.</p>
-				</div>
-
-
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/automatic-rollback.svg" class="step__image">
-					</div>
-					<h4>Automatic rollback</h4>
-					<p class="step__text">We analyze data from monitoring tools and uses automated testing tools to look for anomalies and failures to rollback broken within seconds.</p>
-				</div>
-
-
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/git-logo.svg" class="step__image">
-					</div>
-					<h4>Incorporate Gitops</h4>
-					<p class="step__text">Align your pipelines with the branch structure, making it easier to work with branching workflows like feature branching or git-flow.</p>
-				</div>
-
-
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/code-configuration.svg" class="step__image">
-					</div>
-					<h4>Code as configuration</h4>
-					<p class="step__text">Store and manage your configurations in a single pipelines.yml file. Only few lines of code to get you started.</p>
-				</div>
-
-			</div>
-		</div>
+<div class="steps landing__section" id="features">
+	<div class="container">
+		<h2>Features</h2>
+		<p>RazorOps is loaded with following features.</p>
 	</div>
-
-	<div class="expanded landing__section">
-		<div class="container">
-			<div class="expanded__inner">
-				<div class="expanded__media">
-					<img src="./images/undraw_frameworks.svg" class="expanded__image">
+	<div class="container">
+		<div class="steps__inner">
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/deployment-pipeline.svg" class="step__image">
 				</div>
-				<div class="expanded__content">
-					<h2 class="expanded__title">Integrations</h2>
-					<p class="expanded__text">Connect right out of the box to Git or your choice of version control systems to build and deploy apps from your source code. Easily integrate with Jenkins or your continuous integration tools of choice, and get automatic deployment notifications via email, Slack or HipChat.</p>
-				</div>
+				<h4>Deployment Pipeline</h4>
+				<p class="step__text">Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</p>
 			</div>
-		</div>
-	</div>
-	<div class="expanded landing__section">
-		<div class="container">
-			<div class="expanded__inner">
-				<div class="expanded__media">
-					<img src="./images/together.svg" class="expanded__image">
+
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/connect-environment.svg" class="step__image">
 				</div>
-				<div class="expanded__content">
-					<h2 class="expanded__title">Ready for production or rapid prototyping</h2>
-					<p class="expanded__text">Tested on production at RazorOps with amazing speeds and unopinionated on how to structure your project. We really hope you'll find it awesome and useful!</p>
-				</div>
+				<h4>Connect Environments</h4>
+				<p class="step__text">Create new clusters on any server or cloud or easily connect your existing clusters no matter where they run. Integrate and provision multiple environments according to your needs.</p>
 			</div>
-		</div>
-	</div>
 
-
-	<script id="_agile_min_js" async type="text/javascript" src="https://razorops.agilecrm.com/stats/min/agile-min.js"> </script>
-	<script type="text/javascript" >
-	var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){
-	_agile.set_account('4iduuh82l0hggiae1c1bj47ddd', 'razorops', false);
-	_agile.track_page_view();
-	_agile_execute_web_rules();};
-	</script>
-
-	<!-- Call To Action -->
-	<div class="cta cta--reverse">
-		<div class="container">
-			<div class="cta__inner">
-				<h2 class="cta__title">Get started now</h2>
-				<p class="cta__sub cta__sub--center">Grab the production version and begin your project instantly.</p>
-
-				<!-- <div id="razorops_5078547773259776" class="agile_crm_form_embed"><span style="display:none">Fill out my <a href="https://razorops.agilecrm.com/forms/5078547773259776">online form</a></span></div> -->
-
-				<a href="#" class="button button__accent">Request a demo</a>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-	<div class="footer footer--dark">
-		<div class="container">
-			<div class="footer__inner">
-				<div class="footer__data">
-					<div class="footer__data__item">
-						<div class="footer__row">
-							<h2 class="cta__title">RazorOps</h2>
-							5th Floor, Catalyst Building, THub <br>
-							IIIT Hyderabad Campus,<br>
-							Gachibowli, Hyderabad, Telangana, 500032<br>
- 							contact@razorops.com<br>
- 							<!-- Shyam (+91 868 846 8400)<br> -->
-						</div>
-					</div>
-
-					<div class="footer__data__item">
-						<div class="footer__row"></div>
-					</div>
-
-					<div class="footer__data__item">
-						<div class="footer__row"></div>
-						<div class="footer__row"></div>
-						<div class="footer__row">
-							<a href="https://github.com/RazorOp" target="_blank" class="footer__link">GitHub</a>
-						</div>
-						<div class="footer__row">
-							<a href="https://twitter.com/razorops" target="_blank" class="footer__link">Twitter</a>
-						</div>
-					</div>
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/hosted.svg" class="step__image">
 				</div>
+				<h4>Hosted Helm and docker Registries</h4>
+				<p class="step__text">Use our built-in registry and Helm Repos, or connect your own.</p>
+			</div>
+
+
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/automatic-rollback.svg" class="step__image">
+				</div>
+				<h4>Automatic rollback</h4>
+				<p class="step__text">We analyze data from monitoring tools and uses automated testing tools to look for anomalies and failures to rollback broken within seconds.</p>
+			</div>
+
+
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/git-logo.svg" class="step__image">
+				</div>
+				<h4>Incorporate Gitops</h4>
+				<p class="step__text">Align your pipelines with the branch structure, making it easier to work with branching workflows like feature branching or git-flow.</p>
+			</div>
+
+
+			<div class="step">
+				<div class="step__media">
+					<img src="./images/code-configuration.svg" class="step__image">
+				</div>
+				<h4>Code as configuration</h4>
+				<p class="step__text">Store and manage your configurations in a single pipelines.yml file. Only few lines of code to get you started.</p>
 			</div>
 
 		</div>
 	</div>
+</div>
 
-	<script src='js/app.min.js'></script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121645139-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+<div class="expanded landing__section">
+	<div class="container">
+		<div class="expanded__inner">
+			<div class="expanded__media">
+				<img src="./images/undraw_frameworks.svg" class="expanded__image">
+			</div>
+			<div class="expanded__content">
+				<h2 class="expanded__title">Integrations</h2>
+				<p class="expanded__text">Connect right out of the box to Git or your choice of version control systems to build and deploy apps from your source code. Easily integrate with Jenkins or your continuous integration tools of choice, and get automatic deployment notifications via email, Slack or HipChat.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="expanded landing__section">
+	<div class="container">
+		<div class="expanded__inner">
+			<div class="expanded__media">
+				<img src="./images/together.svg" class="expanded__image">
+			</div>
+			<div class="expanded__content">
+				<h2 class="expanded__title">Ready for production or rapid prototyping</h2>
+				<p class="expanded__text">Tested on production at RazorOps with amazing speeds and unopinionated on how to structure your project. We really hope you'll find it awesome and useful!</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-	  gtag('config', 'UA-121645139-1');
-	</script>
 
-</body>
-</html>
+<script id="_agile_min_js" async type="text/javascript" src="https://razorops.agilecrm.com/stats/min/agile-min.js"> </script>
+<script type="text/javascript" >
+var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){
+_agile.set_account('4iduuh82l0hggiae1c1bj47ddd', 'razorops', false);
+_agile.track_page_view();
+_agile_execute_web_rules();};
+</script>
+
+<!-- Call To Action -->
+<div class="cta cta--reverse">
+	<div class="container">
+		<div class="cta__inner">
+			<h2 class="cta__title">Get started now</h2>
+			<p class="cta__sub cta__sub--center">Grab the production version and begin your project instantly.</p>
+
+			<!-- <div id="razorops_5078547773259776" class="agile_crm_form_embed"><span style="display:none">Fill out my <a href="https://razorops.agilecrm.com/forms/5078547773259776">online form</a></span></div> -->
+
+			<a href="#" class="button button__accent">Schedule Demo</a>
+		</div>
+	</div>
+</div>
+
