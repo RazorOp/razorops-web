@@ -29,3 +29,13 @@ end
 # gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem 'jekyll-seo-tag'
+gem 'rubocop', '~> 0.58.2', require: false
+
+group :development, :test do
+  gem "rspec"
+  gem "selenium-webdriver"
+  gem "chromedriver-helper"
+  gem "capybara"
+  gem "rack-jekyll"
+  gem "pry"
+end
