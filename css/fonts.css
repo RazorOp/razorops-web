@@ -1,30 +1,24 @@
 @font-face {
-	font-family: 'Ubuntu';
-	src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+	font-family: 'Maven Pro';
+	src: url('../fonts/maven-pro/MavenPro-Regular.ttf');
 	font-style: normal;
 	font-weight: 400;
 }
 @font-face {
-	font-family: 'Ubuntu';
-	src: url('../fonts/Ubuntu/Ubuntu-Italic.ttf');
-	font-style: italic;
-	font-weight: 400;
-}
-@font-face {
-	font-family: 'Ubuntu';
-	src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
-	font-style: normal;
-	font-weight: 300;
-}
-@font-face {
-	font-family: 'Ubuntu';
-	src: url('../fonts/Ubuntu/Ubuntu-Medium.ttf');
+	font-family: 'Maven Pro';
+	src: url('../fonts/maven-pro/MavenPro-Medium.ttf');
 	font-style: normal;
 	font-weight: 500;
 }
 @font-face {
-	font-family: 'Ubuntu';
-	src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf');
+	font-family: 'Maven Pro';
+	src: url('../fonts/maven-pro/MavenPro-Bold.ttf');
 	font-style: normal;
 	font-weight: 700;
+}
+@font-face {
+	font-family: 'Maven Pro';
+	src: url('../fonts/maven-pro/MavenPro-Black.ttf');
+	font-style: normal;
+	font-weight: 900;
 }

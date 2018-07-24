@@ -1,21 +1,32 @@
 ---
-layout: page
+layout: default
 title: Documentations
 description:
 keywords:
-canonical_url: 'http://razorops.com/docs.html'
+canonical_url: 'http://razorops.com/docs'
 ---
 
-<div class="app">
-  <div class="container">
-    <div class="app__inner">
-      {% include docs-menu.html %}
-      <div class="app__main">
+<div class="docs-wraper">
+  <div class="docs-container container">
+    <div class="row">
+      <div class="col-md-2 docs-sidebar">
+        {% include docs-menu.html %}
+      </div>
+      <div class="docs-content col-md-8">
         <div class="text-container">
           <h3 class="app__main__title">Getting Started</h3>
           <p>how to start with RazorOps</p>
         </div>
       </div>
+      <aside class="table-contents col-md-2">
+        <div class="table-contents-sticky">
+          <h4>Table of contents</h4>
+          <ul class="docs-nav">
+            <li><a href="#">Run your builds on bitrise.io</a></li>
+            <li><a href="#">Bitrise CLI - the open source, offline, automation runner</a></li>
+          </ul>
+        </div>
+      </aside>
     </div>
   </div>
 </div>
