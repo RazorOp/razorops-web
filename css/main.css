@@ -417,3 +417,39 @@ h3,h4,h6 {
 	margin: 10px 0;
 	font-size: 1.2em;
 }
+.demo-call-to-action {
+	padding: 60px 0;
+	text-align: center;
+	/* background: rgb(32,23,175);
+	background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%); */
+}
+.demo-call-to-action p {
+	font-size: 16px;
+}
+.demo-call-to-action h2 {
+	font-size: 3em;
+	color: #111;
+	margin-bottom: 40px;
+	font-weight: 400;
+}
+.demo-call-to-action h2 b {
+	font-weight: 700;
+}
+.demo-call-to-action .btn {
+	display: block;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 20px;
+	border: 0;
+	font-size: 1.2em;
+	background-color: #313ee7;
+	color: #fff;
+	font-weight: 500;
+	max-width: 260px;
+	margin: 0 auto;
+	border-radius: 50px;
+}
+.demo-call-to-action .btn:hover,
+.demo-call-to-action .btn:focus {
+	background-color: #313ee7;
+}
