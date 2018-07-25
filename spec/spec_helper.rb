@@ -3,45 +3,40 @@ require 'rspec'
 require 'capybara/rspec'
 require 'rack/jekyll'
 require 'rack/test'
+require "selenium/webdriver"
 require 'pry'
 
 RSpec.configure do |config|
-  config.include Capybara::DSL
-  # get config info
-  # $jekyll_config = YAML.load_file("_config.yml")
-  # $baseurl = $jekyll_config['baseurl'].to_s
+	config.include Capybara::DSL
 
-  config.expect_with :rspec do |expectations|
-    expectations.include_chain_clauses_in_custom_matcher_descriptions = true
-  end
+	config.expect_with :rspec do |expectations|
+		expectations.include_chain_clauses_in_custom_matcher_descriptions = true
+	end
 
-  config.mock_with :rspec do |mocks|
-    mocks.verify_partial_doubles = true
-  end
+	config.mock_with :rspec do |mocks|
+		mocks.verify_partial_doubles = true
+	end
 
-  # Configure Capybara to use Selenium.
-  Capybara.register_driver :selenium do |app|
-    # Configure selenium to use Chrome.
-    # Capybara.javascript_driver = :selenium_chrome
-    # Capybara.current_driver = :selenium_chrome
-    Capybara::Selenium::Driver.new(app, browser: :chrome)
-  end
+	# Configure Capybara to use Selenium.
+	Capybara.register_driver :selenium do |app|
+		Capybara::Selenium::Driver.new(app, browser: :chrome)
+	end
 
-  Capybara.register_driver :headless_chrome do |app|
-    capabilities = Capybara::Selenium::WebDriver::Remote::Capabilities.chrome(
-    chromeOptions: { args: %w(headless disable-gpu) }
-  )
+	Capybara.register_driver :chrome do |app|
+		Capybara::Selenium::Driver.new(app, browser: :chrome)
+	end
 
-  Capybara::Selenium::Driver.new app,
-    browser: :chrome,
-    desired_capabilities: capabilities
-  end
+	Capybara.register_driver :headless_chrome do |app|
+		capabilities = Selenium::WebDriver::Remote::Capabilities.chrome(
+		chromeOptions: { args: %w(headless disable-gpu) }
+	)
 
-  Capybara.javascript_driver = :headless_chrome
+	Capybara::Selenium::Driver.new app,
+		browser: :chrome,
+		desired_capabilities: capabilities
+	end
 
-  # Configure Capybara to load the website through rack-jekyll.
-  # (force_build: true) builds the site before the tests are run,
-  # so our tests are always running against the latest version
-  # of our jekyll site.
-  Capybara.app = Rack::Jekyll.new(force_build: true)
+	Capybara.javascript_driver = :headless_chrome
+	Capybara.app = Rack::Jekyll.new(force_build: true)
+
 end
