@@ -7,9 +7,9 @@ require 'pry'
 
 RSpec.configure do |config|
   config.include Capybara::DSL
-  #get config info
-  $jekyll_config = YAML.load_file("_config.yml")
-  $baseurl = $jekyll_config['baseurl'].to_s
+  # get config info
+  # $jekyll_config = YAML.load_file("_config.yml")
+  # $baseurl = $jekyll_config['baseurl'].to_s
 
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
@@ -22,7 +22,7 @@ RSpec.configure do |config|
   # Configure Capybara to use Selenium.
   Capybara.register_driver :selenium do |app|
     # Configure selenium to use Chrome.
-    Capybara::Selenium::Driver.new(app, :browser => :chrome)
+    Capybara::Selenium::Driver.new(app, browser: :chrome)
   end
 
   # Configure Capybara to load the website through rack-jekyll.
