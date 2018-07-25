@@ -1,29 +1,9 @@
-require 'spec_helper'
-
-describe "Homepage" do
-
-  before :each do
-    visit "/index.html"
-  end
-
-  it "has a title" do
-    expect(page).to have_css("h1", text: "GitHub Help")
-  end
-
-  it "has a bootcamp" do
-    expect(page).to have_css("#bootcamp li", count: 4)
-  end
-
-  it "has common issues" do
-    expect(page).to have_css("h3", text: "Common Issues")
-  end
-
-  it "has categories" do
-    expect(page).to have_css("#categories .category")
-  end
-
-  it "lets me click on a category title" do
-    click_link "Setup"
-    expect(page).to have_css("h6.breadcrumbs")
+describe "sample", type: :feature, js: true do
+  it "has the page title" do
+    visit '/'
+    # `binding.pry` is useful for crafting the right selector
+    # or checking the actual state of the page
+    # binding.pry # test will pause here
+    expect(find('.post-hero__title').text).to eq('Continuous delivery simplified on kubernetes')
   end
 end

@@ -6,6 +6,11 @@ require 'rack/test'
 require 'pry'
 
 RSpec.configure do |config|
+  config.include Capybara::DSL
+  #get config info
+  $jekyll_config = YAML.load_file("_config.yml")
+  $baseurl = $jekyll_config['baseurl'].to_s
+
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
