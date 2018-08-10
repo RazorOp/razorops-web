@@ -336,6 +336,8 @@ h3,h4,h6 {
 	width: 60px;
 	height: auto;
 }
+
+
 .header {
 	position: relative;
 	font-size: 36px;
@@ -365,6 +367,10 @@ h3,h4,h6 {
 .integration-msg {
 	padding-top: 150px;
 	padding-left: 50px;
+}
+
+.integration-msg p {
+	font-size: 15px;
 }
 /*-----docs----*/
 .content-wraper {
