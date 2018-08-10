@@ -486,3 +486,14 @@ h3,h4,h6 {
 .demo-call-to-action .btn:focus {
 	background-color: #313ee7;
 }
+
+
+.thankyou {
+	margin:100px;
+}
+
+.thankyou p{
+	font-size: 18px;
+	font-weight: 400;
+	padding: 50px;
+}
