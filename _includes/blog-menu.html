@@ -1,17 +1,8 @@
 <div class="app__menu">
-  <ul class="vMenu">
-    <li><a href="/docs.html" class="vMenu--active"><b>Getting Started</b></a></li>
-    <li><a href="#">Setup RazorOps Account</a></li>
-    <li><a href="#">Step by step tutorial</a></li>
-    <li><a href="#" class="vMenu--active"><b>Pipelines</b></a></li>
-    <li><a href="#">Introduction to Pipeline</a></li>
-    <li><a href="#">Pipeline configuration using the UI</a></li>
-    <li><a href="#">Pipeline triggers</a></li>
-    <li><a href="#" class="vMenu--active"><b>Deployment</b></a></li>
-    <li><a href="#">Kubernetes Deployment</a></li>
-    <li><a href="#">Deploy to GKE</a></li>
-    <li><a href="#">Deploy to EKS</a></li>
-    <li><a href="#">Deploy to Azure Kubernetes</a></li>
-    <li><a href="#">Deploy to DigitalOcean Kubernetes</a></li>
+  <ul class="blog-menu">
+    <li><a href="{{ site.baseurl }}/blog"><b>Blog</b></a></li>
+    {% for post in site.posts %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}"><b>{{ post.title }}</b></a></li>
+    {% endfor %}
   </ul>
 </div>
