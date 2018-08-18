@@ -4,40 +4,31 @@ title: Documentations
 description:
 keywords:
 permalink: /blog/
-canonical_url: 'http://razorops.com/blog.html'
+canonical_url: 'http://razorops.com/blog'
 ---
 
-<div class="app">
-  <div class="container">
-    <div class="app__inner">
-      <div class="app__main">
-        <div class="text-container">
-          <div class="col-md-3">
-            <br>
-            <br>
-            {% include blog-menu.html %}
-          </div>
-          <div class="col-md-9">
 
-          <div class="posts">
-            {% for post in site.posts %}
-              <article class="post">
+<div class="col-md-3">
+  <br>
+  <br>
+  {% include blog-menu.html %}
+</div>
 
-                <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<div class="col-md-9">
+  <div class="posts">
+  {% for post in site.posts %}
+  <article class="post">
 
-                <div class="entry">
-                  {{ post.excerpt }}
-                </div>
+  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-              </article>
-            {% endfor %}
-          </div>
+  <div class="entry">
+  {{ post.excerpt }}
+  </div>
 
-          </div>
-
-        </div>
-      </div>
-    </div>
+  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </article>
+  {% endfor %}
   </div>
 </div>
+
+

@@ -23,8 +23,18 @@
       {% include header.html %}
     </header>
     <div class="content-wraper">
-      <!-- Page content -->
-      {{ content }}
+      <div class="app">
+        <div class="container">
+          <div class="app__inner">
+            <div class="app__main">
+              <div class="text-container">
+                <!-- Page content -->
+                {{ content }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     {% include footer.html %}
   </body>
