@@ -503,3 +503,10 @@ p {font-size: 16px;}
 .blog-menu {
 
 }
+
+.razorops-demo {
+	background-image: url("../images/razorops-demo.svg");
+	background-repeat: no-repeat;
+	margin: 60px;
+	background-position: -5px 0px;
+}
