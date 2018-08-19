@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://razorops.com/</title>
+  <link>http://razorops.com/</link>
+
+<item>
+     <link>http://razorops.com/</link>
+     <title>Build, Test, Deploy Your Container native applications | RazorOps</title>
+     <description>Automate your code build to test to production across environments, apps in few steps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://razorops.com/kubernetes</link>
+     <title>Continuous delivery simplified on kubernetes | RazorOps</title>
+     <description>Automate your code to test to production across environments, apps in few steps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://razorops.com/index</link>
+     <title>Build, Test, Deploy Your Container native applications | RazorOps</title>
+     <description>Automate your code build to test to production across environments, apps in few steps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://razorops.com/schedule-demo</link>
+     <title>Schedule Demo | RazorOps</title>
+     <description>Schedule Demo</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://razorops.com/about/</link>
+     <title>About Razorops | RazorOps</title>
+     <description>RazorOps is a complete container native CI/CD solution.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://razorops.com/contact</link>
+     <title>Contact | RazorOps</title>
+     <description>Conatct RazorOps for any Support</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://razorops.com/careers</link>
+     <title>Careers | RazorOps</title>
+     <description>join razorops team</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://razorops.com/index.html</link>
+     <title>Build, Test, Deploy Your Container native applications | RazorOps</title>
+     <description>Automate your code build to test to production across environments, apps in few steps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
