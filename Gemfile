@@ -30,7 +30,6 @@ group :development, :test do
   gem 'pry'
   gem 'rack'
   gem 'rack-jekyll'
-  gem 'rake'
   gem 'rspec'
   gem 'selenium-webdriver'
 end
