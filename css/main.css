@@ -52,6 +52,9 @@ p {font-size: 16px;}
 	padding: 10px 0;
 	margin-bottom: 0;
 }
+.navbar {
+	z-index: 4;
+}
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
 	font-weight: 500;
@@ -60,6 +63,11 @@ p {font-size: 16px;}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: #fff;
+}
+.navbar .btn-success:hover,
+.navbar .btn-success:focus {
+  background-color: #229622 !important;
+  color: #fff !important;
 }
 .navbar-default .navbar-brand {
 	padding: 10px;
@@ -534,11 +542,66 @@ p {font-size: 16px;}
 .demo {
   padding: 30px 0
 }
-
+.pricing-tabs {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  border: 0;
+  align-items: stretch;
+}
+.pricing-tabs > li {
+  width: 50%;
+  border: 0;
+}
+.pricing-tabs > li > a {
+  border: 0;
+  background-color: #fff;
+  margin: 0 0 20px;
+  border-radius: 0;
+  color: #666;
+}
+.pricing-tabs > li:first-child > a {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.pricing-tabs > li:last-child > a {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.pricing-tabs > li > a:hover,
+.pricing-tabs > li > a:focus {
+  background-color: #fff;
+  color: #000;
+}
+.pricing-tabs > li.active > a:hover,
+.pricing-tabs > li.active > a:focus,
+.pricing-tabs > li.active > a {
+  border: 0;
+  background-color: #313ee7;
+  color: #fff;
+  font-weight: 600;
+}
 .pricingTable {
   text-align: center
 }
-
+.panel-faq > .panel-heading {
+  background-color: #fff;
+}
+.accordion-toggle {
+  position: relative;
+}
+.accordion-toggle:after {
+  font-family: "Glyphicons Halflings";
+  content: "\e114";
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #666;
+}
+.accordion-opened .accordion-toggle:after {
+  content: "\e113";
+}
 body {
   padding: 0;
   margin: 0
