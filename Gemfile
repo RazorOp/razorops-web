@@ -25,11 +25,11 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
-  gem 'capybara'
-  gem 'chromedriver-helper'
   gem 'pry'
   gem 'rack'
   gem 'rack-jekyll'
   gem 'rspec'
+  gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
 end
