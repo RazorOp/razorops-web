@@ -230,6 +230,27 @@ p {font-size: 16px;}
 	border-color: #fff;
 	color: #470FF4;
 }
+
+.razorops-client{
+  background-color: #efefef;
+  padding: 30px;
+}
+.razorops-clients{
+  color: #000;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.razopops-clients-img{
+    /*border: 1px solid #FFF;*/
+    padding: 5px;
+    width: 220px;
+    height: 88px;
+    margin-top: 20px;
+}
+
 @media (max-width: 767px) {
 	.banner-msg {
 		float: none;
