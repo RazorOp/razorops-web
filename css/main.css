@@ -244,10 +244,9 @@ p {font-size: 16px;}
 }
 
 .razopops-clients-img{
-    /*border: 1px solid #FFF;*/
     padding: 5px;
     width: 300px;
-    height: 150px;
+    height: auto;
     margin-top: 20px;
 }
 
