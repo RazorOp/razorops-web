@@ -165,7 +165,7 @@ p {font-size: 16px;}
 	border-radius: 2px;
 }
 .banner {
-	min-height: 700px;
+	min-height: 400px;
 	position: relative;
 	background: rgb(32,23,175);
 	background: linear-gradient(90deg, rgba(32,23,175,1) 0%, rgba(113,8,232,1) 67%, rgba(178,46,209,1) 100%);
@@ -229,6 +229,13 @@ p {font-size: 16px;}
 	background-color: #fff;
 	border-color: #fff;
 	color: #470FF4;
+}
+
+.banner-clients{
+  text-align: center;
+}
+.banner-clients img{
+  width: 220px;
 }
 
 .razorops-client{
@@ -548,12 +555,11 @@ p {font-size: 16px;}
 
 
 .razorops-demo {
-	background-image: url("../images/razorops-demo.svg");
-	background-repeat: no-repeat;
+	/*background-image: url("../images/razorops-demo.svg");*/
 	margin-top: 60px;
 	margin-bottom: 60px;
 	background-position: -5px 0px;
-	min-height: 500px;
+	min-height: 700px;
 }
 
 .razorops-contact{
@@ -817,20 +823,27 @@ h4 {
 }
 /* End carousel */
 
+
+
 .item blockquote {
-    border-left: none;
-    margin: 0;
+  background: #fff;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  min-height: 200px;
 }
-
-.item blockquote img {
-    margin-bottom: 10px;
+.item blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
-
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
+.item blockquote p {
+  display: inline;
+  font-size: 20px;
 }
 
 
