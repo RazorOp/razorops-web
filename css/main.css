@@ -6,7 +6,7 @@ body {
 /*---common----*/
 .section-header {
 	position: relative;
-	margin: 20px 0 30px;
+	margin: 30px 0 30px;
 }
 .section-header::before {
 	content: '';
@@ -26,7 +26,7 @@ h3,h4,h6 {
 	font-weight: 500;
 }
 
-p {font-size: 16px;}
+p {font-size: 1px;}
 
 .center {
     display: block;
@@ -67,6 +67,8 @@ p {font-size: 16px;}
 	color: #fff;
 	font-weight: 500;
 	padding-top: 10px !important;
+  font-size: 16px;
+  font-weight: 600px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -121,6 +123,7 @@ p {font-size: 16px;}
 	list-style: none;
 }
 .footer-nav > li {
+  font-size: 17px;
 	display: block;
 	margin-bottom: 4px;
 }
@@ -235,7 +238,8 @@ p {font-size: 16px;}
   text-align: center;
 }
 .banner-clients img{
-  width: 220px;
+  width: 150px;
+  margin-right: 25px;
 }
 
 .razorops-client{
@@ -370,7 +374,7 @@ p {font-size: 16px;}
 	color: #fff;
 }
 .feature-item p {
-	font-size: 15px;
+	font-size: 16px;
 	color: #fff;
 }
 .feature-item figure {
@@ -421,7 +425,7 @@ p {font-size: 16px;}
 }
 
 .integration-msg p {
-	font-size: 15px;
+	font-size: 17px;
 }
 /*-----docs----*/
 .content-wraper {
@@ -488,7 +492,7 @@ p {font-size: 16px;}
 	margin-top: -20px;
 	}
 .razorops-ci-cd p{
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .plan-and-pricing {
@@ -827,7 +831,8 @@ h4 {
 
 
 .item blockquote {
-  background: #fff;
+  /*background: #fff;*/
+  color: #FFF;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -845,6 +850,13 @@ h4 {
 .item blockquote p {
   display: inline;
   font-size: 20px;
+}
+
+.item blockquote small {
+    display: block;
+    font-size: 80%;
+    line-height: 2.6;
+    color: #FFF;
 }
 
 
@@ -888,3 +900,4 @@ h4 {
   margin-top: 50px;
   background-color: #6a13dd;
  }
+
