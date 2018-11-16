@@ -7,17 +7,17 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://razorops.com/" # the base hostname & protocol for your site
 twitter_username: razorops
-github_username:  razorop
+github_username: razorop
 
 # Build settings
 markdown: kramdown
-
+paginate: 1
+paginate_path: "/_posts/page:num/"
 
 plugins:
   - jekyll-seo-tag
   - jekyll-admin
-
-
+  - jekyll-paginate
 
 jekyll_admin:
   hidden_links:

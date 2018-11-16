@@ -1,34 +1,53 @@
 ---
-layout: default
+layout: blog
 title: Documentations
 description:
 keywords:
-permalink: /blog/
-canonical_url: 'http://razorops.com/blog'
+canonical_url: "http://razorops.com/blog"
 ---
 
+<div class="blog-wraper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="blog-posts">
+          {% for post in site.posts %}
+          <article class="blog-post">
+            <h1>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h1>
+            <time
+              >{{ post.date | date_to_string }} -
+              <small>{{ post.author }}</small></time
+            >
+            <div class="entry">{{ post.excerpt }}</div>
 
-<div class="col-md-3">
-  <br>
-  <br>
-  {% include blog-menu.html %}
-</div>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more"
+              >Read More</a
+            >
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4 class="latest-heading">Latest Posts</h4>
+        {% include blog-menu.html %}
+      </div>
+    </div>
 
-<div class="col-md-9">
-  <div class="posts">
-  {% for post in site.posts %}
-  <article class="post">
-
-  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-  <div class="entry">
-  {{ post.excerpt }}
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">
+        Previous
+      </a>
+      {% else %} <span class="previous">Previous</span> {% endif %}
+      <span class="page_number ">
+        Page: {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
+      <span class="next ">Next</span> {% endif %}
+    </div>
   </div>
-
-  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-  </article>
-  {% endfor %}
-  </div>
 </div>
-
-
