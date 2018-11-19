@@ -518,7 +518,9 @@ p {font-size: 15px;}
 	font-size: 16px;
 }
 
-
+.demo-text-color {
+  color: #000;
+}
 
 .demo-call-to-action h2 {
 	font-size: 3em;
