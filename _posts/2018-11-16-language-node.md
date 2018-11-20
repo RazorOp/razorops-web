@@ -18,7 +18,7 @@ This document describes how to configure Razorops using a sample application wri
 
 ## Overview
 
-This guide provides an introduction to angular development on Razorops. If you are looking for a .circleci/config.yml template for angular, see the Sample Configuration section of this document.
+This guide provides an introduction to angular development on Razorops. If you are looking for a .razorops.yaml template for angular, see the Sample Configuration section of this document.
 
 ## Configuration Walkthrough
 

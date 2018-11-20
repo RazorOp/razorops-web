@@ -19,7 +19,7 @@ This document describes how to configure Razorops using a sample application wri
 
 ## Overview
 
-This guide provides an introduction to ROR development on Razorops. If you are looking for a .circleci/config.yml template for rails app, see the Sample Configuration section of this document.
+This guide provides an introduction to ROR development on Razorops. If you are looking for a .razorops.yaml template for rails app, see the Sample Configuration section of this document.
 
 ## Configuration Walkthrough
 
@@ -55,12 +55,12 @@ unit-tests:
       - bundle exec rake db:migrate
       - bundle exec rspec
     environment:
-      DATABASE_URL: postgres://postgres:@db/circle_test
+      DATABASE_URL: postgres://postgres:@db/razorops_test
       RAILS_ENV: test
       DOCKERIZE_VERSION: v0.6.1
     services:
       db:
-        image: circleci/postgres:9.6
+        image: postgres
 ```
 
 This task specifies an image(`image: image: ruby:2.4.5-jessie`) and the commands to be run in our testing process.
@@ -72,7 +72,7 @@ This task
 
 ```YAML
 environment:
-      DATABASE_URL: postgres://postgres:@db/circle_test
+      DATABASE_URL: postgres://postgres:@db/razorops_test
       RAILS_ENV: test
       DOCKERIZE_VERSION: v0.6.1
 ```
@@ -82,7 +82,7 @@ environment:
 ```YAML
 services:
       db:
-        image: circleci/postgres:9.6
+        image: postgres
 ```
 
 - And finally runs the specified list of commands
@@ -123,12 +123,12 @@ tasks:
       - bundle exec rake db:migrate
       - bundle exec rspec
     environment:
-      DATABASE_URL: postgres://postgres:@db/circle_test
+      DATABASE_URL: postgres://postgres:@db/razorops_test
       RAILS_ENV: test
       DOCKERIZE_VERSION: v0.6.1
     services:
       db:
-        image: circleci/postgres:9.6
+        image: postgres
 
   deploy:
     image: ruby:2.4.5-jessie
