@@ -1,11 +1,11 @@
 ---
-title: language-java
-layout: post
+title: Setup Razorops CI CD For Java
+layout: doc
 date: '2018-11-16 18:10:52'
-permalink: "/:title/"
+permalink: "/docs/:title/"
+category: doc
+author: Ranbir
 ---
-
-# Configuring a Java App on RazorOps
 
 This document describes how to configure Razorops using a sample application written in Java.
 
