@@ -17,7 +17,7 @@ This document describes how to configure Razorops using a sample application wri
 
 ## Overview
 
-This guide provides an introduction to Java/springs development on Razorops. If you are looking for a .circleci/config.yml template for java, see the Sample Configuration section of this document.
+This guide provides an introduction to Java/springs development on Razorops. If you are looking for a .razorops.yaml template for java, see the Sample Configuration section of this document.
 
 ## Configuration Walkthrough
 
@@ -34,7 +34,7 @@ package:
       - mvn -q package
     services:
       postgres:
-        image: circleci/postgres:9.6-alpine
+        image: postgres
         environment:
           - POSTGRES_USER=root
           - POSTGRES_DB=ci
@@ -61,7 +61,7 @@ Also specify the services and environment variables required
 ```YAML
 services:
       postgres:
-        image: circleci/postgres:9.6-alpine
+        image: postgres
         environment:
           - POSTGRES_USER=root
           - POSTGRES_DB=ci
@@ -90,7 +90,7 @@ tasks:
       - mvn -q package
     services:
       postgres:
-        image: circleci/postgres:9.6-alpine
+        image: postgres
         environment:
           - POSTGRES_USER=root
           - POSTGRES_DB=ci
