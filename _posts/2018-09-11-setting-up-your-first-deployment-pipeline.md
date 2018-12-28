@@ -4,6 +4,7 @@ layout: post
 date: '2018-09-11 12:01:23 +0530'
 permalink: "/blog/:title/"
 author: Shyam Mohan
+category: blog
 ---
 
 ![](https://buddy.works/blog/thumbnails/project-api-cover.png)

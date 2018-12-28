@@ -3,7 +3,7 @@ title: Setup Razorops CI CD For Java
 layout: doc
 date: '2018-11-16 18:10:52'
 permalink: "/docs/:title/"
-category: doc
+category: docs
 author: Ranbir
 ---
 

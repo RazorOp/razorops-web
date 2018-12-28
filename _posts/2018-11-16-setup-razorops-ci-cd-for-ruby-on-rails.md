@@ -3,7 +3,7 @@ title: Setup Razorops Ci Cd For Ruby On Rails
 layout: doc
 date: '2018-11-16 12:02:52'
 permalink: "/docs/:title/"
-category: doc
+category: docs
 author: Ranbir
 ---
 
