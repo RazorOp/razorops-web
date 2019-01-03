@@ -11,7 +11,8 @@ canonical_url: "http://razorops.com/blog"
     <div class="row">
       <div class="col-md-9">
         <div class="blog-posts">
-          {% for post in site.posts %}
+          {% assign blogs = site.posts | where: "category","blog" %} 
+          {% for post in blogs %}
           <article class="blog-post">
             <h1>
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>

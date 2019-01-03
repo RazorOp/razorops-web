@@ -1,8 +1,8 @@
 ---
-title: RAZOROPS CI SPEC
-category: doc
-permalink: "/docs/:title/"
 layout: doc
+title: RAZOROPS CI SPEC
+permalink: "/docs/:title/"
+category: docs
 ---
 
 <iframe

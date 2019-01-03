@@ -244,7 +244,11 @@ p {font-size: 15px;}
 }
 .banner-clients img{
   width: 150px;
-  margin-right: 25px;
+  margin-right: 10px;
+}
+
+.banner-clients a {
+  text-decoration: none;
 }
 
 .razorops-client{

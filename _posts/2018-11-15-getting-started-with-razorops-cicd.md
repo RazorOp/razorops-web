@@ -4,6 +4,7 @@ permalink: "/docs/:title/"
 layout: post
 date: '2018-11-16 14:15:43'
 author: Dinesh Yadav
+category: docs
 ---
 
 ![](https://semaphoreci.com/blog/assets/images/2018-11-15/dribbble-developer-interview-jeffrey-chupp-d36aab8e.png)

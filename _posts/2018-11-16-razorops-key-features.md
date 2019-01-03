@@ -1,6 +1,6 @@
 ---
 title: RAZOROPS - KEY FEATURES
-category: doc
+category: docs
 layout: doc
 permalink: "/docs/:title/"
 ---

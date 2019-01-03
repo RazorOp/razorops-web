@@ -1,11 +1,11 @@
 ---
-title: Language-ROR
-layout: post
+title: Setup Razorops Ci Cd For Ruby On Rails
+layout: doc
 date: '2018-11-16 12:02:52'
-permalink: "/:title/"
+permalink: "/docs/:title/"
+category: docs
+author: Ranbir
 ---
-
-# Configuring an ROR App on RazorOps
 
 This document describes how to configure Razorops using a sample application written in `Ruby On Rails`.
 

@@ -1,8 +1,10 @@
 ---
-title: Language-Node
-layout: post
+title: Setup Razorops CI CD For Node
+layout: doc
 date: '2018-11-16 12:02:52'
-permalink: "/:title/"
+permalink: "/docs/:title/"
+category: doc
+author: Ranbir
 ---
 
 # Configuring an Angular App on RazorOps
