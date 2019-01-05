@@ -505,11 +505,13 @@ p {font-size: 15px;}
 }
 
 .plan-and-pricing {
-	padding: 60px 0;
-	color: #FFF;
+	border: 1px solid #EEE;
+	padding: 20px;
+	margin-bottom: 30px;
+	color: #000;
 	text-align: center;
-	 background: rgb(32,23,175);
-	background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%);
+	 background: #FFF;
+	/*background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%);*/
 }
 
 .demo-call-to-action {
