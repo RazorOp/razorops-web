@@ -4,9 +4,14 @@ body {
 /*// $primary-color: #5449D2;*/
 /*// $secondary-color: #FE825A;*/
 /*---common----*/
+@media (min-width: 1400px) {
+	.container {
+		width: 1360px;
+	}
+}
 .section-header {
 	position: relative;
-	margin: 20px 0 30px;
+	margin: 30px 0 30px;
 }
 .section-header::before {
 	content: '';
@@ -26,7 +31,7 @@ h3,h4,h6 {
 	font-weight: 500;
 }
 
-p {font-size: 16px;}
+p {font-size: 15px;}
 
 .center {
     display: block;
@@ -67,6 +72,8 @@ p {font-size: 16px;}
 	color: #fff;
 	font-weight: 500;
 	padding-top: 10px !important;
+  font-size: 16px;
+  font-weight: 600px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -121,6 +128,7 @@ p {font-size: 16px;}
 	list-style: none;
 }
 .footer-nav > li {
+  font-size: 17px;
 	display: block;
 	margin-bottom: 4px;
 }
@@ -165,7 +173,7 @@ p {font-size: 16px;}
 	border-radius: 2px;
 }
 .banner {
-	min-height: 700px;
+	min-height: 400px;
 	position: relative;
 	background: rgb(32,23,175);
 	background: linear-gradient(90deg, rgba(32,23,175,1) 0%, rgba(113,8,232,1) 67%, rgba(178,46,209,1) 100%);
@@ -230,6 +238,38 @@ p {font-size: 16px;}
 	border-color: #fff;
 	color: #470FF4;
 }
+
+.banner-clients{
+  text-align: center;
+}
+.banner-clients img{
+  width: 150px;
+  margin-right: 10px;
+}
+
+.banner-clients a {
+  text-decoration: none;
+}
+
+.razorops-client{
+  background-color: #efefef;
+  padding: 30px;
+}
+.razorops-clients{
+  color: #000;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.razopops-clients-img{
+    padding: 5px;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
 @media (max-width: 767px) {
 	.banner-msg {
 		float: none;
@@ -343,7 +383,7 @@ p {font-size: 16px;}
 	color: #fff;
 }
 .feature-item p {
-	font-size: 15px;
+	font-size: 16px;
 	color: #fff;
 }
 .feature-item figure {
@@ -394,7 +434,7 @@ p {font-size: 16px;}
 }
 
 .integration-msg p {
-	font-size: 15px;
+	font-size: 17px;
 }
 /*-----docs----*/
 .content-wraper {
@@ -450,8 +490,9 @@ p {font-size: 16px;}
 
 
 .razorops-ci-cd{
-		padding: 60px 0;
+	padding: 60px 0;
 	text-align: center;
+
 	 /*background: rgb(32,23,175);*/
 	/*background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%);*/
 }
@@ -460,15 +501,17 @@ p {font-size: 16px;}
 	margin-top: -20px;
 	}
 .razorops-ci-cd p{
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .plan-and-pricing {
-	padding: 60px 0;
-	color: #FFF;
+	border: 1px solid #EEE;
+	padding: 20px;
+	margin-bottom: 30px;
+	color: #000;
 	text-align: center;
-	 background: rgb(32,23,175);
-	background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%);
+	 background: #FFF;
+	/*background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%);*/
 }
 
 .demo-call-to-action {
@@ -481,7 +524,9 @@ p {font-size: 16px;}
 	font-size: 16px;
 }
 
-
+.demo-text-color {
+  color: #000;
+}
 
 .demo-call-to-action h2 {
 	font-size: 3em;
@@ -528,12 +573,11 @@ p {font-size: 16px;}
 
 
 .razorops-demo {
-	background-image: url("../images/razorops-demo.svg");
-	background-repeat: no-repeat;
+	/*background-image: url("../images/razorops-demo.svg");*/
 	margin-top: 60px;
 	margin-bottom: 60px;
 	background-position: -5px 0px;
-	min-height: 500px;
+	min-height: 700px;
 }
 
 .razorops-contact{
@@ -797,20 +841,35 @@ h4 {
 }
 /* End carousel */
 
+
+
 .item blockquote {
-    border-left: none;
-    margin: 0;
+  /*background: #fff;*/
+  color: #FFF;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  min-height: 200px;
+}
+.item blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.item blockquote p {
+  display: inline;
+  font-size: 20px;
 }
 
-.item blockquote img {
-    margin-bottom: 10px;
-}
-
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
+.item blockquote small {
+    display: block;
+    font-size: 80%;
+    line-height: 2.6;
+    color: #FFF;
 }
 
 
@@ -852,5 +911,6 @@ h4 {
 
 .testimonial {
   margin-top: 50px;
-  margin-bottom: 50px;
+  background-color: #6a13dd;
  }
+

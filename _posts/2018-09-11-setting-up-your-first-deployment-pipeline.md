@@ -2,11 +2,12 @@
 title: Setting up your first deployment pipeline
 layout: post
 date: '2018-09-11 12:01:23 +0530'
-permalink: "/:title/"
+permalink: "/blog/:title/"
+author: Shyam Mohan
+category: blog
 ---
 
-# Setting up your first deployment pipeline
-
+![](https://buddy.works/blog/thumbnails/project-api-cover.png)
 There are three steps you need to follow to set up a basic deployment pipeline.
 
 **1. Set up a build server**

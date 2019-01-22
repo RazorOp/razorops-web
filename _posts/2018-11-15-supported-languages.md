@@ -3,6 +3,7 @@ title: Supported Languages
 layout: post
 date: '2018-11-15 17:19:08'
 permalink: "/:title/"
+category: docs
 ---
 
 # Supported Languages/Frameworks

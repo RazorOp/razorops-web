@@ -2,7 +2,7 @@
 title: About Razorops
 layout: default
 description: RazorOps is a complete container native CI/CD solution.
-keywords: container native, docker, kubernetes,
+keywords: ContainerNative, Docker, kubernetes,
 permalink: "/about/"
 canonical_url: http://razorops.com/about/
 ---

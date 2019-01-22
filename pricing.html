@@ -9,39 +9,24 @@ canonical_url: 'http://razorops.com/pricing'
 	<div class="container">
 
 		<div class="pricing-header">
-			<h2 style="text-align:center;"><b>Pricing</b></h2>
-			<p>Start with Free Plan, Scale when you needs, No credit card required.</p>
+			<h1 style="text-align:center;"><b>Pricing - Pay as you grow</b></h1>
+			<p>Start with Free Plan, Scale when you feel, No credit card required.</p>
 		</div>
-
-		<div style="text-align: center;">
-
-			<ul class="nav nav-tabs pricing-tabs">
-				<li class="active"><a data-toggle="tab" href="#annually">ANNUALLY</a></li>
-				<li><a data-toggle="tab" href="#monthly">MONTHLY</a></li>
-			</ul>
+		<br><br>
+		<div class="plan-and-pricing">
+			<p>As Razorops user, you get</p>
+		  <h2>First 5000 build min. Free</h2>
+		  <p>(Standard machine type with 1 vCPU and 3.75 GB of memory)</p>
 		</div>
-
-		<br>
-		<br>
 
 		<div class="tab-content">
 			<div id="annually" class="tab-pane fade in active">
 				{% include annual-pricing.html %}
 			</div>
-
-			<div id="monthly" class="tab-pane fade">
-				{% include monthly-pricing.html %}
-			</div>
 		</div>
 
 		<br>
 		<br>
-
-
-		<div class="plan-and-pricing">
-		  <h2>Always Free for Open Source</h2>
-
-		</div>
 
 		<br>
 		<br>
@@ -99,6 +84,22 @@ canonical_url: 'http://razorops.com/pricing'
 					<h4 class="panel-title">
 						<a href="javascript:void(0)" class="ing" data-toggle="collapse"
 						 data-target="#question3">Q:
+							How does per-minute pricing work?</a>
+					</h4>
+				</div>
+				<div id="question3" class="panel-collapse collapse" style="height: 0px;">
+					<div class="panel-body">
+						<h5><span class="label label-primary">Answer</span></h5>
+						<p>You are charged based on the time it takes your code to execute. You can find time next to your build process.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default panel-faq">
+				<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
+					<h4 class="panel-title">
+						<a href="javascript:void(0)" class="ing" data-toggle="collapse"
+						 data-target="#question3">Q:
 							How do you handle upgrading or canceling a subscription?</a>
 					</h4>
 				</div>
@@ -109,6 +110,8 @@ canonical_url: 'http://razorops.com/pricing'
 					</div>
 				</div>
 			</div>
+
+			
 
 			<div class="panel panel-default panel-faq">
 				<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
@@ -128,26 +131,32 @@ canonical_url: 'http://razorops.com/pricing'
 			</div>
 
 			<div class="panel panel-default panel-faq">
-				<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+				<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question5">
 					<h4 class="panel-title">
 						<a href="javascript:void(0)" class="ing" data-toggle="collapse"
-						 data-target="#question1">Q: I have more question ?</a>
+						 data-target="#question5">Q: I have more question ?</a>
 					</h4>
 
 				</div>
-				<div id="question1" class="panel-collapse collapse" style="height: 0px;">
+				<div id="question5" class="panel-collapse collapse" style="height: 0px;">
 					<div class="panel-body">
 						<h5><span class="label label-primary">Answer</span></h5>
 						<p>Just send us an email at contact@razorops.com, we'll be more than happy to help.</p>
 					</div>
 				</div>
 			</div>
+			<br>
+			<br>
 
+			{% include testimonial.html %}
 			<div class="demo-call-to-action">
-				<p>PRETTY CONVINCING, RIGHT?</p>
-				<h2>Request a <b>free demo</b></h2>
-				<a href="/schedule-demo" class="btn btn-demo-request">Schedule Demo</a>
+			  <p>PRETTY CONVINCING, RIGHT?</p>
+			  <h2>Request a <b>free demo</b></h2>
+			  <a href="/schedule-demo" class="btn btn-demo-request">Schedule Demo</a>
 			</div>
+
+
+
 
 		</div>
 		<!--/panel-group-->

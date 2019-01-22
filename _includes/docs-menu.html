@@ -1,4 +1,4 @@
-<div class="docs-sidebar-sticky">
+<!-- <div class="docs-sidebar-sticky">
   <ul class="docs-nav">
     <li><h4>Getting Started</h4></li>
     <li><a href="#">Setup RazorOps Account</a></li>
@@ -13,5 +13,18 @@
     <li><a href="#">Deploy to EKS</a></li>
     <li><a href="#">Deploy to Azure Kubernetes</a></li>
     <li><a href="#">Deploy to DigitalOcean Kubernetes</a></li>
+  </ul>
+</div> -->
+
+<div class="app__menu">
+  <ul class="blog-menu">
+    {% assign docs = site.posts | where: "category","docs" %} 
+      {% for doc in docs %}
+        <li>
+          <a href="{{ site.baseurl }}{{ doc.url }}"
+            ><b>{{ doc.title }}</b></a
+          >
+        </li>
+      {% endfor %}
   </ul>
 </div>
