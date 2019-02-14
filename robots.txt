@@ -1,6 +1,2 @@
 User-agent: *
-Disallow: /docs
-Disallow:  /terms-of-services
-Disallow: /privacy
-Disallow: /blog
 Sitemap: http://razorops.com/sitemap.xml

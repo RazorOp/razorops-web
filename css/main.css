@@ -32,6 +32,8 @@ h3,h4,h6 {
 }
 
 p {font-size: 15px;}
+ul li {font-size: 18px;}
+
 
 .center {
     display: block;
@@ -914,3 +916,19 @@ h4 {
   background-color: #6a13dd;
  }
 
+ .lower-footer{
+ 	color: #FFF;
+ 	margin-left: 20px; 
+ }
+
+.lower-footer a {
+	color: #FFF;
+}
+
+/* Static Pages css */
+
+.page-body{
+	max-width: 915px;
+  margin: 0 auto 15px;
+  text-align: justify;
+}

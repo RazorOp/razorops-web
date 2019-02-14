@@ -19,17 +19,19 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body class="layout-blog">
     <!-- navbar -->
     <header class="default-header">{% include header.html %}</header>
     <div class="content-wraper">
-      <div class="app">
+      <div class="blog-wraper">
         <div class="container">
-          <div class="app__inner">
-            <div class="app__main">
-              <div class="text-container">
-                <!-- Page content -->
-                {{ content }}
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="blog-post-content">
+                <div class="page-body">
+                  <h1>{{ page.title }}</h1>
+                  {{ content }}
+                </div>
               </div>
             </div>
           </div>
