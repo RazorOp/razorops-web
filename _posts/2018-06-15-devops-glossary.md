@@ -114,11 +114,11 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [CruiseControl](cruisecontrol.sourceforge.net/) - A CI server written in #Ruby with a focus on simplicity & being easy to hack.
  
- - [Capistrano](capistranorb.com/) - A remote server automation and deployment tool written in Ruby.
+ - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool written in Ruby.
  
  - [Credmgr](https://github.com/treyka/credmgr) - Securely manage privileged account credentials via Shamir secret sharing. Its like one passwd for DevOps.
  
- - [ConDep](www.condep.io/) - An opensource infrastructure configuration & deployment DSL specifically targeted (not limited) to Windows platform.
+ - [ConDep](https://www.condep.io/) - An opensource infrastructure configuration & deployment DSL specifically targeted (not limited) to Windows platform.
  
  - [CMB(Cloud Message Bus)](https://github.com/Comcast/cmb) - A highly available, horizontally scalable queuing & notification service compatible to AWS SQS, SNS.
 
@@ -157,28 +157,28 @@ DevOps covers a wide range of functions. From configuration management to infras
 
  - [Fig](https://github.com/mfoemmel/fig) - A package management tool, similar to APT, language agnostic, faster and works well with both executable and libraries.
  
- - [Foreman](theforeman.org/) - A complete lifecycle management tool for physical and virtual servers.
+ - [Foreman](https://theforeman.org/) - A complete lifecycle management tool for physical and virtual servers.
  
  - [Fpm](https://github.com/jordansissel/fpm) - Effing package management! Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity.
  
  - [Flynn](https://flynn.io/) - An open source PaaS platform built on Docker awesomely manages deploying, scaling your applications.
  
- - [Fabric](www.fabfile.org/) - A command-line tool for streamlining use of SSH for application deployment or systems administration tasks.
+ - [Fabric](https://www.fabfile.org/) - A command-line tool for streamlining use of SSH for application deployment or systems administration tasks.
  
- - [FAI Fully Automatic Installer](fai-project.org/) - Tool for mass unattained deployments of Linux.
+ - [FAI Fully Automatic Installer](https://fai-project.org/) - Tool for mass unattained deployments of Linux.
  
  - [Flannel](https://coreos.com/flannel) - etcd backed network fabric for containers
 
 # G
  - [Git](https://git-scm.com/) - An awesome tool to version your source code and collaborate.
  
- - [Graphite](graphite.wikidot.com/) - A visualization tool for statistics. One can create customizable reports and dashboards.
+ - [Graphite](https://graphite.wikidot.com/) - A visualization tool for statistics. One can create customizable reports and dashboards.
  
- - [Ganglia](ganglia.info/) - A salable distributed monitoring system for high-performance computing systems such as clusters & grids.
+ - [Ganglia](https://ganglia.info/) - A salable distributed monitoring system for high-performance computing systems such as clusters & grids.
  
- - [Gradle](gradle.org/) -  A project automation tool that builds upon the concepts of #Apache Ant and Apache Maven.
+ - [Gradle](https://gradle.org/) -  A project automation tool that builds upon the concepts of #Apache Ant and Apache Maven.
  
- - [Grafana](grafana.org/) - An open source feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.
+ - [Grafana](https://grafana.org/) - An open source feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.
  
  - [GoCD](https://www.go.cd/) - release management tool,build from ground up with pipelines in mind & makes easy to model complex deployment work-flow.
 
@@ -229,11 +229,11 @@ DevOps covers a wide range of functions. From configuration management to infras
 
  - Model-Based Testing - A software testing technique in which the test cases are derived from a model that describes the functional aspects of the System Under Test (SUT). Visual models can be used to represent the desired behavior of a SUT, or to represent testing strategies and a test environment. From that model manual tests, test data, and automated tests can be generated automatically.
 
- - [Memcached](memcached.org/) - An open-source high performance, distributed memory object caching system.
+ - [Memcached](https://memcached.org/) - An open-source high performance, distributed memory object caching system.
  
  - [Mcollective](https://puppetlabs.com/mcollective) - A framework for building server orchestration or parallel job execution systems.
  
- - [Mina](nadarei.co/mina/) - Deployment tool, lets you build and run scripts to manage your app deployments on servers via SSH.
+ - [Mina](https://nadarei.co/mina/) - Deployment tool, lets you build and run scripts to manage your app deployments on servers via SSH.
 
 # N
  - [Nomad](https://www.nomadproject.io/) - A Hashicorp product; is a cluster manager & scheduler designed for microservices and batch workloads.
@@ -270,7 +270,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Poni](http://melor.github.io/poni/) - Systems management tool for defining, deploying and verifying complex multi-node computer systems.
  
- - [Pulp](www.pulpproject.org/) - A platform for managing repositories of content, such as software packages.
+ - [Pulp](https://www.pulpproject.org/) - A platform for managing repositories of content, such as software packages.
  
  - [Prometheus](http://prometheus.io/) - open-source service monitoring system and time series database.
 
@@ -281,7 +281,7 @@ DevOps covers a wide range of functions. From configuration management to infras
 
  - [RabbitMQ](https://www.rabbitmq.com/) - RabbitMQ is a queuing tool for DevOps engineers. Supports a large no. of development platforms.
  
- - [Rundeck](rundeck.org/) - A cross-platform opensource software, helps automate ad-hoc & routine procedures in data-center or cloud environment.
+ - [Rundeck](https://rundeck.org/) - A cross-platform opensource software, helps automate ad-hoc & routine procedures in data-center or cloud environment.
  
  - [rkt](https://github.com/coreos/rkt) - CLI for running app containers on Linux. rkt is designed to be composable, secure, and fas.
 
@@ -315,11 +315,11 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [StackStorm](https://stackstorm.com/) - Event-driven automation used for auto-healing, security responses, troubleshooting, complex deployments.
  
- - [Sequencer](pv-bull.github.io/sequencer/) - Open-Source Software that can ping, power off and power on your whole cluster.
+ - [Sequencer](https://pv-bull.github.io/sequencer/) - Open-Source Software that can ping, power off and power on your whole cluster.
  
  - [Sunzi](https://github.com/kenn/sunzi) - Shell-based provisioning tool which does not try to do anything else. Has no dependency other than shell.
  
- - [Sysdig](www.sysdig.org/) - An open source, system level exploration: capture system state & activity in linux instance save, filter & analyze.
+ - [Sysdig](https://www.sysdig.org/) - An open source, system level exploration: capture system state & activity in linux instance save, filter & analyze.
  
  - [Semaphore](https://semaphoreci.com/) - A hosted continuous integration and deployment service for open source and private projects.
 
@@ -334,7 +334,7 @@ DevOps covers a wide range of functions. From configuration management to infras
 
  - [Terraform](https://www.terraform.io/) - A tool used in building, changing, and versioning the infrastructure across platforms.
  
- - [Test Kitchen](kitchen.ci/ ) - A test harness tool to execute your configured code on one or more platforms in isolation.
+ - [Test Kitchen](https://kitchen.ci/ ) - A test harness tool to execute your configured code on one or more platforms in isolation.
  
  - [Tsuru](https://tsuru.io/) - An extensible and open source Platform as a Service; that uses Docker to make deploys simple & fast.
  
@@ -369,6 +369,6 @@ DevOps covers a wide range of functions. From configuration management to infras
 # Y
 
 # Z
- - [Zabbix](www.zabbix.com/) - An opensource, enterprise-class network monitoring framework.
+ - [Zabbix](https://www.zabbix.com/) - An opensource, enterprise-class network monitoring framework.
  
  - Zookeeper - A centralized service for maintaining configuration information, naming, providing group services etc.
