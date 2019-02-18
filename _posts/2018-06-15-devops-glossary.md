@@ -1,8 +1,8 @@
 ---
 title: DevOps Glossary
-permalink: "/docs/:title/"
+permalink: "/blog/:title/"
 layout: post
-date: '2018-03-01 14:15:43'
+date: '2018-06-15 14:15:43'
 author: Shyam Mohan
 category: 
 ---
