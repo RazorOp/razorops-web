@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Documentations
+title: Razorops Blog
 description:
-keywords:
+keywords: 
 canonical_url: "http://razorops.com/blog"
 ---
 
@@ -11,7 +11,7 @@ canonical_url: "http://razorops.com/blog"
     <div class="row">
       <div class="col-md-9">
         <div class="blog-posts">
-          {% assign blogs = site.posts | where: "category","blog" %} 
+          {% assign blogs = site.posts %} 
           {% for post in blogs %}
           <article class="blog-post">
             <h1>

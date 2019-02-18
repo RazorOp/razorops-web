@@ -1,6 +1,6 @@
 <div class="app__menu">
   <ul class="blog-menu">
-  	{% assign blogs = site.posts | where: "category","blog" %} 
+  	{% assign blogs = site.posts %} 
     {% for post in  blogs limit:10 %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}"

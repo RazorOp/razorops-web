@@ -4,7 +4,7 @@ permalink: "/docs/:title/"
 layout: post
 date: '2018-03-01 14:15:43'
 author: Shyam Mohan
-category: docs
+category: 
 ---
 
 ## Choose your alphabet:
