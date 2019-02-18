@@ -26,7 +26,7 @@
       <div class="blog-wraper">
         <div class="container">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-10 col-md-offset-1">
               <div class="blog-post-content">
                 <div class="blog-post-body">
                   <h1>{{ page.title }}</h1>
@@ -37,11 +37,18 @@
                   {{ content }}
                 </div>
               </div>
+              <br><br>
+              <div class="blog-post-content">
+                <center><p><b>Enjoy this article? Don't forget to share.</b><p></center>
+                <br>
+              <div class="sharethis-inline-share-buttons"></div>
             </div>
-            <div class="col-md-3">
+
+            </div>
+<!--             <div class="col-md-3">
               <h4 class="latest-heading">Latest Posts</h4>
               {% include blog-menu.html %}
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

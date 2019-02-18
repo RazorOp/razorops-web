@@ -4,12 +4,13 @@ permalink: "/blog/:title/"
 layout: post
 date: '2018-06-15 14:15:43'
 author: Shyam Mohan
-category: 
+category: null
 ---
 
-## Choose your alphabet:
+DevOps covers a wide range of functions. From configuration management to infrastructure to documentation to quality assurance, DevOps spans the entire software development lifecycle.
 
 [ A ](#a)    | [ B ](#b) | [ C ](#c) | [ D ](#d) | [ E ](#e) | [ F ](#f) | [ G ](#g) | [ H ](#h) | [ I ](#i) | [ J ](#j) | [ K ](#k) | [ L ](#l) | [ M ](#m) | [ N ](#n) | [ O ](#o) | [ P ](#p) | [ Q ](#q) | [ R ](#r) | [ S ](#s) | [ T ](#t) | [ U ](#u) | [ V ](#v) | [ W ](#w) | [ X ](#x) | [ Y ](#y) | [ Z ](#z) |
+
 
 # A
  - Agile Organization — A flexible company capable of rapid response and adaptability to both expected and unexpected opportunities and threats.
