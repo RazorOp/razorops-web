@@ -27,4 +27,4 @@ Want to be part of an ambitious team building the next big thing in CI/CD Domain
 
 
 
-We are always looking for amazing people to join our team. Feel free to send your profile at [shyam@codecrux.com](mailto:shyam@codecrux.com)  and we will get back to you as soon as possible!
+We are always looking for amazing people to join our team. Feel free to send your profile at [shyam@razorops.com](mailto:shyam@razorops.com)  and we will get back to you as soon as possible!

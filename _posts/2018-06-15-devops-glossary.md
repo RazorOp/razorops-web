@@ -1,5 +1,7 @@
 ---
 title: DevOps Glossary
+descriotion: A precursor to Devops; Agile is a software development and, more broadly, business methodology that emphasizes short, iterative planning and development
+keywords: Agile Organization, Automation,cloud computing platform,Behavior Driven Development,Configuration Management,Grafana,Continuous Delivery,Openstack,Unit Testing
 permalink: "/blog/:title/"
 layout: post
 date: '2018-06-15 14:15:43'
@@ -52,7 +54,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - Btrfs - A copy-on-write (COW) file system that uses B-trees to organize information on-disk.
 
- - Behavior-Driven Development (BDD) - An evolution of test-driven development that focuses on collaboration between development and business stakeholders to define user stories that determine the development of the application using a human-readable DSL. 
+ - Behavior Driven Development (BDD) - An evolution of test-driven development that focuses on collaboration between development and business stakeholders to define user stories that determine the development of the application using a human-readable DSL. 
 
  - Branching - The duplication of an object under review in source control so that the same code can be modified by more than one developer in parallel.
  

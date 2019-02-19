@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Pricing and Detailed Information
-description: "Get the best cloud value with Razorops and obtain Free 100 Builds/month with Unlimited Projects"
-keywords: "pricing, Free Builds, Concurrent Builds, Unlimited Projects,CI/CD"
+description: "First 5000 build min. Free, Start with Free Plan, Scale when you feel, No credit card required."
+keywords: free cicd softwares, pricing, free plans, razorops, free cicd, Frequently Asked Questions
 canonical_url: 'http://razorops.com/pricing'
 ---
 <div class="pricing-wraper">
@@ -12,24 +12,15 @@ canonical_url: 'http://razorops.com/pricing'
 			<h1 style="text-align:center;"><b>Pricing - Pay as you grow</b></h1>
 			<p>Start with Free Plan, Scale when you feel, No credit card required.</p>
 		</div>
-		<br><br>
-		<div class="plan-and-pricing">
-			<p>As Razorops user, you get</p>
-		  <h2>First 5000 build min. Free</h2>
-		  <p>(Standard machine type with 1 vCPU and 3.75 GB of memory)</p>
-		</div>
+		<br>
+		{% include free_plan.html %}
 
 		<div class="tab-content">
 			<div id="annually" class="tab-pane fade in active">
 				{% include annual-pricing.html %}
 			</div>
 		</div>
-
-		<br>
-		<br>
-
-		<br>
-		<br>
+		<br><br><br>
 
 		<div class="pricing-header">
 			<div class="pricing-header">
@@ -38,28 +29,6 @@ canonical_url: 'http://razorops.com/pricing'
 		</div>
 
 		<div class="panel-group" id="faqAccordion">
-
-			<!-- <div class="panel panel-default panel-faq">
-				<div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
-					<h4 class="panel-title">
-						<a href="javascript:void(0)" class="ing" data-toggle="collapse" data-target="#question0">
-							Q:What is a concurrent build?
-						</a>
-					</h4>
-
-				</div>
-				<div id="question0" class="panel-collapse collapse" style="height: 0px;">
-					<div class="panel-body">
-						<h5><span class="label label-primary">Answer</span></h5>
-
-						<p>
-							Concurrent builds states number of jobs that can run at the same time, <br> Concurrent builds allow you to run multiple jobs at same. Every commit triggers a one job by default. If two commits have been pushed on the Free plan, they'll be run right away and subsequent commits have to wait until the builds finished.
-						</p>
-					</div>
-				</div>
-			</div> -->
-
-
 
 			<div class="panel panel-default panel-faq">
 				<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
@@ -149,13 +118,14 @@ canonical_url: 'http://razorops.com/pricing'
 			<br>
 
 			{% include testimonial.html %}
+
+			<br><br>
+
 			<div class="demo-call-to-action">
 			  <p>PRETTY CONVINCING, RIGHT?</p>
 			  <h2>Request a <b>free demo</b></h2>
 			  <a href="https://calendly.com/razorops/demo" target="_blank" class="btn btn-demo-request">Schedule Demo</a>
 			</div>
-
-
 
 
 		</div>

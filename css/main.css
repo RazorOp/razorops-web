@@ -49,6 +49,15 @@ ul li {font-size: 18px;}
 	text-align: center;
 	margin: 0;
 }
+
+.carousel p{
+	color: #000;
+}
+
+.row small {
+	color: #000;
+}
+
 .form-control {
 	border-radius: 2px;
 }
@@ -300,6 +309,7 @@ ul li {font-size: 18px;}
 .how-it-works {
 	background-color: #f2fcfb;
 	padding: 50px 0;
+	margin-bottom: -50px;
 }
 .steps-wraper {
 	position: relative;
@@ -516,11 +526,17 @@ ul li {font-size: 18px;}
 	/*background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%);*/
 }
 
+.plan-and-pricing p {
+	font-size: 17px;
+}
+
 .demo-call-to-action {
 	padding: 60px 0;
 	text-align: center;
-	/* background: rgb(32,23,175);
-	background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%); */
+	/*background: #2017af;*/
+	color: #FFF;
+	 background: rgb(32,23,175);
+	background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%); 
 }
 .demo-call-to-action p {
 	font-size: 16px;
@@ -532,13 +548,15 @@ ul li {font-size: 18px;}
 
 .demo-call-to-action h2 {
 	font-size: 3em;
-	color: #111;
+	color: #FFF;
 	margin-bottom: 40px;
 	font-weight: 400;
 }
+
 .demo-call-to-action h2 b {
 	font-weight: 700;
 }
+
 .demo-call-to-action .btn {
 	display: block;
 	height: 46px;
@@ -717,24 +735,23 @@ h4 {
 .pricingTable .pricingTable-signup {
   display: inline-block;
   padding: 8px 50px;
-  background: #ae003d;
+  background-color: #6517c7;
+  border-color: #4cae4c;
   border-radius: 20px;
   font-size: 20px;
   font-weight: 600;
   color: #fff;
-  text-transform: uppercase;
   position: relative;
   transition: all .3s ease 0s
 }
 
-.pricingTable:hover .pricingTable-signup {
+.pricingTable:hover .pricingTable-signup{
   box-shadow: 0 0 10px #ae003d
 }
 
 .pricingTable .pricingTable-signup:hover {
-  color: #ae003d;
-  background: #fff;
-  box-shadow: 0 0 10px #ae003d, 0 0 10px #000 inset
+	text-decoration: none;
+	color: #FFF;
 }
 
 .pricingTable.green .title {
@@ -750,9 +767,7 @@ h4 {
 }
 
 .pricingTable.green .pricingTable-signup:hover {
-  color: #57bc80;
-  background: #fff;
-  box-shadow: 0 0 10px #57bc80, 0 0 10px #000 inset
+  color: #FFF;
 }
 
 .pricingTable.blue .title {
@@ -768,9 +783,7 @@ h4 {
 }
 
 .pricingTable.blue .pricingTable-signup:hover {
-  color: #2b49b2;
-  background: #fff;
-  box-shadow: 0 0 10px #db2c29, 0 0 10px #000 inset
+  color: #FFF;
 }
 
 @media only screen and (max-width:990px) {
@@ -874,6 +887,43 @@ h4 {
     color: #FFF;
 }
 
+.testimonial {
+  margin-top: 50px;
+  background-color: #EEE;
+  color: #000;
+ }
+
+ .testimonial p small {
+ 	color: #000;
+ }
+
+ .testimonial-users {
+ 	color: #000;
+ 	font-size: 15px;
+ 	margin-top: 10px;
+ }
+
+
+
+
+ .lower-footer{
+ 	color: #FFF;
+ 	margin-left: 20px; 
+ }
+
+.lower-footer a {
+	color: #FFF;
+}
+
+/* Static Pages css */
+
+.page-body{
+	max-width: 915px;
+  margin: 0 auto 15px;
+  text-align: justify;
+}
+
+
 
 
 /**
@@ -911,24 +961,3 @@ h4 {
     }
 }
 
-.testimonial {
-  margin-top: 50px;
-  background-color: #6a13dd;
- }
-
- .lower-footer{
- 	color: #FFF;
- 	margin-left: 20px; 
- }
-
-.lower-footer a {
-	color: #FFF;
-}
-
-/* Static Pages css */
-
-.page-body{
-	max-width: 915px;
-  margin: 0 auto 15px;
-  text-align: justify;
-}
