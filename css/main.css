@@ -1,6 +1,17 @@
 body {
-	font-family: 'Maven Pro';
+	/*font-family: 'Maven Pro';*/
+	font-family: "Visby CF Medium";
 }
+
+@font-face {font-family: "Visby CF Medium";
+    src: url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.eot");
+    src: url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.svg#Visby CF Medium") format("svg");
+}
+
 /*// $primary-color: #5449D2;*/
 /*// $secondary-color: #FE825A;*/
 /*---common----*/
@@ -252,6 +263,9 @@ ul li {font-size: 17px;}
 
 .banner-clients{
   text-align: center;
+  background-color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 20px
 }
 .banner-clients img{
   width: 150px;
@@ -260,6 +274,16 @@ ul li {font-size: 17px;}
 
 .banner-clients a {
   text-decoration: none;
+}
+
+.customers-banner{
+  text-align: center;
+	padding: 50px;
+}
+
+.customers-case-study{
+	text-align: center;
+	padding: 50px;
 }
 
 .razorops-client{

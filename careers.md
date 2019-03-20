@@ -11,15 +11,13 @@ Want to be part of an ambitious team building the next big thing in CI/CD Domain
 
 
 
-
-**1) Inside Sales Intern**
+<h3>1) Inside Sales Intern</h3>
 
 ₹3K – ₹6K  · Full Time · Hyderabad · Business Development · Sales · Inside Sales · Consumer Insights    
 
+<br>
 
-
-
-**2) Inside Sales Manager**  
+<h3>2) Inside Sales Manager</h3>
 
 
 ₹2L – ₹6L  · Full Time · Hyderabad · Business Development · Sales · Inside Sales · Consumer Insights        
