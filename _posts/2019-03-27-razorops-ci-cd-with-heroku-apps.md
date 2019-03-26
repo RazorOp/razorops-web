@@ -1,0 +1,62 @@
+---
+title: Razorops CI/CD with heroku apps
+description: Deploying to heroku was super easy as it happen with just a git push,
+  with razorops you can add CI/CD support to you Heoku app.
+keywords: Heroku, deployment, Heroku Token, Pipeline, heroku dashboard
+permalink: "/blog/:title/"
+layout: post
+date: '2018-08-15 14:15:43'
+author: Shyam Mohan
+category: Heroku
+---
+
+<img src="/images/blog/deploy-on-heroku-with-razorops.png" width="300" height="300" />
+
+This post i will explain how to deploy rails app on heroku using Razorops CI/CD
+
+Deploying to heroku was super easy as it happen with just a git push, with razorops you can add CI/CD support to you Heoku app.
+
+**For this guide you will need:**
+
+1) Heroku user account [https://signup.heroku.com/](https://signup.heroku.com/)
+
+2) Create an App in side Heroku 
+
+![](/images/blog/heroku-create-new-app.png)
+
+3) Get your Heroku Token or (API Key form your account)  [https://dashboard.heroku.com/account](https://dashboard.heroku.com/account)
+
+![](/images/blog/heroku-api-key.png)
+
+4) Get one Razorops account here [https://dashboard.razorops.com](https://dashboard.razorops.com/users/sign_up)
+
+5) Connect your GIT provide account under integration: 
+[http://dashboard.qa.razorops.com/integration](http://dashboard.qa.razorops.com/integration)
+
+6) Create a Pipeline  on dashboard
+
+Edit your pipeline and add your heroku HEROKU_API_TOKEN and HEROKU_APP_NAME env vars
+
+Add a **.razorops.yaml** in your project's root directory 
+
+```
+tasks:
+  deploy:
+    type: deploy
+    kind: heroku
+    app:  $(HEROKU_APP_NAME)
+    token: $(HEROKU_API_TOKEN)
+  when: branch == 'staging'
+
+```
+
+Razorops will trigger pipeline if code is pushed to staging branch. 
+
+Razorops will deploy staging branch to heroku. 
+
+More details [https://docs.razorops.com/lgfm/ruby.html](https://docs.razorops.com/lgfm/ruby.html)
+
+
+<hr>
+
+Connect me at [shyam@razorops.com](mailto:shyam@razorops.com) if you need to setup CI/CD in a more complex application or micro service.

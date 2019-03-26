@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: Razorops Blog
-description:
-keywords: 
+descriotion: Learn how to achieve continuous delivery to Kubernetes with Helm, Istio, Selenium testings, security testing, performance testing, and more.
+keywords: Docker, continuous delivery, Kubernetes with Helm, Istio, Selenium testings, security testing, performance testing
 canonical_url: "http://razorops.com/blog"
 ---
 
@@ -15,18 +15,13 @@ canonical_url: "http://razorops.com/blog"
           <div class="blog-posts">
             <article class="blog-post">
               <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-              <div class="entry">{{ post.excerpt }}</div>
+              <div class="entry">{{ post.description }}</div>
               <time>{{ post.date | date_to_string }} - <small>{{ post.author }}</small></time>
               <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
             </article>
           </div>
         </div>
       {% endfor %}
-        
-      <!-- <div class="col-md-3">
-        <h4 class="latest-heading">Latest Posts</h4>
-        {% include blog-menu.html %}
-      </div> -->
     </div>
 
     <!-- Pagination links -->

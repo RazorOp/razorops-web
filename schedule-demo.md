@@ -11,9 +11,7 @@ canonical_url: http://razorops.com/schedule-demo/
 
 <center>
 	<p>
-	<a href='https://calendly.com/razorops/demo' target='_blank' class="btn btn-success"> Schedule Demo </a><br><br>
+	<a href='https://calendly.com/razorops/demo' target='_blank' class="btn btn-success"> Schedule Demo with Shyam</a><br><br>
 		You can access demo URL at you Scheduled data and time  <br>
-		
-		Meeting URL <a href="https://meet.google.com/hvt-fdiu-orf"  target="_blank">(https://meet.google.com/hvt-fdiu-orf)</a>
 	</p>
 </center>

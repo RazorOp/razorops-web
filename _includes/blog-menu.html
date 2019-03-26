@@ -1,4 +1,4 @@
-<div class="app__menu">
+<!-- <div class="app__menu">
   <ul class="blog-menu">
   	{% assign blogs = site.posts %} 
     {% for post in  blogs limit:10 %}
@@ -9,4 +9,26 @@
     </li>
     {% endfor %}
   </ul>
+</div> -->
+
+
+<a href="/schedule-demo/"><img src="/images/blog/razorops-cicd.png" width="260px"></a>
+
+<br>
+<br>
+<div class="blog-catgory">
+  
+  <p><b>LATEST POSTS</b></p>
+  <ul class="blog-catgory_ul">
+    {% for category in site.categories %}
+      <li><a name="{{ category | first }}">{{ category | first }}</a>
+        <ul>
+        {% for post in category.last %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
+
