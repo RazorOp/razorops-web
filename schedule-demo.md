@@ -11,9 +11,7 @@ canonical_url: http://razorops.com/schedule-demo/
 
 <center>
 	<p>
-		<a href='https://calendly.com/razorops/demo' target='_blank' class="btn btn-success"> Schedule Demo with Shyam</a>
-		<br>
-		<br>
-		Schedule a free demo with a CI/CD DevOps specialist to learn how Razorops can help your dev Team.
-	<br><br></p>
+	<a href='https://calendly.com/razorops/demo' target='_blank' class="btn btn-success"> Schedule Demo with Shyam</a><br><br>
+		You can access demo URL at you Scheduled data and time  <br>
+	</p>
 </center>

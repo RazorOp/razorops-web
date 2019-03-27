@@ -121,6 +121,17 @@
     }();
     drift.SNIPPET_VERSION = '0.3.1';
     drift.load('efhe88k65wzb');
+
+    // add target blank to each link
+    (function() {
+      var links = document.getElementsByTagName('a');
+      for (var i = 0; i < links.length; i++) {
+        if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+          links[i].target = '_blank';
+        }
+      }
+    })();
+
   </script>
   <!-- End of Async Drift Code -->
 
