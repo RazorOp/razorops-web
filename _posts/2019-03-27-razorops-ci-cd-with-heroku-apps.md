@@ -1,7 +1,7 @@
 ---
 title: Razorops CI/CD with heroku apps
 description: Deploying to heroku was super easy as it happen with just a git push,
-  with razorops you can add CI/CD support to you Heoku app.
+  with razorops you can add CI/CD support to your Heroku apps.
 keywords: Heroku, deployment, Heroku Token, Pipeline, heroku dashboard
 permalink: "/blog/:title/"
 layout: post
@@ -14,7 +14,7 @@ category: Heroku
 
 This post i will explain how to deploy rails app on heroku using Razorops CI/CD
 
-Deploying to heroku was super easy as it happen with just a git push, with razorops you can add CI/CD support to you Heoku app.
+Deploying to heroku was super easy as it happen with just a git push, with razorops you can add CI/CD support to your Heroku app.
 
 **For this guide you will need:**
 
@@ -31,16 +31,22 @@ Deploying to heroku was super easy as it happen with just a git push, with razor
 4) Get one Razorops account here [https://dashboard.razorops.com](https://dashboard.razorops.com/users/sign_up)
 
 5) Connect your GIT provide account under integration: 
-[http://dashboard.qa.razorops.com/integration](http://dashboard.qa.razorops.com/integration)
+[http://dashboard.razorops.com/integration](http://dashboard.razorops.com/integration)
 
-6) Create a Pipeline  on dashboard
+6) Create a Pipeline on dashboard
 
-Edit your pipeline and add your heroku HEROKU_API_TOKEN and HEROKU_APP_NAME env vars
+![](/images/blog/razorops-pipeline.png)
+
+
+7) Edit your pipeline and add your heroku HEROKU_API_TOKEN and HEROKU_APP_NAME environment variables
+
+![](/images/blog/edit-razorops-pipeline.png)
 
 Add a **.razorops.yaml** in your project's root directory 
 
 ```
 tasks:
+
   deploy:
     type: deploy
     kind: heroku
@@ -57,6 +63,4 @@ Razorops will deploy staging branch to heroku.
 More details [https://docs.razorops.com/lgfm/ruby.html](https://docs.razorops.com/lgfm/ruby.html)
 
 
-<hr>
-
-Connect me at [shyam@razorops.com](mailto:shyam@razorops.com) if you need to setup CI/CD in a more complex application or micro service.
+{% include schedule-demo.html %}

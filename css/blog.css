@@ -58,9 +58,7 @@
   font-size: 1.4em;
   margin-bottom: 10px;
 }
-.blog-post .entry{
-  min-height: 100px;
-}
+
 .blog-post .entry h1:first-of-type {
   display: none;
 }
@@ -110,8 +108,14 @@
 .blog-catgory_ul{
   margin-left: -40px;
   list-style-type:none;
+  font-size: 16px !important;
 }
 
+.blog-catgory_li{
+  margin-left: -20px;
+  font-size: 16px !important;
+  
+}
 
 .blog-post-content h1 {
   font-size: 2em;
@@ -136,6 +140,7 @@
 .blog-post time {
   display: block;
   color: #787878;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 .latest-heading {
