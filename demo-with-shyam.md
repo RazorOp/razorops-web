@@ -1,10 +1,10 @@
 ---
-title: Demo Details
+title: Razorops | Demo
 layout: default
 description: Razopos demo with Shyam
-keywords: Razorops demo, cicd demo
+keywords: Razorops, cicd, demo
 permalink: "/demo-with-shyam/"
-canonical_url: http://razorops.com/demo-with-shyam/
+canonical_url: https://razorops.com/demo-with-shyam/
 ---
 
 ![](https://razorops.com/images/shyam-mohan.png)

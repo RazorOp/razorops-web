@@ -1,12 +1,12 @@
 ---
-title: About Razorops Platform
+title: Razorops | About
 layout: default
 description: Razorops is a complete container native CI/CD solution. In a similar
   manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.
 keywords: Container Native, Docker, kubernetes,Ci and Cd, Devops,Kubernetes,Docker
   Container
 permalink: "/about/"
-canonical_url: http://razorops.com/about/
+canonical_url: https://razorops.com/about/
 ---
 
 Razorops is a complete container native CI/CD solution handling all aspects of the software lifecycle from the moment a commit is created until it is deployed to production.
