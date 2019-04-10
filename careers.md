@@ -1,10 +1,10 @@
 ---
-title: Join the Razorops team
+title: Razorops | Careers
 layout: default
 description: Come and join razorops team of passionate system engineer to help us
   build great developer tools on devops platform.
 keywords: Hiring, Devops methodology,Kubernetes dashboard,Cloud containers,Devops
-canonical_url: http://razorops.com/careers
+canonical_url: https://razorops.com/careers
 ---
 
 Want to be part of an ambitious team building the next big thing in CI/CD Domain
