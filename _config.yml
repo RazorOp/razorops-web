@@ -2,10 +2,10 @@
 title: Razorops
 email: support@razorops.com
 description: > # this means to ignore newlines until "baseurl:"
-  Continuous delivery simplified on kubernetes
+  Continuous integration and delivery simplified for Containers
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://razorops.com/" # the base hostname & protocol for your site
+url: "https://razorops.com/" # the base hostname & protocol for your site
 twitter_username: razorops
 github_username: razorop
 
@@ -21,8 +21,4 @@ plugins:
 
 jekyll_admin:
   hidden_links:
-    # - posts
-    # - pages
-    # - staticfiles
     - datafiles
-    # - configuration

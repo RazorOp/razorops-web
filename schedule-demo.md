@@ -1,5 +1,5 @@
 ---
-title: Schedule Demo
+title: Razorops | Demo
 layout: default
 description: Razopos demo with Shyam
 keywords: Razorops demo, cicd demo
