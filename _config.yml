@@ -12,7 +12,7 @@ github_username: razorop
 # Build settings
 markdown: kramdown
 paginate: 1
-paginate_path: "/_posts/page:num/"
+# paginate_path: "/_posts/page:num/"
 
 plugins:
   - jekyll-seo-tag
