@@ -137,7 +137,8 @@ ul li {font-size: 17px;}
 /*----footer----*/
 .footer {
 	position: relative;
-	background-color: #222;
+	color: #253858;
+	background-color: #F4F5F7;
 	padding: 40px 0;
 	z-index: 1;
 }
@@ -157,22 +158,37 @@ ul li {font-size: 17px;}
 }
 .footer-nav > li > a {
 	display: block;
-	color: #f1f1f1;
+	color: #253858;
 	padding: 5px;
 }
 .footer-nav > li > a:hover,
 .footer-nav > li > a:focus {
-	color: #fff;
+	color: #000;
 }
 .footer .address-wraper {
-	color: #fff;
+	color: #253858;
 }
 .footer-item h2 {
-	color: #fff;
+	color: ;
 	font-size: 1.4em;
 	margin-top: 0;
 	margin-bottom: 15px;
 }
+
+.lower-footer{
+ 	color: #253858;
+ 	margin-left: 20px; 
+ }
+
+.lower-footer a {
+	color: #253858;
+}
+
+.footer-social{
+	margin-left: 20px;
+	margin-top: -10px;
+}
+
 /*---end---*/
 .btn-primary {
 	background-color: #340068;
@@ -929,18 +945,6 @@ h4 {
  	font-size: 15px;
  	margin-top: 10px;
  }
-
-
-
-
- .lower-footer{
- 	color: #FFF;
- 	margin-left: 20px; 
- }
-
-.lower-footer a {
-	color: #FFF;
-}
 
 /* Static Pages css */
 
