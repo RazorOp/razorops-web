@@ -1,16 +1,17 @@
 body {
 	/*font-family: 'Maven Pro';*/
-	font-family: "Visby CF Medium";
+	/*font-family: "Lato";*/
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-@font-face {font-family: "Visby CF Medium";
+/*@font-face {font-family: "Visby CF Medium";
     src: url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.eot");
     src: url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.eot?#iefix") format("embedded-opentype"),
     url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.woff2") format("woff2"),
     url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.woff") format("woff"),
     url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.svg#Visby CF Medium") format("svg");
-}
+}*/
 
 /*// $primary-color: #5449D2;*/
 /*// $secondary-color: #FE825A;*/
@@ -114,7 +115,7 @@ ul li {font-size: 17px;}
 }
 .default-header .navbar-default {
 	background: rgb(32,23,175);
-	background: linear-gradient(90deg, rgba(32,23,175,1) 0%, rgba(178,46,209,1) 100%);
+	/*background: linear-gradient(90deg, rgba(32,23,175,1) 0%, rgba(178,46,209,1) 100%);*/
 }
 .default-header .navbar-brand {
 	padding: 4px;
@@ -198,7 +199,7 @@ ul li {font-size: 17px;}
 	min-height: 400px;
 	position: relative;
 	background: rgb(32,23,175);
-	background: linear-gradient(90deg, rgba(32,23,175,1) 0%, rgba(113,8,232,1) 67%, rgba(178,46,209,1) 100%);
+	/*background: linear-gradient(90deg, rgba(32,23,175,1) 0%, rgba(113,8,232,1) 67%, rgba(178,46,209,1) 100%);*/
 	padding: 10% 0 60px;
 }
 .banner-msg {
@@ -248,8 +249,9 @@ ul li {font-size: 17px;}
 }
 .banner-illustration {
 	float: right;
-	width: 50%;
-	margin-right: -80px;
+	margin-top: -47px;
+	/*width: 60%;*/
+	/*margin-right: -78px;*/
 }
 .banner-msg h1 {
 	font-size: 40px;
@@ -397,7 +399,7 @@ ul li {font-size: 17px;}
 	/*background-color: #340068;*/
 	background-color: #B1EDE8;
 	background: rgb(32,23,175);
-  background: linear-gradient(180deg, rgba(32,23,175,1) 0%, rgba(113,8,232,1) 67%, rgba(178,46,209,1) 100%);
+  /*background: linear-gradient(180deg, rgba(32,23,175,1) 0%, rgba(113,8,232,1) 67%, rgba(178,46,209,1) 100%);*/
 }
 .features .section-header h2 {
 	color: #fff;
@@ -457,7 +459,7 @@ ul li {font-size: 17px;}
 	background-color: #5449D2;
 }
 .integrations {
-	background-color: #f2fcfb;
+	/*background-color: #f2fcfb;*/
 	padding: 50px 0;
 }
 .integration-illustration img {
@@ -557,10 +559,11 @@ ul li {font-size: 17px;}
 .demo-call-to-action {
 	padding: 60px 0;
 	text-align: center;
+	margin-top: -10px;
 	/*background: #2017af;*/
 	color: #FFF;
-	 background: rgb(32,23,175);
-	background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%); 
+	background: rgb(32,23,175);
+	/*background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%); */
 }
 .demo-call-to-action p {
 	font-size: 16px;
@@ -912,8 +915,8 @@ h4 {
 }
 
 .testimonial {
-  margin-top: 50px;
-  background-color: #EEE;
+  margin-top: -10px;
+  background-color: #f4f5f7;
   color: #000;
  }
 
