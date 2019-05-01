@@ -53,31 +53,31 @@
       </div>
     </div>
     <hr>
-    <div class="lower-footer">
-      <div class="pull-left"> Copyright &copy; 
-        <script type="text/javascript">
-          document.write(new Date().getFullYear());
-        </script> Razorops, All Rights Reserved.&nbsp;
-      </div> 
+    <div class="lower-footer text-center">
+      <span class="d-inline-block"> Copyright &copy; 
+       <span id="year"></span> Razorops, All Rights Reserved.&nbsp;
+      </span> 
 
-      <dev class="footer-social">
-          <a href="https://www.linkedin.com/company/razorops" target="_blank">LinkedIn</a>
-          <a href="https://github.com/RazorOp" target="_blank" >GitHub</a>
-          <a href="https://twitter.com/razorops" target="_blank">Twitter</a>
-          <a href=" https://www.facebook.com/razorops" target="_blank" class="fa fa-facebook" >Facebook</a>
-        </center>
-    </div>
-    
-
+      <span class="footer-social d-inline-block">
+          <a href="https://www.linkedin.com/company/razorops" target="_blank"><img src="/images/v2/linkedin.svg" alt="Linkedin" width="24" height="24"></a>
+          <a href="https://github.com/RazorOp" target="_blank" ><img src="/images/v2/github.svg" alt="Github" width="24" height="24"></a>
+          <a href="https://twitter.com/razorops" target="_blank"><img src="/images/v2/twitter.svg" alt="Twitter" width="24" height="24"></a>
+          <a href=" https://www.facebook.com/razorops" target="_blank"><img src="/images/v2/facebook.svg" alt="Facebook" width="24" height="24"></a>
+      </span>
   </div>
 
   <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
   <script src='{{ site.baseurl }}/js/app.js'></script>
-
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#year').html(new Date().getFullYear());
+    })
+  </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121645139-1"></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
 
