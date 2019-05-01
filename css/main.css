@@ -296,7 +296,10 @@ ul li {font-size: 17px;}
 
 .customers-banner{
   text-align: center;
-	padding: 50px;
+	padding: 150px;
+	background-image: url("/images/v2/home-banner.png");
+ 	background-color: #FFF;
+ 	color: #FFF;
 }
 
 .customers-case-study{
@@ -836,7 +839,7 @@ h4 {
 }
 .pricing-wraper {
 	min-height: 80vh;
-	padding: 20px 0 80px;
+	/*padding: 20px 0 80px;*/
 	background-color: #f6f8f6;
 }
 .pricing-header {
@@ -847,7 +850,12 @@ h4 {
 	font-size: 20px;
 }
 
-
+.box{
+	background: #FFF;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
 
 /* carousel */
 #quote-carousel
@@ -934,6 +942,7 @@ h4 {
   margin-top: -10px;
   background-color: #f4f5f7;
   color: #000;
+  padding-bottom: 20px;
  }
 
  .testimonial p small {
