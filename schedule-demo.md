@@ -7,5 +7,5 @@ permalink: "/schedule-demo/"
 canonical_url: http://razorops.com/schedule-demo/
 ---
 	
-<div class="calendly-inline-widget" data-url="https://calendly.com/razorops/demo" style="min-width:320px;height:580px;"></div>
+<div class="calendly-inline-widget" data-url="https://calendly.com/razorops/demo" style="min-width:320px;height:640px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
