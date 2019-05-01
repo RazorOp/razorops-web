@@ -13,17 +13,24 @@ canonical_url: "https://razorops.com/blog"
       {% for post in blogs %}
         <div class="col-sm-4">
           <div class="blog-posts">
+            <a href="{{ site.baseurl }}{{ post.url }}">
             <article class="blog-post">
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+              <!-- <img src="/images/undraw_creation.svg"> -->
+              <img src="/images/undraw_responsive.svg">
+              <h1>{{ post.title }}</h1>
               <div class="entry">{{ post.description }}</div>
-              <time>{{ post.date | date_to_string }} - <small>{{ post.author }}</small></time>
+              <br>
               <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
+              <time class="pull-right">{{ post.date | date_to_string }}</time>
             </article>
+            </a>
           </div>
         </div>
       {% endfor %}
     </div>
 
+
+<!-- - <small>{{ post.author }}</small> -->
     <!-- Pagination links -->
     <!-- <div class="pagination">
       {% if paginator.previous_page %}

@@ -503,11 +503,11 @@ ul li {font-size: 17px;}
 }
 /*---features----*/
 .features {
-	padding: 40px 0;
+	padding: 100px 0;
 	/*background-color: #340068;*/
 	background-color: #B1EDE8;
 	background: rgb(32,23,175);
-	margin-bottom: -60px;
+	margin-bottom: -90px;
   /*background: linear-gradient(180deg, rgba(32,23,175,1) 0%, rgba(113,8,232,1) 67%, rgba(178,46,209,1) 100%);*/
 }
 .features .section-header h2 {
