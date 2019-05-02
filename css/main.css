@@ -1070,6 +1070,19 @@ h4 {
 }
 
 
+/* partners */
+
+.partners-card {
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  height: 157px;
+  margin-bottom: 20px;
+}
+
+.partners-card img {
+	width: 248px;
+  height: 140px;
+}
 
 
 /**
