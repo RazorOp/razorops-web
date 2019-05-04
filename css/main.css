@@ -205,9 +205,14 @@ ul li {font-size: 17px;}
 	margin-bottom: 15px;
 }
 
+.footer-item a {
+	text-decoration: none;
+}
+
+
+
 .lower-footer{
  	color: #253858;
- 	margin-left: 20px; 
  }
  .d-inline-block {
 	 display: inline-block;
@@ -248,7 +253,7 @@ ul li {font-size: 17px;}
 }
 .banner {
 	min-height: 400px;
-	height: 95%;
+	height: 100%;
 	position: relative;
 	background: rgb(32,23,175);
 	padding: 10% 0 60px;
@@ -262,8 +267,8 @@ ul li {font-size: 17px;}
 }
 .banner-msg p {
 	color: #fff;
-	font-weight: 300;
-	font-size: 20px;
+	font-weight: 400;
+	font-size: 26px;
 }
 .btn {
 	box-shadow: 0 2px 2px rgba(0,0,0,.15);
@@ -507,8 +512,13 @@ ul li {font-size: 17px;}
   filter: grayscale(100%);
 }
 
+.feature-img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
 .features {
-	padding: 100px 0;
+	padding: 30px 50px;
 	/*background-color: #340068;*/
 	background-color: #B1EDE8;
 	background: rgb(32,23,175);

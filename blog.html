@@ -8,26 +8,28 @@ canonical_url: "https://razorops.com/blog"
 
 <div class="blog-wraper">
   <div class="container">
-    <div class="row">
-      {% assign blogs = site.posts %} 
-      {% for post in blogs %}
-        <div class="col-sm-4">
-          <div class="blog-posts">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-            <article class="blog-post">
-              <!-- <img src="/images/undraw_creation.svg"> -->
-              <img src="/images/undraw_responsive.svg">
+    {% assign blogs = site.posts %} 
+    {% for post in blogs %}
+      <div class="row">
+        <div class="blog-post">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <div class="col-sm-3">
+              <img class="img-left" src="{{ post.image }}"/>
+            </div>
+
+            <div class="col-sm-9">
+              <time class="pull-right">{{ post.date | date_to_string }}</time>
               <h1>{{ post.title }}</h1>
-              <div class="entry">{{ post.description }}</div>
+              <p>{{ post.description }}</p>
               <br>
               <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
-              <time class="pull-right">{{ post.date | date_to_string }}</time>
-            </article>
-            </a>
-          </div>
+            </div>
+            <div class="clearfix"></div>
+          </a>
         </div>
-      {% endfor %}
-    </div>
+      </div><br>
+    {% endfor %}
+  </div>
 
 
 <!-- - <small>{{ post.author }}</small> -->
@@ -43,5 +45,4 @@ canonical_url: "https://razorops.com/blog"
       <a href="{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
       <span class="next ">Next</span> {% endif %}
     </div> -->
-  </div>
 </div>

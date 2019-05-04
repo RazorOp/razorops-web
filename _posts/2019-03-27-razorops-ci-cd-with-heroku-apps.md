@@ -8,9 +8,10 @@ layout: post
 date: '2018-08-15 14:15:43'
 author: Shyam Mohan
 category: Heroku
+image: /images/blog/razorops-heroku.png
 ---
 
-<img src="/images/blog/deploy-on-heroku-with-razorops.png" width="300" height="300" />
+<img src="/images/blog/razorops-heroku.png" />
 
 This post i will explain how to deploy rails app on heroku using Razorops CI/CD
 
