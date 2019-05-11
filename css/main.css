@@ -58,6 +58,10 @@ ul li {font-size: 17px;}
     width: 90%;
 }
 
+.mt-80{
+	margin-top: 100px;
+}
+
 /*--end-----*/
 .section-header h2 {
 	font-size: 30px;
@@ -168,7 +172,7 @@ ul li {font-size: 17px;}
 .footer {
 	position: relative;
 	color: #253858;
-	background-color: #F4F5F7;
+	background-color: #f3f5f9;
 	padding: 60px 0;
 	z-index: 1;
 }
@@ -520,13 +524,13 @@ ul li {font-size: 17px;}
 .features {
 	padding: 30px 50px;
 	/*background-color: #340068;*/
-	background-color: #B1EDE8;
-	background: rgb(32,23,175);
+	background-color: #FFF;
+	/*background: rgb(32,23,175);*/
 	margin-bottom: -90px;
   /*background: linear-gradient(180deg, rgba(32,23,175,1) 0%, rgba(113,8,232,1) 67%, rgba(178,46,209,1) 100%);*/
 }
 .features .section-header h2 {
-	color: #fff;
+	color: #000;
 }
 .features .section-header {
 	margin-bottom: 65px;
@@ -535,32 +539,37 @@ ul li {font-size: 17px;}
 	background-color: #fff;
 }
 .feature-item {
-	padding: 10px 10px 10px 80px;
+	/*padding: 10px 10px 10px 80px;*/
 	margin-bottom: 30px;
-	max-width: 450px;
+	/*max-width: 450px;*/
 }
 .feature-item h4 {
 	font-weight: 700;
 	margin-top: 0;
-	color: #fff;
+	color: #000;
 }
 .feature-item p {
 	font-size: 16px;
-	color: #fff;
+	color: #000;
 }
 .feature-item figure {
 	position: absolute;
 	top: 15px;
 	left: 0;
 	display: block;
-	width: 80px;
-	height: 80px;
+	/*width: 80px;*/
+	/*height: 80px;*/
 	text-align: center;
 }
 .feature-item figure img {
 	display: inline-block;
-	width: 60px;
+	/*width: 60px;*/
 	height: auto;
+}
+
+.feature-item-img{
+	width: 70%;
+	text-align: center;
 }
 
 
@@ -584,7 +593,7 @@ ul li {font-size: 17px;}
 }
 
 .platform-integrations{
-	background-color: #f0f5ff;
+	background-color: #f3f5f9;
 	padding: 50px 0;
 	margin-top: -10px;
 }
@@ -1061,7 +1070,7 @@ h4 {
 
 .testimonial {
   margin-top: -10px;
-  background-color: #f4f5f7;
+  background-color: #f3f5f9;
   color: #000;
   padding-bottom: 20px;
  }
