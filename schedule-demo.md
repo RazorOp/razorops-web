@@ -1,17 +1,11 @@
 ---
 title: Razorops | Demo
-layout: default
+layout: page
 description: Razopos demo with Shyam
 keywords: Razorops demo, cicd demo
 permalink: "/schedule-demo/"
 canonical_url: http://razorops.com/schedule-demo/
 ---
-
-![](https://razorops.com/images/shyam-mohan.png)
-
-<center>
-	<p>
-	<a href='https://calendly.com/razorops/demo' target='_blank' class="btn btn-success"> Schedule Demo with Shyam</a><br><br>
-		You can access demo URL at you Scheduled data and time  <br>
-	</p>
-</center>
+	
+<div class="calendly-inline-widget" data-url="https://calendly.com/razorops/demo" style="min-width:320px;height:640px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>

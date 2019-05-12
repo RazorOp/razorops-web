@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Continuous Integration & Deployment with
+title: Continuous Integration & Deployment
 description: Razorops is a container native CI/CD platform to automate testing and deployment across the environments in few steps.
 keywords: Build, Test, Deploy, Continuous delivery, Continuous integration, kubernetes, Docker, docker registry,docker container, aws, google cloud, azure kubernetes,Continuous deployment tool
 canonical_url: 'https://razorops.com/'
@@ -10,21 +10,24 @@ image: /images/blog/razorops-one-repo.png
 <div class="banner">
 	<div class="container">
 		<div class="banner-msg">
-			<!-- <h1 class="hero__title">Container Native software testing and deployment platform</h1> -->
 			<h1 class="hero__title">Release software changes with high velocity </h1>
-			<p class="hero__text">Razorops is a container native CI/CD platform to automate testing and deployment across the environments in few steps.</p>
+			<p class="hero__text">Razorops is a container native CI/CD platform to automate your workflow from development to production in few steps.</p>
+
 			<div class="banner-actions">
-				<a href="https://calendly.com/razorops/demo" target="_blank" class="btn btn-banner-primary">Schedule Demo</a>
-				<!-- <a href="/pricing" class="btn btn-banner-secondary">Start FREE Trial</a> -->
+				<a href="/schedule-demo" target="_blank" class="btn btn-banner-primary">Schedule Demo</a>
 			</div>
 		</div>
 		<div class="banner-illustration">
-			<img src="images/razorops-assets/banner-illustration.svg" alt="Continuous delivery">
+			<img src="images/v2/razorops-intro-illustration.png"  alt="Continuous delivery">
+			<img src="images/v2/razorops-intro-illustration2.png"  alt="Continuous delivery">
+			<img src="images/v2/razorops-intro-illustration3.png"  alt="Continuous delivery">
+			<!-- <img src="images/v2/razorops-pipeline.png" width="600" height="500" alt="Continuous delivery"> -->
 		</div>
 	</div>
 </div>
 
-{% include banner_clients.html %}
+
+{% include clients_logos.html %}
 
 <div class="razorops-ci-cd">
 	<div class="container">
@@ -36,156 +39,56 @@ image: /images/blog/razorops-one-repo.png
 			<br>
 			<div class="col-md-4">
 				<h3>Smarter</h3>
-				<p>Stop maintaining and scaling your local CI/CD infrastructure. Leave it to us!</p>
+				<p>Stop maintaining and scaling your local CI/CD infrastructure. Switch to cloud!</p>
 			</div>
 			<div class="col-md-4">
 				<h3>Faster</h3>
 				<p>Customizable pipeline automation speeds deployments to production. Build more, wait less!</p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sm-4">
 				<h3>Better</h3>
 				<p>Build and Test better, avoid bugs before they reach your users. Ship your code with confidence!</p>
 			</div>
-
-			<!-- <div class="col-md-3">
-				<h3>DevOps Teams</h3>
-				<p>Simplify adoption of Containers with an easy to understand UI to integrate git sources, pipelines, docker, deployment stages etc.</p>
-			</div> -->
+			
 	</div>
 </div>
 
 {% include testimonial.html %}
+{% include features.html %}
 
-<div class="how-it-works" id="how-it-works">
-	<div class="section-header"><h2>How it works</h2></div>
-	<div class="steps-wraper">
-		<div class="steps-connecter"></div>
-		<div class="step-item step-1">
-			<div class="step-img">
-				<img src="{{ site.url}}/images/razorops-assets/github-source-code.svg" alt="github source code">
-			</div>
-			<div class="step-msg">
-				<i class="step-dot"></i>
-				<h4>Source Code</h4>
-				<p>
-					Connect your code repositories, docker registry or preferred build system.
-				</p>
-			</div>
-		</div>
-
-		<div class="step-item step-2">
-			<div class="step-img">
-				<img src="images/razorops-assets/define-pipeline.png" alt="Define Pipeline">
-			</div>
-			<div class="step-msg">
-				<i class="step-dot"></i>
-				<h4>Define Pipeline</h4>
-				<p>
-					Create continuous delivery pipelines in a few clicks using visual dashboards across apps, environments and teams.
-				</p>
-			</div>
-		</div>
-
-			<div class="step-item step-3">
-				<div class="step-img">
-					<img src="images/razorops-assets/deploy-and-monitor.svg" alt="deploy and monitor">
-				</div>
-				<div class="step-msg">
-					<i class="step-dot"></i>
-					<h4>Deploy & Monitor</h4>
-					<p>
-						Promote releases between target environment and perform automatic health-check, logs metrics and rollback automatically.
-					</p>
-				</div>
-			</div>
-
-			<div class="step-item step-4">
-				<div class="step-img">
-					<img src="images/platforms.png" alt="platforms" style="height: 110px;width:auto;">
-				</div>
-				<div class="step-msg">
-					<i class="step-dot"></i>
-					<h4>Keep you notified</h4>
-					<p>
-						Get automatic notifications of every build and deployment via Slack, HipChat, email, or webhooks.
-					</p>
-				</div>
-			</div>
-
-		<div class="step-item step-5">
-			<div class="step-img">
-				<img src="images/razorops-assets/automatic-notifications.svg" alt="automatic notifications">
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-<div class="features" id="features">
-	<div class="section-header">
-		<h2>Features</h2>
-	</div>
-
+<svg xmlns="http://www.w3.org/2000/svg" class="curve-container__curve curve-one" viewBox="0 0 1440 68" enable-background="new 0 0 1440 68"><path d="m1622.3 1937.7c0 0-410.7 169.1-913.4 75.5-502.7-93.6-977.7 56.3-977.7 56.3v440h1891.1v-571.8" fill="#f3f5f9" transform="translate(0-1977)"></path></svg>
+<div class="platform-integrations">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<div class="feature-item">
-					<figure><img src="images/razorops-assets/deployment-pipeline.svg" alt="deployment pipeline"></figure>
-						<div class="feature-item-msg">
-							<h4>Deployment Pipeline</h4>
-							<p>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</p>
-						</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="feature-item">
-					<figure><img src="images/razorops-assets/connect-environment.svg" alt="connect environment"></figure>
-						<div class="feature-item-msg">
-							<h4>Connect Environments</h4>
-							<p>Create new clusters on any server or cloud or easily connect your existing clusters no matter where they run. Integrate and provision multiple environments according to your needs.</p>
-						</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="feature-item">
-					<figure><img src="images/razorops-assets/hosted.svg" alt="hosted services"></figure>
-						<div class="feature-item-msg">
-							<h4>Hosted Helm and docker Registries</h4>
-							<p>Use our built-in registry and Helm Repos, or connect your own.</p>
-						</div>
+			<div class="col-sm-4">
+				<center>
+					<img src="images/v2/any-scm.png" alt="source code management" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+				<h3>Any source code manager</h3>
+				<p>Razorops integrates well with top source code management systems like GitHub, Bitbucket, and GitLab.</p>
 				</div>
 			</div>
 
-			<div class="col-md-6">
-				<div class="feature-item">
-					<figure><img src="images/razorops-assets/automatic-rollback.svg" alt="automatic rollback"></figure>
-						<div class="feature-item-msg">
-							<h4>Automatic rollback</h4>
-							<p>We analyze data from monitoring tools and uses automated testing tools to look for anomalies and failures to rollback broken within seconds.</p>
-						</div>
+			<div class="col-sm-4">
+				<center>
+					<img src="images/v2/any-language.png" alt="language agnostic" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+					<h3>Any language</h3>
+					<p>Razorops is language agnostic, it works with any language or service that runs inside a Docker container. You can choose public docker images or use your private images.</p>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div class="feature-item">
-					<figure><img src="images/razorops-assets/git-logo.svg" alt="ncorporate Gitops"></figure>
-						<div class="feature-item-msg">
-							<h4>Incorporate Gitops</h4>
-							<p>Align your pipelines with the branch structure, making it easier to work with branching workflows like feature branching or git-flow.</p>
-						</div>
+
+			<div class="col-sm-4">
+				<center>
+					<img src="images/v2/any-platform.png" alt="Platform Independent" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+					<h3>Platform independent</h3>
+					<p>Razorops is a cloud based SAAS product, it's a zero installation, quick start platform, you can build your apps for any platform AWS, GCP, Azure, iOS, Android, ReactNative etc.</p>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div class="feature-item">
-					<figure><img src="images/razorops-assets/code-configuration.svg" alt="code configuration"></figure>
-						<div class="feature-item-msg">
-							<h4>Code as configuration</h4>
-							<p>Store and manage your configurations in a single pipelines.yml file. Only few lines of code to get you started.</p>
-						</div>
-				</div>
-			</div>
-			<!-- <img src="images/razorops-ci-cd.png" alt="razorops-ci-cd"> -->
 
 		</div>
 	</div>
@@ -210,17 +113,12 @@ image: /images/blog/razorops-one-repo.png
 	</div>
 </div>
 
-
+<svg xmlns="http://www.w3.org/2000/svg" class="curve-container__curve curve-one" viewBox="0 0 1440 68" enable-background="new 0 0 1440 68"><path d="m1622.3 1937.7c0 0-410.7 169.1-913.4 75.5-502.7-93.6-977.7 56.3-977.7 56.3v440h1891.1v-571.8" fill="#2017af" transform="translate(0-1977)"></path></svg>
 
 <div class="demo-call-to-action">
   <p>PRETTY CONVINCING, RIGHT?</p>
   <h2>Request a <b>free demo</b></h2>
-  <a href="https://calendly.com/razorops/demo" target="_blank" class="btn btn-demo-request">Schedule Demo</a>
+  <!-- <p>Discover how Razorops can accelerate your code delivery</p> -->
+  <a href="/schedule-demo" target="_blank" class="btn btn-demo-request">Schedule Demo</a>
 </div>
-
-
-
-
-
-
 

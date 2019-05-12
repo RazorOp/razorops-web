@@ -7,8 +7,10 @@ layout: post
 date: '2018-07-15 14:15:43'
 author: Shyam Mohan
 category: Docker
+image: /images/blog/docker.jpg
 ---
 
+![](/images/blog/docker.jpg)
 
 
 ## Why Docker

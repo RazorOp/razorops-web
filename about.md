@@ -18,10 +18,10 @@ Razorops has all the capabilities that you would expect from a CI/CD platform su
 * Testing Automation(unit, integration, acceptance etc.)
 * Faster builds and shipping to production
 
-Razorops is a single solution that implements the whole pipeline from start to deployment. Following are some of container native features.
+Razorops is a single solution that implements the whole pipeline from start to deployment.
 
 
-<div class="col-sm-4">
+<!-- <div class="col-sm-4">
 	<h3>Docker Support</h3>
 	<p>Razorops has embraced Docker support right from its inception. All Razorops capabilities revolve around Docker images. Razorops is especially powerful when it comes to creating Docker images (Docker as a service), annotating them and storing them for later usage.</p>
 </div>
@@ -54,12 +54,12 @@ Razorops is a single solution that implements the whole pipeline from start to d
 * Easy setup & quick on boarding
 * Robust feature-preview/qa environments on-demand
 * Freestyle build steps to support custom CI/CD scripting
-* Email and Slack Integration
+* Email and Slack Integration -->
 
 
 ## Our mission
 
-Automate and simplify scalable system deployment on cloud
+Automate and simplify scalable system deployment on any cloud
 
 
 

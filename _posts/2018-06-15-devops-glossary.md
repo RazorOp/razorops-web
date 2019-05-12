@@ -7,7 +7,10 @@ layout: post
 date: '2018-06-15 14:15:43'
 author: Shyam Mohan
 category: Docker
+image: /images/blog/razorops-devops.png
 ---
+
+![](/images/blog/razorops-devops.png)
 
 DevOps covers a wide range of functions. From configuration management to infrastructure to documentation to quality assurance, DevOps spans the entire software development lifecycle.
 

@@ -1,8 +1,16 @@
+.scroll{
+  max-height: 900px;
+  overflow-y: scroll;
+}
+
 .blog-wraper {
   min-height: calc(100vh - 80px);
   padding-top: 40px;
   padding-bottom: 40px;
+  /*border: 1px solid red;*/
+  /*background-color: #fafbfc;*/
 }
+
 .blog-menu {
   list-style: none;
   padding: 0 0 0 10px;
@@ -34,35 +42,44 @@
   font-weight: 400;
 }
 
-.blog-posts{
-  min-height: 240px;
+.blog-posts {
+  min-height: 380px !important;
+}
+
+.blog-posts a {
+  text-decoration: none;
+  color: #000;
 }
 
 .blog-post {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #d3d4d3;
-  padding-bottom: 20px;
   background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 2px #ddd;
-  min-height: 230px;
+  padding: 15px;
+  /*border: 1px solid red;*/
+  /*box-shadow: 0 0 2px #ddd;*/
+  /*border-radius: 5px;*/
+  /*box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),*/
+    /*0 8px 32px 0 rgba(55, 92, 192, 0.08);*/
 }
+
 .blog-post img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-bottom: 15px;
+  margin-right: 10px;
+  width: 110%;
 }
+
 .blog-post h1 {
   margin-top: 0;
   font-size: 1.4em;
   margin-bottom: 10px;
 }
 
+.blog-post .entry{
+  text-align: justify;
+}
+
 .blog-post .entry h1:first-of-type {
   display: none;
 }
-.blog-post h1 a {
+.blog-post a {
   color: #242424;
   text-decoration: none;
   transition: color 0.1s ease-in-out 0s;
@@ -71,6 +88,18 @@
 .blog-post h1 a:focus {
   color: #2017af;
 }
+
+
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
+
 .blog-read-more {
   display: inline-block;
   height: 32px;
@@ -93,7 +122,8 @@
 .blog-post-content,
 .docs-content {
   background-color: #fff;
-  padding: 20px 30px;
+  padding: 15px;
+  border-radius: 5px;
   box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
     0 8px 32px 0 rgba(55, 92, 192, 0.08);
 }
@@ -112,8 +142,8 @@
 }
 
 .blog-catgory_li{
-  margin-left: -20px;
-  font-size: 16px !important;
+  margin-left: -22px;
+  font-size: 15px !important;
   
 }
 
@@ -134,9 +164,7 @@
   font-size: 17px;
   line-height: 28px;
 }
-.blog-wraper {
-  background-color: #f6f8f6;
-}
+
 .blog-post time {
   display: block;
   color: #787878;
@@ -148,7 +176,7 @@
   font-size: 24px;
 }
 .blog-post-body {
-  max-width: 660px;
+  max-width: 750px;
   margin: 0 auto 15px;
 }
 .doc-body iframe {
@@ -159,3 +187,4 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
+

@@ -6,24 +6,51 @@ keywords: Docker, continuous delivery, Kubernetes with Helm, Istio, Selenium tes
 canonical_url: "https://razorops.com/blog"
 ---
 
-<div class="blog-wraper">
-  <div class="container">
-    <div class="row">
+<div class="container">
+  <div class="blog-wraper">
+    <div class="col-sm-9">
       {% assign blogs = site.posts %} 
       {% for post in blogs %}
-        <div class="col-sm-4">
-          <div class="blog-posts">
-            <article class="blog-post">
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-              <div class="entry">{{ post.description }}</div>
-              <time>{{ post.date | date_to_string }} - <small>{{ post.author }}</small></time>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
-            </article>
+          
+          <div class="blog-post">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <div class="col-sm-3">
+                <img class="img-left" src="{{ post.image }}"/>
+              </div>
+
+              <div class="col-sm-9">
+                <time class="pull-right">{{ post.date | date_to_string }}</time>
+                <h1>{{ post.title }}</h1>
+                <p>{{ post.description }}</p>
+                <br>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
+              </div>
+            </a>
+            <div class="clearfix"></div>
           </div>
-        </div>
+          <hr>
       {% endfor %}
+
+
     </div>
 
+    <div class="col-sm-3">
+      <a href="https://www.g2.com/products/razorops/details" target="_blank"><img src="/images/blog/g2-crowd-review.png" class="img-responsive"></a>
+      <br>
+      <br>
+      <a href="https://twitter.com/razorops" target="_blank"><img src="/images/blog/twitter.png" class="img-responsive"></a>
+      <!-- <a class="twitter-timeline" href="https://twitter.com/razorops?ref_src=twsrc%5Etfw">Tweets by razorops</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+    </div>
+
+      <div class="clearfix"></div>
+
+
+  </div>
+
+
+
+
+<!-- - <small>{{ post.author }}</small> -->
     <!-- Pagination links -->
     <!-- <div class="pagination">
       {% if paginator.previous_page %}
@@ -36,5 +63,4 @@ canonical_url: "https://razorops.com/blog"
       <a href="{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
       <span class="next ">Next</span> {% endif %}
     </div> -->
-  </div>
 </div>

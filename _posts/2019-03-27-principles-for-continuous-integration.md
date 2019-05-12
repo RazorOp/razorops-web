@@ -8,6 +8,7 @@ layout: post
 date: '2018-08-20 14:15:43'
 author: Shyam Mohan
 category: Continuous Integration
+image: /images/blog/razorops-ci.png
 ---
 
 Principles for Continuous Integration includes following best practices.
