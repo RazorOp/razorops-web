@@ -4,4 +4,3 @@ tasks:
     kind: heroku
     app: razorops
     token: $(HEROKU_API_TOKEN)
-  when: branch == 'development'
