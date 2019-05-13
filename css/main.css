@@ -50,6 +50,9 @@ h3,h4,h6 {
 p {font-size: 15px;}
 ul li {font-size: 17px;}
 
+.agile-group {
+	margin-left: 1px !important;
+}
 
 .center {
     display: block;
@@ -1097,8 +1100,8 @@ h4 {
 /* partners */
 
 .partners-card {
-  border: 1px solid #D8D8D8;
-  border-radius: 5px;
+  /*border: 1px solid #D8D8D8;*/
+  /*border-radius: 5px;*/
   height: 157px;
   margin-bottom: 20px;
 }
