@@ -54,6 +54,18 @@ ul li {font-size: 17px;}
 	margin-left: 1px !important;
 }
 
+.demo-img{
+	margin-top: 35px;
+	margin-bottom: 100px;
+}
+
+.demo-img img{
+	border: 2px solid #f3f5f9;
+	border-radius: 10px;
+	width: 80%
+}
+
+
 .center {
     display: block;
     margin-left: auto;
@@ -401,6 +413,16 @@ ul li {font-size: 17px;}
 	background-image: url("/images/v2/home-banner.png");
  	background-color: #FFF;
  	color: #FFF;
+ 	margin-top: -80px;
+}
+
+.client-images{
+	margin-bottom: 50px;
+}
+
+.client-images img {
+	width: 90%;
+	text-align: center;
 }
 
 .customers-case-study{
@@ -975,6 +997,13 @@ h4 {
 	/*padding: 20px 0 80px;*/
 	background-color: #f6f8f6;
 }
+
+.customer-wraper {
+	min-height: 80vh;
+	background-color: #FFF;
+}
+
+
 .pricing-header {
 	margin-bottom: 50px;
 	text-align: center;
