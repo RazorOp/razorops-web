@@ -397,12 +397,20 @@ ul li {font-size: 17px;}
 
 .customers-banner{
   text-align: center;
-	padding: 150px;
+	padding: 150px 15px;
 	background-image: url("/images/v2/home-banner.png");
  	background-color: #FFF;
  	color: #FFF;
 }
-
+@media(max-width: 767px) {
+	.customers-banner {
+		padding: 100px 15px;
+	}
+}
+.customers-banner img {
+	max-width: 240px;
+	height: auto;
+}
 .customers-case-study{
 	text-align: center;
 	padding: 50px;
@@ -429,26 +437,24 @@ ul li {font-size: 17px;}
 
 @media (max-width: 767px) {
 	.banner-msg {
-		float: none;
+		position: relative;
+		padding: 30px 0;
 		width: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		height: 320px;
-		margin: auto;
-		padding: 20px;
 	}
 	.banner {
-		padding-top: 15%;
-		min-height: 100vh;
+		padding: 60px 0;
 	}
 	.banner-msg h1 {
 		font-size: 2em;
 	}
 	.banner-illustration {
 		display: none;
+	}
+	.banner-msg p {
+		font-size: 22px;
+	}
+	.banner-actions .btn {
+		width: 100% !important;
 	}
 }
 /*------how-it-works----*/
@@ -1105,12 +1111,6 @@ h4 {
   height: 157px;
   margin-bottom: 20px;
 }
-
-.partners-card img {
-	width: 248px;
-  height: 140px;
-}
-
 
 /**
   MEDIA QUERIES
