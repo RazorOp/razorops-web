@@ -172,3 +172,38 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+
+
+<!-- ip detection -->
+<script type="text/javascript">
+  
+  $.get("http://ipinfo.io", function (response) {
+      console.log(response.ip);
+      console.log(response.country);
+      geo(response);
+  }, "jsonp");
+
+  function geo(response) {
+    switch (response.country)
+    {
+      // case "IN": // Redirect is visitor from Sweden
+      case "BY": // Redirect is visitor from Sweden
+      case "CU": // Redirect is visitor from Norway
+      case "CD": // Redirect is visitor from FRANCE
+      case "IR": // Iran Redirect is visitor from POLAND
+      case "IQ": // Iraq Redirect is visitor from GERMANY
+      case "LR": // Liberia Redirect is visitor from GERMANY
+      case "KP": // North Korea Redirect is visitor from GERMANY
+      case "SS": // Sudan Redirect is visitor from GERMANY
+      case "SY": // Syria Redirect is visitor from GERMANY
+      case "ZW": // Zimbabwe Redirect is visitor from GERMANY
+        window.location.replace("https://razorops.com/no-service-country");
+        break;
+      default: 
+        return null;
+    }
+  }
+
+</script>
+
+
