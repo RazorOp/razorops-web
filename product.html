@@ -9,26 +9,56 @@ canonical_url: 'http://razorops.com/customers'
 <div class="customers-banner">
 	<img src="/images/v2/razorops-white-logo.png" height="45">
 	<h2>Simplest Container Native CI/CD Platform</h2>
-	<a href="" class=""></a>
 </div>
 
-<div class="blog-wraper">
-	<div class="container">
+<div class="container">
+	<div class="row">
+		
+		<div class="demo-img">
+			<center>
+				<h2>Product Overview</h2><br>
+			</center>
 
-        <div class="blog-post">
-	<p> Razorops is a complete container native CI/CD solution handling all aspects of the software lifecycle from the moment a commit is created until it is deployed to production.
+			<div class="demo-img">
+				<center>
+					<img src="/images/v2/razorops-demo-1.gif" class="img-responsive img-rounded">
+				</center>
+			</div>
+			
+			<p>
+				Razorops is a complete container native CI/CD solution handling all aspects of the software life cycle from the moment a commit is created until it is deployed to production.
+				<br>
+				Razorops has all the capabilities that you would expect from a CI/CD platform such as
+				<br>
+				1) Code compilation/build <br>
+				2) Artifact packaging <br>
+				3) Testing Automation(unit, integration, acceptance etc.) <br>
+				4) Faster builds and shipping to production
+			</p>
+			
 
-Razorops has all the capabilities that you would expect from a CI/CD platform such as
 
-* Code compilation/build
-* Artifact packaging
-* Testing Automation(unit, integration, acceptance etc.)
-* Faster builds and shipping to production
+		</div>
 
-Razorops is a single solution that implements the whole pipeline from start to deployment.
-</p>
+		<div id="how-it-works">
+			<center>
+				<h2>How it works</h2><br>
+				<img src="/images/v2/kubernetes-cd.png" class="img-responsive img-rounded">
+			</center>
+		</div>
+
+		
+
+		<div id="features">
+			{% include features.html %}
+		</div>
+
+		<div id="integrations">
+			<center>
+				<h2>Integrations</h2><br>
+			</center>
+			{% include integrations.html %}
+		</div>
+
+	</div>
 </div>
-</div></div>
-
-{% include clients_logos.html %}
-
