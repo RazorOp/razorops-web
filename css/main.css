@@ -1,24 +1,12 @@
 body {
-	/*font-family: 'Maven Pro';*/
-	/*font-family: "Lato";*/
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: Fakt, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 html,
 body {
 	height: 100%;
 	width: 100%;
 }
-/*@font-face {font-family: "Visby CF Medium";
-    src: url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.eot");
-    src: url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/7a959b5d6905b5b408a74c2bdaebb4cb.svg#Visby CF Medium") format("svg");
-}*/
 
-/*// $primary-color: #5449D2;*/
-/*// $secondary-color: #FE825A;*/
 /*---common----*/
 @media (min-width: 1400px) {
 	.container {
