@@ -8,35 +8,99 @@
 
 
 <url>
-  <loc>http://razorops.com/</loc>
-  <lastmod>2018-08-19T18:47:46+00:00</lastmod>
+  <loc>https://razorops.com/</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://razorops.com/kubernetes</loc>
-  <lastmod>2018-08-19T18:47:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>http://razorops.com/schedule-demo</loc>
-  <lastmod>2018-08-19T18:47:46+00:00</lastmod>
+  <loc>https://razorops.com/product</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://razorops.com/about/</loc>
-  <lastmod>2018-08-19T18:47:46+00:00</lastmod>
+  <loc>https://razorops.com/kubernetes</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://razorops.com/contact</loc>
-  <lastmod>2018-08-19T18:47:46+00:00</lastmod>
+  <loc>https://razorops.com/schedule-demo/</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://razorops.com/careers</loc>
-  <lastmod>2018-08-19T18:47:46+00:00</lastmod>
+  <loc>https://razorops.com/customers</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/pricing</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/about/</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/careers</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/contact</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/partners</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/faq</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/terms-of-service</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/privacy-policy</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/how-to-choose-your-kubernetes-deployment-platform/</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/principles-for-continuous-integration/</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/razorops-ci-cd-with-heroku-apps/</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/docker-cheat-sheet/</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/devops-glossary/</loc>
+  <lastmod>2019-05-23T10:59:53+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
