@@ -32,7 +32,7 @@ Deploying to heroku was super easy as it happen with just a git push, with razor
 4) Get one Razorops account here [https://dashboard.razorops.com](https://dashboard.razorops.com/users/sign_up)
 
 5) Connect your GIT provide account under integration: 
-[http://dashboard.razorops.com/integration](http://dashboard.razorops.com/integration)
+[https://dashboard.razorops.com/integration](http://dashboard.razorops.com/integration)
 
 6) Create a Pipeline on dashboard
 

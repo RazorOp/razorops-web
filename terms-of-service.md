@@ -3,7 +3,7 @@ title: Razorops Terms of service
 layout: default
 description: null
 keywords: null
-canonical_url: http://razorops.com/terms-of-services
+canonical_url: https://razorops.com/terms-of-services
 ---
 
 <h3>This Terms of service is effective as of June 15, 2018.</h3>
