@@ -86,7 +86,8 @@ ul li {font-size: 17px;}
 }
 .form-control:focus {
 	border-color: #ddd;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 }
 .navbar-default {
 	position: absolute;
@@ -155,21 +156,30 @@ ul li {font-size: 17px;}
 	line-height: 20px;
 	font-weight: 500;
 }
-.nav-dropdown:hover .dropdown-menu,
-.nav-dropdown:focus .dropdown-menu {
-	display: block;
+@media (min-width: 768px) {
+	.nav-dropdown:hover .dropdown-menu,
+	.nav-dropdown:focus .dropdown-menu {
+		display: block;
+	}
+	.nav-dropdown .dropdown-menu::before {
+		content:"";
+		position: absolute;
+		right: 18px;
+		top: -10px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 10px 10px 10px;
+		border-color: transparent transparent #ffffff transparent;
+		z-index:9999;
+	}
 }
-.nav-dropdown .dropdown-menu::before {
-	content:"";
-	position: absolute;
-	right: 18px;
-	top: -10px;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 10px 10px 10px;
-	border-color: transparent transparent #ffffff transparent;
-	z-index:9999;
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		display: block;
+		color: #fff;
+		text-align: center;
+	}
 }
 /*----footer----*/
 .footer {
@@ -259,7 +269,7 @@ ul li {font-size: 17px;}
 	border-radius: 2px;
 }
 .banner {
-	min-height: 400px;
+	min-height: 100vh;
 	height: 100%;
 	position: relative;
 	background: rgb(32,23,175);
@@ -269,7 +279,7 @@ ul li {font-size: 17px;}
 .banner-msg {
 	position: relative;
 	padding: 20px 0;
-	width: 50%;
+	width: 48%;
 	float: left;
 }
 .banner-msg p {
@@ -278,7 +288,8 @@ ul li {font-size: 17px;}
 	font-size: 26px;
 }
 .btn {
-	box-shadow: 0 2px 2px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.15);
+	        box-shadow: 0 2px 2px rgba(0,0,0,.15);
 }
 .banner-actions {
 	margin-top: 50px;
@@ -334,9 +345,6 @@ ul li {font-size: 17px;}
 	animation: .9s ease-out 0s 1 slideInFromBottom;
 	-webkit-animation: .9s ease-out 0s 1 slideInFromBottom;
 	-webkit-animation-fill-mode: both;
-	-moz-animation-fill-mode: both;
-	-ms-animation-fill-mode: both;
-	-o-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
 .banner-illustration img:nth-child(1) {
@@ -344,19 +352,23 @@ ul li {font-size: 17px;}
 }
 .banner-illustration img:nth-child(2) {
   z-index: 2;
-  animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
 }
 .banner-illustration img:nth-child(3) {
 	z-index: 1;
-	animation-delay: .4s;
+	-webkit-animation-delay: .4s;
+	        animation-delay: .4s;
 }
 @keyframes slideInFromBottom {
   0% {
-    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
 		opacity:0;
   }
   100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
 		opacity:1;	
   }
 }
@@ -390,11 +402,61 @@ ul li {font-size: 17px;}
   width: 150px;
   margin-right: 10px;
 }
-
 .banner-clients a {
   text-decoration: none;
 }
-
+.banner {
+	position: relative;
+}
+.client-logo-wraper {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 3;
+	flex-wrap: wrap;
+}
+@media(max-width: 992px) {
+	.banner {
+		padding: 40px 0;
+		min-height: auto;
+		height: auto;
+	}
+	.client-logo-wraper {
+		position: relative;
+		bottom: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+.client-logo-item {
+	margin-right: 15px;
+}
+.client-logo-item img {
+	width: 80px;
+	height: 80px;
+}
+/* .client-logo-item-2 {
+	bottom: -240px;
+	left: 18%;
+}
+.client-logo-item-3 {
+	bottom: -200px;
+	left: 40%;
+}
+.client-logo-item-4 {
+	bottom: -290px;
+	left: 56%;
+}
+.client-logo-item-5 {
+	bottom: -240px;
+	right: 15%;
+}
+.client-logo-item-6 {
+	right: 10px;;
+} */
 .customers-banner{
   text-align: center;
 	padding: 150px 15px;
@@ -410,13 +472,21 @@ ul li {font-size: 17px;}
 }
 
 .client-images img {
-	width: 190px;
+	max-width: 190px;
 	height: 90px;
 	text-align: center;
 }
 @media(max-width: 767px) {
 	.customers-banner {
 		padding: 100px 15px;
+	}
+	.client-images img {
+		max-width: 150px;
+		height: 50px;
+		text-align: center;
+	}
+	.client-images {
+		text-align: center;
 	}
 }
 .customers-banner img {
@@ -812,11 +882,15 @@ ul li {font-size: 17px;}
   padding: 30px 0
 }
 .pricing-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 300px;
   margin: 0 auto;
   border: 0;
-  align-items: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 .pricing-tabs > li {
   width: 50%;
@@ -889,11 +963,13 @@ h4 {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  -webkit-transition: all .3s ease 0s;
   transition: all .3s ease 0s
 }
 
 .pricingTable:hover {
-  box-shadow: 0 0 5px #ddd inset, 0 0 10px #ddd;
+  -webkit-box-shadow: 0 0 5px #ddd inset, 0 0 10px #ddd;
+          box-shadow: 0 0 5px #ddd inset, 0 0 10px #ddd;
 }
 
 .pricingTable svg {
@@ -925,8 +1001,8 @@ h4 {
 .pricingTable .pricing-content ul li {
   font-size: 18px;
   line-height: 40px;
-  text-transform: capitalize
-  color: #000;
+  text-transform: capitalize;
+  color: #000
 }
 
 .pricingTable .pricingTable-signup {
@@ -939,11 +1015,13 @@ h4 {
   font-weight: 600;
   color: #fff;
   position: relative;
+  -webkit-transition: all .3s ease 0s;
   transition: all .3s ease 0s
 }
 
 .pricingTable:hover .pricingTable-signup{
-  box-shadow: 0 0 10px #ae003d
+  -webkit-box-shadow: 0 0 10px #ae003d;
+          box-shadow: 0 0 10px #ae003d
 }
 
 .pricingTable .pricingTable-signup:hover {
@@ -960,7 +1038,8 @@ h4 {
 }
 
 .pricingTable.green:hover .pricingTable-signup {
-  box-shadow: 0 0 10px #57bc80
+  -webkit-box-shadow: 0 0 10px #57bc80;
+          box-shadow: 0 0 10px #57bc80
 }
 
 .pricingTable.green .pricingTable-signup:hover {
@@ -976,7 +1055,8 @@ h4 {
 }
 
 .pricingTable.blue:hover .pricingTable-signup {
-  box-shadow: 0 0 10px #2b49b2
+  -webkit-box-shadow: 0 0 10px #2b49b2;
+          box-shadow: 0 0 10px #2b49b2
 }
 
 .pricingTable.blue .pricingTable-signup:hover {
