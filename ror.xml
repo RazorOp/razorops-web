@@ -1,71 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://razorops.com/</title>
-  <link>http://razorops.com/</link>
+  <title>ROR Sitemap for https://razorops.com/</title>
+  <link>https://razorops.com/</link>
 
 <item>
-     <link>http://razorops.com/</link>
-     <title>Build, Test, Deploy Your Container native applications | RazorOps</title>
-     <description>Automate your code build to test to production across environments, apps in few steps.</description>
+     <link>https://razorops.com/</link>
+     <title>Continuous Integration &amp;amp; Deployment | Razorops</title>
+     <description>Razorops is a container native CI/CD platform to automate testing and deployment across the environments in few steps.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://razorops.com/kubernetes</link>
-     <title>Continuous delivery simplified on kubernetes | RazorOps</title>
-     <description>Automate your code to test to production across environments, apps in few steps.</description>
+     <link>https://razorops.com/product</link>
+     <title>Razorops Customers | Razorops</title>
+     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://razorops.com/index</link>
-     <title>Build, Test, Deploy Your Container native applications | RazorOps</title>
-     <description>Automate your code build to test to production across environments, apps in few steps.</description>
+     <link>https://razorops.com/kubernetes</link>
+     <title>Continuous Integration &amp;amp; Deployment with | Razorops</title>
+     <description>Razorops is a container native CI/CD platform to automate testing and deployment across the environments in few steps.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://razorops.com/schedule-demo</link>
-     <title>Schedule Demo | RazorOps</title>
-     <description>Schedule Demo</description>
+     <link>https://razorops.com/schedule-demo/</link>
+     <title>Razorops Demo | Razorops</title>
+     <description>Razopos demo with Shyam</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://razorops.com/about/</link>
-     <title>About Razorops | RazorOps</title>
-     <description>RazorOps is a complete container native CI/CD solution.</description>
+     <link>https://razorops.com/customers</link>
+     <title>Razorops Customers | Razorops</title>
+     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://razorops.com/contact</link>
-     <title>Contact | RazorOps</title>
-     <description>Conatct RazorOps for any Support</description>
+     <link>https://razorops.com/pricing</link>
+     <title>Razorops Pricing and Plans | Razorops</title>
+     <description>First 5000 build min. Free, Start with Free Plan, Scale when you feel, No credit card required.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://razorops.com/careers</link>
-     <title>Careers | RazorOps</title>
-     <description>join razorops team</description>
+     <link>https://razorops.com/about/</link>
+     <title>Razorops About | Razorops</title>
+     <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://razorops.com/index.html</link>
-     <title>Build, Test, Deploy Your Container native applications | RazorOps</title>
-     <description>Automate your code build to test to production across environments, apps in few steps.</description>
+     <link>https://razorops.com/careers</link>
+     <title>Razorops Careers | Razorops</title>
+     <description>Come and join razorops team of passionate system engineer to help us build great developer tools on devops platform.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/contact</link>
+     <title>Razorops Contact | Razorops</title>
+     <description>Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/partners</link>
+     <title>Razorops Customers | Razorops</title>
+     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog</link>
+     <title>Razorops Blog | Razorops</title>
+     <description>Learn how to achieve continuous delivery to Kubernetes with Helm, Istio, Selenium testings, security testing, performance testing, and more.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/faq</link>
+     <title>Razorops Pricing and Plans | Razorops</title>
+     <description>First 5000 build min. Free, Start with Free Plan, Scale when you feel, No credit card required.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/terms-of-service</link>
+     <title>Razorops Terms of service | Razorops</title>
+     <description>Continuous integration and delivery simplified for Containers</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/privacy-policy</link>
+     <title>Privacy Policy | Razorops</title>
+     <description>Continuous integration and delivery simplified for Containers</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/how-to-choose-your-kubernetes-deployment-platform/</link>
+     <title>How to choose kubernetes deployment platform | Razorops</title>
+     <description>Deploying to heroku was super easy as it happen with just a git push, with razorops you can add CI/CD support to your Heroku apps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/principles-for-continuous-integration/</link>
+     <title>Principles for Continuous Integration | Razorops</title>
+     <description>Principles for Continuous Integration includes few best practices, this help DevOps team to streamline delivery process.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/razorops-ci-cd-with-heroku-apps/</link>
+     <title>Razorops CI/CD with heroku apps | Razorops</title>
+     <description>Deploying to heroku was super easy as it happen with just a git push, with razorops you can add CI/CD support to your Heroku apps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/docker-cheat-sheet/</link>
+     <title>Docker Cheat Sheet | Razorops</title>
+     <description>Developers can build any app in any language using any toolchain. “Dockerized” apps are completely portable and can run anywhere</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/devops-glossary/</link>
+     <title>DevOps Glossary | Razorops</title>
+     <description>A precursor to Devops; Agile is a software development and, more broadly, business methodology that emphasizes short, iterative planning and development</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>

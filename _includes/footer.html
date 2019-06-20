@@ -12,28 +12,17 @@
           <!-- <li><a href="/docker">Docker CI/CD</a></li> -->
           <li><a href="/kubernetes">Kubernetes GitOps</a></li>
           <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/schedule-demo">Schedule Demo</a></li>
+        
+
         </ul>
       </div>
-
-      <!-- <div class="col-md-3 footer-item">
-        <div class="address-wraper">
-          <h2 class="cta__title">Razorops, Inc.</h2>
-          3975 Freedom Cir, <br>
-          Suite 800,Santa Clara, <br>
-          California, United States 95054
-          <br>
-          Email: support@razorops.com
-          <br>
-          Phone: +1 &nbsp;&nbsp;(916) 620 9556 (US)<br>
-        </div>
-      </div> -->
-
-      
 
       <div class="col-md-3 footer-item">
         <h2 class="cta__title">COMPANY</h2>
         <ul class="footer-nav">
           <li><a href="/about" title="About" >About Us</a></li>
+          <li><a href="/customers">Customers</a></li>
           <li><a href="/careers">We are Hiring!</a></li>
           <li><a href="/contact" title="Conatct">Contact Us</a></li>
           <li><a href="/partners">Partner With Us</a></li>
@@ -45,11 +34,8 @@
         <ul class="footer-nav">
           <li><a href="/blog">Blog</a></li>
           <li><a href="https://docs.razorops.com/" target="_blank">Docs</a></li>
-          
-          <li><a href="/customers">Customers</a></li>
-          <!-- <li><a href="/case-studies">Case Studies</a></li> -->
-          <!-- <li><a href="/screencasts">Screencasts</a></li> -->
-          
+          <li><a href="https://docs.razorops.com/introduction/getting-started.html" target="_blank">Getting Started</a></li>
+
         </ul>
       </div>
 
@@ -57,14 +43,9 @@
         <h2 class="cta__title">SUPPORT</h2>
         <ul class="footer-nav">
           <li><a href="/faq" title="FAQ" >FAQ</a></li>
-          <!-- <li><a href="http://doc.razorops.com/" target="_blank">Knowledge base</a></li> -->
-          <!-- <li><a href="/security">Security</a></li> -->
           <li><a href="/terms-of-service">Terms of Service</a></li>
           <li><a href="/privacy-policy">Privacy Policy</a></li>
-          <!-- <li><a href="/sla">SLA</a></li> -->
         </ul>
-
-        
       </div>
     </div>
   </div>
@@ -172,3 +153,37 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+
+
+<!-- ip detection -->
+<script type="text/javascript">
+  
+  $.get("https://ipinfo.io", function (response) {
+      console.log(response.ip);
+      console.log(response.country);
+      geo(response);
+  }, "jsonp");
+
+  function geo(response) {
+    switch (response.country)
+    {
+      case "BY": // Redirect is visitor from Belarus
+      case "CU": // Redirect is visitor from  Cuba
+      case "CD": // Redirect is visitor from Congo, Democratic Republic of the
+      case "IR": // Iran Redirect is visitor from IRAN
+      case "IQ": // Iraq Redirect is visitor from IRAQ
+      case "LR": // Liberia Redirect is visitor from  Liberia
+      case "KP": // North Korea Redirect is visitor from Notrth Korea
+      case "SS": // Sudan Redirect is visitor from  South Sudan
+      case "SY": // Syria Redirect is visitor from Syrian Arab Republic
+      case "ZW": // Zimbabwe Redirect is visitor from Zimbabwe
+        window.location.replace("https://razorops.com/no-service-country");
+        break;
+      default: 
+        return null;
+    }
+  }
+
+</script>
+
+

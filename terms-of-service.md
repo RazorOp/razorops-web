@@ -3,7 +3,7 @@ title: Razorops Terms of Service
 layout: default
 description: null
 keywords: null
-canonical_url: http://razorops.com/terms-of-services
+canonical_url: https://razorops.com/terms-of-services
 ---
 
 <div class="f6 f5-m ph3 ph4-m pv4 pv5-m">

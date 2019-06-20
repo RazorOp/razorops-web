@@ -8,6 +8,27 @@ body {
 }
 
 /*---common----*/
+.btn-primary {
+	background-color: #340068;
+	color: #fff;
+	border-color: #340068;
+}
+.btn {
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.15);
+	        box-shadow: 0 2px 2px rgba(0,0,0,.15);
+}
+.btn.btn-rounded {
+	border-radius: 21px !important;
+}
+.btn-lg.btn.btn-rounded {
+	border-radius: 23px !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #470FF4;
+	color: #fff;
+	border-color: #470FF4;
+}
 @media (min-width: 1400px) {
 	.container {
 		width: 1360px;
@@ -64,7 +85,29 @@ ul li {font-size: 17px;}
 .mt-80{
 	margin-top: 100px;
 }
-
+.pr-4 {
+	padding-right: 25px !important;
+}
+.pl-4 {
+	padding-left: 25px !important;
+}
+.mr-4 {
+	margin-right: 20px;
+}
+.btn-success-outline {
+	border: 2px solid #5cb85c;
+	background-color: #fff;
+	color: #5cb85c;
+}
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline:active {
+	background-color: #5cb85c;
+	color: #fff;
+}
+.bg-white {
+	background-color: #fff;
+}
 /*--end-----*/
 .section-header h2 {
 	font-size: 30px;
@@ -109,6 +152,10 @@ ul li {font-size: 17px;}
 	padding-top: 10px !important;
   font-size: 16px;
   font-weight: 600px;
+}
+.navbar-default .navbar-nav > li > .btn {
+	padding: 6px 12px;
+	font-size: 14px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -227,13 +274,9 @@ ul li {font-size: 17px;}
 	margin-top: 0;
 	margin-bottom: 15px;
 }
-
 .footer-item a {
 	text-decoration: none;
 }
-
-
-
 .lower-footer{
  	color: #253858;
  }
@@ -252,28 +295,6 @@ ul li {font-size: 17px;}
 	margin-right: 8px;
 }
 /*---end---*/
-
-.btn-primary {
-	background-color: #340068;
-	color: #fff;
-	border-color: #340068;
-}
-
-.btn-success {
-	border-radius: 50px !important;
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-	background-color: #470FF4;
-	color: #fff;
-	border-color: #470FF4;
-}
-.btn {
-	height: 42px;
-	padding: 10px 12px;
-	border-radius: 2px;
-}
 .banner {
 	min-height: 100vh;
 	height: 100%;
@@ -293,12 +314,11 @@ ul li {font-size: 17px;}
 	font-weight: 400;
 	font-size: 26px;
 }
-.btn {
-	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.15);
-	        box-shadow: 0 2px 2px rgba(0,0,0,.15);
-}
 .banner-actions {
 	margin-top: 50px;
+}
+.banner-actions .btn {
+	height: 43px;
 }
 .btn-banner-primary,
 .btn-banner-secondary {
@@ -922,7 +942,7 @@ section.pricing {
 }
 
 .pricing .card-price .period {
-  font-size: 0.8rem;
+  font-size: 1.6rem;
 }
 
 .pricing ul li {
@@ -934,7 +954,11 @@ section.pricing {
 }
 
 .pricing .btn {
-  font-size: 80%;
+	display: block;
+	max-width: 300px;
+	margin: 0 auto;
+	height: 38px;
+  font-size: 90%;
   border-radius: 5rem;
   letter-spacing: .1rem;
   font-weight: bold;
