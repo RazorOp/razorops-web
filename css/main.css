@@ -157,6 +157,12 @@ ul li {font-size: 17px;}
 	padding: 6px 12px;
 	font-size: 14px;
 }
+@media(max-width: 991px) {
+	.navbar-default .navbar-nav > li > .btn {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: #fff;
@@ -562,7 +568,10 @@ ul li {font-size: 17px;}
 		font-size: 22px;
 	}
 	.banner-actions .btn {
+		display: block;
 		width: 100% !important;
+		max-width: 300px;
+		margin: 0 auto 15px;
 	}
 }
 /*------how-it-works----*/
