@@ -271,7 +271,7 @@ ul li {font-size: 17px;}
 }
 .btn {
 	height: 42px;
-	padding: 10px 12px;
+	padding: 12px 12px;
 	border-radius: 2px;
 }
 .banner {
@@ -922,7 +922,7 @@ section.pricing {
 }
 
 .pricing .card-price .period {
-  font-size: 0.8rem;
+  font-size: 1.6rem;
 }
 
 .pricing ul li {
@@ -934,7 +934,8 @@ section.pricing {
 }
 
 .pricing .btn {
-  font-size: 80%;
+	height: 38px;
+  font-size: 90%;
   border-radius: 5rem;
   letter-spacing: .1rem;
   font-weight: bold;
