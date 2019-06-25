@@ -1,8 +1,7 @@
 ---
 title: Kubernets Cheat Sheet
-description: Developers can build any app in any language using any toolchain. “Dockerized”
-  apps are completely portable and can run anywhere
-keywords: Why Docker, Installation, Dockerfile, Layers
+description: Kubernets Cheat Sheet for quick learning
+keywords: kubectl, kubernetes, cheat sheet, Commands, deployment, namespace, healthcheck
 permalink: "/blog/:title/"
 layout: post
 date: '2018-10-15 14:15:43'
