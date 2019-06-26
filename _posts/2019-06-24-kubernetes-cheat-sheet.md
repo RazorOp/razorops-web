@@ -1,6 +1,6 @@
 ---
 title: Kubernets Cheat Sheet
-description: Kubernets Cheat Sheet for quick learning
+description: Kubernetes is an open-source container-orchestration system for automating application deployment, scaling, and management. It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation.
 keywords: kubectl, kubernetes, cheat sheet, Commands, deployment, namespace, healthcheck
 permalink: "/blog/:title/"
 layout: post
@@ -26,6 +26,9 @@ table {
 }
 </style>
 ![](/images/blog/kubernetes-cheat-sheet.png)
+
+
+Kubernetes is an open-source container-orchestration system for automating application deployment, scaling, and management. It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation.
 
 <div id="outline-container-org0305d46" class="outline-3">
 <h2>Common Commands</h2>

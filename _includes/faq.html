@@ -8,6 +8,35 @@
 <div class="panel-group" id="faqAccordion">
 
 	<div class="panel panel-default panel-faq">
+		<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+			<h4 class="panel-title">
+				<a href="javascript:void(0)" class="ing" data-toggle="collapse"
+				 data-target="#question2">Q: How do I get started?</a>
+			</h4>
+		</div>
+
+		<div id="question2" class="panel-collapse collapse" style="height: 0px;">
+			<div class="panel-body">
+				<h5><span class="label label-primary">Answer</span></h5>
+				<p>
+					Getting Stared with Razorops is easy, you can have a look quick look on
+					<a href="https://docs.razorops.com/introduction/getting-started.html">Documents</a> and signup for razorops.
+					<ol>
+						<li><a href="https://dashboard.razorops.com" target="_blank"><b>Signup</b> </a>Razorops</li>
+						<li>Create Pipeline</li>
+						<li>Add .razorops.yaml to your source code rood dir</li>
+						<li>Define your Pipeline <a href="https://docs.razorops.com/configuration/concepts.html#pipeline"> (Click here to Learn Pipeline)</a></li>
+						<li>Commit and push your source code</li>
+						<li>This new commit will trigger your pipeline</li>
+					</ol>
+				</p>
+				<img src="/images/pipeline-dashboard.png" class="img-responsive" alt="razorops pipeline dashboard">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="panel panel-default panel-faq">
 		<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
 			<h4 class="panel-title">
 				<a href="javascript:void(0)" class="ing" data-toggle="collapse"
@@ -20,32 +49,21 @@
 		<div id="question1" class="panel-collapse collapse" style="height: 0px;">
 			<div class="panel-body">
 				<h5><span class="label label-primary">Answer</span></h5>
-				<p>
-					Razorops supports major code-hosting services like GitHub, Bitbucket and GitLAb. 
-					You can find <a href="https://github.com/apps/razorops-ci-cd" target="_blank">Razorops</a> at Github marketplace as well.
+				<p>Razorops supports major code-hosting services like GitHub, Bitbucket and Gitlab
+					<img src="/images/razorops-git-integration.png" class="img-responsive" alt="razorops git integration">
 				</p>
-				<img src="/images/razorops-git-integration.png" class="img-responsive" alt="razorops git integration">
+				<p>
+					<b>You can find Razorops at <a href="https://github.com/apps/razorops-ci-cd" target="_blank">Github marketplace</a> as well.
+				</p>
+				<a href="https://github.com/apps/razorops-ci-cd" target="_blank"> <img src="/images/razorops-github-marketplace.png" class="img-responsive" alt="razorops github marketplace"></a>
+					
 			</div>
 		</div>
 	</div>
 
-	<div class="panel panel-default panel-faq">
-		<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
-			<h4 class="panel-title">
-				<a href="javascript:void(0)" class="ing" data-toggle="collapse"
-				 data-target="#question2">Q:
-					How does per-minute pricing work?</a>
-			</h4>
-		</div>
+	
 
-		<div id="question2" class="panel-collapse collapse" style="height: 0px;">
-			<div class="panel-body">
-				<h5><span class="label label-primary">Answer</span></h5>
-				<p>You are charged based on the time it takes your code to execute. You can find time next to your build process.</p>
-				<img src="/images/build-time.png" class="img-responsive" alt="razorops build time">
-			</div>
-		</div>
-	</div>
+
 
 	<div class="panel panel-default panel-faq">
 		<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">

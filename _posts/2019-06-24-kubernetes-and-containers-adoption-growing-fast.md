@@ -1,6 +1,6 @@
 ---
 title: Kubernetes and containers adoption growing fast
-description: Kubernetes and containers adoption growing fast in the last few years.
+description: Kubernetes and containers adoption growing fast in the last few years. The reason for the relative jump in Kubernetes adoption is because more organizations are starting their container journey with Kubernetes as part of their toolkit.
 keywords: Kubernetes, containers, Cloud-native, microservices, infrastructure, development
 permalink: "/blog/:title/"
 layout: post
