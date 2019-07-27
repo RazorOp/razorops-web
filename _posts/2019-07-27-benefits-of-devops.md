@@ -2,11 +2,7 @@
 title: Benefits of DevOps
 description: DevOps practices come with a range of benefits, some of which – including
   greater efficiency, security, and organizational collaboration.
-keywords: why devops, devops benefits, benefits of devops, devops advantages, advantages
-  of devops, devops model, devops technical benefits, devops cultural benefits, devops
-  business benefits, devops deployment, devops automation, devops communication, devops
-  collaboration, devops continuous delivery, devops continuous integration, devops
-  integration, why devops
+keywords: Benefits of DevOps, DevOps Toolkit, Automation, Continuous Integration, Continuous Development, DevOps Technical benefits, DevOps Cultural benefits, DevOps Business benefits, communication
 permalink: "/blog/:title/"
 layout: post
 date: '2018-11-20 14:15:43'
@@ -31,6 +27,8 @@ DevOps is a culture where full development team works together to complete softw
 
 **Technical benefits:**
 
+![](/images/blog/devops-technical-benefits.png)
+
 DevOps practices comes with a range of benefits, some of which – including greater efficiency, security, and organizational collaboration.
 
 * Better quality
@@ -41,11 +39,15 @@ DevOps practices comes with a range of benefits, some of which – including gre
 
 **Cultural benefits:**
 
+![](/images/blog/devops-cultural-benefits.png)
+
 * Happier, more productive teams
 * Higher employee engagement
 * Greater professional development opportunities
 
 **Business benefits:**
+
+![](/images/blog/devops-business-benefits.png)
 
 * Faster delivery of features
 * More stable operating environments
