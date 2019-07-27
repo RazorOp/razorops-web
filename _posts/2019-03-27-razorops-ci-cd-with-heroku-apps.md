@@ -7,8 +7,8 @@ permalink: "/blog/:title/"
 layout: post
 date: '2018-08-15 14:15:43'
 author: Shyam Mohan
-category: Heroku
-image: /images/blog/razorops-heroku.png
+category: Continuous Integration
+image: "/images/blog/razorops-heroku.png"
 ---
 
 <img src="/images/blog/razorops-heroku.png" />

@@ -1,13 +1,16 @@
 ---
 title: DevOps Glossary
-description: A precursor to Devops; Agile is a software development and, more broadly, business methodology that emphasizes short, iterative planning and development
-keywords: Agile Organization, Automation,cloud computing platform,Behavior Driven Development,Configuration Management,Grafana,Continuous Delivery,Openstack,Unit Testing
+description: A precursor to Devops; Agile is a software development and, more broadly,
+  business methodology that emphasizes short, iterative planning and development
+keywords: Agile Organization, Automation,cloud computing platform,Behavior Driven
+  Development,Configuration Management,Grafana,Continuous Delivery,Openstack,Unit
+  Testing
 permalink: "/blog/:title/"
 layout: post
 date: '2018-06-15 14:15:43'
 author: Shyam Mohan
-category: Docker
-image: /images/blog/razorops-devops.png
+category: DevOps
+image: "/images/blog/razorops-devops.png"
 ---
 
 ![](/images/blog/razorops-devops.png)
