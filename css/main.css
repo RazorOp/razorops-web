@@ -817,6 +817,13 @@ ul li {font-size: 17px;}
 	font-size: 17px;
 }
 
+.discount10-yearly{
+	text-align: center;
+	text-transform: uppercase;
+	color: #13cb6e;
+	font-size: 14px;
+	font-weight: bold;
+}
 .plan-and-pricing {
 	border: 1px solid #EEE;
 	padding: 20px;
