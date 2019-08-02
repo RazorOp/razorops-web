@@ -57,7 +57,7 @@ h3,h4,h6 {
 }
 
 p {font-size: 15px;}
-ul li {font-size: 17px;}
+ul li {font-size: 16px;}
 
 .agile-group {
 	margin-left: 1px !important;
@@ -82,6 +82,9 @@ ul li {font-size: 17px;}
     width: 90%;
 }
 
+.mt-ve55{
+	margin-top: -55px;
+}
 .mt-80{
 	margin-top: 100px;
 }
@@ -258,7 +261,7 @@ ul li {font-size: 17px;}
 	list-style: none;
 }
 .footer-nav > li {
-  font-size: 17px;
+  font-size: 16px;
 	display: block;
 	margin-bottom: 4px;
 }
@@ -318,7 +321,7 @@ ul li {font-size: 17px;}
 .banner-msg p {
 	color: #fff;
 	font-weight: 400;
-	font-size: 26px;
+	font-size: 20px;
 }
 .banner-actions {
 	margin-top: 50px;
@@ -497,6 +500,16 @@ ul li {font-size: 17px;}
  	color: #FFF;
  	margin-top: -80px;
 }
+
+.auzmor-banner{
+  text-align: center;
+	padding: 150px 15px;
+	background-image: url("/images/clients/auzmor-love-razorops.png");
+ 	background-color: #FFF;
+ 	color: #FFF;
+}
+
+
 
 .client-images{
 	margin-top: 30px;
@@ -750,7 +763,7 @@ ul li {font-size: 17px;}
 }
 
 .integration-msg p {
-	font-size: 17px;
+	font-size: 16px;
 }
 /*-----docs----*/
 .content-wraper {
@@ -814,7 +827,7 @@ ul li {font-size: 17px;}
 	margin-top: -20px;
 	}
 .razorops-ci-cd p{
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .discount10-yearly{
@@ -835,7 +848,7 @@ ul li {font-size: 17px;}
 }
 
 .plan-and-pricing p {
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .demo-call-to-action {
@@ -898,6 +911,11 @@ ul li {font-size: 17px;}
 
 .blog-menu {
 
+}
+
+.latest-post-img {
+	width: 300px;
+	height: 200px;
 }
 
 
@@ -1101,7 +1119,7 @@ section.pricing {
 }
 .item blockquote p {
   display: inline;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .item blockquote small {

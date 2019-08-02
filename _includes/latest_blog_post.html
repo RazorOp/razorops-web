@@ -1,0 +1,22 @@
+<div class="features" id="features">
+	<div class="container">
+		<div class="row">
+			{% assign blogs = site.posts %} 
+      {% for post in blogs %}
+        <div class="col-sm-4">
+        	<center>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+              <img class="img-left img-fluid" src="{{ post.image }}" width="300px" height="150px" />
+              <br>
+              <h4 class="text-uppercase">{{ post.title }}</h4>
+              <p>{{ post.description }}</p>
+              <br>
+          </a>
+        	</center>
+        </div>
+      {% endfor %}
+		</div>
+	</div>
+</div>
+
+<div class="mt-80"></div>
