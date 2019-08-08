@@ -14,7 +14,9 @@ Kubernetes is an open-source container-orchestration system for automating appli
 
 <br><br>
 <center>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/ep6qb5hOwts?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ep6qb5hOwts?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 </center>
 <br><br>
 
