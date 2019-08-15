@@ -6,8 +6,8 @@
 
 <item>
      <link>https://razorops.com/</link>
-     <title>Continuous Integration &amp;amp; Deployment | Razorops</title>
-     <description>Razorops is a container native CI/CD platform to automate testing and deployment across the environments in few steps.</description>
+     <title>Container Native Continuous Integration &amp;amp; Deployment | Razorops</title>
+     <description>Razorops is a container native continuous integration and delivery platform to automate testing and deployment across the environments in few steps.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -22,8 +22,8 @@
 </item>
 <item>
      <link>https://razorops.com/kubernetes</link>
-     <title>Continuous Integration &amp;amp; Deployment with | Razorops</title>
-     <description>Razorops is a container native CI/CD platform to automate testing and deployment across the environments in few steps.</description>
+     <title>Kubernetes, Kubernetes docker | Razorops</title>
+     <description>Kubernetes in a simple term is a system for running and coordinating containerized applications across a collection of machines.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -46,8 +46,8 @@
 </item>
 <item>
      <link>https://razorops.com/pricing</link>
-     <title>Razorops Pricing and Plans | Razorops</title>
-     <description>First 5000 build min. Free, Start with Free Plan, Scale when you feel, No credit card required.</description>
+     <title>Razorops Plans and Pricing | Razorops</title>
+     <description>Start with Free Plan, Scale when you feel, No credit card required.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -93,6 +93,22 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/cicd-offers/</link>
+     <title>Razorops CD/CD Offers | Razorops</title>
+     <description>Building quality software and shipping it quickly has become the core requirement for each business. Razorops offers 3 month Risk FREE access to all the plans.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/open-source/</link>
+     <title>Razorops Open Source | Razorops</title>
+     <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/faq</link>
      <title>Razorops Pricing and Plans | Razorops</title>
      <description>First 5000 build min. Free, Start with Free Plan, Scale when you feel, No credit card required.</description>
@@ -102,7 +118,7 @@
 </item>
 <item>
      <link>https://razorops.com/terms-of-service</link>
-     <title>Razorops Terms of service | Razorops</title>
+     <title>Razorops Terms of Service | Razorops</title>
      <description>Continuous integration and delivery simplified for Containers</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -117,9 +133,65 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/blog/kubernetes-in-2-minutes/</link>
+     <title>Kubernetes in 2 minutes | Razorops</title>
+     <description>Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/kubernetes-101-and-infrastructure-support-around-it-by-shyam/</link>
+     <title>Kubernetes 101 and infrastructure support around it by Shyam | Razorops</title>
+     <description>Docker Inc. Hyderabad presents Kubernetes 101 and infrastructure support around it by Shyam from Razorops June 15, 2019.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/devops-for-startups/</link>
+     <title>DevOps for Startups | Razorops</title>
+     <description>DevOps practices come with a range of benefits, some of which – including greater efficiency, security, and organizational collaboration.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/benefits-of-devops/</link>
+     <title>Benefits of DevOps | Razorops</title>
+     <description>DevOps practices come with a range of benefits, some of which – including greater efficiency, security, and organizational collaboration.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/find-razorops-at-github-marketplace/</link>
+     <title>Find Razorops at Github marketplace | Razorops</title>
+     <description>GitHub Marketplace connects to developers who want to extend and improve their GitHub workflows. We have listed Razorops for developers to use it form GitHub Marketplace.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/kubernetes-cheat-sheet/</link>
+     <title>Kubernets Cheat Sheet | Razorops</title>
+     <description>Kubernetes is an open-source container-orchestration system for automating application deployment, scaling, and management. It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/kubernetes-and-containers-adoption-growing-fast/</link>
+     <title>Kubernetes and containers adoption growing fast | Razorops</title>
+     <description>Kubernetes and containers adoption growing fast in the last few years. The reason for the relative jump in Kubernetes adoption is because more organizations are starting their container journey with Kubernetes as part of their toolkit.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/blog/how-to-choose-your-kubernetes-deployment-platform/</link>
      <title>How to choose kubernetes deployment platform | Razorops</title>
-     <description>Deploying to heroku was super easy as it happen with just a git push, with razorops you can add CI/CD support to your Heroku apps.</description>
+     <description>There are some of the most important points while choosing kubernetes deployment platform. Production-Readiness, Future-Readiness, Ease of Management, Support, and Training</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -152,6 +224,14 @@
      <link>https://razorops.com/blog/devops-glossary/</link>
      <title>DevOps Glossary | Razorops</title>
      <description>A precursor to Devops; Agile is a software development and, more broadly, business methodology that emphasizes short, iterative planning and development</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/security</link>
+     <title>Razorops Customers | Razorops</title>
+     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
