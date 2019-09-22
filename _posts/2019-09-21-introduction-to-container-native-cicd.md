@@ -11,10 +11,13 @@ category: Continuous Integration
 image: "/images/blog/cicd/container-native-cicd-pipeline.png"
 ---
 
-<h2>What is Container Native</h2>
+<h3>What is Container Native</h3>
 
 
 **Software that treats the container as the first-class unit of infrastructure**
+
+<br>
+
 
 ![](/images/blog/cicd/container-native-cicd-pipeline.png)
 
