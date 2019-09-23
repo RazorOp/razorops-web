@@ -28,7 +28,7 @@ canonical_url: https://razorops.com/demo/
 			<b>Password : password</b>
 			</p>
 			<br>
-			<a href="/users/sign_in" class="btn btn-success btn-lg btn-rounded pr-4 pl-4 mr-4">Login In</a>
+			<a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-success btn-lg btn-rounded pr-4 pl-4 mr-4">Login In</a>
 
 			
 	</div>
