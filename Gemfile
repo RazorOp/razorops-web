@@ -11,11 +11,13 @@ gem "sinatra"
 gem "sinatra-cross_origin", "~> 0.3.1"
 gem "json"
 
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-admin"
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate"
+  gem 'jekyll-sitemap'
 end
 
 group :development, :test do

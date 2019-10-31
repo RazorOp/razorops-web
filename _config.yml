@@ -18,6 +18,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-admin
   - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
 
 jekyll_admin:
   hidden_links:

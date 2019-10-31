@@ -9,6 +9,7 @@ permalink: "/about/"
 canonical_url: https://razorops.com/about/
 ---
 
+
 Razorops is a complete container native CI/CD solution handling all aspects of the software lifecycle from the moment a commit is created until it is deployed to production.
 
 Razorops has all the capabilities that you would expect from a CI/CD platform such as
@@ -57,12 +58,17 @@ Razorops is a single solution that implements the whole pipeline from start to d
 * Email and Slack Integration -->
 
 
-## Our mission
-
-Automate and simplify scalable system deployment on any cloud
-
-
 
 ## Our Story
 
-Need of building quality software and shipping it quickly has become the core requirement for each business.  We designed and built Razorops platform for microservices and container native applications. Our main focus is to increase developer productivity and makes software development faster, easier and better, We utilize existing modern systems to achieve our goals.
+Need of building quality software and shipping it quickly has become the core requirement for each business. We designed and built Razorops platform for microservices and container native applications. Our main focus is to increase developer productivity and makes software development faster, easier and better, We utilize existing modern systems to achieve our goals.
+
+We started razorops in June, 2018 as two people and are now 10+ strong. which helps development teams to automate their CI/CD workflow and streamline delivery pipeline to various environments like QA, staging & production.
+
+<br>
+<br>
+<br>
+
+
+
+

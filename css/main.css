@@ -212,8 +212,8 @@ ul li {font-size: 16px;}
 	line-height: 20px;
 	font-weight: 500;
 }
-.navbar-default .navbar-nav>.open>a, 
-.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
 	background-color: transparent;
 	color: #fff;
@@ -375,7 +375,7 @@ ul li {font-size: 16px;}
 	left: 0px;
 	display: block;
 	margin: auto;
-	max-width: 100%;
+	max-width: 80%;
 	opacity: 0;
 	animation: .9s ease-out 0s 1 slideInFromBottom;
 	-webkit-animation: .9s ease-out 0s 1 slideInFromBottom;
@@ -404,14 +404,14 @@ ul li {font-size: 16px;}
   100% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-		opacity:1;	
+		opacity:1;
   }
 }
 @-webkit-keyframes slideInFromBottom {
 	0% {
 		opacity:0;
 		-webkit-transform: translateY(30%);
-	}    
+	}
 	100% {
 		-webkit-transform: translateY(0);
 		opacity: 1;
@@ -954,7 +954,7 @@ section.pricing {
 .pricing .card {
   border: none;
   transition: all 0.2s;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
   background: #FFF;
   padding: 15px;
 }
@@ -1158,7 +1158,7 @@ section.pricing {
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
-} 
+}
 
 .iframe-container iframe {
   position: absolute;

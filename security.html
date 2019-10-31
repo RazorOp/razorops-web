@@ -1,17 +1,67 @@
 ---
-layout: page
-title: Razorops Customers
-description: Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.
-keywords: Deployment Pipeline, Hosted Helm and docker Registries, Gitops, Automatic rollback, Code as configuration
+layout: default
+title: Razorops Security | Cloud Platform & Integration Security
+description: We fully understand and recognize, that the security of your source code as critical componant. Therefore we put lots of efforts to provide a secure infrastructure to use.
 canonical_url: 'http://razorops.com/security'
 ---
 
-<div class="customers-banner">
-	<img src="/images/v2/razorops-white-logo.png" height="45">
-	<h2>Cloud & Platform Integrations</h2>
-</div>
+<div class="f6 f5-m ph3 ph4-m pv4 pv5-m">
+<br>
+<p>We fully understand and recognize, that the security of your source code as critical componant. Therefore we put lots of efforts to provide a secure infrastructure to use.</p>
 
-<div class="container">
-	<hr><br><br>
-	{% include integrations.html %}
+<h3>Razorops System Security</h3>
+<p>
+
+All communication between your browser and our website is SSL encrypted.<br>
+For every project you add to Razorops we create an SSH Key that is itself encrypted strongly and only decrypted shortly before being used in the build process. builds are clean and each build we start with new docker instance. All changes you make (including file system changes) are stored in a tmp disk which is removed as soon as your build finishes (tests and deployment). None of your data is ever stored on any hard drive on our build servers.
+</p>
+
+<h3>Can Razorops Read My Code?</h3>
+<p>We have no direct access to your source control but our engineering team can see your builds and build logs, as well as account information.</p>
+
+<h3>What Kind Of Access Razorops Needs to my Source Code Management?</h3>
+<p>
+
+Currently we support GitHub, GitLab, and Bitbucket to run your tests, we need to check out your code from your source code provider. you can signup to <a href="https://dashboard.razorops.com/" traget="_blank"> Razorops Dashboard </a> and connect you SCM providers under integration section.
+<br>
+You can revoke permission in your source code provider settings and by removing form integration section.
+</p>
+
+
+<!-- <h3>Is Razorops GDPR Compliant?</h3>
+<p>Yes, We comply with GDPR as a controller. See more on the <a href="/gdpr"> GDPR </a> page.</p> -->
+
+<h3>What Services Does Razorops Use?</h3>
+<p>Our whole infrastructure is based on Google Cloud or services built on top of it. GCP is one of the most trusted, tried and tested hosting services out there. The services we use are:
+<br>
+1) Google Kubernetes Engine
+<br>
+2) Google Container Registry
+<br>
+3) Many More.
+
+<br>
+<br>
+<b>Note:</b> Although we do have access to your source code, as outlined in our Terms of Service, we only access it for a build. We do not have any way to access your source code repository outside of our build environment.
+<br>
+<br>
+</p>
+
+<h3>Does Razorops Save My Code?</h3>
+<p>Razorops never takes ownership of your code or files. All builds run on containers that are shut down at the end of your build, with your cloned repository and generated assets never persisted between builds.</p>
+
+
+<h3>Does Razorops Conduct External Security Audits?</h3>
+<p>Yes, from time to time Razorops hires external parties to examine and audit current security practices.</p>
+
+<h3>Does Razorops Use External Contractors?</h3>
+<p>For various roles, Razorops will hire part-time workers or 3rd party contractors.
+<br>All employees - full time, part time or external - are given appropriately limited resource access and security requirements.</p>
+
+<h3>How Can I Get In Touch About Security?</h3>
+<p>If you have any further questions you can send an email to support@razorops.com.</p>
+<br>
+<br>
+<br>
+<br>
 </div>
