@@ -65,14 +65,10 @@ ul li {font-size: 16px;}
 
 .demo-img{
 	margin-top: 35px;
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 }
 
-.demo-img img{
-	border: 2px solid #f3f5f9;
-	border-radius: 10px;
-	width: 80%
-}
+
 
 
 .center {
@@ -1154,21 +1150,27 @@ section.pricing {
   text-align: justify;
 }
 
-.iframe-container {
+
+.video-container {
   overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
+
+position: relative;
+
+text-align: center !important;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+margin-left: 18%;
 }
 
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 0;
-  width: 100%;
-  height: 100%;
-}
-
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 60%;
+	}
 
 /* partners */
 

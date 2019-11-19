@@ -61,7 +61,7 @@ Razorops is a single solution that implements the whole pipeline from start to d
 
 ## Our Story
 
-Need of building quality software and shipping it quickly has become the core requirement for each business. We designed and built Razorops platform for microservices and container native applications. Our main focus is to increase developer productivity and makes software development faster, easier and better, We utilize existing modern systems to achieve our goals.
+Need of building quality software and shipping it quickly has become the core requirement for each business. We designed and built Razorops platform for microservices and container native applications. Our main focus is to increase developer productivity and makes software deployment faster, easier and better, We utilize existing modern systems to achieve our goals.
 
 We started razorops in June, 2018 as two people and are now 10+ strong. which helps development teams to automate their CI/CD workflow and streamline delivery pipeline to various environments like QA, staging & production.
 
