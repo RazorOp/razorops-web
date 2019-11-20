@@ -13,6 +13,10 @@ body {
 	color: #fff;
 	border-color: #340068;
 }
+
+.btn-info{
+
+}
 .btn {
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.15);
 	        box-shadow: 0 2px 2px rgba(0,0,0,.15);
@@ -833,8 +837,21 @@ ul li {font-size: 16px;}
 	font-size: 14px;
 	font-weight: bold;
 }
-.plan-and-pricing {
+
+.free-plan{
 	border: 1px solid #EEE;
+}
+
+.price-ul{
+	list-style-type: none;
+}
+
+.awards{
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.plan-and-pricing {
 	padding: 20px;
 	margin-bottom: 30px;
 	color: #000;
@@ -942,10 +959,10 @@ ul li {font-size: 16px;}
 
 /*----pricing----*/
 
-section.pricing {
-  background: #f6f8f6;
+/*section.pricing {*/
+  /*background: #f6f8f6;*/
   /*background: linear-gradient(to right, #0062E6, #33AEFF);*/
-}
+/*}*/
 
 .pricing .card {
   border: none;
