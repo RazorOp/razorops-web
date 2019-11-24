@@ -8,6 +8,16 @@ body {
 }
 
 /*---common----*/
+.searchbox{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 20px;
+}
+.searchbox .form-control {
+  border-radius: 21px;
+  height: 40px;
+}
+
 .btn-animated {
   -webkit-animation: glowing 1500ms infinite;
   -moz-animation: glowing 1500ms infinite;
