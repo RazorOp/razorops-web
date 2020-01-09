@@ -39,7 +39,7 @@ Deploying to heroku was super easy as it happen with just a git push, with razor
 ![](/images/blog/razorops-pipeline.png)
 
 
-7) Edit your pipeline and add your heroku HEROKU_API_TOKEN and HEROKU_APP_NAME environment variables
+7) Edit your pipeline and add your heroku HEROKU_API_KEY and HEROKU_APP_NAME environment variables
 
 ![](/images/blog/edit-razorops-pipeline.png)
 
@@ -49,11 +49,9 @@ Add a **.razorops.yaml** in your project's root directory
 tasks:
 
   deploy:
-    type: deploy
-    kind: heroku
-    app:  $(HEROKU_APP_NAME)
-    token: $(HEROKU_API_TOKEN)
-  when: branch == 'staging'
+    image: buildpack-deps:trusty
+    commands:
+      - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
 
 ```
 
@@ -61,7 +59,7 @@ Razorops will trigger pipeline if code is pushed to staging branch.
 
 Razorops will deploy staging branch to heroku. 
 
-More details [https://docs.razorops.com/lgfm/ruby.html](https://docs.razorops.com/lgfm/ruby.html)
+More details [https://docs.razorops.com/languages/ruby.html](https://docs.razorops.com/languages/ruby.html)
 
 
 {% include schedule-demo.html %}
