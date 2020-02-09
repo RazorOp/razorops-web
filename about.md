@@ -1,8 +1,7 @@
 ---
 title: Razorops | About
 layout: default
-description: Razorops is a complete container native CI/CD solution. In a similar
-  manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.
+description: Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.
 keywords: Container Native, Docker, kubernetes,Ci and Cd, Devops,Kubernetes,Docker
   Container
 permalink: "/about/"
@@ -57,16 +56,45 @@ Razorops is a single solution that implements the whole pipeline from start to d
 * Freestyle build steps to support custom CI/CD scripting
 * Email and Slack Integration -->
 
+## Our Mission
+
+Our main focus is to increase developer productivity and makes software deployment faster, easier and better.
 
 
 ## Our Story
 
-Need of building quality software and shipping it quickly has become the core requirement for each business. We designed and built Razorops platform for microservices and container native applications. Our main focus is to increase developer productivity and makes software deployment faster, easier and better, We utilize existing modern systems to achieve our goals.
+We started razorops as two people and are now 10+ strong. which helps development teams to automate their CI/CD workflow and streamline delivery pipeline to various environments like QA, staging & production.
 
-We started razorops in June, 2018 as two people and are now 10+ strong. which helps development teams to automate their CI/CD workflow and streamline delivery pipeline to various environments like QA, staging & production.
+Need of building quality software and shipping it quickly has become the core requirement for each business. We designed and built Razorops platform for microservices and container native applications. We utilize existing modern systems to achieve our goals.
 
 <br>
-<br>
+## RazorOps Team
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+<div class="col-sm-4">
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="shyam-mohan-k">
+        <a class="LI-simple-link" href='https://in.linkedin.com/in/shyam-mohan-k' target="_blank">Shyam Mohan</a>
+    </div>
+</div>
+
+<div class="col-sm-4">
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="shyam-mohan-k">
+        <a class="LI-simple-link" href='https://www.linkedin.com/in/dineshsinghyadav' target="_blank">Dinesh Singh Yadav</a>
+    </div>
+</div>
+
+<div class="col-sm-4">
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="shyam-mohan-k">
+    <a class="LI-simple-link" href='https://www.linkedin.com/in/vinay-kumar-iiith' target="_blank">Vinay Kumar</a>
+    </div>
+</div>
+
+<div class="col-sm-4">
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="shyam-mohan-k">
+    <a class="LI-simple-link" href='https://www.linkedin.com/in/deepakvig' target="_blank">Deepak Vig</a>
+    </div>
+</div>
+<div class="clearfix"></div>
 <br>
 
 
