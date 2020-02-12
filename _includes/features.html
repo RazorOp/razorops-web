@@ -1,62 +1,106 @@
 <br><br>
 <div class="section-header"><h2>RazorOps Features</h2></div>
-<div class="features mt-80 mb-80" id="features">
+<br>
+
+<div class="home-feature">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<div class="feature-item">
-					<div class="feature-item-msg">
-						<h4>Container Native</h4>
-						<p>Get fast, isolated and consistent build environment on each code change plus integrations with the
-							leading container orchestrators and registries. Use full power of <a href="https://docs.docker.com/engine/reference/commandline/cli/">Docker CLI</a> in your jobs to build and push.</p>
-					</div>
+
+			<div class="col-sm-4">
+				<center>
+					<img src="/images/v2/container-native.svg" alt="source code management" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+				<h3>Container Native</h3>
+				<p>Razorops integrates well with top git based source code management systems like GitHub, Bitbucket, and GitLab.</p>
 				</div>
 			</div>
 
-			<div class="col-md-6">
-				<div class="feature-item">
-					<div class="feature-item-msg">
-						<h4>Connect Environments</h4>
-						<p>Create new <a href="https://kubernetes.io" target="_blank">Kubernetes</a> clusters on any server or cloud no matter where they
-							run. Integrate and promote builds across multiple environments according to your needs (development, staging and more).</p>
-					</div>
+			<div class="col-sm-4">
+				<center>
+					<img src="/images/v2/connect-environments.svg" alt="Connect Environments" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+				<h3>Connect Environments</h3>
+				<p>Create new <a href="https://kubernetes.io" target="_blank">Kubernetes</a> clusters on any server or cloud no matter where they run. Integrate and promote builds across multiple environments according to your needs (development, staging and more).</p>
 				</div>
 			</div>
 
-			<div class="col-md-6">
-				<div class="feature-item">
-						<div class="feature-item-msg">
-							<h4>Deployment Pipeline</h4>
-							<p>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</p>
-						</div>
+			<div class="col-sm-4">
+				<center>
+					<img src="/images/v2/pipeline.svg" alt="source code management" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+				<h3>Deployment Pipeline</h3>
+				<p>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<br>
+			<br>
+
+			<div class="col-sm-4">
+				<center>
+					<img src="/images/v2/rollback.svg" alt="source code management" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+					<h3>Automatic rollback</h3>
+					<p>We analyze data from monitoring tools and uses automated testing tools to look for anomalies and failures to rollback broken within seconds.</p>
 				</div>
 			</div>
 
-			<div class="col-md-6">
-				<div class="feature-item">
-						<div class="feature-item-msg">
-							<h4>Automatic rollback</h4>
-							<p>We analyze data from monitoring tools and uses automated testing tools to look for anomalies and failures to rollback broken within seconds.</p>
-						</div>
+			<div class="col-sm-4">
+				<center>
+					<img src="/images/v2/gitops.svg" alt="Connect Environments" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+					<h3>Incorporate Gitops</h3>
+					<p>Align your pipelines with the branch structure, making it easier to work with branching workflows like feature branching or git-flow.</p>
 				</div>
 			</div>
 
-			<div class="col-md-6">
-				<div class="feature-item">
-						<div class="feature-item-msg">
-							<h4>Incorporate Gitops</h4>
-							<p>Align your pipelines with the branch structure, making it easier to work with branching workflows like feature branching or git-flow.</p>
-						</div>
+			<div class="col-sm-4">
+				<center>
+					<!-- <img src="/images/v2/code-as-config.svg" alt="Code as configuration" class="feature-img"> -->
+					<img src="/images/v2/code-as-configuration.svg" alt="Code as configuration" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+					<h3>Code as configuration</h3>
+					<p>Store and manage your configurations in a single <a href="https://docs.razorops.com/configuration/reference.html" target="_blank"> .razorops.yaml</a> file. Only few lines of code to get you started.</p>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div class="feature-item">
-						<div class="feature-item-msg">
-							<h4>Code as configuration</h4>
-							<p>Store and manage your configurations in a single
-								<a href="https://docs.razorops.com/configuration/reference.html" target="_blank">razorops.yml</a> file.
-								Only few lines of code to get you started.</p>
-						</div>
+<div class="clearfix"></div>
+			<br>
+			<br>
+
+
+			<div class="col-sm-4">
+				<center>
+					<img src="/images/v2/git.svg" alt="source code management" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+				<h3>Git as Source Code</h3>
+				<p>Razorops integrates well with top git based source code management systems like GitHub, Bitbucket, and GitLab.</p>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<center>
+					<img src="/images/v2/language-agnostic.svg" alt="language agnostic" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+					<h3>Language Agnostic</h3>
+					<p>Razorops is language agnostic, it works with any language or service that runs inside a Docker container. You can choose public docker images or use your private images.</p>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<center>
+					<img src="/images/v2/platform-independent.svg" alt="Platform Independent" class="feature-img">
+				</center>
+				<div class="platform-integration-msg">
+					<h3>Platform Independent</h3>
+					<p>Razorops is a cloud based SAAS product, it's a zero installation, quick start platform, you can build your apps for any platform AWS, GCP, Azure, iOS, Android, ReactNative etc.</p>
 				</div>
 			</div>
 
@@ -64,6 +108,6 @@
 	</div>
 </div>
 
-<br><br><br><br><br><br>
+
 
 {% include deployment.html %}
