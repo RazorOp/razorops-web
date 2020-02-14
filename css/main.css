@@ -1091,6 +1091,7 @@ button:hover, a:hover {
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
   background: #FFF;
   padding: 15px;
+	min-height: 480px;
 }
 
 .pricing .top-plan{
