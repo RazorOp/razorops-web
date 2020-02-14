@@ -14,7 +14,7 @@
 </item>
 <item>
      <link>https://razorops.com/product</link>
-     <title>Razorops Customers | Razorops</title>
+     <title>Simplest Container Native CI/CD Platform | Razorops</title>
      <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -30,16 +30,8 @@
 </item>
 <item>
      <link>https://razorops.com/schedule-demo/</link>
-     <title>Razorops Demo | Razorops</title>
+     <title>Razorops Schedule Demo | Razorops</title>
      <description>Razopos demo with Shyam</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/customers</link>
-     <title>Razorops Customers | Razorops</title>
-     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -53,9 +45,33 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/blog</link>
+     <title>Razorops Blog | Razorops</title>
+     <description>Learn how to achieve continuous delivery to Kubernetes with Helm, Istio, Selenium testings, security testing, performance testing, and more.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/contact</link>
+     <title>Razorops, inc United States Bengaluru Hyderabad | Razorops</title>
+     <description>Razorops, inc United States Bengaluru Hyderabad - Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/about/</link>
      <title>Razorops About | Razorops</title>
      <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/customers</link>
+     <title>Razorops Customers | Razorops</title>
+     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -69,25 +85,9 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/contact</link>
-     <title>Razorops Contact | Razorops</title>
-     <description>Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>https://razorops.com/partners</link>
-     <title>Razorops Customers | Razorops</title>
-     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/blog</link>
-     <title>Razorops Blog | Razorops</title>
-     <description>Learn how to achieve continuous delivery to Kubernetes with Helm, Istio, Selenium testings, security testing, performance testing, and more.</description>
+     <title>Become a Partners with | Razorops</title>
+     <description>Become a Partner and Grow your customer base with Razorops, become Implementation or Technology Partners Resell or Integrate your solutions with Razorops</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -110,8 +110,8 @@
 </item>
 <item>
      <link>https://razorops.com/faq</link>
-     <title>Razorops Pricing and Plans | Razorops</title>
-     <description>First 5000 build min. Free, Start with Free Plan, Scale when you feel, No credit card required.</description>
+     <title>Frequently Asked Questions - FAQ | Razorops</title>
+     <description>Frequently Asked Questions at Razorops like How do I get started? faq etc.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -130,6 +130,38 @@
      <description>Continuous integration and delivery simplified for Containers</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/security</link>
+     <title>Razorops Security Cloud Platform &amp;amp; Integration Security | Razorops</title>
+     <description>We fully understand and recognize, that the security of your source code as critical componant. Therefore we put lots of efforts to provide a secure infrastructure to use.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/best-docker-image-hosting-platforms/</link>
+     <title>Best Docker Image Hosting Platforms | Razorops</title>
+     <description>Container registry is a repository for storing docker images or container images.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/5-strategies-to-improve-the-effectiveness-of-your-it-management/</link>
+     <title>5 Strategies to Improve the Effectiveness of Your IT Management | Razorops</title>
+     <description>IT is pervasive in today’s setting. Businesses, governments, and individuals use IT products constantly for different purposes.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/introduction-to-container-native-cicd/</link>
+     <title>Introduction to Container Native CICD | Razorops</title>
+     <description>Container Native Software treats containers as the first-class unit of infrastructure</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -183,7 +215,7 @@
 <item>
      <link>https://razorops.com/blog/kubernetes-and-containers-adoption-growing-fast/</link>
      <title>Kubernetes and containers adoption growing fast | Razorops</title>
-     <description>Kubernetes and containers adoption growing fast in the last few years. The reason for the relative jump in Kubernetes adoption is because more organizations are starting their container journey with Kubernetes as part of their toolkit.</description>
+     <description>Kubernetes adoption is fast because more organizations are starting their container journey with Kubernetes as part of their toolkit.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -224,14 +256,6 @@
      <link>https://razorops.com/blog/devops-glossary/</link>
      <title>DevOps Glossary | Razorops</title>
      <description>A precursor to Devops; Agile is a software development and, more broadly, business methodology that emphasizes short, iterative planning and development</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/security</link>
-     <title>Razorops Customers | Razorops</title>
-     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
