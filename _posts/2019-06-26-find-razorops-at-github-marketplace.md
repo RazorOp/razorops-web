@@ -22,3 +22,6 @@ GitHub Marketplace connects to developers who want to extend and improve their G
 <center>
 	<a href="https://github.com/apps/razorops-ci-cd" target="_blank" class="btn btn-success btn-lg btn-rounded pr-4 pl-4 mr-4">FIND AT GITHUB</a>
 </center>
+
+<br>
+{% include schedule-demo.html %}

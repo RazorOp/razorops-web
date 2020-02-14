@@ -42,7 +42,6 @@ There are many container registry providers in the market. Default is DockerHub,
   </div>
   <div class="clearfix"></div>
 </div>
-
 <br>
 <div class="images-list">
   <div class="col-sm-4">
@@ -69,7 +68,10 @@ There are many container registry providers in the market. Default is DockerHub,
   <div class="clearfix"></div>
 </div>
 <br>
-
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary">Schedule a Demo for RazorOps-Container Native CI/CD </a> 
+</center>
+<br>
 <div class="images-list">
   <div class="col-sm-4">
     <a href="https://hub.docker.com/" target="_blank">

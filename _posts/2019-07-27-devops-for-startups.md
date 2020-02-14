@@ -41,6 +41,11 @@ Take a breath and sit with your team and invest a week for building and setting 
 
 If you want to save expensive time,  give a try  to [Razorops](https://razorops.com/continuous-integration) a SAAS service ready to roll so that the solution is managed, deployable in minutes, and takes the pain of operations away.
 
+<br>
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary">Schedule a Demo for RazorOps-Container Native CI/CD </a> 
+</center>
+<br>
 
 **Deliver**
 
@@ -74,3 +79,6 @@ Set alerts to points where certain thresholds are crossed and notify yourself / 
 
 Now with a week of work you can achieve all of the above, and even more with some motivation.
 Most of the automation tools above would be free of charge to a certain extent, the rest would cover their costs within one or two month of operation.
+
+<br>
+{% include schedule-demo.html %}

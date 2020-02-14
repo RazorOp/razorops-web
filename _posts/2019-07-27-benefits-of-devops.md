@@ -24,7 +24,11 @@ DevOps is a culture where full development team works together to complete softw
 * Continuous Development
 
 
-
+<br>
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary">Schedule a Demo for RazorOps-Container Native CI/CD </a> 
+</center>
+<br>
 **Technical benefits:**
 
 ![](/images/blog/devops-technical-benefits.png)
@@ -56,7 +60,12 @@ DevOps practices comes with a range of benefits, some of which – including gre
 * Less wasted effort, reduced IT costs
 * Better predictability
 * More flexibility
-
+<br>
+<br>
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary" target="_blank">Schedule a Demo for RazorOps-Container Native CI/CD </a> 
+</center>
+<br>
 **Future with DevOps**
 
 A range of tech companies, including Amazon, Microsoft, and Google, have built DevOps teams and dedicated significant resources to building expertise in the space.
@@ -66,3 +75,6 @@ A range of tech companies, including Amazon, Microsoft, and Google, have built D
 
 
 Gartner Research projected that the Cloud Services market will grow over 15% per year through 2020. To put this growth in terms of dollars, a recent article published by Forbes indicates that the cloud computing market will grow from roughly $260 billion in 2017 to roughly $411 billion in 2020. DevOps can make a huge difference in how quickly your company successfully migrates systems onto the cloud.
+
+<br>
+{% include schedule-demo.html %}

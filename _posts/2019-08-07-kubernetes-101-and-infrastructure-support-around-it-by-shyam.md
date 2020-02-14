@@ -16,3 +16,7 @@ image: "/images/blog/kubernetes-101-and-infrastructure-support-around-it-by-Shya
 <center>
 	<a href="https://events.docker.com/events/details/docker-hyderabad-presents-kubernetes-101-and-infrastructure-support-around-it-by-shyam-from-razorops/" target="_blank" class="btn btn-success btn-lg btn-rounded pr-4 pl-4 mr-4">FIND ON DOCKER</a>
 </center>
+
+
+<br>
+{% include schedule-demo.html %}

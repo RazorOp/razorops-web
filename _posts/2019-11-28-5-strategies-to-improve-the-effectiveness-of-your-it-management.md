@@ -31,7 +31,10 @@ An IT management software is one of the examples of system management tools. It 
 Whatever the case is, features of system management can cover different bases. As a result, IT teams with limited budgets can perform a wide variety of tasks from a single platform.
 
 <br>
-
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary">Schedule a Demo for RazorOps- Container Native CI/CD </a> 
+</center>
+<br><br>
 **2. Embrace the cloud**
 
 The cloud is everywhere today--most of the software that companies use to handle different processes are now deployed in it. This means they no longer have to worry about routine hardware or software maintenance. That is because vendors take care of those. All businesses have to do is maintain the configurations of their platforms.
@@ -80,3 +83,8 @@ By standardizing the components of these targets, a company can see huge savings
 While IT tools are designed for intuitiveness, there are still systems that require a certain amount of familiarity. Unless that is met, it would be difficult for IT to operate smoothly. That is why training is critical. This enables team members to know the ins and outs of the systems they will be using to <a href="https://razorops.com/blog/kubernetes-and-containers-adoption-growing-fast/" target="_blank">better adopt</a> it. With this, they can maximize the organization’s investment. Thereon, they can help affect the change the company wants to see.
 
 <br><br>
+<br>
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary">Schedule a Demo for RazorOps- Container Native CI/CD </a> 
+</center>
+<br>

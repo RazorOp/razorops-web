@@ -16,6 +16,12 @@ Cloud-native development and microservices enable development teams to work more
 
 Kubernetes and containers adoption growing fast in the last few years. One survey report published by [Diamanti](https://diamanti.com/wp-content/uploads/2019/06/Diamanti_2019_Container_Survey.pdf), suggests container technology has matured dramatically in one year and moved from developer experimentation to production.
 
+<br>
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary" target="_blank">Schedule a Demo for RazorOps-Container Native CI/CD </a> 
+</center>
+<br>
+
 **I would like to highlight few slides here.**
 
 1) who drives container adoption in your organization?
@@ -34,3 +40,6 @@ Kubernetes and containers adoption growing fast in the last few years. One surve
 4) what are use cases of containers?
 
 ![](/images/blog/container-use-cases.png)
+
+<br>
+{% include schedule-demo.html %}

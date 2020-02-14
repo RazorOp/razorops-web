@@ -154,7 +154,11 @@ Kubernetes is an open-source container-orchestration system for automating appli
 </table>
 </div>
 </div>
-
+<br>
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary">Schedule a Demo for RazorOps-Container Native CI/CD </a> 
+</center>
+<br>
 <div id="outline-container-org7a8765a" class="outline-3">
 <h2> Check Performance</h2>
 <div class="outline-text-3" id="text-1-2">
@@ -390,7 +394,11 @@ Kubernetes is an open-source container-orchestration system for automating appli
 </table>
 </div>
 </div>
-
+<br>
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary">Schedule a Demo for RazorOps-Container Native CI/CD </a> 
+</center>
+<br>
 <div id="outline-container-orgd8ff0c0" class="outline-3">
 <h2> Label &amp; Annontation</h2>
 <div class="outline-text-3" id="text-1-6">
@@ -778,7 +786,11 @@ Kubernetes is an open-source container-orchestration system for automating appli
 </table>
 </div>
 </div>
-
+<br>
+<center>
+  <a href="/schedule-demo" class="btn btn-rounded btn-lg btn-primary">Schedule a Demo for RazorOps-Container Native CI/CD </a> 
+</center>
+<br>
 <div id="outline-container-org26060d1" class="outline-3">
 <h2> Network</h2>
 <div class="outline-text-3" id="text-1-16">
@@ -1022,3 +1034,6 @@ Kubernetes is an open-source container-orchestration system for automating appli
 </div>
 </div>
 </div>
+
+<br>
+{% include schedule-demo.html %}

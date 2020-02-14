@@ -66,6 +66,10 @@
   padding: 10px;
 }
 
+.blog-post-content a {
+  color: blue;
+}
+
 .post-box{
   /*border: 1px solid red;*/
   margin-bottom: 10px;
@@ -192,5 +196,17 @@
 .docs-content h1 {
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+.btn-danger {
+ color: #FFF !important;
+}
+
+.btn-success {
+ color: #FFF !important;
+}
+
+.btn-primary {
+ color: #FFF !important;
 }
 
