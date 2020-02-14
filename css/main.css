@@ -159,7 +159,7 @@ ul li {font-size: 16px;}
 	margin: 0;
 }
 .navbar .navbar-header button {
-	width: 13% !important;
+	width: auto !important;
 }
 .carousel p{
 	color: #000;
