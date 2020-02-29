@@ -118,6 +118,14 @@ version.BuildInfo{Version:"v3.1.1", GitCommit:"afe70585407b420d0097d07b21c47dc51
 
 ![](/images/blog/helm-3-values-yaml.png)
 
+<h2>Templates</h2>
+
+Files under templates directory  are treated as dynamic  YAML files, these are implemented using the go  template lang.  you can have more detaile on <a href="http://masterminds.github.io/sprig/" target="_blank">Sprig Function Documentation</a>
+
+YAML templates prevents config duplication and allows you to install same charts in dev, staging or production environment.
+
+
+
 <h2>Installing a Chart</h2>
 ```
 
@@ -162,13 +170,13 @@ $ helm install myapp ./mychart --set image.tag=master
 
 <h2>References</h2>
 
-More Info:  https://helm.sh/
+More Info:  <a href="https://helm.sh/" target="_blank"> https://helm.sh/</a>
 
-Read Doc: https://helm.sh/docs/
+Read Doc: <a href="https://helm.sh/docs/" target="_blank">https://helm.sh/docs/</a>
 
-GitHub: https://github.com/helm/helm
+GitHub: <a href="https://github.com/helm/helm" target="_blank">https://github.com/helm/helm</a>
 
-HelmHub : https://hub.helm.sh/
+HelmHub : <a href="https://hub.helm.sh/" target="_blank">https://hub.helm.sh/</a>
 
 <br>
 {% include schedule-demo.html %}
