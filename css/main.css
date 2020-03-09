@@ -7,6 +7,10 @@ body {
 	width: 100%;
 }
 
+.primary-color{
+ color: #1633ff !important;
+}
+
 /*---common----*/
 .searchbox{
 	width: 50%;
