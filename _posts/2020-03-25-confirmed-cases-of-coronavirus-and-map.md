@@ -6,6 +6,7 @@ permalink: "/blog/:title/"
 layout: post
 date: '2020-03-25 14:15:43'
 author: Shyam Mohan
+category: Razorops News
 image: /images/blog/covid-19-map.jpg
 ---
 
