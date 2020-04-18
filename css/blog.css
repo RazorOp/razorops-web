@@ -4,6 +4,12 @@
   height 30%;
 }
 
+.blog-feature-img {
+  width: 30%;
+  height 30%;
+}
+
+
 .scroll{
   max-height: 900px;
   overflow-y: scroll;
