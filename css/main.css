@@ -104,7 +104,7 @@ h3,h4,h6 {
 	font-weight: 500;
 }
 
-p {font-size: 15px;}
+p {font-size: 16px; !improtant}
 ul li {font-size: 16px;}
 
 .agile-group {
@@ -130,11 +130,12 @@ th, td {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+	width: 90%;
+	text-align: center;
 }
 
 .mt-ve55{
-	margin-top: -55px;
+	margin-top: -65px;
 }
 .mt-80{
 	margin-top: 100px;
@@ -1024,20 +1025,7 @@ button:hover, a:hover {
 	font-weight: 700;
 }
 
-.demo-call-to-action .btn {
-	display: block;
-	height: 46px;
-	line-height: 46px;
-	padding: 0 20px;
-	border: 0;
-	font-size: 1.2em;
-	background-color: #313ee7;
-	color: #fff;
-	font-weight: 500;
-	max-width: 260px;
-	margin: 0 auto;
-	border-radius: 50px;
-}
+
 .demo-call-to-action .btn:hover,
 .demo-call-to-action .btn:focus {
 	background-color: #313ee7;
@@ -1282,7 +1270,7 @@ button:hover, a:hover {
   margin-top: -10px;
   background-color: #f3f5f9;
   color: #000;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
  }
 
  .testimonial p small {
