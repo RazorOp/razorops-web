@@ -14,6 +14,17 @@ image: "/images/blog/progress-in-COVID-19-shutdown-while-working-remotely.png"
 COVID-19 has led businesses into extreme work challenges. To overcome these challenges, companies have shifted their working patterns and have embraced Remote Work to avoid any negative impact on employee's health as well as the business. 
 COVID-19 has made IT-sector office culture’s shift to remote work prominently.
 
+Working as distributed teams with remote co-workers, following things are important
+
+* Team maturity
+* Decision making
+* Location / timezone
+* Common Language
+* Collaboration
+* Management techniques
+* Tooling
+
+
 The tech teams, who already have DevOps processes in place, got huge benefits and did not get much impact while shifting their workplace from regular office to home. The team performance and product deliveries are pretty much the same as before the COVID-19 impact.
 
 The companies, who lack proper DevOps culture, are suffering from productivity and delivery issues. There is a need to improve and adopt better DevOps processes to make faster and autonomous delivery processes. The adoption of DevOps processes and better automation tools can add lots of value to remote teams. A better DevOps process is beneficial to both team owners as well as team members. It helps to reduce extra burden from the team, in the end it saves lots of time, and better team experience with faster quality product delivery.
