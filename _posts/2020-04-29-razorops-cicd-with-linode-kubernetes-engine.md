@@ -1,6 +1,6 @@
 ---
 title: Razorops CI/CD with Linode Kubernetes Engine
-description: This Video Post is about adding Razorops CI/CD with Linode Kubernetes Engine
+description: Linode is one of simplest, affordable, and accessible cloud computing platform, It has recentely launched managed Kubernetes called Linod Kubernetes Engine.
 keywords: kubectl, kubernetes, cheat sheet, Commands, deployment, namespace, healthcheck
 permalink: "/blog/:title/"
 layout: post
@@ -27,5 +27,6 @@ Razorops is a container Native CI/CI tool to automate and ship you application t
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/6MaEOpwiXdk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 {% include schedule-demo.html %}
 
