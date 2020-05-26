@@ -372,8 +372,8 @@ th, td {
 }
 /*---end---*/
 .banner {
-	min-height: 100vh;
-	height: 100%;
+	/* --min-height: 100vh;
+	height: 100%; --*/
 	position: relative;
 	background: rgb(32,23,175);
 	padding: 10% 0 60px;
@@ -381,7 +381,6 @@ th, td {
 }
 .banner-msg {
 	position: relative;
-	padding: 20px 0;
 	width: 48%;
 	float: left;
 }
@@ -436,6 +435,19 @@ th, td {
 	right: 0;
 	z-index: 3;
 }
+
+.doc-link{
+	color: #FFF;
+	font-size: 16px;
+
+}
+
+.banner-actions a:hover {
+	color: #fa610e;
+	text-decoration: none;
+}
+
+
 .banner-illustration img {
 	position: absolute;
 	top: 0px;
@@ -686,7 +698,8 @@ button:hover, a:hover {
 		font-size: 18px;
 	}
 	.banner {
-		padding: 60px 0;
+		padding: 60px 30px;
+		text-align: center;
 	}
 	.banner-msg h1 {
 		font-size: 2em;
@@ -695,7 +708,7 @@ button:hover, a:hover {
 		display: none;
 	}
 	.banner-msg p {
-		font-size: 22px;
+		font-size: 16px;
 	}
 	.banner-actions .btn {
 		display: block;
