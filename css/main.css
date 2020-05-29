@@ -7,6 +7,14 @@ body {
 	width: 100%;
 }
 
+#intro {
+    width: 100%;
+    position: relative;
+    background: url(../images/intro-bg.png) center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+}
+
 .primary-color{
  color: #1633ff !important;
 }
@@ -383,6 +391,7 @@ th, td {
 	position: relative;
 	width: 48%;
 	float: left;
+	margin-top: -45px;
 }
 .banner-msg p {
 	color: #fff;
@@ -684,6 +693,7 @@ button:hover, a:hover {
 		position: relative;
 		padding: 30px 0;
 		width: 100%;
+		margin-top: -100px;
 	}
 	button {
 		border: none;
@@ -702,13 +712,13 @@ button:hover, a:hover {
 		text-align: center;
 	}
 	.banner-msg h1 {
-		font-size: 2em;
+		font-size: 3.5em;
 	}
 	.banner-illustration {
 		display: none;
 	}
 	.banner-msg p {
-		font-size: 16px;
+		font-size: 19px;
 	}
 	.banner-actions .btn {
 		display: block;
