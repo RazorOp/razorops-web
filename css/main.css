@@ -7,12 +7,30 @@ body {
 	width: 100%;
 }
 
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    font-size: 16px;
+}
+
 #intro {
     width: 100%;
     position: relative;
     background: url(../images/intro-bg.png) center bottom no-repeat;
     background-size: cover;
     padding: 200px 0 120px 0;
+}
+
+.instructors_background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 567px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .primary-color{
@@ -316,14 +334,12 @@ th, td {
 }
 
 
-
-
 /*----footer----*/
 .footer {
 	position: relative;
 	color: #253858;
-	background-color: #f3f5f9;
-	padding: 60px 0;
+	/*background-color: #2017af;*/
+	padding: 50px 0;
 	z-index: 1;
 }
 .copyright {
@@ -519,7 +535,8 @@ th, td {
   text-align: center;
   background-color: #FFF;
   padding-top: 20px;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  margin-bottom: -30px;
 }
 .banner-clients img{
   width: 150px;
@@ -924,6 +941,7 @@ button:hover, a:hover {
 /*-----docs----*/
 .content-wraper {
 	padding-top: 70px;
+	background-color: #f3f5f9;
 }
 .docs-wraper {
 	position: relative;
@@ -1021,7 +1039,7 @@ button:hover, a:hover {
 }
 
 .demo-call-to-action {
-	padding: 60px 0;
+	padding: 100px 0;
 	text-align: center;
 	margin-top: -10px;
 	/*background: #2017af;*/

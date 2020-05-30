@@ -53,7 +53,7 @@
 }
 
 .blog-post {
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .blog-post img {
@@ -70,7 +70,7 @@
   border: 1px solid #EEE;
   box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
     0 8px 32px 0 rgba(55, 92, 192, 0.08);
-  min-height: 415px !important;
+  min-height: 435px !important;
 
 }
 
@@ -146,6 +146,7 @@
   background-color: #fff;
   padding: 15px;
   border-radius: 5px;
+  margin-bottom: 100px;
   box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
     0 8px 32px 0 rgba(55, 92, 192, 0.08);
 }
