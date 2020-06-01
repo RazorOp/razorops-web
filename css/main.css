@@ -81,9 +81,10 @@ address {
 
 
 .btn-primary {
-	background-color: #1633ff;
+	background-color: #1835cd;
 	color: #fff;
-	border-color: #2017af;
+	/*border-color: #2017af;*/
+	border-color: #1835cd;
 }
 
 
@@ -271,7 +272,8 @@ th, td {
 }
 .exampleButton {float:right;width:20%;}
 .default-header .navbar-default {
-	background: rgb(32,23,175);
+	/*background: rgb(32,23,175);*/
+	background-color: #1545b3;
 	/*background: linear-gradient(90deg, rgba(32,23,175,1) 0%, rgba(178,46,209,1) 100%);*/
 }
 .default-header .navbar-brand {
@@ -1038,13 +1040,17 @@ button:hover, a:hover {
 	font-size: 16px;
 }
 
+.mb50{
+	margin-bottom: 50px;
+}
+
 .demo-call-to-action {
 	padding: 100px 0;
 	text-align: center;
 	margin-top: -10px;
-	/*background: #2017af;*/
+	background: #1545b3;
 	color: #FFF;
-	background: rgb(32,23,175);
+	/*background: rgb(32,23,175);*/
 	/*background: linear-gradient(114deg, rgba(32,23,175,1) 0%, rgba(164,52,147,1) 100%); */
 }
 .demo-call-to-action p {
