@@ -13,30 +13,6 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/product</link>
-     <title>Simplest Container Native CI/CD Platform | Razorops</title>
-     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/kubernetes</link>
-     <title>Kubernetes, Kubernetes docker | Razorops</title>
-     <description>Kubernetes in a simple term is a system for running and coordinating containerized applications across a collection of machines.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/schedule-demo/</link>
-     <title>Razorops Schedule Demo | Razorops</title>
-     <description>Razopos demo with Shyam</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>https://razorops.com/pricing</link>
      <title>Razorops Plans and Pricing | Razorops</title>
      <description>Start with Free Plan, Scale when you feel, No credit card required.</description>
@@ -54,8 +30,32 @@
 </item>
 <item>
      <link>https://razorops.com/contact</link>
-     <title>Razorops, inc United States Bengaluru Hyderabad | Razorops</title>
-     <description>Razorops, inc United States Bengaluru Hyderabad - Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
+     <title>Razorops, inc United States Canada Bengaluru Hyderabad | Razorops</title>
+     <description>Razorops, inc United States Canada Bengaluru Hyderabad - Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/schedule-demo/</link>
+     <title>Razorops Schedule Demo | Razorops</title>
+     <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/product</link>
+     <title>Simplest Container Native CI/CD Platform | Razorops</title>
+     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/kubernetes</link>
+     <title>Kubernetes, Kubernetes docker | Razorops</title>
+     <description>Kubernetes in a simple term is a system for running and coordinating containerized applications across a collection of machines.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -88,14 +88,6 @@
      <link>https://razorops.com/partners</link>
      <title>Become a Partners with | Razorops</title>
      <description>Become a Partner and Grow your customer base with Razorops, become Implementation or Technology Partners Resell or Integrate your solutions with Razorops</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/cicd-offers/</link>
-     <title>Razorops CD/CD Offers | Razorops</title>
-     <description>Building quality software and shipping it quickly has become the core requirement for each business. Razorops offers 3 month Risk FREE access to all the plans.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -138,6 +130,30 @@
      <description>We fully understand and recognize, that the security of your source code as critical componant. Therefore we put lots of efforts to provide a secure infrastructure to use.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/razorops-cicd-with-linode-kubernetes-engine/</link>
+     <title>Razorops CI/CD with Linode Kubernetes Engine | Razorops</title>
+     <description>Linode is one of simplest, affordable, and accessible cloud computing platform, It has recentely launched managed Kubernetes called Linod Kubernetes Engine.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/how-tech-teams-are-making-extraordinary-progress-in-covid-19-shutdown-while-working-remotely/</link>
+     <title>How tech teams are making extraordinary progress in COVID-19 shutdown while working remotely? | Razorops</title>
+     <description>The tech teams, who already have DevOps processes in place, got huge benefits and did not get much impact.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/introduction-to-helm-3-the-package-manager-for-kubernetes/</link>
+     <title>Introduction to Helm 3 the Package Manager for Kubernetes | Razorops</title>
+     <description>Helm is the package manager for Kubernetes (like yum and apt ) that allows easily package, configure, and deploy applications onto Kubernetes clusters</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
