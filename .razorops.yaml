@@ -10,8 +10,8 @@ tasks:
 
   unit-testing:
     image: ruby:2.6
-      commands:
-        - bundle exec rspec
+    commands:
+      - bundle exec rspec
 
   deploy-staging:
     image: buildpack-deps:trusty
