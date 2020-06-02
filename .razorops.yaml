@@ -8,7 +8,16 @@ tasks:
       - bundle-[[ checksum "Gemfile.lock" ]]
       - bundle-cache-[[ .RepoBranch ]]
 
+  unit-testing:
+    commands:
+      bundle exec rspec
+
   deploy-staging:
+    image: buildpack-deps:trusty
+    commands:
+      - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
+
+  deploy-production:
     image: buildpack-deps:trusty
     commands:
       - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
@@ -17,3 +26,7 @@ workflow:
   - name: staging
     tasks: [deploy-staging]
     when: branch == "development"
+
+  - name: production
+    tasks: [deploy-production]
+    when: branch == "production"
