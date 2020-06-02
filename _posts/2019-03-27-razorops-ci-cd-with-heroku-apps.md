@@ -46,12 +46,25 @@ Deploying to heroku was super easy as it happen with just a git push, with razor
 Add a **.razorops.yaml** in your project's root directory 
 
 ```
-tasks:
+variables:
+  - BUNDLE_PATH=$(CI_WORKSPACE)/vendor/bundle
 
-  deploy:
+tasks:
+  restore-bundle:
+    type: restore
+    keys:
+      - bundle-[[ checksum "Gemfile.lock" ]]
+      - bundle-cache-[[ .RepoBranch ]]
+
+  deploy-to-heroku:
     image: buildpack-deps:trusty
     commands:
       - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
+
+workflow:
+  - name: staging
+    tasks: [deploy-to-heroku]
+    when: branch == "production"
 
 ```
 
