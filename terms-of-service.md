@@ -1,8 +1,8 @@
 ---
 title: Razorops Terms of Service
 layout: default
-description: null
-keywords: null
+description: Razorops Terms of Service
+keywords: Razorops Terms of Service
 canonical_url: https://razorops.com/terms-of-services
 ---
 
