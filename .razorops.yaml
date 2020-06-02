@@ -25,7 +25,7 @@ tasks:
 
 workflow:
   - name: staging
-    tasks: [deploy-staging]
+    tasks: [unit-testing, deploy-staging]
     when: branch == "development"
 
   - name: production
