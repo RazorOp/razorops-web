@@ -10,7 +10,7 @@ tasks:
 
   unit-testing:
     commands:
-      bundle exec rspec
+      - bundle exec rspec
 
   deploy-staging:
     image: buildpack-deps:trusty
