@@ -40,15 +40,10 @@ Expected CTC -
 <h3>Inside Sales Intern</h3>
 
 Full Time · Hyderabad · Business Development · Sales · Inside Sales · Consumer Insights    
-
 <br>
 
 <h3> Inside Sales Manager</h3>
-
-
 Full Time · Hyderabad · Business Development · Sales · Inside Sales · Consumer Insights        
-
-
 
 <br>
 We are always looking for amazing people to join our team. Feel free to send your profile at [shyam@razorops.com](mailto:shyam@razorops.com)  and we will get back to you!
