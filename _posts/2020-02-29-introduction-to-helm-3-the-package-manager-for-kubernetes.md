@@ -22,7 +22,7 @@ is the package manager for Kubernetes (like yum, apt and home brew ) that allows
 <br>
 <h2>Why do we need Helm?</h2>
 
-Managing repeating Kubernetes manifest or copying form one to another, editing hardcode values and validating syntax, sharing across env like Dev, QA, Production etc. is hard.
+Managing repeating Kubernetes manifest or copying from one to another, editing hardcode values and validating syntax, sharing across env like Dev, QA, Production etc. is hard.
 
 <br>
 <table>
