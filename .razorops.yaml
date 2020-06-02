@@ -8,16 +8,16 @@ tasks:
       - bundle-[[ checksum "Gemfile.lock" ]]
       - bundle-cache-[[ .RepoBranch ]]
 
-  unit-testing:
-    image: ruby:2.6
-    commands:
-      - bundle install
-      - bundle exec rspec
-    environment:
-      DATABASE_URL: postgres://root@db:5432
-    services:
-      db:
-        image: postgres:9.6
+  # unit-test:
+  #   image: ruby:2.6
+  #   commands:
+  #     - bundle install
+  #     - bundle exec rspec
+  #   environment:
+  #     DATABASE_URL: postgres://root@db:5432
+  #   services:
+  #     db:
+  #       image: postgres:9.6
 
   deploy-staging:
     image: buildpack-deps:trusty
