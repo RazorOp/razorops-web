@@ -16,4 +16,4 @@ tasks:
 workflow:
   - name: staging
     tasks: [deploy-staging]
-    when: branch == "devepment"
+    when: branch == "development"

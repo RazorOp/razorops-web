@@ -20,12 +20,12 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
-# group :development, :test do
-#   gem "pry"
-#   gem "rack"
-#   gem "rack-jekyll"
-#   gem "rspec"
-#   gem "capybara"
-#   gem "selenium-webdriver"
-#   gem "chromedriver-helper"
-# end
+group :development, :test do
+  gem "pry"
+  gem "rack"
+  gem "rack-jekyll"
+  gem "rspec"
+  gem "capybara"
+  gem "selenium-webdriver"
+  gem "chromedriver-helper"
+end
