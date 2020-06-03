@@ -18,6 +18,10 @@ address {
 	margin-bottom: -60px;
 }
 
+.mob-nav-button{
+	margin-left: 10px;
+}
+
 #intro {
     width: 100%;
     position: relative;
@@ -1386,7 +1390,6 @@ demo-call-to-action a:hover{
       margin-bottom: 0;
       padding: 0 40px 30px 40px;
     }
-
 }
 
 /* Small devices (tablets, up to 768px) */
@@ -1407,6 +1410,11 @@ demo-call-to-action a:hover{
         margin: 0px 5px;
         width: 20px;
         height: 20px;
+    }
+
+    .mob-nav-button {
+    	margin-left: -1px;
+    	margin-top: 10px;
     }
 }
 
