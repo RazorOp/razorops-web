@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 gem "rake"
 
-ruby '2.6.5'
-
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.3"
 gem "jekyll-seo-tag"
