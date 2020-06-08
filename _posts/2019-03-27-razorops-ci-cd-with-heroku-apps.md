@@ -64,7 +64,7 @@ tasks:
 workflow:
   - name: staging
     tasks: [deploy-to-heroku]
-    when: branch == "production"
+    when: branch == "staging"
 
 ```
 
