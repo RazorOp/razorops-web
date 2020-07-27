@@ -1,11 +1,10 @@
 ---
 title: Razorops | Careers
 layout: default
-description: Come and join razorops team of passionate system engineer to help us
-  build great developer tools on devops platform.
-keywords: Hiring, Devops methodology,Kubernetes dashboard,Cloud containers,Devops
+description: Come and join razorops team of passionate system engineer to help us build great developer tools on DevOps platform.
+keywords: Hiring, DevOps methodology, Kubernetes dashboard, Cloud containers, Devops
 canonical_url: https://razorops.com/careers
-image: 
+image: /images/container-native-jobs.jpg
 ---
 
 Want to be part of an ambitious team building the next big thing in Container Native CI/CD Domain.
