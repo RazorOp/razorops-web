@@ -1,7 +1,7 @@
 ---
 title: Razorops | Careers
 layout: default
-description: Come and join razorops team of passionate system engineer to help us build great developer tools on DevOps platform.
+description: Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.
 keywords: Hiring, DevOps methodology, Kubernetes dashboard, Cloud containers, Devops
 canonical_url: https://razorops.com/careers
 image: /images/container-native-jobs.jpg
@@ -10,7 +10,7 @@ image: /images/container-native-jobs.jpg
 Want to be part of an ambitious team building the next big thing in Container Native CI/CD Domain.
 
 
-<h3>1. Cloud Native Solutions Engineer</h3>
+<h3>1. Kubernetes Solutions Engineer</h3>
 
 <b>Job Description: </b> Must Have Skills
 
