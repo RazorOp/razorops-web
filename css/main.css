@@ -18,6 +18,14 @@ address {
 	margin-bottom: -60px;
 }
 
+.mb-10{
+	margin-bottom: 10px !important;
+}
+
+.mb-20{
+	margin-bottom: 20px !important;
+}
+
 .mob-nav-button{
 	margin-left: 10px !important;
 }
@@ -88,13 +96,39 @@ address {
 }
 
 
+.signup-section{
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+}
+
+.signup-buttons{
+	margin-top: 80px;
+}
+
+.btn-icon{
+	height: 1.75rem;
+  margin-right: 1rem;
+  margin-left: .5rem;
+}
+
+.signup-hero{
+	font-weight: 900;
+	font-size: 5rem;
+	margin-top: 40px;
+}
+
+.btn-width{
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+
 .btn-primary {
 	background-color: #1835cd;
 	color: #fff;
 	/*border-color: #2017af;*/
 	border-color: #1835cd;
 }
-
 
 .btn {
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.15);
@@ -112,6 +146,8 @@ address {
 	color: #fff;
 	border-color: #2017af;
 }
+
+
 @media (min-width: 1400px) {
 	.container {
 		width: 1360px;
@@ -121,6 +157,8 @@ address {
 	position: relative;
 	margin: 30px 0 30px;
 }
+
+
 .section-header::before {
 	content: '';
 	position: absolute;
@@ -246,6 +284,8 @@ th, td {
 	padding: 6px 12px;
 	font-size: 14px;
 }
+
+
 @media(max-width: 991px) {
 	.navbar-default .navbar-nav > li > .btn {
 		max-width: 300px;
@@ -292,6 +332,8 @@ th, td {
     font-size: 19px;
 	}
 
+
+
 @media (max-width: 767px) {
 
 	.lead {
@@ -323,6 +365,8 @@ th, td {
 	background-color: transparent;
 	color: #fff;
 }
+
+
 @media (min-width: 768px) {
 	.nav-dropdown:hover .dropdown-menu,
 	.nav-dropdown:focus .dropdown-menu {
@@ -341,6 +385,8 @@ th, td {
 		z-index:9999;
 	}
 }
+
+
 @media (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		display: block;
@@ -348,6 +394,22 @@ th, td {
 		text-align: center;
 	}
 }
+
+@media (max-width: 667px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		display: block;
+		color: #fff;
+		text-align: center;
+	}
+	.signup-buttons{
+		margin-top: 0px !important;
+	}
+
+	.signup-hero {
+    margin-top: 10px !important;
+	}
+}
+
 
 
 /*----footer----*/
@@ -1086,19 +1148,18 @@ button:hover, a:hover {
 	margin-bottom: 50px;
 }
 
+.mr-l{
+	margin-left: -20px !important;
+}
+
 .demo-call-to-action {
 	padding: 90px 100px 130px 100px; 
 	text-align: center;
-	margin-top: -10px;
 	color: #FFF;
 	background-color: #4e91ff;
 	background-image: linear-gradient(135deg, #4e91ff 0%, #141de4 100%);
-
 }
 
-/*.demo-call-to-action a:hover{
-	color: #FFF;
-}*/
 .demo-call-to-action p {
 	font-size: 16px;
 }
