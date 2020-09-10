@@ -1,4 +1,6 @@
 source "https://rubygems.org"
+ruby '2.6.5'
+
 gem "rake"
 gem "jekyll", "~> 3.8.3"
 gem "jekyll-seo-tag"
