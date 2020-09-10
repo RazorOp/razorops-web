@@ -35,7 +35,7 @@ address {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 567px;
+    height: 470px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -152,14 +152,9 @@ ul li {font-size: 16px;}
 }
 
 th, td {
-
-                text-align:center;
-                padding:15px
-
-            }
-
-
-
+	text-align:center;
+  padding:15px
+}
 
 .center {
     display: block;
@@ -173,7 +168,7 @@ th, td {
 	margin-top: -65px;
 }
 .mt-80{
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .pr-4 {
 	padding-right: 25px !important;
@@ -199,11 +194,13 @@ th, td {
 	background-color: #fff;
 }
 /*--end-----*/
+.section-header{
+	margin-top: 60px;
+}
 .section-header h2 {
-	font-size: 30px;
+	font-size: 42px;
 	color: #262626;
 	text-align: center;
-	margin: 0;
 }
 .navbar .navbar-header button {
 	width: auto !important;
@@ -290,7 +287,16 @@ th, td {
 .default-header .navbar-default {
 	position: fixed;
 }
+
+.lead {
+    font-size: 19px;
+	}
+
 @media (max-width: 767px) {
+
+	.lead {
+    font-size: 19px;
+	}
 	.navbar-collapse {
 		background-color: #000;
 		z-index: 2;
@@ -398,7 +404,7 @@ th, td {
 }
 .footer-social{
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .footer-social a {
 	display: inline-block;
@@ -545,8 +551,7 @@ th, td {
   text-align: center;
   background-color: #FFF;
   padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: -30px;
+  padding-bottom: 50px;
 }
 .banner-clients img{
   width: 150px;
@@ -898,10 +903,32 @@ button:hover, a:hover {
 	background-color: #5449D2;
 }
 
+
+.product-screens{
+	background-color: #FFF;
+}
+
+.showcase .showcase-text {
+  padding: 7rem;
+}
+
+.showcase .showcase-img {
+  min-height: 40.5rem;
+  background-size: contain;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+
+
 .home-feature{
 	background-color: #FFF;
-	padding: 50px 0;
-	margin-top: -10px;
+	padding: 10px 0;
+	/*margin-top: -10px;*/
 }
 
 .home-feature img {
@@ -911,8 +938,9 @@ button:hover, a:hover {
 
 .home-deployment{
 	background-color: #f3f5f9;
-	padding: 50px 0;
-	margin-top: -10px;
+	padding: 10px 0;
+	margin-top: -28px;
+	margin-bottom: 50px;
 }
 
 
@@ -945,13 +973,19 @@ button:hover, a:hover {
 	padding-left: 50px;
 }
 
-.integration-msg p {
-	font-size: 16px;
+.tag-line{
+	color: #FFF;
+	background-color: #4e91ff;
+	background-image: linear-gradient(135deg, #4e91ff 0%, #141de4 100%);
 }
+.center {
+	text-align: center;
+}
+
+
 /*-----docs----*/
 .content-wraper {
-	padding-top: 70px;
-	background-color: #f3f5f9;
+	padding-top: 50px;
 }
 .docs-wraper {
 	position: relative;
@@ -1010,9 +1044,9 @@ button:hover, a:hover {
 .razorops-ci-cd h1 {
 	margin-top: -20px;
 	}
-.razorops-ci-cd p{
+/*.razorops-ci-cd p{
 	font-size: 16px;
-}
+}*/
 
 .discount10-yearly{
 	text-align: center;
@@ -1053,7 +1087,7 @@ button:hover, a:hover {
 }
 
 .demo-call-to-action {
-	padding: 100px 0;
+	padding: 90px 100px 130px 100px; 
 	text-align: center;
 	margin-top: -10px;
 	color: #FFF;
@@ -1138,10 +1172,9 @@ button:hover, a:hover {
 
 /*----pricing----*/
 
-/*section.pricing {*/
-  /*background: #f6f8f6;*/
-  /*background: linear-gradient(to right, #0062E6, #33AEFF);*/
-/*}*/
+.pricing-home{
+	background-color: #f3f5f9;
+}
 
 .pricing .card {
   border: none;
@@ -1313,10 +1346,10 @@ button:hover, a:hover {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-.item blockquote p {
+/*.item blockquote p {
   display: inline;
   font-size: 16px;
-}
+}*/
 
 .item blockquote small {
     display: block;
