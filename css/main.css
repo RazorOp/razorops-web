@@ -483,7 +483,7 @@ th, td {
 }
 .banner-msg {
 	position: relative;
-	width: 48%;
+	width: 50%;
 	float: left;
 	margin-top: -45px;
 }
@@ -495,9 +495,8 @@ th, td {
 .banner-actions {
 	margin-top: 50px;
 }
-.banner-actions .btn {
-	height: 43px;
-}
+
+
 .btn-banner-primary,
 .btn-banner-secondary {
 	display: inline-block;
@@ -506,7 +505,7 @@ th, td {
 	border: 0;
 	padding: 0 15px;
 	border-radius: 50px;
-	width: 48%;
+	width: 50%;
 	float: left;
 	font-size: 16px;
 }
@@ -546,7 +545,7 @@ th, td {
 }
 
 .banner-actions a:hover {
-	color: #fa610e;
+	/*color: #fa610e;*/
 	text-decoration: none;
 }
 
@@ -819,6 +818,14 @@ button:hover, a:hover {
 		width: 100% !important;
 		max-width: 300px;
 		margin: 0 auto 15px;
+	}
+
+	.signup-section{
+		text-align: center !important;
+	}
+
+	.mobile{
+		width: 60% !important;
 	}
 }
 /*------how-it-works----*/
