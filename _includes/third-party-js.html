@@ -1,0 +1,57 @@
+<!-- ip detection -->
+<script type="text/javascript">
+
+  $.get("https://ipinfo.io", function (response) {
+      console.log(response.ip);
+      console.log(response.country);
+      geo(response);
+  }, "jsonp");
+
+  function geo(response) {
+    switch (response.country)
+    {
+      case "BY": // Redirect is visitor from Belarus
+      case "CU": // Redirect is visitor from  Cuba
+      case "CD": // Redirect is visitor from Congo, Democratic Republic of the
+      case "IR": // Iran Redirect is visitor from IRAN
+      case "IQ": // Iraq Redirect is visitor from IRAQ
+      case "LR": // Liberia Redirect is visitor from  Liberia
+      case "KP": // North Korea Redirect is visitor from Notrth Korea
+      case "SS": // Sudan Redirect is visitor from  South Sudan
+      case "SY": // Syria Redirect is visitor from Syrian Arab Republic
+      case "ZW": // Zimbabwe Redirect is visitor from Zimbabwe
+        window.location.replace("https://razorops.com/no-service-country");
+        break;
+      default:
+        return null;
+    }
+  }
+
+</script>
+
+<!-- tracking browsee -->
+<script>
+window._browsee = window._browsee || function () { (_browsee.q = _browsee.q || []).push(arguments) };
+_browsee('init', '86a0c70517dd968cb8d246405a17f3c152a9213b6ccee736');
+</script>
+<script async src='https://cdn.browsee.io/js/browsee.min.js'></script>
+
+
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6775901.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121645139-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121645139-1');
+</script>
