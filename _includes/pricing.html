@@ -1,3 +1,31 @@
+<script> 
+  $.get("https://ipinfo.io", function (response) {
+      console.log(response.ip);
+      console.log(response.country);
+      geo(response);
+  }, "jsonp");
+
+  function geo(response) {
+    console.log(response.country);
+    switch (response.country)
+    {
+      case "IN": // Redirect is visitor from Belarus
+        document.getElementById('growth').innerHTML = '&#8377; 3600'; 
+        document.getElementById('growth_y').innerHTML = '&#8377; 36000/year'; 
+        document.getElementById('pro').innerHTML = '&#8377; 14500'; 
+        document.getElementById('pro_y').innerHTML = '&#8377; 145000/year'; 
+        break;
+      default:
+        document.getElementById('growth').innerHTML = '$ 49'; 
+        document.getElementById('growth_y').innerHTML = '$ 499/year'; 
+        document.getElementById('pro').innerHTML = '$ 199'; 
+        document.getElementById('pro_y').innerHTML = '$ 1999/year'; 
+    }
+  }
+    
+</script> 
+
+
 <div class="mt-80 mb-80">
   <section class="pricing" id="option1" >
     <div class="row">
@@ -35,8 +63,8 @@
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">GROWTH</h5>
-            <h6 class="card-price text-center">$49<span class="period">/MONTH</span></h6>
-            <p class="discount10-yearly">$499/year</p>
+            <h6 class="card-price text-center"> <span id="growth">$49</span><span class="period">/MONTH</span></h6>
+            <p class="discount10-yearly" id="growth_y">$499/year</p>
             <hr>
             <ul>
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>2 vCPU @ 3.4GHz, 4GB RAM</strong></li>
@@ -64,8 +92,8 @@
         <div class="card top-plan">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-            <h6 class="card-price text-center">$199<span class="period">/MONTH</span></h6>
-            <p class="discount10-yearly">$1999/year</p>
+            <h6 class="card-price text-center"><span id="pro">$199</span><span class="period">/MONTH</span></h6>
+            <p class="discount10-yearly" id="pro_y">$1999/year</p>
             <hr>
             <ul>
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>4 vCPU @ 3.4GHz, 8GB RAM</strong></li>

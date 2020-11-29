@@ -1,13 +1,16 @@
 <!-- ip detection -->
 <script type="text/javascript">
-
+$(document).ready(function () {
+  
   $.get("https://ipinfo.io", function (response) {
       console.log(response.ip);
       console.log(response.country);
       geo(response);
   }, "jsonp");
 
+
   function geo(response) {
+    
     switch (response.country)
     {
       case "BY": // Redirect is visitor from Belarus
@@ -26,6 +29,7 @@
         return null;
     }
   }
+  });
 
 </script>
 
