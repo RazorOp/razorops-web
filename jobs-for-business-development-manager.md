@@ -4,11 +4,11 @@ layout: default
 description: Razorops looking for sr. Business Development Manager to help us scale sales pipeline.
 keywords: Hiring, DevOps, Business Development Manager, cloud containers, container native Devops
 canonical_url: https://razorops.com/jobs-for-business-development-manager
-image: /images/container-native-jobs.jpg
+image: /images/Business-Development-Manager-razorops.jpg
 ---
 
 
-
+<img src="/images/Business-Development-Manager-razorops.jpg">
 <br>
 **Job description**
 
