@@ -79,9 +79,9 @@ image: /images/container-native-cicd.jpg
   <div class="blog-wraper">
     <div class="blog-post">
       {% assign blogs = site.posts %}
-      {% for post in blogs limit:4 %}
+      {% for post in blogs limit:3 %}
         <a href="{{ site.baseurl }}{{ post.url }}">
-          <div class="col-sm-3 post-box">
+          <div class="col-sm-4 post-box">
             <div class="blog-content">
                 <img src="{{ post.image }}"/>
               <div class="blog-body">
