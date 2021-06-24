@@ -7,7 +7,7 @@ layout: post
 date: '2020-04-29 14:15:43'
 author: Shyam Mohan
 category: kubernetes
-image: "/images/blog/linode-kubernetes-engine.png"
+image: "/images/blog/linode-kubernetes-engine.webp"
 ---
 
 ![](/images/blog/linode-kubernetes-engine.png)
