@@ -5,65 +5,55 @@
 </div>
 
 
-<div class="panel-group" id="faqAccordion">
 
-	<div class="panel panel-default panel-faq">
-		<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
-			<h4 class="panel-title">
-				<a href="javascript:void(0)" class="ing" data-toggle="collapse"
-				 data-target="#question2">Q: How do I refer a friend?
-                 </a>
-			</h4>
-		</div>
-
-		<div id="question2" class="panel-collapse collapse" style="height: 0px;">
-			<div class="panel-body">
-				<h5><span class="label label-primary">Answer</span></h5>
-				<p class="lead mb-0" >
-					Your referral program area will provide you a unique referral link. Share this link with your friends and family.
-				</p>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="panel panel-default panel-faq">
-		<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
-			<h4 class="panel-title">
-				<a href="javascript:void(0)" class="ing" data-toggle="collapse"
-				 data-target="#question1">Q:
-
-                 Will I receive my referral bonus immediately?
-				</a>
-			</h4>
-		</div>
-		
-		<div id="question1" class="panel-collapse collapse" style="height: 0px;">
-			<div class="panel-body">
-				<h5><span class="label label-primary">Answer</span></h5>
-				
-				<p class="lead mb-0">Referred users must be active more than 30 days to be counted toward your referral bonus. See program details .</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="panel panel-default panel-faq">
-		<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
-			<h4 class="panel-title">
-				<a href="javascript:void(0)" class="ing" data-toggle="collapse"
-				 data-target="#question3">Q:
-                 When are payouts issued?</a>
-			</h4>
-		</div>
-
-		<div id="question3" class="panel-collapse collapse" style="height: 0px;">
-			<div class="panel-body">
-				<h5><span class="label label-primary">Answer</span></h5>
-				<p class="lead mb-0">Payouts are issued on the business day following the 1st and 15th of each month. </p>
-			</div>
-		</div>
-	</div>
-
-	
-	<br><br><br><br>
-</div>
+<main id="faq-panel">
+    <article class="panel-group bs-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+      <section class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				Q: How do I refer a friend?
+              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            <p>Your referral program area will provide you a unique referral link. Share this link with your friends and family.
+			</p>
+          </div>
+        </div>
+      </section>
+      <section class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              
+			Q. Will I receive my referral bonus immediately?
+              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            <p>Referred users must be active more than 30 days to be counted toward your referral bonus .</p>
+          </div>
+        </div>
+      </section>
+      <section class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				Q. When are payouts issued?
+              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            <p>Payouts are issued on the business day following the 1st and 15th of each month.</p>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
