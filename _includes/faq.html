@@ -1,11 +1,11 @@
 <div class="pricing-header">
 	<div class="pricing-header">
-		<h2 style="text-align:center;"><b>Frequently Asked Questions</b></h2>
+		<h2 style="text-align:center; font-size: 42px;" class="section-header"><b>Frequently Asked Questions</b></h2>
 	</div>
 </div>
 
 
-<div class="panel-group" id="faqAccordion">
+<!-- <div class="panel-group" id="faqAccordion">
 
 	<div class="panel panel-default panel-faq">
 		<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
@@ -108,4 +108,103 @@
 		</div>
 	</div>
 	<br><br><br><br>
-</div>
+</div> -->
+
+
+<main id="faq-panel" style="margin-bottom: 20px;">
+	<article class="panel-groups bs-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+	  <section class="panel panel-default">
+		<div class="panel-heading" role="tab" id="headingOne">
+		  <h4 class="panel-title" style="padding: 18px;">
+			<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				Q: How do I get started?
+			  <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+			</a>
+		  </h4>
+		</div>
+		<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		  <div class="panel-body">
+			<p>
+				Getting started with Razorops is easy, you can have a look quick look on
+					<a href="https://docs.razorops.com/introduction/getting-started.html">Documents</a> and signup for razorops.
+					<br>
+					<br>
+					1. <a href="https://dashboard.razorops.com" target="_blank"><b>Signup</b> </a>Razorops<br>
+					Create your first Pipeline project<br>
+					2. Add .razorops.yaml to your source code root directory <br>
+					3. Define your Pipeline <a href="https://docs.razorops.com/configuration/concepts.html#pipeline"> (Click here to Learn)</a><br>
+					4. Commit and push your source code<br>
+					5. This new commit will trigger your pipeline<br>
+					6. Still need help <a href="/schedule-demo" target="_blank"> Schedule a Demo</a><br>
+			</p>
+		  </div>
+		</div>
+	  </section>
+	  <section class="panel panel-default">
+		<div class="panel-heading" role="tab" id="headingTwo">
+		  <h4 class="panel-title" style="padding: 18px;">
+			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			  
+				Q. Which source code management services are supported?
+			  <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+			</a>
+		  </h4>
+		</div>
+		<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+		  <div class="panel-body">
+			<p>Razorops supports major code-hosting services like GitHub, Bitbucket and Gitlab
+				<img src="/images/razorops-git-integration.png" class="img-responsive" alt="razorops git integration">
+			</p>
+			<p>You can find Razorops at <a href="https://github.com/apps/razorops-ci-cd" target="_blank">Github marketplace</a> as well.</p>
+		  </div>
+		</div>
+	  </section>
+	  <section class="panel panel-default">
+		<div class="panel-heading" role="tab" id="headingThree">
+		  <h4 class="panel-title" style="padding: 18px;">
+			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				Q. How do you handle upgrading or canceling a subscription?
+			  <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+			</a>
+		  </h4>
+		</div>
+		<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+		  <div class="panel-body">
+			<p>You can change or cancel your subscription at any time from your dashboard.</p>
+		  </div>
+		</div>
+	  </section>
+
+	  <section class="panel panel-default">
+		<div class="panel-heading" role="tab" id="headingFour">
+		  <h4 class="panel-title" style="padding: 18px;">
+			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+				Q. Do your have something custom plan?
+			  <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+			</a>
+		  </h4>
+		</div>
+		<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+		  <div class="panel-body">
+			<p>Most of our customers find Razorops SAAS environment covers their usecases. if you need extra support, hosting preferences or features,<br> our support team will help you.</p>
+		  </div>
+		</div>
+	  </section>
+
+	  <section class="panel panel-default">
+		<div class="panel-heading" role="tab" id="headingFive">
+		  <h4 class="panel-title" style="padding: 18px;">
+			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+				Q. I have more question ?
+			  <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+			</a>
+		  </h4>
+		</div>
+		<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+		  <div class="panel-body">
+			<p>Just send us an email at <a href="mailto:support@razorops.com?Subject=Hello" target="_top">support@razorops.com</a>, we'll be more than happy to help.</p>
+		  </div>
+		</div>
+	  </section>
+	</article>
+  </main>

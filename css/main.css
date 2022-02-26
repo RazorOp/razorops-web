@@ -159,7 +159,10 @@ address {
 	position: relative;
 	margin: 30px 0 30px;
 }
-
+.section-header2 {
+	position: relative;
+	margin: 30px 0 30px;
+}
 
 .section-header::before {
 	content: '';
@@ -169,6 +172,18 @@ address {
 	bottom: -15px;
 	margin: 0 auto;
 	width: 40px;
+	height: 3px;
+	background-color: #313ee7;
+}
+
+.section-header2::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -15px;
+	margin: 0 auto;
+	width: 120px;
 	height: 3px;
 	background-color: #313ee7;
 }
@@ -235,7 +250,7 @@ th, td {
 }
 /*--end-----*/
 .section-header{
-	margin-top: 60px;
+	margin-top: 40px;
 }
 .section-header h2 {
 	font-size: 42px;
@@ -1544,15 +1559,17 @@ a {
 }
 
 .title-btn{
-	background-color: rgb(193, 193, 194); 
-	color: rgb(6, 44, 168); 
-	font-size: 16px;
+	background-color: rgb(255, 255, 255); 
+	color: rgb(0, 0, 0); 
+	font-size: 17px;
 	font-weight: 600;
 	padding-top: 9px;
+	position:absolute; 
+	margin-top: 26px;
 }
 
-.title-btn :hover{
-	background-color: white;
+.title-btn:hover{
+	background-color: rgb(226, 226, 226);
 }
 
 
@@ -1565,8 +1582,7 @@ a {
 
 .bs-accordion .panel-heading{
 	padding: 0;
-	border :2px solid rgb(8, 55, 141);
-	border-radius: 10px;
+	height: 70px;
 	
 }  
 .bs-accordion .panel-heading a{
@@ -1575,11 +1591,20 @@ a {
 	text-decoration: none;
 	font-weight: 600;
 	color: rgb(8, 55, 141);
+	font-size: 18px;
 	
 
 }
+
+.panel-body p{
+	color: rgb(8, 55, 141);
+	font-size: 16px;
+}
 .panel-default{
-	border-radius: 10px;
+	margin: 0px;
+	border-right: none;
+	border-left: none;
+
 }
 #faq-panel{
 	border-radius: 10px;
@@ -1587,7 +1612,7 @@ a {
 	padding-right: 120px;
 }
 .bs-accordion .panel-heading a:hover{
-	font-size: 17px;
+	font-size: 20px;
 }
 .bs-accordion .panel-heading a{
 	transition:all 1s;
@@ -1596,7 +1621,7 @@ a {
 .bs-accordion .panel-heading a .glyphicon.glyphicon-chevron-right {
 	transform: rotate(90deg);
 
-			transition: transform 350ms cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: transform 350ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .bs-accordion .panel-heading a .glyphicon.glyphicon-chevron-right {
 	transition: transform 350ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1630,6 +1655,8 @@ a {
     transition: 0.5s ease-in-out;
 	opacity: 0.8;
 }
+
+/* ----------------------clients slider---------------------------- */
 .slider{
 	height: 230px;
 	margin: auto;
@@ -1637,6 +1664,8 @@ a {
 	width:80% ;
 	place-items: center;
 	overflow: hidden;
+
+	
 }
 
 .slide-track{
@@ -1654,7 +1683,7 @@ a {
 	width: 240px;
 	display: flex;
 	align-items: center;
-	padding: 15px;
+	padding: 8px;
 	perspective: 100px;
 }
  .slide2 img{

@@ -7,11 +7,12 @@ image: '/images/razorops-referral.png'
 ---
 
 <div class="customers-banner">
-	<img src="/images/v2/razorops-white-logo.png"  style="height: 80px; object-fit: contain;">
+	<img src="/images/v2/razorops-white-logo.png"  style="height: 95px; object-fit: contain; position:relative ;">
 	<h2>Referral Program</h2>
 	<p>Join Razorops partner program and earn real cash.</p>
-    <a href="https://dashboard.razorops.com/users/sign_up" class="btn title-btn">Get Started</a>
-
+  <div style="align-items: center; margin-left: -130px;">
+    <a href="https://dashboard.razorops.com/users/sign_up" class="btn title-btn" style="padding: 14px 20px 13px 20px; ">Get Started</a>
+  </div>
 </div>
 
 
@@ -26,10 +27,10 @@ image: '/images/razorops-referral.png'
 
 		<div class="tab-content">
 			<div id="annually" class="tab-pane fade in active text-center">
-				<h1>How it works</h1>
-                <p style="font-size: 19px;">Tell a friend about Vultr and earn money when they are active for 30+ days.</p>
+				<h2 style="margin-top: 32px; font-size: 42px;" class="section-header">How it works</h2>
+                <p style="font-size: 19px;">Tell a friend about Razorops and earn money when they are active for 30+ days.</p>
 
-                <div class="row text-center">
+                <div class="row text-center" style="margin-top: 35px;">
                     <div class="refcard col-sm-3">
                         <div class="card-body">
                                 <img src="/images/referrals.svg" class="card-img"/>
@@ -55,14 +56,74 @@ image: '/images/razorops-referral.png'
                     </div>
                 </div>
 
-                <div style="margin-top: 16px;">
-                    <a href="https://dashboard.razorops.com/users/sign_up" class="btn"  style="background-color: rgb(20, 70, 187); color: aliceblue; font-size: 17px; font-weight: 600; padding-top: 8px ;">Get Started</a>
+                <div style="margin-top: 50px;">
+                    <a href="https://dashboard.razorops.com/users/sign_up" class="btn"  style="background-color: rgb(20, 70, 187); color: aliceblue; font-size: 20px; font-weight: 600; padding: 14px 20px 13px 20px ;">Get Started</a>
                 </div>  
 			</div>
 		</div>
 		<br><br><br><br><br>
-		
-		{% include referral_faq.html %}
+     <!-- --------------------- FAQ Section--------------------------------- -->
+		<div>
+            <div class="pricing-header">
+                <div class="pricing-header">
+                    <h2 style="text-align:center; font-size: 42px;" class="section-header2"><b>Frequently Asked Questions</b></h2>
+                </div>
+            </div>
+            
+            
+            
+            <main id="faq-panel" style="margin-bottom: 20px;">
+                <article class="panel-groups bs-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+                  <section class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title" style="padding: 18px;">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Q: How do I refer a friend?
+                          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="panel-body">
+                        <p>Your referral program area will provide you a unique referral link. Share this link with your friends and family.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title" style="padding: 18px;">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          
+                        Q. Will I receive my referral bonus immediately?
+                          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="panel-body">
+                        <p>Referred users must be active more than 30 days to be counted toward your referral bonus .</p>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                      <h4 class="panel-title" style="padding: 18px;">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Q. When are payouts issued?
+                          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="panel-body">
+                        <p>Payouts are issued on the business day following the 1st and 15th of each month.</p>
+                      </div>
+                    </div>
+                  </section>
+                </article>
+              </main>
+        </div>
 
 	</div>
 
