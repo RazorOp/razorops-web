@@ -1806,11 +1806,11 @@ a {
 		 margin-right: 12px;
 		 width: 410px ;
 		border-radius: 7px;
-		padding-top: 24px;
+		padding-top: 30px;
 		padding-bottom: 19px;
 		height: 100px;
 		  box-shadow: 4px 4px 20px 6px rgba(9, 56, 144, 0.25) ;
-		  
+		  /* padding:26px 20px 18px 20px; */
 	  }
 	  
 	 
@@ -1845,7 +1845,8 @@ a {
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (min-width:768px) and (max-width:850px) {
+@media only screen and (min-width:768px) and (max-width:850px) {
+	
 	.partner-card{
 		position: relative;
 		border: 2px solid rgb(35, 127, 233);
@@ -1864,6 +1865,18 @@ a {
 		height: 130px;
 		padding: 20px;
 
+	  }
+	  .partnercard{
+		font-size: 20px;
+		 border: 2px solid rgb(11, 36, 182); 
+		 margin-right: 12px;
+		 width: 410px ;
+		border-radius: 7px;
+		/* padding-top: 24px;
+		padding-bottom: 19px; */
+		height: 120px;
+		  box-shadow: 4px 4px 20px 6px rgba(9, 56, 144, 0.25) ;
+		  padding:26px
 	  }
 }
 
