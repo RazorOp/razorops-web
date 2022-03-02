@@ -8,10 +8,103 @@ canonical_url: 'https://razorops.com/case-studies'
 
 <div class="customers-banner">
 	<img src="/images/v2/razorops-white-logo.png" height="45">
-	<h2>Cloud & Platform Integrations</h2>
+	<h2>CI/CD</h2>
 </div>
 
 <div class="container">
-	<hr><br><br>
-	{% include integrations.html %}
+	<div class="materialmargin">
+		<h2 class="text-center section-header2" style="font-size: 42px;">WHAT IS CI/CD?</h2>
+		<p class="partnerinnertitle" >CI is the short form for Continuous Integration, It is a software development execution which the developers use to merge the code and the changes in a central repository many times a day. </p>
+		<p class="partnerinnertitle">CD stands for Continuous Delivery, which is done on the top of Continuous Integration and includes the practice of automating the entire software release process and builds.</p>
+	</div>
+
+	<div class="materialmargin">
+		<h2 class="text-center section-header2" style="font-size: 42px;">WHAT IS CI/CD PIPELINE?</h2>
+		<p class="partnerinnertitle">CI/CD pipeline can be defined as a series of steps that include all the stages from the beginning of the CI/CD process and it is responsible for creating automated and seamless software delivery process .With a CI/CD pipeline, a software release artifact can move and progress through the pipeline right from the code check-in stage through the test,  build, deploy, and production stages.</p>
+		<p class="partnerinnertitle">A CI/CD pipeline consists of a series of sub-processes that can be classified into two major categories – Continuous Integration and Continuous Delivery.
+			<br>
+			<br>
+			<ul class="partnerinnertitle list-font" style="list-style-type:none;">
+				<li class="list-margin "><strong>&#9784; Continuous Integration: </strong>Code Commit, Static Code Analysis, Build and Test stages/scenarios
+				</li>
+				<li class="list-margin "><strong>&#9784; Continuous Delivery: </strong>Bake, Deploy, Verification, monitoring, and Feedback.
+				</li>
+				
+			</ul>
+			
+	</div>
+
+
+	<div class="materialmargin">
+		<h2 class="text-center section-header2" style="font-size: 42px;">Pipeline stages </h2>
+
+		<p class="partnerinnertitle">A CI/CD pipeline can be classified into four main stages:</p>
+		<ol class="partnerinnertitle" style="list-style-type:none;">
+				<li class="list-margin">1. Source</li>
+				<li class="list-margin">2. Build</li>	
+				<li class="list-margin">3. Test</li>	
+				<li class="list-margin">4. Deployment</li>	
+					
+		</ol>
+
+
+		<br>
+		<br>
+		<img src="images/how-it-works.webp" style="padding: 50px; align-self: center;" class="text-center"/>
+
+		<ol class="partnerinnertitle">
+			<li class="list-margin"><strong>Source:</strong> An organization stores application codes in a centralized repository system to carry the versioning, tracking changes, collaborating, and auditing, as well as to make sure that the security and maintain control of the source code.We can consider it the baseline unit of the CI phase.
+			</li>
+			<li class="list-margin"><strong>Build:</strong> This is the most important stage of application development, and when this is completely automated, it allows the developer  team to test and build their release multiple times a day. The build artifacts can then be stored into an artifact repository and then deployed to the environments.The main advantage of using an artifact repository is that they make it possible to go back to a previous version of the build, if that’s ever necessary.</li>
+			<li class="list-margin"><strong>Testing:</strong> Automated tests play a crucial role in any application development-deployment cycle. The automated tests required can be broken down into three categories:
+				<ul class="list-font" style="margin-top: 10px;">
+					<li class="list-margin"><strong>Unit test:</strong> Developers divide an application into smaller units of code to perform testing. This test should always be a part of the build process and can be automated</li>
+					<li class="list-margin"><strong>Integration test:</strong> In the world of microservices to allocate applications, it is important that different components should work when different modules of an application are integrated. This stage may require testing of APIs, integration with a database, or other services. This test is generally part of the deployment and the release process.</li>
+					<li class="list-margin"><strong>Functional test:</strong> This is end-to-end testing of application or product, generally performed on staging servers as part of the release process.
+					</li>
+				</ul>
+			</li>
+			<li class="list-margin"><strong>Deployment:</strong> Once the build is completed and the automated tests for the release are completed, the last stage of the pipeline is to automate deployment of the new code to the next environment in the pipeline. In this stage, the tested code is deployed to the production environment.There are different types of deployment strategies such as blue-green deployment, canary deployment, and in-place deployment for deploying on a production environment:
+				<ul class="list-font" style="margin-top: 10px;">
+					<li class="list-margin"><strong>In a blue-green deployment, </strong> there will be multiple production environments running parallel. The new “green” version of the application or service is accounted for in parallel with the last stable “blue” version running on a distinct infrastructure. Once your green is tested and ready, the blue can be revoked.
+					</li>
+					<li class="list-margin"><strong>In a canary deployment,</strong> the deployment is done to lesser nodes first and, after it is tested using those nodes,and then it will be deployed to all the nodes.
+					</li>
+					<li class="list-margin"><strong>In-place deployment </strong> deploys the code directly to all the live nodes and might suffer downtime; however, with rolling updates, you can reduce or remove downtime.
+					</li>
+				</ul>
+			</li>
+		</ol>
+
+	</div>
+
+	<div class="materialmargin">
+		<h2 class="text-center section-header2" style="font-size: 42px;">Benefits of CI/CD</h2>
+
+		<div class="cibenefit">
+			<div class="cicard"> Automated testing allows continuous delivery, which checks software quality and security and increases the profitability of code in production.</div>
+			<div class="cicard alt-clr">CI/CD pipelines allow a much shorter time to market for the new product features, make happier customers and lower strain on development.</div>
+		</div>
+		<div class="cibenefit">	
+			<div class="cicard alt-clr">The rapid increase in inclusive speed of delivery which is enabled by CI/CD pipelines to  improve an organization’s competitive edge.</div>
+			<div class="cicard">Automation allows team members to focus on what they have to do, which increases the best end products.</div>
+		</div>
+		<!-- <ul class="partnerinnertitle list-font">
+		<li>Automated testing allows continuous delivery, which checks software quality and security and increases the profitability of code in production.</li>
+		<li>CI/CD pipelines allow a much shorter time to market for the new product features, make happier customers and lower strain on development.</li>
+		<li>The rapid increase in inclusive speed of delivery which is enabled by CI/CD pipelines to  improve an organization’s competitive edge.</li>
+		<li>Automation allows team members to focus on what they have to do, which increases the best end products.</li>
+	</ul>	 -->
+	</div>
+
+	<div class="materialmargin">
+		<h2 class="text-center section-header2" style="font-size: 42px;">CONCLUSION:</h2>
+		<p class="partnerinnertitle text-center">A CI/CD pipeline automates the software delivery process. The pipeline builds the code, runs tests (CI), and safely deploys a new version of the application (CD). Automated pipelines will help to remove manual errors, provide systematized feedback loops to developers, and enable fast product iterations and deliverability .
+			Razorops is a CI/CD platform which helps to be 100% operational on a technical level so we can focus on delivering the best product in a short amount of time.With Razorops,there will be very little overhead and it helps them to focus on what matters.
+			</p>
+	</div>
+	
+
+	<!-- <hr><br><br>
+	{% include integrations.html %} -->
 </div>

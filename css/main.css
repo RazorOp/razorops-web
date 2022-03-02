@@ -1951,3 +1951,36 @@ a {
 }
 
 
+.list-font li{
+	font-size: 18px;
+}
+
+.materialmargin{
+	margin-bottom: 60px;
+	
+}
+.cibenefit{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	padding-left: 320px;
+	padding-right: 200px;
+}
+.cicard{
+	border:2px solid #123db3;
+	border-radius: 5px;
+	font-size: 19px;
+	margin: 10px;
+	width:320px;
+	height: 230px;
+	padding: 27px;
+	text-align: center;
+	font-weight: 600;
+}
+.alt-clr{
+	background-color: #123db3;
+	color: white;
+}
+.list-margin{
+	margin-bottom: 13px;
+}
