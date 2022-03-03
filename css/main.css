@@ -2146,3 +2146,9 @@ a {
 		
 	}
 }
+
+@media screen and (min-width:768px) and (max-width:913px) {
+	.customers-banner{
+		margin-top: 20px;
+	}
+}
