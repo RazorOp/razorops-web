@@ -2078,6 +2078,9 @@ a {
 }
 
 @media (max-width:767px){
+	.customers-banner{
+		margin-top: 20px;
+	}
 	.case-row{
 		display: flex;
 		flex-direction: column;
