@@ -701,6 +701,34 @@ th, td {
  	color: #FFF;
  	margin-top: -80px;
 }
+.customers-banner2{
+	position: relative;
+}
+.customers-banner2::before{
+	text-align: center;
+	  padding: 150px 15px;
+	  background-image: url("/images/v2/home-banner.png");
+	 
+	   background-color: #FFF;
+	   color: #FFF;
+	   margin-top: -80px;
+	 
+
+	   content: ' ';
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.35;
+  
+  }
+  .customers-banner2::after{
+	position: relative;
+  }
+ 
+  
 
 .auzmor-banner{
   text-align: center;
@@ -728,6 +756,9 @@ th, td {
 	.customers-banner {
 		padding: 100px 15px;
 	}
+	.customers-banner2 {
+		padding: 100px 15px;
+	}
 	.client-images img {
 		max-width: 150px;
 		height: 50px;
@@ -738,6 +769,10 @@ th, td {
 	}
 }
 .customers-banner img {
+	max-width: 240px;
+	height: auto;
+}
+.customers-banner2 img {
 	max-width: 240px;
 	height: auto;
 }
@@ -1987,8 +2022,11 @@ a {
 .content-font{
 	font-size: 18px;
 }
+
+@media screen and (min-width:1100px){
+	
 .cases-margin{
-	margin: 20px 300px 20px 270px;
+	margin: 20px 200px 20px 200px;
 }
 .case-content{
 	padding: 20px ;
@@ -1997,8 +2035,8 @@ a {
 	padding: 0px 20px 20px 20px ;
 }
 .case-content div{
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 0px;
+	padding-right: 0px;
 	margin-bottom: 60px;
 	
 }
@@ -2031,4 +2069,80 @@ a {
 }
 .case-lists{
 	font-size: 19px;
+}
+.case-row{
+	display: flex;
+	flex-direction: row;
+}
+
+}
+
+@media (max-width:767px){
+	.case-row{
+		display: flex;
+		flex-direction: column;
+	}	
+	.centerimg{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 25%;
+		border-radius: 70px;
+	}
+	.case-desc{
+		padding-left: 60px;
+		padding-right: 60px;
+		
+		
+	}
+	.right-side-section{
+		text-align: center;
+	}
+	.right-side-section .icon-section{
+		margin-bottom: 50px;
+	}
+	.right-side-section .icon-section p{
+		margin-bottom: 30px;
+	}
+	.right-side-section .icon-section h2{
+		margin-bottom: 30px;
+		
+		
+		
+	}
+}
+
+@media screen and (min-width:768px)and (max-width:1099px) {
+	.case-row{
+		display: flex;
+		flex-direction: column;
+	}	
+	.centerimg{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 25%;
+		border-radius: 70px;
+	}
+	.case-desc{
+		padding-left: 60px;
+		padding-right: 60px;
+		
+		
+	}
+	.right-side-section{
+		text-align: center;
+	}
+	.right-side-section .icon-section{
+		margin-bottom: 50px;
+	}
+	.right-side-section .icon-section p{
+		margin-bottom: 30px;
+	}
+	.right-side-section .icon-section h2{
+		margin-bottom: 30px;
+		
+		
+		
+	}
 }
