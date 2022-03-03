@@ -1987,3 +1987,48 @@ a {
 .content-font{
 	font-size: 18px;
 }
+.cases-margin{
+	margin: 20px 300px 20px 270px;
+}
+.case-content{
+	padding: 20px ;
+}
+.case-contents{
+	padding: 0px 20px 20px 20px ;
+}
+.case-content div{
+	padding-left: 80px;
+	padding-right: 80px;
+	margin-bottom: 60px;
+	
+}
+.title-margin{
+	margin-bottom: 50px;
+}
+.reviewauthor{
+	color: rgb(141, 141, 141);
+}
+.icon-section p{
+	margin-bottom: 30px;
+}
+
+.icon-section h2{
+	margin-bottom: 20px;
+	background-color: #1545b3;
+	padding: 8px;
+	color: rgb(255, 255, 255);
+	border-radius: 4px;
+}
+.icon-section{
+	margin-bottom: 15px;
+}
+.centerimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	border-radius: 70px;
+}
+.case-lists{
+	font-size: 19px;
+}
