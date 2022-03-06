@@ -2309,3 +2309,16 @@ a {
 	margin-top:45px ;
 	margin-bottom: 40px;
 }
+
+.partner-left-section{
+	padding-top: 130px;
+	padding-left: 120px;
+	
+}
+.partner-left-section div p{
+	font-size: 21px;
+	font-weight: 600;
+}
+.partner-left-section div p span{
+	font-size: 26px;
+}
