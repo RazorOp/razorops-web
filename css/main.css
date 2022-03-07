@@ -1576,6 +1576,9 @@ a {
       margin-bottom: 0;
       padding: 0 40px 30px 40px;
     }
+	.ref-ullist{
+		margin: 30px 0px;
+	}
 }
 
 /* Small devices (tablets, up to 768px) */
@@ -1704,7 +1707,12 @@ a {
 	.bs-accordion .panel-heading a:hover{
 		font-size: 16px;
 	}
-
+	.ref-list{
+		padding:0px 40px;
+	}
+	.ref-ullist{
+		margin: 30px 0px;
+	}
 	.onecard{
 		width:auto; 
 		max-width: 240px;
@@ -1976,7 +1984,7 @@ a {
 .slide-track{
 	display: flex;;
 	width: calc(250px * 17);
-	animation: scroll 50s linear infinite;
+	animation: scroll 40s linear infinite;
 }
 
 .slide-track:hover{
@@ -2118,6 +2126,10 @@ a {
 .case-row{
 	display: flex;
 	flex-direction: row;
+}
+
+.ref-list{
+	padding: 0px 120px;
 }
 
 }
@@ -2302,7 +2314,9 @@ a {
 	margin: 0px;
 	padding: 0px;
 }
-
+.partner-middle-section{
+	padding: 0px 30px;
+}
 
 
 .testimonials-margin{
@@ -2311,8 +2325,8 @@ a {
 }
 
 .partner-left-section{
-	padding-top: 130px;
-	padding-left: 120px;
+	padding-top: 100px;
+	/* padding-left: 120px; */
 	
 }
 .partner-left-section div p{
@@ -2322,3 +2336,4 @@ a {
 .partner-left-section div p span{
 	font-size: 26px;
 }
+
