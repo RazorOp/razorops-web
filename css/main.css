@@ -2270,13 +2270,9 @@ a {
   }
 
 .card-border_lightblue{
-	border: 2px solid rgb(87, 112, 187);
+	border: 1px solid rgb(87, 112, 187);
 	padding: 24px;
-	margin: 16px;
-	
-	width: 320px;
-	height: 390px;
-	border-radius: 10px;
+	border-radius: 5px;
 }  
 
 .card-border_lightblue .text-primary{
@@ -2318,7 +2314,8 @@ a {
 }
 
 .section2{
-	margin: 0px;
+	margin-top: 40px;
+	margin-bottom: 80px;
 	padding: 0px;
 }
 .partner-middle-section{
@@ -2346,5 +2343,5 @@ a {
 
 .res-img-pn{
 	width: 100%;
-	border: 1px solid rgb(233, 233, 233);
+	border: 0px;
 }
