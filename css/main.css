@@ -2402,3 +2402,13 @@ a {
 	width: 100%;
 	border: 1px solid rgb(233, 233, 233);
 }
+
+.webinar-form{
+	padding: 30px 70px;
+}
+.onewebinar-info{
+	padding: 70px;
+}
+.webinar-info-margin{
+	margin-bottom: 30px;
+}
