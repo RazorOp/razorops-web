@@ -1375,7 +1375,7 @@ a {
 
 .customer-wraper {
 	min-height: 80vh;
-	background-color: #FFF;
+	background-color: rgb(255, 255, 255);
 }
 
 
@@ -1704,6 +1704,11 @@ a {
 		font-size: 15px;
 	
 	}
+	.bs-accordion .panel-heading{
+		padding: 0;
+		height: 90px;
+		
+	} 
 	.bs-accordion .panel-heading a:hover{
 		font-size: 16px;
 	}
@@ -1756,7 +1761,8 @@ a {
 
 	  .partnerinnertitle{
 		font-size: 16px; 
-		padding: 20px 76px 0px 76px;
+		padding: 20px 46px 0px 46px;
+		text-align: justify;
 	}
 	.partner-card{
 		position: relative;
@@ -1780,7 +1786,7 @@ a {
 		width: 100%;
 		height: 100%;
 		background: #1959cf;
-		clip-path: circle(80px at 80% 20%);
+		clip-path: circle(80px at 80% 10%);
 		transition: 0.5s ease-in-out;
 		opacity: 0.8;
 	}
@@ -1792,11 +1798,7 @@ a {
 	
 }
 
-.bs-accordion .panel-heading{
-	padding: 0;
-	height: 70px;
-	
-}  
+
 
 
 .panel-body p{
@@ -1828,6 +1830,11 @@ a {
 		
 	
 	}
+	.bs-accordion .panel-heading{
+		padding: 0;
+		height: 70px;
+		
+	}  
 	.partner-card-section{
 		display: flex;
 		flex-direction: row;
@@ -1854,7 +1861,7 @@ a {
 		width: 100%;
 		height: 100%;
 		background: #1959cf;
-		clip-path: circle(150px at 80% 20%);
+		clip-path: circle(110px at 80% 20%);
 		transition: 0.5s ease-in-out;
 		opacity: 0.8;
 	}
@@ -2390,4 +2397,8 @@ a {
 		.other-webinar-card{
 			margin-bottom: 20px;
 		}
+	}		
+.res-img-pn{
+	width: 100%;
+	border: 1px solid rgb(233, 233, 233);
 }
