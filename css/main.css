@@ -1785,7 +1785,7 @@ a {
 		overflow: hidden;
 		padding: 10px 10px 20px 10px;
 	}
-	.partner-card:before {
+	/* .partner-card:before {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -1796,7 +1796,7 @@ a {
 		clip-path: circle(80px at 80% 10%);
 		transition: 0.5s ease-in-out;
 		opacity: 0.8;
-	}
+	} */
 	.card-img{
 		height: 100px;
 		padding: 7px;
@@ -1860,7 +1860,7 @@ a {
 		
 		
 	}
-	.partner-card:before {
+	/* .partner-card:before {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -1871,7 +1871,7 @@ a {
 		clip-path: circle(110px at 80% 20%);
 		transition: 0.5s ease-in-out;
 		opacity: 0.8;
-	}
+	} */
 	.card-img{
 		height: 180px;
 		padding: 20px;
