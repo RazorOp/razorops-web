@@ -1370,7 +1370,7 @@ a {
 .pricing-wraper {
 	min-height: 80vh;
 	/*padding: 20px 0 80px;*/
-	background-color: #f6f8f6;
+	background-color: #ffffff;
 }
 
 .customer-wraper {
@@ -1563,6 +1563,11 @@ a {
   /*border-radius: 5px;*/
   height: 157px;
   margin-bottom: 20px;
+  padding-right: 80px;
+  
+}
+.implementation-partner-desc{
+	font-size: 19px;
 }
 
 /**
@@ -2086,7 +2091,7 @@ a {
 @media screen and (min-width:1100px){
 	
 .cases-margin{
-	margin: 20px 200px 20px 200px;
+	margin: 20px 180px 20px 180px;
 }
 .case-content{
 	padding: 20px ;
@@ -2138,6 +2143,29 @@ a {
 .ref-list{
 	padding: 0px 120px;
 }
+.right-side-section{
+	/* text-align: center; */
+}
+.right-side-section .icon-section{
+	margin-bottom: 50px;
+}
+.right-side-section .icon-section .tech-stacks{
+	margin-bottom: 30px;
+	padding: 0px 20px;
+	
+}
+.right-side-section .icon-section .tech-stacks span{
+	font-weight: 600; 
+	font-size: 19px;
+	margin-left: 5px;
+}
+
+.right-side-section .icon-section h2{
+	margin-bottom: 30px;
+	
+	
+	
+}
 
 }
 
@@ -2187,14 +2215,28 @@ a {
 	.right-side-section .icon-section{
 		margin-bottom: 50px;
 	}
-	.right-side-section .icon-section p{
+	.right-side-section .icon-section .tech-stacks{
 		margin-bottom: 30px;
 	}
 	.right-side-section .icon-section h2{
 		margin-bottom: 30px;
+			
+	}
+	.right-side-section .icon-section .tech-stacks span{
+		font-weight: 600; 
+		font-size: 19px;
+	}
+	.blog-section >  .container{
+		margin: 40px 40px 40px 40px;
 		
-		
-		
+	}
+	.section2{
+		margin: 40px 40px 40px 40px;
+
+	}
+	.section2 .col-sm-4{
+		margin-bottom: 40px ;
+
 	}
 }
 
@@ -2234,9 +2276,15 @@ a {
 	.right-side-section .icon-section{
 		margin-bottom: 50px;
 	}
-	.right-side-section .icon-section p{
+	.right-side-section .icon-section .tech-stacks{
 		margin-bottom: 30px;
+		
 	}
+	.right-side-section .icon-section .tech-stacks span{
+		font-weight: 600; 
+		font-size: 19px;
+	}
+
 	.right-side-section .icon-section h2{
 		margin-bottom: 30px;
 		
@@ -2344,4 +2392,14 @@ a {
 .res-img-pn{
 	width: 100%;
 	border: 0px;
+}
+
+.case-study-client-line{
+	font-size: 27px; 
+	font-weight: 600;
+	color: white;
+}
+.init-case{
+	font-size: 20px;
+	font-weight: 600;
 }
