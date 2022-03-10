@@ -161,8 +161,8 @@ address {
 }
 .section-header2 {
 	position: relative;
-	margin: 30px 0 30px;
-	margin-top: 80px; 
+	margin: 20px 0 20px;
+	margin-top: 40px; 
 	font-size: 40px;
 }
 
@@ -309,6 +309,12 @@ th, td {
 	.navbar-default .navbar-nav > li > .btn {
 		max-width: 300px;
 		margin: 0 auto;
+	}
+	.section-header2 {
+		position: relative;
+		margin-top: 20px; 
+		font-size: 35px;
+		margin-bottom: 50px;
 	}
 }
 .navbar-default .navbar-nav > li > a:hover,
@@ -631,7 +637,7 @@ th, td {
   text-align: center;
   background-color: #FFF;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .banner-clients img{
   width: 150px;
@@ -1517,7 +1523,7 @@ a {
 	margin-top: -10px;
 	
 	color: #000;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
    }
 
  .testimonial p small {
@@ -1585,6 +1591,10 @@ a {
     }
 	.ref-ullist{
 		margin: 30px 0px;
+		text-align: left;
+		padding-left: 50px;
+		list-style-type: none;
+		 
 	}
 }
 
@@ -1633,12 +1643,10 @@ a {
 
 
   .refcard{
-	  border: 2px solid #1545b3;
+	  border: 1px solid #1545b3;
 	  border-radius: 10px ;
 	  height: auto;
 	  max-height: 400px;
-	  width: auto;
-	  max-width: 370px;
 	  padding: 10px;
   }
 
@@ -1700,6 +1708,33 @@ a {
 	#faq-panel{
 		padding-left: 30px;
    		padding-right: 30px;
+		   margin-bottom: 10px;
+	}
+	.partner-left-section{
+		padding-top: 0px;
+	text-align: center;
+		
+	}
+	.partner-left-section div p{
+		font-size: 21px;
+		font-weight: 600;
+	}
+	.partner-left-section div p span{
+		font-size: 26px;
+	}
+	.let-start-cta{
+		padding-left: 0px; 
+		color: white;
+		text-align: center;
+	}
+	.let-start-cta-btn a{
+		font-size: 18px; 
+		font-weight: 600; 
+		border-radius: 10px; 
+		color: rgb(0, 0, 0); 
+		margin: 50px 0px 0px 90px; 
+		padding-top: 6px; 
+		background-color: azure;"
 	}
 	.bs-accordion .panel-heading a{
 		
@@ -1724,6 +1759,8 @@ a {
 	}
 	.ref-ullist{
 		margin: 30px 0px;
+		list-style-type: none;
+		padding-left: 0px;
 	}
 	.onecard{
 		width:auto; 
@@ -1775,12 +1812,11 @@ a {
 		position: relative;
 		border: 2px solid rgb(35, 127, 233);
 
-		width: auto;
-		max-width: 260px;
+		
 		height: auto;
 		max-height: 360px;
 		margin-bottom: 17px;
-		background: #f1f1f1;
+		background:  #f6f6f6;
 		border-radius: 20px;
 		overflow: hidden;
 		padding: 10px 10px 20px 10px;
@@ -1800,6 +1836,8 @@ a {
 	.card-img{
 		height: 100px;
 		padding: 7px;
+		z-index: 2; 
+		position: relative;
 		
 	  }
 	
@@ -1826,6 +1864,32 @@ a {
 		border-radius: 10px;
 		padding-left: 120px;
 		padding-right: 120px;
+		margin-bottom: 20px;
+	}
+	.partner-left-section{
+		padding-top: 100px;
+		/* padding-left: 120px; */
+		
+	}
+	.partner-left-section div p{
+		font-size: 21px;
+		font-weight: 600;
+	}
+	.partner-left-section div p span{
+		font-size: 26px;
+	}
+	.let-start-cta{
+		padding-left: 70px; 
+		color: white;
+	}
+	.let-start-cta-btn a{
+		font-size: 18px; 
+		font-weight: 600; 
+		border-radius: 10px; 
+		color: rgb(0, 0, 0); 
+		margin: 57px 0px 0px 80px; 
+		padding-top: 6px; 
+		background-color: azure;"
 	}
 	.bs-accordion .panel-heading a{
 		display: block;
@@ -1849,12 +1913,11 @@ a {
 	.partner-card{
 		position: relative;
 		border: 2px solid rgb(35, 127, 233);
-		width:auto;
-		max-width: 426px;
+
 		height: auto;
 		max-height: 420px;
 		margin-right: 17px;
-		background: #f1f1f1;
+		background: #f6f6f6;
 		border-radius: 20px;
 		overflow: hidden;
 		
@@ -1875,6 +1938,8 @@ a {
 	.card-img{
 		height: 180px;
 		padding: 20px;
+		z-index: 2; 
+		position: relative;
 
 	  }
 	.onecard{
@@ -1945,6 +2010,8 @@ a {
 	color: #124199;
 	font-weight: 600;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	z-index: 2; 
+	position: relative;
 }
 
 @media only screen and (min-width:768px) and (max-width:850px) {
@@ -1952,12 +2019,10 @@ a {
 	.partner-card{
 		position: relative;
 		border: 2px solid rgb(35, 127, 233);
-		width:auto;
-		max-width: 426px;
 		height: auto;
 		max-height: 420px;
 		margin-right: 17px;
-		background: #f1f1f1;
+		background: #f6f6f6;
 		border-radius: 20px;
 		overflow: hidden;
 		padding: 20px;
@@ -1966,6 +2031,8 @@ a {
 	.card-img{
 		height: 130px;
 		padding: 20px;
+		z-index: 2; 
+		position: relative;
 
 	  }
 	  .partnercard{
@@ -2232,6 +2299,10 @@ a {
 		margin: 40px 40px 40px 40px;
 		
 	}
+	.case-section >  .container{
+		margin: 20px 40px 40px 40px;
+		
+	}
 	.section2{
 		margin: 40px 40px 40px 40px;
 
@@ -2348,6 +2419,14 @@ a {
 	padding: 40px 0px 40px 0px;
 	
 }
+.case-section >  .container{
+	padding: 0px 0px 40px 0px;
+	
+}
+.case-section .section-header2{
+	margin-bottom: 60px;
+	
+}
 .more-strong{
 	font-size: 60px;
 }
@@ -2377,18 +2456,7 @@ a {
 	margin-bottom: 40px;
 }
 
-.partner-left-section{
-	padding-top: 100px;
-	/* padding-left: 120px; */
-	
-}
-.partner-left-section div p{
-	font-size: 21px;
-	font-weight: 600;
-}
-.partner-left-section div p span{
-	font-size: 26px;
-}
+
 
 .res-img-pn{
 	width: 100%;
@@ -2409,4 +2477,15 @@ a {
 	padding: 23px;
 	 line-height: 36px; 
 	 font-size: 24px;
+}
+
+.counter-title{
+	color: rgb(112, 112, 112);
+	 font-weight: 600;
+}
+.panel-title{
+	padding: 18px;
+}
+.carousel-indicators{
+	z-index: 2
 }
