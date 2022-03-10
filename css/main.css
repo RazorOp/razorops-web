@@ -163,7 +163,7 @@ address {
 	position: relative;
 	margin: 20px 0 20px;
 	margin-top: 40px; 
-	font-size: 40px;
+	font-size: 35px;
 }
 
 .section-header::before {
@@ -1523,7 +1523,7 @@ a {
 	margin-top: -10px;
 	
 	color: #000;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
    }
 
  .testimonial p small {
@@ -1570,7 +1570,7 @@ a {
   /*border: 1px solid #D8D8D8;*/
   /*border-radius: 5px;*/
   height: 157px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-right: 80px;
   
 }
@@ -2431,7 +2431,7 @@ a {
 	font-size: 60px;
 }
 .counter-section{
-	margin-top: 35px;
+	margin-top: 60px;
 	margin-bottom: 35px;
 }
 .case-studies-card{
