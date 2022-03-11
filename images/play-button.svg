@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="77px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.3%" y="-12.3%" width="130.6%" height="130.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="1.74513132" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feMorphology radius="1.74513132" operator="erode" in="SourceAlpha" result="shadowInner"/>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"/>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="12-20-Home-A" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1001.000000, -429.000000)" opacity="0.800000012">
+        <g id="ic-play" filter="url(#filter-1)" transform="translate(1006.000000, 432.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M33.5,0 C51.9122137,0 67,15.0877863 67,33.5 C67,51.9122137 51.9122137,67 33.5,67 C15.0877863,67 0,51.9122137 0,33.5 C0,15.0877863 15.0877863,0 33.5,0 Z M24.6905348,16.9533746 C24.5178596,16.848268 24.3196041,16.792674 24.1174554,16.792674 C23.5087336,16.792674 23.0152672,17.2861404 23.0152672,17.8948622 L23.0152672,49.7739576 C23.0152672,49.9761063 23.0708612,50.1743618 23.1759678,50.3470369 C23.4924708,50.8670062 24.1705655,51.0319481 24.6905348,50.7154451 L50.8769345,34.7758974 C51.0274143,34.684301 51.1537463,34.557969 51.2453427,34.4074893 C51.5618457,33.88752 51.3969038,33.2094253 50.8769345,32.8929223 L24.6905348,16.9533746 Z" id="Combined-Shape"/>
+        </g>
+    </g>
+</svg>
