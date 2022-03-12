@@ -1,0 +1,144 @@
+---
+title: What is CICD Pipeline? Explanation of CICD Pipeline along with Examples. 
+description: Take a look at what is Continuous integration (CI) and continuous delivery (CD) or continuous deployment pipeline ( CICD Pipeline) with clear explanation along with how CICD pipeline works in devops.
+keywords: Static Website, AWS S3, Razorops CI/CD, deployment
+
+permalink: "/blog/:title/"
+layout: post
+date: '2022-04-13 14:15:43'
+author: Shyam Mohan
+category: CI/CD
+image: "/images/blog/how-to-deploy-a-static-website-to-aws-s3-with-razorops-ci-cd.webp"
+---
+
+
+<h3>WHAT IS CI/CD ?</h3>
+<img src="{{page.image}}" >
+
+<i>Continuous Integration(CI)</i> is a software development practice where developers frequently merge the code and the changes in a central repository. The important goals of continuous integration is to find and resolve the bugs more quicker, improve the software quality, and reduce the time taken to validate and release new software updates.
+<br>
+<br>
+<i>Continuous Delivery(CD)</i>, which is done on the top of Continuous Integration and includes the practice of automating the entire software release process and builds.
+<br><br>
+
+
+<h3>WHAT IS CI/CD PIPELINE ?</h3>
+<br>
+CI/CD pipeline is a series of steps that include all the stages from the beginning of the CI/CD process and it is responsible for creating an automated and seamless software delivery process. With a CI/CD pipeline, a software release artifact can move and progress through the pipeline right from the code check-in stage through the builds, tests, and different deployment stages.
+<br>
+<br>
+A CI/CD pipeline consists of a series of sub-processes that can be classified into two major categories – Continuous Integration and Continuous Delivery.
+<br>
+<br>
+
+1.Continuous Integration: Plan, Code, Build and Test stages/scenarios
+2.Continuous Delivery: Test, Release, Deploy and Operate.
+
+<br><br>
+
+<img src="/images/blog/cicd-pipeline.png" >
+
+<br><br><br><br>
+<h3>Pipeline stages :</h3>
+<br>
+<br>
+A CI/CD pipeline can be classified further into four main stages:
+<br><br>
+1. Source
+2. Build
+3. Test
+4. Deployment
+<br><br>
+
+<img src="/images/blog/razorops-cicd-workflow.png">
+<br><br>
+
+<pre>
+{
+  "Version":"2012-10-17",
+  "Statement":[
+    {
+      "Sid":"PublicRead",
+      "Effect":"Allow",
+      "Principal": "*",
+      "Action":["s3:GetObject","s3:GetObjectVersion"],
+      "Resource":["arn:aws:s3:::DOC-EXAMPLE-BUCKET/*"]
+    }
+  ]
+}
+
+</pre>
+<br>
+Replace DOC-EXAMPLE-BUCKET name with your bucket name
+<br>
+Now you are set to upload you website code, after uploading you can find the website url under properties tab at <b>Static website hosting</b>, you should fine your website here. 
+
+
+<img src="/images/blog/deploy-a-static-website-to-AWS-with-Razorops-CICD-3.png" >
+<br><br>
+You can use <a href="https://www.cloudflare.com/en-gb/" target="_blank">cloudflare</a> to host your website and get a free ssl for your domain. Here add CNAME for your your sub-domain and point to the URL give by AWS s3.
+
+<br><br>
+<img src="/images/blog/deploy-a-static-website-to-AWS-with-Razorops-CICD-4.png" >
+<br><br>
+<br><br>
+<img src="/images/blog/add-razorops-ci-cd-to-aws-s3.png" >
+<br><br>
+Following Setup to add Razorops CICD for AWS S3<br>
+1) Create Razorops Account<br>
+2) Create Pipeline<br>
+3) Add AWS ENV to pipeline<br>
+4) Add .razorops.yaml file to your project root and push your code as specified branch 
+
+<br><br>
+<img src="/images/blog/razorops-cicd-for-aws-s3.gif" >
+<br><br>
+
+Following is one sample razorops yaml file to upload static website code to amazon S3.
+<br>
+<br>
+<pre>
+tasks:
+  build:
+    steps:
+    - checkout
+    # commands to upload static pages folder to AWS S3
+    - commands:
+      - aws s3 rm s3://$AWS_S3_BUCKET --recursive
+      - aws s3 cp _site s3://$AWS_S3_BUCKET --recursive
+      if: branch == 'main'
+</pre>
+<br><br>
+Following is one sample razorops yaml file to build jekyll website and upload code to amazon S3.
+<br>
+<br>
+<pre>
+tasks:
+  build:
+    steps:
+    - checkout
+    # commands to build jekyll website
+    - commands:
+      - gem install bundler
+      - rm Gemfile.lock
+      - bundle install
+      - JEKYLL_ENV=production bundle exec jekyll build
+
+    # commands to upload static pages folder to AWS S3
+    - commands:
+      - aws s3 rm s3://$AWS_S3_BUCKET --recursive
+      - aws s3 cp _site s3://$AWS_S3_BUCKET --recursive
+      if: branch == 'main'
+</pre>
+
+<br>
+<iframe width="660" height="350" src="https://www.youtube.com/embed/AQ2-3bkTG0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+{% include schedule-demo.html %}
+
+
+
+
+
+
