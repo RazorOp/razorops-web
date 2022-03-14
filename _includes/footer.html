@@ -22,15 +22,13 @@
       <div class="col-md-3 col-sm-3 col-xs-6 footer-item mb-10">
         <h2 class="cta__title">COMPANY</h2>
         <ul class="footer-nav">
-          <li><a href="/blog" title="Blog">Blog</a></li>
           <li><a href="/about" title="About" >About Us</a></li>
-          <li><a href="/customers">Customers</a></li>
-          <li><a href="/jobs">We are Hiring!</a></li>
           <li><a href="/contact" title="Conatct">Contact Us</a></li>
+          <li><a href="/customers">Customers</a></li>
+          <li><a href="/open-source">Open Source</a></li>
           <li><a href="/partners">Partners</a></li>
-          <li><a href="/referral">Referral</a></li>
-          <li><a href="/write-for-us">Write for us</a></li>
-
+          <li><a href="/referral">Refer and Earn</a></li>
+          <li><a href="/jobs">We are Hiring!</a></li>
         </ul>
       </div>
 
@@ -39,10 +37,11 @@
         <ul class="footer-nav">
           <li><a href="https://docs.razorops.com/" target="_blank">Documentation</a></li>
           <li><a href="https://docs.razorops.com/getting_started/" target="_blank">Getting Started</a></li>
-          <li><a href="https://www.youtube.com/channel/UCq-0f5HPIAJ_2Ds6uvwBW4g" target="_blank">Videos</a></li>
+          <li><a href="/blog" title="Blog">Blog</a></li>
           <li><a href="/customers">Case Studies</a></li>
-          <li><a href="/open-source">Open Source</a></li>
-          <!-- <li><a href="/case-studies">Case Studies</a></li> -->
+          <li><a href="https://www.youtube.com/channel/UCq-0f5HPIAJ_2Ds6uvwBW4g" target="_blank">Videos</a></li>
+          <li><a href="/webinars">Webinars</a></li>
+          <li><a href="/write-for-us">Write for us</a></li>
         </ul>
       </div>
 
@@ -80,7 +79,7 @@
 
     <a href="https://www.youtube.com/channel/UCq-0f5HPIAJ_2Ds6uvwBW4g" target="_blank"><img src="/images/v2/youtube.svg" alt="youtube" width="24" height="24"></a>
 
-    <a href="https://wa.me/918688468400" target="_blank"><img src="/images/v2/whatsapp.svg" alt="whatsapp" width="24" height="24"></a>
+    <a href="https://api.whatsapp.com/send/?phone=918688468400&text=Hi%20Shyam,%20I%20like%20to%20know%20more%20about%20Razorops%20CICD&app_absent=0" target="_blank"><img src="/images/v2/whatsapp.svg" alt="whatsapp" width="24" height="24"></a>
   </span>
 </div>
 
@@ -94,9 +93,7 @@
 </script>
 
 
-{% if jekyll.environment == "production" %}
-   {% include third-party-js.html %}
-{% endif %}
+{% include third-party-js.html %}
 
 
 

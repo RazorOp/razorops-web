@@ -43,7 +43,7 @@ address {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 470px;
+    height: 570px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -163,7 +163,7 @@ address {
 	position: relative;
 	margin: 20px 0 20px;
 	margin-top: 40px; 
-	font-size: 35px;
+	font-size: 30px;
 }
 
 .section-header::before {
@@ -518,8 +518,8 @@ th, td {
 	font-size: 20px;
 }
 .banner-actions {
-	margin-top: 50px;
-	margin-bottom: 50px !important;
+	margin-top: 30px;
+	margin-bottom: 20px !important;
 }
 
 
