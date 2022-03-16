@@ -10,7 +10,7 @@ layout: post
 date: '2022-03-14 18:06:28'
 author: Shyam Mohan
 category: CI/CD
-image: images/blog/cici-pipeline-blog.png
+image: images/v2/how-it-works.png
 ---
 
 **WHAT IS CI/CD?**
