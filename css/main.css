@@ -2706,3 +2706,28 @@ padding-left: 10px;
 .carousel-indicators{
 	z-index: 2
 }
+
+/* *************************webinar thank you************************** */
+.webinar-thakyou-banner{
+	text-align: center;
+	padding: 150px 15px;
+	background-color: rgb(37, 192, 96);
+ 	color: #FFF;
+ 	margin-top: -80px;
+}
+.share-logo .socials-link-list{
+	list-style: none;
+	margin-top: 30px;
+		
+}
+.share-logo .socials-link-list li{
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 20px;
+
+	
+}
+.share-logo .socials-link-list li a{
+	text-decoration: none;
+}
+
