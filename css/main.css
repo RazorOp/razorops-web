@@ -2400,11 +2400,14 @@ a {
 		  transition: 0.3s;
 		border-radius: 5px;
 		margin-bottom: 30px;
-		height: 390px;
+		height: 370px;
 		padding: 0px;
+		
 	}
 	.webinar-upcoming-section{
 		margin:20px; 
+		display: flex;
+		flex-direction: column-reverse;
 	}
 	.customers-banner2{
 		margin-top: 20px;
