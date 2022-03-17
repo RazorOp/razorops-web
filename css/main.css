@@ -159,11 +159,16 @@ address {
 	position: relative;
 	margin: 30px 0 30px;
 }
+
 .section-header2 {
 	position: relative;
 	margin: 20px 0 20px;
 	margin-top: 40px; 
 	font-size: 30px;
+}
+.section-header3 {
+	position: relative;
+	margin: 30px 0 30px;
 }
 
 .section-header::before {
@@ -186,6 +191,17 @@ address {
 	bottom: -15px;
 	margin: 0 auto;
 	width: 120px;
+	height: 3px;
+	background-color: #313ee7;
+}
+.section-header3::before {
+	content: '';
+	position: absolute;
+	left: -300px;
+	right: 0;
+	bottom: -15px;
+	margin: 0 auto;
+	width: 40px;
 	height: 3px;
 	background-color: #313ee7;
 }
