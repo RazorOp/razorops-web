@@ -2555,6 +2555,11 @@ a {
 	height: 100px;
 	margin-bottom: 7px;
 }
+.card-border_lightblue .card-image2{
+	
+	height: 60px;
+	margin-bottom: 7px;
+}
 .action-btn img{
 	size: 18px;
 }
