@@ -2706,3 +2706,7 @@ padding-left: 10px;
 .carousel-indicators{
 	z-index: 2
 }
+
+.blog-section .row .col-sm-4 .text-decoration-none{
+	text-decoration: none;
+}
