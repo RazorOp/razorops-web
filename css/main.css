@@ -159,11 +159,16 @@ address {
 	position: relative;
 	margin: 30px 0 30px;
 }
+
 .section-header2 {
 	position: relative;
 	margin: 20px 0 20px;
 	margin-top: 40px; 
 	font-size: 30px;
+}
+.section-header3 {
+	position: relative;
+	margin: 30px 0 30px;
 }
 
 .section-header::before {
@@ -186,6 +191,17 @@ address {
 	bottom: -15px;
 	margin: 0 auto;
 	width: 120px;
+	height: 3px;
+	background-color: #313ee7;
+}
+.section-header3::before {
+	content: '';
+	position: absolute;
+	left: -300px;
+	right: 0;
+	bottom: -15px;
+	margin: 0 auto;
+	width: 40px;
 	height: 3px;
 	background-color: #313ee7;
 }
@@ -2384,11 +2400,14 @@ a {
 		  transition: 0.3s;
 		border-radius: 5px;
 		margin-bottom: 30px;
-		height: 390px;
+		height: 370px;
 		padding: 0px;
+		
 	}
 	.webinar-upcoming-section{
 		margin:20px; 
+		display: flex;
+		flex-direction: column-reverse;
 	}
 	.customers-banner2{
 		margin-top: 20px;
@@ -2714,4 +2733,44 @@ padding-left: 10px;
 
 .blog-section .row .col-sm-4 .text-decoration-none{
 	text-decoration: none;
+}
+/* *************************webinar thank you************************** */
+.webinar-thakyou-banner{
+	text-align: center;
+	padding: 150px 15px;
+	background-color: rgb(37, 192, 96);
+ 	color: #FFF;
+ 	margin-top: -80px;
+}
+.share-logo .socials-link-list{
+	list-style: none;
+	margin-top: 30px;
+		
+}
+.share-logo .socials-link-list li{
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 20px;
+
+	
+}
+.share-logo .socials-link-list li a{
+	text-decoration: none;
+}
+.share-logo{
+	margin-bottom: 30px;
+}
+
+.bg-orange{
+	background-color: rgb(231, 113, 59);
+	color: white;
+}
+.text-decoration-none{
+	text-decoration: none;
+}
+.web-card{
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
