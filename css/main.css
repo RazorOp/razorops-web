@@ -2750,3 +2750,16 @@ padding-left: 10px;
 	margin-bottom: 30px;
 }
 
+.bg-orange{
+	background-color: rgb(231, 113, 59);
+	color: white;
+}
+.text-decoration-none{
+	text-decoration: none;
+}
+.web-card{
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
