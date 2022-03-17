@@ -2761,12 +2761,12 @@ padding-left: 10px;
 	margin-bottom: 30px;
 }
 
-.bg-orange{
+.bg-org{
 	background-color: rgb(231, 113, 59);
 	color: white;
 }
-.text-decoration-none{
-	text-decoration: none;
+.wo-text-decoration{
+	text-decoration: none !important;
 }
 .web-card{
 	border: 1px solid black;
