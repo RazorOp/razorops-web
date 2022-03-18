@@ -1887,6 +1887,9 @@ a {
 		/* padding-left: 120px; */
 		
 	}
+	.webinar-register-form-hidden{
+		visibility: hidden;
+	}
 	.onewebinar{
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		  transition: 0.3s;
@@ -2345,6 +2348,9 @@ a {
 @media (max-width:767px){
 	.customers-banner{
 		margin-top: 20px;
+	}
+	.webinar-register-form-hidden{
+		visibility: visible;
 	}
 	.register-cta{
 		box-shadow: 0 6px 8px 6px rgba(0,0,0,0.2);
