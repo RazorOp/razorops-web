@@ -75,5 +75,5 @@ A CI/CD pipeline can be classified further into four main stages:
 
 **CONCLUSION:**
  
-A CI/CD pipeline automates the software delivery [process](https://razorops.com/ ). The pipeline builds the code, runs tests (CI), and safely deploys a new version of the application (CD). Automated pipelines will help to remove manual errors, provide systematized feedback loops to developers, and enable fast product iterations and deliverability .
+A CI/CD pipeline automates the [software delivery process](http://localhost:4000/product#how-it-works ). The pipeline builds the code, runs tests (CI), and safely deploys a new version of the application (CD). Automated pipelines will help to remove manual errors, provide systematized feedback loops to developers, and enable fast product iterations and deliverability .
 Razorops is a [CI/CD platform ](https://razorops.com/ )which helps to be 100% operational on a technical level so we can focus on delivering the best product in a short amount of time.With Razorops,there will be very little overhead and
