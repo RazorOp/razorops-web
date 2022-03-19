@@ -6,27 +6,113 @@ canonical_url: 'http://razorops.com/webinar-thankyou'
 image: '/images/meta-images/webinar-thankyou-meta-img.png'
 ---
 
-<div class="webinar-thakyou-banner">
+<div class="customers-banner">
     <img src="/images/v2/razorops-white-logo.png" height="45">
     <h2>One Step Forward - You are Now  Registered for Webinar </h2>
     <h3>
-        Your webinar joining link is here-<a href="https://meet.google.com/fyy-dqgm-vii" target="_blank" class="wo-text-decoration"> https://meet.google.com/fyy-dqgm-vii</a>
+        <a href="https://meet.google.com/fyy-dqgm-vii" target="_blank" class="wo-text-decoration btn btn-rounded bg-org"> Join the Webinar</a>
     </h3>
 </div>
 
-<div class="container text-center">
-    <h2 >For the Latest Updates about Webinar Please Join our Communities:</h2>
+<div class="container section-height text-center">
+    <h2 >Check Out Razorops Community: To get latest updates & discuss on Container Native DevOps & CI/CD practices.</h2>
     <div class="share-logo">
         <ul class="socials-link-list">
             <li class="web-card">
-                <a href="https://www.facebook.com/groups/273822814931011" target="_blank"><img src="/images/socials/facebook.png" height="50" title="Facebook"/> Facebook</a>
+                <a href="https://www.facebook.com/groups/273822814931011" target="_blank"><img src="/images/socials/facebook.png" height="60" title="Facebook"/> Facebook</a>
             </li>
             <li class="web-card">
-                <a href="https://t.me/joinchat/F3o5iCzYFqeSd54d" target="_blank"> <img src="/images/socials/telegram.png" height="50" title="Telegram"/> Telegram</a>
+                <a href="https://t.me/joinchat/F3o5iCzYFqeSd54d" target="_blank"> <img src="/images/socials/telegram.png" height="60" title="Telegram"/> Telegram</a>
             </li>
             <li class="web-card">
-                <a href="https://join.slack.com/share/enQtMzIzMTk5MDk3ODUxNy1lNDU3MDcxYWE1NDdlZmNhOWI1MjI1Mjc5ZmRmNDQ4ZTBjYTU5YjFmMTg0ODg2MGUwYmRmZjVjMDQyMmQ2Njdh" target="_blank"> <img src="/images/socials/slack.png" height="50" title="Slack"/> Slack</a>
+                <a href="https://join.slack.com/share/enQtMzIzMTk5MDk3ODUxNy1lNDU3MDcxYWE1NDdlZmNhOWI1MjI1Mjc5ZmRmNDQ4ZTBjYTU5YjFmMTg0ODg2MGUwYmRmZjVjMDQyMmQ2Njdh" target="_blank"> <img src="/images/socials/slack.png" height="60" title="Slack"/> Slack</a>
             </li>
         </ul>
     </div>
+</div>
+
+<script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+<script>
+    window.addeventasync = function(){
+    addeventatc.settings({
+        appleical  : {show:true, text:"Apple Calendar"},
+        google     : {show:true, text:"Google <em>(online)</em>"},
+        office365  : {show:true, text:"Office 365 <em>(online)</em>"},
+        outlook    : {show:true, text:"Outlook"},
+        outlookcom : {show:true, text:"Outlook.com <em>(online)</em>"},
+        yahoo      : {show:true, text:"Yahoo <em>(online)</em>"}
+    });
+};
+</script>
+
+<script>
+    window.addeventasync = function(){
+
+/* Capture click on button */
+addeventatc.register('button-click', function(obj){
+
+    /* Log */
+    console.log('button-click -> ' + obj.id);
+
+});
+
+/* Capture mouseover on button */
+addeventatc.register('button-mouseover', function(obj){
+
+    /* Log */
+    console.log('button-mouseover -> ' + obj.id);
+
+});
+
+/* Capture mouseout on button */
+addeventatc.register('button-mouseout', function(obj){
+
+    /* Log */
+    console.log('button-mouseout -> ' + obj.id);
+
+});
+
+/* Capture when dropdown is being displayed */
+addeventatc.register('button-dropdown-show', function(obj){
+
+    /* Log */
+    console.log('button-dropdown-show -> ' + obj.id);
+
+});
+
+/* Capture when dropdown is being hidden */
+addeventatc.register('button-dropdown-hide', function(obj){
+
+    /* Log */
+    console.log('button-dropdown-hide -> ' + obj.id);
+
+});
+
+/* Capture when an option in the dropdown is clicked */
+addeventatc.register('button-dropdown-click', function(obj){
+
+    /* Log */
+    console.log('button-dropdown-click -> ' + obj.id + ', service -> ' + obj.service);
+
+    /* Track event click with e.g. Google Analytics (using analytics.js)
+    https://developers.google.com/analytics/devguides/collection/analyticsjs/events */
+    ga('send', 'event', 'MyEvent', 'play', 'Fall Campaign');
+
+});
+
+};
+
+</script>
+
+<div class="calender-section text-center mbtm-3">
+    <h2>Save this event:</h2>
+<div title="Add to Calendar" class="addeventatc">
+    Add to Calendar
+    <span class="start">26/03/2022 11:30 AM</span>
+    <span class="end">26/03/2022 1:00 PM</span>
+    <span class="timezone">America/Los_Angeles</span>
+    <span class="title">Summary of the event</span>
+    <span class="description">Description of the event</span>
+</div>
 </div>

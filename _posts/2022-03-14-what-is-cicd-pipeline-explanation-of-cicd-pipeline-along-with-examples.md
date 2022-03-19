@@ -27,7 +27,7 @@ A CI/CD pipeline consists of a series of sub-processes that can be classified in
 1. **Continuous Integration:** Plan, Code, Build and Test stages/scenarios
 2. **Continuous Delivery:** Test, Release, Deploy and Operate.
 
-![cici-pipeline](/images/blog/cicd-pipeline.png)
+![cicd-pipeline](/images/blog/cici-pipeline-blog.png)
 
 **Pipeline stages :**
 
@@ -37,7 +37,7 @@ A CI/CD pipeline can be classified further into four main stages:
 3. Test
 4. Deployment
 
-![cici- how it works](/images/blog/how-it-works.webp)
+![cicd- how it works](/images/blog/how-it-works.webp)
 
 
 
