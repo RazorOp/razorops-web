@@ -48,11 +48,11 @@ A CI/CD pipeline can be classified further into four main stages:
 
 **3. Testing:**  Automated tests play a crucial role in any application development-deployment cycle. The automated tests can be broken down into three categories:
 		
-**1. 	Unit test:** Developers divide an application into smaller units of code to perform testing. This test should always be a part of the build process and can be automated.
+1. **Unit test:** Developers divide an application into smaller units of code to perform testing. This test should always be a part of the build process and can be automated.
 
-**2. Integration test:** In the world of microservices to allocate applications, it is important that all components work as expected when multiple modules of an application are integrated. This stage may require testing of APIs, integration with a database, or other services. This test is generally part of the deployment and the release process.
+2. **Integration test:** In the world of microservices to allocate applications, it is important that all components work as expected when multiple modules of an application are integrated. This stage may require testing of APIs, integration with a database, or other services. This test is generally part of the deployment and the release process.
 
-**3. Functional test:**  This is end-to-end testing of application or product, generally performed on staging servers as part of the release process.
+3. **Functional test:**  This is end-to-end testing of application or product, generally performed on staging servers as part of the release process.
 
 
 **4. Deployment:**  Once the build is completed and the automated tests for the release are completed, the last stage of the pipeline is to automate deployment of the new code to the next environment in the pipeline. In this stage, the tested code is deployed to the production environment.There are different types of deployment strategies such as blue-green deployment, canary deployment, and in-place deployment for deploying on a production environment:
