@@ -2355,6 +2355,13 @@ a {
 	.webinar-register-form-hidden{
 		visibility: visible;
 	}
+	.share-logo .socials-link-list li{
+		font-weight: 600;
+		display: inline-block;
+		margin-bottom: 20px;
+	
+		
+	}
 	.register-cta{
 		box-shadow: 0 6px 8px 6px rgba(0,0,0,0.2);
 		background-color: #1c4aca;
