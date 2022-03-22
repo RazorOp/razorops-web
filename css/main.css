@@ -2812,4 +2812,5 @@ padding-left: 10px;
 .addeventatc{
 	font-weight: 501 !important;
 	background: rgb(231, 113, 59) !important;
+	z-index: auto !important;
 }
