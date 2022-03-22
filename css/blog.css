@@ -17,7 +17,7 @@
 }
 
 .blog-wraper {
-  min-height: calc(100vh - 80px);
+  min-height: calc(60vh - 40px);
   padding-top: 40px;
   padding-bottom: 40px;
 }

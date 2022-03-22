@@ -1241,11 +1241,12 @@ a {
 }
 
 .demo-call-to-action {
-	padding: 50px 100px 150px 100px;
+	padding: 50px 100px 50px 100px;
 	text-align: center;
 	color: #FFF;
 	background-color: #4e91ff;
 	background-image: linear-gradient(135deg, #4e91ff 0%, #141de4 100%);
+	margin-bottom: 20px;
 }
 
 .demo-call-to-action p {
@@ -2782,7 +2783,11 @@ padding-left: 10px;
 
 .bg-org{
 	background-color: rgb(231, 113, 59);
-	color: white;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	font-style:  Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI","Candara,Calibri,Arial,sans-serif;
+	font-weight: 501;
+	padding: 12px 10px 8px 10px;
 }
 #btn-clr:hover{
 	color: #000;
@@ -2802,4 +2807,9 @@ padding-left: 10px;
 }
 .mbtm-3{
 	margin-bottom: 40px;
+}
+
+.addeventatc{
+	font-weight: 501 !important;
+	background: rgb(231, 113, 59) !important;
 }
