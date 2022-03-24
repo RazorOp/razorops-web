@@ -39,11 +39,11 @@ address {
 }
 
 .instructors_background {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 570px;
+    /* height: 270px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -426,13 +426,18 @@ th, td {
 		z-index:9999;
 	}
 }
-
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		
+	text-align: center;
+	text-transform: capitalize !important;
+}
 
 @media (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		display: block;
 		color: #fff;
 		text-align: center;
+		text-transform: capitalize;
 	}
 }
 
@@ -457,7 +462,7 @@ th, td {
 .footer {
 	position: relative;
 	color: #253858;
-	/*background-color: #2017af;*/
+	background-color: #f8f8f8;
 	padding: 50px 0;
 	z-index: 1;
 }
@@ -497,7 +502,15 @@ th, td {
 	text-decoration: none;
 }
 .lower-footer{
- 	color: #253858;
+ 	color: #fafafa;
+	 background-color: #353ff0;
+	 padding-top: 20px;
+ }
+ .footer-hr{
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+	 background: rgb(204, 204, 204);
+	 height: 1px;
  }
  .d-inline-block {
 	 display: inline-block;
@@ -1558,7 +1571,7 @@ a {
 .page-body{
 	max-width: 915px;
   margin: 0 auto 15px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 
@@ -2813,4 +2826,53 @@ padding-left: 10px;
 	font-weight: 501 !important;
 	background: rgb(231, 113, 59) !important;
 	z-index: auto !important;
+}
+
+.sticky-image{
+	position:absolute;
+	left: 70px;
+	top: 520px;
+	
+}
+.sticky-content{
+	position:fixed;
+	white-space: pre-line;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	line-height:0%;
+	/* overflow-y: scroll; */
+	z-index: 7;
+	background: rgb(248, 247, 247);
+	color: #000000;
+	width: 25%;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 15px;
+}
+.sticky-content > h3{
+	position:relative;
+	padding-top: 60px;
+	font-weight: 600;
+}
+.sticky-content .seat-book-btn a{
+	color: #e71515;
+	font-weight: 600;
+}
+.sticky-content .event-desc{
+	line-height: 20px;
+}
+.sticky-content::before{
+	content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		/* background: #1959cf; */
+		clip-path: circle(260px at 50% -70%);
+		background-image: url("/images/event-soon2.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		transition: 0.5s ease-in-out;
+		opacity: 0.8;
 }
