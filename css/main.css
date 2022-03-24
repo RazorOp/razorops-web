@@ -1888,8 +1888,8 @@ a {
 		/* padding-left: 120px; */
 		
 	}
-	.ci-cd-image{
-		width: 30%;
+	.ci-cd-image > img{
+		width: 50%;
 		padding-top: 30px;
 	}
 	.webinar-register-form-hidden{
@@ -2367,7 +2367,7 @@ a {
 	
 		
 	}
-	.ci-cd-image{
+	.ci-cd-image > img{
 		width: 50%;
 		padding-top: 30px;
 		padding-bottom: 0px;
