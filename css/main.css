@@ -1870,6 +1870,28 @@ a {
 		position: relative;
 		
 	  }
+	  .sticky-image{
+		position:absolute;
+		left: 40px;
+		top: 250px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 80%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding: 15px;
+	}
 	
 }
 
@@ -1890,6 +1912,28 @@ a {
 
 
 @media ( min-width: 768px ){
+	.sticky-image{
+		position:absolute;
+		left: 70px;
+		top: 400px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 30%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding: 15px;
+	}
 	#faq-panel{
 		border-radius: 10px;
 		padding-left: 120px;
@@ -2111,6 +2155,28 @@ a {
 
 @media only screen and (min-width:768px) and (max-width:850px) {
 	
+	.sticky-image{
+		position:absolute;
+		left: 30px;
+		top: 500px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 50%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding: 15px;
+	}
 	.partner-card{
 		position: relative;
 		border: 2px solid rgb(35, 127, 233);
@@ -2828,28 +2894,7 @@ padding-left: 10px;
 	z-index: auto !important;
 }
 
-.sticky-image{
-	position:absolute;
-	left: 70px;
-	top: 400px;
-	display: block;
-	
-}
-.sticky-content{
-	position:fixed;
-	white-space: pre-line;
-    text-overflow: ellipsis;
-    overflow: hidden;
-	line-height:0%;
-	/* overflow-y: scroll; */
-	z-index: 7;
-	background: rgb(248, 247, 247);
-	color: #000000;
-	width: 30%;
-	border-radius: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	padding: 15px;
-}
+
 .sticky-content > h3{
 	position:relative;
 	font-weight: 600;
