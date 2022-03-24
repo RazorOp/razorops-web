@@ -1888,6 +1888,10 @@ a {
 		/* padding-left: 120px; */
 		
 	}
+	.ci-cd-image{
+		width: 30%;
+		padding-top: 30px;
+	}
 	.webinar-register-form-hidden{
 		visibility: hidden;
 	}
@@ -2363,6 +2367,12 @@ a {
 	
 		
 	}
+	.ci-cd-image{
+		width: 50%;
+		padding-top: 30px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
 	.register-cta{
 		box-shadow: 0 6px 8px 6px rgba(0,0,0,0.2);
 		background-color: #1c4aca;
@@ -2814,3 +2824,4 @@ padding-left: 10px;
 	background: rgb(231, 113, 59) !important;
 	z-index: auto !important;
 }
+
