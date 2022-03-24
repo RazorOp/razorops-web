@@ -2851,12 +2851,12 @@ padding-left: 10px;
 }
 .sticky-content > h3{
 	position:relative;
-	padding-top: 60px;
 	font-weight: 600;
 }
 .sticky-content .seat-book-btn a{
-	color: #e71515;
+	
 	font-weight: 600;
+	background-color: #13cb6e;
 }
 .sticky-content .event-desc{
 	line-height: 20px;
@@ -2865,13 +2865,14 @@ padding-left: 10px;
 	content: "";
 		position: absolute;
 		top: 0;
-		left: 0;
-		width: 100%;
+		right: 0;
+		width: 40px;
 		height: 100%;
 		/* background: #1959cf; */
-		clip-path: circle(260px at 50% -70%);
-		background-image: url("/images/event-soon2.jpg");
-		background-size: 100%;
+		float: inline-end;
+		/* clip-path: circle(60px at 100% 5%); */
+		background-image: url("/images/close-button2.png");
+		background-size:100%;
 		background-repeat: no-repeat;
 		transition: 0.5s ease-in-out;
 		opacity: 0.8;
