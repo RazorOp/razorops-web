@@ -2832,6 +2832,7 @@ padding-left: 10px;
 	position:absolute;
 	left: 70px;
 	top: 520px;
+	display: block;
 	
 }
 .sticky-content{
@@ -2861,19 +2862,32 @@ padding-left: 10px;
 .sticky-content .event-desc{
 	line-height: 20px;
 }
-.sticky-content::before{
+/* .sticky-content::before{
 	content: "";
 		position: absolute;
 		top: 0;
 		right: 0;
 		width: 40px;
 		height: 100%;
-		/* background: #1959cf; */
 		float: inline-end;
-		/* clip-path: circle(60px at 100% 5%); */
 		background-image: url("/images/close-button2.png");
+		
 		background-size:100%;
 		background-repeat: no-repeat;
 		transition: 0.5s ease-in-out;
 		opacity: 0.8;
+		
+}
+.sticky-content::before:focus{
+	cursor: pointer;
+} */
+
+.new-close-image{
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+.new-close-image:active .sticky-content{
+	visibility: hidden;
 }
