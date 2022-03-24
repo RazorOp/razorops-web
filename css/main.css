@@ -502,8 +502,8 @@ th, td {
 	text-decoration: none;
 }
 .lower-footer{
- 	color: #fafafa;
-	 background-color: #353ff0;
+ 	color: #000000;
+	 background-color: #a5a5a5;
 	 padding-top: 20px;
  }
  .footer-hr{
@@ -1259,7 +1259,7 @@ a {
 	color: #FFF;
 	background-color: #4e91ff;
 	background-image: linear-gradient(135deg, #4e91ff 0%, #141de4 100%);
-	margin-bottom: 20px;
+	
 }
 
 .demo-call-to-action p {
@@ -2845,7 +2845,7 @@ padding-left: 10px;
 	z-index: 7;
 	background: rgb(248, 247, 247);
 	color: #000000;
-	width: 25%;
+	width: 30%;
 	border-radius: 15px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	padding: 15px;
