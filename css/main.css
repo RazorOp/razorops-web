@@ -1873,8 +1873,8 @@ a {
 	  }
 	  .sticky-image{
 		position:absolute;
-		left: 40px;
-		top: 250px;
+		left: 20px;
+		top: 193px;
 		display: block;
 		
 	}
@@ -1888,10 +1888,14 @@ a {
 		z-index: 7;
 		background: rgb(248, 247, 247);
 		color: #000000;
-		width: 80%;
+		width: 87%;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		padding: 15px;
+		padding-bottom: 10px;
+	}
+	.popup-margin{
+		padding-left: 12px;
+		padding-right: 10px;
 	}
 	
 }
@@ -1913,28 +1917,7 @@ a {
 
 
 @media ( min-width: 768px ){
-	.sticky-image{
-		position:absolute;
-		left: 70px;
-		top: 400px;
-		display: block;
-		
-	}
-	.sticky-content{
-		position:fixed;
-		white-space: pre-line;
-		text-overflow: ellipsis;
-		overflow: hidden;
-		line-height:0%;
-		/* overflow-y: scroll; */
-		z-index: 7;
-		background: rgb(248, 247, 247);
-		color: #000000;
-		width: 30%;
-		border-radius: 15px;
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		padding: 15px;
-	}
+	
 	#faq-panel{
 		border-radius: 10px;
 		padding-left: 120px;
@@ -2163,7 +2146,7 @@ a {
 	.sticky-image{
 		position:absolute;
 		left: 30px;
-		top: 500px;
+		top: 450px;
 		display: block;
 		
 	}
@@ -2180,7 +2163,11 @@ a {
 		width: 50%;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		padding: 15px;
+		padding-bottom: 12px;
+	}
+	.popup-margin{
+		padding-left: 12px;
+		padding-right: 10px;
 	}
 	.partner-card{
 		position: relative;
@@ -2351,9 +2338,62 @@ a {
 .content-font{
 	font-size: 18px;
 }
+@media screen and (min-width:851px)and (max-width:1099px){
+	.sticky-image{
+		position:absolute;
+		left: 70px;
+		top: 380px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 30%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding-bottom: 10px;
+	}
+	.popup-margin{
+		padding-left: 12px;
+		padding-right: 10px;
+	}
 
+}
 @media screen and (min-width:1100px){
-	
+	.sticky-image{
+		position:absolute;
+		left: 70px;
+		top: 350px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 30%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding-bottom: 10px;
+	}
+	.popup-margin{
+		padding-left: 12px;
+		padding-right: 10px;
+	}
 .cases-margin{
 	margin: 20px 180px 20px 180px;
 }
