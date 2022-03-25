@@ -15,13 +15,13 @@ image: /images/container-native-cicd.jpg
 
 			<div class="banner-actions">
 				<a href="https://dashboard.razorops.com/users/auth/github" class="btn btn-default btn-lg pr-4  mr-4">&nbsp;&nbsp;&nbsp;<img src="/images/v2/github-black.svg" alt="github" class="btn-icon"><b>Github&nbsp;&nbsp;&nbsp;</b></a>
-
 				<a href="https://dashboard.razorops.com/users/auth/bitbucket" class="btn btn-default btn-lg pr-4  mr-4"><img src="/images/v2/bitbucket.svg" alt="bitbucket" class="btn-icon"><b>Bitbucket</b></a>
-
 				<a href="https://dashboard.razorops.com/users/auth/gitlab" class="btn btn-default btn-lg pr-4 mr-4">&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/v2/gitlab.svg" alt="gitlab" class="btn-icon"><b>Gitlab&nbsp;&nbsp;&nbsp;&nbsp;</b></a>
-				
-				<!-- <a href="https://dashboard.razorops.com/users/sign_up" class="btn btn-default btn-lg "><img src="/images/v2/email.svg" alt="email" class="btn-icon"><b>Email</b></a> -->
 			</div>
+			<p>No credit card required, 
+				Monthly subscription, no commitment<br>
+				Get started in less than 30 minutes
+			</p>
 
 		</div>
 
@@ -34,7 +34,31 @@ image: /images/container-native-cicd.jpg
 	</div>
 
 </div>
+<div class="sticky-image">
+	<div class="sticky-content">
+		<img src="/images/close-button2.png" width="30px" class="new-close-image" id="close">
+		<img src="/images/cicd-pipeline.jpg" width="100%">
+		<h3 class="popup-margin">Checkout our upcoming event</h3>
+		<p class="event-desc popup-margin"><b>
+			Topic - Webinar on CI/CD Adoption
+			Time: 26th Mar 2022 at 11:30 A.M - 12:30 P.M
+		</b></p>
+		<p class="seat-book-btn popup-margin"><a href="/webinars/discussion-about-cicd-adoption/" class="wo-text-decoration btn">Book Your Seat !!</a></p>
 
+	</div>
+</div>
+<script>
+	
+		
+	
+		window.onload = () => {
+  document.getElementById('close').onclick = function() {
+    this.parentNode.remove()
+    return false;
+  };
+};
+		
+</script>
 <div class="razorops-ci-cd">
 	<div class="container">
 			<div class="section-header"><h2>Razorops makes it easy</h2></div>
@@ -72,7 +96,7 @@ image: /images/container-native-cicd.jpg
 </div>
 
 {% include testimonial.html %}
-{% include awards.html %}
+<!-- {% include awards.html %} -->
 
 
 <div class="container">
@@ -99,6 +123,7 @@ image: /images/container-native-cicd.jpg
   </div>
 </div>
 
+{% include footer_cta.html %}
 
 
 

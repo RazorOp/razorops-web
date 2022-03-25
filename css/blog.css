@@ -17,7 +17,7 @@
 }
 
 .blog-wraper {
-  min-height: calc(100vh - 80px);
+  min-height: calc(60vh - 40px);
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -163,7 +163,18 @@
   box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
     0 8px 32px 0 rgba(55, 92, 192, 0.08);
 }
-
+@media  (min-width:768px) {
+  .blog-post-content,
+.docs-content {
+  height: 2000px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
+    0 8px 32px 0 rgba(55, 92, 192, 0.08);
+}
+}
 .blog-catgory{
   background-color: #fff;
   padding: 10px;
