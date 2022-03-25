@@ -13,9 +13,41 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/product</link>
+     <title>Simplest Container Native CI/CD Platform | Razorops</title>
+     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/schedule-demo</link>
+     <title>Razorops Schedule Demo | Razorops</title>
+     <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/pricing</link>
      <title>Razorops Plans and Pricing | Razorops</title>
      <description>Start with Free Plan, Scale when you feel, No credit card required.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/customers</link>
+     <title>Razorops Customer Stories CI/CD Case studies | Razorops</title>
+     <description>Explore the Razorops Customer Stories.Have a look how razorops helps the clients to automate software development lifecycle. Check complete CI/CD Case Studies.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/</link>
+     <title>Webinars Razorops | Razorops</title>
+     <description>Join the razorops webinars. Get the most out of Razorops CI/CD with one of our free webinars.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -29,6 +61,54 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/write-for-us</link>
+     <title>Write for US Razorops - CI/CD Platform | Razorops</title>
+     <description>We are always looking for new authors to share the expertise in the Devops,CI/CD, Kubernetes, Docker, SDLC. Share your titles with Razorops. Also check out complete guidelines to publish an article in Razorops Blog.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/about</link>
+     <title>Razorops About | Razorops</title>
+     <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/open-source</link>
+     <title>Razorops Open Source | Razorops</title>
+     <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/partners</link>
+     <title>Razorops Partners Program | Razorops</title>
+     <description>Join in Razorops Partners Program - check the Exclusive Partner Benefits &amp;amp; you can help your Clients to Automate their CI/CD Pipeline by Integrating the Razorops CI/CD Platform in their Workflow.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/referral</link>
+     <title>Refer Razorops to Your Friends &amp;amp; Colleagues | Razorops</title>
+     <description>Lets help your friends &amp;amp; colleagues to automate their continuous integration &amp;amp; continuous delivery or deployments easily by integrating the Razorpops - check how the referral programs &amp;amp; benefits.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs</link>
+     <title>Razorops Careers | Razorops</title>
+     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/contact</link>
      <title>Razorops, inc United States Canada Bengaluru Hyderabad | Razorops</title>
      <description>Razorops, inc United States Canada Bengaluru Hyderabad - Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
@@ -37,65 +117,33 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/schedule-demo/</link>
-     <title>Razorops Schedule Demo | Razorops</title>
-     <description>Razopos demo with Shyam</description>
+     <link>https://razorops.com/webinars/discussion-about-cicd-adoption/</link>
+     <title>Discussion About CI-CD Adoption Razorops Webinars | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/product</link>
-     <title>Simplest Container Native CI/CD Platform | Razorops</title>
-     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
+     <link>https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples/</link>
+     <title>What is CICD Pipeline? Explanation of CICD Pipeline along with Examples. | Razorops</title>
+     <description>Take a look at what is Continuous integration (CI) and continuous delivery (CD) or continuous deployment pipeline ( CICD Pipeline) with clear explanation along with how CICD pipeline works in devops.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/kubernetes</link>
-     <title>Kubernetes, Kubernetes docker | Razorops</title>
-     <description>Kubernetes in a simple term is a system for running and coordinating containerized applications across a collection of machines.</description>
+     <link>https://razorops.com/blog/how-to-deploy-a-static-website-to-aws-s3-with-razorops-ci-cd/</link>
+     <title>How to Deploy a Static Website to AWS S3 with Razorops CI/CD | Razorops</title>
+     <description>Follow this post to deploy your static website using aws s3 free of cost just in 15 min.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/about/</link>
-     <title>Razorops About | Razorops</title>
-     <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/customers</link>
-     <title>Razorops Customers | Razorops</title>
-     <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/careers</link>
-     <title>Razorops Careers | Razorops</title>
-     <description>Come and join razorops team of passionate system engineer to help us build great developer tools on devops platform.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/partners</link>
-     <title>Become a Partners with | Razorops</title>
-     <description>Become a Partner and Grow your customer base with Razorops, become Implementation or Technology Partners Resell or Integrate your solutions with Razorops</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/open-source/</link>
-     <title>Razorops Open Source | Razorops</title>
-     <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
+     <link>https://razorops.com/blog/razorops-cicd-with-linode-kubernetes-engine/</link>
+     <title>Razorops CI/CD with Linode Kubernetes Engine | Razorops</title>
+     <description>Linode is one of simplest, affordable, and accessible cloud computing platform, It has recentely launched managed Kubernetes called Linod Kubernetes Engine.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -111,7 +159,7 @@
 <item>
      <link>https://razorops.com/terms-of-service</link>
      <title>Razorops Terms of Service | Razorops</title>
-     <description>Continuous integration and delivery simplified for Containers</description>
+     <description>Razorops Terms of Service</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -133,9 +181,33 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/blog/razorops-cicd-with-linode-kubernetes-engine/</link>
-     <title>Razorops CI/CD with Linode Kubernetes Engine | Razorops</title>
-     <description>Linode is one of simplest, affordable, and accessible cloud computing platform, It has recentely launched managed Kubernetes called Linod Kubernetes Engine.</description>
+     <link>https://razorops.com/case-studies/egnify/</link>
+     <title>Razorops case study with Egnify - CI/CD Customer Stories | Razorops</title>
+     <description>Lets have a look at Razorops Customer Stories - Check by integrating Razorops automate CI/CD Pipeline how Egnify solved their facing Challenges.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/case-studies/applozic/</link>
+     <title>CICD Tool - Razorops case study with Applozic | Razorops</title>
+     <description>Have a Look at Case Study how Razorops a Complete automated CICD Tool solves the Challenges faced by the Applozic.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/case-studies/72pi/</link>
+     <title>CICD Tool - Razorops case study with 72pi | Razorops</title>
+     <description>Have a look at case study how Razorops solves the challenges faced by the FinTech startup - 72pi.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/case-studies/edtech-startup/</link>
+     <title>CICD Platform - Razorops case study with Si6 | Razorops</title>
+     <description>Have a Look at Case Study how Razorops a Complete automated CICD Platform solves the Challenges faced by the Si6.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -222,7 +294,7 @@
 </item>
 <item>
      <link>https://razorops.com/blog/kubernetes-cheat-sheet/</link>
-     <title>Kubernets Cheat Sheet | Razorops</title>
+     <title>Kubernetes Cheat Sheet | Razorops</title>
      <description>Kubernetes is an open-source container-orchestration system for automating application deployment, scaling, and management. It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
@@ -272,6 +344,30 @@
      <link>https://razorops.com/blog/devops-glossary/</link>
      <title>DevOps Glossary | Razorops</title>
      <description>A precursor to Devops; Agile is a software development and, more broadly, business methodology that emphasizes short, iterative planning and development</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-business-development-manager</link>
+     <title>Razorops Business Development Manager - Cloud Solution Job | Razorops</title>
+     <description>Razorops looking for sr. Business Development Manager to help us scale sales pipeline.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-kubernetes-developer-and-admin</link>
+     <title>Razorops Kubernetes Developer &amp;amp; Solutions Engineer | Razorops</title>
+     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-golang-developer</link>
+     <title>Razorops Senior Golang Developer Job | Razorops</title>
+     <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
