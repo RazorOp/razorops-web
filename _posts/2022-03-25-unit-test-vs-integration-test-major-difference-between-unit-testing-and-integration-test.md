@@ -10,6 +10,7 @@ author: Shyam Mohan
 category: CI/CD
 keywords: CICD, CI/CD, workflow, pipeline, devops, continuous integration, continuous
   delivery, deployments, deploy, tests, testing
+image: images/blog/unit-testing-integration-test.jpg
 ---
 
 Developing a quality software is considered incomplete without writing tests. Not only does the test assure the quality but it profoundly helps developers while refactoring or re-writing a piece of code. When it comes to testing, having well-planned and thorough testing throughout the software development cycle is very important. The most commonly used types of tests today are unit tests and integration tests.
@@ -47,7 +48,7 @@ Automating tests in CI/CD pipelines is regarded as a best practice, if not manda
 **Unit Test vs Integration Test:**
 
 |           | UNIT TESTING | INTEGRATION TESTING |
-| :-------- | :--------: | --------: |
+| :-------- | :----------: | ------------------: |
 | PURPOSE | Testing the smallest units or modules individually| Testing integration of two or more units/modules |
 | Complexity | Easy to write and execute| More complex than unit testing 
 | Major Attention| Individual units/modules | Integration of units/modules |
@@ -59,3 +60,6 @@ Automating tests in CI/CD pipelines is regarded as a best practice, if not manda
 **Conclusion:**
 
 Unit testing is the most basic part of CI/CD which allows faster development cycles and continuous deployment. In addition to this, it also helps to improve the overall code quality for each release. Integration testing is the most commonly preferred method of testing because it offers the well organized use of development and testing resources. Tests can be carried out on each module as soon as development on it is done. Developers can regularly test it very rapidly, making any necessary changes to the code immediately.
+
+
+{% include schedule-demo.html %}
