@@ -39,11 +39,11 @@ address {
 }
 
 .instructors_background {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 570px;
+    /* height: 270px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -312,6 +312,7 @@ th, td {
 	color: #fff;
 	font-weight: 500;
 	padding-top: 10px !important;
+	text-transform: capitalize !important;
   font-size: 16px;
   font-weight: 600px;
 }
@@ -426,13 +427,18 @@ th, td {
 		z-index:9999;
 	}
 }
-
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		
+	text-align: center;
+	text-transform: capitalize !important;
+}
 
 @media (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		display: block;
 		color: #fff;
 		text-align: center;
+		text-transform: capitalize;
 	}
 }
 
@@ -457,7 +463,7 @@ th, td {
 .footer {
 	position: relative;
 	color: #253858;
-	/*background-color: #2017af;*/
+	background-color: #f8f8f8;
 	padding: 50px 0;
 	z-index: 1;
 }
@@ -497,7 +503,15 @@ th, td {
 	text-decoration: none;
 }
 .lower-footer{
- 	color: #253858;
+ 	color: #000000;
+	 background-color: #a5a5a5;
+	 padding-top: 20px;
+ }
+ .footer-hr{
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+	 background: rgb(204, 204, 204);
+	 height: 1px;
  }
  .d-inline-block {
 	 display: inline-block;
@@ -839,6 +853,7 @@ th, td {
   margin: auto;
   text-align: center;
   padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .team-title {
@@ -1241,11 +1256,12 @@ a {
 }
 
 .demo-call-to-action {
-	padding: 50px 100px 150px 100px;
+	padding: 50px 100px 50px 100px;
 	text-align: center;
 	color: #FFF;
 	background-color: #4e91ff;
 	background-image: linear-gradient(135deg, #4e91ff 0%, #141de4 100%);
+	
 }
 
 .demo-call-to-action p {
@@ -1557,7 +1573,7 @@ a {
 .page-body{
 	max-width: 915px;
   margin: 0 auto 15px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 
@@ -1856,6 +1872,32 @@ a {
 		position: relative;
 		
 	  }
+	  .sticky-image{
+		position:absolute;
+		left: 20px;
+		top: 193px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 87%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding-bottom: 10px;
+	}
+	.popup-margin{
+		padding-left: 12px;
+		padding-right: 10px;
+	}
 	
 }
 
@@ -1876,6 +1918,7 @@ a {
 
 
 @media ( min-width: 768px ){
+	
 	#faq-panel{
 		border-radius: 10px;
 		padding-left: 120px;
@@ -1886,6 +1929,10 @@ a {
 		padding-top: 100px;
 		/* padding-left: 120px; */
 		
+	}
+	.ci-cd-image > img{
+		width: 50%;
+		margin-top: 30px;
 	}
 	.webinar-register-form-hidden{
 		visibility: hidden;
@@ -2097,6 +2144,32 @@ a {
 
 @media only screen and (min-width:768px) and (max-width:850px) {
 	
+	.sticky-image{
+		position:absolute;
+		left: 30px;
+		top: 450px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 50%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding-bottom: 12px;
+	}
+	.popup-margin{
+		padding-left: 12px;
+		padding-right: 10px;
+	}
 	.partner-card{
 		position: relative;
 		border: 2px solid rgb(35, 127, 233);
@@ -2266,9 +2339,62 @@ a {
 .content-font{
 	font-size: 18px;
 }
+@media screen and (min-width:851px)and (max-width:1099px){
+	.sticky-image{
+		position:absolute;
+		left: 70px;
+		top: 380px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 30%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding-bottom: 10px;
+	}
+	.popup-margin{
+		padding-left: 12px;
+		padding-right: 10px;
+	}
 
+}
 @media screen and (min-width:1100px){
-	
+	.sticky-image{
+		position:absolute;
+		left: 70px;
+		top: 350px;
+		display: block;
+		
+	}
+	.sticky-content{
+		position:fixed;
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height:0%;
+		/* overflow-y: scroll; */
+		z-index: 7;
+		background: rgb(248, 247, 247);
+		color: #000000;
+		width: 30%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		padding-bottom: 10px;
+	}
+	.popup-margin{
+		padding-left: 12px;
+		padding-right: 10px;
+	}
 .cases-margin{
 	margin: 20px 180px 20px 180px;
 }
@@ -2361,6 +2487,12 @@ a {
 		margin-bottom: 20px;
 	
 		
+	}
+	.ci-cd-image > img{
+		width: 90%;
+		padding-top: 30px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
 	}
 	.register-cta{
 		box-shadow: 0 6px 8px 6px rgba(0,0,0,0.2);
@@ -2782,7 +2914,11 @@ padding-left: 10px;
 
 .bg-org{
 	background-color: rgb(231, 113, 59);
-	color: white;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	font-style:  Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI","Candara,Calibri,Arial,sans-serif;
+	font-weight: 501;
+	padding: 12px 10px 8px 10px;
 }
 #btn-clr:hover{
 	color: #000;
@@ -2802,4 +2938,53 @@ padding-left: 10px;
 }
 .mbtm-3{
 	margin-bottom: 40px;
+}
+
+.addeventatc{
+	font-weight: 501 !important;
+	background: rgb(231, 113, 59) !important;
+	z-index: auto !important;
+}
+
+
+.sticky-content > h3{
+	position:relative;
+	font-weight: 600;
+}
+.sticky-content .seat-book-btn a{
+	
+	font-weight: 600;
+	background-color: #13cb6e;
+}
+.sticky-content .event-desc{
+	line-height: 20px;
+}
+/* .sticky-content::before{
+	content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 40px;
+		height: 100%;
+		float: inline-end;
+		background-image: url("/images/close-button2.png");
+		
+		background-size:100%;
+		background-repeat: no-repeat;
+		transition: 0.5s ease-in-out;
+		opacity: 0.8;
+		
+}
+.sticky-content::before:focus{
+	cursor: pointer;
+} */
+
+.new-close-image{
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+.new-close-image:active .sticky-content{
+	visibility: hidden;
 }
