@@ -55,7 +55,7 @@ The Key difference between continuous delivery and continuous deployment is that
 * It helps you to find bugs earlier in the delivery process.
 * CD allows to deliver updates to immediately and frequently to clients/customers
 <br>
- <img src="images/blog/continuous-integration-continous-deployment.jpeg">
+![continuous-integration-continous-deployment](/images/blog/continuous-integration-continous-deployment.jpeg)
  
  
  
