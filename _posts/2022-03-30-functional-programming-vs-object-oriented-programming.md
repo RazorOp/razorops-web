@@ -18,6 +18,7 @@ Programming paradigms differ from one another based on their features and the st
 Lets a quick look into Functional programming and object-oriented programming.
 <br>
 <br>
+
 **FUNCTIONAL PROGRAMMING**
 <br>
 Functional programming tries to combine everything in pure mathematical functions. It is  declarative programming. It is the foundation  to code organization  that exists in all higher-order programming paradigms. Developers often use functional programming declaratively rather than imperatively.
@@ -40,12 +41,14 @@ Here are some examples of programming paradigms that support functional programm
 
 
 <br>
+
 **OBJECT ORIENTED PROGRAMMING**
 <br>
 Object Oriented programming (OOP) is a program that uses the concept of classes and objects. It is used to turn a software program into simple, reusable pieces of code.
 
 Here are some of the object-oriented programming paradigms -JavaScript, C++, Java, and Python.
-
+<br>
+<br>
 
 **Advantages of object oriented programming :**
 * Reuse of code 
@@ -70,7 +73,7 @@ Functional languages are preferred when you have a fixed set of requirements, an
 
 <br>
 
-**Functional Programming VS OOP Programming**
+**Functional Programming VS OOP Programming:**
 <br>
 
 
@@ -83,3 +86,12 @@ Functional languages are preferred when you have a fixed set of requirements, an
 | Security     | Does not have Data Hiding     | Provides Data Hiding      |
 | Access Specifiers     | Does not have any Access specifiers     | Provides Access Specifiers(Private,Public,Protected)     |
 | Iteration    | Uses recursion      | Uses Loops     |
+
+<br>
+
+**Conclusion**
+<br>
+Functional Programming and Object-oriented programming are completely different programming paradigm.Despite of having different approaches, both of them are designed  to make the code efficient.Both programming paradigms have their own pros and cons.To have create more efficiency in the development, typically OOP is prefered, while for the creation of very complicated, scalable, and flexible software systems FP will work better. 
+
+
+{% include schedule-demo.html %}

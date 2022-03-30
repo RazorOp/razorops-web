@@ -22,6 +22,8 @@ Even though these two approaches are complementary, it’s important to understa
 
 In programming, unit testing is a practice by which every single unit of source code is tested to decide if it is fit for use. A unit is the tiniest testable part of an application. In programming, a unit can be an individual function or procedure. Unit tests are generally created by programmers or sometimes by white box testers.The ultimate goal of unit testing is to separate each part of the program and show that the individual parts of the code are correct.
 Unit testing is also the core of an advanced software development process called test-driven development. The aim is to have the framing of a single unit roll out before its recognition.
+<br>
+<br>
 
 **Benefits of Unit Testing:**
 
@@ -39,12 +41,15 @@ Simplifies integration
 The testing of a component or module of code to ensure it integrates correctly with other components or modules of code. In an Agile or DevOps exercise where continuous delivery pipelines are common, integration testing should be carried out as each module is completed or adjusted. To ensure that these other areas of the application are still functioning correctly, every feature of the application must be re-tested to make sure it’s functioning as designed. This end-to-end preventative testing is called regression testing.
 You can replace outer systems, but the application works in an integrated way. This approach can be used for the verification in a CI/CD pipeline.
 <br>
+<br>
 
 **UNIT TESTING AND INTEGRATION TESTING IN CI/CD**
 
 Unit testing and integration testing both play a crucial part in successful software development. Even though they are different yet related purposes, one cannot completely replace the other. They accompany each other perfectly.
 Automating tests in CI/CD pipelines is regarded as a best practice, if not mandatory according to most DevOps principles. Development teams must focus to create an efficient, reliable test layout for their projects, one that covers all appropriate code paths. Automation of tests in your CI/CD pipeline should be a high priority for your team. A fusion of testing methods can increase the test coverage and make your software as bug-free as it can be.
 <br>
+<br>
+
 **Unit Test vs Integration Test:**
 
 |           | UNIT TESTING | INTEGRATION TESTING |
@@ -57,6 +62,7 @@ Automating tests in CI/CD pipelines is regarded as a best practice, if not manda
 | Team Involved | Performed by the developer | performed by the tester |
 
 <br>
+
 **Conclusion:**
 
 Unit testing is the most basic part of CI/CD which allows faster development cycles and continuous deployment. In addition to this, it also helps to improve the overall code quality for each release. Integration testing is the most commonly preferred method of testing because it offers the well organized use of development and testing resources. Tests can be carried out on each module as soon as development on it is done. Developers can regularly test it very rapidly, making any necessary changes to the code immediately.

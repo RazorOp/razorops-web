@@ -18,6 +18,7 @@ image: images/blog/continuous-integration-continous-deployment.jpeg
 Continuous integration is a DevOps practice, where developers continuously integrate the code changes into a central repository. It most often refers to the build or the integration stage of the software release process.A continuous integration service helps to automatically build and run unit tests on the new code changes to find any errors instantly.
 
 <br>
+
 **ADVANTAGES OF CONTINUOUS INTEGRATION**
 * Helps you to increase the software quality 
 * It enables you to conduct repeatable testing.
@@ -30,6 +31,7 @@ Continuous integration is a DevOps practice, where developers continuously integ
 Continuous Deployment is a software process that uses automated testing to confirm if changes to a core code doesn't break the existing  functionality and it is stable, for instant autonomous deployment to a production environment.  With continuous deployment customers get the updates quicker which means developers also get the feedback faster which indicates there will be less pressure as small updates are pushed gradually compared to major updates not pushed that often.
 
 <br>
+
 **ADVANTAGES OF CONTINUOUS DEPLOYMENT**
 
 * It enables you to increase overall productivity.
@@ -58,6 +60,7 @@ The Key difference between continuous delivery and continuous deployment is that
  
  
  <br>
+
 **Continuous Integration vs Continuous Deployment vs Continuous Delivery**
 <br>
 
@@ -69,6 +72,10 @@ The Key difference between continuous delivery and continuous deployment is that
 | Focuses on automation testing | Focus on change in all stages of your production pipeline | Focuses on releasing new changes |
 | It helps you to identify and fix the bugs early | It enables you to quickly deploy and validate new features | It allows developers to check software updates |
 
+<br>
 
+**Conclusion**
 <br>
 The primary goal of Continuous Integration, Continuous Delivery and Continuous deployment is the same - to make software development and the release process faster and efficient . While software continues to update with DevOps, the challenges and struggles of companies implementing DevOps are real and high. Razorops will help you to overcome these challenges. Razorops helps you to have an end-to-end CI/CD pipeline so your project can be live in an easy way.
+
+{% include schedule-demo.html %}
