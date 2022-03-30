@@ -53,15 +53,16 @@ The Key difference between continuous delivery and continuous deployment is that
 * It helps you to find bugs earlier in the delivery process.
 * CD allows to deliver updates to immediately and frequently to clients/customers
 <br>
- <img src="/images/blogs/continuous-integration-continous-deployment.jpeg">
+ <img src="images/blog/continuous-integration-continous-deployment.jpeg">
  
  
  
  <br>
 **Continuous Integration vs Continuous Deployment vs Continuous Delivery**
 <br>
-|  Continuous Integration  |  Continuous Deployment  |  Continuous Delivery  |
-|  :---- ------------------------  |  :-----------------------------:  |  --------------------------:  |
+
+| Continuous Integration | Continuous Deployment | Continuous Delivery |
+| -------- | -------- | -------- |
 | CI refers to the versioning of source code | CD is an approach to make changes for new features, configuration and also bug fixes | CD is an approach to develop the software in a short cycle |
 | It refers to the versioning of source code | It refers to automated execution of the source code | It refers to the logical evolution of CI | 
 | It uses unit tests | Any testing strategy can be used | It uses business logic tests |
