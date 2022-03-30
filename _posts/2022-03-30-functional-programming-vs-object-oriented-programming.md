@@ -10,6 +10,7 @@ date: '2022-03-30 13:04:53'
 author: Shyam Mohan
 category: OOPs
 image: images/blog/functional-programming-oops.png
+keywords: functional program, oops, object oriented,programming, oop , functionality
 ---
 
 Programming paradigms differ from one another based on their features and the style they support. Every programming has its fine share of advantages and disadvantages  so it is better to know where to use it before actually using it.Functional programming and object-oriented programming have very different approaches to programming. 
