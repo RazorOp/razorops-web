@@ -1,18 +1,7 @@
 {% include search.html %}
 <br>
 
-<p><b>LATEST POSTS</b></p>
-<ul class="blog-catgory_ul">
-  {% for category in site.categories %}
-    <li><b><a name="{{ category | first }}">{{ category | first }}</a></b>
-      <ul>
-      {% for post in category.last %}
-        <li class="blog-catgory_li"><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
-</ul>
+
 <div class="blog-signup-card">
   <h2> Get The Fastest ever CI/CD</h2>
   <p class="blog-rightside-p">Signup for free with...</p>
@@ -34,3 +23,15 @@
   <a href="https://twitter.com/razorops" target="_blank"><img src="/images/blog/twitter.png" class="img-responsive"></a>
   <br><br>
 
+  <p><b>LATEST POSTS</b></p>
+  <ul class="blog-catgory_ul">
+    {% for category in site.categories %}
+      <li><b><a name="{{ category | first }}">{{ category | first }}</a></b>
+        <ul>
+        {% for post in category.last %}
+          <li class="blog-catgory_li"><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
