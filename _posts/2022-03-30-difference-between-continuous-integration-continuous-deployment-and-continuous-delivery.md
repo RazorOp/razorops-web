@@ -78,4 +78,3 @@ The Key difference between continuous delivery and continuous deployment is that
 <br>
 The primary goal of Continuous Integration, Continuous Delivery and Continuous deployment is the same - to make software development and the release process faster and efficient . While software continues to update with DevOps, the challenges and struggles of companies implementing DevOps are real and high. Razorops will help you to overcome these challenges. Razorops helps you to have an end-to-end CI/CD pipeline so your project can be live in an easy way.
 
-{% include schedule-demo.html %}

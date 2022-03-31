@@ -48,6 +48,54 @@
                 <div class="sharethis-inline-share-buttons"></div>
               </div>
               <br><br>
+
+              <!-- **************** About article author ********************* -->
+                  <div class="about-the-author text-center">
+                    <h3 class="text-center">About The Author</h3>
+                    <img src="/images/shyam-mohan.png" class="mt-10 rounded">
+                    <h4>Shyam Mohan</h4>
+                    <small>ssgsgjhdj</small>
+                    <p class="mt-10">A story-teller and conversation-lover, Alexander decided to invest his skills to help his friends at Buddy transform the cold language of patch notes into exciting narratives. Also: an avid gamer, hip-hop DJ, Liverpool FC fan, absentminded husband, and the father of two.</p>
+                  </div>
+                  <br>
+                  <br>
+
+
+                <!-- **************** similar blogs ********************* -->
+
+                <div class="container">
+                  <div class="blog-wraper2">
+                    <div class="blog-post">
+                      {% assign blogs = site.posts %}
+                      {% for post in blogs limit:3 %}
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                          <div class="col-sm-3 post-box">
+                            <div class="blog-content">
+                                <img src="{{ post.image }}"/>
+                              <div class="blog-body">
+                                <h1>{{ post.title }}</h1>
+                                <p>{{ post.description}}</p>
+                                <br>
+                                <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- ********************blog Banner******************** -->
+                  <div class="text-center blog-single-banner">
+                      <h3>With Razorops even the most complicated CI/CD workflow take a minutes to create</h3>
+                      <p>Signup for Razorops CI/CD</p>
+                      <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-success btn-rounded pr-4 pl-4 mr-4">TRY IT FREE</a>
+
+                  </div>
+
             </div>
 
             <div class="col-md-3">
