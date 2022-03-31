@@ -21,7 +21,24 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
+.blog-wraper2 {
+  min-height: calc(100vh - 1000px);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.blog-signup-card{
+	padding: 10px;
+}
+.blog-signup-card .blog-rightside-p{
+	color: gray;
+}
+.blog-signup-card .blog-righside-p-mt{
+	margin-top: 20px;
+}
+.blog-single-banner{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 20px;
+}
 .blog-menu {
   list-style: none;
   padding: 0 0 0 10px;
