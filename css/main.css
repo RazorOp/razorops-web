@@ -2988,3 +2988,69 @@ padding-left: 10px;
 .new-close-image:active .sticky-content{
 	visibility: hidden;
 }
+/* ******************signup section************************* */
+@media (min-width:768px){
+	
+
+.signup-section{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	
+}
+
+.signup-section .signup-sub-section1{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: left;
+	
+}
+.signup-section .signup-sub-section2{
+	padding-top: 70px;
+	padding-bottom: 50px;
+
+}
+
+.signup-sub-section1 > small{
+	color: grey;
+	
+}
+.signup-sub-section1 > p{
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+}
+@media  (min-width:768px) and (max-width:1024px) {
+	.signup-section{
+		margin-top: 40px;
+		margin-bottom: 200px;
+		
+		
+	}
+}
+@media (max-width:767px) {
+	.signup-section{
+		margin-top: 40px;
+		margin-bottom: 650px;
+		
+		
+	}
+	
+	.signup-section .signup-sub-section1{
+		padding-top: 70px;
+		padding-bottom: 70px;
+		
+	}
+	.signup-section .signup-sub-section2{
+		padding-top: 70px;
+		padding-bottom: 50px;
+		
+	}
+	.signup-sub-section1 > small{
+		color: grey;
+		
+	}
+	.signup-sub-section1 > p{
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+}
