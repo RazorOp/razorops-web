@@ -3037,13 +3037,16 @@ padding-left: 10px;
 
 }
 
-.signup-sub-section1 > small{
+.signup-sub-section1 > .signup-small{
 	color: grey;
 	
 }
 .signup-sub-section1 > .signup-description{
 	margin-bottom: 30px;
 	margin-top: 20px;
+}
+.signup-ext-info{
+	margin: 0px;
 }
 }
 @media  (min-width:768px) and (max-width:1024px) {
@@ -3089,7 +3092,7 @@ padding-left: 10px;
 		padding-bottom: 50px;
 		
 	}
-	.signup-sub-section1 > small{
+	.signup-sub-section1 > .signup-small{
 		color: grey;
 		
 	}
