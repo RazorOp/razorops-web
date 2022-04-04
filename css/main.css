@@ -3037,7 +3037,7 @@ padding-left: 10px;
 
 }
 
-.signup-sub-section1 > .signup-small{
+.signup-sub-section1 .signup-small{
 	color: grey;
 	
 }
@@ -3060,7 +3060,7 @@ padding-left: 10px;
 @media (max-width:767px) {
 	.signup-section{
 		margin-top: 40px;
-		margin-bottom: 700px;
+		margin-bottom: 620px;
 		
 		
 	}
@@ -3088,15 +3088,15 @@ padding-left: 10px;
 		
 	}
 	.signup-section .signup-sub-section2{
-		padding-top: 70px;
-		padding-bottom: 50px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 		
 	}
-	.signup-sub-section1 > .signup-small{
+	.signup-sub-section1 .signup-small{
 		color: grey;
 		
 	}
-	.signup-sub-section1 > p{
+	.signup-sub-section1 > .signup-description{
 		margin-bottom: 30px;
 		margin-top: 20px;
 	}
