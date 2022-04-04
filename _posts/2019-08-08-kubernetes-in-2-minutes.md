@@ -57,5 +57,4 @@ DNS
 * [Read More: here](https://kubernetes.io/docs/concepts/architecture/)
 
 <br>
-{% include schedule-demo.html %}
 

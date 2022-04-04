@@ -75,4 +75,3 @@ Razorops will deploy staging branch to heroku.
 More details [https://docs.razorops.com/languages/ruby.html](https://docs.razorops.com/languages/ruby.html)
 
 
-{% include schedule-demo.html %}

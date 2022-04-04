@@ -43,7 +43,6 @@ We also have <strong>implementation partners</strong> like <a href="https://Kube
 
 
 <br>
-{% include schedule-demo.html %}
 
 
 

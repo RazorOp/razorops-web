@@ -24,4 +24,3 @@ GitHub Marketplace connects to developers who want to extend and improve their G
 </center>
 
 <br>
-{% include schedule-demo.html %}

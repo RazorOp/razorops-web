@@ -29,6 +29,8 @@
 .blog-signup-card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	padding: 20px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 5px;
 }
 .blog-signup-card .blog-rightside-p{
 	color: gray;
@@ -97,7 +99,8 @@
   border: 1px solid #EEE;
   box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
     0 8px 32px 0 rgba(55, 92, 192, 0.08);
-  min-height: 435px !important;
+  /* min-height: 480px !important; */
+  height: 455px !important;
 }
 
 .blog-content1{
@@ -216,8 +219,15 @@
 .blog-post h1 a:focus {
   color: #2017af;
 }
-
-
+.schedule-demo-cardn{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 10px;
+  border: 1px solid rgb(203, 203, 203);
+  margin-top: 20px;
+}
+#blog-post-margins{
+  margin-bottom: 0px !important;
+}
 .span4 img {
     margin-right: 10px;
 }
