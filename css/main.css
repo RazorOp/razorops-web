@@ -115,9 +115,15 @@ address {
 	margin-top: 80px;
 }
 
+
 .btn-icon{
 	height: 1.75rem;
   margin-right: 1rem;
+  margin-left: .5rem;
+}
+.btn-icon2{
+	height: 1.90rem;
+  margin-right: 0.6rem;
   margin-left: .5rem;
 }
 
@@ -2994,10 +3000,31 @@ padding-left: 10px;
 
 .signup-section{
 	margin-top: 40px;
-	margin-bottom: 50px;
+	margin-bottom: 180px;
 	
 }
+.signup-btns1:hover{
+	background-color: white !important;
+	box-shadow: 10px 5px 5px rgb(219, 219, 219);
 
+}
+.signup-btns2:hover{
+	background-color: rgb(22, 47, 238) !important;
+	color:white;
+	box-shadow: 10px 5px 5px rgb(219, 219, 219);
+}
+.signup-btns3:hover{
+	background-color: rgb(246, 174, 7) !important;
+	box-shadow: 10px 5px 5px rgb(219, 219, 219);
+}
+.signup-btns2{
+	background-color: rgb(22, 47, 238);
+	color:white;
+}
+.signup-btns3{
+	background-color: rgb(246, 174, 7);
+	color:black;
+}
 .signup-section .signup-sub-section1{
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -3014,7 +3041,7 @@ padding-left: 10px;
 	color: grey;
 	
 }
-.signup-sub-section1 > p{
+.signup-sub-section1 > .signup-description{
 	margin-bottom: 30px;
 	margin-top: 20px;
 }
@@ -3022,7 +3049,7 @@ padding-left: 10px;
 @media  (min-width:768px) and (max-width:1024px) {
 	.signup-section{
 		margin-top: 40px;
-		margin-bottom: 200px;
+		margin-bottom: 350px;
 		
 		
 	}
@@ -3030,9 +3057,26 @@ padding-left: 10px;
 @media (max-width:767px) {
 	.signup-section{
 		margin-top: 40px;
-		margin-bottom: 650px;
+		margin-bottom: 700px;
 		
 		
+	}
+	.signup-btns1:hover{
+		background-color: white !important;
+	}
+	.signup-btns2:hover{
+		background-color: rgb(22, 47, 238) !important;
+	}
+	.signup-btns3:hover{
+		background-color: rgb(246, 174, 7) !important;
+	}
+	.signup-btns2{
+		background-color: rgb(22, 47, 238);
+		color:white;
+	}
+	.signup-btns3{
+		background-color: rgb(246, 174, 7);
+		color:white;
 	}
 	
 	.signup-section .signup-sub-section1{
