@@ -64,7 +64,11 @@ Here are some of the object-oriented programming paradigms -JavaScript, C++, Jav
 * Larger program size
 
 <br>
+
+Let's check: [What is CI/CD Pipeline?](https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples/)
+
 <br>
+
 **DIFFERENCE :**
 <br>
 Object-oriented languages are used when you have a fixed set of requirements to build some functionality , and as your requirement changes, you add new functionality. This is  accomplished by adding new classes which extends the existing methods, and there will be no changes done on the existing class.

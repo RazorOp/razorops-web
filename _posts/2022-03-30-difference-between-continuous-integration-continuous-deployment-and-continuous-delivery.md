@@ -57,7 +57,7 @@ The Key difference between continuous delivery and continuous deployment is that
 <br>
 ![continuous-integration-continous-deployment](/images/blog/continuous-integration-continous-deployment.jpeg)
  
- 
+[Let’s check: How Container Native CI/CD Razorops Works](https://razorops.com/product?utm_source=Continuous-Integration-Deployment-Delivery&utm_medium=blog&utm_campaign=Internallink#how-it-works) 
  
  <br>
 
@@ -76,5 +76,5 @@ The Key difference between continuous delivery and continuous deployment is that
 
 **Conclusion**
 <br>
-The primary goal of Continuous Integration, Continuous Delivery and Continuous deployment is the same - to make software development and the release process faster and efficient . While software continues to update with DevOps, the challenges and struggles of companies implementing DevOps are real and high. Razorops will help you to overcome these challenges. Razorops helps you to have an end-to-end CI/CD pipeline so your project can be live in an easy way.
+The primary goal of [Continuous Integration, Continuous Delivery and Continuous deployment](https://razorops.com/product?utm_source=Continuous-Integration-Deployment-Delivery&utm_medium=blog&utm_campaign=Internallink) is the same - to make software development and the release process faster and efficient . While software continues to update with DevOps, the challenges and struggles of companies implementing DevOps are real and high. Razorops will help you to overcome these challenges. Razorops helps you to have an end-to-end [CI/CD pipeline](https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples/?utm_source=Continuous-Integration-Deployment-Delivery&utm_medium=blog&utm_campaign=Internallink) so your project can be live in an easy way.
 
