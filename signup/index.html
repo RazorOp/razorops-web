@@ -27,15 +27,13 @@ image: /images/razorops-demo.png
                     }
                     else{
 
-                            if(document.getElementById('github')){
-                                document.getElementById('github').setAttribute('href', 'https://dashboard.razorops.com/users/auth/github');;
+                            if(btn){
+                                document.getElementById('github').setAttribute('href', 'https://dashboard.razorops.com/users/auth/github');
+                                document.getElementById('bitbucket').setAttribute('href', 'https://dashboard.razorops.com/users/auth/bitbucket');
+                                document.getElementById('gitlab').setAttribute('href', 'https://dashboard.razorops.com/users/auth/gitlab');
+
                             }
-                            else if(document.getElementById('bitbucket')){
-                                document.getElementById('bitbucket').setAttribute('href', 'https://dashboard.razorops.com/users/auth/bitbucket');;
-                            }
-                            else{
-                                document.getElementById('gitlab').setAttribute('href', 'https://dashboard.razorops.com/users/auth/gitlab');;
-                            }
+                            
                     }
                 }
                 // https://dashboard.razorops.com/users/auth/github
