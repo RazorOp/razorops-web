@@ -91,4 +91,3 @@ To do Continuous Integration you need multiple environments,
 ![](/images/blog/razorops-ci.png)
 
 
-{% include schedule-demo.html %}

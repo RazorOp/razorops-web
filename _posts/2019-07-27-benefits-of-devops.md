@@ -77,4 +77,3 @@ A range of tech companies, including Amazon, Microsoft, and Google, have built D
 Gartner Research projected that the Cloud Services market will grow over 15% per year through 2020. To put this growth in terms of dollars, a recent article published by Forbes indicates that the cloud computing market will grow from roughly $260 billion in 2017 to roughly $411 billion in 2020. DevOps can make a huge difference in how quickly your company successfully migrates systems onto the cloud.
 
 <br>
-{% include schedule-demo.html %}

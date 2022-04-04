@@ -78,7 +78,7 @@ Functional languages are preferred when you have a fixed set of requirements, an
 
 
 |                | Functional Programming | OOP Programming |
-| :------- | :--------: | --------: |
+| :------- | :--------: | :--------: |
 | Definition     | It focuses on using functions where each function has a specific task     | It is based on Objects and Classes     |
 | Support     | Supports parallel programming     | Does not support parallel programming     |
 | Data     | Uses immutable data     | Uses mutable data     |
@@ -94,4 +94,3 @@ Functional languages are preferred when you have a fixed set of requirements, an
 Functional Programming and Object-oriented programming are completely different programming paradigm.Despite of having different approaches, both of them are designed  to make the code efficient.Both programming paradigms have their own pros and cons.To have create more efficiency in the development, typically OOP is prefered, while for the creation of very complicated, scalable, and flexible software systems FP will work better. 
 
 
-{% include schedule-demo.html %}

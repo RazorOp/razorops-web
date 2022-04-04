@@ -81,4 +81,3 @@ Now with a week of work you can achieve all of the above, and even more with som
 Most of the automation tools above would be free of charge to a certain extent, the rest would cover their costs within one or two month of operation.
 
 <br>
-{% include schedule-demo.html %}

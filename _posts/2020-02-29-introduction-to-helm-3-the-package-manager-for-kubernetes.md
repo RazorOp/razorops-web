@@ -179,4 +179,3 @@ GitHub: <a href="https://github.com/helm/helm" target="_blank">https://github.co
 HelmHub : <a href="https://hub.helm.sh/" target="_blank">https://hub.helm.sh/</a>
 
 <br>
-{% include schedule-demo.html %}

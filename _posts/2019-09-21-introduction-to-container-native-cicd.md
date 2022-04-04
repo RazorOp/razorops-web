@@ -49,4 +49,3 @@ image: "/images/blog/cicd/container-native-cicd-pipeline.png"
 ![](/images/blog/cicd/how-razorops-works.png)
 
 
-{% include schedule-demo.html %}
