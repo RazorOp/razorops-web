@@ -3000,7 +3000,7 @@ padding-left: 10px;
 
 .signup-sectionss{
 	margin-top: 40px;
-	margin-bottom: 250px;
+	margin-bottom: 30px;
 	
 }
 .anchorbg-none{
@@ -3066,7 +3066,7 @@ padding-left: 10px;
 @media  (min-width:768px) and (max-width:1024px) {
 	.signup-sectionss{
 		margin-top: 160px;
-		margin-bottom: 350px;
+		margin-bottom: 30px;
 		
 		
 	}
@@ -3079,7 +3079,7 @@ padding-left: 10px;
 @media (max-width:767px) {
 	.signup-sectionss{
 		margin-top: 40px;
-		margin-bottom: 820px;
+		margin-bottom: 20px;
 		
 		
 	}
