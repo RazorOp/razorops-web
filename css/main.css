@@ -2998,7 +2998,7 @@ padding-left: 10px;
 @media (min-width:768px){
 	
 
-.signup-section{
+.signup-sectionss{
 	margin-top: 40px;
 	margin-bottom: 500px;
 	
@@ -3039,13 +3039,13 @@ padding-left: 10px;
 	background-color: #f6814e !important;
 	color:white;
 }
-.signup-section .signup-sub-section1{
+.signup-sectionss .signup-sub-section1{
 	padding-top: 70px;
 	padding-bottom: 70px;
 	
 	
 }
-.signup-section .signup-sub-section2{
+.signup-sectionss .signup-sub-section2{
 	padding-top: 170px;
 	padding-bottom: 50px;
 	
@@ -3064,15 +3064,20 @@ padding-left: 10px;
 }
 }
 @media  (min-width:768px) and (max-width:1024px) {
-	.signup-section{
+	.signup-sectionss{
 		margin-top: 160px;
 		margin-bottom: 350px;
 		
 		
 	}
+	.signup-sectionss .signup-sub-section2{
+		padding-top: 70px;
+		padding-bottom: 50px;
+		
+	}
 }
 @media (max-width:767px) {
-	.signup-section{
+	.signup-sectionss{
 		margin-top: 40px;
 		margin-bottom: 820px;
 		
@@ -3115,12 +3120,12 @@ padding-left: 10px;
 		color:white;
 	}
 	
-	.signup-section .signup-sub-section1{
+	.signup-sectionss .signup-sub-section1{
 		padding-top: 70px;
 		padding-bottom: 70px;
 		
 	}
-	.signup-section .signup-sub-section2{
+	.signup-sectionss .signup-sub-section2{
 		padding-top: 0px;
 		padding-bottom: 0px;
 		
