@@ -11,7 +11,7 @@ author: Shyam Mohan
 category: CI/CD
 keywords: CICD, CI/CD, workflow, pipeline, devops, continuous integration, continuous
   delivery, deployments, deploy, tests, testing
-image: images/blog/continuous-integration-continous-deployment.jpeg
+image: images/blog/continuous-integration-continous-deployment.jpg
 ---
 
 Continuous integration is a DevOps practice, where developers continuously integrate the code changes into a central repository. It most often refers to the build or the integration stage of the software release process.A continuous integration service helps to automatically build and run unit tests on the new code changes to find any errors instantly.
