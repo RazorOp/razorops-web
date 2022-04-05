@@ -80,20 +80,22 @@ Functional languages are preferred when you have a fixed set of requirements, an
 <br>
 
 
-|                | Functional Programming | OOP Programming |
-| :------- | :--------: | :--------: |
+
+
+|                | Functional Programming | OOPs Programming |
+| :-------- | :--------: | :--------: |
 | Definition     | It focuses on using functions where each function has a specific task     | It is based on Objects and Classes     |
 | Support     | Supports parallel programming     | Does not support parallel programming     |
 | Data     | Uses immutable data     | Uses mutable data     |
-| Order of Execution     | No particular order while execution     | Uses bottom-up approach      |
-| Security     | Does not have Data Hiding     | Provides Data Hiding      |
-| Access Specifiers     | Does not have any Access specifiers     | Provides Access Specifiers(Private,Public,Protected)     |
-| Iteration    | Uses recursion      | Uses Loops     |
+| Order of Execution     | No particular order while execution     | Uses bottom-up approach     |
+| Security     | Does not have Data Hiding     | Provides Data Hiding     |
+| Access Specifiers     | Does not have any Access specifiers     | Provides Access Specifiers i.e- Private,Public,Protected     |
+| Iteration     | Uses recursion     | Uses Loops     |
+
+
 
 <br>
 
 **Conclusion**
 <br>
-Functional Programming and Object-oriented programming are completely different programming paradigm.Despite of having different approaches, both of them are designed  to make the code efficient.Both programming paradigms have their own pros and cons.To have create more efficiency in the development, typically OOP is prefered, while for the creation of very complicated, scalable, and flexible software systems FP will work better. 
-
-
+Functional Programming and Object-oriented programming are completely different programming paradigm.Despite of having different approaches, both of them are designed  to make the code efficient.Both programming paradigms have their own pros and cons.To have create more efficiency in the development, typically OOP is prefered, while for the creation of very complicated, scalable, and flexible software systems FP will work better.
