@@ -3000,41 +3000,55 @@ padding-left: 10px;
 
 .signup-section{
 	margin-top: 40px;
-	margin-bottom: 180px;
+	margin-bottom: 460px;
 	
 }
+.anchorbg-none{
+	color: #123db3;
+}
+.anchorbg-none:hover,
+.anchorbg-none:focus{
+	background-color:transparent !important;
+	
+}
+.signup-btns1{
+	background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
+	color:white;
+}
 .signup-btns1:hover{
-	background-color: white !important;
+	color: white;
+	background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
 	box-shadow: 10px 5px 5px rgb(219, 219, 219);
 
 }
 .signup-btns2:hover{
-	background-color: rgb(22, 47, 238) !important;
+	background-color: #0052cc !important;
 	color:white;
 	box-shadow: 10px 5px 5px rgb(219, 219, 219);
 }
 .signup-btns3:hover{
-	background-color: rgb(246, 174, 7) !important;
+	background-color: #f6814e !important;
 	box-shadow: 10px 5px 5px rgb(219, 219, 219);
+	color: white;
 }
 .signup-btns2{
-	background-color: rgb(22, 47, 238);
+	background-color: #0052cc !important;
 	color:white;
 }
 .signup-btns3{
-	background-color: rgb(246, 174, 7);
-	color:black;
+	background-color: #f6814e !important;
+	color:white;
 }
 .signup-section .signup-sub-section1{
 	padding-top: 70px;
 	padding-bottom: 70px;
-	text-align: left;
+	
 	
 }
 .signup-section .signup-sub-section2{
-	padding-top: 70px;
+	padding-top: 170px;
 	padding-bottom: 50px;
-
+	
 }
 
 .signup-sub-section1 .signup-small{
@@ -3051,7 +3065,7 @@ padding-left: 10px;
 }
 @media  (min-width:768px) and (max-width:1024px) {
 	.signup-section{
-		margin-top: 40px;
+		margin-top: 160px;
 		margin-bottom: 350px;
 		
 		
@@ -3060,25 +3074,44 @@ padding-left: 10px;
 @media (max-width:767px) {
 	.signup-section{
 		margin-top: 40px;
-		margin-bottom: 620px;
+		margin-bottom: 820px;
 		
 		
+	}
+	.anchorbg-none{
+		color: #123db3;
+	}
+	.anchorbg-none:hover,
+	.anchorbg-none:focus{
+		background-color:transparent !important;
+		
+	}
+	.signup-btns1{
+		background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
+		color:white;
 	}
 	.signup-btns1:hover{
-		background-color: white !important;
+		color: white;
+		background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
+		box-shadow: 10px 5px 5px rgb(219, 219, 219);
+	
 	}
 	.signup-btns2:hover{
-		background-color: rgb(22, 47, 238) !important;
+		background-color: #0052cc !important;
+		color:white;
+		box-shadow: 10px 5px 5px rgb(219, 219, 219);
 	}
 	.signup-btns3:hover{
-		background-color: rgb(246, 174, 7) !important;
+		background-color: #f6814e !important;
+		box-shadow: 10px 5px 5px rgb(219, 219, 219);
+		color: white;
 	}
 	.signup-btns2{
-		background-color: rgb(22, 47, 238);
+		background-color: #0052cc !important;
 		color:white;
 	}
 	.signup-btns3{
-		background-color: rgb(246, 174, 7);
+		background-color: #f6814e !important;
 		color:white;
 	}
 	
