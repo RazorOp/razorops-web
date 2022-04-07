@@ -49,58 +49,16 @@
               </div>
               <br><br>
 
-              <!-- **************** About article author ********************* -->
-                  <div class="about-the-author text-center">
-                    <h3 class="text-center">About The Author</h3>
-                    <img src="/images/shyam-mohan.png" class="mt-10 rounded">
-                    <h4>Shyam Mohan</h4>
-                    <small>Founder of RAZOROPS</small>
-                    <p class="mt-10">Shyam Mohan is the founder of RAZOROPS.He has "10" years of experience in the areas of Software Development, Devops, CI/CD, Kubernetes, and he also guides companies to adopt CI/CD pipelines which will help them to automate their workflow.</p>
-                  </div>
-                  <br>
-                  <br>
+            {% include about-shyam.html %}
 
-
-                <!-- **************** similar blogs ********************* -->
-
-                <div class="container">
-                  <div class="blog-wraper2">
-                    <div class="blog-post">
-                      {% assign blogs = site.posts %}
-                      {% for post in blogs limit:3 %}
-                        <a href="{{ site.baseurl }}{{ post.url }}">
-                          <div class="col-sm-3 post-box">
-                            <div class="blog-content">
-                                <img src="{{ post.image }}"/>
-                              <div class="blog-body">
-                                <h1>{{ post.title }}</h1>
-                                <p>{{ post.description}}</p>
-                                <br>
-                                <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        
-                      {% endfor %}
-                    </div>
-                  </div>
-                </div>
-
-
-                <!-- ********************blog Banner******************** -->
-                  <div class="text-center blog-single-banner">
-                      <h3>With Razorops even the most complicated CI/CD workflow take a minutes to create</h3>
-                      <p>Signup for Razorops CI/CD</p>
-                      <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-success btn-rounded pr-4 pl-4 mr-4">TRY IT FREE</a>
-
-                  </div>
 
             </div>
 
             <div class="col-md-3">
               {% include blog-menu.html %}
             </div>
+
+            {% include new-blogs-cta.html %}
 
           </div>
         </div>

@@ -82,15 +82,53 @@ Functional languages are preferred when you have a fixed set of requirements, an
 
 
 
-|                | Functional Programming | OOPs Programming |
-| :-------- | :--------: | :--------: |
-| Definition     | It focuses on using functions where each function has a specific task     | It is based on Objects and Classes     |
-| Support     | Supports parallel programming     | Does not support parallel programming     |
-| Data     | Uses immutable data     | Uses mutable data     |
-| Order of Execution     | No particular order while execution     | Uses bottom-up approach     |
-| Security     | Does not have Data Hiding     | Provides Data Hiding     |
-| Access Specifiers     | Does not have any Access specifiers     | Provides Access Specifiers i.e- Private,Public,Protected     |
-| Iteration     | Uses recursion     | Uses Loops     |
+<table class="blog-tables">
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">Functional Programming</th>
+<th style="text-align:center">OOPs Programming</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Definition</td>
+<td style="text-align:center">It focuses on using functions where each function has a specific task</td>
+<td style="text-align:center">It is based on Objects and Classes</td>
+</tr>
+<tr>
+<td style="text-align:left">Support</td>
+<td style="text-align:center">Supports parallel programming</td>
+<td style="text-align:center">Does not support parallel programming</td>
+</tr>
+<tr>
+<td style="text-align:left">Data</td>
+<td style="text-align:center">Uses immutable data</td>
+<td style="text-align:center">Uses mutable data</td>
+</tr>
+<tr>
+<td style="text-align:left">Order of Execution</td>
+<td style="text-align:center">No particular order while execution</td>
+<td style="text-align:center">Uses bottom-up approach</td>
+</tr>
+<tr>
+<td style="text-align:left">Security</td>
+<td style="text-align:center">Does not have Data Hiding</td>
+<td style="text-align:center">Provides Data Hiding</td>
+</tr>
+<tr>
+<td style="text-align:left">Access Specifiers</td>
+<td style="text-align:center">Does not have any Access specifiers</td>
+<td style="text-align:center">Provides Access Specifiers i.e- Private,Public,Protected</td>
+</tr>
+<tr>
+<td style="text-align:left">Iteration</td>
+<td style="text-align:center">Uses recursion</td>
+<td style="text-align:center">Uses Loops</td>
+</tr>
+</tbody>
+</table>
+
 
 
 

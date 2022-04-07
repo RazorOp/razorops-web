@@ -51,18 +51,51 @@ Automating tests in CI/CD pipelines is regarded as a best practice, if not manda
 
 **Unit Test vs Integration Test:**
 
-|           | UNIT TESTING | INTEGRATION TESTING |
-| :-------- | :----------: | :------------------: |
-| PURPOSE | Testing the smallest units or modules individually| Testing integration of two or more units/modules |
-| Complexity | Easy to write and execute| More complex than unit testing 
-| Major Attention| Individual units/modules | Integration of units/modules |
-| Condition | Checks for single component | Checks for multiple  components in combinations  |
-| Errors/Issues Covered | Finds errors that occurs frequently  | Finds issues that occur while integrating two or more modules |
-| Team Involved | Performed by the developer | performed by the tester |
+<table class="blog-tables">
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">UNIT TESTING</th>
+<th style="text-align:center">INTEGRATION TESTING</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">PURPOSE</td>
+<td style="text-align:center">Testing the smallest units or modules individually</td>
+<td style="text-align:center">Testing integration of two or more units/modules</td>
+</tr>
+<tr>
+<td style="text-align:left">Complexity</td>
+<td style="text-align:center">Easy to write and execute</td>
+<td style="text-align:center">More complex than unit testing </td>
+</tr>
+<tr>
+<td style="text-align:left">Major Attention</td>
+<td style="text-align:center">Individual units/modules</td>
+<td style="text-align:center">Integration of units/modules</td>
+</tr>
+<tr>
+<td style="text-align:left">Condition</td>
+<td style="text-align:center">Checks for single component</td>
+<td style="text-align:center">Checks for multiple  components in combinations</td>
+</tr>
+<tr>
+<td style="text-align:left">Errors/Issues Covered</td>
+<td style="text-align:center">Finds errors that occurs frequently</td>
+<td style="text-align:center">Finds issues that occur while integrating two or more modules</td>
+</tr>
+<tr>
+<td style="text-align:left">Team Involved</td>
+<td style="text-align:center">Performed by the developer</td>
+<td style="text-align:center">performed by the tester</td>
+</tr>
+</tbody>
+</table>
+
 
 <br>
 
 **Conclusion:**
 
 Unit testing is the most basic part of [CI/CD which allows faster development cycles and continuous deployment](https://razorops.com/ ). In addition to this, it also helps to improve the overall code quality for each release. Integration testing is the most commonly preferred method of testing because it offers the well organized use of development and testing resources. Tests can be carried out on each module as soon as development on it is done. Developers can regularly test it very rapidly, making any necessary changes to the code immediately.
-

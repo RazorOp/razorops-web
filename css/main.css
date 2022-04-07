@@ -435,7 +435,7 @@ th, td {
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		
-	text-align: center;
+	text-align: left;
 	text-transform: capitalize !important;
 }
 
@@ -510,7 +510,7 @@ th, td {
 }
 .lower-footer{
  	color: #000000;
-	 background-color: #a5a5a5;
+	 background-color: #e3e3e3;
 	 padding-top: 20px;
  }
  .footer-hr{
@@ -1966,9 +1966,9 @@ a {
 		color: white;
 	}
 	.let-start-cta-btn a{
-		font-size: 18px; 
+		font-size: 20px; 
 		font-weight: 600; 
-		border-radius: 10px; 
+		border-radius: 20px; 
 		color: rgb(0, 0, 0); 
 		margin: 57px 0px 0px 80px; 
 		padding-top: 6px; 
@@ -2037,6 +2037,7 @@ a {
 	.partner-card-section{
 		display: flex;
 		flex-direction: row;
+		margin-bottom: 20px;
 	}
 	.partner-card{
 		position: relative;
@@ -3018,17 +3019,14 @@ padding-left: 10px;
 .signup-btns1:hover{
 	color: white;
 	background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
-	box-shadow: 10px 5px 5px rgb(219, 219, 219);
 
 }
 .signup-btns2:hover{
 	background-color: #0052cc !important;
 	color:white;
-	box-shadow: 10px 5px 5px rgb(219, 219, 219);
 }
 .signup-btns3:hover{
 	background-color: #f6814e !important;
-	box-shadow: 10px 5px 5px rgb(219, 219, 219);
 	color: white;
 }
 .signup-btns2{
@@ -3098,17 +3096,14 @@ padding-left: 10px;
 	.signup-btns1:hover{
 		color: white;
 		background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
-		box-shadow: 10px 5px 5px rgb(219, 219, 219);
 	
 	}
 	.signup-btns2:hover{
 		background-color: #0052cc !important;
 		color:white;
-		box-shadow: 10px 5px 5px rgb(219, 219, 219);
 	}
 	.signup-btns3:hover{
 		background-color: #f6814e !important;
-		box-shadow: 10px 5px 5px rgb(219, 219, 219);
 		color: white;
 	}
 	.signup-btns2{
@@ -3138,4 +3133,13 @@ padding-left: 10px;
 		margin-bottom: 30px;
 		margin-top: 20px;
 	}
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+
+.blog-tables, th, td {
+	border: 1px solid black;
+  border-collapse: collapse;
 }

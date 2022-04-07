@@ -22,7 +22,7 @@
   padding-bottom: 40px;
 }
 .blog-wraper2 {
-  min-height: calc(100vh - 1000px);
+  min-height: calc(100vh - 300px);
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -367,3 +367,16 @@
  color: #FFF !important;
 }
 
+.about-the-author{
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(24, 23, 23, 0.2);
+  padding-bottom: 20px;
+
+}
+.about-the-author .author-info h4{
+    margin-bottom: 0px !important;
+}
+.about-the-author .author-info{
+  padding-top: 40px;
+}
