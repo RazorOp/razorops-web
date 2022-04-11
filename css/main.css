@@ -2927,6 +2927,14 @@ padding-left: 10px;
 	font-weight: 501;
 	padding: 12px 10px 8px 10px;
 }
+.bg-org2{
+	background-color: rgb(231, 113, 59);
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	font-style:  Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI","Candara,Calibri,Arial,sans-serif;
+	font-weight: 501;
+	padding: 8px;
+}
 #btn-clr:hover{
 	color: #000;
 }

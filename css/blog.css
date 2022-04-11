@@ -225,6 +225,14 @@
   border: 1px solid rgb(203, 203, 203);
   margin-top: 20px;
 }
+.webinar-card-mark{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 10px;
+  border: 1px solid rgb(203, 203, 203);
+  margin-top: 20px;
+  height: 250px;
+
+}
 #blog-post-margins{
   margin-bottom: 0px !important;
 }
