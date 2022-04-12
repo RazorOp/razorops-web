@@ -510,12 +510,12 @@ th, td {
 }
 .lower-footer{
  	color: #000000;
-	 background-color: #e3e3e3;
+	 background-color: #f8f8f8;
 	 padding-top: 20px;
  }
  .footer-hr{
-	 margin-top: 5px;
-	 margin-bottom: 5px;
+	 margin-top: 0px;
+	 margin-bottom: 0px;
 	 background: rgb(204, 204, 204);
 	 height: 1px;
  }
@@ -2933,7 +2933,8 @@ padding-left: 10px;
 	font-size: 15px;
 	font-style:  Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI","Candara,Calibri,Arial,sans-serif;
 	font-weight: 501;
-	padding: 8px;
+	padding: 5px 0px !important;
+	width: 27% !important;
 }
 #btn-clr:hover{
 	color: #000;

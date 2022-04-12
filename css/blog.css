@@ -230,8 +230,20 @@
 	padding: 10px;
   border: 1px solid rgb(203, 203, 203);
   margin-top: 20px;
-  height: 250px;
+  /* height: 250px; */
 
+}
+.webinar-card-markinfo{
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width:768px) {
+  .webinar-card-mark{
+    text-align: center;
+  
+  }
 }
 #blog-post-margins{
   margin-bottom: 0px !important;
