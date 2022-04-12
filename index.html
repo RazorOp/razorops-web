@@ -74,30 +74,9 @@ image: /images/container-native-cicd.jpg
 {% include testimonial.html %}
 <!-- {% include awards.html %} -->
 
+{% include new-blogs-cta.html %}
 
-<div class="container">
-  <div class="blog-wraper">
-    <div class="blog-post">
-      {% assign blogs = site.posts %}
-      {% for post in blogs limit:3 %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <div class="col-sm-4 post-box">
-            <div class="blog-content">
-                <img src="{{ post.image }}"/>
-              <div class="blog-body">
-                <!-- <time class="pull-right">{{ post.date | date_to_string }}</time> -->
-                <h1>{{ post.title }}</h1>
-                <p>{{ post.description}}</p>
-                <br>
-                <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
-              </div>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+
 
 {% include footer_cta.html %}
 

@@ -800,4 +800,3 @@ docker run --rm -it -v "$PWD/httpd.conf:/usr/local/apache2/conf/httpd.conf:ro" -
 ```
 
 <br>
-{% include schedule-demo.html %}

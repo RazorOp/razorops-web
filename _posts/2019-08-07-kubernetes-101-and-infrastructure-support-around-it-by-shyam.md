@@ -25,4 +25,3 @@ We have got chance to present in Docker Events Hyderabad, Check Out Meetup PPT S
 
 
 <br>
-{% include schedule-demo.html %}

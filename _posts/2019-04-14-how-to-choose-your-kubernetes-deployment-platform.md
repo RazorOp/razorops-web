@@ -136,4 +136,3 @@ These solutions allow you to create Kubernetes clusters on a range of Cloud IaaS
 1. VMware Enterprise PKS
 
 <br>
-{% include schedule-demo.html %}

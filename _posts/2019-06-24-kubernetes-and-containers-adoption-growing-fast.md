@@ -42,4 +42,3 @@ Kubernetes and containers adoption growing fast in the last few years. One surve
 ![](/images/blog/container-use-cases.png)
 
 <br>
-{% include schedule-demo.html %}

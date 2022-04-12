@@ -2,8 +2,7 @@
 title: Functional Programming VS Object Oriented Programming
 description: Let's check the difference between Functional Programming and  Object
   Oriented Programming. Functional Programming and Object-oriented programming are
-  completely different programming paradigm.Despite of having different approaches,
-  both of them are designed  to make the code efficient
+  completely different programming paradigm.
 permalink: "/blog/:title/"
 layout: post
 date: '2022-03-30 13:04:53'
@@ -64,7 +63,11 @@ Here are some of the object-oriented programming paradigms -JavaScript, C++, Jav
 * Larger program size
 
 <br>
+
+Let's check: [What is CI/CD Pipeline?](https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples/)
+
 <br>
+
 **DIFFERENCE :**
 <br>
 Object-oriented languages are used when you have a fixed set of requirements to build some functionality , and as your requirement changes, you add new functionality. This is  accomplished by adding new classes which extends the existing methods, and there will be no changes done on the existing class.
@@ -77,21 +80,60 @@ Functional languages are preferred when you have a fixed set of requirements, an
 <br>
 
 
-|                | Functional Programming | OOP Programming |
-| :------- | :--------: | --------: |
-| Definition     | It focuses on using functions where each function has a specific task     | It is based on Objects and Classes     |
-| Support     | Supports parallel programming     | Does not support parallel programming     |
-| Data     | Uses immutable data     | Uses mutable data     |
-| Order of Execution     | No particular order while execution     | Uses bottom-up approach      |
-| Security     | Does not have Data Hiding     | Provides Data Hiding      |
-| Access Specifiers     | Does not have any Access specifiers     | Provides Access Specifiers(Private,Public,Protected)     |
-| Iteration    | Uses recursion      | Uses Loops     |
+
+
+<table class="blog-tables">
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">Functional Programming</th>
+<th style="text-align:center">OOPs Programming</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Definition</td>
+<td style="text-align:center">It focuses on using functions where each function has a specific task</td>
+<td style="text-align:center">It is based on Objects and Classes</td>
+</tr>
+<tr>
+<td style="text-align:left">Support</td>
+<td style="text-align:center">Supports parallel programming</td>
+<td style="text-align:center">Does not support parallel programming</td>
+</tr>
+<tr>
+<td style="text-align:left">Data</td>
+<td style="text-align:center">Uses immutable data</td>
+<td style="text-align:center">Uses mutable data</td>
+</tr>
+<tr>
+<td style="text-align:left">Order of Execution</td>
+<td style="text-align:center">No particular order while execution</td>
+<td style="text-align:center">Uses bottom-up approach</td>
+</tr>
+<tr>
+<td style="text-align:left">Security</td>
+<td style="text-align:center">Does not have Data Hiding</td>
+<td style="text-align:center">Provides Data Hiding</td>
+</tr>
+<tr>
+<td style="text-align:left">Access Specifiers</td>
+<td style="text-align:center">Does not have any Access specifiers</td>
+<td style="text-align:center">Provides Access Specifiers i.e- Private,Public,Protected</td>
+</tr>
+<tr>
+<td style="text-align:left">Iteration</td>
+<td style="text-align:center">Uses recursion</td>
+<td style="text-align:center">Uses Loops</td>
+</tr>
+</tbody>
+</table>
+
+
+
 
 <br>
 
 **Conclusion**
 <br>
-Functional Programming and Object-oriented programming are completely different programming paradigm.Despite of having different approaches, both of them are designed  to make the code efficient.Both programming paradigms have their own pros and cons.To have create more efficiency in the development, typically OOP is prefered, while for the creation of very complicated, scalable, and flexible software systems FP will work better. 
-
-
-{% include schedule-demo.html %}
+Functional Programming and Object-oriented programming are completely different programming paradigm.Despite of having different approaches, both of them are designed  to make the code efficient.Both programming paradigms have their own pros and cons.To have create more efficiency in the development, typically OOP is prefered, while for the creation of very complicated, scalable, and flexible software systems FP will work better.

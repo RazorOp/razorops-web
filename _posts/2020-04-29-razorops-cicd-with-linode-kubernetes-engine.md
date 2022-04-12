@@ -28,5 +28,4 @@ Razorops is a container Native CI/CI tool to automate and ship you application t
   <iframe width="560" height="315" src="https://www.youtube.com/embed/6MaEOpwiXdk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-{% include schedule-demo.html %}
 
