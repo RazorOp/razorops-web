@@ -55,7 +55,7 @@ The Key difference between continuous delivery and continuous deployment is that
 * CD allows to deliver updates to immediately and frequently to clients/customers
 <br>
 
-![continuous-integration-continous-deployment](/images/blog/continuous-integration-continous-deployment.jpeg)
+![continuous-integration-continous-deployment](/images/blog/continuous-integration-continous-deployment.jpg)
  
 [Let’s check: How Container Native CI/CD Razorops Works](https://razorops.com/product?utm_source=Continuous-Integration-Deployment-Delivery&utm_medium=blog&utm_campaign=Internallink#how-it-works) 
  
