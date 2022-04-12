@@ -119,7 +119,7 @@ Functional languages are preferred when you have a fixed set of requirements, an
 <tr>
 <td style="text-align:left">Access Specifiers</td>
 <td style="text-align:center">Does not have any Access specifiers</td>
-<td style="text-align:center">Provides Access Specifiers i.e- Private,Public,Protected</td>
+<td style="text-align:center">Provides Access Specifiers-Private ,Public ,Protected</td>
 </tr>
 <tr>
 <td style="text-align:left">Iteration</td>
