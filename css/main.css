@@ -3115,6 +3115,19 @@ padding-left: 10px;
 		
 	}
 }
+@media (min-width:1330px) {
+	.signup-sectionss{
+		margin-top: 160px;
+		margin-bottom: 30px;
+		
+		
+	}
+	.signup-sectionss .signup-sub-section2{
+		padding-top: 40px;
+		padding-bottom: 50px;
+		
+	}
+}
 @media (max-width:767px) {
 	.signup-sectionss{
 		margin-top: 40px;
