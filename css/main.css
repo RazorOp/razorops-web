@@ -1298,7 +1298,38 @@ a {
 	font-weight: 400;
 	padding: 50px;
 }
-
+ @media screen and (min-width:768px) {
+	.thankyou {
+		margin:100px;
+	}
+	
+	.thankyou p{
+		font-size: 18px;
+		font-weight: 400;
+		padding: 50px;
+	}
+	.demo-video{
+		width:560px ;
+		height:315px;
+		align-self: center;
+	}
+ }
+ @media screen and (max-width:767px) {
+	.thankyou {
+		margin:50px;
+	}
+	
+	.thankyou p{
+		font-size: 18px;
+		font-weight: 400;
+		padding: 50px;
+	}
+	.demo-video{
+		width:260px ;
+		height:215px;
+		align-self: center;
+	}
+ }
 .blog-menu {
 
 }
@@ -3053,7 +3084,8 @@ padding-left: 10px;
 	
 }
 .signup-sectionss .signup-sub-section2{
-	padding-top: 170px;
+	/* padding-top: 170px; */
+	padding-top: 70px;
 	padding-bottom: 50px;
 	
 }
@@ -3194,5 +3226,5 @@ padding-left: 10px;
   }
 
   .greentext{
-	  color: rgb(5, 171, 35);
-  }
+	color: #3165e7;;  
+}
