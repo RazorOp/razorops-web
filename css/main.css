@@ -3090,11 +3090,7 @@ padding-left: 10px;
 }
 /* ******************signup section************************* */
 @media (min-width:768px){
-	.communitycard{
-		/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-		padding: 70px;
-	}
-	
+
 .signup-sectionss{
 	margin-top: 40px;
 	margin-bottom: 30px;
@@ -3165,6 +3161,7 @@ padding-left: 10px;
 		
 		
 	}
+
 	.signup-sectionss .signup-sub-section2{
 		padding-top: 70px;
 		padding-bottom: 50px;
@@ -3183,6 +3180,7 @@ padding-left: 10px;
 		padding-bottom: 50px;
 		
 	}
+	
 }
 @media (max-width:767px) {
 	.signup-sectionss{
@@ -3194,6 +3192,7 @@ padding-left: 10px;
 	.communitycard{
 		/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 		padding: 20px;
+		width: 100%;
 	}
 	.anchorbg-none{
 		color: #123db3;
@@ -3321,7 +3320,10 @@ padding-left: 10px;
 	font-weight: 600;
 }
 
-
+.communitycard{
+	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+	padding: 20px;
+}
 
 #myBtn{
 	cursor: pointer;
