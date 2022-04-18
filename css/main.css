@@ -1301,6 +1301,7 @@ a {
 }
 .signup-agg {
 	color: rgb(136, 136, 136);
+	font-size: 12px;
 }
  @media screen and (min-width:811px) {
 	.thankyou {
@@ -1322,6 +1323,11 @@ a {
 		width:560px ;
 		height:315px;
 		align-self: center;
+		margin-top: 20px;
+	}
+	.tickrow{
+		display: flex;
+		flex-direction: row;
 	}
  }
  @media screen and (min-width:768px) and (max-width:810px) {
@@ -1340,10 +1346,15 @@ a {
 		font-weight: 400;
 		padding: 50px;
 	}
+	.tickrow{
+		display: flex;
+		flex-direction: row;
+	}
 	.demo-video{
 		width:560px ;
 		height:315px;
 		align-self: center;
+		margin-top: 10px;
 	}
  }
  @media screen and (max-width:767px) {
@@ -1363,6 +1374,13 @@ a {
 		width:260px ;
 		height:215px;
 		align-self: center;
+	}
+	.tickrow{
+		display: flex;
+		flex-direction: row;
+	}
+	.list-styles{
+		padding-left: 0px;
 	}
  }
 .blog-menu {
@@ -3205,7 +3223,7 @@ padding-left: 10px;
 	}
 	
 	.signup-sectionss .signup-sub-section1{
-		padding-top: 70px;
+		padding-top: 0px;
 		padding-bottom: 70px;
 		
 	}
@@ -3280,11 +3298,34 @@ padding-left: 10px;
 	list-style: none;
 }
 
-.list-styles li{
-	font-size: 18px;
+.list-styles .ticksign{
+	font-size: 30px;
 	color: #093586;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+.list-styles .bullets{
+	font-size: 25px;
+	color: #093586;
+	margin-bottom: 10px;
+	font-weight: 500;
 }
 .signup-head{
 	font-weight: 600;
+}
+
+.communitycard{
+	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+	padding: 20px;
+}
+
+#myBtn{
+	cursor: pointer;
+}
+
+#signup-policy{
+	text-align: left !important;
+}
+.join-community{
+	margin-top: 20px;
 }
