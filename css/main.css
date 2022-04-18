@@ -482,6 +482,7 @@ th, td {
 	margin: 0;
 	list-style: none;
 }
+
 .footer-nav > li {
   font-size: 16px;
 	display: block;
@@ -1298,11 +1299,42 @@ a {
 	font-weight: 400;
 	padding: 50px;
 }
- @media screen and (min-width:768px) {
+.signup-agg {
+	color: rgb(136, 136, 136);
+}
+ @media screen and (min-width:811px) {
 	.thankyou {
 		margin:100px;
 	}
-	
+	.thankyou img{
+		width: 180px;
+		margin-bottom: 10px;
+	}
+	.thankyou h1{
+		font-size: 60px;
+	}
+	.thankyou p{
+		font-size: 18px;
+		font-weight: 400;
+		padding: 50px;
+	}
+	.demo-video{
+		width:560px ;
+		height:315px;
+		align-self: center;
+	}
+ }
+ @media screen and (min-width:768px) and (max-width:810px) {
+	.thankyou {
+		margin:20px;
+		margin-top: 130px;
+	}
+	.thankyou img{
+		width: 120px;
+	}
+	.thankyou h1{
+		font-size: 60px;
+	}
 	.thankyou p{
 		font-size: 18px;
 		font-weight: 400;
@@ -1316,9 +1348,12 @@ a {
  }
  @media screen and (max-width:767px) {
 	.thankyou {
-		margin:50px;
+		margin:20px;
+		margin-top: 40px;
 	}
-	
+	.thankyou img{
+		width: 100px;
+	}
 	.thankyou p{
 		font-size: 18px;
 		font-weight: 400;
@@ -3116,12 +3151,12 @@ padding-left: 10px;
 	}
 }
 @media (min-width:1330px) {
-	.signup-sectionss{
+	/* .signup-sectionss{
 		margin-top: 160px;
 		margin-bottom: 30px;
 		
 		
-	}
+	} */
 	.signup-sectionss .signup-sub-section2{
 		padding-top: 40px;
 		padding-bottom: 50px;
@@ -3240,4 +3275,16 @@ padding-left: 10px;
 
   .greentext{
 	color: #3165e7;;  
+}
+.list-styles{
+	list-style: none;
+}
+
+.list-styles li{
+	font-size: 18px;
+	color: #093586;
+	margin-bottom: 5px;
+}
+.signup-head{
+	font-weight: 600;
 }
