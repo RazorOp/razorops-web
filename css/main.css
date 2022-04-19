@@ -1304,10 +1304,7 @@ a {
 	.thankyou {
 		margin:100px;
 	}
-	.thankyou img{
-		width: 180px;
-		margin-bottom: 10px;
-	}
+	
 	.thankyou h1{
 		font-size: 60px;
 	}
@@ -1328,7 +1325,7 @@ a {
 	}
 	.signup-agg {
 		color: rgb(136, 136, 136);
-		font-size: 12px;
+		font-size: 11px;
 	}
  }
  @media screen and (min-width:768px) and (max-width:810px) {
@@ -1336,9 +1333,7 @@ a {
 		margin:20px;
 		margin-top: 130px;
 	}
-	.thankyou img{
-		width: 120px;
-	}
+	
 	.thankyou h1{
 		font-size: 60px;
 	}
@@ -1367,9 +1362,7 @@ a {
 		margin:20px;
 		margin-top: 40px;
 	}
-	.thankyou img{
-		width: 100px;
-	}
+	
 	.thankyou p{
 		font-size: 18px;
 		font-weight: 400;
@@ -1387,6 +1380,10 @@ a {
 	.list-styles{
 		padding-left: 0px;
 	}
+	.signup-agg {
+		color: rgb(136, 136, 136);
+		font-size: 9px;
+	}
  }
 .blog-menu {
 
@@ -1397,10 +1394,7 @@ a {
 	height: 200px;
 }
 
-.signup-agg {
-	color: rgb(136, 136, 136);
-	font-size: 8px;
-}
+
 .razorops-demo {
 	/*background-image: url("../images/razorops-demo.svg");*/
 	margin-top: 60px;
@@ -3316,21 +3310,23 @@ padding-left: 10px;
 .list-styles .ticksign{
 	font-size: 30px;
 	color: #093586;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	font-weight: 500;
 }
 .list-styles .bullets{
 	font-size: 25px;
-	margin-bottom: 10px;
+	
 	font-weight: 500;
 }
 .signup-head{
 	font-weight: 600;
 }
 
-.communitycard{
-	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-	padding: 20px;
+
+.communitycard p{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+
 }
 
 #myBtn{
@@ -3349,4 +3345,9 @@ padding-left: 10px;
 	#signup-policy{
 		text-align: left !important;
 	}
+}
+
+.headpad{
+	font-size: 42px;
+	padding: 0px 40px;
 }
