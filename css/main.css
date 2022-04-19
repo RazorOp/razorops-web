@@ -1299,10 +1299,7 @@ a {
 	font-weight: 400;
 	padding: 50px;
 }
-.signup-agg {
-	color: rgb(136, 136, 136);
-	font-size: 12px;
-}
+
  @media screen and (min-width:811px) {
 	.thankyou {
 		margin:100px;
@@ -1328,6 +1325,10 @@ a {
 	.tickrow{
 		display: flex;
 		flex-direction: row;
+	}
+	.signup-agg {
+		color: rgb(136, 136, 136);
+		font-size: 12px;
 	}
  }
  @media screen and (min-width:768px) and (max-width:810px) {
@@ -1355,6 +1356,10 @@ a {
 		height:315px;
 		align-self: center;
 		margin-top: 10px;
+	}
+	.signup-agg {
+		color: rgb(136, 136, 136);
+		font-size: 11px;
 	}
  }
  @media screen and (max-width:767px) {
@@ -1392,6 +1397,10 @@ a {
 	height: 200px;
 }
 
+.signup-agg {
+	color: rgb(136, 136, 136);
+	font-size: 8px;
+}
 .razorops-demo {
 	/*background-image: url("../images/razorops-demo.svg");*/
 	margin-top: 60px;
@@ -3312,7 +3321,6 @@ padding-left: 10px;
 }
 .list-styles .bullets{
 	font-size: 25px;
-	color: #093586;
 	margin-bottom: 10px;
 	font-weight: 500;
 }
@@ -3335,4 +3343,10 @@ padding-left: 10px;
 .join-community{
 	margin-top: 20px;
 
+}
+
+@media screen and (max-width:767px) {
+	#signup-policy{
+		text-align: left !important;
+	}
 }
