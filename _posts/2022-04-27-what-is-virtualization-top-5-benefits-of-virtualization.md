@@ -28,19 +28,19 @@ The hypervisor is an essential part of virtualization , it's a thin software lay
 
 <ul>
 <li>Compatibility:
-<pre><code>   * You can divide your system resources between virtual machines.
+<pre>   * You can divide your system resources between virtual machines.
    * It <span class="hljs-keyword">is</span> fully consistent <span class="hljs-keyword">with</span> <span class="hljs-keyword">all</span> standard operating systems
-</code></pre></li>
+</pre></li>
 
 
 <li>Isolation:<pre><code>     * It provides fault <span class="hljs-keyword">and</span> security isolation <span class="hljs-keyword">at</span> <span class="hljs-keyword">the</span> hardware level.
      * It maintains performance <span class="hljs-keyword">with</span> advanced resource controls.
-</code></pre></li>
+</pre></li>
 
 	
-<li>Encapsulation<pre><code>     * It saves <span class="hljs-keyword">the</span> state <span class="hljs-keyword">of</span> <span class="hljs-keyword">a</span> virtual machine <span class="hljs-built_in">to</span> <span class="hljs-built_in">files</span>.
+<li>Encapsulation<pre>    * It saves <span class="hljs-keyword">the</span> state <span class="hljs-keyword">of</span> <span class="hljs-keyword">a</span> virtual machine <span class="hljs-built_in">to</span> <span class="hljs-built_in">files</span>.
      * It moves <span class="hljs-keyword">and</span> copies virtual machines <span class="hljs-keyword">as</span> easily <span class="hljs-keyword">as</span> moving <span class="hljs-keyword">and</span> copying <span class="hljs-built_in">files</span>.
-</code></pre></li>
+</pre></li>
 </ul>
 
 
