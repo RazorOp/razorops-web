@@ -2061,6 +2061,19 @@ a {
 		padding-top: 6px; 
 		background-color: azure;"
 	}
+	.let-start-cta-btn .btn-bghover{
+		margin: 37px 0px 0px 120px !important; 
+		font-size: 23px !important;
+		padding-top: 10px !important;
+		font-weight: 600; 
+
+	}
+	.let-start-cta-btn .btn-bghover2{
+		margin: 37px 0px 0px 120px !important; 
+		font-size: 23px !important;
+		padding: 10px !important;
+		
+	}
 	.bs-accordion .panel-heading a{
 		display: block;
 		padding: 10px 15px;
@@ -3350,4 +3363,20 @@ padding-left: 10px;
 .headpad{
 	font-size: 42px;
 	padding: 0px 40px;
+}
+
+.do-services h2{
+	font-size: 42px;
+}
+.do-services{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.do-services img{
+	padding: 50px;
+}
+
+
+.do-strip{
+	margin-bottom: 40px;
 }
