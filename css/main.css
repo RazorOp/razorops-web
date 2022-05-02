@@ -738,6 +738,12 @@ th, td {
 .client-logo-item-6 {
 	right: 10px;;
 } */
+.do-banner{
+	padding: 150px 15px;
+ 	background-color: rgb(16, 54, 189);
+ 	color: #FFF;
+ 	margin-top: -80px;
+}
 .customers-banner{
   text-align: center;
 	padding: 150px 15px;
@@ -3365,6 +3371,50 @@ padding-left: 10px;
 	padding: 0px 40px;
 }
 
+
+
+/* ***************************Digital ocean page******************************* */
+
+.do-form{
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+}
+.do-form .doform-text{
+	color: #000000;
+}
+.do-productcard{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		  transition: 0.3s;
+		border-radius: 5px;
+		margin-left: 30px;
+		padding: 20px;
+}
+.do-products{
+	padding: 40px;
+}
+.tickrow >.ticksign >img{
+	width: 40px;
+}
+.do-productcard{
+	height: 677px;
+}
+.do-productcard .list-styles .tickrow{
+	margin-bottom: 30px;
+}
+.do-productcard .list-styles .tickrow .ticksign{
+	margin-right: 10px;
+}
+.do-productcard .list-styles .tickrow .bullets{
+	margin-top: 5px;
+	font-size: 20px;
+}
+.do-productcard .docard-text{
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
 .do-services h2{
 	font-size: 42px;
 }
@@ -3379,4 +3429,11 @@ padding-left: 10px;
 
 .do-strip{
 	margin-bottom: 40px;
+}
+.do-razorops-text{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.do-razorops{
+	margin-bottom: 30px;
 }
