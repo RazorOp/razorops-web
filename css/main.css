@@ -3436,4 +3436,40 @@ padding-left: 10px;
 }
 .do-razorops{
 	margin-bottom: 30px;
+
+}
+.do-signupcta{
+	/* background-color: #0033dbbe; */
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+	margin-top: 80px;
+
+}
+.do-signupcta-head{
+	
+	padding: 40px;
+}
+.do-signupcta-features{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	/* background-color: #000000; */
+	margin: 40px 170px 40px 170px;	
+	padding: 20px;
+}
+.do-signup-list li{
+	margin-bottom: 10px;
+	font-size: 17x;
+}
+.dolist-head{
+	color: #0940a7;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.let-start-cta h1{
+	font-size: 50px;
+}
+.let-start-cta h2{
+	font-size: 37px;
 }
