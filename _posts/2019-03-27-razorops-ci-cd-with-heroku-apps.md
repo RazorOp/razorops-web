@@ -5,7 +5,7 @@ description: Deploying to heroku was super easy as it happen with just a git pus
 keywords: Heroku, deployment, Heroku Token, Pipeline, heroku dashboard
 permalink: "/blog/:title/"
 layout: post
-date: '2018-08-15 14:15:43'
+date: '2022-04-28 14:15:43'
 author: Shyam Mohan
 category: Continuous Integration
 image: "/images/blog/razorops-heroku.png"
@@ -73,5 +73,3 @@ Razorops will trigger pipeline if code is pushed to staging branch.
 Razorops will deploy staging branch to heroku. 
 
 More details [https://docs.razorops.com/languages/ruby.html](https://docs.razorops.com/languages/ruby.html)
-
-

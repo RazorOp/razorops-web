@@ -7,7 +7,7 @@ keywords: Agile Organization, Automation,cloud computing platform,Behavior Drive
   Testing
 permalink: "/blog/:title/"
 layout: post
-date: '2018-06-15 14:15:43'
+date: '2022-04-23 14:15:43'
 author: Shyam Mohan
 category: DevOps
 image: "/images/blog/razorops-devops.png"
