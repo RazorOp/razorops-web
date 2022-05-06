@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:type" content="CI/CD DevOps Platform"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% include favicon.html %}
+  <link rel='stylesheet' href="{{ site.baseurl }}/css/bootstrap.min.css" />
+  <link rel='stylesheet' href="{{ site.baseurl }}/v3/css/main.css" />
+
+
+</head>
+
+<body>
+  
+  <div class="v3home-header">
+        <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+        <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+        <script src='{{ site.baseurl }}/js/app.js'></script>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span> <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="/">
+        <img src="{{ site.baseurl }}/images/razorops-assets/razorops-white-logo.png" height="35" alt="razorops"/>
+      </a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse" style="text-transform: uppercase;">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown nav-dropdown">
+          <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Product
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="/product">Overview</a></li>
+            <li><a href="/product#how-it-works">How It works</a></li>
+            <li><a href="/product#features">Features</a></li>
+            <!-- <li><a href="/kubernetes">Kubernetes GitOps</a></li> -->
+            <li role="separator" class="divider"></li>
+            <li><a href="/schedule-demo">Schedule a demo</a></li>
+          </ul>
+        </li>
+
+        <!-- <li><a href="/covid-19" class="btn btn-rounded btn-info">Our COVID-19 response</a></li> -->
+        <!-- <li><a href="/product">Product</a></li> -->
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a href="https://docs.razorops.com/" target="_blank">Docs</a></li>
+        <li class="dropdown nav-dropdown">
+          <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Resources
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="https://docs.razorops.com/" target="_blank">Documents</a></li>
+            <li><a href="/customers">Case Studies</a></li>
+            <li><a href="/webinars">Webinars</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/write-for-us">Write for us</a></li>
+            <!-- <li><a href="/ebooks">Ebooks</a></li> -->
+            <!-- <li role="separator" class="divider"></li>
+            <li><a href="/schedule-demo">Schedule a demo</a></li> -->
+          </ul>
+        </li>
+
+        <li class="dropdown nav-dropdown">
+          <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Company
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="/about" title="About" >About Us</a></li>
+            <!-- <li><a href="/contact" title="Conatct">Contact Us</a></li> -->
+            <li><a href="/customers">Customers</a></li>
+            <li><a href="/open-source">Open Source</a></li>
+            <li><a href="/partners">Partners</a></li>
+            <li><a href="/referral">Refer and Earn</a></li>
+            <li><a href="/jobs">We are Hiring!</a></li>
+            <li role="separator" class="divider"></li>
+            <!-- <li><a href="/schedule-demo">Schedule a demo</a></li> -->
+            <li><a href="/contact" title="Contact">Contact Us</a></li>
+          </ul>
+        </li>
+
+        <li><a href="https://dashboard.razorops.com/users/sign_in">Login</a></li>
+        <!-- <li><a href="/signup">Sign Up</a></li> -->
+        <li><a href="https://dashboard.razorops.com/users/sign_up" class="btn-rounded btn">Sign up</a></li>
+        <li class="mob-nav-button"><a href="/schedule-demo" class="btn-animated btn btn-rounded btn-lg">SCHEDULE A DEMO</a> </li>&nbsp;&nbsp;
+      </ul>
+    </div>
+    <!-- /.nav-collapse -->
+  </div>
+</nav>
+
+
+  </div>
+  <!-- Page content -->
+  {{ content }}
+
+  {% include footer.html %}
+
+</body>
+
+</html>
