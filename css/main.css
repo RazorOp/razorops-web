@@ -3385,6 +3385,10 @@ padding-left: 10px;
 
 /* ***************************Digital ocean page******************************* */
 
+.do-razorops-info{
+	margin-top: 20px;
+}
+
 .do-form{
 	background-color: #fefefe;
 	margin: auto;
@@ -3437,6 +3441,10 @@ padding-left: 10px;
 
 .do-strip{
 	margin-bottom: 40px;
+	background-color: #ebebeb;
+}
+.do-strip h2{
+	color: white;
 }
 .do-razorops-text{
 	font-size: 20px;
