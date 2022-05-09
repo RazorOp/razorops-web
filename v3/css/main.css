@@ -1,3 +1,110 @@
+.navbar-default{
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: transparent;
+	border-bottom: 0;
+	padding: 10px 0;
+	margin-bottom: 0;
+}
+.navbar {
+	z-index: 4;
+}
+.navcontainer{
+    margin: 0px 120px;
+}
+.navcontainer .navbar-brand{
+    background-color: #345EEF;
+}
+.navcontainer .navbar-nav{
+    margin-left: 100px;
+    
+}
+.navcontainer .navbar-nav .all-btns{
+    margin-left: 80px;
+    margin-right: 10px;
+
+}
+.navbar-nav li{
+    margin-right: 20px;
+}
+.navbar-nav li:hover .dropdown-menu{
+    display: block;
+}   
+.navbar-nav>.new-btns>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.txt-blue{
+    color: #345EEF !important;
+
+}
+.blue-bg{
+    background-color: #345EEF;
+    color: #FFFFFF !important;
+}
+.blue-bg a{
+   
+    color: #FFFFFF !important;
+}
+.new-btns{
+    padding: 5px 18px;
+    height: 40px;
+    border:1px solid #345EEF;
+    border-radius: 15px;
+    margin-left: 40px;
+
+}
+.v3footer-dark{
+    padding: 40px;
+    background: #5e5d5d;
+}
+.v3footer-dark .the-razorops{
+    padding: 10px 40px 40px 40px;
+}
+.v3footer-dark .the-razorops h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+}
+.v3footer-dark .the-razorops p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #BEBEBE;
+}
+.all-razoropslink h3{
+    color: #BEBEBE;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.all-razoropslink .footer-nav>li a{
+    color: #BEBEBE !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+.all-razoropslink .footer-nav>li{
+    margin-bottom: 10px;
+}
+.all-razoropslink .footer-nav{
+    list-style: none;
+    padding: 0px;
+}
 .homev3-banner{
     background: #ffffff;
     text-align: center;
@@ -13,7 +120,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    line-height: 34px;
 /* or 115% */
 
     text-align: center;
@@ -40,7 +146,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    line-height: 90px;
     /* or 112% */
 
     text-align: center;
@@ -59,7 +164,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 29px;
     /* or 161% */
 
     text-align: center;
@@ -309,4 +413,300 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 2
 }   
 .the-features .feature-v3img{
     padding-top: 80px;
+}
+.start-steps .col-sm-4{
+    margin-bottom: 80px;
+    padding: 60px;
+}
+.start-steps .col-sm-4 p{
+    color: #9C9494;
+}
+.start-steps .col-sm-4 h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+}
+.start-steps{
+    margin-top: 40px;
+}
+.start-steps .col-sm-4:hover{
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.06);
+}
+.start-steps .col-sm-4:hover .steps-cardbtn button{
+    visibility: visible;
+} 
+.steps-cardbtn{
+    margin-top: 40px;
+}
+.steps-cardbtn button{
+    background-color: #345EEF;
+    padding: 5px 18px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    visibility: hidden;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    flex: none;
+
+}
+.start-steps .dotted-line{
+    position: absolute;
+    width: 800px;
+    height: 0px;
+    left: 433px;
+    top: 5085.5px;
+    border: 1px dashed #4f70eb;
+    
+}
+.start-steps .dotted-line2{
+    position: absolute;
+    width: 800px;
+    height: 0px;
+    left: 433px;
+    top: 5526.5px;
+    
+
+    border: 1px dashed #345EEF;
+}
+.start-steps .dotted-rect{
+    position: absolute;
+    width: 463px;
+    height: 444px;
+    left: 1220px;
+    top: 5105px;
+    
+}
+.rv3-support{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 238, 255, 0.8) 45.6%);
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.rv3-support .circle-bluefaded{
+    position: absolute;
+    width: 450px;
+    left: 0px;
+    top: 0px;
+}
+.rv3-support .support-img{
+    width: 370px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.rv3-support .col-sm-6{
+    padding-top: 50px;
+}
+.rv3-support h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+.rv3-support h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.rv3-support p{
+    font-size: 20px;
+    line-height: 29px;
+    font-family: 'Montserrat';
+font-style: normal;
+    /* or 145% */
+
+
+    color: #5B5B5B;
+}
+.rv3-support .support-more{
+    margin-top: 40px;
+}
+.rv3-support .support-info{
+    margin-top: 20px;
+}
+
+.support-reviews{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    
+}
+
+.support-reviews .reviews-card{
+    background: #FFFFFF;
+    opacity: 0.8;
+    box-shadow: 0px 4px 60px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    margin: 15px;
+    margin-bottom: 25px;
+    padding: 10px;
+   
+}
+.reviews-card .col-sm-8 small{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+
+    color: #345EEF;
+}
+.review-stars{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.support-reviews .reviews-card .support-reviewimg{
+    padding: 20px;
+}
+.talk-townsection .inner-townsection2 .talktown-person{
+        width: 100%;
+}
+.talk-townsection .inner-townsection1{
+    padding: 120px;
+}
+.talk-townsection h1{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+
+}
+.talk-townsection .col-sm-6{
+    margin-top: 50px;
+}
+
+.talk-townsection {
+    margin: 40px 0px;
+}
+.talk-townsection .inner-townsection1 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+.talk-townsection .inner-townsection1 .task-info .talk-personname{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+}
+.talk-townsection .inner-townsection1 .task-info{
+    margin-top: 40px;
+}
+.talk-townsection .inner-townsection1 .task-info h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 25px;
+}
+.talk-townsection .talktown-info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #5B5B5B;
+}
+.v3getstarted{
+
+    padding-top: 50px;
+
+    background: linear-gradient(178.55deg, rgba(240, 238, 255, 0.8) -1.11%,  rgba(255, 255, 255, 0.8) 109.65%);
+    
+}
+.v3getstarted .v3getstartedright{
+    padding: 260px 100px 0px 0px;
+
+}
+.v3getstarted .v3getstartedright h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    /* or 116% */
+
+
+    color: #18204C;
+}
+.v3getstarted .v3getstartedright p{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    padding-right: 200px ;
+
+
+    color: #7C819B;
+}
+.v3getstarted .v3getstartedright .v3getstartedright-btn button{
+    /*  */
+    padding: 5px 18px;
+    width: 200px;
+    border: none;
+    margin-top: 40px;
+    margin-right: 40px;
+    background: #345EEF;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+
+    color: #FFFFFF;
+}
+.v3signup-cta .v3signup-inner .v3signup-ctabtn button{
+    padding: 5px 18px;
+    width: 298px;
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    margin-top: 40px;
+    color: #345EEF;
+}
+.v3signup-cta .v3signup-inner .v3signup-cta-text h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    /* or 163% */
+
+
+    color: #FFFFFF;
+}
+.v3signup-cta .v3signup-inner .v3signup-cta-text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+
+
+    color: #FFFFFF;
+}
+.v3signup-cta{
+    padding: 140px 220px 250px 220px;
+    background-color: #4267eb;
+}
+.v3signup-cta .v3signup-inner .v3signup-cta-arrow .cta-arrow{
+        font-size: 60px;
+        margin-top: 40px;
+        color: #FFFFFF;
 }
