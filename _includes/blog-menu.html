@@ -17,7 +17,7 @@
 
 <br>
 
-<div class="webinar-card-mark">
+<div class="webinar-card-mark" id="webinar-side-card">
     <img src="/images/Webinar-dockersnew.png" width="100%" />
     <p class="webinar-card-text">
     </p>
@@ -28,6 +28,17 @@
         <a class="col-sm-4 text-success btn bg-org2 text-center" href="/webinars/how-to-write-optimized-and-secure-docker-file-to-create-docker-image/">Register<br> Now</a>
     </div>
 </div>
+<script>
+
+    let webinarDate= new Date('April 30, 2022 11:30:00');
+    let currentDate = new Date();
+    if(webinarDate < currentDate){
+      
+      document.getElementById('webinar-side-card').setAttribute("style", "display:none;");
+
+        }
+
+</script>
 
 <br>
 <div class="schedule-demo-cardn">
