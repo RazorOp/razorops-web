@@ -739,9 +739,7 @@ th, td {
 	right: 10px;;
 } */
 .do-banner{
-	padding: 150px 15px;
- 	background-color: rgb(16, 54, 189);
- 	color: #FFF;
+	padding: 70px 15px;
  	margin-top: -80px;
 }
 .customers-banner{
@@ -1872,9 +1870,8 @@ a {
 		font-size: 23px !important;
 		font-weight: 600; 
 		border-radius: 10px; 
-		color: rgb(0, 0, 0); 
 		margin-top: 50px;
-		background-color: azure;"
+		color: white;
 	}
 
 	.bs-accordion .panel-heading a{
@@ -3385,6 +3382,10 @@ padding-left: 10px;
 
 /* ***************************Digital ocean page******************************* */
 
+.do-razorops-info{
+	margin-top: 40px;
+}
+
 .do-form{
 	background-color: #fefefe;
 	margin: auto;
@@ -3420,7 +3421,7 @@ padding-left: 10px;
 }
 .do-productcard .docard-text{
 	font-size: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	margin-top: 20px;
 }
 .do-services h2{
@@ -3437,6 +3438,10 @@ padding-left: 10px;
 
 .do-strip{
 	margin-bottom: 40px;
+	background-color: #ebebeb;
+}
+.do-strip h2{
+	color: white;
 }
 .do-razorops-text{
 	font-size: 20px;
@@ -3519,12 +3524,14 @@ padding-left: 10px;
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		transition: 0.3s;
 		border-radius: 5px;
-		margin-left: 30px;
 		padding: 20px;
 	
 		height: 100%;
 	
 
+	}
+	.razorops-do-img{
+		margin-right: 40px;
 	}
 	.do-signupcta-features{
 		/* background-color: #000000; */
@@ -3570,10 +3577,9 @@ padding-left: 10px;
 		padding-top: 10px !important;
 		font-weight: 600; 
 		border-radius: 20px; 
-		color: rgb(0, 0, 0); 
 		margin-top: 20px;
 		margin-left: 70px;
-		background-color: azure;"
+		color: white;
 	}
 
 }
@@ -3582,12 +3588,14 @@ padding-left: 10px;
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		transition: 0.3s;
 		border-radius: 5px;
-		margin-left: 30px;
-		padding: 20px;
+		padding: 40px;
 	
-		height: 677px;
+		height: 620px;
 	
 
+	}
+	.razorops-do-img{
+		margin-right: 40px;
 	}
 	.do-signupcta-features{
 		/* background-color: #000000; */
@@ -3633,8 +3641,8 @@ padding-left: 10px;
 		padding-top: 10px !important;
 		font-weight: 600; 
 		border-radius: 20px; 
-		color: rgb(0, 0, 0); 
-		background-color: azure;"
+		color: white;
+
 
 	}
 	
@@ -3644,4 +3652,12 @@ padding-left: 10px;
 .art-card{
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.plus-size{
+	font-size: 55px;
+	padding-top: 30px;
+}
+.do-rointro{
+	line-height: 38px;
 }
