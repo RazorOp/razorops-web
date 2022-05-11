@@ -739,11 +739,11 @@ th, td {
 	right: 10px;;
 } */
 .do-banner{
-	padding: 70px 15px;
- 	margin-top: -80px;
+	padding: 50px;
+ 	margin-top: 5px;
 }
 .do-banner-home-pd{
-	padding: 105px 15px !important;
+	padding: 75px 15px !important;
 }
 .customers-banner{
   text-align: center;
