@@ -168,9 +168,9 @@ address {
 
 .section-header2 {
 	position: relative;
-	margin: 20px 0 20px;
+	margin: 20px 0 30px;
 	margin-top: 40px; 
-	font-size: 30px;
+	font-size: 42px;
 }
 .section-header3 {
 	position: relative;
@@ -2980,6 +2980,9 @@ padding-left: 10px;
 .blog-section .row .col-sm-4 .text-decoration-none{
 	text-decoration: none;
 }
+.text-decoration-none{
+	text-decoration: none !important;
+}
 /* *************************webinar thank you************************** */
 .webinar-thakyou-banner{
 	text-align: center;
@@ -3751,7 +3754,8 @@ padding-left: 10px;
 	.onewebinar .takeaways-list h3{
 		font-weight: 600;
 	}
-	
+
+
 	
 }
 /* **************************************** */
@@ -3768,3 +3772,4 @@ padding-left: 10px;
 .do-rointro{
 	line-height: 38px;
 }
+
