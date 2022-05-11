@@ -3656,6 +3656,18 @@ padding-left: 10px;
 	}
 	.razorops-do-img{
 		margin-right: 40px;
+		width: 200px;
+		margin-top: -28px;
+	}
+	.razorops-do-img2{
+		margin-right: 40px;
+		width: 230px;
+		margin-top: -30px;
+	}
+	.razorops-plus-img{
+		font-size: 50px;
+		margin-right: 40px;
+		font-weight: 600;
 	}
 	.do-signupcta-features{
 		/* background-color: #000000; */
