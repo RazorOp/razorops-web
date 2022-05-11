@@ -3483,7 +3483,20 @@ padding-left: 10px;
 		margin-bottom: 20px;
 	}
 	.razorops-do-img{
-		margin-bottom: 40px;
+		width: 200px;
+		margin-top: -28px;
+	}
+	.razorops-do-img2{
+		width: 230px;
+		margin-top: -30px;
+	}
+	.razorops-plus-img{
+		visibility: hidden;
+	}
+	.plus-adding{
+		font-size: 50px;
+		font-weight: 600;
+		margin-bottom: 30px;
 	}
 	.do-banner .list-styles .tickrow{
 		margin-bottom: 15px;
@@ -3576,8 +3589,18 @@ padding-left: 10px;
 	.do-banner .docard-text{
 		font-size: 18px;
 	}
-	.razorops-do-img{
-		margin-right: 40px;
+	.razorops-plus-img{
+		visibility: hidden;
+	}
+	.plus-adding{
+		font-size: 50px;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	
+	.razorops-do-img2{
+		width: 250px;
+		margin-top: -30px;
 	}
 	.do-signupcta-features{
 		/* background-color: #000000; */
@@ -3668,6 +3691,11 @@ padding-left: 10px;
 		font-size: 50px;
 		margin-right: 40px;
 		font-weight: 600;
+	}
+
+	.plus-adding{
+		visibility: hidden;
+		display: none;
 	}
 	.do-signupcta-features{
 		/* background-color: #000000; */
