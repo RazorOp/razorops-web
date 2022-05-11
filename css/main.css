@@ -154,6 +154,7 @@ address {
 }
 .btn-lg.btn.btn-rounded {
 	border-radius: 23px !important;
+	margin-bottom: 20px;
 }
 
 @media (min-width: 1400px) {
