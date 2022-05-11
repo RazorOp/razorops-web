@@ -3485,6 +3485,41 @@ padding-left: 10px;
 		height: 100%;
 		margin-bottom: 20px;
 	}
+	.razorops-do-img{
+		width: 200px;
+		margin-top: -28px;
+	}
+	.razorops-do-img2{
+		width: 230px;
+		margin-top: -30px;
+	}
+	.razorops-plus-img{
+		visibility: hidden;
+	}
+	.plus-adding{
+		font-size: 50px;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	.do-banner .list-styles .tickrow{
+		margin-bottom: 15px;
+	}
+	.do-banner .list-styles {
+		padding-left: 0px !important;
+	}
+	.do-banner .list-styles .tickrow .bullets{
+		margin-left: 10px;
+		margin-top: 8px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.do-banner .list-styles .tickrow .ticksign img{
+		
+		width: 20px;
+	}
+	.do-banner .docard-text{
+		font-size: 18px;
+	}
 	.do-signupcta-features{
 		/* background-color: #000000; */
 		padding: 20px;
@@ -3534,8 +3569,41 @@ padding-left: 10px;
 	
 
 	}
-	.razorops-do-img{
-		margin-right: 40px;
+	.do-banner .signup-sectionss{
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	.do-banner .list-styles .tickrow{
+		margin-bottom: 15px;
+	}
+	.do-banner .list-styles {
+		padding-left: 0px !important;
+	}
+	.do-banner .list-styles .tickrow .bullets{
+		margin-left: 10px;
+		margin-top: 8px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.do-banner .list-styles .tickrow .ticksign img{
+		
+		width: 20px;
+	}
+	.do-banner .docard-text{
+		font-size: 18px;
+	}
+	.razorops-plus-img{
+		visibility: hidden;
+	}
+	.plus-adding{
+		font-size: 50px;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	
+	.razorops-do-img2{
+		width: 250px;
+		margin-top: -30px;
 	}
 	.do-signupcta-features{
 		/* background-color: #000000; */
@@ -3598,8 +3666,39 @@ padding-left: 10px;
 	
 
 	}
+	.do-banner .list-styles .tickrow{
+		margin-bottom: 20px;
+	}
+	.do-banner .list-styles {
+		padding-left: 0px !important;
+	}
+	.do-banner .list-styles .tickrow .bullets{
+		margin-left: 10px;
+		margin-top: 6px;
+		font-size: 24px;
+	}
+	.do-banner .docard-text{
+		font-size: 18px;
+	}
 	.razorops-do-img{
 		margin-right: 40px;
+		width: 200px;
+		margin-top: -28px;
+	}
+	.razorops-do-img2{
+		margin-right: 40px;
+		width: 230px;
+		margin-top: -30px;
+	}
+	.razorops-plus-img{
+		font-size: 50px;
+		margin-right: 40px;
+		font-weight: 600;
+	}
+
+	.plus-adding{
+		visibility: hidden;
+		display: none;
 	}
 	.do-signupcta-features{
 		/* background-color: #000000; */
