@@ -3507,11 +3507,18 @@ padding-left: 10px;
 		font-weight: 600;
 		margin-bottom: 30px;
 	}
+	.do-banner{
+		padding: 20px;
+	}
+	.do-banner .do-main-heading{
+		line-height: 35px;
+	}
 	.do-banner .list-styles .tickrow{
 		margin-bottom: 15px;
 	}
 	.do-banner .list-styles {
 		padding-left: 0px !important;
+		margin-bottom: 50px;
 	}
 	.do-banner .list-styles .tickrow .bullets{
 		margin-left: 10px;
