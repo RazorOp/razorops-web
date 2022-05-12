@@ -753,6 +753,8 @@ th, td {
  	background-color: #FFF;
  	color: #FFF;
  	margin-top: -80px;
+	 background-size: 100% 100%;
+
 }
 .customers-banner2{
 	position: relative;
@@ -2601,6 +2603,7 @@ a {
 @media (max-width:767px){
 	.customers-banner{
 		margin-top: 20px;
+		background-size: 900px 700px;
 	}
 	.webinar-register-form-hidden{
 		visibility: visible;
@@ -2807,6 +2810,8 @@ a {
 @media screen and (min-width:768px) and (max-width:913px) {
 	.customers-banner{
 		margin-top: 20px;
+		background-size: 780px 700px;
+
 	}
 	.customers-banner2{
 		margin-top: 20px;
