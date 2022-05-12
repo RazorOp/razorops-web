@@ -3568,7 +3568,8 @@ padding-left: 10px;
 	}
 	.newsletters-btn img{
 		width: 100%;
-		padding: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
 		
 	}
 	.newsletters-btn .col-sm-9 p{
