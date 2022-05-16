@@ -2895,7 +2895,9 @@ a {
 	transition: 0.3s;
   border-radius: 5px;
 }
-
+.onewebinar{
+	margin-bottom: 60px;
+}
 .onewebinar .webinar-card-text{
 margin-top: 20px;
 padding-left: 10px;
@@ -3368,14 +3370,12 @@ padding-left: 10px;
 
 .other-webinar-card{
 	
-		
 		margin-bottom: 10px;
-		min-height: 450px !important;
+		min-height: 460px !important;
 }
 .other-webinar-card .other-webinar-info{
 	margin-top: 45px;
 }
-
 .other-webinar-card img{
 	top: 50%;
     left: 50%;
@@ -3386,7 +3386,7 @@ padding-left: 10px;
 .webinar-content{
 	border: 1px solid #EEE;
     box-shadow: 0 0 1px 0 rgb(18 32 73 / 8%), 0 8px 32px 0 rgb(55 92 192 / 8%);
-    height: 430px !important;
+    height: 450px !important;
 }
 .webinar-body{
 	padding: 10px;
