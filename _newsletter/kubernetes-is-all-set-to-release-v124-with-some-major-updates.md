@@ -6,7 +6,7 @@ layout: newsletter
 date: '2022-04-25 17:02:30'
 author: Aditi Mishra
 category: kubernetes
-image: "/images/blog/devops-for-startups.png"
+image: "/images/newsletter/container-native-cicd-newsletter.png"
 ---
 
 ![](/images/newsletter/container-native-cicd-newsletter.png)

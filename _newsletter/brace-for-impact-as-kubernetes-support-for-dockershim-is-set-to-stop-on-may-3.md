@@ -34,6 +34,8 @@ image: "/images/newsletter/kubernetes-dockers-newsletter.png"
 <br>
 
 * [Introduction to Helm 3 the Package Manager for Kubernetes](https://bit.ly/37y3x5E) 
+<br>
+
 * Helm is a Kubernetes package management system (like yum, apt, or homebrew) that enables applications to be packaged, configured, and deployed easily.
 <br>
 
@@ -42,8 +44,15 @@ image: "/images/newsletter/kubernetes-dockers-newsletter.png"
 
 **Important Events**
 
-* **Take a deep dive with the upcoming webinar on Docker- 30th April 2022 | 11:30 am – 12:30 pm | [Register](https://bit.ly/3vwmeOW)  **
-* Topic- [How to write optimized and secure docker files to create docker images](https://bit.ly/3vwmeOW)
+<ul>
+  <li>
+     <b>Take a deep dive with the upcoming webinar on Docker- 30th April 2022 | 11:30 am – 12:30 pm | <a href="https://bit.ly/3vwmeOW">Register</a></b>
+  </li>
+  <br>
+  <li>
+    <b>Topic- <a href="https://bit.ly/3vwmeOW">How to write optimized and secure docker files to create docker images</a></b>
+  </li>
+</ul>  
 
 
 <br>
@@ -54,10 +63,19 @@ Learn the simplest approach to Docker images and how to use them using a Docker 
 
 * ArgoCon 2022 Bay Area, CA - September 19 - 21, 2022 | Register Now
 <br>
-Early Bird Registration: $199 (Closes on April 26)
+<br>
+**Early Bird Registration: $199 (Closes on April 26)**
 <br>
 ![](/images/newsletter/argocon-razorops.png)
 
-* DockerCon 2022 - 9th -10th May 2022 | Registrations Open 
-* Pre-Event virtual hands-on training workshop “Getting Started With Docker”.
-* A global interactive virtual event -sessions from Docker experts, the developer community and ecosystem, and industry luminaries.
+<ul>
+  <li>DockerCon 2022 - 9th -10th May 2022 | Registrations Open </li>
+  <br>
+  <li>Pre-Event virtual hands-on training workshop “Getting Started With Docker”.</li>
+  <br>
+  <li>A global interactive virtual event -sessions from Docker experts, the developer community and ecosystem, and industry luminaries.</li>
+</ul>
+
+<br>
+<br>
+<br>
