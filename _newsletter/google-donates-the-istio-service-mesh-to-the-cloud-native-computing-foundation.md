@@ -1,7 +1,8 @@
 ---
 title: Google donates the Istio service mesh to the Cloud Native Computing Foundation
 description: Google and the Istio Steering Committee have submitted the Istio project
-  for consideration
+  for consideration as an incubating project within the Cloud Native Computing Foundation
+  (CNCF). Istio is the last major component of organizations’ Kubernetes
 permalink: "/newsletter/:title/"
 layout: newsletter
 date: '2022-04-29 11:31:42'

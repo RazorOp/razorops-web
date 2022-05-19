@@ -1,7 +1,9 @@
 ---
 title: Kubernetes 1.24 ‘Stargazer’ – the first release of 2022
 description: The Kubernetes project has released version 1.24 of Stargazer, its ubiquitous
-  container orchestration system
+  container orchestration system — the first release of 2022 and just in time for
+  KubeCon Europe, which starts on May 16th.The Dockershim code, which was deprecated
+  in version 1.20 (issued at the end of 2020),
 permalink: "/newsletter/:title/"
 layout: newsletter
 date: '2022-05-06 12:07:01'

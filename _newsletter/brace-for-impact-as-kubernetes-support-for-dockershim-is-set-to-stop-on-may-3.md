@@ -2,6 +2,8 @@
 title: Brace for impact as Kubernetes support for Dockershim is set to STOP on May
   3
 description: The removal of dockerism in the newest upcoming version of Kubernetes,
+  the popular container-orchestration system, requires users to migrate to an alternative
+  runtime to stay up to date with future Kubernetes releases.
 permalink: "/newsletter/:title/"
 layout: newsletter
 date: '2022-04-25 16:52:36'
