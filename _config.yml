@@ -27,3 +27,8 @@ feed:
 jekyll_admin:
   hidden_links:
     - datafiles
+
+collections:
+  newsletter:
+    output: true
+    permalinks: /newsletter/:title/   
