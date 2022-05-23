@@ -3807,3 +3807,9 @@ padding-left: 10px;
 	line-height: 38px;
 }
 
+
+.linkdin-blue{
+	background-color: #0077b5;
+	color: white !important;
+	font-weight: 600;
+}
