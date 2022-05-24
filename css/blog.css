@@ -400,3 +400,12 @@
 .about-the-author .author-info{
   padding-top: 40px;
 }
+
+.blogs-description{
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-height: 6.5em;
+	line-height: 2.1em;
+
+}

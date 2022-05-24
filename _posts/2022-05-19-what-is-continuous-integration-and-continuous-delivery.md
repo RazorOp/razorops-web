@@ -1,8 +1,6 @@
 ---
 title: What is Continuous Integration and Continuous Delivery?
-description: Let’s understand what is Continuous Integration and Continuous Delivery.
-  Also know about the benefits CI & Continuous Delivery.CI makes the software release
-  process easier with automated processes
+description: Let’s understand what is Continuous Integration and Continuous Delivery. Also know about the benefits CI & Continuous Delivery.CI makes the software release process easier with automated processes & Continuous Delivery collects the code stored in the shared repository and continuously delivers it to the production environment.
 permalink: "/blog/:title/"
 layout: post
 date: '2022-05-19 10:31:55'
