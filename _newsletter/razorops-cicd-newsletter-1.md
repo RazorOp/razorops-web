@@ -1,15 +1,20 @@
 ---
-title: Kubernetes is all set to release v1.24 with some major updates
-description: Now with a week of work you can achieve all of the above, and even
-permalink: "/newsletter/:title/"
+title: Container Native DevOps & CICD Newsletter 1 |  RazorOps
+description: Get the latest updates on container-native & DevOps news with the new
+  Kubernetes v1.24 release and its latest features along with top picks for the week
+  and upcoming events you don't want to miss.
+permalink: "/newsletter/razorops-cicd-newsletter-1/"
 layout: newsletter
-date: '2022-04-25 17:02:30'
+date: '2022-04-25 15:02:00'
 author: Aditi Mishra
 category: kubernetes
 image: "/images/newsletter/container-native-cicd-newsletter.png"
+heading: Kubernetes is all set to release v1.24 with some major updates.
 ---
 
 ![](/images/newsletter/container-native-cicd-newsletter.png)
+<br>
+[Kubernetes is all set to release v1.24 with some major updates.](https://kubernetes.io/blog/2022/04/07/upcoming-changes-in-kubernetes-1-24/#api-removals-deprecations-and-other-changes-for-kubernetes-1-24)
 <br>
 
 **A quick recap -** Way back in Dec 2020 Kubernetes announced the [deprecation of Dockershim](https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/) and it has been a constant topic of discussion. Digging a little deeper, Dockershim is a software shim that allows you to use the entire Docker engine as your container runtime within Kubernetes. Kubernetes is eliminating the middleman. 

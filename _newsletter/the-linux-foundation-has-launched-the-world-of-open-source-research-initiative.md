@@ -9,6 +9,7 @@ date: '2022-05-20 11:40:11'
 author: Aditi Mishra
 category: Linux
 image: "/images/newsletter/linux-foundation-launched-newsletter.png"
+heading: The Linux Foundation has launched the ‘World of Open Source’ research initiative
 ---
 
 ![](/images/newsletter/linux-foundation-launched-newsletter.png)
@@ -18,41 +19,63 @@ The Linux Foundation has launched the ‘World of Open Source’ research initia
 <br>
 <br>
 
-![](/images/newsletter/world-of-open-source.png)
+<div class="row">
+    <div class="col-sm-4">
+    <p>
+    According to the Linux Foundation, "The World of Open Source series will explore the state of open source from a global perspective, focusing on government, enterprise, and non-profit initiatives.” </p>
+    <p>The proposed survey will assess industry-wide trends such as the size and scope of open-source</p>    </div>
+    <div class="col-sm-8">
+    <img src="/images/newsletter/world-of-open-source.png">
+    </div>
+</div>
+<p>
+  communities in the region, motivation for open-source contributions, opportunities and challenges in private and public sector engagement in open source, and the landscape for open-source consumption and adoption.
+</p>
 <br>
 <br>
 
-According to the Linux Foundation, "The World of Open Source series will explore the state of open source from a global perspective, focusing on government, enterprise, and non-profit initiatives.”
 
-
-The proposed survey will assess industry-wide trends such as the size and scope of open-source communities in the region, motivation for open-source contributions, opportunities and challenges in private and public sector engagement in open source, and the landscape for open-source consumption and adoption.
-
-
-<br>
-<br>
 ***Top Picks for you this week***
 <br>
 <br>
+
 **[Snoop in to find how EdTech Startup used RazorOps to deploy different enterprise solutions on Kubernetes without worrying about their configuration compatibility. ](https://bit.ly/3PC34jN)**
 
-![](/images/newsletter/adtech-razorops.png)
 
-Manual deployment of such a complex system was quite time-consuming, hence increasing the development wait time. EdTech startup wanted to have a CI/CD pipeline without the need to manage the infrastructure.
+<div class="row">
+    <div class="col-sm-4">
+    <p>
+   Manual deployment of such a complex system was quite time-consuming, hence increasing the development wait time. EdTech startup wanted to have a CI/CD pipeline without the need to manage the infrastructure. </p>
+    </div>
+    <div class="col-sm-8">
+    <img src="/images/newsletter/adtech-razorops.png">
+    </div>
+</div>
+
+
 <br>
 <br>
 
 **[Continuous Integration (CI) and Continuous Delivery/Deployment (CD) Simplified](https://bit.ly/38KDPLw)**
 
-![](/images/newsletter/how-it-works.png)
 
-In the blog, you will learn what the CICD Pipeline is along with a proper, detailed explanation and examples.
+<div class="row">
+    <div class="col-sm-4">
+    <p>
+ In the blog, you will learn what the CICD Pipeline is along with a proper, detailed explanation and examples.
+ </p>
+    </div>
+    <div class="col-sm-8">
+    <img src="/images/newsletter/how-it-works.png">
+    </div>
+</div>
 
 
 <br>
 <br>
 ***Important Events***
 
-![](/home/prashant/prashant-space/razorops_workspace/razorops-web/images/newsletter/kubernetes-vents.png)
+![](/images/newsletter/kubernetes-vents.png)
 
 
 <p><b><a href="https://bit.ly/3sMTfG8">Kubernetes 101: Get started with Kubernetes</a> | May 28, 2022—11:30 a.m. IST | <a href="https://bit.ly/3sMTfG8">Register</a></b></p>

@@ -1,15 +1,19 @@
 ---
-title: Google donates the Istio service mesh to the Cloud Native Computing Foundation
-description: Google and the Istio Steering Committee have submitted the Istio project
-  for consideration as an incubating project within the Cloud Native Computing Foundation
-  (CNCF). Istio is the last major component of organizations’ Kubernetes
-permalink: "/newsletter/:title/"
+title: Container Native DevOps & CICD Newsletter 3 |  RazorOps
+description: Get the latest updates on container-native & DevOps news from Google
+  donating the Istio service mesh to the CNCF, KubeCon, and mask mandate post mortem
+  for major events.
+permalink: "/newsletter/razorops-cicd-newsletter-3"
 layout: newsletter
 date: '2022-04-29 11:31:42'
 author: Aditi Mishra
 category: kubernetes, cloud natives,
 image: "/images/newsletter/cncf-newsletter.png"
+heading: Google donates the Istio service mesh to the Cloud Native Computing Foundation
 ---
+
+![](/images/newsletter/cncf-newsletter.png)
+<br>
 
 Google and the Istio Steering Committee have submitted the Istio project for consideration as an incubating project within the Cloud Native Computing Foundation (CNCF). Istio is the last major component of organizations’ Kubernetes ecosystem to sit outside of the CNCF, and its APIs are well-aligned to Kubernetes. Acceptance of Istio will complete the cloud-native stack under the auspices of the foundation, and bring Istio closer to the Kubernetes project. 
 
@@ -29,7 +33,7 @@ The Certified TARS Application Developer (CTAD) certification is designed for us
 
 Masks are no longer required to be worn at the event as mask mandates had been dropped in countries around Europe (18 countries in the European region, including Spain which dropped it for the first time in the pandemic on April 20) Based on everything, we felt that it is possible to drop the mask requirement at the events in Spain, though we still recommend them. Find out other requirements to attend the event.
 
-![](/home/prashant/prashant-space/razorops_workspace/razorops-web/images/newsletter/kubecon-2022.jpeg)
+![](/images/newsletter/kubecon-2022.jpeg)
 <br>
 
 **[Best Docker Image Hosting Platforms](https://bit.ly/37TlXxJ)**

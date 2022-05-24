@@ -1,16 +1,19 @@
 ---
-title: Kubernetes 1.24 ‘Stargazer’ – the first release of 2022
-description: The Kubernetes project has released version 1.24 of Stargazer, its ubiquitous
-  container orchestration system — the first release of 2022 and just in time for
-  KubeCon Europe, which starts on May 16th.The Dockershim code, which was deprecated
-  in version 1.20 (issued at the end of 2020),
-permalink: "/newsletter/:title/"
+title: Container Native DevOps & CICD Newsletter 4 |  RazorOps
+description: Read all about The Kubernetes released version 1.24 of Stargazer, its
+  updates and features. Subscribe to get the latest updates on container-native &
+  DevOps news here.
+permalink: "/newsletter/razorops-cicd-newsletter-4"
 layout: newsletter
 date: '2022-05-06 12:07:01'
 author: Aditi Mishra
 category: kubernetes
 image: "/images/newsletter/kubernetes-first-release-newsletter.png"
+heading: Kubernetes 1.24 ‘Stargazer’ – the first release of 2022
 ---
+
+![](/images/newsletter/kubernetes-first-release-newsletter.png)
+<br>
 
 **[The Kubernetes project has released version 1.24 of Stargazer](https://kubernetes.io/blog/2022/05/03/kubernetes-1-24-release-announcement/)**, its ubiquitous container orchestration system — the first release of 2022 and just in time for KubeCon Europe, which starts on May 16th. **[The Dockershim code, which was deprecated in version 1.20](https://kubernetes.io/blog/2020/12/02/dockershim-faq/)** (issued at the end of 2020), has now been deleted. There are 46 enhancements in this release: fourteen have been promoted to stable, fifteen have been promoted to beta, and thirteen have been promoted to alpha. Two features have also been deprecated, while two have been eliminated.
 
@@ -30,7 +33,7 @@ The latest release of the Kubernetes container orchestration engine, nicknamed �
 <br>
 
 ***Top Picks for you this week***
-![](/home/prashant/prashant-space/razorops_workspace/razorops-web/images/newsletter/applozix-razorops.png)
+![](/images/newsletter/applozix-razorops.png)
 <br>
 
 **[How did Applozic, a real-time chat, and messaging platform, accelerate its software delivery with RazorOps?](https://bit.ly/3KUGK1b)**
@@ -100,7 +103,7 @@ Our journey to open source and GitOps heaven has exposed new security challenges
 In this webinar, we take a look at how to improve the performance, security, and observability of service mesh using eBPF. We will also dig into tools and frameworks we can use to build our extensions on top of a service mesh like Istio with eBPF.
 
 
-* **[Data Swirling to the Rescue for True Observability](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-webinar-data-swirling-to-the-rescue-for-true-observability/)-May 12 - 13, 12:00 AM (PDT)-[RSVP](https://community.cncf.io/accounts/login/?next=/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-owning-the-ci-workflow-and-how-to-prevent-it/)** 
+* **[Data Swirling to the Rescue for True Observability](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-webinar-data-swirling-to-the-rescue-for-true-observability/)- May 12 - 13, 12:00 AM (PDT)-[RSVP](https://community.cncf.io/accounts/login/?next=/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-owning-the-ci-workflow-and-how-to-prevent-it/)** 
 
 Join the 30 min webinar on the current state of Kubernetes observability and how Sosivio is leveling the playing field with our revolutionary Data Swirling technology.
 
@@ -110,7 +113,7 @@ Join the 30 min webinar on the current state of Kubernetes observability and how
 A quick look into the current DevOps scenario with tech and product leads sharing their experience and concerns over the present challenges, with an overview of how standardization and reusability of deployments can be a game-changer.
  
  
-**[Kubernetes performance analysis](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-webinar-kubernetes-performance-analysis/)- May 12 - 13, 12:00 AM (PDT)-[RSVP](https://community.cncf.io/accounts/login/?next=/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-owning-the-ci-workflow-and-how-to-prevent-it/)** 
+* **[Kubernetes performance analysis](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-webinar-kubernetes-performance-analysis/)- May 12 - 13, 12:00 AM (PDT)-[RSVP](https://community.cncf.io/accounts/login/?next=/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-owning-the-ci-workflow-and-how-to-prevent-it/)** 
 
 We will explore Kubernetes performance and various tools on multiple cloud instances and walk through the data we collected from those cloud instances and do the analysis.
 
