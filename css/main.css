@@ -756,6 +756,8 @@ th, td {
  	background-color: #FFF;
  	color: #FFF;
  	margin-top: -80px;
+	 background-size: 100% 100%;
+
 }
 .customers-banner2{
 	position: relative;
@@ -2591,6 +2593,7 @@ a {
 @media (max-width:767px){
 	.customers-banner{
 		margin-top: 20px;
+		background-size: 900px 700px;
 	}
 	.webinar-register-form-hidden{
 		visibility: visible;
@@ -2789,6 +2792,8 @@ a {
 @media screen and (min-width:768px) and (max-width:913px) {
 	.customers-banner{
 		margin-top: 20px;
+		background-size: 780px 700px;
+
 	}
 	.customers-banner2{
 		margin-top: 20px;
@@ -3511,11 +3516,18 @@ padding-left: 10px;
 		font-weight: 600;
 		margin-bottom: 30px;
 	}
+	.do-banner{
+		padding: 20px;
+	}
+	.do-banner .do-main-heading{
+		line-height: 35px;
+	}
 	.do-banner .list-styles .tickrow{
 		margin-bottom: 15px;
 	}
 	.do-banner .list-styles {
 		padding-left: 0px !important;
+		margin-bottom: 50px;
 	}
 	.do-banner .list-styles .tickrow .bullets{
 		margin-left: 10px;
