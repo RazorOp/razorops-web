@@ -120,7 +120,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-/* or 115% */
+
 
     text-align: center;
 
@@ -136,7 +136,7 @@
     background: #345EEF;
 }
 .homev3-banner .banner-heading1{
-    /* position: absolute; */
+   
     height: 179px;
     left: 35.28%;
     right: 34.03%;
@@ -146,7 +146,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    /* or 112% */
+   
 
     text-align: center;
 
@@ -154,7 +154,7 @@
 }
 .homev3-banner .banner-content{
 
-    /* position: absolute; */
+
     height: 71px;
     left: 698px;
     right: 697px;
@@ -164,7 +164,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    /* or 161% */
+   
 
     text-align: center;
 
@@ -198,15 +198,11 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
-    /* identical to box height, or 144% */
-
-
-    /* Color/White */
-
+  
     color: #FFFFFF;
 
 
-    /* Inside auto layout */
+
 
     flex: none;
     order: 0;
@@ -269,15 +265,10 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 2
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
-    /* identical to box height, or 144% */
-
-
-    /* Color/White */
-
+   
     color: #FFFFFF;
 
 
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -294,7 +285,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 2
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
-    /* or 150% */
+   
 
 
     color: #000000;
@@ -375,7 +366,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 2
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    /* or 150% */
+    
     
     text-align: left;
     
@@ -391,8 +382,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 2
     font-weight: 600;
     font-size: 25px;
     line-height: 40px;
-    /* or 133% */
-
+   
 
     color: #7C819B;
 }
@@ -406,7 +396,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 2
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
-    /* or 156% */
+    
 
 
     color: #345EEF;
@@ -516,7 +506,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 2
     line-height: 29px;
     font-family: 'Montserrat';
 font-style: normal;
-    /* or 145% */
+ 
 
 
     color: #5B5B5B;
@@ -552,7 +542,7 @@ font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
-    /* or 144% */
+   
 
 
     color: #345EEF;
@@ -632,7 +622,7 @@ font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 70px;
-    /* or 116% */
+   
 
 
     color: #18204C;
@@ -650,7 +640,7 @@ font-style: normal;
     color: #7C819B;
 }
 .v3getstarted .v3getstartedright .v3getstartedright-btn button{
-    /*  */
+  
     padding: 5px 18px;
     width: 200px;
     border: none;
@@ -687,7 +677,7 @@ font-style: normal;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    /* or 163% */
+    
 
 
     color: #FFFFFF;
