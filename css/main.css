@@ -3808,3 +3808,18 @@ padding-left: 10px;
 	line-height: 38px;
 }
 
+
+.linkdin-blue{
+	background-color: #0077b5;
+	color: white !important;
+	font-weight: 600;
+}
+
+.news-letter-description{
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-height: 6.5em;
+	line-height: 2.1em;
+
+}

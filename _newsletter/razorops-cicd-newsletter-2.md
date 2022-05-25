@@ -1,15 +1,16 @@
 ---
-title: Brace for impact as Kubernetes support for Dockershim is set to STOP on May
-  3
-description: The removal of dockerism in the newest upcoming version of Kubernetes,
-  the popular container-orchestration system, requires users to migrate to an alternative
-  runtime to stay up to date with future Kubernetes releases.
-permalink: "/newsletter/:title/"
+title: Container Native DevOps & CICD Newsletter 2 |  RazorOps
+description: Kubernetes to stop supporting dockerism, dig deeper into Kubernetes with
+  Kubernetes, and  Helm 3 the Package Manager for Kubernetes. Get the latest updates
+  on container-native & DevOps news here.
+permalink: "/newsletter/razorops-cicd-newsletter-2/"
 layout: newsletter
-date: '2022-04-25 16:52:36'
+date: '2022-04-25 16:15:00'
 author: Aditi Mishra
 category: kubernetes
-image: "/images/newsletter/kubernetes-dockers-newsletter.png"
+image: "/images/newsletter/razorops-newsletter2.png"
+heading: Brace for impact as Kubernetes support for Dockershim is set to STOP on May
+  3
 ---
 
 [Brace for impact as Kubernetes support for Dockershim is set to STOP on May 3](https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/)
