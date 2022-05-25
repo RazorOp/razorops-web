@@ -5,9 +5,9 @@ description: The Linux Foundation has launched the ‘World of Open Source’ re
   open source adoption and usage trends.
 permalink: "/newsletter/razorops-cicd-newsletter-6"
 layout: newsletter
-date: '2022-05-20 11:40:11'
+date: '2022-05-20 10:36:30'
 author: Aditi Mishra
-category: Linux
+category: linux
 image: "/images/newsletter/razorops-newsletter6.png"
 heading: The Linux Foundation has launched the ‘World of Open Source’ research initiative
 ---
