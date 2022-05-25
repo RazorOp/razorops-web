@@ -8,7 +8,7 @@ layout: newsletter
 date: '2022-04-29 11:31:42'
 author: Aditi Mishra
 category: kubernetes, cloud natives,
-image: "/images/newsletter/cncf-newsletter.png"
+image: "/images/newsletter/razorops-newsletter3.png"
 heading: Google donates the Istio service mesh to the Cloud Native Computing Foundation
 ---
 

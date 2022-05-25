@@ -8,7 +8,7 @@ layout: newsletter
 date: '2022-04-25 15:02:00'
 author: Aditi Mishra
 category: kubernetes
-image: "/images/newsletter/container-native-cicd-newsletter.png"
+image: "/images/newsletter/razorops-newsletter1.png"
 heading: Kubernetes is all set to release v1.24 with some major updates.
 ---
 

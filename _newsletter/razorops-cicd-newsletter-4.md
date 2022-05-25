@@ -8,7 +8,7 @@ layout: newsletter
 date: '2022-05-06 12:07:01'
 author: Aditi Mishra
 category: kubernetes
-image: "/images/newsletter/kubernetes-first-release-newsletter.png"
+image: "/images/newsletter/razorops-newsletter4.png"
 heading: Kubernetes 1.24 ‘Stargazer’ – the first release of 2022
 ---
 

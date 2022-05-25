@@ -8,7 +8,7 @@ layout: newsletter
 date: '2022-05-13 14:37:52'
 author: Aditi Mishra
 category: Docker
-image: "/images/newsletter/docker-newsletter.png"
+image: "/images/newsletter/razorops-newsletter5.png"
 heading: Docker Announces Docker Extensions and Docker Desktop for Linux at DockerCon
   2022
 ---

@@ -8,7 +8,7 @@ layout: newsletter
 date: '2022-04-25 16:15:00'
 author: Aditi Mishra
 category: kubernetes
-image: "/images/newsletter/kubernetes-dockers-newsletter.png"
+image: "/images/newsletter/razorops-newsletter2.png"
 heading: Brace for impact as Kubernetes support for Dockershim is set to STOP on May
   3
 ---
