@@ -2351,7 +2351,8 @@ a {
 
 /* ----------------------clients slider---------------------------- */
 .slider{
-	height: 230px;
+	height: 280px;
+	margin-top: 50px !important;
 	margin: auto;
 	position: relative;
 	width:80% ;
