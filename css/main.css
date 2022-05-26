@@ -3037,18 +3037,25 @@ padding-left: 10px;
 }
 .bg-org2{
 	background-color: rgb(231, 113, 59);
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	font-size: 15px;
 	font-style:  Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI","Candara,Calibri,Arial,sans-serif;
-	font-weight: 501;
-	padding: 5px 0px !important;
-	width: 27% !important;
+	font-weight: 600;
+	padding: 8px !important;
+	/* width: 27% !important; */
+}
+.text-darkbold{
+	color: #000;
+	font-weight: 600;
 }
 #btn-clr:hover{
 	color: #000;
 }
 .wo-text-decoration{
 	text-decoration: none !important;
+}
+.webinar-card-mark{
+	border-radius: 5px;
 }
 .web-card{
 	border: 1px solid grey;
