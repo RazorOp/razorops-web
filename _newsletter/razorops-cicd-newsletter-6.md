@@ -1,8 +1,7 @@
 ---
 title: Container Native DevOps & CICD Newsletter 6 |  RazorOps
-description: The Linux Foundation has launched the ‘World of Open Source’ research
-  initiative, a series of timely and data-driven reports that provide insight into
-  open source adoption and usage trends.
+description: TGet the latest insights on ‘World of Open Source’ research initiative launched by The Linux Foundation, important events and case studies.
+Subscribe to get the latest updates on container-native & DevOps news around the globe.
 permalink: "/newsletter/razorops-cicd-newsletter-6"
 layout: newsletter
 date: '2022-05-20 10:36:30'

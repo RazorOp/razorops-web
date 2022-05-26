@@ -3565,17 +3565,6 @@ padding-left: 10px;
 	.let-start-cta-btn2{
 		text-align: center;
 	}
-	.newsletters-btn img{
-		width: 100%;
-		padding-left: 50px;
-		padding-right: 50px;
-		
-	}
-	.newsletters-btn .col-sm-9 p{
-		margin-left: 10px;
-		margin-right: 10px;
-		text-align: center;
-	}
 	
 }
 @media screen and (min-width:768px) and (max-width:820px) {
@@ -3673,14 +3662,12 @@ padding-left: 10px;
 		margin-left: 70px;
 		color: white;
 	}
-	.newsletters-btn .col-sm-3{
-		object-fit: contain;
-		padding-left: 0px;
-		padding-right: 0px;
-	}
+	
 
 }
-
+.bg-dark{
+	background-color: black;
+}
 .color-white {
 	color: white !important;
 }
@@ -3783,10 +3770,7 @@ padding-left: 10px;
 	.onewebinar .takeaways-list h3{
 		font-weight: 600;
 	}
-	.newsletters-btn img{
-		width: 100%;
-
-	}
+	
 	
 
 
