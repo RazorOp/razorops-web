@@ -5,10 +5,13 @@ description: check how  to use the Lightning Component UI framework for developi
 permalink: "/blog/:title/"
 layout: post
 date: '2022-05-23 11:28:58'
-author: Shyam Mohan
+author: Saurabh Yadav
 category: CI/CD
 image: "/images/blog/Salesforce-lightning-web-component-pipeline-with-razorops.png"
 ---
+
+![](/images/blog/salesforce-and-razorops.png)
+<br>
 
 **What is lightning component pipeline:**
 

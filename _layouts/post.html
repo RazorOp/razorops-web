@@ -62,9 +62,13 @@
                 <div class="sharethis-inline-share-buttons"></div>
               </div>
               <br><br>
+            
 
-            {% include about-shyam.html %}
-
+            {% if page.author == "Shyam Mohan" %}
+              {% include about-shyam.html %}
+            {% elsif page.author == "Saurabh Yadav" %}
+              {% include about-saurabh.html %}
+            {% endif %}
 
             </div>
 
