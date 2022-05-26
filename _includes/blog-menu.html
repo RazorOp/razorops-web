@@ -57,8 +57,8 @@
     {% for category in site.categories %}
       <li><b><a name="{{ category | first }}">{{ category | first }}</a></b>
         <ul>
-        {% for post in category.last %}
-          <li class="blog-catgory_li"><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% for post in category.last limit:3 %}
+          <li class="blog-catgory_li"><a href="{{ post.url }}">{{ post.title }}</a></li>       
         {% endfor %}
         </ul>
       </li>

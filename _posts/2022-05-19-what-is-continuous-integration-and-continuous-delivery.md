@@ -5,7 +5,7 @@ permalink: "/blog/:title/"
 layout: post
 date: '2022-05-19 10:31:55'
 author: Shyam Mohan
-category: ci/cd
+category: CI/CD
 image: "/images/blog/Arrow Timeline Process Diagram Infographic Brainstorm.png"
 ---
 
