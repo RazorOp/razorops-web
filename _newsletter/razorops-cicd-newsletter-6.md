@@ -1,12 +1,13 @@
 ---
 title: Container Native DevOps & CICD Newsletter 6 |  RazorOps
-description: TGet the latest insights on ‘World of Open Source’ research initiative launched by The Linux Foundation, important events and case studies.
-Subscribe to get the latest updates on container-native & DevOps news around the globe.
+description: |-
+  Get the latest insights on ‘World of Open Source’ research initiative launched by The Linux Foundation, important events and case studies.
+  Subscribe to get the latest updates on container-native & DevOps news around the globe.
 permalink: "/newsletter/razorops-cicd-newsletter-6"
 layout: newsletter
-date: '2022-05-20 10:36:30'
+date: '2022-05-20 10:24:58'
 author: Aditi Mishra
-category: linux
+category: Linux
 image: "/images/newsletter/razorops-newsletter6.png"
 heading: The Linux Foundation has launched the ‘World of Open Source’ research initiative
 ---
@@ -75,38 +76,73 @@ The Linux Foundation has launched the ‘World of Open Source’ research initia
 ***Important Events***
 
 ![](/images/newsletter/kubernetes-vents.png)
+<br>
 
 
 <p><b><a href="https://bit.ly/3sMTfG8">Kubernetes 101: Get started with Kubernetes</a> | May 28, 2022—11:30 a.m. IST | <a href="https://bit.ly/3sMTfG8">Register</a></b></p>
 
-<br>
-![](/images/newsletter/Get started with Kubernetes.png)
+<div class="row">
+    <div class="col-sm-8">
+    <img src="/images/newsletter/Get started with Kubernetes.png">
+    </div>
+    <div class="col-sm-4">
+    <p>
+       Kubernetes is a low-cost, automated solution to deploy and manage your application, with the ability to scale up or down as needed. Explore Kubernetes in-depth, focusing on utilizing <a href="https://do.co/3G8dJyC" target="_blank"><b>DigitalOcean Kubernetes</b></a> to deploy and manage your application.
+    </p>
+    </div>
+    
+</div>
 
-Kubernetes is a low-cost, automated solution to deploy and manage your application, with the ability to scale up or down as needed. Explore Kubernetes in-depth, focusing on utilizing **[DigitalOcean Kubernetes](https://do.co/3G8dJyC)** to deploy and manage your application.
 
 <br>
 <br>
 <p><b><a href="https://bit.ly/3lME8Zv">Kubernetes Community Days Chennai 2022</a> | June 3–4, 2022 | <a href=" https://bit.ly/3lME8Zv">RSVP</a></b></p>
-<br>
-![](/images/newsletter/kubernetes-community-day.png)
 
-Kubernetes Community Days Chennai (KCD Chennai) 2022 is a community-organized event endorsed by The Cloud Native Computing Foundation (CNCF) to assist in growing and sustaining the Kubernetes and cloud-native communities. It brings together open source and cloud-native adopters and technologists for education, cooperation, and networking.
+<div class="row">
+    <div class="col-sm-8">
+    <img src="/images/newsletter/kubernetes-community-day.png">
+    </div>
+    <div class="col-sm-4">
+    <p>
+      Kubernetes Community Days Chennai (KCD Chennai) 2022 is a community-organized event endorsed by The Cloud Native Computing Foundation (CNCF) to assist in growing and sustaining the Kubernetes and cloud-native communities.
+    </p>
+    </div>
+    
+</div>
+<p> It brings together open source and cloud-native adopters and technologists for education, cooperation, and networking.</p>
+
 
 <br>
 <br>
 <p><b><a href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open Source Summit North America 2022</a> | June 21–24 | <a href="https://events.linuxfoundation.org/open-source-summit-north-america/">Register</a></b></p>
-<br>
-![](/images/newsletter/open-source-summit.png)
 
-The Open Source Summit is a conference umbrella that encompasses a number of events that focus on the most relevant technologies, themes, and concerns affecting open source today. It is a premier gathering of open source developers, technologists, and community leaders to interact, share information, solve problems, and gain knowledge in order to advance open source innovation and ensure a long-term open-source environment.
+<div class="row">
+    <div class="col-sm-8">
+    <img src="/images/newsletter/open-source-summit.png">
+    </div>
+    <div class="col-sm-4">
+    <p>
+     The Open Source Summit is a conference umbrella that encompasses a number of events that focus on the most relevant technologies, themes, and concerns affecting open source today.
+    </p>
+    </div>
+</div>
+<p> It is a premier gathering of open source developers, technologists, and community leaders to interact, share information, solve problems, and gain knowledge in order to advance open source innovation and ensure a long-term open-source environment.</p>
+
 
 <br>
 <br>
 <p><b><a href="https://events.linuxfoundation.org/argocon/">ArgoCon 2022</a> | September 19–21, 2022 | <a href="https://events.linuxfoundation.org/argocon/">Register</a></b></p>
-<br>
-![](/images/newsletter/argocon-razorops.png)
 
-At this vendor-neutral event geared towards encouraging cooperation, discussion, and information sharing, meet other Argo aficionados and communicate with project maintainers.
+<div class="row">
+    <div class="col-sm-8">
+    <img src="/images/newsletter/argocon-razorops.png">
+    </div>
+    <div class="col-sm-4">
+    <p>
+     At this vendor-neutral event geared towards encouraging cooperation, discussion, and information sharing, meet other Argo aficionados and communicate with project maintainers.
+    </p>
+    </div>
+</div>
 
 
 <br>
