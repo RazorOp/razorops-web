@@ -154,6 +154,7 @@ address {
 }
 .btn-lg.btn.btn-rounded {
 	border-radius: 23px !important;
+	margin-bottom: 20px;
 }
 
 @media (min-width: 1400px) {
@@ -755,6 +756,8 @@ th, td {
  	background-color: #FFF;
  	color: #FFF;
  	margin-top: -80px;
+	 background-size: 100% 100%;
+
 }
 .customers-banner2{
 	position: relative;
@@ -2348,7 +2351,8 @@ a {
 
 /* ----------------------clients slider---------------------------- */
 .slider{
-	height: 230px;
+	height: 280px;
+	margin-top: 50px !important;
 	margin: auto;
 	position: relative;
 	width:80% ;
@@ -2590,6 +2594,7 @@ a {
 @media (max-width:767px){
 	.customers-banner{
 		margin-top: 20px;
+		background-size: 900px 700px;
 	}
 	.webinar-register-form-hidden{
 		visibility: visible;
@@ -2788,6 +2793,8 @@ a {
 @media screen and (min-width:768px) and (max-width:913px) {
 	.customers-banner{
 		margin-top: 20px;
+		background-size: 780px 700px;
+
 	}
 	.customers-banner2{
 		margin-top: 20px;
@@ -3032,18 +3039,25 @@ padding-left: 10px;
 }
 .bg-org2{
 	background-color: rgb(231, 113, 59);
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	font-size: 15px;
 	font-style:  Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI","Candara,Calibri,Arial,sans-serif;
-	font-weight: 501;
-	padding: 5px 0px !important;
-	width: 27% !important;
+	font-weight: 600;
+	padding: 8px !important;
+	/* width: 27% !important; */
+}
+.text-darkbold{
+	color: #000;
+	font-weight: 600;
 }
 #btn-clr:hover{
 	color: #000;
 }
 .wo-text-decoration{
 	text-decoration: none !important;
+}
+.webinar-card-mark{
+	border-radius: 5px;
 }
 .web-card{
 	border: 1px solid grey;
@@ -3510,11 +3524,18 @@ padding-left: 10px;
 		font-weight: 600;
 		margin-bottom: 30px;
 	}
+	.do-banner{
+		padding: 20px;
+	}
+	.do-banner .do-main-heading{
+		line-height: 35px;
+	}
 	.do-banner .list-styles .tickrow{
 		margin-bottom: 15px;
 	}
 	.do-banner .list-styles {
 		padding-left: 0px !important;
+		margin-bottom: 50px;
 	}
 	.do-banner .list-styles .tickrow .bullets{
 		margin-left: 10px;
