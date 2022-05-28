@@ -9,7 +9,7 @@ keywords: why devops, devops benefits, benefits of devops, devops advantages, ad
   integration, why devops
 permalink: "/blog/:title/"
 layout: post
-date: '2018-12-15 14:15:00'
+date: '2022-05-02 14:15:00'
 author: Shyam Mohan
 category: DevOps
 image: "/images/blog/devops-for-startups.png"
