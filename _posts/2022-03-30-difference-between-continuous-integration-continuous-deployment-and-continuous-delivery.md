@@ -1,9 +1,7 @@
 ---
 title: Difference between Continuous Integration, Continuous Deployment and Continuous
   Delivery
-description: Let's have a look on the difference between Continuous Integration, Continuous
-  Deployment and Continuous Delivery along with their benefits. The primary goal of
-  Continuous Integration, Delivery, Deployment is the same
+description: Let's have a look on the difference between Continuous Integration, Continuous Deployment and Continuous Delivery along with their benefits. The primary goal of Continuous Integration, Delivery, Deployment is the same - to make software development and the release process faster and efficient.
 permalink: "/blog/:title/"
 layout: post
 date: '2022-03-30 10:56:40'

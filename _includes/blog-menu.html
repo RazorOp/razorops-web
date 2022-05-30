@@ -1,7 +1,6 @@
 {% include search.html %}
 <br>
 
-
 <div class="blog-signup-card text-center">
   <h3> Get The Fastest ever CI/CD platform for fully automated workflow.</h3>
   <p class="blog-rightside-p">Signup for free with...</p>
@@ -15,25 +14,39 @@
   <br>
 
 </div>
-<div class="schedule-demo-cardn">
-  {% include schedule-demo.html %}
-</div>
 
 <br>
 
-<div class="webinar-card-mark">
-    <img src="/images/Webinar-dockersnew.png" width="100%" />
+<div class="webinar-card-mark" id="webinar-side-card">
+    <img src="/images/Get started with Kubernetes.png" width="100%" />
     <p class="webinar-card-text">
     </p>
     <div class="row ">
         <p class="webinar-card-markinfo">Upcoming Webinar</p>
-        <p class="col-sm-4">30th Apr,2022</p>
-        <p class="col-sm-4">11:30 AM IST</p>
-        <a class="col-sm-4 text-success btn bg-org2 text-center" href="/webinars/how-to-write-optimized-and-secure-docker-file-to-create-docker-image/">Register<br> Now</a>
+        <p class="webinar-card-markinfo"> Kubernetes 101- Get started with Kubernetes</p>
+        <div class="text-center">
+        <p class="text-darkbold">28th May,2022</p>
+        <p class="text-darkbold">11:30 AM IST</p>
+        <a class="text-success btn bg-org2 text-center" href="/webinars/get-started-with-kubernetes/">Register Now</a>
+        </div>
     </div>
 </div>
+<script>
 
+    let webinarDate= new Date('May 28, 2022 11:30:00');
+    let currentDate = new Date();
+    if(webinarDate < currentDate){
+      
+      document.getElementById('webinar-side-card').setAttribute("style", "display:none;");
 
+        }
+
+</script>
+
+<br>
+<div class="schedule-demo-cardn">
+  {% include schedule-demo.html %}
+</div>
 <br>
 <br>
   <a href="https://www.g2.com/products/razorops/details" target="_blank"><img src="/images/blog/g2-crowd-review.png" class="img-responsive"></a>
@@ -46,8 +59,8 @@
     {% for category in site.categories %}
       <li><b><a name="{{ category | first }}">{{ category | first }}</a></b>
         <ul>
-        {% for post in category.last %}
-          <li class="blog-catgory_li"><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% for post in category.last limit:3 %}
+          <li class="blog-catgory_li"><a href="{{ post.url }}">{{ post.title }}</a></li>       
         {% endfor %}
         </ul>
       </li>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NMVBVZ5');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% seo %}
+    {% include favicon.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/blog.css" />
+
+    <!--
+      HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a50d614079115001207f66b&product=inline-share-buttons' async='async'></script>
+    
+  </head>
+  <body class="layout-blog">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMVBVZ5"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <!-- navbar -->
+    <header class="default-header">{% include header.html %}</header>
+    <div class="content-wraper">
+      <div class="blog-wraper">
+        <div class="container">
+          
+           
+              <div class="blog-post-content" id="blog-post-margins">
+                <div class="blog-post-body">
+                  <h1>{{ page.heading }}</h1>
+                  <time>
+                    {{ page.date | date_to_string }} -
+                    <small>{{ page.author }}</small>
+                  </time>
+                  {{ content }}
+                  {% include newsletter_sponsored.html %}
+                </div>
+              </div>
+              <br><br>
+              <div class="blog-post-content text-center" id="blog-post-margins">
+                <center><p><b>Subscribe to our LinkedIn Newsletter</b><p></center>
+                  
+                    <a class="btn btn-rounded linkdin-blue p-10" href="https://www.linkedin.com/newsletters/container-native-devops-cicd-6920671272087552000/" target="_blank">
+                      Subscribe
+                  </a>
+                <br>
+               
+              </div>
+              <br><br>
+              <div class="blog-post-content" id="blog-post-margins">
+                <center><p><b>Enjoyed this article? Share it.</b><p></center>
+                <br>
+                <div class="sharethis-inline-share-buttons"></div>
+              </div>
+              <br><br>
+
+           
+
+
+          
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
