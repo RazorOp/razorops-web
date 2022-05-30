@@ -436,6 +436,9 @@ th, td {
 		border-color: transparent transparent #ffffff transparent;
 		z-index:9999;
 	}
+	.navbar-nav{
+		height: 0px !important;
+	}
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		
