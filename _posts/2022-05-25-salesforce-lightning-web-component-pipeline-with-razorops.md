@@ -20,7 +20,7 @@ The Lightning Component framework is a UI framework for developing single page a
 
 **What problem developers face with continues changes in lightning web component:**
 
-While developing components developers have to push the code manually every time they make any changes and they need to keep in mind to which stage they need to push on. So we can make this deployment flow easier by introducing **Razorops CI/CD Platform. **
+While developing components developers have to push the code manually every time they make any changes and they need to keep in mind to which stage they need to push on. So we can make this deployment flow easier by introducing **Razorops CI/CD Platform.**
 
 For demo purpose we going to use ebike project: [https://github.com/trailheadapps/ebikes-lwc](https://github.com/trailheadapps/ebikes-lwc)
 
