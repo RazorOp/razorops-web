@@ -3397,7 +3397,7 @@ padding-left: 10px;
 		min-height: 460px !important;
 }
 .other-webinar-card .other-webinar-info{
-	margin-top: 45px;
+	margin-top: 4px;
 }
 .other-webinar-card img{
 	top: 50%;
@@ -3409,7 +3409,7 @@ padding-left: 10px;
 .webinar-content{
 	border: 1px solid #EEE;
     box-shadow: 0 0 1px 0 rgb(18 32 73 / 8%), 0 8px 32px 0 rgb(55 92 192 / 8%);
-    height: 450px !important;
+    height: 460px !important;
 }
 .webinar-body{
 	padding: 10px;
@@ -3840,6 +3840,9 @@ padding-left: 10px;
 
 }
 
-.text-blue{
-	color: #0052cc;
+.text-grey{
+	color: grey;
+}
+.text-bolder{
+	font-weight: 600;
 }
