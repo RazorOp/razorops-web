@@ -436,6 +436,9 @@ th, td {
 		border-color: transparent transparent #ffffff transparent;
 		z-index:9999;
 	}
+	.navbar-nav{
+		height: 0px !important;
+	}
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		
@@ -755,7 +758,7 @@ th, td {
 .customers-banner{
   text-align: center;
 	padding: 150px 15px;
-	background-image: url("/images/v2/home-banner.png");
+	background-image: url("/images/v2/home-banner.webp");
  	background-color: #FFF;
  	color: #FFF;
  	margin-top: -80px;
@@ -3042,18 +3045,25 @@ padding-left: 10px;
 }
 .bg-org2{
 	background-color: rgb(231, 113, 59);
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	font-size: 15px;
 	font-style:  Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI","Candara,Calibri,Arial,sans-serif;
-	font-weight: 501;
-	padding: 5px 0px !important;
-	width: 27% !important;
+	font-weight: 600;
+	padding: 8px !important;
+	/* width: 27% !important; */
+}
+.text-darkbold{
+	color: #000;
+	font-weight: 600;
 }
 #btn-clr:hover{
 	color: #000;
 }
 .wo-text-decoration{
 	text-decoration: none !important;
+}
+.webinar-card-mark{
+	border-radius: 5px;
 }
 .web-card{
 	border: 1px solid grey;
@@ -3376,6 +3386,9 @@ padding-left: 10px;
 .headpad{
 	font-size: 42px;
 	padding: 0px 40px;
+}
+.text-blue{
+	color: #0052cc;
 }
 
 .other-webinar-card{
