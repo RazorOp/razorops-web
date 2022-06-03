@@ -1,5 +1,5 @@
 ---
-title: Container Native DevOps & CICD Newsletter 2 |  RazorOps
+title: Container Native DevOps & CICD Newsletter 2 
 description: Kubernetes to stop supporting dockerism, dig deeper into Kubernetes with
   Kubernetes, and  Helm 3 the Package Manager for Kubernetes. Get the latest updates
   on container-native & DevOps news here.
