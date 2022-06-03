@@ -441,6 +441,7 @@ th, td {
 	}
 	.footer-social-right{
 		float: right;
+		margin-right: 20px;
 	} 
 	.footer-social-left{
 		float: left;
@@ -557,9 +558,9 @@ th, td {
 .lower-footer a {
 	color: #253858;
 }
-.footer-social{
+/* .footer-social{
 	margin-left: 20px;
-}
+} */
 .footer-social a {
 	display: inline-block;
 	margin-bottom: 8px;
