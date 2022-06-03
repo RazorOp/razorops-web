@@ -1,5 +1,5 @@
 ---
-title: Container Native DevOps & CICD Newsletter 6 |  RazorOps
+title: Container Native DevOps & CICD Newsletter 6 
 description: |-
   Get the latest insights on ‘World of Open Source’ research initiative launched by The Linux Foundation, important events and case studies.
   Subscribe to get the latest updates on container-native & DevOps news around the globe.

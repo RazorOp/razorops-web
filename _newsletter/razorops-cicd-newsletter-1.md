@@ -1,5 +1,5 @@
 ---
-title: Container Native DevOps & CICD Newsletter 1 |  RazorOps
+title: Container Native DevOps & CICD Newsletter 1 
 description: Get the latest updates on container-native & DevOps news with the new
   Kubernetes v1.24 release and its latest features along with top picks for the week
   and upcoming events you don't want to miss.
