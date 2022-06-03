@@ -436,6 +436,9 @@ th, td {
 		border-color: transparent transparent #ffffff transparent;
 		z-index:9999;
 	}
+	.navbar-nav{
+		height: 0px !important;
+	}
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		
@@ -755,7 +758,7 @@ th, td {
 .customers-banner{
   text-align: center;
 	padding: 150px 15px;
-	background-image: url("/images/v2/home-banner.png");
+	background-image: url("/images/v2/home-banner.webp");
  	background-color: #FFF;
  	color: #FFF;
  	margin-top: -80px;
