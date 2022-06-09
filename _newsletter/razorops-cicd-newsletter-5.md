@@ -1,5 +1,5 @@
 ---
-title: Container Native DevOps & CICD Newsletter 5 |  RazorOps
+title: Container Native DevOps & CICD Newsletter 5 
 description: Subscribe to get the latest updates on container-native & DevOps news
   like Docker Announces Docker Extensions and Docker Desktop for Linux, Concepts of
   CICD, DevOps for startups, etc.

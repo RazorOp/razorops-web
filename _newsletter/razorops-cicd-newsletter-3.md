@@ -1,5 +1,5 @@
 ---
-title: Container Native DevOps & CICD Newsletter 3 |  RazorOps
+title: Container Native DevOps & CICD Newsletter 3 
 description: Get the latest updates on container-native & DevOps news from Google
   donating the Istio service mesh to the CNCF, KubeCon, and mask mandate post mortem
   for major events.

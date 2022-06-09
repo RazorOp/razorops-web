@@ -1,5 +1,5 @@
 ---
-title: Container Native DevOps & CICD Newsletter 4 |  RazorOps
+title: Container Native DevOps & CICD Newsletter 4 
 description: Read all about The Kubernetes released version 1.24 of Stargazer, its
   updates and features. Subscribe to get the latest updates on container-native &
   DevOps news here.
