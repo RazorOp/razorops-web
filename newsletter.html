@@ -19,13 +19,13 @@ canonical_url: https://razorops.com/newsletter
   <div class="blog-wraper">
     <div class="blog-post">
       {% assign newsletter = site.newsletter %}
-      {% for post in newsletter %}
+      {% for post in newsletter reversed %}
         <a href="{{ site.baseurl }}{{ post.url }}">
           <div class="col-sm-4 post-box">
             <div class="blog-content">
                 <img src="{{ post.image }}"/>
               <div class="blog-body">
-                <!-- <time class="pull-right">{{ post.date | date_to_string }}</time> -->
+                <time class="pull-right">{{ post.date | date_to_string }}</time>
                 <h1>{{ post.title }}</h1>
                 <p class="news-letter-description">{{ post.description}}</p>
                 <br>
