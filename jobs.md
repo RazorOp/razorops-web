@@ -1,6 +1,6 @@
 ---
 title: Razorops | Careers
-layout: default
+layout: default2
 description: Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.
 keywords: Hiring, DevOps methodology, Kubernetes dashboard, Cloud containers, Devops
 canonical_url: https://razorops.com/jobs
