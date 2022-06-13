@@ -3935,7 +3935,7 @@ padding-left: 10px;
 		padding-left: 0px ;
 	}
 	.compititors-table .table-column .card .card-body .info-head .left-heading,.right-heading{
-		visibility: hidden;
+		display: none;
 	}
 	.compititors-table .table-column .card .card-body .info .left-head,.right-head{
 		visibility: visible;
