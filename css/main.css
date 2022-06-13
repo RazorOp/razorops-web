@@ -1443,7 +1443,9 @@ a {
 	height: 200px;
 }
 
-
+.list-styles-none{
+	list-style: none;
+}
 .razorops-demo {
 	/*background-image: url("../images/razorops-demo.svg");*/
 	margin-top: 60px;
@@ -3886,4 +3888,62 @@ padding-left: 10px;
 }
 .text-bolder{
 	font-weight: 600;
+}
+
+/* ********************* Competitors page *************************** */
+
+
+
+.compititors-table .table-column {
+	margin-bottom: 20px;
+	
+}	
+.compititors-table .table-column .info{
+	margin: 20px;
+}
+.compititors-table .table-column .info-head{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin: 20px;
+	padding: 20px;
+	background-color: #1544b3 ;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+
+}
+
+.compititors-table .table-column .card .card-body .info-head .basis{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	color:whitesmoke;
+}
+.compititors-table .table-column .card .card-body .info .basis{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	font-weight: 600;
+	padding: 30px;
+	border-radius: 6px;
+}
+.compititors-table .table-column .card .card-body .info li{
+	padding: 15px;
+}
+.compititors-table .table-column .card .card-body .info .left-head,.right-head{
+	display: none;
+}
+
+@media screen and (max-width:767px){
+	.compititors-table .table-column .card .card-body .info{
+		padding-left: 0px ;
+	}
+	.compititors-table .table-column .card .card-body .info-head .left-heading,.right-heading{
+		visibility: hidden;
+	}
+	.compititors-table .table-column .card .card-body .info .left-head,.right-head{
+		visibility: visible;
+		display: block;
+		margin-left: 12px;
+	}
+	.compititors-table .table-column .card .card-body .info .basis{
+		margin-bottom: 12px;
+		
+	}
 }
