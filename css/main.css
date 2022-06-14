@@ -3927,6 +3927,46 @@ padding-left: 10px;
 	display: none;
 }
 
+.competitors-banner{
+	text-align: center;
+	padding: 100px 15px;
+	background-color: #1545b3;
+	color: white;
+ 	margin-top: 55px;
+	 background-size: 100% 100%;
+}
+.competitors-banner .btn{
+	margin: 20px ;
+	font-size: 20px;
+	color: white;
+}
+.compititors-cta {
+	padding: 60px;
+}
+
+.compititors-cta .cta-body .compititors-cta-btns .btn{
+	padding: 12px;
+	font-size: 20px;
+	box-shadow: none;
+	float: right;
+	margin: 20px;
+	
+}
+.compititors-cta .cta-body .compititors-cta-btns .btn-bluehover:hover{
+	background-color: #1545b3;
+	color: white;
+}
+.compititors-cta .cta-body .compititors-cta-btns .btn-razorops:hover{
+	color: white;
+}
+.btn-bluehover{
+	border: 1px solid !important;
+}
+.btn-razorops{
+	background-color: #1545b3;
+	color: white;
+}
+
 @media screen and (max-width:767px){
 	.compititors-table .table-column .card .card-body .info{
 		padding-left: 0px ;
