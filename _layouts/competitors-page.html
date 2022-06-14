@@ -23,21 +23,7 @@
   <body class="layout-blog">
     <!-- navbar -->
     <header class="default-header">{% include header.html %}</header>
-    <div class="content-wraper">
-      <div class="blog-wraper">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="blog-post-content">
-                <div class="page-body">
-                  {{ content }}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+       {{ content }}
     {% include footer.html %}
   </body>
 </html>
