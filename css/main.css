@@ -3960,7 +3960,8 @@ padding-left: 10px;
 	color: white;
 }
 .btn-bluehover{
-	border: 1px solid !important;
+	border: 1px solid #1545b3 !important;
+	color: #1545b3;
 }
 .btn-razorops{
 	background-color: #1545b3;
