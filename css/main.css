@@ -3929,7 +3929,15 @@ padding-left: 10px;
 .compititors-table .table-column .card .card-body .info .left-head,.right-head{
 	display: none;
 }
-
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+.flex-row li{
+	margin: 15px;
+	
+}
 .competitors-banner{
 	text-align: center;
 	padding: 100px 15px;
@@ -3987,4 +3995,8 @@ padding-left: 10px;
 		margin-bottom: 12px;
 		
 	}
+}
+
+.get-started-section{
+	background: linear-gradient(178.55deg, rgba(255, 255, 255, 0.8) -1.11%, rgba(240, 238, 255, 0.8) 109.65%);
 }
