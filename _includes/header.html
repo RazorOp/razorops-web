@@ -2,7 +2,21 @@
 <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
 <script src='{{ site.baseurl }}/js/app.js'></script>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<div class="webinar-trigger-wrapper" onscroll="displaysection()" id="webinar-trigger">
+  <p><img src="/images/new-flash.png" height="20px">Join our upcoming webinar. | <a href="/webinars/deploy-microservice-to-digitalocean-kubernetes/">Register Now!!</a></p>
+</div>
+<script>
+  // function displaysection(){
+  //   var x=document.getElementById('navbar-section');
+  //   var y=document.getElementById('webinar-trigger');
+  //   if (.style.position === "absolute") {
+  //       x.style.marginTop = "26px";
+  //     } else {
+  //       x.style.marginTop = "0px";
+  //     }
+  // }
+</script>
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-section">
   <div class="container">
     <div class="navbar-header">
         <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">

@@ -320,6 +320,10 @@ th, td {
 }
 .navbar {
 	z-index: 4;
+	margin-top: 30px;
+}
+.navbar::-webkit-scrollbar-track{
+	margin-top: 0px;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
