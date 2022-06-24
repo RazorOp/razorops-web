@@ -3969,6 +3969,24 @@ padding-left: 10px;
 	font-size: 20px;
 	color: white;
 }
+.v3clients{
+    text-align: center;
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.v3clients img{
+   
+        width: 150px;
+        margin-right: 10px;
+
+}
+.v3clients .v3gallery{
+    align-self: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .compititors-cta {
 	padding: 60px;
 }
