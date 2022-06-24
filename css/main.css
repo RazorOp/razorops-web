@@ -3941,10 +3941,28 @@ padding-left: 10px;
 .competitors-banner{
 	text-align: center;
 	padding: 100px 15px;
-	background-color: #1545b3;
+	background-color: #ffffff;
 	color: white;
  	margin-top: 55px;
 	 background-size: 100% 100%;
+}
+.competitors-banner h1{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 90px;
+	text-align: center;
+	color: #18204C;
+}
+.competitors-banner p{
+	margin: 20px 0px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #5B5B5B;
 }
 .competitors-banner .btn{
 	margin: 20px ;
