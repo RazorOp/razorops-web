@@ -1,8 +1,6 @@
 ---
 title: Container Native DevOps & CICD Newsletter 9
-description: The microservice design enables large, sophisticated applications to
-  be delivered quickly, often, and reliably. It also allows a company's technology
-  stack to evolve.
+description: Speeding Up the deployment of microservices with Kubernetes with RazorOps. Learn about best practices and benefits. Subscribe to get the latest updates on container-native & DevOps news around the globe.
 permalink: "/newsletter/razorops-cicd-newsletter-9"
 layout: newsletter
 date: '2022-06-10 15:32:56'
