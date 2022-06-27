@@ -1,9 +1,6 @@
 ---
 title: Container Native DevOps & CICD Newsletter 8
-description: With the increasing adoption of containers among enterprises, Kubernetes,
-  the container-centric management software, has become the de facto standard for
-  deploying and operating containerized applications. Kubernetes is an open source
-  framework
+description: A standard Integrated and Automated platform for DevOps process.Learn about best practices and benefits. Subscribe to get the latest updates on container-native & DevOps news around the globe.
 permalink: "/newsletter/razorops-cicd-newsletter-8"
 layout: newsletter
 date: '2022-06-04 11:48:54'
