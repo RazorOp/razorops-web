@@ -6,16 +6,95 @@ keywords: Container Native Continuous Delivery, Build, Test, Deploy, Continuous 
 canonical_url: 'https://razorops.com/jenkins-alternative'
 ---
 <div class="competitors-banner text-center">
- 
-    <h1>
-        Let's get your<br> code tested
-    </h1>
-    <p>
-       Nowadays the increasingly gorwing number of mobile and computing devices.
-    </p>
-    <a class="btn btn-razorops-new" href="https://dashboard.razorops.com/users/sign_up">Get Started</a>
+  <div class="row">
+    <div class="col-sm-6 banner-content">
+      <h1>
+        Simply the Best Alternative to Jenkins
+      </h1>
+      <p>
+        RazorOps is the simplest alternative to Jenkins.  It's easy to set up, and Simpler to use. To top it off, unlike Jenkins, RazorOps is free. You would certainly never return to Jenkins, we bet!
+      </p>
+      <a class="btn btn-razorops-new" href="https://dashboard.razorops.com/users/sign_up">Get Started</a><br><br>
+      <br><br>
+      <div class="row banner-bullets">
+        <div class="col-sm-6"><p><span>&#x2713;</span> No plugins </p></div>
+        <div class="col-sm-6"><p><span>&#x2713;</span>No maintenance charges </p></div>
+        <div class="col-sm-6"><p><span>&#x2713;</span>No servers required  </p></div>
+        <div class="col-sm-6"><p><span>&#x2713;</span>Faster releases </p></div>
+        <div class="col-sm-6"><p><span>&#x2713;</span>24/7 customer support</p></div>
+        <div class="col-sm-6"><p><span>&#x2713;</span>Simpler to use</p></div>
+
+      </div>
+    </div>
+    <div class="col-sm-6 form-section">
+      <div class="form-body">
+
+          <form id="myform" method="post">
+            <h2 class="form-heading">Get started in less than 30 minutes</h2>
+            <div class="form-group">
+              <input type="email" class="form-control" id="InputEmail" placeholder="Enter Email" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="InputPassword" placeholder="Enter Password" required>
+            </div>
+            <a class="btn btn-primary" type="submit" >Create Free account</a>
+            <hr class="hr-text" data-content="or signup with">
+          
+              <div class="form-signup-btns row">
+                <a href="https://dashboard.razorops.com/users/auth/github" class="btn btn-default btn-lg pr-4  mr-4 "><img src="/images/v2/github-black.svg" alt="github" class="btn-icon"><b>Github</b></a>
+                <a href="https://dashboard.razorops.com/users/auth/bitbucket" class="btn btn-default btn-lg pr-4  mr-4 "><img src="/images/v2/bitbucket.svg" alt="bitbucket" class="btn-icon"><b>Bitbucket</b></a>
+                <a href="https://dashboard.razorops.com/users/auth/gitlab" class="btn btn-default btn-lg pr-4 mr-4"><img src="/images/v2/gitlab.svg" alt="gitlab" class="btn-icon"><b>Gitlab</b></a>
+              </div>
+            <label for="signup-policy"><p class="signup-agg">By signing up you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label>
+          </form>
+   
+      </div>
+     
+    </div>
+  </div>
 </div>
 
+
+
+<script>
+
+  const myform=document.getElementById('myform');
+
+  myform.addEventListener('submit',function(e){
+      e.preventDefault();
+
+      const email=document.getElementById('InputEmail').value;
+      const password=document.getElementById('InputPassword').value;
+    
+
+    fetch("https://jsonplaceholder.typicode.com/posts/",{
+      method: "POST",
+      body: JSON.stringify({
+        email:email,
+        password:password,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+     
+    }).then((response)=>{
+        return response.json();
+    }).then((data)=>{
+      console.log(data);
+    }).catch((err)=>{
+      console.error(err);
+    })
+
+    
+
+  })
+   
+
+
+
+</script>
 <hr>
  <div class="v3clients container">
 <div class="v3gallery row">
@@ -116,31 +195,26 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
 
 
   <div class="container tool-info">
-    <p class="tool-content">Most IT companies around the globe currently follow Agile methodologies in their SDLC . Continuous Integration Continuous Delivery(CI/CD) are basically buzzwords in software development.
-        Automation of build and release activities is quickly becoming a common practice. Jenkins has far been the most widely used CI/CD automatic tool.This is because of the enormous community support and a huge 
-        number of plugins it offers.
-
+    <p class="tool-content">
+        Agile approaches are used by the vast majority of IT companies nowadays for their SDLC. Continuous Integration and Continuous Delivery, or CI/CD, are trendy phrases in the software business.As the automation of the development and release processes is becoming more widespread, Jenkins became the most widely used CI/CD automation tool until recent times. But in recent years, we've noticed that businesses are changing and preferring more straightforward solutions that are simple to set up and operate.
         <br>
         <br>
-        Many other companies have recently come up with tools to address the requirement for CI/CD Automation and Orchestration
-        .Jenkings is no longer the go-to tool for all CI implementation. RazorOps TeamCIty, TravisCI, CircleCI etc have made their way into the market.
-
-        <br>
-        <br>
-        This article will compare Jenkins with one of the mpst promising tools in the same domain.
+        To fulfil the demand for CI/CD Automation and Orchestration, various new businesses have responded to the situation by developing technologies that are much simpler to use and maintain. RazorOps being the simplest container native CI/CD is one of the most preferred alternatives of Jenkins.
     </p>
   </div>    
 
   <div class="container content-section">
-    <h2 class="content-heading">
-        Table Of Content
-    </h2>
-    <ul class="content-list">
-        <li><a>What is Razorops?</a></li>
-        <li><a>What is Jenkins?</a></li>
-        <li><a>Razorops vs Jenkings</a></li>
-        <li><a>Which tool to use ? Razorops vs Jenkins?</a></li>
-    </ul>
+    <div class="toc-body">
+        <h2 class="content-heading">
+            Table Of Content
+        </h2>
+        <ul class="content-list">
+            <li><a>What is Razorops?</a></li>
+            <li><a>What is Jenkins?</a></li>
+            <li><a>Razorops vs Jenkings</a></li>
+            <li><a>Which tool to use ? Razorops vs Jenkins?</a></li>
+        </ul>
+  </div>
   </div>
 
 
@@ -273,7 +347,8 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
 
 
 
-<div class="compititors-cta container">
+<div class="compititors-cta container-fluid">
+  <div class="container">
     <div class="row cta-body">
         <div class="col-sm-6">
             <h1>Let's Get Started</h1>
@@ -284,6 +359,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
             <a class="btn  btn-razorops" href="https://dashboard.razorops.com/users/sign_up">Start Building for Free</a>
         </div>
     </div>
+  </div>
 </div>  
 
 <div class="container xtra-feature">
@@ -322,16 +398,16 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                     </div>
                     <ul class="grid d-flex flex-row col-sm-4 integration-toolicon">
                         <li class="  justify-center">
-                            <img src="/images/v2/github.svg" width="90" alt="github" class="img-responsive">
+                            <img src="/images/v2/github.svg" width="90" alt="github" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo3" class="img-responsive">
+                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo3" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/Git-Icon.png" width="90" alt="logo4" class="img-responsive">
+                            <img src="/images/v2/Git-Icon.png" width="90" alt="logo4" >
                         </li>
                     </ul>
                 </li>
@@ -349,16 +425,16 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                     </div>
                     <ul class="grid d-flex flex-row col-sm-4 integration-toolicon">
                         <li class="  justify-center">
-                            <img src="/images/case-study-assets/aws-tech-stack.png" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/case-study-assets/aws-tech-stack.png" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/case-study-assets/google-cloud.png" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/case-study-assets/google-cloud.png" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/case-study-assets/azure.png" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/case-study-assets/azure.png" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/case-study-assets/digital-ocean-logo.png" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/case-study-assets/digital-ocean-logo.png" width="90" alt="logo2" >
                         </li>
                     </ul>
                 </li>
@@ -376,16 +452,16 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                     </div>
                     <ul class="grid d-flex flex-row col-sm-4 integration-toolicon">
                         <li class="  justify-center">
-                            <img src="/images/v2/github.svg" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/github.svg" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
                         </li>
                     </ul>
                 </li>
@@ -403,16 +479,16 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                     </div>
                     <ul class="grid d-flex flex-row col-sm-4 integration-toolicon">
                         <li class="  justify-center">
-                            <img src="/images/v2/github.svg" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/github.svg" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
                         </li>
                     </ul>
                 </li>
@@ -430,16 +506,16 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                     </div>
                     <ul class="grid d-flex flex-row col-sm-4 integration-toolicon">
                         <li class="  justify-center">
-                            <img src="/images/v2/github.svg" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/github.svg" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
                         </li>
                         <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" class="img-responsive">
+                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
                         </li>
                     </ul>
                 </li>
@@ -471,105 +547,111 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
 </section>
 
 
-<div class="container faq-section">
-    <h2 class="text-center section-header2">Frequently Asked Questions</h2>
-</div>
-
-
+<div class="container" style="margin-top: 20px;">
+  <div class="pricing-header">
+    <div class="pricing-header">
+      <h2 style="text-align:center;"  class="section-header2"><b>Frequently Asked Questions</b></h2>
+    </div>
+  </div>
+  
+  
+  
 <main id="faq-panel">
-    <article class="panel-groups bs-accordion" id="accordion" role="tablist" aria-multiselectable="true">
-      <section class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingOne">
-          <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-				Q: What is the procedure to join the Razorops Partners Program?
-              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-          <div class="panel-body">
-            <p style="padding: 18px;">All you need to do is follow a few simple steps. First step to join the Razorops Partners Program is to book a meeting with the Razorops team or you can write to us at <b class="text-primary">support@razorops.com</b>. Thereafter discuss the program in detail along with the benefits and join the program.
-			</p>
-          </div>
-        </div>
-      </section>
-      <section class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingTwo">
-          <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              
-			Q. Who can join the Razorops Partners program to earn commission?
-              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="panel-body">
-            <p style="padding: 18px;">Any company can join the Razorops Partners program- startups, small businesses, full fledged organisations, and earn commissions.
-			</p>
-          </div>
-        </div>
-      </section>
-      <section class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingThree">
-          <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-				Q. How much amount can partners earn as commission?
-              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="panel-body">
-            <p style="padding: 18px;">
-				The commissions for the Partners Program will be 10% of the subscription plan selected by the subscriber.
-			</p>
-          </div>
-        </div>
-      </section>
-	  <section class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFour">
-          <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-				Q. What are the prime benefits offered to the partners?
-              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-          <div class="panel-body">
-            <p style="padding: 18px;">The prime benefits offered to the partners through Razorops Partners Program are-
-				<ul>
-					<li>High Visibility through contributed content and co-marketing initiatives.</li>
-					<li>Pre- Sales Support</li>
-					<li>Chance to earn commissions</li>
-				</ul>
-			</p>
-          </div>
-        </div>
-      </section>
+<article class="panel-groups bs-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+  <section class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    Q: What is the procedure to join the Razorops Partners Program?
+          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <p style="padding: 18px;">All you need to do is follow a few simple steps. First step to join the Razorops Partners Program is to book a meeting with the Razorops team or you can write to us at <b class="text-primary">support@razorops.com</b>. Thereafter discuss the program in detail along with the benefits and join the program.
+  </p>
+      </div>
+    </div>
+  </section>
+  <section class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          
+  Q. Who can join the Razorops Partners program to earn commission?
+          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <p style="padding: 18px;">Any company can join the Razorops Partners program- startups, small businesses, full fledged organisations, and earn commissions.
+  </p>
+      </div>
+    </div>
+  </section>
+  <section class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+    Q. How much amount can partners earn as commission?
+          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <p style="padding: 18px;">
+    The commissions for the Partners Program will be 10% of the subscription plan selected by the subscriber.
+  </p>
+      </div>
+    </div>
+  </section>
+<section class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+    Q. What are the prime benefits offered to the partners?
+          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+        <p style="padding: 18px;">The prime benefits offered to the partners through Razorops Partners Program are-
+    <ul>
+      <li>High Visibility through contributed content and co-marketing initiatives.</li>
+      <li>Pre- Sales Support</li>
+      <li>Chance to earn commissions</li>
+    </ul>
+  </p>
+      </div>
+    </div>
+  </section>
 
-	  <section class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFive">
-          <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-				Q. What is the difference between Razorops Referral Program & Razorops Partners Program?
-              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-          <div class="panel-body">
-            <p style="padding: 18px;">
-				As the title suggests Razorops Referral Program is for individuals to earn commissions whereas the Razorops Partners Program is for companies to join and earn commissions.	
-			</p>
-          </div>
-        </div>
-      </section>
-	  
-    </article>
-  </main>
+<section class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFive">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+    Q. What is the difference between Razorops Referral Program & Razorops Partners Program?
+          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="panel-body">
+        <p style="padding: 18px;">
+    As the title suggests Razorops Referral Program is for individuals to earn commissions whereas the Razorops Partners Program is for companies to join and earn commissions.	
+  </p>
+      </div>
+    </div>
+  </section>
+
+</article>
+</main>
+  
+</div>
 
 
 <section class="signup-cta-section">
