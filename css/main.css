@@ -320,7 +320,23 @@ th, td {
 }
 .navbar {
 	z-index: 4;
-	margin-top: 30px;
+}
+.popup-hr{
+	height: 1.8px;
+	border: none;
+	margin: 0px 0px 6px 0px;
+	background-color: royalblue;
+
+}
+.webinar-trigger-wrapper  p{
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+.webinar-trigger-wrapper  p a{
+	font-size: 13px;
+	font-weight: 600;
 }
 .navbar::-webkit-scrollbar-track{
 	margin-top: 0px;
