@@ -4040,6 +4040,21 @@ padding-left: 10px;
 		border: 1px solid #1b4fc2;
 		border-radius: 8px;
 	}
+	.integration-section .integration-body .integration-content ul li .integration-toolicon li img{
+		margin: 0px 10px;
+		width: 40px !important;
+	}
+	.integration-section .integration-body .integration-content{
+		padding: 0px 30px !important;
+	}
+	.compititors-cta .cta-body .compititors-cta-btns .btn{
+		padding: 12px;
+		font-size: 20px;
+		box-shadow: none;
+		float: right;
+		margin: 20px 0px;
+		
+	}
 }
 @media screen and (min-width:1700px) {
 	.competitors-banner .banner-content{
@@ -4267,6 +4282,9 @@ padding-left: 10px;
 }
 
 @media screen and (max-width:767px){
+	.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
+		display: none !important;
+	}
 	.compititors-table .table-column .card .card-body .info{
 		padding-left: 0px ;
 	}
@@ -4426,6 +4444,7 @@ padding-left: 10px;
 	font-size: 18px;
 	line-height: 26px;
 	color: #345EEF;
+	white-space:unset;
 
 
 }
@@ -4450,4 +4469,11 @@ padding-left: 10px;
 }
 .content-section .content-list li a:hover{
 	color:#000000;
+}
+.about-rops-section{
+	margin-bottom: 20px;
+}
+.about-rops-section .about-body .about-content li{ 
+	font-size: 18px !important;
+	margin: 10px;
 }
