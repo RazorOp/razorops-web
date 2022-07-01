@@ -4257,7 +4257,7 @@ padding-left: 10px;
 	
 }
 .xtra-feature .xtrafeature-body .xtrafeature-content{
-	padding-top: 120px;
+	padding-top: 85px;
 }
 .xtra-feature .xtrafeature-body .xtrafeature-content h1{
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -4478,6 +4478,20 @@ padding-left: 10px;
 	.about-vssection .about-body .about-content p{
 		font-size: 18px;
 	}
+	.get-started-section .get-started-body .get-started-content .get-started-btns a{
+		margin-bottom: 15px;
+	}
+	.signup-cta-section .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
+		margin-top: 15px !important;
+	}
+	.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-text{
+		margin-top: 35px !important;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 90px;
+	}
+
 	
 }
 
@@ -4548,13 +4562,20 @@ padding-left: 10px;
 	margin-top: 55px;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 90px;
+	line-height: 90px;
+}
+.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-text{
+	margin-top: -55px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
 	line-height: 90px;
 }
 .signup-cta-section .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
 	justify-content: center;
 	align-items: center;
-	padding: 18px 28px;
+	padding: 18px 22px;
 	margin-top: 60px;
 	background: #FFFFFF;
 	border-radius: 20px;
@@ -4564,6 +4585,7 @@ padding-left: 10px;
 	line-height: 26px;
 	color: #345EEF;
 	white-space:unset;
+	margin-right: 10px;
 
 
 }
