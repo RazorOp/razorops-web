@@ -4073,6 +4073,50 @@ padding-left: 10px;
 		margin: 20px 0px;
 		
 	}
+	.xtra-feature .xtrafeature-body .xtrafeature-content{
+		padding-top: 10px !important;
+	}
+	.xtra-feature .xtrafeature-body .xtrafeature-content h1{
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 35px !important;
+		color: #18204C;
+		margin-bottom: 0px;
+		line-height: 40px !important;
+	}
+	.xtra-feature .xtrafeature-body .xtrafeature-content p{
+		margin-bottom: 0px !important;
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px !important;
+		color: #7C819B;
+	}
+	.xtra-feature .xtrafeature-body .xtrafeature-content ul li{
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px !important;
+		line-height: 28px;
+		color: #345EEF;
+	
+	
+	}
+	.about-rops-section .about-rops-body .about-body .vstool-card .vstool-content{
+		height: 100% !important;
+	}
+	.about-rops-section .about-rops-body .about-body .vstool-card .vstool-content .vstool-text h3{
+		font-size: 17px !important;
+		line-height: 24px;
+	}
+
+}
+@media (min-width:1100px) and (max-width:1399px) {
+	.integration-section .integration-body .integration-content ul li .integration-toolicon li img{
+		margin: 8px !important;
+		width: 90px !important;
+	}	
 }
 @media screen and (min-width:1700px) {
 	.competitors-banner .banner-content{
@@ -4197,6 +4241,15 @@ padding-left: 10px;
 	padding: 60px;
 	background: linear-gradient(178.55deg, rgba(255, 255, 255, 0.8) -1.11%, rgba(232, 229, 255, 0.8) 109.65%);
 }
+.competitors-table{
+	margin-top: 20px;
+	margin-bottom: 50px !important;
+}
+.competitors-table .compare-intro ul li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
 .competitors-table table thead tr th{
 		font-weight: 900;
 		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -4216,7 +4269,7 @@ padding-left: 10px;
 	
 }
 .xtra-feature .xtrafeature-body .xtrafeature-content{
-	padding-top: 140px;
+	padding-top: 120px;
 }
 .xtra-feature .xtrafeature-body .xtrafeature-content h1{
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -4392,9 +4445,13 @@ padding-left: 10px;
 	.about-rops-section  .about-rops-body .about-rops-img{
 		
 		padding-top: 10px !important;
+		padding: 20px;
 	}
 	.about-rops-section .hidden{
 		display: block !important;
+	}
+	.about-rops-section{
+		margin-top: 20px !important;
 	}
 	.about-rops-section .about-body .about-content li{ 
 		font-size: 18px !important;
@@ -4411,6 +4468,26 @@ padding-left: 10px;
 	.about-rops-section .about-body .about-content{
 		padding: 0px !important;
 	}
+	.about-rops-section .about-body {
+		border: 0px!important;
+		padding: 15px 0px !important;
+		border-radius: 8px;
+		background: linear-gradient(178.55deg, rgba(240, 238, 255, 0.904) -1.11%, rgba(255, 255, 255, 0.8) 109.65%);
+		box-shadow: 0 14px 18px 0 rgba(2, 34, 104, 0.2);
+		margin: 15px !important;
+	}
+	.about-rops-section .about-body .vstool-card{
+		margin-bottom: 15px!important;
+	}
+	.razorops-simplified .simplified-section .simplified-content{
+		padding: 0px 20px !important;
+	}
+	.razorops-simplified .simplified-section .simplified-text .simplified-body{
+		border: 1px solid rgba(172, 158, 250, 0.842);
+		border-radius: 12px !important;
+		padding: 20px;
+		box-shadow: 0 0 1px 0 rgb(18 32 73 / 8%), 0 8px 32px 0 rgb(55 92 192 / 8%);
+	}
 	
 }
 
@@ -4420,7 +4497,7 @@ padding-left: 10px;
 	/* transform: rotate(-180deg); */
 }
 .get-started-section .get-started-body .get-started-content{
-	padding-top: 120px;
+	padding-top: 100px;
 }
 .get-started-section .get-started-body .get-started-content p{
 	margin-top: 20px;
@@ -4453,6 +4530,10 @@ padding-left: 10px;
 }
 .get-started-section .get-started-body .get-started-content .get-started-btns{
 	margin-top: 40px;
+
+}
+.get-started-section .get-started-body .get-started-content .get-started-btns a{
+	margin-right: 15px;
 }
 
 
@@ -4519,7 +4600,8 @@ padding-left: 10px;
 	color:#000000;
 }
 .about-rops-section{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 .about-rops-section .about-body .about-content li{ 
 	font-size: 18px !important;
@@ -4529,10 +4611,56 @@ padding-left: 10px;
 	border-radius: 10px;
 	color: white;
 }
+.about-rops-section .about-body  li .about-list-head{
+	font-size: 20px;
+
+}
+.about-rops-section .about-body {
+	border: 3px solid #8d86eea8;
+	padding: 20px;
+	border-radius:12px;
+	background: linear-gradient(178.55deg, rgba(240, 238, 255, 0.904) -1.11%, rgba(255, 255, 255, 0.8) 109.65%);
+	box-shadow: 0 14px 18px 0 rgba(2, 34, 104, 0.2);
+}
 .about-rops-section .about-body .about-content{
 	list-style: none;
+	padding-left: 0px !important;
 }
 .about-rops-section  .about-rops-body .about-rops-img{
+
+		padding: 140px 20px 20px 20px  ;
 		
-		padding-top: 150px;
+}
+.about-rops-section .about-body .vstool-card .vstool-content img{
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+.about-rops-section .about-body .vstool-card .vstool-content{
+	border: 1px solid rgba(172, 158, 250, 0.842);
+	border-radius: 12px !important;
+	box-shadow: 0 0 1px 0 rgb(18 32 73 / 8%), 0 8px 32px 0 rgb(55 92 192 / 8%);
+	    /* min-height: 480px !important; */
+    height: 482px !important;
+}
+.about-rops-section .about-body .vstool-card .vstool-content .vstool-text{
+	padding: 10px;
+}
+.about-rops-section .about-body .vstool-card .vstool-content .vstool-text h3{
+	font-weight: 600;
+	line-height: 30px;
+}
+.section-headernew{
+	margin: 20px 0 30px;
+	margin-top: 40px; 
+	margin-bottom: 50px;
+	font-size: 42px;
+}
+.razorops-simplified .simplified-section .simplified-content{
+	padding: 0px 120px;
+}
+.razorops-simplified .simplified-section .simplified-text .simplified-body{
+	border: 1px solid rgba(172, 158, 250, 0.842);
+	border-radius: 12px !important;
+	padding: 20px;
+	box-shadow: 0 0 1px 0 rgb(18 32 73 / 8%), 0 8px 32px 0 rgb(55 92 192 / 8%);
 }
