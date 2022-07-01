@@ -36,7 +36,6 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
             </div>
             <div class="form-group">
               <input type="email" class="form-control" id="InputEmail" placeholder=" Email" required>
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
               <input type="text" class="form-control" id="InputDesignation" placeholder=" Designation" required>
@@ -76,15 +75,23 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
   myform.addEventListener('submit',function(e){
       e.preventDefault();
 
+      const name=document.getElementById('InputName').value;
       const email=document.getElementById('InputEmail').value;
-      const password=document.getElementById('InputPassword').value;
+      const designation=document.getElementById('InputDesignation').value;
+      const phone_no=document.getElementById('InputPhonenumber').value;
+      const company=document.getElementById('InputCompany').value;
+      const country=document.getElementById('InputCountry').value;
     
 
     fetch("https://jsonplaceholder.typicode.com/posts/",{
       method: "POST",
       body: JSON.stringify({
+        name:name,
         email:email,
-        password:password,
+        designation:designation,
+        phone_no:phone_no,
+        company:company,
+        country:country
       }),
       headers: {
         "Content-Type": "application/json",
@@ -223,36 +230,25 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
         <ul class="content-list">
             <li><a>What is Razorops?</a></li>
             <li><a>What is Jenkins?</a></li>
-            <li><a>Razorops vs Jenkings</a></li>
-            <li><a>Which tool to use ? Razorops vs Jenkins?</a></li>
+            <li><a href="#competitors-table">Razorops vs Jenkings</a></li>
+            <li><a href="#which-tool-to-use">Which tool to use ? Razorops vs Jenkins?</a></li>
         </ul>
   </div>
   </div>
 
 
-  <div class="container about-rops-section">
-    <h2 class="section-header2 text-center hidden">RazorOps CI/CD Simplified</h2>
-        <div class="row about-rops-body">
-              <div class="col-sm-4 about-rops-img">
-                  <img src="/images/v2/razorops-largelogo.png" width="100%">
-              </div>
-              <div class="about-body col-sm-8">
-                <h2 class="section-header2 text-center">RazorOps CI/CD Simplified</h2>
-                <ul class="about-content">
-                        <li>
-                            Iterate faster to release more software in shorter time. Simplified processes allows any developer on the team to create and manage pipelines – no need to hire a full-time DevOps engineer to manage your pipelines.
-                        </li>
-                        <li>
-                            RazorOps reduces deployment time by downloading only modified files – no need to deploy an entire repository with every update. RazorOps reduces deployment time by downloading only modified files – no need to deploy the entire repository with every update.
-                        </li>
-                </ul>
-              </div>
-        </div>
-    
-  </div>
-
-  <div class="container competitors-table">
+  <div class="container competitors-table" id="competitors-table">
     <h2 class="section-header2 text-center">Razorops Vs Jenkins</h2>
+    <div class="compare-intro">
+     <ul>
+      <li>
+        Jenkins only provides an on-premises version whereas RazorOps offers both on-premises and SaaS version, which makes it an ideal for users that don't want to operate or maintain backend servers.
+      </li>
+      <li>
+        The tremendous amount of labor required to run Jenkins is one of its biggest drawbacks. This involves setting up the system initially, scripting to expand it into a strong CD candidate, and then maintaining it. In general, 2 to 5 engineers are required merely to maintain Jenkins on a daily basis. Because Jenkins is an open-source program, many organisations utilise it. The expense of maintaining it frequently makes it an ineffective program. Contrarily, RazorOps integrates declarative pipelines with
+      </li>
+     </ul>
+    </div>
     <table class="table table-bordered">
         <thead>
           <tr>
@@ -378,7 +374,54 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
       </table>
   </div>  
 
+<div class="container about-rops-section" id="which-tool-to-use">
+      <div class="row about-rops-body">
+            <div class="col-sm-4 about-rops-img">
+              <h2 class="section-headernew text-center">Which tool to use ? Razorops vs Jenkins ?</h2>
+            </div>
+            <div class="about-body col-sm-8 row">
+             
+              <div class="col-sm-4 vstool-card ">
+                  <div class="vstool-content">
+                    <img src="/images/saas.png" width="100%">
+                
+                      <div class="vstool-text">
+                        <h3>SaaS & On-Premises</h3>
+                        <p>
+                          Jenkins only provides an on-premises version because it is an open-source solution. For those that don't want to operate or maintain backend servers, RazorOps offers both on-premises and SaaS versions of the software.
+                        </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-4 vstool-card">
+                  <div class="vstool-content">
+                    <img src="/images/no-script-needed.png" width="100%">
+                  
+                      <div class="vstool-text">
+                        <h3>No scripting is needed</h3>
+                        <p>
+                          Jenkins is an open-source solution, but the cost and complexity of maintaining it make it inefficient. RazorOps, on the other hand, incorporates declarative pipelines with minimal maintenance overhead. Using RazorOps saves developers and DevOps teams time and effort.
+                        </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-4 vstool-card">
+                  <div class="vstool-content">
+                    <img src="/images/usability.png" width="100%">
+                  
+                      <div class="vstool-text">
+                        <h3>Usability</h3>
+                        <p>
+                          The simple fact is that engineers will need a specific quantity of plugins and scripts to make Jenkins work as they need it to. That, in turn, necessitates upkeep. On the other hand, RazorOps provides a UI that is both simple and elegant. The pipelines are declarative and do not require scripting.
+                        </p>
+                      </div>
+                  </div>
+              </div>
 
+            </div>
+      </div>
+  
+</div>
 
 <div class="compititors-cta container-fluid">
   <div class="compititors-cta-body">
@@ -394,6 +437,29 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
     </div>
   </div>
 </div>  
+
+<div class="container razorops-simplified">
+    <div class="simplified-section">
+        <h2 class="section-header2 text-center">RazorOps CI/CD Simplified</h2>
+        <div class="row simplified-content">
+          <div class="col-sm-6 simplified-text">
+              <div class="simplified-body">
+                <p>
+                  Iterate faster to release more software in shorter time. Simplified processes allows any developer on the team to create and manage pipelines – no need to hire a full-time DevOps engineer to manage your pipelines.
+                </p>
+            </div>
+          </div>
+          <div class="col-sm-6 simplified-text">
+              <div class="simplified-body">
+                <p>
+                  RazorOps reduces deployment time by downloading only modified files – no need to deploy an entire repository with every update. RazorOps reduces deployment time by downloading only modified files – no need to deploy the entire repository with every update.
+                </p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
 
 <div class="container xtra-feature">
     <div class="row xtrafeature-body">
@@ -426,7 +492,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                   
                         <img src="/images/dotted-line.png" width="100%">
                     </div>
-                    <ul class="grid d-flex flex-row col-sm-6 integration-toolicon">
+                    <ul class="grid d-flex flex-row col-sm-6 integration-toolicon" width="100%">
                         <li class="  justify-center">
                             <img src="/images/v2/github.svg" width="90" alt="github" >
                         </li>
