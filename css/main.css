@@ -321,6 +321,26 @@ th, td {
 .navbar {
 	z-index: 4;
 }
+.popup-hr{
+	height: 1.8px;
+	border: none;
+	margin: 0px 0px 6px 0px;
+	background-color: royalblue;
+
+}
+.webinar-trigger-wrapper  p{
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+.webinar-trigger-wrapper  p a{
+	font-size: 13px;
+	font-weight: 600;
+}
+.navbar::-webkit-scrollbar-track{
+	margin-top: 0px;
+}
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
 	font-weight: 500;
@@ -1041,6 +1061,9 @@ a {
 		max-width: 100%;
 		height: auto;
 		margin: 0 auto;
+	}
+	.content-wraper {
+		margin-top: 60px;
 	}
 }
 /*---features----*/
@@ -2634,7 +2657,7 @@ a {
 
 @media (max-width:767px){
 	.customers-banner{
-		margin-top: 20px;
+		margin-top: 60px;
 		background-size: 900px 700px;
 	}
 	.webinar-register-form-hidden{
