@@ -1062,6 +1062,9 @@ a {
 		height: auto;
 		margin: 0 auto;
 	}
+	.content-wraper {
+		margin-top: 60px;
+	}
 }
 /*---features----*/
 .feature-img{
