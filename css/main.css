@@ -1062,6 +1062,9 @@ a {
 		height: auto;
 		margin: 0 auto;
 	}
+	.content-wraper {
+		margin-top: 60px;
+	}
 }
 /*---features----*/
 .feature-img{
@@ -2654,7 +2657,7 @@ a {
 
 @media (max-width:767px){
 	.customers-banner{
-		margin-top: 20px;
+		margin-top: 60px;
 		background-size: 900px 700px;
 	}
 	.webinar-register-form-hidden{
