@@ -1,8 +1,6 @@
 ---
 title: Container Native DevOps & CICD Newsletter 12
-description: Kubernetes is a portable, extensible, open-source platform for managing
-  containerized workloads and services. Kubernetes facilitates both declarative configuration
-  and automation.
+description: Kubernetes-a necessity in the Cloud-Native world. Subscribe to get the latest updates on container-native and DevOps news around the globe.
 permalink: "/newsletter/razorops-cicd-newsletter-12"
 layout: newsletter
 date: '2022-07-02 10:52:20'
