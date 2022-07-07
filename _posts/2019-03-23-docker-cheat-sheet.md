@@ -1,13 +1,14 @@
 ---
 title: Docker Cheat Sheet
-description: Developers can build any app in any language using any toolchain. “Dockerized” apps are completely portable and can run anywhere
+description: Developers can build any app in any language using any toolchain. “Dockerized”
+  apps are completely portable and can run anywhere
 keywords: Why Docker, Installation, Dockerfile, Layers
 permalink: "/blog/:title/"
 layout: post
-date: '2018-07-15 14:15:43'
+date: '2022-04-21 14:15:43'
 author: Shyam Mohan
 category: Docker
-image: /images/blog/docker.jpg
+image: "/images/blog/docker.jpg"
 ---
 
 ![](/images/blog/docker.jpg)
@@ -800,4 +801,3 @@ docker run --rm -it -v "$PWD/httpd.conf:/usr/local/apache2/conf/httpd.conf:ro" -
 ```
 
 <br>
-{% include schedule-demo.html %}

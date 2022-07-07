@@ -1036,4 +1036,3 @@ Kubernetes is an open-source container-orchestration system for automating appli
 </div>
 
 <br>
-{% include schedule-demo.html %}

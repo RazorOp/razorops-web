@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+     <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NMVBVZ5');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,6 +33,11 @@
     
   </head>
   <body class="layout-blog">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMVBVZ5"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
     <!-- navbar -->
     <header class="default-header">{% include header.html %}</header>
     <div class="content-wraper">
@@ -31,7 +45,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-9">
-              <div class="blog-post-content">
+              <div class="blog-post-content" id="blog-post-margins">
                 <div class="blog-post-body">
                   <h1>{{ page.title }}</h1>
                   <time>
@@ -42,17 +56,26 @@
                 </div>
               </div>
               <br><br>
-              <div class="blog-post-content">
+              <div class="blog-post-content" id="blog-post-margins">
                 <center><p><b>Enjoyed this article? Share it.</b><p></center>
                 <br>
                 <div class="sharethis-inline-share-buttons"></div>
               </div>
               <br><br>
+            
+
+            {% if page.author == "Shyam Mohan" %}
+              {% include about-shyam.html %}
+            {% elsif page.author == "Saurabh Yadav" %}
+              {% include about-saurabh.html %}
+            {% endif %}
+
             </div>
 
             <div class="col-md-3">
               {% include blog-menu.html %}
             </div>
+
 
           </div>
         </div>

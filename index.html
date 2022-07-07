@@ -34,31 +34,7 @@ image: /images/container-native-cicd.jpg
 	</div>
 
 </div>
-<div class="sticky-image">
-	<div class="sticky-content">
-		<img src="/images/close-button2.png" width="30px" class="new-close-image" id="close">
-		<img src="/images/cicd-pipeline.jpg" width="100%">
-		<h3 class="popup-margin">Checkout our upcoming event</h3>
-		<p class="event-desc popup-margin"><b>
-			Topic - Webinar on CI/CD Adoption
-			Time: 26th Mar 2022 at 11:30 A.M - 12:30 P.M
-		</b></p>
-		<p class="seat-book-btn popup-margin"><a href="/webinars/discussion-about-cicd-adoption/" class="wo-text-decoration btn">Book Your Seat !!</a></p>
 
-	</div>
-</div>
-<script>
-	
-		
-	
-		window.onload = () => {
-  document.getElementById('close').onclick = function() {
-    this.parentNode.remove()
-    return false;
-  };
-};
-		
-</script>
 <div class="razorops-ci-cd">
 	<div class="container">
 			<div class="section-header"><h2>Razorops makes it easy</h2></div>
@@ -94,34 +70,10 @@ image: /images/container-native-cicd.jpg
 		<a href="https://dashboard.razorops.com/users/auth/gitlab" class="btn btn-lg btn-primary mr-4 btn-width mb-10 mobile"><img src="images/v2/gitlab.png" class="btn-icon">Gitlab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	</div>
 </div>
-
 {% include testimonial.html %}
 <!-- {% include awards.html %} -->
-
-
-<div class="container">
-  <div class="blog-wraper">
-    <div class="blog-post">
-      {% assign blogs = site.posts %}
-      {% for post in blogs limit:3 %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <div class="col-sm-4 post-box">
-            <div class="blog-content">
-                <img src="{{ post.image }}"/>
-              <div class="blog-body">
-                <!-- <time class="pull-right">{{ post.date | date_to_string }}</time> -->
-                <h1>{{ post.title }}</h1>
-                <p>{{ post.description}}</p>
-                <br>
-                <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a>
-              </div>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+<div class="section-header"><h2>Latest Blog Articles</h2></div>
+{% include new-blogs-cta.html %}
 
 {% include footer_cta.html %}
 

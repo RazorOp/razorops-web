@@ -18,6 +18,7 @@ image: images/v2/how-it-works.png
 Continuous Integration(CI) is a software development practice where developers frequently merge the code and the changes in a central repository. The important goals of continuous integration is to find and resolve the bugs more quicker, improve the software quality, and reduce the time taken to validate and release new software updates.
 Continuous Delivery(CD), which is done on the top of Continuous Integration and includes the practice of automating the entire software release process and builds.
 
+<br>
 **WHAT IS CI/CD PIPELINE?**
 
 CI/CD pipeline is a series of steps that include all the stages from the beginning of the CI/CD process and it is responsible for creating an automated and seamless software delivery process. With a CI/CD pipeline, a software release artifact can move and progress through the pipeline right from the code check-in stage through the builds, tests, and different deployment stages.
@@ -29,6 +30,10 @@ A CI/CD pipeline consists of a series of sub-processes that can be classified in
 
 ![cicd-pipeline](/images/blog/cici-pipeline-blog.png)
 
+Let's Check : [Continuous Integration vs Continuous Deployment vs Continuous Delivery ](https://razorops.com/blog/difference-between-continuous-integration-continuous-deployment-and-continuous-delivery/?utm_source=ci-cd-pipeline&utm_medium=blog&utm_campaign=Internallink )
+
+
+<br>
 **Pipeline stages :**
 
 A CI/CD pipeline can be classified further into four main stages:
@@ -54,6 +59,7 @@ A CI/CD pipeline can be classified further into four main stages:
 
 3. **Functional test:**  This is end-to-end testing of application or product, generally performed on staging servers as part of the release process.
 
+Know more: [Unit Test vs Integration Test](https://razorops.com/blog/unit-test-vs-integration-test-major-difference-between-unit-testing-and-integration-test/?utm_source=ci-cd-pipeline&utm_medium=blog&utm_campaign=Internallink)
 
 **4. Deployment:**  Once the build is completed and the automated tests for the release are completed, the last stage of the pipeline is to automate deployment of the new code to the next environment in the pipeline. In this stage, the tested code is deployed to the production environment.There are different types of deployment strategies such as blue-green deployment, canary deployment, and in-place deployment for deploying on a production environment:
 
@@ -61,7 +67,8 @@ A CI/CD pipeline can be classified further into four main stages:
 2. In a canary deployment, the deployment is done to lesser nodes first and, after it is tested using those nodes, and then it will be deployed to all the nodes.
 3. In-place deployment deploys the code directly to all the live nodes and might suffer downtime; however, with rolling updates, you can reduce or remove downtime.
 		
-		
+
+<br>  	
 **Benefits of CI/CD:**
 
 1. Automated testing allows continuous delivery processes to keep checks of software quality and security, and increases the profitability of code in production.
@@ -71,11 +78,10 @@ A CI/CD pipeline can be classified further into four main stages:
 
 
 
-
+<br>
 
 **CONCLUSION:**
  
 A CI/CD pipeline automates the [software delivery process](http://localhost:4000/product#how-it-works ). The pipeline builds the code, runs tests (CI), and safely deploys a new version of the application (CD). Automated pipelines will help to remove manual errors, provide systematized feedback loops to developers, and enable fast product iterations and deliverability .
 Razorops is a [CI/CD platform ](https://razorops.com/ )which helps to be 100% operational on a technical level so we can focus on delivering the best product in a short amount of time.With Razorops,there will be very little overhead and
 
-{% include schedule-demo.html %}

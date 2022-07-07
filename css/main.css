@@ -115,9 +115,15 @@ address {
 	margin-top: 80px;
 }
 
+
 .btn-icon{
 	height: 1.75rem;
   margin-right: 1rem;
+  margin-left: .5rem;
+}
+.btn-icon2{
+	height: 1.90rem;
+  margin-right: 0.6rem;
   margin-left: .5rem;
 }
 
@@ -143,13 +149,19 @@ address {
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.15);
 	        box-shadow: 0 2px 2px rgba(0,0,0,.15);
 }
+.rounded{
+	border-radius: 200px;
+}
 .btn.btn-rounded {
 	border-radius: 21px !important;
 }
 .btn-lg.btn.btn-rounded {
 	border-radius: 23px !important;
+	margin-bottom: 20px;
 }
-
+.full-rounded{
+	border-radius: 35px !important;
+}
 @media (min-width: 1400px) {
 	.container {
 		width: 1360px;
@@ -162,9 +174,10 @@ address {
 
 .section-header2 {
 	position: relative;
-	margin: 20px 0 20px;
+	margin: 20px 0 30px;
 	margin-top: 40px; 
-	font-size: 30px;
+	margin-bottom: 50px;
+	font-size: 42px;
 }
 .section-header3 {
 	position: relative;
@@ -308,6 +321,26 @@ th, td {
 .navbar {
 	z-index: 4;
 }
+.popup-hr{
+	height: 1.8px;
+	border: none;
+	margin: 0px 0px 6px 0px;
+	background-color: royalblue;
+
+}
+.webinar-trigger-wrapper  p{
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+.webinar-trigger-wrapper  p a{
+	font-size: 13px;
+	font-weight: 600;
+}
+.navbar::-webkit-scrollbar-track{
+	margin-top: 0px;
+}
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
 	font-weight: 500;
@@ -426,10 +459,24 @@ th, td {
 		border-color: transparent transparent #ffffff transparent;
 		z-index:9999;
 	}
+	.navbar-nav{
+		height: 0px !important;
+	}
+	.footer-social-right{
+		float: right;
+		margin-right: 20px;
+	} 
+	.footer-social-left{
+		float: left;
+	} 
+	.footer-social-left a{
+		font-size: 18px;
+	}	
+
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		
-	text-align: center;
+	text-align: left;
 	text-transform: capitalize !important;
 }
 
@@ -440,6 +487,16 @@ th, td {
 		text-align: center;
 		text-transform: capitalize;
 	}
+	.footer-social-right{
+		float: none;
+	} 
+	.footer-social-left{
+		float: none;
+		margin-bottom: 10px;
+	} 
+	.footer-social-left a{
+		font-size: 20px;
+	}	
 }
 
 @media (max-width: 667px) {
@@ -471,11 +528,15 @@ th, td {
 	float: left;
 	padding: 5px;
 }
+.footer-nav .tickrow{
+	text-align: left;
+}
 .footer-nav {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
+
 .footer-nav > li {
   font-size: 16px;
 	display: block;
@@ -504,12 +565,13 @@ th, td {
 }
 .lower-footer{
  	color: #000000;
-	 background-color: #a5a5a5;
+	 background-color: #f8f8f8;
 	 padding-top: 20px;
+	 padding-bottom: 20px;
  }
  .footer-hr{
-	 margin-top: 5px;
-	 margin-bottom: 5px;
+	 margin-top: 0px;
+	 margin-bottom: 0px;
 	 background: rgb(204, 204, 204);
 	 height: 1px;
  }
@@ -519,13 +581,16 @@ th, td {
 .lower-footer a {
 	color: #253858;
 }
-.footer-social{
+/* .footer-social{
 	margin-left: 20px;
-	margin-bottom: 20px;
-}
+} */
 .footer-social a {
 	display: inline-block;
-	margin-right: 8px;
+	margin-bottom: 8px;
+	margin-right: 10px;
+}
+.footer-social-strip{
+	margin-top: 28px;
 }
 /*---end---*/
 .banner {
@@ -731,13 +796,22 @@ th, td {
 .client-logo-item-6 {
 	right: 10px;;
 } */
+.do-banner{
+	padding: 50px;
+ 	margin-top: 5px;
+}
+.do-banner-home-pd{
+	padding: 75px 15px !important;
+}
 .customers-banner{
   text-align: center;
 	padding: 150px 15px;
-	background-image: url("/images/v2/home-banner.png");
+	background-image: url("/images/v2/home-banner.webp");
  	background-color: #FFF;
  	color: #FFF;
  	margin-top: -80px;
+	 background-size: 100% 100%;
+
 }
 .customers-banner2{
 	position: relative;
@@ -853,6 +927,7 @@ th, td {
   margin: auto;
   text-align: center;
   padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .team-title {
@@ -986,6 +1061,9 @@ a {
 		max-width: 100%;
 		height: auto;
 		margin: 0 auto;
+	}
+	.content-wraper {
+		margin-top: 60px;
 	}
 }
 /*---features----*/
@@ -1148,7 +1226,9 @@ a {
 .center {
 	text-align: center;
 }
-
+.non-h1-margin{
+	margin-top: 0px !important;
+}
 
 /*-----docs----*/
 .content-wraper {
@@ -1292,6 +1372,91 @@ a {
 	padding: 50px;
 }
 
+ @media screen and (min-width:811px) {
+	.thankyou {
+		margin:100px;
+	}
+	
+	.thankyou h1{
+		font-size: 60px;
+	}
+	.thankyou p{
+		font-size: 18px;
+		font-weight: 400;
+		padding: 50px;
+	}
+	.demo-video{
+		width:560px ;
+		height:315px;
+		align-self: center;
+		margin-top: 20px;
+	}
+	.tickrow{
+		display: flex;
+		flex-direction: row;
+	}
+	.signup-agg {
+		color: rgb(136, 136, 136);
+		font-size: 11px;
+	}
+ }
+ @media screen and (min-width:768px) and (max-width:810px) {
+	.thankyou {
+		margin:20px;
+		margin-top: 130px;
+	}
+	
+	.thankyou h1{
+		font-size: 60px;
+	}
+	.thankyou p{
+		font-size: 18px;
+		font-weight: 400;
+		padding: 50px;
+	}
+	.tickrow{
+		display: flex;
+		flex-direction: row;
+	}
+	.demo-video{
+		width:560px ;
+		height:315px;
+		align-self: center;
+		margin-top: 10px;
+	}
+	.signup-agg {
+		color: rgb(136, 136, 136);
+		font-size: 11px;
+	}
+ }
+ @media screen and (max-width:767px) {
+	.thankyou {
+		margin:20px;
+		margin-top: 40px;
+	}
+	
+	.thankyou p{
+		font-size: 18px;
+		font-weight: 400;
+		padding: 50px;
+	}
+	.demo-video{
+		width:260px ;
+		height:215px;
+		align-self: center;
+	}
+	.tickrow{
+		display: flex;
+		flex-direction: row;
+	}
+	.list-styles{
+		padding-left: 0px;
+	}
+	.signup-agg {
+		color: rgb(136, 136, 136);
+		font-size: 9px;
+	}
+ }
 .blog-menu {
 
 }
@@ -1300,6 +1465,7 @@ a {
 	width: 300px;
 	height: 200px;
 }
+
 
 .razorops-demo {
 	/*background-image: url("../images/razorops-demo.svg");*/
@@ -1767,6 +1933,15 @@ a {
 		padding-top: 6px; 
 		background-color: azure;"
 	}
+	.let-start-cta-btn2 .btn-bghover{
+		/* margin: 37px 0px 0px 120px !important;  */
+		font-size: 23px !important;
+		font-weight: 600; 
+		border-radius: 10px; 
+		margin-top: 50px;
+		color: white;
+	}
+
 	.bs-accordion .panel-heading a{
 		
 		display: block;
@@ -1917,7 +2092,12 @@ a {
 
 
 @media ( min-width: 768px ){
-	
+	.webinar-content{
+		border: 1px solid #EEE;
+		box-shadow: 0 0 1px 0 rgb(18 32 73 / 8%), 0 8px 32px 0 rgb(55 92 192 / 8%);
+		height: 460px !important;
+	}
+
 	#faq-panel{
 		border-radius: 10px;
 		padding-left: 120px;
@@ -1936,17 +2116,11 @@ a {
 	.webinar-register-form-hidden{
 		visibility: hidden;
 	}
-	.onewebinar{
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		  transition: 0.3s;
-		border-radius: 5px;
-		margin-right: 30px;
-		height: 390px;
-		padding: 0px;
-	}
-	.webinar-upcoming-section{
+
+	
+	/* .webinar-upcoming-section{
 		margin-left:120px; 
-	}
+	} */
 	.partner-left-section div p{
 		font-size: 21px;
 		font-weight: 600;
@@ -1959,13 +2133,26 @@ a {
 		color: white;
 	}
 	.let-start-cta-btn a{
-		font-size: 18px; 
+		font-size: 20px; 
 		font-weight: 600; 
-		border-radius: 10px; 
+		border-radius: 20px; 
 		color: rgb(0, 0, 0); 
 		margin: 57px 0px 0px 80px; 
 		padding-top: 6px; 
 		background-color: azure;"
+	}
+	.let-start-cta-btn .btn-bghover{
+		margin: 37px 0px 0px 120px !important; 
+		font-size: 23px !important;
+		padding-top: 10px !important;
+		font-weight: 600; 
+
+	}
+	.let-start-cta-btn .btn-bghover2{
+		margin: 37px 0px 0px 120px !important; 
+		font-size: 23px !important;
+		padding: 10px !important;
+		
 	}
 	.bs-accordion .panel-heading a{
 		display: block;
@@ -2030,6 +2217,7 @@ a {
 	.partner-card-section{
 		display: flex;
 		flex-direction: row;
+		margin-bottom: 20px;
 	}
 	.partner-card{
 		position: relative;
@@ -2184,14 +2372,7 @@ a {
 	.webinar-register-form-hidden{
 		visibility: visible;
 	}
-	.onewebinar{
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		  transition: 0.3s;
-		border-radius: 5px;
-		margin-bottom: 30px;
-		height: 280px;
-		padding: 0px;
-	}
+	
 	.webinar-upcoming-section{
 		margin-left:70px; 
 	}
@@ -2234,7 +2415,8 @@ a {
 
 /* ----------------------clients slider---------------------------- */
 .slider{
-	height: 230px;
+	height: 280px;
+	margin-top: 50px !important;
 	margin: auto;
 	position: relative;
 	width:80% ;
@@ -2475,7 +2657,8 @@ a {
 
 @media (max-width:767px){
 	.customers-banner{
-		margin-top: 20px;
+		margin-top: 60px;
+		background-size: 900px 700px;
 	}
 	.webinar-register-form-hidden{
 		visibility: visible;
@@ -2542,15 +2725,7 @@ a {
 	.register-cta .text-white{
 		color: white;
 	}
-	.onewebinar{
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		  transition: 0.3s;
-		border-radius: 5px;
-		margin-bottom: 30px;
-		height: 370px;
-		padding: 0px;
-		
-	}
+
 	.webinar-upcoming-section{
 		margin:20px; 
 		
@@ -2682,6 +2857,8 @@ a {
 @media screen and (min-width:768px) and (max-width:913px) {
 	.customers-banner{
 		margin-top: 20px;
+		background-size: 780px 700px;
+
 	}
 	.customers-banner2{
 		margin-top: 20px;
@@ -2789,7 +2966,9 @@ a {
 	transition: 0.3s;
   border-radius: 5px;
 }
-
+.onewebinar{
+	margin-bottom: 60px;
+}
 .onewebinar .webinar-card-text{
 margin-top: 20px;
 padding-left: 10px;
@@ -2880,6 +3059,9 @@ padding-left: 10px;
 .blog-section .row .col-sm-4 .text-decoration-none{
 	text-decoration: none;
 }
+.text-decoration-none{
+	text-decoration: none !important;
+}
 /* *************************webinar thank you************************** */
 .webinar-thakyou-banner{
 	text-align: center;
@@ -2919,11 +3101,27 @@ padding-left: 10px;
 	font-weight: 501;
 	padding: 12px 10px 8px 10px;
 }
+.bg-org2{
+	background-color: rgb(231, 113, 59);
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-style:  Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI","Candara,Calibri,Arial,sans-serif;
+	font-weight: 600;
+	padding: 8px !important;
+	/* width: 27% !important; */
+}
+.text-darkbold{
+	color: #000;
+	font-weight: 600;
+}
 #btn-clr:hover{
 	color: #000;
 }
 .wo-text-decoration{
 	text-decoration: none !important;
+}
+.webinar-card-mark{
+	border-radius: 5px;
 }
 .web-card{
 	border: 1px solid grey;
@@ -2941,7 +3139,7 @@ padding-left: 10px;
 
 .addeventatc{
 	font-weight: 501 !important;
-	background: rgb(231, 113, 59) !important;
+	background: rgb(255, 255, 255) !important;
 	z-index: auto !important;
 }
 
@@ -2986,4 +3184,729 @@ padding-left: 10px;
 }
 .new-close-image:active .sticky-content{
 	visibility: hidden;
+}
+/* ******************signup section************************* */
+@media (min-width:768px){
+
+.signup-sectionss{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	
+}
+.anchorbg-none{
+	color: #123db3;
+}
+.anchorbg-none:hover,
+.anchorbg-none:focus{
+	background-color:transparent !important;
+	
+}
+.signup-btns1{
+	background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
+	color:white;
+}
+.signup-btns1:hover{
+	color: white;
+	background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
+
+}
+.signup-btns2:hover{
+	background-color: #0052cc !important;
+	color:white;
+}
+.signup-btns3:hover{
+	background-color: #f6814e !important;
+	color: white;
+}
+.signup-btns2{
+	background-color: #0052cc !important;
+	color:white;
+}
+.signup-btns3{
+	background-color: #f6814e !important;
+	color:white;
+}
+.signup-sectionss .signup-sub-section1{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+	
+}
+.signup-sectionss .signup-sub-section2{
+	/* padding-top: 170px; */
+	padding-top: 70px;
+	padding-bottom: 50px;
+	
+}
+
+.signup-sub-section1 .signup-small{
+	color: grey;
+	
+}
+.signup-sub-section1 > .signup-description{
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.signup-ext-info{
+	margin: 0px;
+}
+}
+@media  (min-width:768px) and (max-width:1024px) {
+	.signup-sectionss{
+		margin-top: 160px;
+		margin-bottom: 30px;
+		
+		
+	}
+
+	.signup-sectionss .signup-sub-section2{
+		padding-top: 70px;
+		padding-bottom: 50px;
+		
+	}
+}
+@media (min-width:1330px) {
+	/* .signup-sectionss{
+		margin-top: 160px;
+		margin-bottom: 30px;
+		
+		
+	} */
+	.signup-sectionss .signup-sub-section2{
+		padding-top: 40px;
+		padding-bottom: 50px;
+		
+	}
+	
+}
+@media (max-width:767px) {
+	.signup-sectionss{
+		margin-top: 40px;
+		margin-bottom: 20px;
+		
+		
+	}
+	.communitycard{
+		/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+		padding: 20px;
+		width: 100%;
+	}
+	.anchorbg-none{
+		color: #123db3;
+	}
+	.anchorbg-none:hover,
+	.anchorbg-none:focus{
+		background-color:transparent !important;
+		
+	}
+	.signup-btns1{
+		background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
+		color:white;
+	}
+	.signup-btns1:hover{
+		color: white;
+		background: linear-gradient(180deg, rgba(52,183,89,0.15) 0%, rgba(46,164,79,0) 100%),#2ea44f !important;
+	
+	}
+	.signup-btns2:hover{
+		background-color: #0052cc !important;
+		color:white;
+	}
+	.signup-btns3:hover{
+		background-color: #f6814e !important;
+		color: white;
+	}
+	.signup-btns2{
+		background-color: #0052cc !important;
+		color:white;
+	}
+	.signup-btns3{
+		background-color: #f6814e !important;
+		color:white;
+	}
+	
+	.signup-sectionss .signup-sub-section1{
+		padding-top: 0px;
+		padding-bottom: 70px;
+		
+	}
+	.signup-sectionss .signup-sub-section2{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		
+	}
+	.signup-sub-section1 .signup-small{
+		color: grey;
+		
+	}
+	.signup-sub-section1 > .signup-description{
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+
+.blog-tables, th, td {
+	border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+/* ****************************signup form ************************* */
+
+.modalnew {
+	display: none; 
+	position: fixed; 
+	z-index: 1; 
+	padding-top: 100px; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-contentnew {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 40%;
+  }
+  
+  .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+  .greentext{
+	color: #3165e7;;  
+}
+.list-styles{
+	list-style: none;
+}
+
+.list-styles .ticksign{
+	font-size: 30px;
+	color: #093586;
+	margin-bottom: 0px;
+	font-weight: 500;
+}
+.list-styles .bullets{
+	font-size: 25px;
+	
+	font-weight: 500;
+}
+.signup-head{
+	font-weight: 600;
+}
+
+
+.communitycard p{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+
+}
+
+#myBtn{
+	cursor: pointer;
+}
+
+#signup-policy{
+	text-align: left !important;
+}
+.join-community{
+	margin-top: 20px;
+
+}
+
+@media screen and (max-width:767px) {
+	#signup-policy{
+		text-align: left !important;
+	}
+	.mob-margin{
+		margin-top: 20px;
+	}
+	.webinar-content{
+		border: 1px solid #EEE;
+		box-shadow: 0 0 1px 0 rgb(18 32 73 / 8%), 0 8px 32px 0 rgb(55 92 192 / 8%);
+		height: 420px !important;
+	}
+}
+
+.headpad{
+	font-size: 42px;
+	padding: 0px 40px;
+}
+.text-blue{
+	color: #0052cc;
+}
+.otherwebinar{
+	margin-top: 45px;
+}
+.other-webinar-card{
+	
+		margin-bottom: 10px;
+		min-height: 480px !important;
+}
+.other-webinar-card .other-webinar-info{
+	margin-top: 4px;
+}
+.other-webinar-card img{
+	top: 50%;
+    left: 50%;
+    max-width: 100%;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 1px 0 rgb(18 32 73 / 8%), 0 8px 32px 0 rgb(55 92 192 / 8%);
+}
+.webinar-body{
+	padding: 10px;
+}
+
+/* ***************************Digital ocean page******************************* */
+
+.do-razorops-info{
+	margin-top: 40px;
+}
+
+.do-form{
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+}
+.do-form .doform-text{
+	color: #000000;
+}
+/* .do-productcard{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		border-radius: 5px;
+		margin-left: 30px;
+		padding: 20px;
+} */
+.do-products{
+	padding: 40px;
+}
+.tickrow >.ticksign >img{
+	width: 40px;
+}
+
+.do-productcard .list-styles .tickrow{
+	margin-bottom: 30px;
+}
+.do-productcard .list-styles .tickrow .ticksign{
+	margin-right: 10px;
+}
+.do-productcard .list-styles .tickrow .bullets{
+	margin-top: 5px;
+	font-size: 20px;
+}
+.do-productcard .docard-text{
+	font-size: 20px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+.do-services h2{
+	font-size: 42px;
+}
+.do-services{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.docta-btn{
+	font-size: 20px;
+}
+
+.do-strip{
+	margin-bottom: 40px;
+	background-color: #ebebeb;
+}
+.do-strip h2{
+	color: white;
+}
+.do-razorops-text{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.do-razorops{
+	margin-bottom: 30px;
+
+}
+
+.dolist-head{
+	color: #0940a7;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.let-start-cta h1{
+	font-size: 50px;
+	line-height: 60px;
+}
+.let-start-cta h2{
+	font-size: 37px;
+}
+
+
+
+.do-signupcta-head .do-acntbtn a {
+		background-color: #0052cc;
+		color: white;
+}
+.do-strip .do-acntbtn a {
+	background-color: #0052cc;
+	color: white;
+}
+@media  (max-width:767px){
+	.do-productcard{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		border-radius: 5px;
+		padding: 20px;
+		height: 100%;
+		margin-bottom: 20px;
+	}
+	.razorops-do-img{
+		width: 200px;
+		margin-top: -28px;
+	}
+	.razorops-do-img2{
+		width: 230px;
+		margin-top: -30px;
+	}
+	.razorops-plus-img{
+		visibility: hidden;
+	}
+	.plus-adding{
+		font-size: 50px;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	.do-banner{
+		padding: 20px;
+	}
+	.do-banner .do-main-heading{
+		line-height: 35px;
+	}
+	.do-banner .list-styles .tickrow{
+		margin-bottom: 15px;
+	}
+	.do-banner .list-styles {
+		padding-left: 0px !important;
+		margin-bottom: 50px;
+	}
+	.do-banner .list-styles .tickrow .bullets{
+		margin-left: 10px;
+		margin-top: 8px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.do-banner .list-styles .tickrow .ticksign img{
+		
+		width: 20px;
+	}
+	.do-banner .docard-text{
+		font-size: 18px;
+	}
+	.do-signupcta-features{
+		/* background-color: #000000; */
+		padding: 20px;
+	}
+	.do-signupcta-head{
+	
+		padding: 40px;
+	}
+	.do-signupcta-features .col-sm-4{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		border-radius: 5px;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	.do-signupcta{
+		/* background-color: #0033dbbe; */
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		margin-bottom: 20px;
+		margin-top: 80px;
+		margin-left: 20px;
+		margin-right: 20px;
+	
+	}
+	.do-signup-list li{
+		margin-bottom: 14px;
+	}
+	.do-signup-list li .ticksign{
+		font-size: 20px;
+	}
+	.do-signup-list li .bullets{
+		font-size: 17px;
+	}
+	.let-start-cta-btn2{
+		text-align: center;
+	}
+	
+}
+@media screen and (min-width:768px) and (max-width:820px) {
+	.do-productcard{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		border-radius: 5px;
+		padding: 20px;
+	
+		height: 100%;
+	
+
+	}
+	.do-banner .signup-sectionss{
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	.do-banner .list-styles .tickrow{
+		margin-bottom: 15px;
+	}
+	.do-banner .list-styles {
+		padding-left: 0px !important;
+	}
+	.do-banner .list-styles .tickrow .bullets{
+		margin-left: 10px;
+		margin-top: 8px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.do-banner .list-styles .tickrow .ticksign img{
+		
+		width: 20px;
+	}
+	.do-banner .docard-text{
+		font-size: 18px;
+	}
+	.razorops-plus-img{
+		visibility: hidden;
+	}
+	.plus-adding{
+		font-size: 50px;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	
+	.razorops-do-img2{
+		width: 250px;
+		margin-top: -30px;
+	}
+	.do-signupcta-features{
+		/* background-color: #000000; */
+		margin: 40px 0px 40px 0px;
+		padding: 20px;	
+	}
+	.do-signupcta-features .col-sm-4{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		border-radius: 5px;
+		padding: 10px;
+		height: 320px;
+	}
+	.do-signupcta{
+		/* background-color: #0033dbbe; */
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		margin-bottom: 20px;
+		margin-top: 80px;
+		padding: 40px;
+	
+	}
+	.do-signup-list li{
+		margin-bottom: 14px;
+	}
+	.do-signup-list li .ticksign{
+		font-size: 20px;
+	}
+	.do-signup-list li .bullets{
+		font-size: 17px;
+	}
+	.do-signup-list{
+		padding-inline-start: 0px !important;
+	}
+	.do-services img{
+		padding: 50px;
+	}
+	.let-start-cta-btn2{
+		text-align: left;
+	}
+	.let-start-cta-btn2 .btn-bghover{
+		/* margin: 37px 0px 0px 120px !important;  */
+		font-size: 23px !important;
+		padding-top: 10px !important;
+		font-weight: 600; 
+		border-radius: 20px; 
+		margin-top: 20px;
+		margin-left: 70px;
+		color: white;
+	}
+	
+
+}
+.bg-dark{
+	background-color: black;
+}
+.color-white {
+	color: white !important;
+}
+.webinar-section{
+	margin-top: 50px;
+}
+@media (min-width:821px) {
+	.do-productcard{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		border-radius: 5px;
+		padding: 40px;
+	
+		height: 620px;
+	
+
+	}
+	.do-banner .list-styles .tickrow{
+		margin-bottom: 20px;
+	}
+	.do-banner .list-styles {
+		padding-left: 0px !important;
+	}
+	.do-banner .list-styles .tickrow .bullets{
+		margin-left: 10px;
+		margin-top: 6px;
+		font-size: 24px;
+	}
+	.do-banner .docard-text{
+		font-size: 18px;
+	}
+	.razorops-do-img{
+		margin-right: 40px;
+		width: 200px;
+		margin-top: -28px;
+	}
+	.razorops-do-img2{
+		margin-right: 40px;
+		width: 230px;
+		margin-top: -30px;
+	}
+	.razorops-plus-img{
+		font-size: 50px;
+		margin-right: 40px;
+		font-weight: 600;
+	}
+
+	.plus-adding{
+		visibility: hidden;
+		display: none;
+	}
+	.do-signupcta-features{
+		/* background-color: #000000; */
+		margin: 40px 170px 40px 170px;	
+		padding: 20px;
+	}
+	.do-signupcta-head{
+	
+		padding: 40px;
+	}
+	.do-signupcta-features .col-sm-4{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		border-radius: 5px;
+		padding: 10px;
+		height: 260px;
+	}
+	.do-signup-list{
+		padding-inline-start: 5px !important;
+	}
+	.do-signupcta{
+		/* background-color: #0033dbbe; */
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		margin-bottom: 20px;
+		margin-top: 80px;
+	
+	}
+	.do-signup-list li{
+		margin-bottom: 14px;
+	}
+	.do-signup-list li .ticksign{
+		font-size: 20px;
+	}
+	.do-signup-list li .bullets{
+		font-size: 17px;
+	}
+	.do-services img{
+		padding: 50px;
+	}
+	.let-start-cta-btn2 .btn-bghover{
+		margin: 37px 0px 0px 120px !important; 
+		font-size: 23px !important;
+		padding-top: 10px !important;
+		font-weight: 600; 
+		border-radius: 20px; 
+		color: white;
+
+
+	}
+	.onewebinar .takeaways-list h3{
+		font-weight: 600;
+	}
+	
+	
+
+
+	
+}
+/* **************************************** */
+
+.art-card{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.plus-size{
+	font-size: 55px;
+	padding-top: 30px;
+}
+.do-rointro{
+	line-height: 38px;
+}
+
+
+.linkdin-blue{
+	background-color: #0077b5;
+	color: white !important;
+	font-weight: 600;
+}
+
+.news-letter-description{
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-height: 6.5em;
+	line-height: 1.6em;
+
+}
+
+.text-grey{
+	color: grey;
+}
+.text-bolder{
+	font-weight: 600;
 }
