@@ -4559,11 +4559,12 @@ padding-left: 10px;
 	line-height: 90px;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
-	margin-top: 55px;
+	margin-top: 45px;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 90px;
 	line-height: 90px;
+	padding: 40px 60px;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-text{
 	margin-top: -55px;
@@ -4576,7 +4577,7 @@ padding-left: 10px;
 	justify-content: center;
 	align-items: center;
 	padding: 18px 22px;
-	margin-top: 60px;
+	margin-top: 70px;
 	background: #FFFFFF;
 	border-radius: 20px;
 	font-style: normal;
