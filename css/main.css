@@ -3392,8 +3392,9 @@ padding-left: 10px;
   .closebtn {
 	color: #aaaaaa;
 	float: right;
-	font-size: 28px;
+	font-size: 40px;
 	font-weight: bold;
+	margin-right: 15px;
   }
   
   .closebtn:hover,
@@ -3401,6 +3402,10 @@ padding-left: 10px;
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
+  }
+  .modal-header{
+	padding: 0px !important;
+	border-bottom: none !important;
   }
   .close {
 	color: #aaaaaa;
@@ -3416,7 +3421,9 @@ padding-left: 10px;
 	text-decoration: none;
 	cursor: pointer;
   }
-
+  .modal-dialog{
+	width: 60% !important;
+  }
   .greentext{
 	color: #3165e7;;  
 }
