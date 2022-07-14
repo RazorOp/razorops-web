@@ -40,6 +40,40 @@ image: /images/container-native-cicd.jpg
 			<div class="section-header"><h2>Razorops makes it easy</h2></div>
 			<div class="center">
 				<img src="images/how-it-works.webp" alt="razorops deployment pipeline" title="razorops deployment pipeline" class="img-responsive">
+				<a class="btn btn-lg btn-primary btn-width mb-10 mobile stay-color" id="myBtn" > Watch Intro</a>
+				<div id="myModal" class="modalnew">
+
+					<div class="modal-video">
+					  <span class="close">&times;</span>
+					  <video width="100%" height="540" controls="controls" id="test-audio">
+						<source src="/images/WHAT IS CICD PIPELINE _ CONTAINER NATIVE CICD _ RAZOROPS _ BEST CICD TOOL.mp4" type="video/mp4">
+						<source src="/images/WHAT-IS-CICD-PIPELINE-_-CONTAINER-NATIVE-CICD-_-RAZOROPS-_-BEST-CICD-TOOL.ogg" type="video/ogg">
+					  Your browser does not support the video tag.
+					  </video>					
+					</div>
+				  
+				</div>
+				
+				  <script>
+					var modal = document.getElementById("myModal");
+					var btn = document.getElementById("myBtn");
+					var span = document.getElementsByClassName("close")[0];
+					var audio = document.getElementById("test-audio");
+					
+					btn.onclick = function() {
+					  modal.style.display = "block";
+					  audio.autoplay=true;
+					  audio.load();
+					}
+					
+					span.onclick = function() {
+					  modal.style.display = "none";
+					  audio.autoplay=false;
+						audio.pause();
+					}
+					
+			
+					</script>
 			</div>
 	</div>
 </div>
