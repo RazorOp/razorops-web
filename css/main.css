@@ -335,8 +335,9 @@ th, td {
 
 }
 .webinar-trigger-wrapper  p a{
-	font-size: 13px;
-	font-weight: 600;
+	color: white;
+	font-size: 18px;
+	font-weight: 900;
 }
 .navbar::-webkit-scrollbar-track{
 	margin-top: 0px;
@@ -4751,4 +4752,7 @@ padding-left: 10px;
 }
 .about-vssection .about-body .about-content p{
 	font-size: 18px;
+}
+.cs-video{
+	padding: 20px;
 }
