@@ -676,7 +676,7 @@ th, td {
 	display: block;
 	margin: auto;
 	border-radius: 15px!important;
-	margin-top: 120px !important;
+	margin-top: 162px !important;
 	max-width: 80%;
 	opacity: 0;
 	animation: .9s ease-out 0s 1 slideInFromBottom;
@@ -4797,4 +4797,8 @@ padding-left: 10px;
 }
 .hero__text{
 	margin: 20px 0px 40px 0px ;
+}
+.hero__title{
+	font-weight: 900 !important; 
+	font-size: 75px !important;
 }
