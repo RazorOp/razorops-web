@@ -35,7 +35,7 @@ address {
     position: relative;
     background: url(../images/intro-bg.webp) center bottom no-repeat;
     background-size: cover;
-    padding: 200px 0 120px 0;
+    padding: 200px 0 168px 0;
 }
 
 .instructors_background {
@@ -649,7 +649,6 @@ th, td {
 }
 .banner-illustration {
 	float: right;
-	margin-top: -87px;
 	width: 50%;
 	height: 90%;
 	float: right;
@@ -672,11 +671,12 @@ th, td {
 
 
 .banner-illustration img {
-	position: absolute;
 	top: 0px;
 	left: 0px;
 	display: block;
 	margin: auto;
+	border-radius: 15px!important;
+	margin-top: 120px !important;
 	max-width: 80%;
 	opacity: 0;
 	animation: .9s ease-out 0s 1 slideInFromBottom;
@@ -3396,7 +3396,17 @@ padding-left: 10px;
 	margin: auto;
 	border: 1px solid #888;
 	width: 60%;
+	border-radius: 8px;
   }
+  .youtubemodal-video{
+		margin: auto;
+		width: 60%;
+		border-radius: 8px;
+  }
+  .youtubemodal-video iframe{
+	border-radius: 8px !important;
+
+	}
   .closebtn {
 	color: #aaaaaa;
 	float: right;
@@ -4784,4 +4794,7 @@ padding-left: 10px;
 .play-demobtn{
 	background-color: rgb(206, 206, 206);
 	border-radius: 10px;
+}
+.hero__text{
+	margin: 20px 0px 40px 0px ;
 }
