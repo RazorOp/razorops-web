@@ -3371,7 +3371,7 @@ padding-left: 10px;
 	position: fixed; 
 	z-index: 5; 
 	padding-top: 100px; 
-	margin-top: 105px !important;
+	/* margin-top: 10px !important; */
 	left: 0;
 	top: 0;
 	width: 100%; 
@@ -3403,10 +3403,6 @@ padding-left: 10px;
 		width: 60%;
 		border-radius: 8px;
   }
-  .youtubemodal-video iframe{
-	border-radius: 8px !important;
-
-	}
   .closebtn {
 	color: #aaaaaa;
 	float: right;
@@ -3435,6 +3431,19 @@ padding-left: 10px;
   
   .close:hover,
   .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  .bannerclose{
+	color: #aaaaaa;
+	float: right;
+	font-size: 50px;
+	font-weight: bold;
+	margin-right: 16px;
+  }
+  .bannerclose:hover,
+  .bannerclose:focus {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
