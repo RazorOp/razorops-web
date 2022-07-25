@@ -28,18 +28,18 @@ Managing repeating Kubernetes manifest or copying from one to another, editing h
 <table>
   <tr>
 		<td width="50%">
-      <img src="/images/v2/pipeline.svg" alt="source code management" class="blog-feature-img"><br>
+      <img src="/images/v2/pipeline.webp" alt="source code management" class="blog-feature-img"><br>
       <b>MANAGE COMPLEXITY</b><br>Charts describe even the most complex apps, provide repeatable application installation, and serve as a single point of authority.</td>
 		<td width="50%">
-      <img src="/images/v2/gitops.svg" alt="Connect Environments" class="blog-feature-img"><br>
+      <img src="/images/v2/gitops.webp" alt="Connect Environments" class="blog-feature-img"><br>
       <b>EASY UPDATES</b><br>Take the pain out of updates with in-place upgrades and custom hooks</td>
 	</tr>
   <tr>
 		<td width="50%">
-      <img src="/images/v2/connect-environments.svg" alt="Connect Environments" class="blog-feature-img"><br>
+      <img src="/images/v2/connect-environments.webp" alt="Connect Environments" class="blog-feature-img"><br>
       <b>SIMPLE SHARING</b><br>Charts are easy to version, share, and host on public or private servers.</td>
 		<td width="50%">
-      <img src="/images/v2/rollback.svg" alt="source code management" class="blog-feature-img"><br>
+      <img src="/images/v2/rollback.webp" alt="source code management" class="blog-feature-img"><br>
       <b>ROLLBACKS</b><br>Use helm rollback to roll back to an older version of a release with ease.</td>
 	</tr>
 </table>
