@@ -4132,6 +4132,12 @@ padding-left: 10px;
 	float: left;
 
 }
+.competitors-banner .banner-content .anchor-text{
+	margin: 25px 20px ;
+	font-size: 20px;
+	color: #1b4fc2;
+	float: left;
+}
 .competitors-banner .banner-content .banner-bullets div p span{
 	font-size: 30px !important;
 	color: #1b4fc2 ;
@@ -4600,14 +4606,20 @@ padding-left: 10px;
 	margin-bottom: 20px;
 }
 .content-section .toc-body{
-	margin: 0px 190px;
-	padding: 20px;
-	background-color: #e7eefa;
+	margin: 0px !important;
+	padding: 20px 140px;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 238, 255, 0.8) 42.23%);
+}
+.content-section .toc-body img{
+	padding: 30px;
 }
 .content-section .content-list li a{
-	font-size: 18px;
+	font-size: 22px;
 	color:#093586;
 	cursor: pointer;
+}
+.content-section .toc-body .content-heading{
+	font-size: 40px;
 }
 .content-section .content-list li a:hover{
 	color:#000000;
