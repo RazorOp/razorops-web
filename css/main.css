@@ -4480,9 +4480,12 @@ padding-left: 10px;
 	.competitors-table table thead tr th{
 		font-weight: 900;
 		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-		font-size: 15px;
+		font-size: 20px;
 		color: #000000;
-}
+	}
+	.competitors-table table thead tr th img{
+		width: 82px !important;
+	}
 	.about-rops-section  .about-rops-body .about-rops-img{
 		
 		padding-top: 10px !important;
