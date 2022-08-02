@@ -15,7 +15,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
         RazorOps is the simplest Jenkins alternative for developers and software development teams. It's easy to set up and even simpler to use. To top it off, unlike Jenkins, RazorOps is free. You would certainly never return to Jenkins, we bet!
       </p>
       <a class="btn btn-razorops-new" href="https://dashboard.razorops.com/users/sign_up">Get Started</a>
-      <a class="anchor-text" href="https://dashboard.razorops.com/users/sign_up"> Documentation</a><br><br>
+      <a class="anchor-text" href="/blog" target="_blank"> Documentation</a><br><br>
       <br><br>
       <div class="row banner-bullets">
         <div class="col-sm-6"><p><span>&#x2713;</span> No plugins </p></div>
@@ -31,7 +31,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
       <div class="form-body">
 
           <form id="myform" method="post">
-            <h2 class="form-heading">Get started in less than 30 minutes</h2>
+            <h2 class="form-heading">Get started in less than 25 minutes</h2>
             <div class="form-group">
                 <input type="text" class="form-control" id="InputName" placeholder=" Name" required>
             </div>
@@ -45,12 +45,12 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
               <input type="tel" class="form-control" id="InputPhonenumber" placeholder=" Phone Number" required>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="InputCompany" placeholder=" Company" required>
+                <input type="text" class="form-control" id="InputCompany" placeholder=" Company Website / Company Linkedin" required>
             </div>
             <div class="form-group">
                 <input type="text" class="form-control" id="InputCountry" placeholder=" Country" required>
             </div>
-            <a class="btn btn-razorops-new" type="submit" >Create Free Account</a>
+            <a class="btn btn-razorops-new" type="submit" onclick="getData()">Create Free Account</a>
             <!-- <hr class="hr-text" data-content="or signup with">
           
               <div class="form-signup-btns row">
@@ -58,7 +58,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                 <a href="https://dashboard.razorops.com/users/sign_up" class="btn btn-default btn-lg pr-4  mr-4 "><img src="/images/v2/bitbucket.svg" alt="bitbucket" class="btn-icon"><b>Bitbucket</b></a>
                 <a href="https://dashboard.razorops.com/users/sign_up" class="btn btn-default btn-lg pr-4 mr-4"><img src="/images/v2/gitlab.svg" alt="gitlab" class="btn-icon"><b>Gitlab</b></a>
               </div> -->
-            <label for="signup-policy"><p class="signup-agg">By signing up you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label>
+            <!-- <label for="signup-policy"><p class="signup-agg">By signing up you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label> -->
           </form>
    
       </div>
@@ -73,7 +73,8 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
 
   const myform=document.getElementById('myform');
 
-  myform.addEventListener('submit',function(e){
+  // myform.addEventListener('submit',function(e){
+    function getData(){
       e.preventDefault();
 
       const name=document.getElementById('InputName').value;
@@ -83,39 +84,37 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
       const company=document.getElementById('InputCompany').value;
       const country=document.getElementById('InputCountry').value;
     
-
-    fetch("https://jsonplaceholder.typicode.com/posts/",{
-      method: "POST",
-      body: JSON.stringify({
-        name:name,
-        email:email,
-        designation:designation,
-        phone_no:phone_no,
-        company:company,
-        country:country
-      }),
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
+    // fetch("https://jsonplaceholder.typicode.com/posts/",{
+    //   method: "POST",
+    //   body: JSON.stringify({
+    //     name:name,
+    //     email:email,
+    //     designation:designation,
+    //     phone_no:phone_no,
+    //     company:company,
+    //     country:country
+    //   }),
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //     Accept: "application/json",
+    //   },
      
-    }).then((response)=>{
-        return response.json();
-    }).then((data)=>{
-      console.log(data);
-    }).catch((err)=>{
-      console.error(err);
-    })
-
+    // }).then((response)=>{
+    //     return response.json();
+    // }).then((data)=>{
+    //   console.log(data);
+    // }).catch((err)=>{
+    //   console.error(err);
+    // })
+      console.log(name,email,designation,phone_no,company,country);
     
 
-  })
+  }
    
 
 
 
 </script>
-<hr>
  <!-- <div class="v3clients container">
 <div class="v3gallery row">
 	<div class="client-img-div col-sm-2">
@@ -211,15 +210,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
 
 
 </script> -->
-
-
-
-  <div class="container tool-info">
-    <p class="tool-content">
-      Agile approaches are used by the vast majority of IT companies nowadays for their SDLC. Continuous integration and continuous delivery, or CI/CD, are trendy phrases in the software business. As the automation of the development and release processes is becoming more widespread, Jenkins became the most widely used CI/CD automation tool until recent times. But in recent years, we've noticed that businesses are changing and preferring more straightforward solutions that are simple to set up and operate.        <br>
-        <br>
-        To fulfil the demand for CI/CD Automation and Orchestration, various new businesses have responded to the situation by developing technologies that are much simpler to use and maintain. RazorOps being the simplest container native CI/CD tool, makes it one of the most preferred Jenkins alternative tool.    </p>
-  </div>    
+  
 
   <!-- <div class=" content-section">
     <div class="toc-body row">
@@ -320,7 +311,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
 
   <div class="container competitors-table" id="competitors-table">
     <h2 class="section-header2 text-center">RazorOps Vs Jenkins</h2>
-    <div class="compare-intro">
+    <!-- <div class="compare-intro">
      <ul>
       <li>
         Jenkins only provides an on-premises version whereas RazorOps offers both on-premises and SaaS version, which makes it an ideal for users that don't want to operate or maintain backend servers.      
@@ -329,7 +320,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
         The tremendous amount of labor required to run Jenkins is one of its biggest drawbacks. This involves setting up the system initially, scripting to expand it into a strong CD candidate, and then maintaining it. In general, 2 to 5 engineers are required merely to maintain Jenkins on a daily basis. Because Jenkins is an open-source program, many organisations utilise it. The expense of maintaining it frequently makes it an ineffective program. Contrarily, RazorOps integrates declarative pipelines without the requirement of any scripting from users end.      
       </li>
      </ul>
-    </div>
+    </div> -->
     <table class="table table-bordered">
         <thead>
           <tr>
@@ -520,8 +511,8 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
     </div>
 </div>  
 
-<div class="compititors-cta container-fluid">
-  <div class="compititors-cta-body">
+<div class="compititors-cta">
+  <div class="compititors-cta-body container">
     <div class="row cta-body">
         <div class="col-sm-6">
             <h1>Migrate from Jenkins Pipeline to Razorops Pipeline </h1>
@@ -529,10 +520,78 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
         </div>
         <div class="col-sm-6 compititors-cta-btns">
           <div class="text-center" width="100%">
-            <img src="/images/jenkins-vs-razorops.png"  height="295" alt="Razorops vs Jenkins" class="img-responsive">
+            <img src="/images/jenkins-vs-razorops.gif"  height="295" alt="Razorops vs Jenkins" class="img-responsive">
           </div>
-            <a class="btn  btn-bluehover migrate-btn" href="/contact"> Talk To Us</a>
-            <a class="btn  btn-razorops" href="https://dashboard.razorops.com/users/sign_up">Migration Guide</a>
+            <a class="btn btn-bluehover migrate-btn" id="talktous"> Talk To Us</a>
+            <div class="text-center">
+             
+              <div id="contactusmodal" class="competitorsmodal fade in">
+                <div class="modal-video">
+                  <span class="close">&times;</span>
+
+                    <div class="competitorsform-section">
+                      <div class="form-body">
+                
+                          <form id="myform" method="post">
+                            <h2 class="form-heading">Get started in less than 30 minutes</h2>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="InputName" placeholder=" Name" required="required">
+                            </div>
+                            <div class="form-group">
+                              <input type="email" class="form-control" id="InputEmail" placeholder=" Email" required>
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="InputDesignation" placeholder=" Designation" required>
+                            </div>
+                            <div class="form-group">
+                              <input type="tel" class="form-control" id="InputPhonenumber" placeholder=" Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="InputCompany" placeholder=" Company" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="InputCountry" placeholder=" Country" required>
+                            </div>
+                            <a class="btn btn-razorops-new" type="submit" >Create Free Account</a>
+                            
+                            <label for="signup-policy"><p class="signup-agg">By signing up you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label>
+                          </form>
+                  
+                      </div>
+                    
+                    </div>
+              </div>
+              </div>
+              <br>
+              <br>
+              <script>
+                        var competitorsmodal = document.getElementById("contactusmodal");
+                        var competitorsbtn = document.getElementById("talktous");
+                        var span = document.getElementsByClassName("close")[0];
+                        
+                        span.onclick = function() {
+                          competitorsmodal.style.display = "none";
+      
+                        }
+                        
+                        competitorsbtn.onclick = function() {
+                          competitorsmodal.style.display = "block";
+  
+                        }
+  
+                        window.onclick = function (event) {
+     
+                            if (event.target == modal) {
+                              competitorsmodal.style.display = "none";
+                 
+                            }
+                        
+                          }
+                        
+                    
+                        </script>
+              </div>
+            <a class="btn btn-razorops" href="https://dashboard.razorops.com/users/sign_up">Migration Guide</a>
         </div>
     </div>
   </div>
