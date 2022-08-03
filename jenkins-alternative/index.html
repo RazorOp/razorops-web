@@ -15,7 +15,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
         RazorOps is the simplest Jenkins alternative for developers and software development teams. It's easy to set up and even simpler to use. To top it off, unlike Jenkins, RazorOps is free. You would certainly never return to Jenkins, we bet!
       </p>
       <a class="btn btn-razorops-new" href="https://dashboard.razorops.com/users/sign_up">Get Started</a>
-      <a class="anchor-text" href="/blog" target="_blank"> Documentation</a><br><br>
+      <a class="anchor-text" href="https://docs.razorops.com/" target="_blank"> Documentation</a><br><br>
       <br><br>
       <div class="row banner-bullets">
         <div class="col-sm-6"><p><span>&#x2713;</span> No plugins </p></div>
@@ -30,27 +30,27 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
     <div class="col-sm-6 form-section">
       <div class="form-body">
 
-          <form id="myform" method="post">
+          <form id="myform" method="post" >
             <h2 class="form-heading">Get started in less than 25 minutes</h2>
             <div class="form-group">
-                <input type="text" class="form-control" id="InputName" placeholder=" Name" required>
+                <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="InputEmail" placeholder=" Email" required>
+              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="InputDesignation" placeholder=" Designation" required>
+              <input type="text" class="form-control" id="InputDesignation" name="InputDesignation" placeholder="Designation" required>
             </div>
             <div class="form-group">
-              <input type="tel" class="form-control" id="InputPhonenumber" placeholder=" Phone Number" required>
+              <input type="tel" class="form-control" id="InputPhonenumber" name="InputPhonenumber" pattern="[1-9]{1}[0-9]{9}" placeholder="Phone Number" onkeypress="checkNumber()" required>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="InputCompany" placeholder=" Company Website / Company Linkedin" required>
+                <input type="text" class="form-control" id="InputCompany" name="InputCompany" placeholder="Company Website / Company Linkedin" required>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="InputCountry" placeholder=" Country" required>
+                <input type="text" class="form-control" id="InputCountry" name="InputCountry" placeholder="Country" required>
             </div>
-            <a class="btn btn-razorops-new" type="submit" onclick="getData()">Create Free Account</a>
+            <button class="btn btn-razorops-new" type="submit" >Create Free Account</button>
             <!-- <hr class="hr-text" data-content="or signup with">
           
               <div class="form-signup-btns row">
@@ -71,45 +71,69 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
 
 <script>
 
-  const myform=document.getElementById('myform');
 
-  // myform.addEventListener('submit',function(e){
-    function getData(){
+  function checkNumber(phdata){
+    const phonekey=document.getElementById('InputPhonenumber');
+
+    var regEx = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/;
+   if(phonekey.value.match(regEx))
+     {
+      return true;
+     }
+   else
+     {
+      phonekey.innerHTML("");
+     alert("Please enter a valid phone number.");
+     return false;
+     }
+    console.log(phonekey);
+  }
+
+const myform=document.getElementById('myform');
+
+  myform.addEventListener('submit',async function(e){
       e.preventDefault();
 
-      const name=document.getElementById('InputName').value;
-      const email=document.getElementById('InputEmail').value;
-      const designation=document.getElementById('InputDesignation').value;
-      const phone_no=document.getElementById('InputPhonenumber').value;
-      const company=document.getElementById('InputCompany').value;
-      const country=document.getElementById('InputCountry').value;
+      const name=myform.InputName.value;
+      const email=myform.InputEmail.value;
+      const designation=myform.InputDesignation.value;
+      const phone_no=myform.InputPhonenumber.value;
+      const company=myform.InputCompany.value;
+      const country=myform.InputCountry.value;
     
-    // fetch("https://jsonplaceholder.typicode.com/posts/",{
-    //   method: "POST",
-    //   body: JSON.stringify({
-    //     name:name,
-    //     email:email,
-    //     designation:designation,
-    //     phone_no:phone_no,
-    //     company:company,
-    //     country:country
-    //   }),
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //     Accept: "application/json",
-    //   },
+      
      
-    // }).then((response)=>{
-    //     return response.json();
-    // }).then((data)=>{
-    //   console.log(data);
-    // }).catch((err)=>{
-    //   console.error(err);
-    // })
-      console.log(name,email,designation,phone_no,company,country);
+
+      const res = await fetch("https://blinkcrm.razorops.com/api/leads", {
+      method: "POST",
+      mode: "cors",
+        headers: {
+          "Content-Type": "application/json; charset=utf-8",
+        },
+        body: JSON.stringify({
+          lead: {
+            first_name: name || "",
+            email: email || "",
+            designation: designation || "",
+            phoneno: phone_no || "",
+            companyname: company || "",
+            country: country || "",
+            user_email: "shyam@razorops.com",
+            status: "Not Sent",
+          },
+        }),
+     
+    }).then((response)=>{
+        return response.json();
+    }).then((data)=>{
+      console.log(data);
+    }).catch((err)=>{
+      console.error(err);
+    })
     
 
-  }
+  });
+
    
 
 
@@ -515,7 +539,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
   <div class="compititors-cta-body container">
     <div class="row cta-body">
         <div class="col-sm-6">
-            <h1>Migrate from Jenkins Pipeline to Razorops Pipeline </h1>
+            <h1>Migrate from Jenkins to Razorops CI/CD </h1>
             <h3>Fully optimized runners for fast and easy builds so wait less build more.</h3>
         </div>
         <div class="col-sm-6 compititors-cta-btns">
@@ -527,13 +551,13 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
              
               <div id="contactusmodal" class="competitorsmodal fade in">
                 <div class="modal-video">
-                  <span class="close">&times;</span>
+                  <span class="competitorsclose">&times;</span>
 
                     <div class="competitorsform-section">
-                      <div class="form-body">
+                      <div class="form-body form-left">
                 
-                          <form id="myform" method="post">
-                            <h2 class="form-heading">Get started in less than 30 minutes</h2>
+                          <form id="migrateform" method="post">
+                            <h2 class="form-heading">Talk to us</h2>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="InputName" placeholder=" Name" required="required">
                             </div>
@@ -552,7 +576,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                             <div class="form-group">
                                 <input type="text" class="form-control" id="InputCountry" placeholder=" Country" required>
                             </div>
-                            <a class="btn btn-razorops-new" type="submit" >Create Free Account</a>
+                            <button class="btn competitors-migratebtn" type="submit" >Create Free Account</button>
                             
                             <label for="signup-policy"><p class="signup-agg">By signing up you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label>
                           </form>
@@ -567,9 +591,9 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
               <script>
                         var competitorsmodal = document.getElementById("contactusmodal");
                         var competitorsbtn = document.getElementById("talktous");
-                        var span = document.getElementsByClassName("close")[0];
+                        var competitorspan = document.getElementsByClassName("competitorsclose")[0];
                         
-                        span.onclick = function() {
+                        competitorspan.onclick = function() {
                           competitorsmodal.style.display = "none";
       
                         }
@@ -589,7 +613,75 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                           }
                         
                     
-                        </script>
+
+                      //form submission script
+                      
+                        function checkNumber(phdata){
+                                const phonekey=document.getElementById('InputPhonenumber');
+
+                                    var regEx = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/;
+                                          if(phonekey.value.match(regEx))
+                                            {
+                                              return true;
+                                            }
+                                          else
+                                            {
+                                              phonekey.innerHTML("");
+                                            alert("Please enter a valid phone number.");
+                                            return false;
+                                            }
+                                    console.log(phonekey);
+                        }
+
+                      const migrateform=document.getElementById('migrateform');
+
+                      migrateform.addEventListener('submit',async function(e){
+                            e.preventDefault();
+
+                            const migratename=migrateform.InputName.value;
+                            const migrateemail=migrateform.InputEmail.value;
+                            const migratedesignation=migrateform.InputDesignation.value;
+                            const migratephone_no=migrateform.InputPhonenumber.value;
+                            const migratecompany=migrateform.InputCompany.value;
+                            const migratecountry=migrateform.InputCountry.value;
+                          
+                            
+                          
+
+                            const result = await fetch("https://blinkcrm.razorops.com/api/leads", {
+                            method: "POST",
+                            mode: "cors",
+                              headers: {
+                                "Content-Type": "application/json; charset=utf-8",
+                              },
+                              body: JSON.stringify({
+                                lead: {
+                                  first_name: migratename || "",
+                                  email: migrateemail || "",
+                                  designation: migratedesignation || "",
+                                  phoneno: migratephone_no || "",
+                                  companyname: migratecompany || "",
+                                  country: migratecountry || "",
+                                  user_email: "shyam@razorops.com",
+                                  status: "Not Sent",
+                                },
+                              }),
+                          
+                          }).then((response)=>{
+                              return response.json();
+                          }).then((data)=>{
+                            console.log(data);
+                          }).catch((err)=>{
+                            console.error(err);
+                          })
+                          
+
+                        });
+
+                              
+
+
+              </script>
               </div>
             <a class="btn btn-razorops" href="https://dashboard.razorops.com/users/sign_up">Migration Guide</a>
         </div>
@@ -736,7 +828,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                 <p>You can save a lot of time with RazorOps. Ditch the 8-10 hours of tedious process of setting up a simple pipeline in Jenkins by migration to a much smarter choice- RazorOps.</p>
                 <div class="get-started-btns">
                     <a href="https://dashboard.razorops.com/users/sign_up" class="btn btn-razorops-new">Get Started</a>
-                    <a href="/schedule-demo.md" class="btn btn-razorops-new">Schedule a demo</a>
+                    <a href="/schedule-demo" class="btn btn-razorops-new">Schedule A Demo</a>
                 </div>
             </div>
         
@@ -846,7 +938,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
                 <img src="/images/right_arrow-logo.png" width="100%" class="cta-arrow">
             </div>
             <div class="col-sm-3 v3signup-ctabtn">
-                <a href="https://dashboard.razorops.com/users/auth/github" class="btn btn-white-razorops">Click here to signup </a>
+                <a href="https://dashboard.razorops.com/users/auth/github" class="btn btn-white-razorops">Click Here To Signup </a>
               </div>
             </div>
         </div>

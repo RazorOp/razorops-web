@@ -280,7 +280,7 @@ th, td {
 	background-color: #fff;
 }
 .bg-blue{
-	background-color:  rgba(232, 229, 255, 0.8);
+	background: linear-gradient(178.55deg, rgba(240, 238, 255, 0.8) -1.11%, rgba(255, 255, 255, 0.8) 109.65%);
 }
 .bg-warning{
 	background-color: rgba(255, 255, 255, 0.846);
@@ -1381,6 +1381,7 @@ a {
 	.signup-agg {
 		color: rgb(136, 136, 136);
 		font-size: 11px;
+		margin-top: 20px;
 	}
  }
  @media screen and (min-width:768px) and (max-width:810px) {
@@ -3398,6 +3399,23 @@ padding-left: 10px;
 	cursor: pointer;
   }
 
+
+  .competitorsclose {
+	color: #aaaaaa;
+	float: right;
+	font-size: 50px;
+	font-weight: bold;
+	margin-right: 16px;
+
+  }
+
+  
+  .competitorsclose:hover,
+  .competitorsclose:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
   .modal-video {
 	background-color: #fefefe;
 	margin: auto;
@@ -3998,7 +4016,7 @@ padding-left: 10px;
 		 background-size: 100% 100%;
 	}
 	.competitors-banner h1{
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-style: normal;
 		font-weight: 900;
 		font-size: 50px !important;
@@ -4058,7 +4076,7 @@ padding-left: 10px;
 		 background-size: 100% 100%;
 	}
 	.competitors-banner h1{
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-style: normal;
 		font-weight: 900;
 		font-size: 50px !important;
@@ -4098,7 +4116,7 @@ padding-left: 10px;
 		padding-top: 10px !important;
 	}
 	.xtra-feature .xtrafeature-body .xtrafeature-content h1{
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-style: normal;
 		font-weight: 900;
 		font-size: 35px !important;
@@ -4108,14 +4126,14 @@ padding-left: 10px;
 	}
 	.xtra-feature .xtrafeature-body .xtrafeature-content p{
 		margin-bottom: 0px !important;
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-style: normal;
 		font-weight: 600;
 		font-size: 20px !important;
 		color: #7C819B;
 	}
 	.xtra-feature .xtrafeature-body .xtrafeature-content ul li{
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-style: normal;
 		font-weight: 600;
 		font-size: 20px !important;
@@ -4188,8 +4206,15 @@ padding-left: 10px;
 }
 .competitorsmodal .competitorsform-section .form-body{
 	padding: 40px 40px;
-	border: 1px solid #345EEF;
+	border: 1px solid #aaaaaa;
 	border-radius: 8px;
+}
+.competitorsmodal .competitorsform-section .form-body .competitors-migratebtn{
+	margin: 0px !important;
+	background-color: #345EEF;
+	color: whitesmoke;
+	float: left !important;
+	width: 250px !important;
 }
 .hr-text {
 	line-height: 1em;
@@ -4241,7 +4266,7 @@ padding-left: 10px;
 	font-size: 20px;
 }
 .competitors-banner h1{
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-style: normal;
 	font-weight: 900;
 	font-size: 70px;
@@ -4271,7 +4296,7 @@ padding-left: 10px;
 
 .compititors-cta {
 	padding:160px 60px;
-	background: linear-gradient(178.55deg, rgba(255, 255, 255, 0.8) -1.11%, rgba(232, 229, 255, 0.8) 109.65%);
+	background:  rgba(232, 229, 255, 0.8) ;
 }
 .competitors-table{
 	margin-top: 20px;
@@ -4284,15 +4309,15 @@ padding-left: 10px;
 }
 .competitors-table table thead tr th{
 		font-weight: 900;
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-		font-size: 25px;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font-size: 23px;
 		color: #000000;
 }
 .competitors-table table tbody tr th,td{
 	font-size: 17px !important;
 }
 .bolder-header{
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 20px;
 	font-weight: 900;
 }
@@ -4320,7 +4345,7 @@ padding-left: 10px;
 	padding-top: 85px;
 }
 .xtra-feature .xtrafeature-body .xtrafeature-content h1{
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 900;
@@ -4331,14 +4356,14 @@ padding-left: 10px;
 }
 .xtra-feature .xtrafeature-body .xtrafeature-content p{
 	margin-bottom: 30px;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-style: normal;
 	font-size: 22px;
 	line-height: 40px;
 	color: #7C819B;
 }
 .xtra-feature .xtrafeature-body .xtrafeature-content ul li{
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
@@ -4389,7 +4414,7 @@ padding-left: 10px;
 .compititors-cta .cta-body h1{
 	font-size: 60px;
 	font-weight: 900;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-style: normal;
 	
 
@@ -4398,7 +4423,7 @@ padding-left: 10px;
 	margin-top: 50px;
 	font-size: 22px;
 	color: #828282;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-style: normal;
 
 }
@@ -4440,7 +4465,7 @@ padding-left: 10px;
 		padding-top: 0px;
 	}
 	.xtra-feature .xtrafeature-body .xtrafeature-content h1{
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-style: normal;
 		font-weight: 900;
 		font-size: 30px;
@@ -4451,7 +4476,7 @@ padding-left: 10px;
 	.xtra-feature .xtrafeature-body .xtrafeature-content p{
 		margin-bottom: 0px;
 		margin-top: 10px;
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-style: normal;
 		font-weight: 600;
 		font-size: 16px;
@@ -4459,7 +4484,7 @@ padding-left: 10px;
 		line-height: 30px;
 	}
 	.xtra-feature .xtrafeature-body .xtrafeature-content ul li{
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-style: normal;
 		font-weight: 600;
 		font-size: 10px;
@@ -4492,7 +4517,7 @@ padding-left: 10px;
 		padding: 0px;
 		font-style: normal;
 		font-weight:900;
-		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-size: 30px !important;
 		line-height: 42px !important;
 		color: #18204C;
@@ -4504,7 +4529,7 @@ padding-left: 10px;
 	}
 	.competitors-table table thead tr th{
 		font-weight: 900;
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-size: 20px;
 		color: #000000;
 	}
@@ -4578,23 +4603,23 @@ padding-left: 10px;
 	/* transform: rotate(-180deg); */
 }
 .get-started-section .get-started-body .get-started-content{
-	padding-top: 100px;
+	padding-top: 60px;
 }
 .get-started-section .get-started-body .get-started-content p{
 	margin-top: 20px;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
-	line-height: 40px;
+	font-size: 20px;
+	line-height: 30px;
 	color: #7C819B;
 }
 .get-started-section .get-started-body .get-started-content .get-started-head{
 
 	font-style: normal;
 	font-weight:900;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 60px;
-	line-height: 70px;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 47px;
+	line-height: 60px;
 	color: #18204C;
 }
 
@@ -4613,7 +4638,8 @@ padding-left: 10px;
 	color: whitesmoke;
 }
 #myform .btn-razorops-new{
-	margin: 20px;
+	margin: 0px;
+    width: 250px !important;
 }
 .get-started-section .get-started-body .get-started-content .get-started-btns{
 	margin-top: 40px;
