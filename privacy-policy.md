@@ -3,7 +3,7 @@ title: Privacy Policy
 layout: default2
 description: null
 keywords: null
-canonical_url: http://razorops.com/privacy-policy
+canonical_url: https://razorops.com/privacy-policy/
 ---
 
 **This Privacy Policy is effective as of June 15, 2018.**
