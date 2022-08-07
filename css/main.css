@@ -807,9 +807,8 @@ th, td {
 
 .customers-banner1{
 	text-align: center;
-	padding: 150px 15px;
+	padding: 15px;
 	background-image: url("/images/home/t-hub.jpg");
-	margin-top: -80px;
 	background-size: 100% 100%;
   }
 
