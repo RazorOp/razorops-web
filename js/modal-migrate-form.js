@@ -1,0 +1,101 @@
+var competitorsmodal = document.getElementById("contactusmodal");
+var competitorsbtn = document.getElementById("talktous");
+var competitorspan = document.getElementsByClassName("competitorsclose")[0];
+
+competitorspan.onclick = function() {
+  competitorsmodal.style.display = "none";
+
+}
+
+competitorsbtn.onclick = function() {
+  competitorsmodal.style.display = "block";
+
+}
+
+window.onclick = function (event) {
+
+    if (event.target == modal) {
+      competitorsmodal.style.display = "none";
+
+    }
+
+  }
+
+// Phone Number validation
+function checkNumber(evt){
+         
+  var charCode = (evt.which) ? evt.which : evt.keyCode
+ if (charCode > 31 && (charCode < 48 || charCode > 57))
+    return false;
+    
+
+ return true;
+
+}
+
+//Check valid Email
+
+
+//migrate form submission script
+
+
+const migrateform=document.getElementById('migrateform');
+
+migrateform.addEventListener('submit',async function(e){
+    e.preventDefault();
+
+    const migrateName=migrateform.InputName;
+    const migrateEmail=migrateform.InputEmail;
+    const migrateDesignation=migrateform.InputDesignation;
+    const migratePhone_no=migrateform.InputPhonenumber;
+    const migrateCompany=migrateform.InputCompany;
+    const migrateCountry=migrateform.InputCountry;
+    let migrateSubmitBtn=document.getElementById('migrateSubmitBtn');
+    var validEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    
+  
+    if(migrateName.value && migrateEmail.value && migrateDesignation.value && migratePhone_no.value && migrateCompany.value && migrateCountry.value){
+      if (migrateEmail.value.match(validEmail)) {
+
+            migrateSubmitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Submitting...';  
+            const result = await fetch("https://blinkcrm.razorops.com/api/leads", {
+            method: "POST",
+            mode: "cors",
+              headers: {
+                "Content-Type": "application/json; charset=utf-8",
+              },
+              body: JSON.stringify({
+                lead: {
+                  first_name: migrateName.value || "",
+                  email: migrateEmail.value || "",
+                  designation: migrateDesignation.value || "",
+                  phoneno: migratePhone_no.value || "",
+                  companyname: migrateCompany.value || "",
+                  country: migrateCountry.value || "",
+                  user_email: "shyam@razorops.com",
+                  status: "Not Sent",
+                },
+              }),
+          
+                }).then((response)=>{
+                    return response.json();
+                }).then((data)=>{
+                  console.log(data);
+                  location.href = "https://dashboard.razorops.com/users/sign_up"; 
+                }).catch((err)=>{
+                  console.error(err);
+                });
+                
+                migrateName.value='';
+                migrateEmail.value='';
+                migrateDesignation.value='';
+                migratePhone_no.value='';
+                migrateCompany.value='';
+                migrateCountry.value='';
+            } 
+            else{
+              alert('Enter a valid email!!');
+            }
+    }
+      
+});
