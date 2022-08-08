@@ -1,7 +1,7 @@
 ---
 layout: competitors-page
-title: Razorops Vs Jenkins
-description: Razorops is a container native continuous integration and delivery platform to automate testing and deployment across the environments in few steps.
+title: Best Jenkins Alternative CI/CD Tool for Developers
+description: Razorops is the simplest CI/CD platform for all teams. Best Jenkins Alternative CI/CD Tool for Developers. Simplest & Faster Deployments.  Try for Free. Signup Now.
 keywords: Container Native Continuous Delivery, Build, Test, Deploy, Continuous delivery, Continuous integration, kubernetes, Docker, docker registry,docker container, aws, google cloud, azure kubernetes,Continuous deployment tool
 canonical_url: 'https://razorops.com/jenkins-alternative'
 ---
@@ -31,26 +31,26 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
       <div class="form-body">
 
           <form id="myform" method="post" >
-            <h2 class="form-heading">Get started in less than 25 minutes</h2>
+            <h2 class="form-heading">Request a call back</h2>
             <div class="form-group">
-                <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name" required>
+                <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name*" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email" required>
+              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email*" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="InputDesignation" name="InputDesignation" placeholder="Designation" required>
+              <input type="text" class="form-control" id="InputDesignation" name="InputDesignation" placeholder="Designation">
             </div>
             <div class="form-group">
-              <input type="tel" class="form-control" id="InputPhonenumber" name="InputPhonenumber" pattern="+[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number"  required>
+              <input type="tel" class="form-control" id="InputPhonenumber" name="InputPhonenumber" onkeypress="return checkNumber(event)" placeholder="Phone Number(e.g:+91-1234567890)*"  required>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="InputCompany" name="InputCompany" placeholder="Company Website / Company Linkedin" required>
+                <input type="text" class="form-control" id="InputCompany" name="InputCompany" placeholder="Company Website / Company Linkedin">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="InputCountry" name="InputCountry" placeholder="Country" required>
+                <input type="text" class="form-control" id="InputCountry" name="InputCountry" placeholder="Country">
             </div>
-            <button class="btn btn-razorops-new" type="submit" id="submitbtn" >Create Free Account</button>
+            <button class="btn btn-razorops-new" type="submit" id="submitbtn" >Submit</button>
             <!-- <hr class="hr-text" data-content="or signup with">
           
               <div class="form-signup-btns row">
@@ -69,69 +69,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
 
 
 
-<script>
-
-
-const myform=document.getElementById('myform');
-
-  myform.addEventListener('submit',async function(e){
-      e.preventDefault();
-
-      const userName=myform.InputName;
-      const userEmail=myform.InputEmail;
-      const userDesignation=myform.InputDesignation;
-      const userPhone_no=myform.InputPhonenumber;
-      const userCompany=myform.InputCompany;
-      const userCountry=myform.InputCountry;
-      let submitBtn=document.getElementById('submitbtn');
-      
-     if(userName.value && userEmail.value && userDesignation.value && userPhone_no.value && userCompany.value && userCountry.value){
-      
-      
-      submitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Processing...';
-      const res = await fetch("https://blinkcrm.razorops.com/api/leads", {
-      method: "POST",
-      mode: "cors",
-        headers: {
-          "Content-Type": "application/json; charset=utf-8",
-        },
-        body: JSON.stringify({
-          lead: {
-            first_name: userName.value || "",
-            email: userEmail.value || "",
-            designation: userDesignation.value || "",
-            phoneno: userPhone_no.value || "",
-            companyname: userCompany.value || "",
-            country: userCountry.value || "",
-            user_email: "shyam@razorops.com",
-            status: "Not Sent",
-          },
-        }),
-     
-    }).then((response)=>{
-        return response.json();
-    }).then((data)=>{
-      console.log(data);
-      location.href = "https://dashboard.razorops.com/users/sign_up"; 
-    }).catch((err)=>{
-      console.error(err);
-    })
-    
-  }
-        userName.value='';
-        userEmail.value='';
-        userDesignation.value='';
-        userPhone_no.value='';
-        userCompany.value='';
-        userCountry.value='';
-  });
-
-
-   
-
-
-
-</script>
+<script src="/js/migrate-form.js"></script>
  <!-- <div class="v3clients container">
 <div class="v3gallery row">
 	<div class="client-img-div col-sm-2">
@@ -552,26 +490,26 @@ const myform=document.getElementById('myform');
                           <form id="migrateform" method="post">
                             <h2 class="form-heading">Talk to us</h2>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="InputName" placeholder="Name" required="required">
+                                <input type="text" class="form-control" id="InputName" placeholder="Name*" required>
                             </div>
                             <div class="form-group">
-                              <input type="email" class="form-control" id="InputEmail" placeholder="Email" required>
+                              <input type="email" class="form-control" id="InputEmail" placeholder="Email*" required>
                             </div>
                             <div class="form-group">
-                              <input type="text" class="form-control" id="InputDesignation" placeholder="Designation" required>
+                              <input type="text" class="form-control" id="InputDesignation" placeholder="Designation">
                             </div>
                             <div class="form-group">
-                              <input type="tel" class="form-control" id="InputPhonenumber" pattern="+[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number" required>
+                              <input type="tel" class="form-control" id="InputPhonenumber" onkeypress="return checknumber(event)" placeholder="Phone Number(e.g:+91-1234567890)*" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="InputCompany" placeholder="Company" required>
+                                <input type="text" class="form-control" id="InputCompany" placeholder="Company">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="InputCountry" placeholder="Country" required>
+                                <input type="text" class="form-control" id="InputCountry" placeholder="Country">
                             </div>
-                            <button class="btn competitors-migratebtn" type="submit" onclick="/sign" >Submit</button>
+                            <button class="btn competitors-migratebtn" type="submit" id="migrateSubmitBtn" >Submit</button>
                             
-                            <label for="signup-policy"><p class="signup-agg">By signing up you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label>
+                            <label for="signup-policy"><p class="signup-agg">By submitting you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label>
                           </form>
                   
                       </div>
@@ -581,93 +519,7 @@ const myform=document.getElementById('myform');
               </div>
               <br>
               <br>
-              <script>
-                        var competitorsmodal = document.getElementById("contactusmodal");
-                        var competitorsbtn = document.getElementById("talktous");
-                        var competitorspan = document.getElementsByClassName("competitorsclose")[0];
-                        
-                        competitorspan.onclick = function() {
-                          competitorsmodal.style.display = "none";
-      
-                        }
-                        
-                        competitorsbtn.onclick = function() {
-                          competitorsmodal.style.display = "block";
-  
-                        }
-  
-                        window.onclick = function (event) {
-     
-                            if (event.target == modal) {
-                              competitorsmodal.style.display = "none";
-                 
-                            }
-                        
-                          }
-                        
-                    
-
-                      //form submission script
-                      
-                       
-                      const migrateform=document.getElementById('migrateform');
-
-                      migrateform.addEventListener('submit',async function(e){
-                            e.preventDefault();
-
-                            const migrateName=migrateform.InputName;
-                            const migrateEmail=migrateform.InputEmail;
-                            const migrateDesignation=migrateform.InputDesignation;
-                            const migratePhone_no=migrateform.InputPhonenumber;
-                            const migrateCompany=migrateform.InputCompany;
-                            const migrateCountry=migrateform.InputCountry;
-                            let migrateSubmitBtn=document.getElementById('submitbtn');
-                            
-                          
-                            if(migrateName.value && migrateEmail.value && migrateDesignation.value && migratePhone_no.value && migrateCompany.value && migrateCountry.value){
-
-                            migrateSubmitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Processing...';  
-                            const result = await fetch("https://blinkcrm.razorops.com/api/leads", {
-                            method: "POST",
-                            mode: "cors",
-                              headers: {
-                                "Content-Type": "application/json; charset=utf-8",
-                              },
-                              body: JSON.stringify({
-                                lead: {
-                                  first_name: migrateName.value || "",
-                                  email: migrateEmail.value || "",
-                                  designation: migrateDesignation.value || "",
-                                  phoneno: migratePhone_no.value || "",
-                                  companyname: migrateCompany.value || "",
-                                  country: migrateCountry.value || "",
-                                  user_email: "shyam@razorops.com",
-                                  status: "Not Sent",
-                                },
-                              }),
-                          
-                          }).then((response)=>{
-                              return response.json();
-                          }).then((data)=>{
-                            console.log(data);
-                            location.href = "https://dashboard.razorops.com/users/sign_up"; 
-                          }).catch((err)=>{
-                            console.error(err);
-                          })
-                          
-                        }
-                        migrateName.value='';
-                        migrateEmail.value='';
-                        migrateDesignation.value='';
-                        migratePhone_no.value='';
-                        migrateCompany.value='';
-                        migrateCountry.value='';
-                        });
-
-                              
-
-
-              </script>
+              <script src="/js/modal-migrate-form.js"></script>
               </div>
             <a class="btn btn-razorops" href="/blog/migration-from-jenkins-to-razorops/">Migration Guide</a>
         </div>

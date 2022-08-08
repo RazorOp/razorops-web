@@ -1,7 +1,6 @@
 ---
-title: Migration from Jenkins to RazorOps
-description: with the use of a single .razorops.yaml.file we can complete the entire
-  process of CICD
+title: Migration Guide - Jenkins to Razorops | Simplest CI/CD Tool
+description: Steps to Migrate Jenkins to Razorops. Razorops is the Simplest Container Native CI/CD Tool. Best alternative to Jenkins. Try for Free. Signup Now.
 permalink: "/blog/:title/"
 layout: post
 date: '2022-08-03 17:12:27'
