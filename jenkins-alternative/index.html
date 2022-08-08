@@ -42,7 +42,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
               <input type="text" class="form-control" id="InputDesignation" name="InputDesignation" placeholder="Designation" required>
             </div>
             <div class="form-group">
-              <input type="tel" class="form-control" id="InputPhonenumber" name="InputPhonenumber" pattern="+[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number(eg: +91-123-456-7899)"  required>
+              <input type="tel" class="form-control" id="InputPhonenumber" name="InputPhonenumber" pattern="+[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number"  required>
             </div>
             <div class="form-group">
                 <input type="text" class="form-control" id="InputCompany" name="InputCompany" placeholder="Company Website / Company Linkedin" required>
@@ -50,7 +50,7 @@ canonical_url: 'https://razorops.com/jenkins-alternative'
             <div class="form-group">
                 <input type="text" class="form-control" id="InputCountry" name="InputCountry" placeholder="Country" required>
             </div>
-            <button class="btn btn-razorops-new" type="submit" >Create Free Account</button>
+            <button class="btn btn-razorops-new" type="submit" id="submitbtn" >Create Free Account</button>
             <!-- <hr class="hr-text" data-content="or signup with">
           
               <div class="form-signup-btns row">
@@ -77,16 +77,18 @@ const myform=document.getElementById('myform');
   myform.addEventListener('submit',async function(e){
       e.preventDefault();
 
-      const name=myform.InputName.value;
-      const email=myform.InputEmail.value;
-      const designation=myform.InputDesignation.value;
-      const phone_no=myform.InputPhonenumber.value;
-      const company=myform.InputCompany.value;
-      const country=myform.InputCountry.value;
-    
+      const userName=myform.InputName;
+      const userEmail=myform.InputEmail;
+      const userDesignation=myform.InputDesignation;
+      const userPhone_no=myform.InputPhonenumber;
+      const userCompany=myform.InputCompany;
+      const userCountry=myform.InputCountry;
+      let submitBtn=document.getElementById('submitbtn');
       
-     if(name && email && designation && phone_no && company && country){
-
+     if(userName.value && userEmail.value && userDesignation.value && userPhone_no.value && userCompany.value && userCountry.value){
+      
+      
+      submitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Processing...';
       const res = await fetch("https://blinkcrm.razorops.com/api/leads", {
       method: "POST",
       mode: "cors",
@@ -95,12 +97,12 @@ const myform=document.getElementById('myform');
         },
         body: JSON.stringify({
           lead: {
-            first_name: name || "",
-            email: email || "",
-            designation: designation || "",
-            phoneno: phone_no || "",
-            companyname: company || "",
-            country: country || "",
+            first_name: userName.value || "",
+            email: userEmail.value || "",
+            designation: userDesignation.value || "",
+            phoneno: userPhone_no.value || "",
+            companyname: userCompany.value || "",
+            country: userCountry.value || "",
             user_email: "shyam@razorops.com",
             status: "Not Sent",
           },
@@ -116,6 +118,12 @@ const myform=document.getElementById('myform');
     })
     
   }
+        userName.value='';
+        userEmail.value='';
+        userDesignation.value='';
+        userPhone_no.value='';
+        userCompany.value='';
+        userCountry.value='';
   });
 
 
@@ -504,8 +512,8 @@ const myform=document.getElementById('myform');
   
 </div> -->
 
-<div class="container xtra-feature" >
-    <div class="row xtrafeature-body" id="compatible-stack">
+<div class=" xtra-feature" >
+    <div class=" xtrafeature-body container" id="compatible-stack">
         <div class="col-sm-6 xtrafeature-content">
             <h1>
               Compatible with your Technology Stack
@@ -553,7 +561,7 @@ const myform=document.getElementById('myform');
                               <input type="text" class="form-control" id="InputDesignation" placeholder="Designation" required>
                             </div>
                             <div class="form-group">
-                              <input type="tel" class="form-control" id="InputPhonenumber" pattern="+[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number(eg: +91-123-456-7899)" required>
+                              <input type="tel" class="form-control" id="InputPhonenumber" pattern="+[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number" required>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="InputCompany" placeholder="Company" required>
@@ -607,17 +615,18 @@ const myform=document.getElementById('myform');
                       migrateform.addEventListener('submit',async function(e){
                             e.preventDefault();
 
-                            const migratename=migrateform.InputName.value;
-                            const migrateemail=migrateform.InputEmail.value;
-                            const migratedesignation=migrateform.InputDesignation.value;
-                            const migratephone_no=migrateform.InputPhonenumber.value;
-                            const migratecompany=migrateform.InputCompany.value;
-                            const migratecountry=migrateform.InputCountry.value;
-                          
+                            const migrateName=migrateform.InputName;
+                            const migrateEmail=migrateform.InputEmail;
+                            const migrateDesignation=migrateform.InputDesignation;
+                            const migratePhone_no=migrateform.InputPhonenumber;
+                            const migrateCompany=migrateform.InputCompany;
+                            const migrateCountry=migrateform.InputCountry;
+                            let migrateSubmitBtn=document.getElementById('submitbtn');
                             
                           
-                            if(migratename && migrateemail && migratedesignation && migratephone_no && migratecompany && migratecountry){
+                            if(migrateName.value && migrateEmail.value && migrateDesignation.value && migratePhone_no.value && migrateCompany.value && migrateCountry.value){
 
+                            migrateSubmitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Processing...';  
                             const result = await fetch("https://blinkcrm.razorops.com/api/leads", {
                             method: "POST",
                             mode: "cors",
@@ -626,12 +635,12 @@ const myform=document.getElementById('myform');
                               },
                               body: JSON.stringify({
                                 lead: {
-                                  first_name: migratename || "",
-                                  email: migrateemail || "",
-                                  designation: migratedesignation || "",
-                                  phoneno: migratephone_no || "",
-                                  companyname: migratecompany || "",
-                                  country: migratecountry || "",
+                                  first_name: migrateName.value || "",
+                                  email: migrateEmail.value || "",
+                                  designation: migrateDesignation.value || "",
+                                  phoneno: migratePhone_no.value || "",
+                                  companyname: migrateCompany.value || "",
+                                  country: migrateCountry.value || "",
                                   user_email: "shyam@razorops.com",
                                   status: "Not Sent",
                                 },
@@ -647,6 +656,12 @@ const myform=document.getElementById('myform');
                           })
                           
                         }
+                        migrateName.value='';
+                        migrateEmail.value='';
+                        migrateDesignation.value='';
+                        migratePhone_no.value='';
+                        migrateCompany.value='';
+                        migrateCountry.value='';
                         });
 
                               

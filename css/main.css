@@ -280,7 +280,7 @@ th, td {
 	background-color: #fff;
 }
 .bg-blue{
-	background: linear-gradient(178.55deg, rgba(240, 238, 255, 0.8) -1.11%, rgba(255, 255, 255, 0.8) 109.65%);
+	background: rgba(240, 238, 255, 0.438) -1.11%;
 }
 .bg-warning{
 	background-color: rgba(255, 255, 255, 0.846);
@@ -4479,7 +4479,7 @@ padding-left: 10px;
 
 .compititors-cta {
 	padding:160px 60px;
-	background:  rgba(232, 229, 255, 0.8) ;
+	background:  rgba(220, 214, 255, 0.8) ;
 }
 .competitors-table{
 	margin-top: 20px;
@@ -4516,9 +4516,10 @@ padding-left: 10px;
 	line-height: 26px;
 	
 }
-/* .compititors-cta .cta-body .compititors-cta-btns  .migrate-btn{
-	margin-left: 180px;
-} */
+.compititors-cta .cta-body .compititors-cta-btns  .migrate-btn{
+	margin-right: 40px;
+	margin-left: -4px;
+}
 .compititors-cta .cta-body .compititors-cta-btns img{
 	float: right !important;
 	margin-top: -26px;
