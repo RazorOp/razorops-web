@@ -54,7 +54,7 @@ migrateform.addEventListener('submit',async function(e){
     var validEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     
   
-    if(migrateName.value && migrateEmail.value && migrateDesignation.value && migratePhone_no.value && migrateCompany.value && migrateCountry.value){
+    if(migrateName.value && migrateEmail.value && migratePhone_no.value){
       if (migrateEmail.value.match(validEmail)) {
 
             migrateSubmitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Submitting...';  

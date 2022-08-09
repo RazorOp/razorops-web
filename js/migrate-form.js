@@ -12,7 +12,7 @@ const myform=document.getElementById('myform');
       let submitBtn=document.getElementById('submitbtn');
       var checkValidEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       
-     if(userName.value && userEmail.value && userDesignation.value && userPhone_no.value && userCompany.value && userCountry.value){
+     if(userName.value && userEmail.value && userPhone_no.value){
         if (userEmail.value.match(checkValidEmail)) {
       
                 submitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Submitting...';
