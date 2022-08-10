@@ -1,8 +1,6 @@
 ---
 title: Container Native DevOps & CICD Newsletter 17
-description: The Docker Monitoring Industry statistical data, which provides in-depth
-  facts about the market industries and their structure, has been added by Global
-  Market Vision.
+description: Docker Monitoring Market & Future Challenges. For more exciting updates, subscribe to container-native and DevOps news around the globe.
 permalink: "/newsletter/razorops-cicd-newsletter-17"
 layout: newsletter
 date: '2022-08-05 10:29:54'
