@@ -8,6 +8,7 @@ const myform=document.getElementById('myform');
       const userDesignation=myform.InputDesignation;
       const userPhone_no=myform.InputPhonenumber;
       const userCompany=myform.InputCompany;
+      const userCompanyLink=myform.InputCompanyLink;
       const userCountry=myform.InputCountry;
       let submitBtn=document.getElementById('submitbtn');
       var checkValidEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -26,10 +27,11 @@ const myform=document.getElementById('myform');
                     lead: {
                         first_name: userName.value || "",
                         email: userEmail.value || "",
-                        designation: userDesignation.value || "",
-                        phoneno: userPhone_no.value || "",
-                        companyname: userCompany.value || "",
-                        country: userCountry.value || "",
+                        title: userDesignation.value || "",
+                        phone: userPhone_no.value || "",
+                        company_name: userCompany.value || "",
+                        company_linkedin: userCompanyLink || "",
+                        location: userCountry.value || "",
                         user_email: "teamrazorops@gmail.com",
                         status: "Not Sent",
                         campaign_id: 6,
@@ -51,6 +53,7 @@ const myform=document.getElementById('myform');
                         userDesignation.value='';
                         userPhone_no.value='';
                         userCompany.value='';
+                        userCompanyLink.value='';
                         userCountry.value='';     
                         
             }

@@ -49,6 +49,7 @@ migrateform.addEventListener('submit',async function(e){
     const migrateDesignation=migrateform.InputDesignation;
     const migratePhone_no=migrateform.InputPhonenumber;
     const migrateCompany=migrateform.InputCompany;
+    const migrateCompanyLink=migrateform.InputCompanyLink;
     const migrateCountry=migrateform.InputCountry;
     let migrateSubmitBtn=document.getElementById('migrateSubmitBtn');
     var validEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -68,12 +69,14 @@ migrateform.addEventListener('submit',async function(e){
                 lead: {
                   first_name: migrateName.value || "",
                   email: migrateEmail.value || "",
-                  designation: migrateDesignation.value || "",
-                  phoneno: migratePhone_no.value || "",
-                  companyname: migrateCompany.value || "",
-                  country: migrateCountry.value || "",
-                  user_email: "shyam@razorops.com",
+                  title: migrateDesignation.value || "",
+                  phone: migratePhone_no.value || "",
+                  company_name: migrateCompany.value || "",
+                  company_linkedin:migrateCompanyLink.valid || "",
+                  location: migrateCountry.value || "",
+                  user_email: "teamrazorops@gmail.com",
                   status: "Not Sent",
+                  campaign_id: 6,
                 },
               }),
           
@@ -91,6 +94,7 @@ migrateform.addEventListener('submit',async function(e){
                 migrateDesignation.value='';
                 migratePhone_no.value='';
                 migrateCompany.value='';
+                migrateCompanyLink.valid='';
                 migrateCountry.value='';
             } 
             else{
