@@ -4660,6 +4660,10 @@ padding-left: 10px;
 		font-size: 30px;
 		line-height: 90px;
 	}
+	.compititors-cta .cta-body .compititors-cta-btns  .migrate-btn{
+		margin-right: 22px;
+		margin-left: -4px;
+	}
 
 	
 }
