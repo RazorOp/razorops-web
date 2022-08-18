@@ -14,8 +14,9 @@ const myform=document.getElementById('myform');
       var checkValidEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       
      if(userName.value && userEmail.value && userPhone_no.value){
-        if (userEmail.value.match(checkValidEmail)) {
-      
+        if (userEmail.value.match(checkValidEmail) && userPhone_no.value.length == userPhone_no.maxLength){
+
+                userPhone_no.value = userPhone_no.value.slice(0, userPhone_no.maxLength); 
                 submitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Submitting...';
                 const res = await fetch("https://blinkcrm.razorops.com/api/leads", {
                 method: "POST",
@@ -43,7 +44,7 @@ const myform=document.getElementById('myform');
                             return response.json();
                         }).then((data)=>{
                         console.log(data);
-                        location.href = "https://dashboard.razorops.com/users/sign_up"; 
+                        location.href = "https://razorops.com/signup/?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
                         }).catch((err)=>{
                         console.error(err);
                         });
@@ -58,7 +59,7 @@ const myform=document.getElementById('myform');
                         
             }
             else{
-                alert('Enter a valid email!!');
+                alert('Enter a valid Input!!');
               }
     }        
                             
