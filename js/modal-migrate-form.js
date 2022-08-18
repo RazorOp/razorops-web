@@ -56,7 +56,7 @@ migrateform.addEventListener('submit',async function(e){
     
   
     if(migrateName.value && migrateEmail.value && migratePhone_no.value){
-      if (migrateEmail.value.match(validEmail)) {
+      if (migrateEmail.value.match(validEmail) && migratePhone_no.value.length == migratePhone_no.maxLength){
 
             migrateSubmitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Submitting...';  
             const result = await fetch("https://blinkcrm.razorops.com/api/leads", {
@@ -84,7 +84,7 @@ migrateform.addEventListener('submit',async function(e){
                     return response.json();
                 }).then((data)=>{
                   console.log(data);
-                  location.href = "https://dashboard.razorops.com/users/sign_up"; 
+                  location.href = "https://razorops.com/signup/?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
                 }).catch((err)=>{
                   console.error(err);
                 });
@@ -98,7 +98,7 @@ migrateform.addEventListener('submit',async function(e){
                 migrateCountry.value='';
             } 
             else{
-              alert('Enter a valid email!!');
+              alert('Enter a valid input!!');
             }
     }
       
