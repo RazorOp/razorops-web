@@ -66,12 +66,7 @@ tasks:
     - commands:
       - gem install dpl
       - dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_KEY
-
-
-
 ```
 
-Razorops will trigger pipeline if code is pushed to production branch. 
-
-Razorops will deploy production branch to heroku. 
+Razorops will trigger pipeline if code is pushed to production branch. it will deploy production branch to heroku. 
 
