@@ -55,7 +55,6 @@ tasks:
     - checkout
     - run: bundle install
     - commands:
-        - bundle check
         - bundle exec rspec
 
   deploy-to-heroku:

@@ -1,20 +1,20 @@
-variables:
-  - BUNDLE_PATH=$(CI_WORKSPACE)/vendor/bundle
+global:
+  runner: ruby:3.1.2
 
 tasks:
-  restore-bundle:
-    type: restore
-    keys:
-      - bundle-[[ checksum "Gemfile.lock" ]]
-      - bundle-cache-[[ .RepoBranch ]]
+  unit-tests:
+    steps:
+    - checkout
+    - run: bundle install
+    - commands:
+        - bundle exec rspec
 
-  deploy-staging:
-    image: buildpack-deps:trusty
-    commands:
-      - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
+  deploy-to-heroku:
+    depends: [unit-tests]
+    when: branch == 'production'
+    steps:
+    - checkout
+    - commands:
+      - gem install dpl
+      - dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_KEY
 
-workflow:
-
-  - name: production
-    tasks: [deploy-staging]
-    when: branch == "development"
