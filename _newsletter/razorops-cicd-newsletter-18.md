@@ -58,7 +58,7 @@ Join us in our upcoming webinar and explore the best practices and a step-by-ste
 
 RazorOps is looking for a highly talented sales manager to grow our SaaS business.
 
-<p><b><a href="https://bit.ly/3zDg4jf"> target="_blank">Kubernetes Developer and Admin</a></b></p>
+<p><b><a href="https://bit.ly/3zDg4jf" target="_blank">Kubernetes Developer and Admin</a></b></p>
 
 RazorOps is looking for highly talented, hands-on Kubernetes developers to help accelerate our growing Professional Services consulting cloud and DevOps practice.
 
