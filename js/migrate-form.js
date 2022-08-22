@@ -24,6 +24,7 @@ const myform=document.getElementById('myform');
                 mode: "cors",
                     headers: {
                     "Content-Type": "application/json; charset=utf-8",
+                    "api_key": "19a5c89fb2ef43c1969d00e4554ab99e",
                     },
                     body: JSON.stringify({
                     lead: {
@@ -35,6 +36,7 @@ const myform=document.getElementById('myform');
                         company_linkedin: userCompanyLink || "",
                         location: userCountry.value || "",
                         user_email: "teamrazorops@gmail.com",
+                        lead_source: "jenkins_alternative",
                         status: "Not Sent",
                         campaign_id: 6,
                     },

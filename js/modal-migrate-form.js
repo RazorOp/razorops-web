@@ -65,6 +65,7 @@ migrateform.addEventListener('submit',async function(e){
             mode: "cors",
               headers: {
                 "Content-Type": "application/json; charset=utf-8",
+                "api_key": "19a5c89fb2ef43c1969d00e4554ab99e",
               },
               body: JSON.stringify({
                 lead: {
@@ -76,6 +77,7 @@ migrateform.addEventListener('submit',async function(e){
                   company_linkedin:migrateCompanyLink.valid || "",
                   location: migrateCountry.value || "",
                   user_email: "teamrazorops@gmail.com",
+                  lead_source: "jenkins_alternative",
                   status: "Not Sent",
                   campaign_id: 6,
                 },
