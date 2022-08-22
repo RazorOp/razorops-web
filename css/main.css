@@ -4032,3 +4032,9 @@ padding-left: 10px;
 	font-weight: 900 !important; 
 	font-size: 75px !important;
 }
+.liststyle-none{
+	list-style-type: none;
+}
+.integration-menu{
+	border-right: 1px solid black;
+}
