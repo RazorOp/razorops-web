@@ -41,7 +41,7 @@ DevOps covers a wide range of functions. From configuration management to infras
 
  - [AWS](https://aws.amazon.com) - A cloud computing platform offering ready to use web services which are loosely coupled.
 
- - [Ansible](http://www.ansible.com/) - An agent-less orchestration engine that can automate application and systems.
+ - [Ansible](https://www.ansible.com/) - An agent-less orchestration engine that can automate application and systems.
 
  -  [Aptly](https://github.com/smira/aptly) - A Debian repository management tool
  
@@ -51,7 +51,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Atom](https://atom.io/) - Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
  
- - [Awsbox](http://awsbox.org/) - A featherweight DYI PaaS on top of awscloud EC2 for deploying node apps.
+ - [Awsbox](https://awsbox.org/) - A featherweight DYI PaaS on top of awscloud EC2 for deploying node apps.
  
 
 # B
@@ -70,17 +70,17 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Beats](https://www.elastic.co/products/beats) - An open source collectors for log files, infrastructure metrics, and other important types of data agitation.
  
- - [Berkshelf](http://berkshelf.com) - Cookbook source manager for chef, similar to a bundler for ruby.
+ - [Berkshelf](https://berkshelf.com) - Cookbook source manager for chef, similar to a bundler for ruby.
  
- - [Buildbot](http://buildbot.net) - An open-source framework for automating software build, test and release process.
+ - [Buildbot](https://buildbot.net) - An open-source framework for automating software build, test and release process.
  
  - [Bento](https://www.bento.io) - A project that encapsulates Packer templates for building Vagrant base boxes.
  
- - [BuildMaster](http://inedo.com/buildmaster) - An automated deployment tool. It combines features to manage and automate processes primarily related to continuous integration, database change scripts, and production deployments.
+ - [BuildMaster](https://inedo.com/buildmaster) - An automated deployment tool. It combines features to manage and automate processes primarily related to continuous integration, database change scripts, and production deployments.
  
  - [Brooklyn](https://brooklyn.apache.org) - Focused on deployment & post deployment life-cycle management, aware of network typologies integrates with clouds.
  
- - [Barkeep](http://getbarkeep.org) - Code review tool for git projects, focused on code reviewing, can support both pre & post commit workflows.
+ - [Barkeep](https://getbarkeep.org) - Code review tool for git projects, focused on code reviewing, can support both pre & post commit workflows.
 
 # C
 
@@ -110,7 +110,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Consul](https://www.consul.io) - Makes it simple for services to register themselves and to discover other services via a DNS or HTTP interface.
  
- - [Chef](http://chef.io) - Configuration management tool which uses a pure-Ruby, DSL for writing system configuration recipes.
+ - [Chef](https://chef.io) - Configuration management tool which uses a pure-Ruby, DSL for writing system configuration recipes.
  
  - [CoreOS](https://coreos.com) - Lightweight OS that support containers out of the box. Can be used as base OS to run your own PaaS
  
@@ -139,7 +139,7 @@ DevOps covers a wide range of functions. From configuration management to infras
 
  - [Docker](https://www.docker.com/) - Package an application with all of its dependencies into a standardized unit for software development. Build, Ship, Run.
  
- - [Deis](http://deis.io/) - Open Source Application Platform For Public and Private Clouds. Its built on Docker & CoreOs.
+ - [Deis](https://deis.io/) - Open Source Application Platform For Public and Private Clouds. Its built on Docker & CoreOs.
  
  - [Drone](https://drone.io) - A Continuous Integration platform built on Docker, written in Go.
  
@@ -149,7 +149,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Djangy](https://www.crunchbase.com/organization/djangy) - An open source cloud hosting service for Python/Django web apps. Its like Heroku for Python/Django.
  
- - [Diamond](http://diamond.readthedocs.io/en/latest/) - Diamond is a python daemon that collects system metrics and publishes them to Graphite (and others).
+ - [Diamond](https://diamond.readthedocs.io/en/latest/) - Diamond is a python daemon that collects system metrics and publishes them to Graphite (and others).
 
 # E
  - Event-Driven Architecture - A software architecture pattern where events or messages are produced by the system, and the system is built to react, consume, and detect other events.
@@ -158,7 +158,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
  
- - [Eucalyptus](http://www8.hp.com/us/en/cloud/helion-eucalyptus-overview.html) - An open source software for building AWS - compatible private and hybrid clouds.
+ - [Eucalyptus](https://www8.hp.com/us/en/cloud/helion-eucalyptus-overview.html) - An open source software for building AWS - compatible private and hybrid clouds.
 
 # F
  - Fail Fast - A strategy in which you try something, it fails, feedback is delivered quickly, you adapt accordingly, and try again.
@@ -211,18 +211,18 @@ DevOps covers a wide range of functions. From configuration management to infras
  - [Juju](https://jujucharms.com/) - An orchestration tool allows software to be quickly deployed, integrated & scaled public/private/hybrid cloud.
 
 # K
- - [Kubernetes](http://kubernetes.io/) - An opensource system for managing containerized applications providing deployment & scaling of apps.
+ - [Kubernetes](https://kubernetes.io/) - An opensource system for managing containerized applications providing deployment & scaling of apps.
  
- - [Kickstart](http://kickstart-tools.sourceforge.net) - Uses bash scripts to provision machines over ssh, with no client installation on the target.
+ - [Kickstart](https://kickstart-tools.sourceforge.net) - Uses bash scripts to provision machines over ssh, with no client installation on the target.
  
  - [Kibana](https://www.elastic.co/products/kibana) - an open source (Apache Licensed), browser based analytic and search dashboard for Elasticsearch.
  
- - [Kafka](http://kafka.apache.org/) -  distributed, partitioned, replicated commit log service.
+ - [Kafka](https://kafka.apache.org/) -  distributed, partitioned, replicated commit log service.
 
 # L
  - [Logstash](https://www.elastic.co/products/logstash) - A data pipeline that helps you process logs and other event data from a variety of systems.
  
- - [Log.io](http://log.io/) - A Real-time log monitoring in your browser. Broadcasting logs to the web clients.
+ - [Log.io](https://log.io/) - A Real-time log monitoring in your browser. Broadcasting logs to the web clients.
 
  - [Loom](https://github.com/bfirsh/loom) - Does stuff Puppet doesn't do well or at all bootstrapping machines deploying code & installing reusable modules.
  
@@ -253,7 +253,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [OpsGenie](https://www.opsgenie.com/) - Tools you need to design meaningful, actionable alerts and ensure the right people are notified.
  
- - [OSV](http://osv.io) - An operating System for lightweight virtual machines, designed for ground up to run single application, similar to CoreOS.
+ - [OSV](https://osv.io) - An operating System for lightweight virtual machines, designed for ground up to run single application, similar to CoreOS.
 
  - [Otto](https://www.ottoproject.io/) - successor to Vagrant is single solution to develop, deploy application with firstclass support to microservices.
 
@@ -276,11 +276,11 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Pagerduty](https://www.pagerduty.com/) - A tool which would help us to increase the uptime of our apps, services, and infrastructure.
  
- - [Poni](http://melor.github.io/poni/) - Systems management tool for defining, deploying and verifying complex multi-node computer systems.
+ - [Poni](https://melor.github.io/poni/) - Systems management tool for defining, deploying and verifying complex multi-node computer systems.
  
  - [Pulp](https://www.pulpproject.org/) - A platform for managing repositories of content, such as software packages.
  
- - [Prometheus](http://prometheus.io/) - open-source service monitoring system and time series database.
+ - [Prometheus](https://prometheus.io/) - open-source service monitoring system and time series database.
 
 # Q
 
@@ -297,7 +297,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Rex](https://www.rexify.org/) - An agent less orchestration tool written in simple perl.
  
- - [Riemann](http://riemann.io/) - Riemann monitors distributed systems.
+ - [Riemann](https://riemann.io/) - Riemann monitors distributed systems.
 
 # S
  - Self-Service Deployment - The action of automating deployment processes enough for developers to allow project managers or even clients to directly control deployments.
@@ -317,7 +317,7 @@ DevOps covers a wide range of functions. From configuration management to infras
  
  - [Serf](https://www.serfdom.io/) - A lightweight & decentralized solution for cluster membership, failure detection & orchestration.
  
- - [SaltStack](http://saltstack.com/) - Configuration Management software, delivers fast, scalable event-driven infrastructure automation & predictive cloud orchestration.
+ - [SaltStack](https://saltstack.com/) - Configuration Management software, delivers fast, scalable event-driven infrastructure automation & predictive cloud orchestration.
  
  - [Slaughter](https://github.com/skx/slaughter) - A perl tool for automating configuration maintenance & management of large number of systems.
  

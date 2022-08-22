@@ -15,7 +15,7 @@ image: "/images/blog/razorops-heroku.png"
 
 This post i will explain how to deploy rails app on heroku using Razorops CI/CD
 
-Deploying to heroku was super easy as it happen with just a git push, with razorops you can add CI/CD support to your Heroku app.
+Deploying to heroku was super easy as it happen with just a git push, with razorops you can add Unit Testing, Code Scaning support to your Heroku app.
 
 **For this guide you will need:**
 
@@ -32,7 +32,7 @@ Deploying to heroku was super easy as it happen with just a git push, with razor
 4) Get one Razorops account here [https://dashboard.razorops.com](https://dashboard.razorops.com/users/sign_up)
 
 5) Connect your GIT provide account under integration: 
-[https://dashboard.razorops.com/integration](http://dashboard.razorops.com/integration)
+[https://dashboard.razorops.com/integration](https://dashboard.razorops.com/integration)
 
 6) Create a Pipeline on dashboard
 
@@ -46,30 +46,26 @@ Deploying to heroku was super easy as it happen with just a git push, with razor
 Add a **.razorops.yaml** in your project's root directory 
 
 ```
-variables:
-  - BUNDLE_PATH=$(CI_WORKSPACE)/vendor/bundle
+global:
+  runner: ruby:3.1.2
 
 tasks:
-  restore-bundle:
-    type: restore
-    keys:
-      - bundle-[[ checksum "Gemfile.lock" ]]
-      - bundle-cache-[[ .RepoBranch ]]
+  unit-tests:
+    steps:
+    - checkout
+    - run: bundle install
+    - commands:
+        - bundle exec rspec
 
   deploy-to-heroku:
-    image: buildpack-deps:trusty
-    commands:
-      - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
-
-workflow:
-  - name: staging
-    tasks: [deploy-to-heroku]
-    when: branch == "staging"
-
+    depends: [unit-tests]
+    when: branch == 'production'
+    steps:
+    - checkout
+    - commands:
+      - gem install dpl
+      - dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_KEY
 ```
 
-Razorops will trigger pipeline if code is pushed to staging branch. 
+Razorops will trigger pipeline if code is pushed to production branch. it will deploy production branch to heroku. 
 
-Razorops will deploy staging branch to heroku. 
-
-More details [https://docs.razorops.com/languages/ruby.html](https://docs.razorops.com/languages/ruby.html)

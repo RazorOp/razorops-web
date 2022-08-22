@@ -810,6 +810,14 @@ th, td {
 .do-banner-home-pd{
 	padding: 75px 15px !important;
 }
+
+.customers-banner1{
+	text-align: center;
+	padding: 15px;
+	background-image: url("/images/home/t-hub.jpg");
+	background-size: 100% 100%;
+  }
+
 .customers-banner{
   text-align: center;
 	padding: 150px 15px;
@@ -1069,9 +1077,9 @@ a {
 		height: auto;
 		margin: 0 auto;
 	}
-	.content-wraper {
+	/* .content-wraper {
 		margin-top: 60px;
-	}
+	} */
 }
 /*---features----*/
 .feature-img{
@@ -3763,7 +3771,7 @@ padding-left: 10px;
 	}
 	.razorops-do-img{
 		width: 200px;
-		margin-top: -28px;
+		margin-top: 28px;
 	}
 	.razorops-do-img2{
 		width: 230px;
@@ -5021,4 +5029,12 @@ padding-left: 10px;
 }
 #migrateform .form-group{
 	margin-bottom: 25px;
+
+}
+.liststyle-none{
+	list-style-type: none;
+}
+.integration-menu{
+	border-right: 1px solid black;
+
 }
