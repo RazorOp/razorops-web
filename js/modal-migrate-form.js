@@ -47,6 +47,7 @@ migrateform.addEventListener('submit',async function(e){
     const migrateName=migrateform.InputName;
     const migrateEmail=migrateform.InputEmail;
     const migrateDesignation=migrateform.InputDesignation;
+    const migrateCountryCode=migrateform.countryCode;
     const migratePhone_no=migrateform.InputPhonenumber;
     const migrateCompany=migrateform.InputCompany;
     const migrateCompanyLink=migrateform.InputCompanyLink;
@@ -70,7 +71,7 @@ migrateform.addEventListener('submit',async function(e){
                   first_name: migrateName.value || "",
                   email: migrateEmail.value || "",
                   title: migrateDesignation.value || "",
-                  phone: migratePhone_no.value || "",
+                  phone: '+'+ migrateCountryCode.value +'-'+ migratePhone_no.value || "",
                   company_name: migrateCompany.value || "",
                   company_linkedin:migrateCompanyLink.valid || "",
                   location: migrateCountry.value || "",

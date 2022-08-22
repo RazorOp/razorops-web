@@ -6,6 +6,7 @@ const myform=document.getElementById('myform');
       const userName=myform.InputName;
       const userEmail=myform.InputEmail;
       const userDesignation=myform.InputDesignation;
+      const userCountryCode=myform.countryCode;
       const userPhone_no=myform.InputPhonenumber;
       const userCompany=myform.InputCompany;
       const userCompanyLink=myform.InputCompanyLink;
@@ -29,7 +30,7 @@ const myform=document.getElementById('myform');
                         first_name: userName.value || "",
                         email: userEmail.value || "",
                         title: userDesignation.value || "",
-                        phone: userPhone_no.value || "",
+                        phone: '+'+ userCountryCode.value +'-'+ userPhone_no.value || "",
                         company_name: userCompany.value || "",
                         company_linkedin: userCompanyLink || "",
                         location: userCountry.value || "",
