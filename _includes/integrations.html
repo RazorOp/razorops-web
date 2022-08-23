@@ -21,19 +21,20 @@
 								  </a></li>
 								{% endfor %}
 							</ul>	
-							
+							<br>
+							<br>
+							<br>
 						  </div>
 					  </div>
 					  <div class="col-sm-9">
 							<ul class="liststyle-none">
 								{% assign integrationtool = site.integration %}
 								{% for post in integrationtool reversed limit:1 %}
-								  <li><a href="{{ site.baseurl }}{{ post.url }}">
-									
+								  <li>
 											<h2 class="text-capitalize">{{ post.title }}</h2>
-										  <h5>{{ post.content }}</h5>
-										 
-								  </a></li>
+											<br>
+										  	<h5>{{ post.content }}</h5>	 
+								  </li>
 								{% endfor %}
 							</ul>	
 								<div class="clearfix"></div>

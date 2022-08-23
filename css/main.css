@@ -1214,7 +1214,7 @@ a {
 }
 
 .integrations {
-	background-color: #f3f5f9;
+	background-color:   rgba(240, 238, 255, 0.8);
   padding: 100px 0;
   margin-bottom: -60px;
 }
@@ -4032,9 +4032,47 @@ padding-left: 10px;
 	font-weight: 900 !important; 
 	font-size: 75px !important;
 }
+
+/* ---------------- Integration page ----------------- */
 .liststyle-none{
 	list-style-type: none;
 }
 .integration-menu{
 	border-right: 1px solid black;
+}
+.integration-banner{
+	text-align: center;
+	position: relative;
+	  padding: 200px 15px;
+	   /* background-color:rgba(240, 238, 255, 0.8); */
+	   background:  linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 238, 255, 0.8) 42.23%);
+	   color: rgb(0, 0, 0);
+	   margin-top: -80px;
+	   background-size: 100% 100%;
+  
+}
+.top-integration{
+	padding: 0px 140px;
+	position:relative;
+	top: -120px;
+	
+	
+}  
+.top-integration .integration-box .integration-content{
+	text-align: center;
+	padding: 20px;
+	border-radius: 6px;
+	background-color: rgba(230, 227, 255, 0.971);;
+	border: 1px solid rgba(218, 214, 253, 0.8);
+box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.08);
+
+}
+
+.top-integration .integration-box .integration-content .integration-body h3{
+	font-weight: 900;
+}
+.top-integration .integration-box .integration-content .integration-body > .more-link{
+	color: rgb(45, 34, 140);
+	font-weight: 600;
+	
 }
