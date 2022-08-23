@@ -3181,7 +3181,12 @@ padding-left: 10px;
 }
 /* ******************signup section************************* */
 @media (min-width:768px){
-
+	#migrateform .form-heading{
+		margin-bottom: -4px;
+		position: relative;
+		font-size: 40px;
+		top: -36px;
+	}
 .signup-sectionss{
 	margin-top: 40px;
 	margin-bottom: 30px;
@@ -4651,6 +4656,9 @@ padding-left: 10px;
 	.get-started-section .get-started-body .get-started-content .get-started-btns a{
 		margin-bottom: 15px;
 	}
+	.get-started-section .get-started-body .get-started-content .get-started-btns {
+		text-align: center;
+	}
 	.signup-cta-section .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
 		margin-top: 15px !important;
 	}
@@ -4662,10 +4670,25 @@ padding-left: 10px;
 		line-height: 90px;
 	}
 	.compititors-cta .cta-body .compititors-cta-btns  .migrate-btn{
-		margin-right: 22px;
-		margin-left: -4px;
+		margin-right: 0px;
+		margin-left: 0px;
 	}
+	
+	.compititors-cta .cta-body .compititors-cta-btns{
+		text-align: center;
+	}
+	.compititors-cta .cta-body .compititors-cta-btns .btn{
+		float: none;
+		margin-left: 0px;
+		margin: 0px;
 
+	}
+	#migrateform  .form-heading{
+		margin-bottom: -4px;
+		position: relative;
+		font-size: 30px;
+		top: -20px;
+	}
 	
 }
 
@@ -4874,12 +4897,7 @@ padding-left: 10px;
 	
 	top: -37px;
 } */
-#migrateform .form-heading{
-	margin-bottom: -4px;
-	position: relative;
-	font-size: 40px;
-	top: -36px;
-}
+
 #migrateform .form-group{
 	margin-bottom: 25px;
 }

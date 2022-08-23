@@ -14,7 +14,7 @@ competitorsbtn.onclick = function() {
 
 window.onclick = function (event) {
 
-    if (event.target == modal) {
+    if (event.target == competitorsmodal) {
       competitorsmodal.style.display = "none";
 
     }
@@ -87,7 +87,7 @@ migrateform.addEventListener('submit',async function(e){
                     return response.json();
                 }).then((data)=>{
                   console.log(data);
-                  location.href = "https://razorops.com/signup/?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
+                  location.href = "https://dashboard.razorops.com/users/sign_in?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
                 }).catch((err)=>{
                   console.error(err);
                 });
