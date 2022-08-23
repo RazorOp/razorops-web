@@ -47,7 +47,7 @@ const myform=document.getElementById('myform');
                             return response.json();
                         }).then((data)=>{
                         console.log(data);
-                        location.href = "https://razorops.com/signup/?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
+                        location.href = "https://dashboard.razorops.com/users/sign_in?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
                         }).catch((err)=>{
                         console.error(err);
                         });
