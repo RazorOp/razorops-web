@@ -1220,9 +1220,10 @@ a {
 }
 
 .integrations {
-	background-color: #f3f5f9;
+	background-color:   rgba(240, 238, 255, 0.8);
   padding: 100px 0;
   margin-bottom: -60px;
+  margin-top: 80px;
 }
 .integration-illustration img {
 	max-width: 100%;
@@ -3756,7 +3757,19 @@ padding-left: 10px;
 	color: white;
 }
 @media  (max-width:767px){
-	
+	.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
+		display: none !important;
+	}
+	.signup-cta-section .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
+		margin-top: 15px !important;
+	}
+	.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-text{
+		margin-top: 35px !important;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 90px;
+	}
 	.cs-video iframe{
 		height: 200px !important;
 	}
@@ -5031,10 +5044,108 @@ padding-left: 10px;
 	margin-bottom: 25px;
 
 }
+
+/* ---------------- Integration page ----------------- */
 .liststyle-none{
 	list-style-type: none;
 }
 .integration-menu{
 	border-right: 1px solid black;
+}
+.integration-banner{
+	text-align: center;
+	position: relative;
+	  padding: 200px 15px;
+	   /* background-color:rgba(240, 238, 255, 0.8); */
+	   background:  linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 238, 255, 0.8) 42.23%);
+	   color: rgb(0, 0, 0);
+	   margin-top: -80px;
+	   background-size: 100% 100%;
+  
+}
+.top-integration{
+	padding: 0px 140px;
+	position:relative;
+	top: -120px;
+	
+	
+}  
+.top-integration .integration-box .integration-content{
+	text-align: center;
+	padding: 20px;
+	border-radius: 6px;
+	background-color: rgba(230, 227, 255, 0.971);;
+	border: 1px solid rgba(218, 214, 253, 0.8);
+box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.08);
+
+}
+
+.top-integration .integration-box .integration-content .integration-body h3{
+	font-weight: 900;
+}
+.top-integration .integration-box .integration-content .integration-body > .more-link{
+	color: rgb(45, 34, 140);
+	font-weight: 600;
+	
+}
+.signup-cta-section{
+	background-color: #345EEF;
+	padding: 80px 0px;
+	color: white;
+}
+.signup-cta-section .v3signup-inner .v3signup-cta-text .head1{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 49px;
+}
+.signup-cta-section .v3signup-inner .v3signup-cta-text .head2{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 90px;
+}
+.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
+	margin-top: 45px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 90px;
+	line-height: 90px;
+	padding: 40px 60px;
+	position: relative;
+	left: -100px;
+	top: 0;
+	animation: getstartedarrow 5s infinite;
+	animation-name: getstartedarrow;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	
+}
+@keyframes getstartedarrow {
+	0%   { left:0px; top:0px;}
+	25%  { left:80px; top:0px;}
+  }
+.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-text{
+	margin-top: -55px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 90px;
+}
+.signup-cta-section .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
+	justify-content: center;
+	align-items: center;
+	padding: 12px 22px;
+	margin-top: 70px;
+	background: #FFFFFF;
+	border-radius: 25px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 26px;
+	color: #345EEF;
+	white-space:unset;
+	margin-right: 10px;
+
 
 }
