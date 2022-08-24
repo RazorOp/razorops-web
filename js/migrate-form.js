@@ -31,7 +31,7 @@ const myform=document.getElementById('myform');
                         first_name: userName.value || "",
                         email: userEmail.value || "",
                         title: userDesignation.value || "",
-                        phone: '+'+ userCountryCode.value +'-'+ userPhone_no.value || "",
+                        phone: '+'+ userCountryCode.value + userPhone_no.value || "",
                         company_name: userCompany.value || "",
                         company_linkedin: userCompanyLink || "",
                         location: userCountry.value || "",
@@ -47,7 +47,7 @@ const myform=document.getElementById('myform');
                             return response.json();
                         }).then((data)=>{
                         console.log(data);
-                        location.href = "https://dashboard.razorops.com/users/sign_in?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
+                        location.href = "https://dashboard.razorops.com/users/sign_up?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
                         }).catch((err)=>{
                         console.error(err);
                         });

@@ -3250,7 +3250,8 @@ padding-left: 10px;
 	margin: 0px;
 }
 .compititors-cta .cta-body h1{
-	font-size: 60px;
+	font-size: 55px;
+	line-height: 75px;
 	font-weight: 900;
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-style: normal;
@@ -3272,8 +3273,8 @@ padding-left: 10px;
 	font-style: normal;
 	font-weight:900;
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: 60px;
-	line-height: 60px;
+	font-size: 55px;
+	line-height: 75px;
 	color: #18204C;
 }
 }
@@ -4425,8 +4426,8 @@ padding-left: 10px;
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 60px;
-	line-height: 70px;
+	font-size: 55px;
+	line-height: 75px;
 	color: #18204C;
 	margin-bottom: 30px;
 }
