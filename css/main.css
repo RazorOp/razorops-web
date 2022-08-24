@@ -4806,6 +4806,7 @@ padding-left: 10px;
 	}
 	.get-started-section .get-started-body .get-started-content .get-started-btns a{
 		margin-bottom: 15px;
+		width: 80%;
 	}
 	.get-started-section .get-started-body .get-started-content .get-started-btns {
 		text-align: center;
