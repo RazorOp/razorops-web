@@ -4881,6 +4881,9 @@ padding-left: 10px;
 	margin: 0px;
     width: 250px !important;
 }
+#myform .btn-razorops-new:active{
+	outline: 1px solid #345EEF !important;
+}
 .get-started-section .get-started-body .get-started-content .get-started-btns{
 	margin-top: 40px;
 
