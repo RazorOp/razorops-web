@@ -5064,6 +5064,7 @@ padding-left: 10px;
 #migrateform .form-group{
 	margin-bottom: 25px;
 
+
 }
 
 /* ---------------- Integration page ----------------- */
@@ -5167,6 +5168,11 @@ box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.0
 	color: #345EEF;
 	white-space:unset;
 	margin-right: 10px;
+
+
+}
+p{
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 
 }
