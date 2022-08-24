@@ -3221,7 +3221,6 @@ padding-left: 10px;
 	/* .cs-video iframe{
 		height: 420px ;
 	} */
-
 	#migrateform .form-heading{
 		margin-bottom: -4px;
 		position: relative;
@@ -3291,7 +3290,8 @@ padding-left: 10px;
 	margin: 0px;
 }
 .compititors-cta .cta-body h1{
-	font-size: 60px;
+	font-size: 55px;
+	line-height: 75px;
 	font-weight: 900;
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-style: normal;
@@ -3313,8 +3313,8 @@ padding-left: 10px;
 	font-style: normal;
 	font-weight:900;
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: 60px;
-	line-height: 60px;
+	font-size: 55px;
+	line-height: 75px;
 	color: #18204C;
 }
 }
@@ -3500,7 +3500,6 @@ padding-left: 10px;
 	font-size: 50px;
 	font-weight: bold;
 	margin-right: 16px;
-
   }
 
   
@@ -3510,14 +3509,22 @@ padding-left: 10px;
 	text-decoration: none;
 	cursor: pointer;
   }
+
   .bannerclose{
 	color: #aaaaaa;
 	float: right;
 	font-size: 50px;
 	font-weight: bold;
 	margin-right: 16px;
-  }
 
+  }
+  .bannerclose:hover,
+  .bannerclose:focus {
+
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
   .competitorsclose {
 	color: #aaaaaa;
 	float: right;
@@ -3527,16 +3534,11 @@ padding-left: 10px;
 	position: relative;
 	left: -10px;
   }
-  .bannerclose:hover,
-  .bannerclose:focus {
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
-  }
 
   
   .competitorsclose:hover,
   .competitorsclose:focus {
+
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
@@ -4118,6 +4120,30 @@ padding-left: 10px;
 	font-weight: 600;
 }
 
+
+.cs-video{
+	padding: 20px;
+	
+}
+.cs-video iframe{
+	width: 800px;
+  max-width: calc(100% - 20px);
+  height: 415px;
+  max-height: calc(100% - 20px);
+}
+.play-demobtn{
+	background-color: rgb(206, 206, 206);
+	border-radius: 10px;
+}
+.hero__text{
+	margin: 20px 0px 40px 0px ;
+}
+.hero__title{
+	font-weight: 900 !important; 
+	font-size: 75px !important;
+}
+
+
 /* ********************* Competitors page *************************** */
 
 
@@ -4565,8 +4591,8 @@ padding-left: 10px;
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 60px;
-	line-height: 70px;
+	font-size: 55px;
+	line-height: 75px;
 	color: #18204C;
 	margin-bottom: 30px;
 }
@@ -4795,6 +4821,7 @@ padding-left: 10px;
 	}
 	.get-started-section .get-started-body .get-started-content .get-started-btns a{
 		margin-bottom: 15px;
+		width: 80%;
 	}
 	.get-started-section .get-started-body .get-started-content .get-started-btns {
 		text-align: center;
@@ -4813,7 +4840,6 @@ padding-left: 10px;
 		margin-right: 0px;
 		margin-left: 0px;
 	}
-	
 	.compititors-cta .cta-body .compititors-cta-btns{
 		text-align: center;
 	}
@@ -4829,6 +4855,7 @@ padding-left: 10px;
 		font-size: 30px;
 		top: -20px;
 	}
+
 	
 }
 
@@ -4869,6 +4896,9 @@ padding-left: 10px;
 #myform .btn-razorops-new{
 	margin: 0px;
     width: 250px !important;
+}
+#myform .btn-razorops-new:active{
+	outline: 1px solid #345EEF !important;
 }
 .get-started-section .get-started-body .get-started-content .get-started-btns{
 	margin-top: 40px;
@@ -5060,7 +5090,12 @@ padding-left: 10px;
 	
 	top: -37px;
 } */
-
+#migrateform .form-heading{
+	margin-bottom: -4px;
+	position: relative;
+	font-size: 40px;
+	top: -36px;
+}
 #migrateform .form-group{
 	margin-bottom: 25px;
 
