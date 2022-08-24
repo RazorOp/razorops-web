@@ -6,7 +6,7 @@ layout: post
 date: '2022-04-27 11:07:05'
 author: Shyam Mohan
 category: Virtual Machine
-image: images/blog/virtualization-benefit.png
+image: "/images/blog/virtualization-benefit.png"
 ---
 
 Virtualization uses software to create an abstract layer over the hardware. By doing this it creates a virtual computer system, known as the  virtual machines (VMs). This will allow organizations to run multiple virtual computers, operating systems, and applications on a single physical server

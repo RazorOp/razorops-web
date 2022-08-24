@@ -35,7 +35,7 @@ address {
     position: relative;
     background: url(../images/intro-bg.webp) center bottom no-repeat;
     background-size: cover;
-    padding: 200px 0 120px 0;
+    padding: 200px 0 168px 0;
 }
 
 .instructors_background {
@@ -326,6 +326,27 @@ th, td {
 }
 .navbar {
 	z-index: 4;
+}
+.popup-hr{
+	height: 1.8px;
+	border: none;
+	margin: 0px 0px 6px 0px;
+	background-color: royalblue;
+
+}
+.webinar-trigger-wrapper  p{
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+.webinar-trigger-wrapper  p a{
+	color: white;
+	font-size: 18px;
+	font-weight: 900;
+}
+.navbar::-webkit-scrollbar-track{
+	margin-top: 0px;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
@@ -634,7 +655,6 @@ th, td {
 }
 .banner-illustration {
 	float: right;
-	margin-top: -87px;
 	width: 50%;
 	height: 90%;
 	float: right;
@@ -657,11 +677,12 @@ th, td {
 
 
 .banner-illustration img {
-	position: absolute;
 	top: 0px;
 	left: 0px;
 	display: block;
 	margin: auto;
+	border-radius: 15px!important;
+	margin-top: 162px !important;
 	max-width: 80%;
 	opacity: 0;
 	animation: .9s ease-out 0s 1 slideInFromBottom;
@@ -789,6 +810,14 @@ th, td {
 .do-banner-home-pd{
 	padding: 75px 15px !important;
 }
+
+.customers-banner1{
+	text-align: center;
+	padding: 15px;
+	background-image: url("/images/home/t-hub.jpg");
+	background-size: 100% 100%;
+  }
+
 .customers-banner{
   text-align: center;
 	padding: 150px 15px;
@@ -1048,6 +1077,9 @@ a {
 		height: auto;
 		margin: 0 auto;
 	}
+	/* .content-wraper {
+		margin-top: 60px;
+	} */
 }
 /*---features----*/
 .feature-img{
@@ -2648,7 +2680,7 @@ a {
 
 @media (max-width:767px){
 	.customers-banner{
-		margin-top: 20px;
+		margin-top: 0px;
 		background-size: 900px 700px;
 	}
 	.webinar-register-form-hidden{
@@ -3133,7 +3165,7 @@ padding-left: 10px;
 
 .addeventatc{
 	font-weight: 501 !important;
-	background: rgb(231, 113, 59) !important;
+	background: rgb(255, 255, 255) !important;
 	z-index: auto !important;
 }
 
@@ -3181,6 +3213,9 @@ padding-left: 10px;
 }
 /* ******************signup section************************* */
 @media (min-width:768px){
+	/* .cs-video iframe{
+		height: 420px ;
+	} */
 	#migrateform .form-heading{
 		margin-bottom: -4px;
 		position: relative;
@@ -3388,8 +3423,9 @@ padding-left: 10px;
 .modalnew {
 	display: none; 
 	position: fixed; 
-	z-index: 1; 
+	z-index: 5; 
 	padding-top: 100px; 
+	/* margin-top: 10px !important; */
 	left: 0;
 	top: 0;
 	width: 100%; 
@@ -3397,6 +3433,9 @@ padding-left: 10px;
 	overflow: auto; 
 	background-color: rgb(0,0,0); 
 	background-color: rgba(0,0,0,0.4); 
+  }
+  .stay-color:hover{
+	background-color: #1e3fe6;;
   }
   .competitorsmodal {
 	display: none; 
@@ -3418,15 +3457,44 @@ padding-left: 10px;
 	padding: 20px;
 	border: 1px solid #888;
 	width: 40%;
+	z-index: -999999;
+  }
+  .modal-video {
+	background-color: #fefefe;
+	margin: auto;
+	border: 1px solid #888;
+	width: 60%;
+	border-radius: 8px;
+  }
+  .youtubemodal-video{
+		margin: auto;
+		width: 60%;
+		border-radius: 8px;
+  }
+  .closebtn {
+	color: #aaaaaa;
+	float: right;
+	font-size: 40px;
+	font-weight: bold;
+	margin-right: 15px;
   }
   
+  .closebtn:hover,
+  .closebtn:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  .modal-header{
+	padding: 0px !important;
+	border-bottom: none !important;
+  }
   .close {
 	color: #aaaaaa;
 	float: right;
 	font-size: 50px;
 	font-weight: bold;
 	margin-right: 16px;
-
   }
 
   
@@ -3437,7 +3505,21 @@ padding-left: 10px;
 	cursor: pointer;
   }
 
+  .bannerclose{
+	color: #aaaaaa;
+	float: right;
+	font-size: 50px;
+	font-weight: bold;
+	margin-right: 16px;
 
+  }
+  .bannerclose:hover,
+  .bannerclose:focus {
+
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
   .competitorsclose {
 	color: #aaaaaa;
 	float: right;
@@ -3451,9 +3533,14 @@ padding-left: 10px;
   
   .competitorsclose:hover,
   .competitorsclose:focus {
+
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
+  }
+
+  .modal-dialog{
+	width: 60% !important;
   }
   .modal-video {
 	background-color: #fefefe;
@@ -3504,6 +3591,42 @@ padding-left: 10px;
 }
 
 @media screen and (max-width:767px) {
+	#test-audio{
+		height: inherit !important;
+	}
+	.modalnew {
+		display: none; 
+		position: fixed; 
+		z-index: 5; 
+		padding-top: 100px !important; 
+		margin-top: 80px !important;
+		left: 0;
+		top: 0;
+		width: 100%; 
+		height: 100%; 
+		overflow: auto; 
+		background-color: rgb(0,0,0); 
+		background-color: rgba(0,0,0,0.4); 
+	  }
+	.modal-video {
+		background-color: #fefefe;
+		margin: auto;
+		padding: 10px;
+		border: 1px solid #888;
+		width: 94%;
+		
+	  }
+	  .modal-dialog{
+			width: 90% !important;
+			margin: 20px !important;
+		}
+	  .close {
+		color: #aaaaaa;
+		float: right;
+		font-size: 30px;
+		font-weight: bold;
+		margin-right: 5px;
+	  }
 	#signup-policy{
 		text-align: left !important;
 	}
@@ -3643,6 +3766,11 @@ padding-left: 10px;
 	color: white;
 }
 @media  (max-width:767px){
+	
+	.cs-video iframe{
+		height: 200px !important;
+	}
+	
 	.do-productcard{
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		transition: 0.3s;
@@ -3653,7 +3781,7 @@ padding-left: 10px;
 	}
 	.razorops-do-img{
 		width: 200px;
-		margin-top: -28px;
+		margin-top: 28px;
 	}
 	.razorops-do-img2{
 		width: 230px;
@@ -3977,6 +4105,28 @@ padding-left: 10px;
 }
 .text-bolder{
 	font-weight: 600;
+}
+
+.cs-video{
+	padding: 20px;
+	
+}
+.cs-video iframe{
+	width: 800px;
+  max-width: calc(100% - 20px);
+  height: 415px;
+  max-height: calc(100% - 20px);
+}
+.play-demobtn{
+	background-color: rgb(206, 206, 206);
+	border-radius: 10px;
+}
+.hero__text{
+	margin: 20px 0px 40px 0px ;
+}
+.hero__title{
+	font-weight: 900 !important; 
+	font-size: 75px !important;
 }
 
 /* ********************* Competitors page *************************** */
@@ -4674,7 +4824,6 @@ padding-left: 10px;
 		margin-right: 0px;
 		margin-left: 0px;
 	}
-	
 	.compititors-cta .cta-body .compititors-cta-btns{
 		text-align: center;
 	}
@@ -4690,6 +4839,7 @@ padding-left: 10px;
 		font-size: 30px;
 		top: -20px;
 	}
+
 	
 }
 
@@ -4898,11 +5048,17 @@ padding-left: 10px;
 	
 	top: -37px;
 } */
-
+#migrateform .form-heading{
+	margin-bottom: -4px;
+	position: relative;
+	font-size: 40px;
+	top: -36px;
+}
 #migrateform .form-group{
 	margin-bottom: 25px;
 }
 p{
 	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 
 }

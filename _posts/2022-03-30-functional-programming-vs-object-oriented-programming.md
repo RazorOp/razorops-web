@@ -6,7 +6,7 @@ layout: post
 date: '2022-03-30 13:04:53'
 author: Shyam Mohan
 category: OOPs
-image: images/blog/functional-programming-oops.png
+image: "/images/blog/functional-programming-oops.png"
 keywords: functional program, oops, object oriented,programming, oop , functionality
 ---
 

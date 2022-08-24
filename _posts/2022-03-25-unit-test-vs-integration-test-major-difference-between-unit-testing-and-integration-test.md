@@ -10,7 +10,7 @@ author: Shyam Mohan
 category: Quality Assurance(QA)
 keywords: QA, quality assurance, testing , type od testing, unit testing, functional
   testing, test, test tools
-image: images/blog/unit-testing-integration-test.jpg
+image: "/images/blog/unit-testing-integration-test.jpg"
 ---
 
 Developing a quality software is considered incomplete without writing tests. Not only does the test assure the quality but it profoundly helps developers while refactoring or re-writing a piece of code. When it comes to testing, having well-planned and thorough testing throughout the software development cycle is very important. The most commonly used types of tests today are unit tests and integration tests.

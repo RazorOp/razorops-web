@@ -16,6 +16,48 @@ canonical_url: https://razorops.com/about/
   3. Testing Automation(unit, integration, acceptance etc.)<br>
   4. Faster builds and shipping to production<br><br>
   Razorops is a single solution that implements the whole pipeline from start to deployment.
+
+  <br><br>
+  <a class="btn btn-lg btn-primary btn-width mb-10 mobile stay-color" id="myBtn" > Watch Intro</a>
+				<div id="myModal" class="modalnew">
+
+					<div class="modal-video">
+					  <span class="close">&times;</span>
+					  <video width="100%" height="540" controls="controls" id="test-audio">
+						<source src="/images/WHAT IS CICD PIPELINE _ CONTAINER NATIVE CICD _ RAZOROPS _ BEST CICD TOOL.mp4" type="video/mp4">
+						<source src="/images/WHAT-IS-CICD-PIPELINE-_-CONTAINER-NATIVE-CICD-_-RAZOROPS-_-BEST-CICD-TOOL.ogg" type="video/ogg">
+					  Your browser does not support the video tag.
+					  </video>					
+					</div>
+				  
+				  </div>
+				
+				  <script>
+					var modal = document.getElementById("myModal");
+					var btn = document.getElementById("myBtn");
+					var span = document.getElementsByClassName("close")[0];
+					var audio = document.getElementById("test-audio");
+					
+					btn.onclick = function() {
+					  modal.style.display = "block";
+					  audio.autoplay=true;
+					  audio.load();
+					}
+					
+					span.onclick = function() {
+					  modal.style.display = "none";
+					  audio.autoplay=false;
+						audio.pause();
+					}
+					
+					window.onclick = function(event) {
+					  if (event.target == modal) {
+						modal.style.display = "none";
+						audio.autoplay=false;
+						audio.pause();
+					  }
+					}
+					</script>
 </p>
 
 <!-- <div class="col-sm-3">
@@ -144,24 +186,6 @@ canonical_url: https://razorops.com/about/
   </div>
 </div>
 
-<div class="clearfix"></div><br><br>
-<div class="col-sm-3">
-  <div class="team-card">
-    <img src="/images/team/saumya.jpeg" alt="Saumya S" style="width:100%">
-    <h3>Saumya S</h3>
-    <p class="title">Sales Engineer</p>
-    <a href="https://www.linkedin.com/in/saumya-s-bb198117a/" target="_blank"><img src="/images/v2/linkedin.svg" alt="Linkedin" width="24" height="24"></a>
-  </div>
-</div>
-
-<div class="col-sm-3">
-  <div class="team-card">
-    <img src="/images/team/female.jpg" alt="Lisa Marque" style="width:100%">
-    <h3>Lisa Marque</h3>
-    <p class="title">Sales Engineer</p>
-    <a href="https://www.linkedin.com/in/lisa-marque-165894180/" target="_blank"><img src="/images/v2/linkedin.svg" alt="Linkedin" width="24" height="24"></a>
-  </div>
-</div>
 
 
 

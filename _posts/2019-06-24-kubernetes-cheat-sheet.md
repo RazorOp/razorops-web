@@ -116,7 +116,7 @@ Kubernetes is an open-source container-orchestration system for automating appli
 </tr>
 <tr>
 <td class="org-left">Query healthcheck endpoint</td>
-<td class="org-left"><code>curl -L http://127.0.0.1:10250/healthz</code></td>
+<td class="org-left"><code>curl -L https://127.0.0.1:10250/healthz</code></td>
 </tr>
 <tr>
 <td class="org-left">Open a bash terminal in a pod</td>

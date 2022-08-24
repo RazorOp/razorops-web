@@ -351,7 +351,7 @@ Also see the [mailing list](https://groups.google.com/a/dockerproject.org/forum/
 [The configuration file](https://docs.docker.com/engine/reference/builder/){:target="_blank"}. Sets up a Docker container when you run `docker build` on it. Vastly preferable to `docker commit`.  
 
 Here are some common text editors and their syntax highlighting modules you could use to create Dockerfiles:
-* If you use [jEdit](http://jedit.org){:target="_blank"}, I've put up a syntax highlighting module for [Dockerfile](https://github.com/wsargent/jedit-docker-mode){:target="_blank"} you can use.
+* If you use [jEdit](https://jedit.org){:target="_blank"}, I've put up a syntax highlighting module for [Dockerfile](https://github.com/wsargent/jedit-docker-mode){:target="_blank"} you can use.
 * [Sublime Text 2](https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting){:target="_blank"}
 * [Atom](https://atom.io/packages/language-docker){:target="_blank"}
 * [Vim](https://github.com/ekalinin/Dockerfile.vim){:target="_blank"}
@@ -383,7 +383,7 @@ Here are some common text editors and their syntax highlighting modules you coul
 
 * [Examples](https://docs.docker.com/engine/reference/builder/#dockerfile-examples){:target="_blank"}
 * [Best practices for writing Dockerfiles](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/){:target="_blank"}
-* [Michael Crosby](http://crosbymichael.com/){:target="_blank"} has some more [Dockerfiles best practices](http://crosbymichael.com/dockerfile-best-practices.html){:target="_blank"} / [take 2](http://crosbymichael.com/dockerfile-best-practices-take-2.html){:target="_blank"}.
+* [Michael Crosby](https://crosbymichael.com/){:target="_blank"} has some more [Dockerfiles best practices](https://crosbymichael.com/dockerfile-best-practices.html){:target="_blank"} / [take 2](https://crosbymichael.com/dockerfile-best-practices-take-2.html){:target="_blank"}.
 
 ## Layers
 
@@ -442,7 +442,7 @@ You can mount them in several docker containers at once, using `docker run --vol
 
 Because volumes are isolated filesystems, they are often used to store state from computations between transient containers. That is, you can have a stateless and transient container run from a recipe, blow it away, and then have a second instance of the transient container pick up from where the last one left off.
 
-See [advanced volumes](http://crosbymichael.com/advanced-docker-volumes.html){:target="_blank"} for more details. [Container42](http://container42.com/2014/11/03/docker-indepth-volumes/){:target="_blank"} is also helpful.
+See [advanced volumes](https://crosbymichael.com/advanced-docker-volumes.html){:target="_blank"} for more details. [Container42](https://container42.com/2014/11/03/docker-indepth-volumes/){:target="_blank"} is also helpful.
 
 You can [map MacOS host directories as docker volumes](https://docs.docker.com/engine/tutorials/dockervolumes/#mount-a-host-directory-as-a-data-volume){:target="_blank"}:
 
@@ -452,7 +452,7 @@ docker run -v /Users/wsargent/myapp/src:/src
 
 You can use remote NFS volumes if you're [feeling brave](https://docs.docker.com/engine/tutorials/dockervolumes/#/mount-a-shared-storage-volume-as-a-data-volume){:target="_blank"}.
 
-You may also consider running data-only containers as described [here](http://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/){:target="_blank"} to provide some data portability.
+You may also consider running data-only containers as described [here](https://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/){:target="_blank"} to provide some data portability.
 
 Be aware that you can [mount files as volumes](#volumes-can-be-files).
 
@@ -502,7 +502,7 @@ docker port CONTAINER $CONTAINERPORT
 
 This is where security tips about Docker go. The Docker [security](https://docs.docker.com/engine/security/security/){:target="_blank"} page goes into more detail.
 
-First things first: Docker runs as root. If you are in the `docker` group, you effectively [have root access](https://web.archive.org/web/20161226211755/http://reventlov.com/advisories/using-the-docker-command-to-root-the-host){:target="_blank"}. If you expose the docker unix socket to a container, you are giving the container [root access to the host](https://www.lvh.io/posts/dont-expose-the-docker-socket-not-even-to-a-container.html){:target="_blank"}.  
+First things first: Docker runs as root. If you are in the `docker` group, you effectively [have root access](https://web.archive.org/web/20161226211755/https://reventlov.com/advisories/using-the-docker-command-to-root-the-host){:target="_blank"}. If you expose the docker unix socket to a container, you are giving the container [root access to the host](https://www.lvh.io/posts/dont-expose-the-docker-socket-not-even-to-a-container.html){:target="_blank"}.  
 
 Docker should not be your only defense. You should secure and harden it.
 
@@ -510,7 +510,7 @@ For an understanding of what containers leave exposed, you should read [Understa
 
 ### Security Tips
 
-For greatest security, you want to run Docker inside a virtual machine. This is straight from the Docker Security Team Lead -- [slides](http://www.slideshare.net/jpetazzo/linux-containers-lxc-docker-and-security){:target="_blank"} / [notes](http://www.projectatomic.io/blog/2014/08/is-it-safe-a-look-at-docker-and-security-from-linuxcon/){:target="_blank"}. Then, run with AppArmor / seccomp / SELinux / grsec etc to [limit the container permissions](http://linux-audit.com/docker-security-best-practices-for-your-vessel-and-containers/){:target="_blank"}. See the [Docker security features](https://www.docker.com/blog/tag/docker-security/){:target="_blank"} for more details.
+For greatest security, you want to run Docker inside a virtual machine. This is straight from the Docker Security Team Lead -- [slides](https://www.slideshare.net/jpetazzo/linux-containers-lxc-docker-and-security){:target="_blank"} / [notes](https://www.projectatomic.io/blog/2014/08/is-it-safe-a-look-at-docker-and-security-from-linuxcon/){:target="_blank"}. Then, run with AppArmor / seccomp / SELinux / grsec etc to [limit the container permissions](https://linux-audit.com/docker-security-best-practices-for-your-vessel-and-containers/){:target="_blank"}. See the [Docker security features](https://www.docker.com/blog/tag/docker-security/){:target="_blank"} for more details.
 
 Docker image ids are [sensitive information](https://medium.com/@quayio/your-docker-image-ids-are-secrets-and-its-time-you-treated-them-that-way-f55e9f14c1a4){:target="_blank"} and should not be exposed to the outside world. Treat them like passwords.
 
@@ -528,13 +528,13 @@ Since docker 1.11 you can easily limit the number of active processes running in
 docker run --pids-limit=64
 ```
 
-Also available since docker 1.11 is the ability to prevent processes from gaining new privileges. This feature have been in the linux kernel since version 3.5. You can read more about it in [this](http://www.projectatomic.io/blog/2016/03/no-new-privs-docker/) blog post.
+Also available since docker 1.11 is the ability to prevent processes from gaining new privileges. This feature have been in the linux kernel since version 3.5. You can read more about it in [this](https://www.projectatomic.io/blog/2016/03/no-new-privs-docker/) blog post.
 
 ```
 docker run --security-opt=no-new-privileges
 ```
 
-From the [Docker Security Cheat Sheet](http://container-solutions.com/content/uploads/2015/06/15.06.15_DockerCheatSheet_A2.pdf){:target="_blank"} (it's in PDF which makes it hard to use, so copying below) by [Container Solutions](http://container-solutions.com/is-docker-safe-for-production/){:target="_blank"}:
+From the [Docker Security Cheat Sheet](https://container-solutions.com/content/uploads/2015/06/15.06.15_DockerCheatSheet_A2.pdf){:target="_blank"} (it's in PDF which makes it hard to use, so copying below) by [Container Solutions](https://container-solutions.com/is-docker-safe-for-production/){:target="_blank"}:
 
 Turn off interprocess communication with:
 
