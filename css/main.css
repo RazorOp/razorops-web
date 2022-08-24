@@ -4901,3 +4901,7 @@ padding-left: 10px;
 #migrateform .form-group{
 	margin-bottom: 25px;
 }
+p{
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
