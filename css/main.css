@@ -3313,6 +3313,12 @@ padding-left: 10px;
 	color: #18204C;
 }
 }
+@media screen and (min-width:1320px) and (max-width:1399px) {
+	.get-started-section .get-started-body img{
+		height: 580px;
+		width: 110%;
+	}
+}
 @media  (min-width:768px) and (max-width:1024px) {
 	.signup-sectionss{
 		margin-top: 160px;
