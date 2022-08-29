@@ -31,4 +31,7 @@ jekyll_admin:
 collections:
   newsletter:
     output: true
-    permalinks: /newsletter/:title/   
+    permalinks: /newsletter/:title/
+  integration:
+    output: true
+    permalinks: /integration/:title/     

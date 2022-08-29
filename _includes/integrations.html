@@ -1,72 +1,130 @@
-
-
-<div class="integrations">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="integration-illustration">
-					<img src="/images/razorops-assets/integrations.png" alt="integrate with Jenkins">
-				</div>
+<div class="container-fluid">
+	<div class="container text-center">
+		<h1>All Integrations</h1>
+	</div>			
+	<hr>
+ <div class="container">
+	<div class="content-wraper">
+		<div class="blog-wraper">
+			  <div class="container">
+				<div class="row"> 
+					<div class="col-md-3 integration-menu">
+						<div class="container">
+							<h3>Integrations Tools</h3>
+							<br>
+							<ul class="liststyle-none">
+								{% assign integrationtool = site.integration %}
+								{% for post in integrationtool reversed %}
+								  <li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
+									
+										  <h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
+										  										  
+								  </a></li>
+								{% endfor %}
+							</ul>	
+							<br>
+							<br>
+							<br>
+						  </div>
+					  </div>
+					  <div class="col-sm-9">
+						<div class="blog-post-content" id="blog-post-margins">
+                            <div class="blog-post-body">
+								{% assign integrationtool = site.integration %}
+								{% for post in integrationtool reversed limit:1 %}
+								
+											<h1 class="text-capitalize">{{ post.title }}</h1>
+											<br>
+										  	<p>{{ post.content }}</p>	 
+								  
+								{% endfor %}
+							</div>
+							</div>		
+							  
+					  </div>
+	  
+					</div>  
+				</div>	
+	  
+				
 			</div>
-			<div class="col-md-6">
-				<div class="integration-msg">
-					<h3>Integrations</h3>
-					<p class="lead mb-0">Connect right out of the box to GIT or your choice of version control systems to build and deploy apps from your source code. Easily integrate with your continuous integration tools of choice like Docker and Kubernetes, and get automatic deployment notifications via email and Slack.</p>
+		  </div> 
+	</div>
+	
+	<div class="integrations">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="integration-illustration">
+						<img src="/images/razorops-assets/integrations.png" alt="integrate with Jenkins">
+					</div>
 				</div>
+				<div class="col-md-6">
+					<div class="integration-msg">
+						<h2>Integrations</h2>
+						<p class="lead mb-0">Connect right out of the box to GIT or your choice of version control systems to build and deploy apps from your source code. Easily integrate with your continuous integration tools of choice like Docker and Kubernetes, and get automatic deployment notifications via email and Slack.</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
 			</div>
-			<div class="clearfix"></div>
-			<br>
-			<br>
-			<!-- <div class="client-images">
-
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/kubernetes.png" alt="kubernetes" >
-				</div>
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/docker.png" alt="docker" >
-				</div>
-
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/google-cloud.png" alt="google-cloud">
-				</div>
-
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/aws.png" alt="AWS" >
-				</div>
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/azure.png" alt="azure" >
-				</div>
-
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/digitalocean.png" alt="digitalocean">
-				</div>
-
-				<div class="clearfix"></div>
-
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/git.png" alt="git" >
-				</div>
-
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/github.png" alt="github">
-				</div>
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/bitbucket.png" alt="bitbucket">
-				</div>
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/gitlab.png" alt="gitlab" >
-				</div>
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/email.png" alt="email" >
-				</div>
-				<div class="col-sm-2 col-xs-6">
-					<img src="/images/clients/slack.png" alt="slack" >
-				</div>
-				<div class="clearfix"></div>
-
-			</div> -->
-
-
 		</div>
 	</div>
-</div>
+	
+				<div class="banner-clients bg-white">
+					<div class="container">
+					<div class="clearfix"></div>
+						<div class="slider">
+							<div class="slide-track">
+	
+								<div class="slide2">
+									<img src="/images/clients/kubernetes.png" alt="kubernetes" >
+								</div>
+								<div class="slide2">
+									<img src="/images/clients/docker.png" alt="docker" >
+								</div>
+	
+								<div class="slide2">
+									<img src="/images/clients/google-cloud.png" alt="google-cloud">
+								</div>
+	
+								<div class="slide2">
+									<img src="/images/clients/aws.png" alt="AWS" >
+								</div>
+								<div class="slide2">
+									<img src="/images/clients/azure.png" alt="azure" >
+								</div>
+	
+								<div class="slide2">
+									<img src="/images/clients/digitalocean.png" alt="digitalocean">
+								</div>
+	
+								<div class="clearfix"></div>
+	
+								<div class="slide2">
+									<img src="/images/clients/git.png" alt="git" >
+								</div>
+	
+								<div class="slide2">
+									<img src="/images/clients/github.png" alt="github">
+								</div>
+								<div class="slide2">
+									<img src="/images/clients/bitbucket.png" alt="bitbucket">
+								</div>
+								<div class="slide2">
+									<img src="/images/clients/gitlab.png" alt="gitlab" >
+								</div>
+								<div class="slide2">
+									<img src="/images/clients/email.png" alt="email" >
+								</div>
+								<div class="slide2">
+									<img src="/images/clients/slack.png" alt="slack" >
+								</div>
+								<div class="clearfix"></div>
+	
+							</div>
+	
+						</div>
+					</div>
+		
+				</div>
+</div>			
