@@ -1,9 +1,6 @@
 ---
 title: Container Native DevOps & CICD Newsletter 20
-description: CI/CD is a modern software practice with roots in the Agile methodology
-  and is foundational to DevOps practices that blur the lines between IT operations
-  and software development. CI/CD stands for Continuous Integration (CI) and Continuous
-  Delivery (CD).
+description: Read all about CI/CD Security & Why Does It Matter? Subscribe to get the latest updates on container-native & DevOps news here.
 permalink: "/newsletter/razorops-cicd-newsletter-20"
 layout: newsletter
 date: '2022-08-26 08:57:06'
