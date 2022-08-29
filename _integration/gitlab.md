@@ -2,6 +2,7 @@
 title: gitlab
 permalink: "/integration/:title/"
 layout: integrationtool
+logo: "/images/v2/gitlab.png"
 ---
 
 This is Gitlab
