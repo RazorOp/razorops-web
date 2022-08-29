@@ -40,21 +40,68 @@
   
     <!-- navbar -->
     <header class="default-header">{% include header.html %}</header>
+    <div class="integration-banner">
+        <img src="/images/razorops-logo.png" height="65">
+        <h2>Connect To Your Favourite Apps</h2>
+    </div>
+    <div class="container top-integration">
+        <div class="row">
+            <a href="{{ site.baseurl }}/integration/bitbucket/" class="text-decoration-none">
+                <div class="col-sm-4 integration-box">
+                    <div class="integration-content">
+                        <img src="/images/integration/bitbucket-integration.png"  height="82">
+                        <div class="integration-body">
+                            <h3>Bitbucket</h3>
+                            <p>Do integrate with your amazing favourite app.</p>
+                            <a href="{{ site.baseurl }}/integration/bitbucket/" class="text-decoration-none more-link">Learn More</a>
+                        </div>	
+                    </div>
+                </div>
+            </a>
+            <a href="{{ site.baseurl }}/integration/docker/" class="text-decoration-none">
+                <div class="col-sm-4 integration-box">
+                    <div class="integration-content">
+                        <img src="/images/integration/docker-integration.png"  height="82">
+                        <div class="integration-body">
+                            <h3>Docker</h3>
+                            <p>Do integrate with your amazing favourite app.</p>
+                            <a href="{{ site.baseurl }}/integration/docker/" class="text-decoration-none more-link">Learn More</a>
+                        </div>	
+                    </div>
+                </div>
+            </a>
+            <a href="{{ site.baseurl }}/integration/firebase/" class="text-decoration-none">
+                <div class="col-sm-4 integration-box">
+                    <div class="integration-content">
+                        <img src="/images/integration/firebase-integration.png"  height="82">
+                        <div class="integration-body">
+                            <h3>Firebase</h3>
+                            <p>Do integrate with your amazing favourite app.</p>
+                            <a  href="{{ site.baseurl }}/integration/firebase/" class="text-decoration-none more-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+    <h1 class="text-capitalize text-center">Integrate RazorOps with {{ page.title }}</h1>
+    <hr>
     <div class="content-wraper">
       <div class="blog-wraper">
         <div class="container">
             
             <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 integration-menu">
                         <div class="container">
                             <h3>Integrations Tools</h3>
                             <br>
                             <ul class="liststyle-none">
                                 {% assign integrationtool = site.integration %}
                                 {% for post in integrationtool reversed %}
-                                <li><a href="{{ site.baseurl }}{{ post.url }}">
+                                <li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
                                     
-                                        <h4 class="text-capitalize">&#9741; {{ post.title }}</h4>
+                                        <h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%"> {{ post.title }}</h4>
                                         
                                 </a></li>
                                 {% endfor %}
@@ -66,7 +113,7 @@
                         <div class="blog-post-content" id="blog-post-margins">
                             <div class="blog-post-body">
                             <h1 class="text-capitalize">{{ page.title }}</h1>
-                          
+                             <br>   
                             {{ content }}
                             <br><br>
                             </div>

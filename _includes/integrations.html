@@ -1,10 +1,11 @@
 <div class="container-fluid">
 	<div class="container text-center">
-		<h2>All Integrations</h2>
+		<h1>All Integrations</h1>
 	</div>			
 	<hr>
  <div class="container">
-		
+	<div class="content-wraper">
+		<div class="blog-wraper">
 			  <div class="container">
 				<div class="row"> 
 					<div class="col-md-3 integration-menu">
@@ -14,10 +15,10 @@
 							<ul class="liststyle-none">
 								{% assign integrationtool = site.integration %}
 								{% for post in integrationtool reversed %}
-								  <li><a href="{{ site.baseurl }}{{ post.url }}">
+								  <li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
 									
-										  <h4 class="text-capitalize">&#9741; {{ post.title }}</h4>
-										  
+										  <h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
+										  										  
 								  </a></li>
 								{% endfor %}
 							</ul>	
@@ -27,23 +28,23 @@
 						  </div>
 					  </div>
 					  <div class="col-sm-9">
-							<ul class="liststyle-none">
+						<div class="blog-post-content" id="blog-post-margins">
+                            <div class="blog-post-body">
 								{% assign integrationtool = site.integration %}
 								{% for post in integrationtool reversed limit:1 %}
-								  <li>
-											<h2 class="text-capitalize">{{ post.title }}</h2>
+								
+											<h1 class="text-capitalize">{{ post.title }}</h1>
 											<br>
-										  	<h5>{{ post.content }}</h5>	 
-								  </li>
+										  	<p>{{ post.content }}</p>	 
+								  
 								{% endfor %}
-							</ul>	
-								<div class="clearfix"></div>
-								<br>
+							</div>
+							</div>		
 							  
 					  </div>
 	  
-				  
-	  
+					</div>  
+				</div>	
 	  
 				
 			</div>

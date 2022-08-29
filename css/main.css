@@ -4153,8 +4153,38 @@ padding-left: 10px;
 .liststyle-none{
 	list-style-type: none;
 }
-.integration-menu{
-	border-right: 1px solid black;
+
+.integration-menu h3{
+	border-left: 8px solid rgb(57, 57, 223);
+	background-color: rgba(90, 90, 253, 0.22);
+	width: 18%;
+	padding: 10px;
+	border-radius: 2px;
+}
+.blog-post-content,
+.docs-content {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
+    0 8px 32px 0 rgba(55, 92, 192, 0.08);
+}
+.blog-post-body {
+	max-width: 750px;
+	margin: 0 auto 15px;
+}
+.blog-post-content h1 {
+	font-size: 2em;
+}
+
+.blog-post-content p {
+	font-size: 16px !important;
+	line-height: 28px;
+}
+.text-15{
+	font-size: 20px;
+	margin-bottom:18px;
 }
 .integration-banner{
 	text-align: center;
