@@ -120,11 +120,12 @@ For this project, we are using a pipeline job. For that, we can install a  **pip
 * Next move to dashboard :
 
     Select New item
-	<img src="/images/blog/migrate-from-jenkins/pipeline-dashboard-jenkins.png">
+	<img src="/images/blog/migrate-from-jenkins/select_new_item.png">
 		
 * Enter the field ( with name ):
 			
 	Select the pipeline option AND click on OK.
+    <img src="/images/blog/migrate-from-jenkins/Enter_field .png"> 
 
 <br>
 
@@ -143,10 +144,16 @@ Move **pipeline** option and enter your pipeline script.
 i.e:- 
 
 1. Clone the code from github repository 
-    * We could add github repository credentials in global credentials section 
-    Steps:  Go to manage jenkins > select credentials > select add credentials > assign credentials with username and password
-2. Make the war file with jenkins using maven tool 
-3. Deploy that application .war file to apache-tomcat 
+    * **Note** : Follow this steps to setup github repository credential in global credential sections.
+    Then only we can access the github repository code in jenkins
+
+    Steps:  Go to manage jenkins > select credentials > select add credentials > assign credentials with username and password 
+
+2. Make the war file with jenkins using maven command 
+3. Deploy the sample application .war file to apache-tomcat
+    * we need to assign tomcat-server credentials to jenkins global credentials section as SSH agent 
+
+    * Steps: Go to manage jenkins → select  credentials → select add credentials → assign credentials with SSH username with  private key → add private key in private key section
 
 
 <br> 
@@ -247,7 +254,7 @@ After successful login if we create same new project, we move to new organizatio
 
 **Next add github:**
 	
-<img src="/images/blog/migrate-from-jenkins/razorops-github-integration.png">
+<img src="/images/blog/migrate-from-jenkins/click_project_repository.png">
 	
 	
 Give the permission to the GitHub repository which has the .razorops.yaml file 
@@ -259,7 +266,26 @@ Give the permission to the GitHub repository which has the .razorops.yaml file
 	
 <img src="/images/blog/migrate-from-jenkins/razorops-pipeline-dashboard.png">
 
+<br>
+
+**Next you move to workflow process and enter your .razorops.yaml pipeline script**
+
+<img src="/images/blog/migrate-from-jenkins/Next-you-move-to-workflow.png">
+
+
+Click on **Run your first build**
+
+**NOTE:** add **SSH key** of tomcat server **in variable section for connecting with tomcat server**
+
+**Steps:**
+Go to workflows → select variable section → in variables add ssh key with public ip and private key 
+
+
+<img src="/images/blog/migrate-from-jenkins/add_ssh.png">
 	
+<br>
+
+
 Next, automatically start the workflow process. 
 
 We have are over head maintaining of plugins and their process in jenkins but in **RazorOps** we just use **.razorops.yaml** file we can set entire deployment process
@@ -326,6 +352,11 @@ Here, we using sample Java project with these steps :
 
 **Push to repository:** push the image from local to docker hub repository
 
+   * **Note :** Follow this steps to setup Dockerhub repository credential in global credential sections 
+    Then only we can access the Dockerhub repository code in jenkins
+
+   * **Steps:**  Go to manage jenkins > select credentials > select add credentials > assign credentials with username and password
+
 <br>
 
 **Pull from repository and Run as a container with docker :**
@@ -340,12 +371,12 @@ Here, we using sample Java project with these steps :
 pipeline {
     agent any
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('shiva-dockerhub')
+    DOCKERHUB_CREDENTIALS = credentials('docker-hub')
     }
     stages {
         stage('SCM Checkout') {
             steps{
-            git 'https://github.com/shivagottam/spring3-mvc-maven-xml-hello-world.git'
+            git 'https://github.com/Razorops-code/spring-boot.git'
             }
         }
         stage('build war file') {
@@ -355,7 +386,7 @@ pipeline {
         }
         stage('buld docker image'){
             steps {
-                sh 'docker build -t shivaladdu/spring3:v2 .'
+                sh 'docker build -t razoropsrepocode/spring:v1 .'
             }
         }
         stage('login to dockerhub') {
@@ -365,13 +396,13 @@ pipeline {
         }
         stage('push image') {
             steps{
-                sh 'docker push shivaladdu/spring3:v2'
+                sh 'docker push razoropsrepocode/spring:v1'
             }
         }
         stage('run container') {
             steps{
-                sh 'docker pull shivaladdu/spring3:v2'
-                sh 'docker container run -itd -p 8087:8080 --name auto shivaladdu/spring3:v2'
+                sh 'docker pull razoropsrepocode/spring:v1'
+                sh 'docker container run -itd -p 8090:8080 --name razoropsspring razoropsrepocode/spring:v1'
             }
         }
 }
@@ -381,6 +412,7 @@ post {
         }
     }
 }
+
 	
 ```
 <br>	
@@ -390,7 +422,7 @@ If we get error like permission denied demon socket  unix:///var/run/docker.sock
 
 <img src="/images/blog/migrate-from-jenkins/pipeline-got-permited.png"> 
 
-**We can give full permission to docker.sock**
+**Solution: We can give full permission to docker.sock**
             
         Sudo chmod 777 /var/run/docker.sock
 
