@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/blog.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--
       HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
     -->
@@ -94,20 +94,62 @@
             <div class="row">
                     <div class="col-md-3 integration-menu">
                         <div class="container">
-                            <h3>Integrations Tools</h3>
-                            <br>
-                            <ul class="liststyle-none">
-                                {% assign integrationtool = site.integration %}
-                                {% for post in integrationtool reversed %}
-                                <li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
-                                    
-                                        <h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%"> {{ post.title }}</h4>
-                                        
-                                </a></li>
-                                {% endfor %}
-                            </ul>    
-                            
-                        </div>
+							<h3>Integrations Tools</h3>
+							<br>
+							{% assign integrationtool = site.integration %}
+							<a class="btn btn-primary" data-toggle="collapse" href="#cloudplatform" role="button" aria-expanded="false" aria-controls="cloudplatform">
+								Cloud Platform
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</a>	
+							<div class="collapse" id="cloudplatform">
+								<div class="card card-body">
+									<ul class="liststyle-none">
+								
+										{% for post in integrationtool reversed %}
+											{% for category in post.category %}
+												{% if category == 'cloud platform' %}
+												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
+													
+														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
+																									
+												</a></li>
+												{% endif %} 
+										  	{% endfor %}
+										{% endfor %}
+									</ul>	
+		
+								</div>
+							</div>
+							<br>
+							<br>
+							<a class="btn btn-primary" data-toggle="collapse" href="#container" role="button" aria-expanded="false" aria-controls="container">
+								Containers
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</a>	
+							<div class="collapse" id="container">
+								<div class="card card-body">
+									<ul class="liststyle-none">
+								
+										{% for post in integrationtool reversed %}
+											{% for category in post.category %}
+												{% if category == 'container' %}
+												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
+													
+														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
+																									
+												</a></li>
+												{% endif %} 
+										  	{% endfor %}
+										{% endfor %}
+									</ul>	
+		
+								</div>
+							</div>
+							
+							<br>
+							<br>
+							<br>
+						  </div>  
                     </div>
                     <div class="col-sm-9">
                         <div class="blog-post-content" id="blog-post-margins">

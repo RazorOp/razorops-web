@@ -3,6 +3,7 @@ title: github
 permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/v2/github-black.png"
+category: cloud platform
 ---
 
 Virtualization uses software to create an abstract layer over the hardware. By doing this it creates a virtual computer system, known as the virtual machines (VMs). This will allow organizations to run multiple virtual computers, operating systems, and applications on a single physical server
