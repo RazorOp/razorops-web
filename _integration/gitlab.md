@@ -3,6 +3,7 @@ title: gitlab
 permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/v2/gitlab.png"
+category: cloud platform
 ---
 
 This is Gitlab

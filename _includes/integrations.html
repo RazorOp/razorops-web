@@ -12,16 +12,56 @@
 						<div class="container">
 							<h3>Integrations Tools</h3>
 							<br>
-							<ul class="liststyle-none">
-								{% assign integrationtool = site.integration %}
-								{% for post in integrationtool reversed %}
-								  <li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
-									
-										  <h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
-										  										  
-								  </a></li>
-								{% endfor %}
-							</ul>	
+							{% assign integrationtool = site.integration %}
+							<a class="btn btn-primary" data-toggle="collapse" href="#cloudplatform" role="button" aria-expanded="false" aria-controls="cloudplatform">
+								Cloud Platform
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</a>	
+							<div class="collapse" id="cloudplatform">
+								<div class="card card-body">
+									<ul class="liststyle-none">
+								
+										{% for post in integrationtool reversed %}
+											{% for category in post.category %}
+												{% if category == 'cloud platform' %}
+												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
+													
+														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
+																									
+												</a></li>
+												{% endif %} 
+										  	{% endfor %}
+										{% endfor %}
+									</ul>	
+		
+								</div>
+							</div>
+							<br>
+							<br>
+							<a class="btn btn-primary" data-toggle="collapse" href="#container" role="button" aria-expanded="false" aria-controls="container">
+								Containers
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</a>	
+							<div class="collapse" id="container">
+								<div class="card card-body">
+									<ul class="liststyle-none">
+								
+										{% for post in integrationtool reversed %}
+											{% for category in post.category %}
+												{% if category == 'container' %}
+												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
+													
+														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
+																									
+												</a></li>
+												{% endif %} 
+										  	{% endfor %}
+										{% endfor %}
+									</ul>	
+		
+								</div>
+							</div>
+							
 							<br>
 							<br>
 							<br>
