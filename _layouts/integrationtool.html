@@ -110,7 +110,7 @@
 												{% if category == 'cloud platform' %}
 												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
 													
-														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
+														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="24" height="100%">  {{ post.title }}</h4>
 																									
 												</a></li>
 												{% endif %} 
@@ -123,7 +123,7 @@
 							<br>
 							<br>
 							<a class="btn btn-primary" data-toggle="collapse" href="#container" role="button" aria-expanded="false" aria-controls="container">
-								Containers
+								Container
 								<i class="fa fa-caret-down" aria-hidden="true"></i>
 							</a>	
 							<div class="collapse" id="container">
@@ -135,7 +135,7 @@
 												{% if category == 'container' %}
 												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
 													
-														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="19" height="100%">  {{ post.title }}</h4>
+														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="24" height="100%">  {{ post.title }}</h4>
 																									
 												</a></li>
 												{% endif %} 
@@ -145,7 +145,31 @@
 		
 								</div>
 							</div>
-							
+							<br>
+							<br>
+							<a class="btn btn-primary" data-toggle="collapse" href="#artifactregistry" role="button" aria-expanded="false" aria-controls="artifactregistry">
+								Artifact Registory
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</a>	
+							<div class="collapse" id="artifactregistry">
+								<div class="card card-body">
+									<ul class="liststyle-none">
+								
+										{% for post in integrationtool reversed %}
+											{% for category in post.category %}
+												{% if category == 'artifact registry' %}
+												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
+													
+														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="24" height="100%">  {{ post.title }}</h4>
+																									
+												</a></li>
+												{% endif %} 
+										  	{% endfor %}
+										{% endfor %}
+									</ul>	
+		
+								</div>
+							</div>
 							<br>
 							<br>
 							<br>

@@ -4186,6 +4186,20 @@ padding-left: 10px;
 	}
 	
 }
+.integration-menu img{
+	margin-top: -5px !important;
+}
+.integration-menu ul{
+	margin-top: 22px;
+}
+.integration-menu{
+	top:70px;
+	bottom: 0;
+	position: sticky;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
 .liststyle-none{
 	list-style-type: none;
 }
