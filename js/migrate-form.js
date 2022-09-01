@@ -35,7 +35,6 @@ const myform=document.getElementById('myform');
                         company_name: userCompany.value || "",
                         company_linkedin: userCompanyLink || "",
                         location: userCountry.value || "",
-                        user_email: "teamrazorops@gmail.com",
                         lead_source: "jenkins_alternative",
                         status: "Not Sent",
                         campaign_id: "6",
