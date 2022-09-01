@@ -742,31 +742,31 @@ th, td {
   padding-bottom: 20px;
 }
 .banner-clients img{
-  width: 160px;
+  width: 210px;
   margin-right: 10px;
 }
 .banner-clients [alt='egnify']{
-	width: 75px !important;
+	width: 89px !important;
 	transition: transform 1s;
-	margin-right: 38px !important;
+	margin-right: 48px !important;
  }
  .banner-clients [alt='applozic']{
-	width: 110px !important;
+	width: 170px !important;
 	transition: transform 1s;
-	margin-right: 38px !important;
+	margin-right: 45px !important;
  }
  .banner-clients [alt='72pi']{
-	width: 100px !important;
+	width: 140px !important;
 	transition: transform 1s;
-	margin-right: 38px !important;
+	margin-right: 45px !important;
  }
  .banner-clients [alt='EdTech']{
-	width: 90px !important;
+	width: 120px !important;
 	transition: transform 1s;
-	margin-right: 38px !important;
+	margin-right: 45px !important;
  }
  .banner-clients [alt='Nimble Buying']{
-	width: 90px !important;
+	width: 140px !important;
 	transition: transform 1s;
 	margin-right: 45px !important;
  }
