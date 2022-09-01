@@ -38,7 +38,7 @@ const myform=document.getElementById('myform');
                         user_email: "teamrazorops@gmail.com",
                         lead_source: "jenkins_alternative",
                         status: "Not Sent",
-                        campaign_id: 6,
+                        campaign_id: "6",
                     },
                     
                     }),
