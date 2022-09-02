@@ -742,9 +742,36 @@ th, td {
   padding-bottom: 20px;
 }
 .banner-clients img{
-  width: 150px;
+  width: 210px;
   margin-right: 10px;
 }
+.banner-clients [alt='egnify']{
+	width: 89px !important;
+	transition: transform 1s;
+	margin-right: 48px !important;
+ }
+ .banner-clients [alt='applozic']{
+	width: 170px !important;
+	transition: transform 1s;
+	margin-right: 45px !important;
+ }
+ .banner-clients [alt='72pi']{
+	width: 140px !important;
+	transition: transform 1s;
+	margin-right: 45px !important;
+ }
+ .banner-clients [alt='EdTech']{
+	width: 120px !important;
+	transition: transform 1s;
+	margin-right: 45px !important;
+ }
+ .banner-clients [alt='Nimble Buying']{
+	width: 140px !important;
+	transition: transform 1s;
+	margin-right: 45px !important;
+ }
+
+ 
 .banner-clients a {
   text-decoration: none;
 }
@@ -2468,10 +2495,9 @@ a {
 	perspective: 100px;
 }
  .slide2 img{
-	 width: 100%;
+	 
 	 transition: transform 1s;
  }
-
  @keyframes scroll {
 	 0%{
 		 transform: translateX(0);
