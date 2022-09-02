@@ -19,7 +19,7 @@ const myform=document.getElementById('myform');
 
                 userPhone_no.value = userPhone_no.value.slice(0, userPhone_no.maxLength); 
                 submitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Submitting...';
-                const res = await fetch("https://blinkcrm.razorops.com/api/leads", {
+                const res = await fetch("https://app.blinkcrm.in/api/leads", {
                 method: "POST",
                 mode: "cors",
                     headers: {
@@ -35,10 +35,9 @@ const myform=document.getElementById('myform');
                         company_name: userCompany.value || "",
                         company_linkedin: userCompanyLink || "",
                         location: userCountry.value || "",
-                        user_email: "teamrazorops@gmail.com",
                         lead_source: "jenkins_alternative",
                         status: "Not Sent",
-                        campaign_id: 6,
+                        campaign_id: "6",
                     },
                     
                     }),
@@ -47,7 +46,8 @@ const myform=document.getElementById('myform');
                             return response.json();
                         }).then((data)=>{
                         console.log(data);
-                        location.href = "https://dashboard.razorops.com/users/sign_up?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative"; 
+                        location.href = "https://dashboard.razorops.com/users/sign_up?utm_source=Jenkins-alternative&utm_medium=Form-Successful&utm_campaign=signup-Jenkins-alternative";
+                        submitBtn.innerHTML = 'Submit'; 
                         }).catch((err)=>{
                         console.error(err);
                         });
