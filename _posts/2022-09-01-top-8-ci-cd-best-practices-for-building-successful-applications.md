@@ -7,7 +7,7 @@ description: 'Best CI/CD Best Practices for devops team to ensure the business s
 permalink: "/blog/:title/"
 layout: post
 date: '2022-09-01 10:16:21'
-author: Shiva G
+author: Maheshwari Dantuluri
 category: cicd
 image: "/images/blog/top-cicd-best-practices.gif"
 ---
