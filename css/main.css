@@ -4211,7 +4211,7 @@ padding-left: 10px;
 			text-decoration: none;
 	}
 }
-@media screen and (min-width:768px) and (max-width:810px) {
+/* @media screen and (min-width:768px) and (max-width:810px) {
 	.integration-menu{
 		top:0px !important;
 		bottom: 0;
@@ -4230,7 +4230,7 @@ padding-left: 10px;
 		padding: 0px 20px !important;
 		
 	}
-}
+} */
 @media screen and (min-width:768px){
 	.top-integration{
 		padding: 0px 140px;
