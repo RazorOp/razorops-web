@@ -4266,7 +4266,7 @@ padding-left: 10px;
 		top:70px;
 		bottom: 0;
 		position: sticky;
-		overflow-y: scroll;
+		overflow-y: hidden;
 		overflow-x: hidden;
 	}
 	
