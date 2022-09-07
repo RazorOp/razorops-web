@@ -4447,7 +4447,7 @@ box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.0
 		margin-top: 20px;
 	}
 	.xtrafeature-image img{
-		height: 530px;
+		display: none;
 	}
 	.form-signup-btns a{
 		margin: 15px  !important;
@@ -4513,9 +4513,13 @@ box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.0
 		line-height: 53px;
 	}	
 }
+
 @media screen and (min-width:768px) and (max-width:820px) {
 	.competitors-banner .banner-content{
 		padding: 0px 20px;
+	}
+	#compatible-img{
+		display: none;
 	}
 	.competitors-banner .form-section{
 		padding: 0px 20px;
@@ -4608,6 +4612,10 @@ box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.0
 		margin: 8px !important;
 		width: 90px !important;
 	}	
+	#compatible-img{
+		display: none;
+	}
+	
 }
 @media screen and (min-width:1700px) {
 	.competitors-banner .banner-content{
@@ -4615,6 +4623,9 @@ box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.0
 	}
 	.competitors-banner .form-section{
 		padding: 0px 100px;
+	}
+	#compatible-img{
+		display: none;
 	}
 
 }
