@@ -4258,7 +4258,7 @@ padding-left: 10px;
 		margin-top: 20px;
 	}
 	.xtrafeature-image img{
-		height: 530px;
+		display: none;
 	}
 	.form-signup-btns a{
 		margin: 15px  !important;
@@ -4324,9 +4324,13 @@ padding-left: 10px;
 		line-height: 53px;
 	}	
 }
+
 @media screen and (min-width:768px) and (max-width:820px) {
 	.competitors-banner .banner-content{
 		padding: 0px 20px;
+	}
+	#compatible-img{
+		display: none;
 	}
 	.competitors-banner .form-section{
 		padding: 0px 20px;
@@ -4419,6 +4423,10 @@ padding-left: 10px;
 		margin: 8px !important;
 		width: 90px !important;
 	}	
+	#compatible-img{
+		display: none;
+	}
+	
 }
 @media screen and (min-width:1700px) {
 	.competitors-banner .banner-content{
@@ -4426,6 +4434,9 @@ padding-left: 10px;
 	}
 	.competitors-banner .form-section{
 		padding: 0px 100px;
+	}
+	#compatible-img{
+		display: none;
 	}
 
 }
