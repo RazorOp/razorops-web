@@ -67,14 +67,14 @@ To keep <b><a href="https://www.linkedin.com/feed/hashtag/kubernetes?lipi=urn%3A
 
 ***Career Opportunities***
 
-<p><b>Business Development Manager-Cloud Solution <a href="https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&utm_medium=Newsletter-blog&utm_campaign=Newsletter_02092022" target="_blank">Apply Now</a></b></p>
+<p><b>Business Development Manager-Cloud Solution <a href="https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&utm_medium=Newsletter-blog&utm_campaign=Newsletter_160922" target="_blank">Apply Now</a></b></p>
 
 RazorOps is looking for a highly talented sales manager to grow our SaaS business.
 
-<p><b>Kubernetes Developer and Admin <a href="https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&utm_medium=Newsletter-blog&utm_campaign=Newsletter_02092022" target="_blank">Apply Now</a></b></p>
+<p><b>Kubernetes Developer and Admin <a href="https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&utm_medium=Newsletter-blog&utm_campaign=Newsletter_160922" target="_blank">Apply Now</a></b></p>
 
 RazorOps is looking for highly talented, hands-on Kubernetes developers to help accelerate our growing Professional Services consulting cloud and DevOps practice.
 
-<p><b>Senior Golang Developer <a href="https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&utm_medium=Newsletter-blog&utm_campaign=Newsletter_02092022" target="_blank">Apply Now</a></b></p>
+<p><b>Senior Golang Developer <a href="https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&utm_medium=Newsletter-blog&utm_campaign=Newsletter_160922" target="_blank">Apply Now</a></b></p>
 
 We need a strong, battle-tested Golang developer with experience developing the Kubernetes operator SDK and runtime controller
