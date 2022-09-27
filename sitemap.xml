@@ -9,427 +9,442 @@
 
 <url>
   <loc>https://razorops-dev.netlify.app/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/product</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/pricing</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/jenkins-alternative/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/webinars/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/customers</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/schedule-demo</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops-dev.netlify.app/blog/difference-between-docker-image-docker-container/</loc>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/top-8-ci-cd-best-practices-for-building-successful-applications/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/migration-guide-jenkins-to-razorops/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://razorops-dev.netlify.app/blog/salesforce-lightning-web-component-pipeline-with-razorops/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/try-razorops-cicd-with-digital-ocean-kubernetes/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/about</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/contact</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/open-source</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/partners</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/referral</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/jobs</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/write-for-us</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/faq</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/terms-of-service</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/privacy-policy</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/security</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://razorops-dev.netlify.app/blog/salesforce-lightning-web-component-pipeline-with-razorops/</loc>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://razorops-dev.netlify.app/blog/what-is-continuous-integration-ci-best-practices-benefits-of-ci-tools/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/what-is-continuous-integration-and-continuous-delivery/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/devops-for-startups/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/razorops-ci-cd-with-heroku-apps/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/what-is-virtualization-top-5-benefits-of-virtualization/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/devops-glossary/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/docker-cheat-sheet/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/functional-programming-vs-object-oriented-programming/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/difference-between-continuous-integration-continuous-deployment-and-continuous-delivery/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/unit-test-vs-integration-test-major-difference-between-unit-testing-and-integration-test/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/how-to-deploy-a-static-website-to-aws-s3-with-razorops-ci-cd/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/razorops-cicd-with-linode-kubernetes-engine/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/how-tech-teams-are-making-extraordinary-progress-in-covid-19-shutdown-while-working-remotely/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/introduction-to-helm-3-the-package-manager-for-kubernetes/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/best-docker-image-hosting-platforms/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/5-strategies-to-improve-the-effectiveness-of-your-it-management/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/introduction-to-container-native-cicd/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/kubernetes-in-2-minutes/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/kubernetes-101-and-infrastructure-support-around-it-by-shyam/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/benefits-of-devops/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/find-razorops-at-github-marketplace/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/kubernetes-cheat-sheet/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/kubernetes-and-containers-adoption-growing-fast/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/how-to-choose-your-kubernetes-deployment-platform/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/blog/principles-for-continuous-integration/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/webinars/how-to-secure-kubernetes-and-secrets-management/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/webinars/get-started-with-kubernetes/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/webinars/how-to-write-optimized-and-secure-docker-file-to-create-docker-image/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/webinars/discussion-about-cicd-adoption/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/case-studies/egnify/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/case-studies/applozic/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/case-studies/72pi/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/case-studies/edtech-startup/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/case-studies/nimble-buying/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-24</loc>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-23</loc>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-22</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-21</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-20</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-19</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-18</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-17</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-16</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-15</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-14</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-13</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-12</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-11</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-10</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-9</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-8</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-7</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-6</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-5</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-4</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-3</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-2/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-1/</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/jobs-for-business-development-manager</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/jobs-for-kubernetes-developer-and-admin</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops-dev.netlify.app/jobs-for-golang-developer</loc>
-  <lastmod>2022-09-16T06:44:06+00:00</lastmod>
+  <lastmod>2022-09-27T11:17:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

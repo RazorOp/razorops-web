@@ -7,9 +7,9 @@ https://razorops-dev.netlify.app/webinars/
 https://razorops-dev.netlify.app/customers
 https://razorops-dev.netlify.app/newsletter
 https://razorops-dev.netlify.app/schedule-demo
+https://razorops-dev.netlify.app/blog/difference-between-docker-image-docker-container/
 https://razorops-dev.netlify.app/blog/top-8-ci-cd-best-practices-for-building-successful-applications/
 https://razorops-dev.netlify.app/blog/migration-guide-jenkins-to-razorops/
-https://razorops-dev.netlify.app/blog/salesforce-lightning-web-component-pipeline-with-razorops/
 https://razorops-dev.netlify.app/try-razorops-cicd-with-digital-ocean-kubernetes/
 https://razorops-dev.netlify.app/about
 https://razorops-dev.netlify.app/contact
@@ -22,6 +22,7 @@ https://razorops-dev.netlify.app/faq
 https://razorops-dev.netlify.app/terms-of-service
 https://razorops-dev.netlify.app/privacy-policy
 https://razorops-dev.netlify.app/security
+https://razorops-dev.netlify.app/blog/salesforce-lightning-web-component-pipeline-with-razorops/
 https://razorops-dev.netlify.app/blog/what-is-continuous-integration-ci-best-practices-benefits-of-ci-tools/
 https://razorops-dev.netlify.app/blog/what-is-continuous-integration-and-continuous-delivery/
 https://razorops-dev.netlify.app/blog/devops-for-startups/
@@ -58,6 +59,8 @@ https://razorops-dev.netlify.app/case-studies/applozic/
 https://razorops-dev.netlify.app/case-studies/72pi/
 https://razorops-dev.netlify.app/case-studies/edtech-startup/
 https://razorops-dev.netlify.app/case-studies/nimble-buying/
+https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-24
+https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-23
 https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-22
 https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-21
 https://razorops-dev.netlify.app/newsletter/razorops-cicd-newsletter-20
