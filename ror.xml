@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://razorops.com/</title>
-  <link>http://razorops.com/</link>
+  <title>ROR Sitemap for https://razorops.com/</title>
+  <link>https://razorops.com/</link>
 
 <item>
      <link>https://razorops.com/</link>
@@ -29,9 +29,25 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/jenkins-alternative/</link>
+     <title>Best Jenkins Alternative CI/CD Tool for Developers | Razorops</title>
+     <description>Razorops is the simplest CI/CD platform for all teams. Best Jenkins Alternative CI/CD Tool for Developers. Simplest &amp;amp; Faster Deployments. Try for Free. Signup Now.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/blog</link>
      <title>Razorops Blog | Razorops</title>
      <description>Learn how to achieve continuous delivery to Kubernetes with Helm, Istio, Selenium testings, security testing, performance testing, and more.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/</link>
+     <title>Webinars Razorops | Razorops</title>
+     <description>Join the razorops webinars. Get the most out of Razorops CI/CD with one of our free webinars.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -45,6 +61,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/newsletter</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter RazorOps | Razorops</title>
+     <description>get all the latest container-native &amp;amp; DevOps news in one place every week. Subscribe RazorOps weekly CI/CD newsletter today and stay up-to-date.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/schedule-demo</link>
      <title>Razorops Schedule Demo | Razorops</title>
      <description>Razopos demo with Shyam</description>
@@ -53,25 +77,25 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/blog/difference-between-docker-image-docker-container/</link>
+     <title>Difference between Docker Image &amp;amp; Docker Container | Razorops</title>
+     <description>In this article you will understand the difference between docker image &amp;amp; docker container. Also you will get a solid understanding of what a docker image, a container.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-8-ci-cd-best-practices-for-building-successful-applications/</link>
+     <title>Top 8 CI/CD Best Practices for Building Successful Applications | Razorops</title>
+     <description>Best CI/CD Best Practices for devops team to ensure the business successful &amp;amp; to build the application. Check the complete CI/CD Best Practices in detail: Build once, Streamline the tests, Continuous automation, Know the procedures, Continuous security, Fix it if it’s broken, Make it daily.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/blog/salesforce-lightning-web-component-pipeline-with-razorops/</link>
      <title>Salesforce lightning web component pipeline with Razorops | Razorops</title>
      <description>check how to use the Lightning Component UI framework for developing single page applications for mobile and desktop devices using Razorops CI/CD Tool.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/blog/what-is-continuous-integration-ci-best-practices-benefits-of-ci-tools/</link>
-     <title>What is Continuous Integration (CI) - Best Practices, Benefits of CI, Tools | Razorops</title>
-     <description>Let’s check the complete explanation of Continuous Integration, what are best practices in CI, Benefits of Continuous Integration and Tools of CI. Continuous integration helps teams to speed up the development process while increasing the code quality.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/</link>
-     <title>What is Continuous Integration and Continuous Delivery? | Razorops</title>
-     <description>Let’s understand what is Continuous Integration and Continuous Delivery. Also know about the benefits CI &amp;amp; Continuous Delivery.CI makes the software release process easier with automated processes &amp;amp; Continuous Delivery collects the code stored in the shared repository and continuously delivers it to the production environment.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -141,30 +165,6 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/jenkins-alternative/</link>
-     <title>Best Jenkins Alternative CI/CD Tool for Developers | Razorops</title>
-     <description>Razorops is the simplest CI/CD platform for all teams. Best Jenkins Alternative CI/CD Tool for Developers. Simplest &amp;amp; Faster Deployments. Try for Free. Signup Now.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/webinars/</link>
-     <title>Webinars Razorops | Razorops</title>
-     <description>Join the razorops webinars. Get the most out of Razorops CI/CD with one of our free webinars.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/newsletter</link>
-     <title>Container Native DevOps &amp;amp; CICD Newsletter RazorOps | Razorops</title>
-     <description>get all the latest container-native &amp;amp; DevOps news in one place every week. Subscribe RazorOps weekly CI/CD newsletter today and stay up-to-date.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>https://razorops.com/write-for-us</link>
      <title>Write for US Razorops - CI/CD Platform | Razorops</title>
      <description>We are always looking for new authors to share the expertise in the Devops,CI/CD, Kubernetes, Docker, SDLC. Share your titles with Razorops. Also check out complete guidelines to publish an article in Razorops Blog.</description>
@@ -202,6 +202,30 @@
      <description>We fully understand and recognize, that the security of your source code as critical componant. Therefore we put lots of efforts to provide a secure infrastructure to use.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/schedule-demo?utm_source=Jenkins-alternative&amp;utm_medium=schedule-demo-cta&amp;utm_campaign=signup-Jenkins-alternative</link>
+     <title>Razorops Schedule Demo | Razorops</title>
+     <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/what-is-continuous-integration-ci-best-practices-benefits-of-ci-tools/</link>
+     <title>What is Continuous Integration (CI) - Best Practices, Benefits of CI, Tools | Razorops</title>
+     <description>Let’s check the complete explanation of Continuous Integration, what are best practices in CI, Benefits of Continuous Integration and Tools of CI. Continuous integration helps teams to speed up the development process while increasing the code quality.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/</link>
+     <title>What is Continuous Integration and Continuous Delivery? | Razorops</title>
+     <description>Let’s understand what is Continuous Integration and Continuous Delivery. Also know about the benefits CI &amp;amp; Continuous Delivery.CI makes the software release process easier with automated processes &amp;amp; Continuous Delivery collects the code stored in the shared repository and continuously delivers it to the production environment.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -397,6 +421,46 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/</link>
+     <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/</link>
+     <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/get-started-with-kubernetes/</link>
+     <title>Kubernetes 101- Get started with Kubernetes Razorops Webinars | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/how-to-write-optimized-and-secure-docker-file-to-create-docker-image/</link>
+     <title>How to write optimized and secure docker file to create docker image Razorops Webinars | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/discussion-about-cicd-adoption/</link>
+     <title>Discussion About CI-CD Adoption Razorops Webinars | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/case-studies/egnify/</link>
      <title>Razorops case study with Egnify - CI/CD Customer Stories | Razorops</title>
      <description>Lets have a look at Razorops Customer Stories - Check by integrating Razorops automate CI/CD Pipeline how Egnify solved their facing Challenges.</description>
@@ -437,89 +501,41 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/webinars/how-to-write-razorops-pipeline-and-best-practices/</link>
-     <title>How to write RazorOps pipeline and best practices | Razorops</title>
-     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-24</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 24 | Razorops</title>
+     <description>Free SBOM Generation Tool to be integrated by Docker, Inc. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/schedule-demo?utm_source=https%3A%2F%2Frazorops.com%2Ftry-razorops-cicd-with-digital-ocean-kubernetes%2F&amp;utm_medium=CTA-Schedule-demo&amp;utm_campaign=Razorops-schedule-demo</link>
-     <title>Razorops Schedule Demo | Razorops</title>
-     <description>Razopos demo with Shyam</description>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-23</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 23 | Razorops</title>
+     <description>Hexa Accepted as CNCF Sandbox Project. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/jobs-for-business-development-manager</link>
-     <title>Razorops Business Development Manager - Cloud Solution Job | Razorops</title>
-     <description>Razorops looking for sr. Business Development Manager to help us scale sales pipeline.</description>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-22</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 22 | Razorops</title>
+     <description>Docker Monitoring Tool Market 2022. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/jobs-for-kubernetes-developer-and-admin</link>
-     <title>Razorops Kubernetes Developer &amp;amp; Solutions Engineer | Razorops</title>
-     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-21</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 21 | Razorops</title>
+     <description>The Global DevSecOps Market Trends. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/jobs-for-golang-developer</link>
-     <title>Razorops Senior Golang Developer Job | Razorops</title>
-     <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/schedule-demo?utm_source=Jenkins-alternative&amp;utm_medium=schedule-demo-cta&amp;utm_campaign=signup-Jenkins-alternative</link>
-     <title>Razorops Schedule Demo | Razorops</title>
-     <description>Razopos demo with Shyam</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/</link>
-     <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
-     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/</link>
-     <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
-     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/webinars/get-started-with-kubernetes/</link>
-     <title>Kubernetes 101- Get started with Kubernetes Razorops Webinars | Razorops</title>
-     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/webinars/how-to-write-optimized-and-secure-docker-file-to-create-docker-image/</link>
-     <title>How to write optimized and secure docker file to create docker image Razorops Webinars | Razorops</title>
-     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/webinars/discussion-about-cicd-adoption/</link>
-     <title>Discussion About CI-CD Adoption Razorops Webinars | Razorops</title>
-     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-20</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 20 | Razorops</title>
+     <description>Read all about CI/CD Security &amp;amp; Why Does It Matter? Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -677,6 +693,38 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/schedule-demo?utm_source=https%3A%2F%2Frazorops.com%2Ftry-razorops-cicd-with-digital-ocean-kubernetes%2F&amp;utm_medium=CTA-Schedule-demo&amp;utm_campaign=Razorops-schedule-demo</link>
+     <title>Razorops Schedule Demo | Razorops</title>
+     <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-business-development-manager</link>
+     <title>Razorops Business Development Manager - Cloud Solution Job | Razorops</title>
+     <description>Razorops looking for sr. Business Development Manager to help us scale sales pipeline.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-kubernetes-developer-and-admin</link>
+     <title>Razorops Kubernetes Developer &amp;amp; Solutions Engineer | Razorops</title>
+     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-golang-developer</link>
+     <title>Razorops Senior Golang Developer Job | Razorops</title>
+     <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/product?utm_source=Continuous-Integration-Deployment-Delivery&amp;utm_medium=blog&amp;utm_campaign=Internallink</link>
      <title>Simplest Container Native CI/CD Platform | Razorops</title>
      <description>Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</description>
@@ -720,6 +768,198 @@
      <link>https://razorops.com/blog/unit-test-vs-integration-test-major-difference-between-unit-testing-and-integration-test/?utm_source=ci-cd-pipeline&amp;utm_medium=blog&amp;utm_campaign=Internallink</link>
      <title>Unit Test vs Integration Test Major Difference between Unit Testing and Integration Test | Razorops</title>
      <description>Lets Know about Unit Test &amp;amp; Integration Test along with their benefits. Also check the Unit Test vs Integration Test major differences.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/difference-between-docker-image-docker-container/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter-230922</link>
+     <title>Difference between Docker Image &amp;amp; Docker Container | Razorops</title>
+     <description>In this article you will understand the difference between docker image &amp;amp; docker container. Also you will get a solid understanding of what a docker image, a container.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-event&amp;utm_campaign=Newsletter-230922</link>
+     <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-event&amp;utm_campaign=Newsletter-230922</link>
+     <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_230922</link>
+     <title>Razorops Business Development Manager - Cloud Solution Job | Razorops</title>
+     <description>Razorops looking for sr. Business Development Manager to help us scale sales pipeline.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_230922</link>
+     <title>Razorops Kubernetes Developer &amp;amp; Solutions Engineer | Razorops</title>
+     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_230922</link>
+     <title>Razorops Senior Golang Developer Job | Razorops</title>
+     <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-8-ci-cd-best-practices-for-building-successful-applications/?utm_source=Website-Newsletter&amp;utm_medium=Website-Blog&amp;utm_campaign=Newsletter-160922</link>
+     <title>Top 8 CI/CD Best Practices for Building Successful Applications | Razorops</title>
+     <description>Best CI/CD Best Practices for devops team to ensure the business successful &amp;amp; to build the application. Check the complete CI/CD Best Practices in detail: Build once, Streamline the tests, Continuous automation, Know the procedures, Continuous security, Fix it if it’s broken, Make it daily.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Website-Event&amp;utm_campaign=Newsletter-160922</link>
+     <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Website-Event&amp;utm_campaign=Newsletter-160922</link>
+     <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_160922</link>
+     <title>Razorops Business Development Manager - Cloud Solution Job | Razorops</title>
+     <description>Razorops looking for sr. Business Development Manager to help us scale sales pipeline.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_160922</link>
+     <title>Razorops Kubernetes Developer &amp;amp; Solutions Engineer | Razorops</title>
+     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_160922</link>
+     <title>Razorops Senior Golang Developer Job | Razorops</title>
+     <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</link>
+     <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</link>
+     <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</link>
+     <title>Razorops Business Development Manager - Cloud Solution Job | Razorops</title>
+     <description>Razorops looking for sr. Business Development Manager to help us scale sales pipeline.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</link>
+     <title>Razorops Kubernetes Developer &amp;amp; Solutions Engineer | Razorops</title>
+     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</link>
+     <title>Razorops Senior Golang Developer Job | Razorops</title>
+     <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</link>
+     <title>What is Continuous Integration and Continuous Delivery? | Razorops</title>
+     <description>Let’s understand what is Continuous Integration and Continuous Delivery. Also know about the benefits CI &amp;amp; Continuous Delivery.CI makes the software release process easier with automated processes &amp;amp; Continuous Delivery collects the code stored in the shared repository and continuously delivers it to the production environment.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/what-is-virtualization-top-5-benefits-of-virtualization/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</link>
+     <title>What is Virtualization &amp;amp; Top 5 Benefits of Virtualization | Razorops</title>
+     <description>Let’s check what Virtualization is, various types &amp;amp; benefits of Virtualization. How Does Virtualization Work? It is one of the powerful tools that can help reduce administrative overhead which also can increase cost savings, scalability, and efficiency.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</link>
+     <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</link>
+     <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</link>
+     <title>Razorops Business Development Manager - Cloud Solution Job | Razorops</title>
+     <description>Razorops looking for sr. Business Development Manager to help us scale sales pipeline.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</link>
+     <title>Razorops Kubernetes Developer &amp;amp; Solutions Engineer | Razorops</title>
+     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</link>
+     <title>Razorops Senior Golang Developer Job | Razorops</title>
+     <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
