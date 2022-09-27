@@ -3,7 +3,7 @@ title: bitbucket
 permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/integration/bitbucket-integration.png"
-category: cloud platform
+category: scm
 ---
 
 Bitbucket Server (formerly known as Stash) is a combination Git server and web interface product written in Java and built with Apache Maven. It allows users to do basic Git operations (such as reviewing or merging code, similar to GitHub) while controlling read and write access to the code. It also provides integration with other Atlassian tools.
