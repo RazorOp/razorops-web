@@ -4344,6 +4344,52 @@ padding-left: 10px;
 	   background-size: 100% 100%;
   
 }
+
+
+
+@media (min-width: 600px) and (max-width: 899px) {
+	.integration-banner{
+		padding: 70px 50px ;
+	}	
+}
+
+@media (min-width: 1536px) and (max-width: 1650px) {
+	.integration-banner{
+		padding: 140px 60px;
+	}
+}
+
+@media (min-width: 1651px)  {
+	.integration-banner{
+		padding: 140px 140px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1414px) {
+	.integration-banner{
+		padding: 118px 0px;
+	}	
+	.integration-banner .headerright-body {
+		padding: 40px 60px !important;
+	  }
+}
+
+@media (min-width: 1415px) and (max-width: 1535px) {
+	.integration-banner{
+		padding: 105px 0px;
+	}	
+	.integration-banner .headerright-body {
+		padding: 40px 120px;
+	  }
+}
+
+
+@media (max-width: 600px) {
+	.integration-banner{
+		padding: 70px 20px 70px 20px;
+	}
+}
+
+
  
 .integration-banner .headerright-body{
 	padding: 40px 120px;
