@@ -1,24 +1,46 @@
 ---
 title: gitlab
+description: Because Terraform manages your infrastructure, it sometimes needs access
+  to sensitive data. You can inject sensitive data into Terraform configuration using
+  Vault. Review the following resources to learn about secure secrets injection.
 permalink: "/integration/:title/"
 layout: integrationtool
-logo: "/images/v2/gitlab.png"
-category: cloud platform
+logo: "/images/integration/gitlab-logo.webp"
+category: scm
 ---
 
-This is Gitlab
+# Gitlab
 
-Use issues to collaborate on ideas, solve problems, and plan work. Share and discuss proposals with your team and with outside collaborators.
+Modules help you organize and re-use Terraform configuration. Follow the Modules Learn track to read about module basics, use your first module from the Terraform registry, and create a new module.
 
-You can use issues for many purposes, customized to your needs and workflow.
+    Organize Configuration with Modules (complete all tutorials)
 
-    Discuss the implementation of an idea.
-    Track tasks and work status.
-    Accept feature proposals, questions, support requests, or bug reports.
-    Elaborate on code implementations.
+Review these additional resources to learn about modules and associated concepts in more depth.
 
-For more information about using issues, see the GitLab blog post: Always start a discussion with an issue.
+    Finding and using modules documentation
+    Module versioning documentation
+    Input Variables documentation
+    Input Variables Learn tutorial
+    Output Values documentation
+    Output Values Learn tutorial
+    Calling a child module documentation
 
-Issues are always associated with a specific project. If you have multiple projects in a group, you can view all of the projects’ issues at once.
+The track and resources in this section will help you demonstrate that you can interact with Terraform modules. (Objective #5)
+»Read and write configuration
 
-To learn how the GitLab Strategic Marketing department uses GitLab issues with labels and issue boards, see the video on Managing Commitments with Issues
+Terraform uses its own configuration language to determine the goal state for the infrastructure it manages. The below resources describe some of the features of Terraform's configuration language.
+
+    Resources describe infrastructure objects
+    Data sources let Terraform fetch and compute data
+    Query Data Sources Learn tutorial guides you through using data sources
+    Resource addressing lets you refer to specific resources
+    Named values let you reference values
+    Create Resource Dependencies Learn tutorial guides you through managing related infrastructure using implicit and explicit dependencies
+    Terraforms Resource Graph ensures proper order of operations
+    Complex types let you validate user-provided values
+    Built in functions help transform and combine values
+    Perform Dynamic Operations with Functions Learn tutorial walks you through using Terraform functions
+    Create Dynamic Expressions Learn tutorial shows you how to create more complex expressions
+    Dynamic blocks allow you to construct nested expressions within certain configuration blocks
+
+Because Terraform manages your infrastructure, it sometimes needs access to sensitive data. You can inject sensitive data into Terraform configuration using Vault. Review the following resources to learn about secure secrets injection.

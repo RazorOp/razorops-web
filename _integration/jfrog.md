@@ -7,7 +7,7 @@ description: Software artifacts are typically created during the software develo
 permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/integration/jfrog/jfrog-logo-razorops.png"
-category: artifact registry
+category: container registries
 ---
 
 # Table of content 
