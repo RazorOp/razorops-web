@@ -7,6 +7,7 @@ permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/integration/gitlab-logo.webp"
 category: scm
+link: https://docs.razorops.com/account/create-pipeline/#when-authenticated-with-gitlab
 ---
 
 # Gitlab
