@@ -4,6 +4,7 @@ permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/v2/github-black.png"
 category: scm
+link: https://docs.razorops.com/account/create-pipeline/#when-authenticated-with-github
 ---
 
 Virtualization uses software to create an abstract layer over the hardware. By doing this it creates a virtual computer system, known as the virtual machines (VMs). This will allow organizations to run multiple virtual computers, operating systems, and applications on a single physical server

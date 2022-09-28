@@ -1,8 +1,8 @@
 
- <div class="container">
+ <div class="Integration-container">
 	<div class="content-wraper">
 		<div class="blog-wraper">
-			  <div class="container">
+			  <div class="">
 				<div class="row"> 
 
 					<!-- Integration tool Menu BY Categories -->
@@ -84,7 +84,7 @@
 										{% for post in integrationtool reversed %}
 													{% for category in post.category %}
 														{% if category == 'scm' %}
-														<a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none" target="_blank">
+														<a href="{{ post.link }}" class="text-decoration-none" target="_blank">
 															
 																<h4 class="text-capitalize text-15"> </h4>
 																<div class="integrationtool-box col-sm-4">

@@ -4180,10 +4180,25 @@ padding-left: 10px;
 /* ---------------- Integration page ----------------- */
 @media screen and (max-width:767px){
 	.top-integration{
-		padding: 0px 15px;
+		padding: 0px 55px;
 		position: relative;
 		top: -120px;
 	}
+	.integration-banner2{
+		text-align: center;
+		position: relative;
+		  padding: 125px 25px !important;
+		   background-image: url('/images/intro-bg.png');
+		   color: rgb(255, 255, 255);
+		   margin-top: 69px !important;
+		   background-size: 100% 100%;
+	  
+	}
+	.integration-banner2 .Integration-banner-img{
+		width: 248px;
+		height: 54px;
+	}
+	
 	.top-integration .integration-box{
 		margin-bottom: 16px;
 	}
@@ -4191,7 +4206,6 @@ padding-left: 10px;
 		width: 94%;
 	}
 	.integration-menu h3{
-		border-left: 28px solid rgba(0, 0, 0, 0.242);
 		background-color: #345eef;
 		width: 100%;
 		padding: 10px;
@@ -4202,8 +4216,9 @@ padding-left: 10px;
 		text-align: center;
 	}
 	.integration-menu .menu-btn{
-		border-left: 8px solid rgb(57, 57, 223);
-			background-color: rgba(90, 90, 253, 0.22);
+		
+			background:#345EEF;
+			color:#FFF;
 			width: 100%;
 			display: block;
 			padding: 10px;
@@ -4234,17 +4249,12 @@ padding-left: 10px;
 	}
 } */
 @media screen and (min-width:768px){
-	.top-integration{
-		padding: 0px 140px;
-		position:relative;
-		top: -120px;
 	
-	}
+
 	.integration-menu h3{
-		border-left: 47px solid rgba(0, 0, 0, 0.242);
 		background-color: #345eef;
 		width: 22%;
-		padding: 20px;
+		padding: 16px;
 		color: white;
 		font-size: 38px;
 		border-radius: 4px;
@@ -4344,33 +4354,109 @@ padding-left: 10px;
 	   background-size: 100% 100%;
   
 }
+.integration-banner2{
+	text-align: center;
+	position: relative;
+	  padding: 196px 200px;
+	   background-image: url('/images/intro-bg.png');
+	   color: rgb(255, 255, 255);
+	   margin-top: -80px;
+	   background-size: 100% 100%;
+  
+}
+
+.Integration-container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media screen and (min-width:1400px){
+	.Integration-container{
+		width: 1420px !important;
+
+	}
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px){
+	.Integration-container{
+		width: 1175px !important;
+
+	}
+}
+@media screen and (min-width:992px)  and (max-width:1199px){
+	.Integration-container{
+		width: 1100px !important;
+
+	}
+	.top-integration {
+		padding: 0px 60px;
+		position: relative;
+		top: -120px;
+	  }	
+}
+
 
 
 
 @media (min-width: 600px) and (max-width: 899px) {
 	.integration-banner{
 		padding: 70px 50px ;
-	}	
+	}
+	.integration-banner2 {
+		padding: 218px 16px;
+	  }	
+	  .top-integration {
+		padding: 0px 28px;
+		position: relative;
+		top: -120px;
+	  }	
+
 }
 
 @media (min-width: 1536px) and (max-width: 1650px) {
 	.integration-banner{
 		padding: 140px 60px;
 	}
-}
+	.integration-banner2{
+		padding: 195px 60px;
+	}
+	.top-integration {
+		padding: 0px 118px;
+		position: relative;
+		top: -120px;
+	  }	
+}	
 
 @media (min-width: 1651px)  {
 	.integration-banner{
 		padding: 140px 140px;
 	}
+	.integration-banner2{
+		padding: 196px 140px;
+	}
+	.top-integration {
+		padding: 0px 118px;
+		position: relative;
+		top: -120px;
+	  }	
 }
 @media (min-width: 1200px) and (max-width: 1414px) {
 	.integration-banner{
 		padding: 118px 0px;
 	}	
+	.integration-banner2{
+		padding: 179px 0px;
+	}
 	.integration-banner .headerright-body {
 		padding: 40px 60px !important;
 	  }
+	  .top-integration {
+		padding: 0px 118px;
+		position: relative;
+		top: -120px;
+	  }	
 }
 
 @media (min-width: 1415px) and (max-width: 1535px) {
@@ -4380,6 +4466,11 @@ padding-left: 10px;
 	.integration-banner .headerright-body {
 		padding: 40px 120px;
 	  }
+	  .top-integration {
+		padding: 0px 118px;
+		position: relative;
+		top: -120px;
+	  }	  
 }
 
 
@@ -4387,6 +4478,7 @@ padding-left: 10px;
 	.integration-banner{
 		padding: 70px 20px 70px 20px;
 	}
+
 }
 
 
