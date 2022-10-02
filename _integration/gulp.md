@@ -10,12 +10,21 @@ logo: "/images/integration/gulp-logo.png"
 category: build tools
 ---
 
-# What are Artifacts?
-
-An artifact is a byproduct of software development that helps describe the architecture, design and function of software. Artifacts are like roadmaps that software developers can use to trace the entire software development process
+# What is gulp ?
 
 
-Artifacts might be databases, data models, printed documents or scripts. Artifacts aid in the maintenance and updating of software, as developers can use them as reference material to help resolve issues. Artifacts are documented and stored in a repository so they can be retrieved by software developers upon demand.
+Gulp is a task runner that uses Node. js as a platform. Gulp purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications. It builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
 
 
-Software artifacts are typically created during the software development process and can refer to specific methods or processes in the software's development. For example, a software build contains the developer's code as well as a range of different artifacts. Some of these artifacts explain how the software works, while others enable the software to run. For example, the code's artifacts might include dependencies, project source code or a list of resources. These artifacts are stored in a repository, so they can be kept organized and retrieved upon demand.
+# How to use GULP tool in working environment: 
+* Install Node. js and Gulp.
+* Create a package. json and list dependencies (Gulp and plugins).
+* Install NPM modules.
+* Create a gulpfile. js .
+* Configure tasks you need to run.
+* Run those tasks in the command line while you work.
+
+ same like above process we integrate  Gulp  with razorops using .razorops.yaml file 
+Github repository : 
+
+<a href="https://github.com/Razorops-code/Super-Simple-Gulp-File.git" target="_blank"><b>https://github.com/Razorops-code/Super-Simple-Gulp-File.git</b></a>
