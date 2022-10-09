@@ -10,50 +10,94 @@ logo: "/images/integration/grunt-logo.svg"
 category: build tools
 ---
 
-# Integrated with Razorops :
-**Here we login to our razorops account**
+Grunt is a JavaScript based task runner which means it can automate repetitive tasks in a workflow and it can be used as a command line tool for JavaScript objects. Grunt makes the workflow as easy as writing a setup file. You can automate repetitive tasks with minimum effort.
 
-![](/images/integration/jfrog/razorops-dashboard.png)
-
-**Goto integrations Tab , connect  jFrog  artifact registry with  URL, USER, PASSWORD**
-
-![](/images/integration/jfrog/razorops-private-container-registry.png)
-
-**Connected**
-
-![](/images/integration/jfrog/razorops-private-container-registry-connected.png)
+# How to use GRUNT tool in working environment: 
+* Install Node. js and Grunt.
+* Create a package. json and list dependencies (Grunt and plugins).
+* Install NPM modules.
+* Create Gruntfile. js .
+* Configure tasks you need to run.
+* Run those tasks in the command line while you work.
 
 
-**We have .razorops.yaml  file with jfrog repository** 
+ same like above process we integrate  GRUNT with razorops using .razorops.yaml file 
+ 
+ Sample App Link - Clone or Fork —---
 
-**.razorops.yaml**
+Github : https://github.com/Razorops-code/grunt-git.git
+
+
+
+
 
 ```
-<script src="https://gist.github.com/Razorops-code/07e4f3adc6cfb4fd5a9ead768f5e5a74.js"></script>
-
 tasks:
-  unit-test:
-    runner: razorci/openjdk:11-buster
+  build-deps:
+    runner: node:10
     steps:
     - checkout
-    - commands:
-      - |
-        mvn clean package
-           ls -a
-    - docker/build:
-         image: shivaawstest.jfrog.io/default-docker/spring
-         push: true 
-         tags: ["latest-v1"]
+   # install npm
+    - run: npm install
+   #  install grunt-cli with global
+    - run: npm install -g grunt-cli
+   # know about grunt version
+    - run: grunt --version
+  # run a build command
+    - run: npm run build
+		
+		
+<script src="https://gist.github.com/shivagottam/ee29757acb8ffada519d0f530bb153ad.js"></script>
 ```
 
-**When we run it successfully we get logs ….**
 
-![](/images/integration/jfrog/container-registry-run-successful-log.png)
 
-**When it pushed to jfrog repo successfully we can find our package in packages**
 
-![](/images/integration/jfrog/successfully-pushed-to-jfrog-repo.png)
 
-**We find our artifacts in docker-local wich is mentioned as repo location**
+# Grunt integration with Razorops :
+# Login to razorops with github
 
-![](/images/integration/jfrog/artifacts-in-docker-local-jfrog.png)
+![](/images/integration/grunt/razorops-dashboard.png)
+		
+		
+# Connect to the github repository in workflow with select New pipeline 
+
+![](/images/integration/grunt/razorops-create-new-pipeline.png)
+
+# Select Github 
+
+![](/images/integration/grunt/razorops-add-new-pipeline.png)
+
+# Chose Grunt repository here select grunt-git (working repository) 
+
+![](/images/integration/grunt/razorops-grunt-pipeline.png)
+
+# Select repository and confirm 
+
+![](/images/integration/grunt/razorops-select-repository.png)
+
+# Next we navigate to YML script block 
+**Here we enter .razororps.yaml code and click on Run your first build**
+
+![](/images/integration/grunt/razorops-configure-repository.png)
+
+
+# Build process Running 
+
+![](/images/integration/grunt/razorops-build-dependencies.png)
+
+
+# Build process success we can find logs in logs section 
+
+![](/images/integration/grunt/razorops-build-dependencies-output.png)
+
+
+**We can find in logs  Grunt build success with creating** 
+
+Build
+Disk 
+Tmp folders  
+
+**which is compiled and build code of  node js **
+
+![](/images/integration/grunt/razorops-build-dependencies-logs.png)
