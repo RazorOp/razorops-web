@@ -10,12 +10,101 @@ logo: "/images/integration/gulp-logo.png"
 category: build tools
 ---
 
-# What are Artifacts?
-
-An artifact is a byproduct of software development that helps describe the architecture, design and function of software. Artifacts are like roadmaps that software developers can use to trace the entire software development process
+# What is gulp ?
 
 
-Artifacts might be databases, data models, printed documents or scripts. Artifacts aid in the maintenance and updating of software, as developers can use them as reference material to help resolve issues. Artifacts are documented and stored in a repository so they can be retrieved by software developers upon demand.
+Gulp is a task runner that uses Node. js as a platform. Gulp purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications. It builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
 
 
-Software artifacts are typically created during the software development process and can refer to specific methods or processes in the software's development. For example, a software build contains the developer's code as well as a range of different artifacts. Some of these artifacts explain how the software works, while others enable the software to run. For example, the code's artifacts might include dependencies, project source code or a list of resources. These artifacts are stored in a repository, so they can be kept organized and retrieved upon demand.
+# How to use GULP tool in working environment: 
+* Install Node. js and Gulp.
+* Create a package. json and list dependencies (Gulp and plugins).
+* Install NPM modules.
+* Create a gulpfile. js .
+* Configure tasks you need to run.
+* Run those tasks in the command line while you work.
+
+ same like above process we integrate  Gulp  with razorops using .razorops.yaml file 
+ 
+ 
+# Github repository : 
+
+https://github.com/Razorops-code/Super-Simple-Gulp-File.git
+
+
+```
+tasks:
+  build-deps:
+    runner: node:10
+    steps:
+    - checkout
+    # installing npm 
+    - run: npm install
+
+    # know about version
+    - run: npm --version
+    # installing gulp cli with global 
+    - run: npm install -g gulp-cli
+
+    # know about gulp version 
+    - run: gulp --version
+
+    # installing sass with dev 
+    - run: npm install sass gulp-sass --save-dev
+
+    # running gulp sass task #
+    - run: gulp sass
+
+
+<script src="https://gist.github.com/Razorops-code/f79151b4f088b974b3e3dedd4b153241.js"></script>
+```
+
+
+# Gulp integration with Razorops :
+# Login to razorops with github 
+ 
+ ![](/images/integration/gulp/razorops-dashboard.png)
+ 
+# Connect to the github repository in workflow with select New pipeline 
+ 
+ ![](/images/integration/gulp/razorops-create-new-pipeline.png)
+ 
+ 
+# Select Github 
+ 
+ ![](/images/integration/gulp/razorops-add-github.png)
+ 
+ 
+# Chose Gulp repository here select grunt-git (working repository) 
+ 
+ ![](/images/integration/gulp/razorops-gulp-pipeline.png)
+ 
+# Select repository and confirm 
+ 
+ ![](/images/integration/gulp/razorops-select-repository.png)
+ 
+ 
+# Next we navigate to YML script block 
+
+Here we enter .razororps.yaml code and click on Run your first build 
+
+
+![](/images/integration/gulp/razorops-configure-repository.png)
+
+
+# Build process Running 
+
+![](/images/integration/gulp/razorops-build-process-running.png)
+
+
+# Build process success we can find logs in logs section
+
+Here we mention sass task in script to create compile .css file 
+
+
+![](/images/integration/gulp/razorops-build-dependencies.png)
+
+
+# sass  starting and finishing and created dist folder with style.css 
+
+![]()
