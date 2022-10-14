@@ -40,7 +40,7 @@ The creation of an automated and smooth software delivery process is achieved by
 8.**Release office:** Frequent releases are only feasible if the software has been tested in a setting similar to production and is in a release-ready state.
 
 <br>
-![](/images/blog/CICD-deploy-to-production.png)
+![](/images/blog/cicd-deploy-to-production.png)
 <br>
 
 # How to improve the CI/CD pipeline
