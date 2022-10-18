@@ -1,16 +1,16 @@
 ---
 title: Container Native DevOps & CICD Newsletter 26
-description: 'Super Container OS: An Invaluable Resource for Container Start-up, Deployment,
+description: Super Container OS:- An Invaluable Resource for Container Start-up, Deployment,
   and Management. Subscribe to get the latest updates on container-native & DevOps
-  news here.'
+  news here.
 permalink: "/newsletter/razorops-cicd-newsletter-26"
 layout: newsletter
 date: '2022-10-11 17:00:58'
 author: Aditi Mishra
 category: container
-image: "\\images\\newsletter/super-container-os.png"
-heading: 'Super Container OS: An Invaluable Resource for Container Start-up, Deployment,
-  and Management'
+image: "/images/newsletter/super-container-os.png"
+heading: Super Container OS:- An Invaluable Resource for Container Start-up, Deployment,
+  and Management
 ---
 
 ![](\images\newsletter/super-container-os.png)
@@ -37,7 +37,7 @@ Super Container OS comes pre-installed with Kubernetes and the Docker container 
   </p>
   </div>
   <div class="col-sm-6">
-    <img src="\images\newsletter\kubernetes-logo.png">
+    <img src="/images/newsletter/kubernetes-logo.png">
   </div>
 </div>
 	
@@ -52,7 +52,7 @@ Super Container OS comes pre-installed with Kubernetes and the Docker container 
   </p>  
   </div>
   <div class="col-sm-6">
-    <img src="\images\newsletter\docker-logo.png">
+    <img src="/images/newsletter/docker-logo.png">
   </div>	
 </div>  
 	
