@@ -1,8 +1,8 @@
 ---
 title: Container Native DevOps & CICD Newsletter 26
-description: 'Super Container OS: An Invaluable Resource for Container Start-up, Deployment,
+description: Super Container OS:- An Invaluable Resource for Container Start-up, Deployment,
   and Management. Subscribe to get the latest updates on container-native & DevOps
-  news here.'
+  news here.
 permalink: "/newsletter/razorops-cicd-newsletter-26"
 layout: newsletter
 date: '2022-10-11 17:00:58'
