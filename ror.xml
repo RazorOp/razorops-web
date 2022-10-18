@@ -421,7 +421,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/</link>
+     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management-part-2/</link>
      <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
      <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -496,6 +496,14 @@
      <link>https://razorops.com/case-studies/nimble-buying/</link>
      <title>Razorops case study with Nimble - CI/CD Customer Stories | Razorops</title>
      <description>Lets have a look at Razorops Customer Stories - Check by integrating Razorops automate CI/CD Pipeline how Egnify solved their facing Challenges.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-25</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 25 | Razorops</title>
+     <description>Influence of CI/CD On Security. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -768,6 +776,30 @@
      <link>https://razorops.com/blog/unit-test-vs-integration-test-major-difference-between-unit-testing-and-integration-test/?utm_source=ci-cd-pipeline&amp;utm_medium=blog&amp;utm_campaign=Internallink</link>
      <title>Unit Test vs Integration Test Major Difference between Unit Testing and Integration Test | Razorops</title>
      <description>Lets Know about Unit Test &amp;amp; Integration Test along with their benefits. Also check the Unit Test vs Integration Test major differences.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_300922</link>
+     <title>Razorops Business Development Manager - Cloud Solution Job | Razorops</title>
+     <description>Razorops looking for sr. Business Development Manager to help us scale sales pipeline.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_300922</link>
+     <title>Razorops Kubernetes Developer &amp;amp; Solutions Engineer | Razorops</title>
+     <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_300922</link>
+     <title>Razorops Senior Golang Developer Job | Razorops</title>
+     <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
