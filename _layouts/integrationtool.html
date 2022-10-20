@@ -40,7 +40,7 @@
   
     <!-- navbar -->
     <header class="default-header">{% include header.html %}</header>
-    <div class="integration-banner2">
+    <!-- <div class="integration-banner2">
         <img src="/images/razorops-logo.png" height="65" class="Integration-banner-img">
         <h2>Connect To Your Favourite Apps</h2>
     </div>
@@ -86,175 +86,101 @@
             </a>
             
         </div>
-    </div>
-    <h1 class="text-capitalize text-center">Integrate RazorOps with {{ page.title }}</h1>
-    <hr>
-    <div class="content-wraper">
-      <div class="blog-wraper">
-        <div class="container">
-            
-            <!-- <div class="row">
-                    <div class="col-md-3 integration-menu">
-                        <div class="container">
-							<h3>Integrations Tools</h3>
-							<br>
-							{% assign integrationtool = site.integration %}
-							<a class="menu-btn" data-toggle="collapse" href="#cloudplatform" role="button" aria-expanded="false" aria-controls="cloudplatform">
-								Cloud Platform
-								<i class="fa fa-caret-down" aria-hidden="true"></i>
-							</a>	
-							<div class="collapse" id="cloudplatform">
-								<div class="card card-body">
-									<ul class="liststyle-none">
-								
-										{% for post in integrationtool reversed %}
-											{% for category in post.category %}
-												{% if category == 'cloud platform' %}
-												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
-													
-														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="24" height="100%">  {{ post.title }}</h4>
-																									
-												</a></li>
-												{% endif %} 
-										  	{% endfor %}
-										{% endfor %}
-									</ul>	
-		
-								</div>
-							</div>
-							<br>
-							<br>
-							<a class="menu-btn" data-toggle="collapse" href="#container" role="button" aria-expanded="false" aria-controls="container">
-								Container
-								<i class="fa fa-caret-down" aria-hidden="true"></i>
-							</a>	
-							<div class="collapse" id="container">
-								<div class="card card-body">
-									<ul class="liststyle-none">
-								
-										{% for post in integrationtool reversed %}
-											{% for category in post.category %}
-												{% if category == 'container' %}
-												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
-													
-														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="24" height="100%">  {{ post.title }}</h4>
-																									
-												</a></li>
-												{% endif %} 
-										  	{% endfor %}
-										{% endfor %}
-									</ul>	
-		
-								</div>
-							</div>
-							<br>
-							<br>
-							<a class="menu-btn" data-toggle="collapse" href="#artifactregistry" role="button" aria-expanded="false" aria-controls="artifactregistry">
-								Docker Registory
-								<i class="fa fa-caret-down" aria-hidden="true"></i>
-							</a>	
-							<div class="collapse" id="artifactregistry">
-								<div class="card card-body">
-									<ul class="liststyle-none">
-								
-										{% for post in integrationtool reversed %}
-											{% for category in post.category %}
-												{% if category == 'artifact registry' %}
-												<li><a href="{{ site.baseurl }}{{ post.url }}" class="text-decoration-none">
-													
-														<h4 class="text-capitalize text-15"><img src="{{ post.logo }}" width="24" height="100%">  {{ post.title }}</h4>
-																									
-												</a></li>
-												{% endif %} 
-										  	{% endfor %}
-										{% endfor %}
-									</ul>	
-		
-								</div>
-							</div>
-							<br>
-							<br>
-							<br>
-						  </div>  
-                    </div> -->
-                    <div class="container">
-                        <div class="blog-post-content" id="blog-post-margins">
-                            <div class="blog-post-body">
-                            <h1 class="text-capitalize">{{ page.title }}</h1>
-                             <br>   
-                            {{ content }}
-                            <br><br>
-                            </div>
-                        </div>
-                        <br><br>
-                    </div>   
-             
-                 <!-- </div>    -->
-           
-             
-                        <div class="banner-clients bg-white">
-                            <div class="container">
-                            <div class="clearfix"></div>
-                                <div class="slider">
-                                    <div class="slide-track">
-            
-                                        <div class="slide2">
-                                            <img src="/images/clients/kubernetes.png" alt="kubernetes" >
-                                        </div>
-                                        <div class="slide2">
-                                            <img src="/images/clients/docker.png" alt="docker" >
-                                        </div>
-            
-                                        <div class="slide2">
-                                            <img src="/images/clients/google-cloud.png" alt="google-cloud">
-                                        </div>
-            
-                                        <div class="slide2">
-                                            <img src="/images/clients/aws.png" alt="AWS" >
-                                        </div>
-                                        <div class="slide2">
-                                            <img src="/images/clients/azure.png" alt="azure" >
-                                        </div>
-            
-                                        <div class="slide2">
-                                            <img src="/images/clients/digitalocean.png" alt="digitalocean">
-                                        </div>
-            
-                                        <div class="clearfix"></div>
-            
-                                        <div class="slide2">
-                                            <img src="/images/clients/git.png" alt="git" >
-                                        </div>
-            
-                                        <div class="slide2">
-                                            <img src="/images/clients/github.png" alt="github">
-                                        </div>
-                                        <div class="slide2">
-                                            <img src="/images/clients/bitbucket.png" alt="bitbucket">
-                                        </div>
-                                        <div class="slide2">
-                                            <img src="/images/clients/gitlab.png" alt="gitlab" >
-                                        </div>
-                                        <div class="slide2">
-                                            <img src="/images/clients/email.png" alt="email" >
-                                        </div>
-                                        <div class="slide2">
-                                            <img src="/images/clients/slack.png" alt="slack" >
-                                        </div>
-                                        <div class="clearfix"></div>
-            
-                                    </div>
-            
-                                </div>
-                            </div>
-                
-                        </div>
-                    
+    </div> -->
+   
 
-          
+    <div class="Integration-container">
+        <div class="content-wraper">
+            <div class="blog-wraper">
+                  <div class="">
+                    <div class="row"> 
+                        <!-- All INtegration Section with category -->
+                        <h3 class="text-capitalize razorops-blue">{{ page.category }}</h3>
+                        <div class="col-sm-9">
+                            <div class="allintegrationtools-section">
+                                <div class="allintegration-body" id="scm">
+                                    <h1 class="text-capitalize">Integrate RazorOps with {{ page.title }}</h1>
+                                    <br>   
+                                    {{ content }}
+                                </div>
+                                     
+                            </div>
+                        </div> 
+
+                        <!-- Integration tool Menu BY Categories -->
+    
+                        <div class="col-md-3 integration-menu">
+                            <div class="container">
+                                <img src="{{ page.logo }}" width="120px" class="text-center" >
+                                <br>
+                                <div class="menubtn-box">
+                                <a class="btn menu-btn"  href="/integrations#scm"  >
+                                    SCM
+                                </a>	
+                                </div>
+                                
+                                <br>
+                                <br>
+                                <div class="menubtn-box">
+                                <a class="btn menu-btn"  href="/integrations#build-tools"  >
+                                    Build Tools
+                                </a>	
+                                </div>
+                                
+                                <br>
+                                <br>
+                                <div class="menubtn-box">
+                                <a class="btn menu-btn"  href="/integrations#unit-testing-tools"  >
+                                    Unit Testing Tools
+                                </a>
+                                </div>
+                                
+                                <br>
+                                <br>
+                                <div class="menubtn-box">
+                                <a class="btn menu-btn"  href="/integrations#test-coverage-report-tools"   >
+                                    Test Coverage <br>Report Tools
+                                </a>
+                                </div>
+    
+                                <br>
+                                <br>
+                                <div class="menubtn-box">
+                                <a class="btn menu-btn"  href="/integrations#container-registries" >
+                                    Container Registries
+                                </a>
+                                </div>
+    
+                                <br>
+                                <br>
+                                <div class="menubtn-box">
+                                <a class="btn menu-btn"  href="/integrations#development-tools"   >
+                                    Development Tools- <br>Kubernetes
+                                </a>
+                                </div>
+    
+                                <br>
+                                <br>
+                                <div class="menubtn-box">
+                                <a class="btn menu-btn"  href="/integrations#other-tools"  >
+                                    Other Tools
+                                </a>
+                                </div>
+                                
+                                <br>
+                                <br>
+                                <br>
+                              </div>
+                          </div>
+    
+                          
+                             
+                    </div>		
+                </div>
+              </div> 
         </div>
-      </div>
-    </div>
+
+
     {% include footer.html %}
   </body>
 </html>

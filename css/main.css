@@ -4264,7 +4264,7 @@ padding-left: 10px;
 	.integration-menu .menu-btn{
 			/* border-left: 8px solid rgb(57, 57, 223); */
 			/* background-color: rgba(90, 90, 253, 0.22); */
-			background: #fff;
+			background: rgba(240, 238, 255, 0.8);
 			color: #000;
 			font-size: 24px;
 			display: block;
@@ -4288,7 +4288,7 @@ padding-left: 10px;
 	.integration-menu{
 		top:70px;
 		bottom: 0;
-		position: sticky;
+		position: sticky !important;
 		overflow-y: hidden;
 		overflow-x: hidden;
 	}
@@ -4296,7 +4296,7 @@ padding-left: 10px;
 }
 
 .integration-menu img{
-	margin-top: -5px !important;
+	margin: 32px 50px !important;
 }
 .integration-menu ul{
 	margin-top: 42px;
@@ -5651,4 +5651,14 @@ p{
 	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 
+}
+
+.razorops-blue{
+	color:#345EEF;
+	font-weight: 600;
+
+}
+
+.allintegration-body img{
+	width: 100% !important;
 }
