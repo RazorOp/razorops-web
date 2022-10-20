@@ -11,6 +11,7 @@ category: build tools
 ---
 
 Grunt is a JavaScript based task runner which means it can automate repetitive tasks in a workflow and it can be used as a command line tool for JavaScript objects. Grunt makes the workflow as easy as writing a setup file. You can automate repetitive tasks with minimum effort.
+<br>
 
 # How to use GRUNT tool in working environment: 
 * Install Node. js and Grunt.
@@ -28,7 +29,7 @@ Grunt is a JavaScript based task runner which means it can automate repetitive t
 Github : https://github.com/Razorops-code/grunt-git.git
 
 
-
+<br>
 
 
 ```
@@ -51,45 +52,74 @@ tasks:
 ```
 
 
-
+<br>
 
 
 # Grunt integration with Razorops :
+<br>
+
 # Login to razorops with github
 
+<br>
 ![](/images/integration/grunt/razorops-dashboard.png)
-		
+<br>		
+
+<br>
 		
 # Connect to the github repository in workflow with select New pipeline 
 
+<br>
 ![](/images/integration/grunt/razorops-create-new-pipeline.png)
+<br>
+
+<br>
 
 # Select Github 
 
+<br>
 ![](/images/integration/grunt/razorops-add-new-pipeline.png)
+<br>
+
+<br>
 
 # Chose Grunt repository here select grunt-git (working repository) 
 
+<br>
 ![](/images/integration/grunt/razorops-grunt-pipeline.png)
+<br>
+
+<br>
 
 # Select repository and confirm 
 
+<br>
 ![](/images/integration/grunt/razorops-select-repository.png)
+<br>
+
+<br>
 
 # Next we navigate to YML script block 
 **Here we enter .razororps.yaml code and click on Run your first build**
 
+<br>
 ![](/images/integration/grunt/razorops-configure-repository.png)
+<br>
 
+<br>
 
 # Build process Running 
 
+<br>
 ![](/images/integration/grunt/razorops-build-dependencies.png)
+<br>
 
+<br>
 
 # Build process success we can find logs in logs section 
 
+<br>
 ![](/images/integration/grunt/razorops-build-dependencies-output.png)
+<br>
 
 
 **We can find in logs  Grunt build success with creating** 
@@ -99,5 +129,6 @@ Disk
 Tmp folders  
 
 **which is compiled and build code of  node js **
-
+<br>
 ![](/images/integration/grunt/razorops-build-dependencies-logs.png)
+<br>
