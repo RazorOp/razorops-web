@@ -77,6 +77,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops-dev.netlify.app/blog/top-20-ci-cd-pipeline-interview-questions-answers/</link>
+     <title>Top 20 CI/CD Pipeline Interview Questions &amp;amp; Answers | Razorops</title>
+     <description>Here you have the top 20 common ci/cd interview questions along with answers. Let’s have a look at it. Razorops is the one of best simplest container native cicd tools.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops-dev.netlify.app/blog/difference-between-docker-image-docker-container/</link>
      <title>Difference between Docker Image &amp;amp; Docker Container | Razorops</title>
      <description>In this article you will understand the difference between docker image &amp;amp; docker container. Also you will get a solid understanding of what a docker image, a container.</description>
@@ -88,14 +96,6 @@
      <link>https://razorops-dev.netlify.app/blog/top-8-ci-cd-best-practices-for-building-successful-applications/</link>
      <title>Top 8 CI/CD Best Practices for Building Successful Applications | Razorops</title>
      <description>Best CI/CD Best Practices for devops team to ensure the business successful &amp;amp; to build the application. Check the complete CI/CD Best Practices in detail: Build once, Streamline the tests, Continuous automation, Know the procedures, Continuous security, Fix it if it’s broken, Make it daily.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops-dev.netlify.app/blog/migration-guide-jenkins-to-razorops/</link>
-     <title>Migration Guide - Jenkins to Razorops | Razorops</title>
-     <description>Steps to Migrate Jenkins to Razorops. Razorops is the Simplest Container Native CI/CD Tool. Best alternative to Jenkins. Try for Free. Signup Now.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -194,6 +194,14 @@
      <description>We fully understand and recognize, that the security of your source code as critical componant. Therefore we put lots of efforts to provide a secure infrastructure to use.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops-dev.netlify.app/blog/migration-guide-jenkins-to-razorops/</link>
+     <title>Migration Guide - Jenkins to Razorops | Razorops</title>
+     <description>Steps to Migrate Jenkins to Razorops. Razorops is the Simplest Container Native CI/CD Tool. Best alternative to Jenkins. Try for Free. Signup Now.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
