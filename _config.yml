@@ -32,12 +32,9 @@ collections:
   newsletter:
     output: true
     permalinks: /newsletter/:title/
-<<<<<<< HEAD
   integration:
     output: true
     permalinks: /integration/:title/     
-=======
   newsandupdates:
     output: true
     permalinks: /news-and-updates/:title/     
->>>>>>> news-update
