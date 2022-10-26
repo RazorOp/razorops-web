@@ -1,8 +1,6 @@
 ---
 title: Container Native DevOps & CICD Newsletter 28
-description: The container revolution was started by Docker, which is still active
-  and perhaps doing better financially than it was back then (only to be eclipsed
-  by Kubernetes and its ecosystem).
+description: Docker Launches The First Preview Of Its WebAssembly Tooling. Subscribe to get the latest updates on container-native & DevOps news here.
 permalink: "/newsletter/razorops-cicd-newsletter-28"
 layout: newsletter
 date: '2022-10-25 11:12:53'
