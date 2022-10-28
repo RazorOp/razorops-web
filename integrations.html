@@ -19,7 +19,10 @@ canonical_url: 'https://razorops.com/integrations'
 		</div>
 		<div class="col-sm-6">
 			<div class="headerright-body">
-				<input type="search" class="form-control" placeholder="Enter what you are searching for..." />
+				<form method="get" action="https://www.google.com/search" target="_blank">
+					<input type="hidden" name="sitesearch" value="razorops.com" />
+					<input type="search" name="q" maxlength="255" placeholder="Enter what you are searching for..." class="form-control" />
+				  </form>
 				<div class="row moresuggest-btns">
 					<div class="row col-sm-4">
 						<div class="col-sm-12 moresuggest-text">
