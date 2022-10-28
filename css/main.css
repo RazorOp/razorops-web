@@ -4247,7 +4247,16 @@ padding-left: 10px;
 	}
 } */
 @media screen and (min-width:768px){
+	.integration-banner .headerleft-body{
+		padding: 20px 90px;
+		text-align: left;
+		color: #000;
 	
+	
+	}
+	.integration-banner .headerright-body {
+		padding: 40px 60px !important;
+	  }
 
 	.integration-menu h3{
 		background-color: #345eef;
@@ -4489,13 +4498,13 @@ padding-left: 10px;
 .integration-banner .headerright-body{
 	padding: 40px 120px;
 }
-.integration-banner .headerleft-body{
+/* .integration-banner .headerleft-body{
 	padding: 20px 90px;
 	text-align: left;
 	color: #000;
 
 
-}
+} */
 
 .integration-banner .headerright-body .moresuggest-btns{
 	margin-top: 12px;
@@ -4505,7 +4514,7 @@ padding-left: 10px;
 	background: #18204C;
 	color: #fff;
 	width: 100px !important;
-
+	margin-bottom: 8px;
 }
 
 .allintegration-body{
@@ -4655,6 +4664,16 @@ box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.0
 } */
 
 @media screen and (max-width:767px){
+	.integration-banner .headerleft-body{
+		padding: 20px 0px;
+		text-align: left;
+		color: #000;
+	
+	
+	}
+	.integration-banner .headerright-body {
+		padding: 40px 0px !important;
+	  }
 	.compititors-cta {
 		padding: 20px !important;
 	}
@@ -5550,6 +5569,6 @@ p{
 
 }
 
-.allintegration-body img{
+#allintegration-body img{
 	width: 80% !important;
 }
