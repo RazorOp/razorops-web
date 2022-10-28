@@ -4347,7 +4347,6 @@ padding-left: 10px;
 	position: relative;
 	  padding: 140px 200px;
 	   /* background-color:rgba(240, 238, 255, 0.8); */
-	   background-image: url('/images/intro-bg.png');
 	   /* background:  linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 238, 255, 0.8) 42.23%); */
 	   color: rgb(255, 255, 255);
 	   margin-top: -80px;
@@ -4402,7 +4401,8 @@ padding-left: 10px;
 
 @media (min-width: 600px) and (max-width: 899px) {
 	.integration-banner{
-		padding: 70px 50px ;
+		font: message-box;
+		padding: 70px 50px 10px 50px ;
 	}
 	.integration-banner2 {
 		padding: 218px 16px;
@@ -4417,7 +4417,8 @@ padding-left: 10px;
 
 @media (min-width: 1536px) and (max-width: 1650px) {
 	.integration-banner{
-		padding: 140px 60px;
+		font: message-box;
+		padding: 140px 60px 0px 60px;
 	}
 	.integration-banner2{
 		padding: 195px 60px;
@@ -4431,6 +4432,7 @@ padding-left: 10px;
 
 @media (min-width: 1651px)  {
 	.integration-banner{
+		font: message-box;
 		padding: 140px 140px;
 	}
 	.integration-banner2{
@@ -4444,7 +4446,8 @@ padding-left: 10px;
 }
 @media (min-width: 1200px) and (max-width: 1414px) {
 	.integration-banner{
-		padding: 118px 0px;
+		font: message-box;
+		padding: 118px 0px 0px 0px;
 	}	
 	.integration-banner2{
 		padding: 179px 0px;
@@ -4461,7 +4464,8 @@ padding-left: 10px;
 
 @media (min-width: 1415px) and (max-width: 1535px) {
 	.integration-banner{
-		padding: 105px 0px;
+		font: message-box;
+		padding: 105px 0px 0px 0px;
 	}	
 	.integration-banner .headerright-body {
 		padding: 40px 120px;
@@ -4476,6 +4480,7 @@ padding-left: 10px;
 
 @media (max-width: 600px) {
 	.integration-banner{
+		font: message-box;
 		padding: 70px 20px 70px 20px;
 	}
 
@@ -4489,6 +4494,7 @@ padding-left: 10px;
 .integration-banner .headerleft-body{
 	padding: 20px 90px;
 	text-align: left;
+	color: #000;
 
 
 }
@@ -4499,14 +4505,14 @@ padding-left: 10px;
 
 .integration-banner .headerright-body .moresuggest-btns .btn-razoropsv3{
 	background: #18204C;
-	color: #C4C4C4;
-	font-weight: 600;
+	color: #fff;
 	width: 100px !important;
 
 }
 
 .allintegration-body{
 	margin-bottom: 20px;
+	font: message-box;
 }
 
 .allintegration-body .singleintegration-section .integrationtool-box:hover .integrationtool-content{
@@ -4520,20 +4526,21 @@ html {
 	scroll-behavior: smooth;
   }
 .allintegration-body .singleintegration-section .integrationtool-heading{
-	color: #345EEF;
-	font-size: 35px;
+	color: #4a4a4a;
+	font-size: 30px;
 }
 
 .allintegration-body .singleintegration-section .integrationtool-content{
 	box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.06);
 	border-radius: 20px;
+	background-color: #fff;
 	padding: 20px;
     margin: 13px;
 
 }	
 
 .allintegration-body .singleintegration-section .integrationtool-content .integrationtool-name h3{
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 600;
 }
 
@@ -4546,8 +4553,12 @@ html {
 }
 
 .integration-banner .headerright-body .moresuggest-text{
-
 	padding: 5px 0px 8px 15px
+}
+
+.integration-banner .headerright-body .moresuggest-text p{
+	color: #000;
+	font-weight: 600;
 }
 
 .integration-banner .headerright-body [type='search']{
@@ -5660,5 +5671,5 @@ p{
 }
 
 .allintegration-body img{
-	width: 100% !important;
+	width: 80% !important;
 }
