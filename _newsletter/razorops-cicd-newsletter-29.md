@@ -3,7 +3,7 @@ title: Container Native DevOps & CICD Newsletter 29
 description: The New Kind Of Industrial Revolution. Subscribe to get the latest updates
   on container-native & DevOps news here.
 layout: newsletter
-date: '2022-11-01 15:55:03'
+date: '2022-11-01 10:00:00'
 author: Aditi Mishra
 category: kubecon
 image: "/images/newsletter/new-kind-of-industrial-revolution.gif"
