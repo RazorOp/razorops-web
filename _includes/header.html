@@ -1,6 +1,6 @@
 <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-<script src='{{ site.baseurl }}/js/app.js'></script>
+<script src="{{ site.baseurl }}/js/app.js"></script>
 
 <nav class="navbar navbar-default navbar-fixed-top" id="navbar-section">
   <!-- <div class="webinar-trigger-wrapper text-center">
@@ -9,13 +9,23 @@
   </div> -->
   <div class="container">
     <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span> <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+      <button
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#navbar"
+        aria-expanded="false"
+        aria-controls="navbar"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span> <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="/">
-        <img src="{{ site.baseurl }}/images/razorops-assets/razorops-white-logo.png" height="35" alt="razorops"/>
+        <img
+          src="{{ site.baseurl }}/images/razorops-assets/razorops-white-logo.png"
+          height="35"
+          alt="razorops"
+        />
       </a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
@@ -40,17 +50,30 @@
         <li><a href="/jenkins-alternative">Jenkins Alternative</a></li>
 
         <li class="dropdown nav-dropdown">
-          <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <a
+            class="dropdown-toggle"
+            type="button"
+            id="dropdownMenu1"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="true"
+          >
             Resources
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li><a href="/blog">Blog</a></li>
-            <li><a href="https://www.youtube.com/channel/UCq-0f5HPIAJ_2Ds6uvwBW4g/videos" target="_blank">Videos</a></li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCq-0f5HPIAJ_2Ds6uvwBW4g/videos"
+                target="_blank"
+                >Videos</a
+              >
+            </li>
             <li><a href="/webinars">Webinars</a></li>
             <li><a href="/customers">Case Studies</a></li>
             <li><a href="/newsletter">Newsletter</a></li>
-            <li><a href="/news-and-updates">News and Updates</a></li>
+            <!-- <li><a href="/news-and-updates">News and Updates</a></li> -->
           </ul>
         </li>
 
@@ -69,9 +92,18 @@
           </ul>
         </li> -->
 
-        <li><a href="https://dashboard.razorops.com/users/sign_in">Sign in</a></li>
-        <li><a href="https://dashboard.razorops.com/users/sign_up">Sign up</a></li>
-        <li class="mob-nav-button"><a href="/schedule-demo" class="btn-animated btn btn-rounded btn-lg">SCHEDULE A DEMO</a> </li>&nbsp;&nbsp;
+        <li>
+          <a href="https://dashboard.razorops.com/users/sign_in">Sign in</a>
+        </li>
+        <li>
+          <a href="https://dashboard.razorops.com/users/sign_up">Sign up</a>
+        </li>
+        <li class="mob-nav-button">
+          <a href="/schedule-demo" class="btn-animated btn btn-rounded btn-lg"
+            >SCHEDULE A DEMO</a
+          >
+        </li>
+        &nbsp;&nbsp;
       </ul>
     </div>
   </div>
