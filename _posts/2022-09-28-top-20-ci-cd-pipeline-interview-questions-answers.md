@@ -64,8 +64,10 @@ In order to help you master your next interview and land your dream job, this bl
 # 1. What’s the difference between continuous integration, continuous delivery, and continuous deployment?
 
 <br>
-* <a href="https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/" target="_blank"><b>Continuous integration</b></a> is a DevOps practice, where developers continuously integrate the code changes into a central repository. It most often refers to the build or the integration stage of the software release process. A continuous integration service helps to automatically build and run unit tests on the new code changes to find any errors instantly.
-<a href="https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/" target="_blank"><b>Continuous delivery</b></a> expands upon continuous integration by deploying all the code changes to the testing environment and later to the production environment after the build stage.
+* <a href="https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/" target="_blank"><b>Continuous integration</b></a> is a DevOps practice, where developers continuously integrate the code changes into a central repository. It most often refers to the build or the integration stage of the software release process. A continuous 
+integration service helps to automatically build and run unit tests on the new code changes to find any errors instantly.
+
+* <a href="https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/" target="_blank"><b>Continuous delivery</b></a> expands upon continuous integration by deploying all the code changes to the testing environment and later to the production environment after the build stage.
 
 * <a href="https://razorops.com/blog/difference-between-continuous-integration-continuous-deployment-and-continuous-delivery/" target="_blank"><b>Continuous Deployment</b></a> is a software process that uses automated testing to confirm if changes to a core code doesn’t break the existing functionality and it is stable, for instant autonomous deployment to a production environment.
 
