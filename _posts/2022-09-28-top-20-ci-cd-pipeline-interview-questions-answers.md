@@ -118,35 +118,35 @@ In order to help you master your next interview and land your dream job, this bl
 # 5. What is test coverage?
 
 <br>
-* The percentage of the codebase that is covered by tests is known as test coverage. Every line of code is tested by at least one test case when there is 100% coverage.
+ The percentage of the codebase that is covered by tests is known as test coverage. Every line of code is tested by at least one test case when there is 100% coverage.
 
 <br>
 
 # 6. Does test coverage need to be 100%?
 
 <br>
-* No.There is a misconception that 100% coverage equates to bug-free code. No amount of testing can prove that this is false.
+ No.There is a misconception that 100% coverage equates to bug-free code. No amount of testing can prove that this is false.
 
 <br>
 
 # 7. What is meant by CI-CD?
 
 <br>
-* CI/CD is a series of steps that include all the stages from the beginning of the CI/CD process and it is responsible for creating an automated and seamless software delivery process. With a CI/CD pipeline, a software release artifact can move and progress through the pipeline right from the code check-in stage through the builds, tests, and different deployment stages.
+ CI/CD is a series of steps that include all the stages from the beginning of the CI/CD process and it is responsible for creating an automated and seamless software delivery process. With a CI/CD pipeline, a software release artifact can move and progress through the pipeline right from the code check-in stage through the builds, tests, and different deployment stages.
 
 <br>
 
 # 8. What does Containerization mean?
 
 <br>
-* Virtualization techniques like containerization have evolved as an alternative to standard hypervisor-based virtualization. Instead of being duplicated for each virtual machine, the operating system is shared throughout the several containers in containerization.
+ Virtualization techniques like containerization have evolved as an alternative to standard hypervisor-based virtualization. Instead of being duplicated for each virtual machine, the operating system is shared throughout the several containers in containerization.
 
 <br>
 
 # 9. What is a Git branch?
 
 <br>
-* A Git branch is a different line of development that is typically established to work on a feature. Branches enable developers to code independently of other team members' work.
+A Git branch is a different line of development that is typically established to work on a feature. Branches enable developers to code independently of other team members' work.
 
 <br>
 
@@ -169,7 +169,7 @@ The <a href="https://razorops.com/blog/what-is-virtualization-top-5-benefits-of-
 # 12. What is Virtualization?
 
 <br>
-* Software is used in virtualization to construct an abstract layer on top of the hardware. This produces a virtual computer system, also referred to as a virtual machine (VMs). As a result, organizations will be able to use a single physical server to operate numerous virtual computers, operating systems, and applications.
+ Software is used in virtualization to construct an abstract layer on top of the hardware. This produces a virtual computer system, also referred to as a virtual machine (VMs). As a result, organizations will be able to use a single physical server to operate numerous virtual computers, operating systems, and applications.
 
 <br>
 
@@ -213,7 +213,7 @@ A technique known as serverless conceals the existence of servers from developer
 # 18. What is a Chef?
 
 <br>
-* Chef is an effective automation software that turns infrastructure into code. Chef is a tool that allows you to create scripts for automating tasks.
+Chef is an effective automation software that turns infrastructure into code. Chef is a tool that allows you to create scripts for automating tasks.
 
 <br>
 
