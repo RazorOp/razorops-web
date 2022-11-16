@@ -64,6 +64,7 @@ https://razorops.com/case-studies/applozic/
 https://razorops.com/case-studies/72pi/
 https://razorops.com/case-studies/edtech-startup/
 https://razorops.com/case-studies/nimble-buying/
+https://razorops.com/newsletter/razorops-cicd-newsletter-31
 https://razorops.com/newsletter/razorops-cicd-newsletter-30
 https://razorops.com/newsletter/razorops-cicd-newsletter-29
 https://razorops.com/newsletter/razorops-cicd-newsletter-28

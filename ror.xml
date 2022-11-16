@@ -533,6 +533,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-31</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 31 | Razorops</title>
+     <description>An Open Source Standard For Kubernetes Cost Monitoring. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/newsletter/razorops-cicd-newsletter-30</link>
      <title>Container Native DevOps &amp;amp; CICD Newsletter 30 | Razorops</title>
      <description>Are You Following These 5 Kubernetes Best Practices? Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
