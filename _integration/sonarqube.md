@@ -7,7 +7,7 @@ description: Terraform workflow consists of writing configuration, initializing 
 permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/integration/sonarqube-logo-razorops.png"
-category: other tools
+category: test coverage report tools
 ---
 
 # Master the workflow

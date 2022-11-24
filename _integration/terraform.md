@@ -1,5 +1,5 @@
 ---
-title: terraform
+title: Terraform
 description: The track and resources in this section will help you demonstrate that
   you understand Terraform basics.
 permalink: "/integration/:title/"

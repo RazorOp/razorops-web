@@ -4177,10 +4177,28 @@ padding-left: 10px;
 
 /* ---------------- Integration page ----------------- */
 @media screen and (max-width:767px){
+	.allintegration-body .singleintegration-section .integrationtool-content{
+		box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.06);
+		border-radius: 20px;
+		background-color: #fff;
+		padding: 20px;
+		margin: 13px;
+		text-align: -webkit-center;
+	
+	}	
+	.allintegration-body .singleintegration-section .integrationtool-content .integrationtool-logo img{
+		width: 80px;
+		height: 80px;
+	}
 	.top-integration{
 		padding: 0px 55px;
 		position: relative;
 		top: -120px;
+	}
+	.allintegration-body .singleintegration-section .integrationtool-heading{
+		color: #4a4a4a;
+		font-size: 30px;
+		margin-left: 30px;
 	}
 	.integration-banner2{
 		text-align: center;
@@ -4225,6 +4243,7 @@ padding-left: 10px;
 			margin-bottom: -27px !important;
 			text-decoration: none;
 	}
+
 }
 /* @media screen and (min-width:768px) and (max-width:810px) {
 	.integration-menu{
@@ -4253,6 +4272,22 @@ padding-left: 10px;
 		color: #000;
 	
 	
+	}
+	.allintegration-body .singleintegration-section .integrationtool-content .integrationtool-logo img{
+		width: 50px;
+		height: 50px;
+	}
+	.allintegration-body .singleintegration-section .integrationtool-content{
+		box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.06);
+		border-radius: 20px;
+		background-color: #fff;
+		padding: 20px;
+		margin: 13px;
+	
+	}	
+	.allintegration-body .singleintegration-section .integrationtool-heading{
+		color: #4a4a4a;
+		font-size: 30px;
 	}
 	.integration-banner .headerright-body {
 		padding: 40px 60px !important;
@@ -4352,9 +4387,8 @@ padding-left: 10px;
 .integration-banner{
 	text-align: center;
 	position: relative;
-	  padding: 140px 200px;
-	   /* background-color:rgba(240, 238, 255, 0.8); */
-	   /* background:  linear-gradient(180deg, rgba(255, 255, 255, 0.8) -2.41%, rgba(240, 238, 255, 0.8) 42.23%); */
+	  /* padding: 140px 200px; */
+	  
 	   color: rgb(255, 255, 255);
 	   margin-top: -80px;
 	   background-size: 100% 100%;
@@ -4409,7 +4443,7 @@ padding-left: 10px;
 @media (min-width: 600px) and (max-width: 899px) {
 	.integration-banner{
 		font: message-box;
-		padding: 70px 50px 10px 50px ;
+		padding: 70px 0px 10px 0px ;
 	}
 	.integration-banner2 {
 		padding: 218px 16px;
@@ -4427,6 +4461,9 @@ padding-left: 10px;
 		font: message-box;
 		padding: 140px 60px 0px 60px;
 	}
+	.integration-banner .headerright-body {
+		padding: 40px 0px !important;
+	  }
 	.integration-banner2{
 		padding: 195px 60px;
 	}
@@ -4488,7 +4525,7 @@ padding-left: 10px;
 @media (max-width: 600px) {
 	.integration-banner{
 		font: message-box;
-		padding: 70px 20px 70px 20px;
+		padding: 70px 20px 0px 20px;
 	}
 
 }
@@ -4554,6 +4591,7 @@ html {
 .allintegration-body .singleintegration-section .integrationtool-content .integrationtool-logo{
 	padding: 6px 0px;
 }
+
 
 .integration-banner .headerright-body .moresuggest-btns .moresuggest-btn-body {
 	padding: 0px !important;
@@ -4672,7 +4710,7 @@ box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.0
 	
 	}
 	.integration-banner .headerright-body {
-		padding: 40px 0px !important;
+		padding: 0px !important;
 	  }
 	.compititors-cta {
 		padding: 20px !important;
@@ -4775,6 +4813,9 @@ box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08), 0 8px 32px 0 rgba(29, 83, 231, 0.0
 }
 
 @media screen and (min-width:768px) and (max-width:820px) {
+	.integration-menu{
+		display: none !important;
+	}
 	.competitors-banner .banner-content{
 		padding: 0px 20px;
 	}

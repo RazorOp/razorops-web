@@ -1,5 +1,5 @@
 ---
-title: gitlab
+title: Gitlab
 description: Because Terraform manages your infrastructure, it sometimes needs access
   to sensitive data. You can inject sensitive data into Terraform configuration using
   Vault. Review the following resources to learn about secure secrets injection.

@@ -1,5 +1,5 @@
 ---
-title: junit
+title: Junit
 description: What is more, developers can also examine documentation, code, and other
   artifacts from past products to gather ideas and determine how to approach technical
   problems in new projects.

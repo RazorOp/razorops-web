@@ -10,7 +10,7 @@ logo: "/images/integration/jfrog/jfrog-logo-razorops.png"
 category: container registries
 ---
 
-# Table of content 
+## Table of content 
 
 * What are Artifacts?
 * Why do we need artifacts ?
@@ -20,7 +20,7 @@ category: container registries
 
 <br>
 
-# What are Artifacts?
+## What are Artifacts?
 
 An artifact is a byproduct of software development that helps describe the architecture, design and function of software. Artifacts are like roadmaps that software developers can use to trace the entire software development process
 
@@ -75,7 +75,7 @@ Before a program is fully developed and launched, clients usually want to see a 
 
 <br>
 
-**Jfrog could account creation :**
+## Jfrog could account creation :
 
 Goto main website of jfrog ->  **https://jfrog.com/**
 
@@ -89,7 +89,7 @@ Next, signup  with your working email address
 
 <br><br>
 
-**After successful sign up login with email**
+## After successful sign up login with email
 
 <br>
 ![](/images/integration/jfrog/jfrog-login.png)
@@ -97,7 +97,7 @@ Next, signup  with your working email address
 
 <br><br>
 
-**After login we get jfrog dashboard**
+## After login we get jfrog dashboard
 
 <br>
 ![](/images/integration/jfrog/jfrog-quick-setup.png)
@@ -105,12 +105,12 @@ Next, signup  with your working email address
 
 <br><br>
 
-**Goto quick setup -> select package type**
+## Goto quick setup -> select package type
 
 **Here we choosing docker**
 
 <br>
-![](/images/integration/jfrog/jfrog-select-repository.png)
+![](/images/integration/jfrog/jfrog-select-repository.jpg)
 <br>
 
 <br><br>
@@ -140,7 +140,7 @@ Here we select **set me up** it show cli of entire process
 
 <br><br>
 
-# Integrated with Razorops :
+## Integrated with Razorops :
 **Here we login to our razorops account**
 
 <br>
@@ -152,7 +152,7 @@ Here we select **set me up** it show cli of entire process
 **Goto integrations Tab , connect  jFrog  artifact registry with  URL, USER, PASSWORD**
 
 <br>
-![](/images/integration/jfrog/razorops-private-container-registry.png)
+![](/images/integration/jfrog/razorops-private-container-registry.jpg)
 <br>
 
 <br><br>

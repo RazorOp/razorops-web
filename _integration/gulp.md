@@ -10,13 +10,13 @@ logo: "/images/integration/gulp-logo.png"
 category: build tools
 ---
 
-# What is gulp ?
+## What is gulp ?
 
 Gulp is a task runner that uses Node. js as a platform. Gulp purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications. It builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
 
 <br>
 
-# How to use GULP tool in working environment: 
+## How to use GULP tool in working environment: 
 * Install Node. js and Gulp.
 * Create a package. json and list dependencies (Gulp and plugins).
 * Install NPM modules.
@@ -28,9 +28,9 @@ Gulp is a task runner that uses Node. js as a platform. Gulp purely uses the Jav
  
 <br> 
  
-# Github repository : 
+## Github repository : 
 
-https://github.com/Razorops-code/Super-Simple-Gulp-File.git
+[https://github.com/Razorops-code/Super-Simple-Gulp-File.git](https://github.com/Razorops-code/Super-Simple-Gulp-File.git)
 
 
 ```
@@ -57,7 +57,6 @@ tasks:
     - run: gulp sass
 
 
-<script src="https://gist.github.com/Razorops-code/f79151b4f088b974b3e3dedd4b153241.js"></script>
 ```
 
 <br>
@@ -66,7 +65,7 @@ tasks:
 
 <br>
 
-# Login to razorops with github 
+## Step 1: Login to razorops with github 
  
 <br>
 ![](/images/integration/gulp/razorops-dashboard.png)
@@ -74,7 +73,7 @@ tasks:
 
 <br><br>
 
-# Connect to the github repository in workflow with select New pipeline 
+## Step 2: Connect to the github repository in workflow with select New pipeline 
 
 <br> 
 ![](/images/integration/gulp/razorops-create-new-pipeline.png)
@@ -82,7 +81,7 @@ tasks:
 
 <br><br>
  
-# Select Github 
+## Step 3: Select Github 
 
 <br> 
 ![](/images/integration/gulp/razorops-add-github.png)
@@ -90,7 +89,7 @@ tasks:
 
 <br><br>
  
-# Chose Gulp repository here select grunt-git (working repository) 
+## Step 4: Choose Gulp repository here select Super-Simple-Gulp-File (working repository) 
 
 <br> 
 ![](/images/integration/gulp/razorops-gulp-pipeline.png)
@@ -98,7 +97,7 @@ tasks:
 
 <br><br>
 
-# Select repository and confirm 
+## Step 5: Select repository and confirm 
 
 <br> 
 ![](/images/integration/gulp/razorops-select-repository.png)
@@ -106,7 +105,7 @@ tasks:
  
 <br><br>
 
-# Next we navigate to YML script block 
+## Step 6: Next we navigate to YML script block 
 
 Here we enter .razororps.yaml code and click on Run your first build 
 
@@ -116,7 +115,7 @@ Here we enter .razororps.yaml code and click on Run your first build
 
 <br><br>
 
-# Build process Running 
+## Step 7: Build process Running 
 
 <br>
 ![](/images/integration/gulp/razorops-build-process-running.png)
@@ -124,7 +123,7 @@ Here we enter .razororps.yaml code and click on Run your first build
 
 <br><br>
 
-# Build process success we can find logs in logs section
+## Step 8: Build process success we can find logs in logs section
 
 Here we mention sass task in script to create compile .css file 
 
@@ -134,6 +133,8 @@ Here we mention sass task in script to create compile .css file
 
 <br><br>
 
-# sass  starting and finishing and created dist folder with style.css 
+## Step 9: sass  starting and finishing and created dist folder with style.css 
 
-![]()
+<br>
+![](/images/integration/gulp/razorops-build-success-logs.jpeg)
+<br><br>

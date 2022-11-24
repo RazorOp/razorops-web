@@ -1,5 +1,5 @@
 ---
-title: grunt
+title: Grunt
 description: Software artifacts are typically created during the software development
   process and can refer to specific methods or processes in the software's development.
   For example, a software build contains the developer's code as well as a range of
@@ -13,7 +13,7 @@ category: build tools
 Grunt is a JavaScript based task runner which means it can automate repetitive tasks in a workflow and it can be used as a command line tool for JavaScript objects. Grunt makes the workflow as easy as writing a setup file. You can automate repetitive tasks with minimum effort.
 <br>
 
-# How to use GRUNT tool in working environment: 
+## How to use GRUNT tool in working environment: 
 * Install Node. js and Grunt.
 * Create a package. json and list dependencies (Grunt and plugins).
 * Install NPM modules.
@@ -24,9 +24,9 @@ Grunt is a JavaScript based task runner which means it can automate repetitive t
 
  same like above process we integrate  GRUNT with razorops using .razorops.yaml file 
  
- Sample App Link - Clone or Fork —---
+**Sample App Link :-** Clone or Fork -
 
-Github : https://github.com/Razorops-code/grunt-git.git
+**Github :** [https://github.com/Razorops-code/grunt-git.git](https://github.com/Razorops-code/grunt-git.git)
 
 
 <br>
@@ -58,7 +58,7 @@ tasks:
 # Grunt integration with Razorops :
 <br>
 
-# Login to razorops with github
+## Step 1: Login to razorops with github
 
 <br>
 ![](/images/integration/grunt/razorops-dashboard.png)
@@ -66,7 +66,7 @@ tasks:
 
 <br>
 		
-# Connect to the github repository in workflow with select New pipeline 
+## Step 2: Connect to the github repository in workflow with select New pipeline 
 
 <br>
 ![](/images/integration/grunt/razorops-create-new-pipeline.png)
@@ -74,7 +74,7 @@ tasks:
 
 <br>
 
-# Select Github 
+## Step 3: Select Github 
 
 <br>
 ![](/images/integration/grunt/razorops-add-new-pipeline.png)
@@ -82,7 +82,7 @@ tasks:
 
 <br>
 
-# Chose Grunt repository here select grunt-git (working repository) 
+## Step 4: Choose Grunt repository here select grunt-git (working repository) 
 
 <br>
 ![](/images/integration/grunt/razorops-grunt-pipeline.png)
@@ -90,7 +90,7 @@ tasks:
 
 <br>
 
-# Select repository and confirm 
+## Step 5: Select repository and confirm 
 
 <br>
 ![](/images/integration/grunt/razorops-select-repository.png)
@@ -98,7 +98,7 @@ tasks:
 
 <br>
 
-# Next we navigate to YML script block 
+## Step 6: Next we navigate to YML script block 
 **Here we enter .razororps.yaml code and click on Run your first build**
 
 <br>
@@ -107,7 +107,7 @@ tasks:
 
 <br>
 
-# Build process Running 
+## Step 7: Build process Running 
 
 <br>
 ![](/images/integration/grunt/razorops-build-dependencies.png)
@@ -115,7 +115,7 @@ tasks:
 
 <br>
 
-# Build process success we can find logs in logs section 
+## Step 8: Build process success we can find logs in logs section 
 
 <br>
 ![](/images/integration/grunt/razorops-build-dependencies-output.png)
@@ -128,7 +128,7 @@ Build
 Disk 
 Tmp folders  
 
-**which is compiled and build code of  node js **
+**which is compiled and build code of  node js**
 <br>
 ![](/images/integration/grunt/razorops-build-dependencies-logs.png)
 <br>

@@ -1,5 +1,5 @@
 ---
-title: bitbucket
+title: Bitbucket
 permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/integration/bitbucket-integration.png"

@@ -1,5 +1,5 @@
 ---
-title: github
+title: Github
 permalink: "/integration/:title/"
 layout: integrationtool
 logo: "/images/v2/github-black.png"

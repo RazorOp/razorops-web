@@ -1,5 +1,5 @@
 ---
-title: harbor
+title: Harbor
 description: Harbor is an open source trusted cloud native registry project that stores
   signs and scans content. Harbor extends the open source Docker Distribution by adding
   the functionalities usually required by users such as security identity and management.
@@ -15,7 +15,7 @@ Container Registry is **a single place for your team to manage Docker images, pe
 
 <br>
 
-# Prerequisites:
+## Prerequisites:
 
 **1. Harbor account** 
  
@@ -26,7 +26,7 @@ Next login to Harbor with username and password
 <br>
 ![](/images/integration/harbor/harbor-create-account.png)
 <br>
-
+<br>
 
 **2. Next we move to harbor dashboard**
 
@@ -34,10 +34,12 @@ Next login to Harbor with username and password
 ![](/images/integration/harbor/harbor-dashboard.png)
 <br>
 
-Here select **New project…** from my side am selecting **razorops**
+Here select **New Project** from my side am selecting **razorops**
 
 <br>
+<br>
 ![](/images/integration/harbor/harbor-create-new-project.png)
+<br>
 <br>
 
 **3. Enter to razorops project**
@@ -51,7 +53,7 @@ Right side corner we have push commands
 
 <br>
 
-# Adding TAG to image 
+## Adding TAG to image 
 
 **Example :**
 
@@ -67,7 +69,7 @@ example image name is spring
 <br>
 
 
-# Razorops integration :
+## Razorops integration :
 
 
 **Login to razorops with source code repository :**
@@ -75,47 +77,54 @@ example image name is spring
 <br>
 ![](/images/integration/harbor/signin-to-razorops.png)
 <br>
+<br>
+<br>
 
-
-**Here we login with github :**
+## Here we login with Github:
 
 <br>
 ![](/images/integration/harbor/razorops-login-with-github.png)
 <br>
+<br>
+<br>
 
-
-**Next go to integration section for integrate Harbor to Razorops**
+## Next go to integration section for integrate Harbor to Razorops
 
 <br>
 ![](/images/integration/harbor/razorops-integration-section.png)
 <br>
+<br>
+<br>
 
-**Next go to container registries and select self-hosted**
+## Next go to container registries and select self-hosted
 
 <br>
 ![](/images/integration/harbor/razorops-container-registry-self-hosted.png)
 <br>
+<br>
+<br>
 
-
-**Click on connect**
+## Click on connect
 
 Next you navigate to the Registry page with URL, Username, Password…. Enter the fields with Harbor URL and username password like bellow
 
 <br>
 ![](/images/integration/harbor/razorops-private-conatiner-registry.png)
 <br>
+<br>
+<br>
 
-
-**Click on save**
+## Click on save
 
 Harbor registry  was connected like below 
 
 <br>
 ![](/images/integration/harbor/harbor-registry-connected-to-razorops.png)
 <br>
+<br>
+<br>
 
-
-**Next move to workflow for razorops pipeline** 
+## Next move to workflow for razorops pipeline 
 
 Here we select create pipeline we navigate to github pipeline repo :
 
@@ -123,13 +132,17 @@ Here we select create pipeline we navigate to github pipeline repo :
 ![](/images/integration/harbor/razorops-github-pipeline-repo.png)
 <br>
 
+**Select Github**
 
-**Select github**
+<br>
+<br>
 
-**Select pipeline Repository** 
+## Select pipeline Repository
 
 <br>
 ![](/images/integration/harbor/razorops-select-pipeline-repository.png)
+<br>
+<br>
 <br>
 
 Here i am selected spring boot project repository and click on confirm 
@@ -137,10 +150,11 @@ Here i am selected spring boot project repository and click on confirm
 <br>
 ![](/images/integration/harbor/razorops-confirm-repository.png)
 <br>
+<br>
+<br>
 
 
-
-**Next navigate to pipeline create section**
+## Next navigate to pipeline create section
 
 write your pipeline here :
 
@@ -159,24 +173,26 @@ tasks:
          push: true
          tags: ["latest-v1"]
 
-Gist_code
 
-<script src="https://gist.github.com/Razorops-code/9505399cab90056329e294edbb48dbf6.js"></script>
 ```
 <br>
 ![](/images/integration/harbor/razorops-pipeline-code.png)
 <br>
+<br>
+<br>
 
 
-**Click on Run your first build** 
+## Click on Run your first build
 
 Running a build pipeline and successfully pushed to Harbor registry 
 
 <br>
 ![](/images/integration/harbor/razorops-pipeline-pushed-to-harbor-repository.png)
 <br>
+<br>
+<br>
 
-# Output logs :
+## Output logs :
 
 <br>
 ![](/images/integration/harbor/razorops-harbor-output-logs.png)
@@ -190,7 +206,8 @@ Running a build pipeline and successfully pushed to Harbor registry
 <br>
 ![](/images/integration/harbor/harbor-razorops-repo-image.png)
 <br>
-
+<br>
+<br>
 
 **Open the image in Harbor with tag latest-v1**
 
