@@ -8,7 +8,7 @@ layout: news-and-updates
 date: '2022-12-26 02:00:00'
 author: Aditi Mishra
 category: NASTech2022
-image: "/images/news-and-updates/NASTech-2022-img-1.jpg"
+image: "/images/news-and-updates/NASTech-2022-img-2.jpg"
 heading: RazorOps at NASTech 2022
 ---
 
