@@ -36,20 +36,30 @@ Overall, the use of AI in DevOps is helping companies to improve the speed and e
 # Tutorials & Guides
 
 <br>
+<ul>
+<li>
 <a href="https://www.cncf.io/certification/training/#serverless" target="_blank"><b>Introduction to Serverless on Kubernetes</b></a>
+	</li>
 <br>
-
+<li>
 <a href="https://www.cncf.io/certification/training/#security" target="_blank"><b>Kubernetes Security Essentials</b></a>
+	</li>
+</ul>
 
 <br>
 
 # Top Reading Recommendations
 
 <br>
+<ul>
+<li>
 <a href="https://thenewstack.io/how-to-build-an-api-centric-digital-architecture/" target="_blank"><b>How to Build an API-Centric Digital Architecture</b></a>
+	</li>
 <br>
-
+<li>
 <a href="https://thenewstack.io/engineering-best-practices-of-ci-pipelines/" target="_blank"><b>Engineering Best Practices of CI Pipelines</b></a>
+	</li>
+	</ul>
 
 <br>
 
