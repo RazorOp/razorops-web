@@ -44,7 +44,7 @@ Maxamtech Digital Ventures is a six-year-old India-founded company that develops
 
 Maxamtech currently operates a variety of gaming destinations for companies such as Vodafone and Glance through its proprietary Gaming 360 platform. 
 
-Read case study - <a href="https://razorops.com/case-studies/maxamtech/" target="_blank"><b>How Maxamtech Digital Ventures migrated to container native DevOps practices with the help of Razorops CI/CD.</b></a>
+Read case study - <a href="https://razorops.com/case-studies/maxamtech/" target="_blank"><b>How Maxamtech Digital Ventures migrated to container native DevOps practices with the help of RazorOps CI/CD.</b></a>
 
 
 
