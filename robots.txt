@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://razorops.com/sitemap.xml
+Sitemap: https://razorops.com/sitemap.xml
