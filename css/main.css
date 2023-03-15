@@ -610,14 +610,15 @@ th, td {
 }
 .banner-msg {
 	position: relative;
-	width: 50%;
-	float: left;
+	width: 70%;
+	/* float: left; */
 	margin-top: -45px;
 }
 .banner-msg p {
 	color: #fff;
 	font-weight: 400;
 	font-size: 20px;
+	text-align: center;
 }
 .banner-actions {
 	margin-top: 30px;
