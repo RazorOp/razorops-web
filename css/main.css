@@ -95,6 +95,17 @@ address {
   100% { background-color: #FF6600; box-shadow: 0 0 3px #FF6600; }
 }
 
+.container-center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-align{
+	display:flex;
+	align-items: center;
+}
 
 .signup-section{
 	text-align: center;
@@ -255,6 +266,9 @@ th, td {
 }
 .mt-80{
 	margin-top: 80px;
+}
+.mt-60{
+	margin-top: 60px !important;
 }
 .pr-4 {
 	padding-right: 25px !important;
@@ -1893,7 +1907,7 @@ a {
 }  
  */
 
-
+ 
   .refcard{
 	  border: 1px solid #1545b3;
 	  border-radius: 10px ;

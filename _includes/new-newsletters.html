@@ -1,7 +1,8 @@
 <div class="container container-center">
   <div class="blog-wraper2">
     <div class="blog-post">
-      {% assign blogs = site.posts %} {% for post in blogs limit:3 %}
+      {% assign newsletter = site.newsletter | reverse %} {% for post in
+      newsletter limit:3 %}
       <a href="{{ site.baseurl }}{{ post.url }}">
         <div class="col-sm-4 post-box">
           <div class="blog-content">
@@ -21,8 +22,22 @@
       {% endfor %}
     </div>
   </div>
-  <div>
-    <a class="btn btn-lg linkdin-blue full-rounded p-10" href="/blog">
+  <div class="mt-10">
+    <span class="d-inline-block">
+      <a
+        href="https://www.linkedin.com/newsletters/container-native-devops-cicd-6920671272087552000/"
+        class="btn btn-lg color-white linkdin-blue btn-linkedin full-rounded p-10"
+        target="_blank"
+        ><img
+          src="/images/v2/linkedin.svg"
+          alt="Linkedin Newsletter"
+          title="Linkedin Newsletter"
+          width="26"
+          height="26"
+        />&nbsp;Subscribe Our Newsletter</a
+      >
+    </span>
+    <a class="btn btn-lg linkdin-blue full-rounded p-10" href="/newsletter">
       Explore More</a
     >
   </div>
