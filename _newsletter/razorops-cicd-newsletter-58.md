@@ -1,11 +1,16 @@
 ---
-layout: page
-title: Unleashing the Software Superpowers DevOps, CI/CD, and Containerization
-permalink: / Today Blog/
+title: Container Native DevOps & CICD Newsletter 58
+description: Unleashing the Software Superpowers DevOps, CI/CD, and Containerization
+permalink: "/newsletter/razorops-cicd-newsletter-58"
+layout: newsletter
+date: '2023-08-02 11:00:00'
+author: Aditi Mishra
+category: devops
+image: "/images/newsletter/newsletter_58.jpg"
+heading: Unleashing the Software Superpowers DevOps, CI/CD, and Containerization
 ---
-27 July 2023 - Aditi Mishra
 
-
+<br>
 
 ![Unleashing ](/images/newsletter/newsletter_58.jpg)
 
