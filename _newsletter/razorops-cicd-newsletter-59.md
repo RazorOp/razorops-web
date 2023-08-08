@@ -53,35 +53,36 @@ Since every enterprise has a different set of processes, requirements, and frame
 
 The CI/CD trend is prominent in the software product industry because of the number of benefits associated with it, such as the following:
 
-Quality-Ensured Software
+### <b>Quality-Ensured Software</b>
 
 CI/CD lets developers handle small sets of code, which means that if bugs emerge, then they will likely be simple and can be quickly fixed. It also reduces the chances of errors reaching the production environment. In addition, automated testing with CI/CD also minimizes the chances of bugs reaching end-users. 
 
-Fail Remedy
+### <b>Fail Remedy</b>
 
 While working on new features or updates, there is always a risk of software failure. With CI/CD, software malfunctions can be found and addressed faster due to the immediate feedback process. This is why CI/CD is an ideal approach for conducting different tests, such as blue-green testing, A-B testing, etc.
 
-Productive Workforce
+### <b>Productive Workforce</b>
 
 Developers love to do coding, but they tend to like less the other, more tedious tasks. With CI/CD pipelines, processes can be automated in many stages. This allows developers to focus more on quality and creativity, thereby enabling a more productive workforce. 
 
-Faster Software Delivery
+### <b>Faster Software Delivery</b>
 
 If you’re in the software business, CI/CD sets up an effective and fast process to get your software delivery to the market ahead of your competitors, along with a better environment to quickly fix bugs and release new features. All this is done while ensuring thorough testing and quality assurance.
 
-How Automated CI/CD Pipelines helps Teams
+### <b>How Automated CI/CD Pipelines helps Teams</b>
 
 Today software firms use CI/CD pipelines as a mechanism to take the source code from the development stage to production. With automated CI/CD pipelines, developers are capable of initiating pipelines without the need for human intervention. By comparison, without automated CI/CD pipelines, you have to coordinate with other teams to set up the next environment infrastructure or execute a test suite. In short, it increases the deployment time with less iteration, impacting the efficiency of the overall operation. With automated CI/CD pipelines, developing teams are in a better position to get instant feedback, quickly identify the needed changes, and implement them in minimal time. In a nutshell, automated CI/CD pipelines turn the build, test, packaging, and deployment into a hassle-free process for developers. 
 
-Final Thoughts
+### <b>Final Thoughts</b>
 
 CI/CD pipelines have become a core part of developing infrastructure for software creators today. The productivity of developers is now often linked with the quality of CI/CD pipelines they get access to. An automated and well-formulated pipeline encourages developers to focus more on quality and adopt good DevOps practices. What’s more, effective CI/CD pipelines also ensure bug-free launches and the faster release of new features. Overall, a software producer can gain a significant competitive edge with well-designed CI/CD pipelines. 
 If you liked the newsletter content, kindly give a like, share and subscribe to the Container Native DevOps & CICD newsletter.
-
 
 <b>*Sponsored*</b>
 
 ![Logo](/images/newsletter/Razorops%20native%20container%20logo.jpg) 
 
 
-PS- We release newsletters every week,  Subscribe and share with your network. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page **[Razorops, Inc.](https://www.linkedin.com/company/razorops/)**
+PS- We release newsletters every week,  Subscribe and share with your network. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page 
+<a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
+<!-- **[Razorops, Inc.](https://www.linkedin.com/company/razorops/)** -->

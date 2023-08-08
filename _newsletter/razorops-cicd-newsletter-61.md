@@ -52,4 +52,4 @@ Those mentioned above are some basic features of DevOps services that every star
 
 ![Logo](/images/newsletter/Razorops%20native%20container%20logo.jpg) 
 
-PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page **[Razorops, Inc.](https://www.linkedin.com/company/razorops/)** 
+PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
