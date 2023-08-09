@@ -94,8 +94,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (2.2.8)
-    rack-protection (3.0.6)
-      rack
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
     rainbow (3.1.1)
     rake (13.0.6)
     rb-fsevent (0.11.2)
@@ -114,19 +114,19 @@ GEM
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.64.2)
+    sass-embedded (1.63.6)
       google-protobuf (~> 3.23)
       rake (>= 13.0.0)
-    sinatra (3.0.6)
+    sinatra (3.1.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.0.6)
+      rack-protection (= 3.1.0)
       tilt (~> 2.0)
-    sinatra-contrib (3.0.6)
+    sinatra-contrib (3.1.0)
       multi_json
       mustermann (~> 3.0)
-      rack-protection (= 3.0.6)
-      sinatra (= 3.0.6)
+      rack-protection (= 3.1.0)
+      sinatra (= 3.1.0)
       tilt (~> 2.0)
     sinatra-cross_origin (0.3.2)
     terminal-table (3.0.2)
@@ -150,7 +150,7 @@ DEPENDENCIES
   jekyll-sitemap
   json
   kramdown-parser-gfm (~> 1.1)
-  minima (~> 2.0)
+  minima
   puma
   rake
   rubocop (~> 0.58.2)
@@ -159,4 +159,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.3.13
+   2.4.15

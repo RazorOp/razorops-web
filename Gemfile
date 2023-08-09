@@ -5,7 +5,7 @@ gem "rake"
 gem "jekyll"
 gem "kramdown-parser-gfm", "~> 1.1"
 gem "jekyll-seo-tag"
-gem "minima", "~> 2.0"
+gem "minima"
 gem "puma"
 gem "rubocop", "~> 0.58.2", require: false
 gem "sinatra"
