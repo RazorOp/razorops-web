@@ -3,14 +3,14 @@ title: Container Native DevOps & CICD Newsletter 67
 description: Reduce Memory Usage of NodeJS apps inside Docker
 permalink: "/newsletter/razorops-cicd-newsletter-67"
 layout: newsletter
-date: '2023-08-08 12:00:00'
-author: Author Name
+date: '2023-08-02 09:00:00'
+author: Pooja Reddy
 category: devops
-image: "/images/newsletter/Reduce-memory-usage-nodejs-inside%20-docker.jpg"
+image: "/images/newsletter/Reduce-memory-usage-nodejs-inside-docker.jpg"
 heading: Reduce Memory Usage of NodeJS apps inside Docker
 ---
 
-![Unleashing ](/images/newsletter/Reduce-memory-usage-nodejs-inside%20-docker.jpg)
+![Unleashing ](/images/newsletter/Reduce-memory-usage-nodejs-inside-docker.jpg)
 <br>
 
 
@@ -117,7 +117,7 @@ When troubleshooting issues with Node.js applications inside Docker containers, 
 
 running Node.js applications inside Docker containers and improve the stability and performance of your application. Remember to document the troubleshooting steps and solutions for future reference and to share knowledge with your team.
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg) 
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg) 
 
 PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
  <!-- and give a FREE try to Our SaaS CICD produDevOps is a popular approach to software development that strives to promote communication between development and operation teams, while also expediting the ct. Razorops -->

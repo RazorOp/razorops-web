@@ -3,14 +3,14 @@ title: Container Native DevOps & CICD Newsletter 59
 description: CI/CD Pipelines and Software Delivery
 permalink: "/newsletter/razorops-cicd-newsletter-59"
 layout: newsletter
-date: '2023-08-06 11:00:00'
-author: Author Name
+date: '2023-06-06 09:00:00'
+author: Pooja Reddy
 category: devops
-image: "/images/newsletter/ci-cd%20pipelines%20and%20software%20delivery.jpg"
+image: "/images/newsletter/cicd-pipelines-software-delivery.jpg"
 heading: CI/CD Pipelines and Software Delivery 
 ---
 
-![](/images/newsletter/ci-cd%20pipelines%20and%20software%20delivery.jpg)
+![](/images/newsletter/cicd-pipelines-software-delivery.jpg)
 
 <br>
 Just a few years back, it was a very long brainstorming-intensive manual process to integrate and deploy code. It usually involved representatives from different teams meeting after a week, month, or quarter to integrate all the developed code, fix the issues, and deploy the merged version to the production environment. But now there are semi- or completely automated continuous integration (CI) and continuous delivery (and/or continuous deployment) (CD) systems to complete these processes in a fast, reliable, and accurate manner. In this blog, we will spotlight the CI/CD pipeline and cover all the basic details you should know.
@@ -80,7 +80,7 @@ If you liked the newsletter content, kindly give a like, share and subscribe to 
 
 <b>*Sponsored*</b>
 
-![Logo](/images/newsletter/Razorops%20native%20container%20logo.jpg) 
+![Logo](/images/newsletter/Razorops-native-container-logo.jpg) 
 
 
 PS- We release newsletters every week,  Subscribe and share with your network. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page 

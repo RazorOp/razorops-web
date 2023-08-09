@@ -3,8 +3,8 @@ title: Container Native DevOps & CICD Newsletter 58
 description: Demystifying Docker - Revolutionizing Application Deployment and Scalability
 permalink: "/newsletter/razorops-cicd-newsletter-58"
 layout: newsletter
-date: '2023-08-06 10:00:00'
-author: Author Name
+date: '2023-06-01 10:00:00'
+author: Pooja Reddy
 category: devops
 image: "/images/newsletter/docker.jpg"
 heading: Docker
@@ -66,7 +66,7 @@ If you liked the newsletter content, kindly give a like, share and subscribe to 
 
 Sponsored
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg)
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg)
 
 PS- We release newsletters every week,  Subscribe and share with your network. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page
 <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
