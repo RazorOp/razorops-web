@@ -3,8 +3,8 @@ title: Container Native DevOps & CICD Newsletter 59
 description: CI/CD Pipelines and Software Delivery
 permalink: "/newsletter/razorops-cicd-newsletter-59"
 layout: newsletter
-date: '2023-08-06 11:00:00'
-author: Author Name
+date: '2023-06-06 10:00:00'
+author: Pooja Reddy
 category: devops
 image: "/images/newsletter/ci-cd%20pipelines%20and%20software%20delivery.jpg"
 heading: CI/CD Pipelines and Software Delivery 
