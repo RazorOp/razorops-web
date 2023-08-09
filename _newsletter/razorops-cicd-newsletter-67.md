@@ -49,35 +49,35 @@ Reducing memory usage of Node.js apps inside Docker is essential for optimizing 
 
 Troubleshooting is a critical skill for developers and system administrators. When encountering issues with Node.js applications inside Docker containers,
 
-**Check Logs:** Examine application logs, both Node.js logs and Docker logs, to identify any error messages or anomalies. Use **'docker logs'** <container_name> to view the container logs.
+* **Check Logs:** Examine application logs, both Node.js logs and Docker logs, to identify any error messages or anomalies. Use **'docker logs'** <container_name> to view the container logs.
 
-**Verify Container Status:** Run **‘docker ps’** to check the status of running containers. Ensure that the Node.js container is running and hasn't exited unexpectedly.
+* **Verify Container Status:** Run **‘docker ps’** to check the status of running containers. Ensure that the Node.js container is running and hasn't exited unexpectedly.
 
-**Confirm Image and Dependency Versions:** Verify that you are using the correct Node.js version and other dependencies. Incompatibilities between Node.js versions and dependencies can cause issues.
+* **Confirm Image and Dependency Versions:** Verify that you are using the correct Node.js version and other dependencies. Incompatibilities between Node.js versions and dependencies can cause issues.
 
-**Check Port Binding:** Ensure that the Node.js app is listening on the correct port inside the container and that the port is correctly mapped when running the container. Use **‘docker-compose.yml’** or the **‘-p’** option with **‘docker run’**.
+* **Check Port Binding:** Ensure that the Node.js app is listening on the correct port inside the container and that the port is correctly mapped when running the container. Use **‘docker-compose.yml’** or the **‘-p’** option with **‘docker run’**.
 
-**Dockerfile Review:** Review your Dockerfile for errors or missing configurations. Pay attention to entry points, dependencies installation, and file copying.
+* **Dockerfile Review:** Review your Dockerfile for errors or missing configurations. Pay attention to entry points, dependencies installation, and file copying.
 
-**Resource Constraints:** Verify that the container has sufficient resources allocated. If the application requires more resources than provided, it might fail or become unresponsive.
+* **Resource Constraints:** Verify that the container has sufficient resources allocated. If the application requires more resources than provided, it might fail or become unresponsive.
 
-**Use Docker Inspect:** Utilize **‘docker inspect’** to obtain detailed information about the container, including its configuration and network settings.
+* **Use Docker Inspect:** Utilize **‘docker inspect’** to obtain detailed information about the container, including its configuration and network settings.
 
-**Check Network Connectivity:** Ensure that the Node.js app can connect to other services it depends on. For example, if it requires a database, check the database's accessibility.
+* **Check Network Connectivity:** Ensure that the Node.js app can connect to other services it depends on. For example, if it requires a database, check the database's accessibility.
 
-**Container Logs Forwarding:** If your application uses a logging library, make sure it forwards logs correctly to standard output (stdout) or standard error (stderr) streams so Docker can capture them.
+* **Container Logs Forwarding:** If your application uses a logging library, make sure it forwards logs correctly to standard output (stdout) or standard error (stderr) streams so Docker can capture them.
 
-**Test Outside the Container:** Test your Node.js app outside the container to determine if the issue is container-specific or not. Run the app locally to see if the problem persists.
+* **Test Outside the Container:** Test your Node.js app outside the container to determine if the issue is container-specific or not. Run the app locally to see if the problem persists.
 
-**Isolate Components:** If the issue seems complex, isolate different components (e.g., database, external APIs) and test them independently to identify the source of the problem.
+* **Isolate Components:** If the issue seems complex, isolate different components (e.g., database, external APIs) and test them independently to identify the source of the problem.
 
-**Update Dependencies:** Ensure that all Node.js dependencies are up to date and compatible. Outdated dependencies can introduce security vulnerabilities and other problems.
+* **Update Dependencies:** Ensure that all Node.js dependencies are up to date and compatible. Outdated dependencies can introduce security vulnerabilities and other problems.
 
-**Community Resources:** Seek help from the Node.js and Docker communities. Forums, GitHub repositories, and Q&A platforms often have solutions to common issues.
+* **Community Resources:** Seek help from the Node.js and Docker communities. Forums, GitHub repositories, and Q&A platforms often have solutions to common issues.
 
-**Enable Debugging:** Implement debugging mechanisms (e.g., logging, debugging tools) in your Node.js application to track down issues more effectively.
+* **Enable Debugging:** Implement debugging mechanisms (e.g., logging, debugging tools) in your Node.js application to track down issues more effectively.
 
-**Rebuild and Reproduce:** If you suspect a build-related issue, try rebuilding the Docker image from scratch. Reproduce the problem and see if it persists.
+* **Rebuild and Reproduce:** If you suspect a build-related issue, try rebuilding the Docker image from scratch. Reproduce the problem and see if it persists.
 
 Node.js applications running inside Docker containers and keep your system running smoothly. Remember to document the steps taken and the solutions applied for future reference.
 
@@ -85,37 +85,37 @@ Node.js applications running inside Docker containers and keep your system runni
 
 When troubleshooting issues with Node.js applications inside Docker containers, the following solutions can help resolve common problems:
 
-**Update Node.js and Dependencies:** Ensure that you are using the latest stable version of Node.js and update your project dependencies to compatible versions. Use **‘npm update’** or **‘yarn upgrade’** to update dependencies.
+* **Update Node.js and Dependencies:** Ensure that you are using the latest stable version of Node.js and update your project dependencies to compatible versions. Use **‘npm update’** or **‘yarn upgrade’** to update dependencies.
 
-**Verify Dockerfile:** Double-check your Dockerfile for errors and proper configurations. Ensure that it sets up the environment correctly, installs dependencies, and starts the Node.js application correctly.
+* **Verify Dockerfile:** Double-check your Dockerfile for errors and proper configurations. Ensure that it sets up the environment correctly, installs dependencies, and starts the Node.js application correctly.
 
-**Check Port Binding:** Make sure that the application is listening on the correct port inside the container and that the port is correctly mapped when running the container. Verify the EXPOSE instruction in the Dockerfile.
+* **Check Port Binding:** Make sure that the application is listening on the correct port inside the container and that the port is correctly mapped when running the container. Verify the EXPOSE instruction in the Dockerfile.
 
-**Resource Allocation:** Increase the allocated resources for the Docker container if the application requires more CPU or memory. Use the **‘--cpus’** and **‘--memory’** flags when running the container.
+* **Resource Allocation:** Increase the allocated resources for the Docker container if the application requires more CPU or memory. Use the **‘--cpus’** and **‘--memory’** flags when running the container.
 
-**Optimize Dockerfile:** Review the Dockerfile and optimize it for efficiency. Use multi-stage builds, minimize layers, and leverage Docker layer caching to reduce image size.
+* **Optimize Dockerfile:** Review the Dockerfile and optimize it for efficiency. Use multi-stage builds, minimize layers, and leverage Docker layer caching to reduce image size.
 
-**Review Application Logs:** Examine the Node.js application logs for error messages or warnings. Implement detailed logging to help identify the source of issues.
+* **Review Application Logs:** Examine the Node.js application logs for error messages or warnings. Implement detailed logging to help identify the source of issues.
 
-**Use Health Checks:** Implement health checks in the Node.js application to monitor its status within the container. Define a **‘HEALTHCHECK’** instruction in the Dockerfile to regularly check the application's health.
+* **Use Health Checks:** Implement health checks in the Node.js application to monitor its status within the container. Define a **‘HEALTHCHECK’** instruction in the Dockerfile to regularly check the application's health.
 
-**Container Network:** Ensure that the container has access to required networks and services. Check the Docker network configuration and verify that the Node.js app can connect to necessary resources.
+* **Container Network:** Ensure that the container has access to required networks and services. Check the Docker network configuration and verify that the Node.js app can connect to necessary resources.
 
-**External Dependencies:** Check the availability and connectivity of external dependencies, such as databases and APIs, from inside the container.
+* **External Dependencies:** Check the availability and connectivity of external dependencies, such as databases and APIs, from inside the container.
 
-**Use Docker Compose:** If your application involves multiple containers, use Docker Compose to define and manage the services. This simplifies orchestration and ensures correct network connections.
+* **Use Docker Compose:** If your application involves multiple containers, use Docker Compose to define and manage the services. This simplifies orchestration and ensures correct network connections.
 
-**Enable Debugging:** Implement debugging mechanisms, like using the **‘--inspect’** flag when starting the Node.js application, to investigate issues interactively.
+* **Enable Debugging:** Implement debugging mechanisms, like using the **‘--inspect’** flag when starting the Node.js application, to investigate issues interactively.
 
-**Graceful Shutdown:** Ensure that the Node.js app handles graceful shutdowns, allowing it to close active connections and clean up resources properly when the container is stopped.
+* **Graceful Shutdown:** Ensure that the Node.js app handles graceful shutdowns, allowing it to close active connections and clean up resources properly when the container is stopped.
 
-**Use Official Images:** When using base images, prefer official Docker images from the Node.js repository or trusted sources, as they are well-maintained and regularly updated.
+* **Use Official Images:** When using base images, prefer official Docker images from the Node.js repository or trusted sources, as they are well-maintained and regularly updated.
 
-**Security Scanning:** Perform security scans on the Docker image using tools like Clair or Docker Security Scanning to identify potential vulnerabilities.
+* **Security Scanning:** Perform security scans on the Docker image using tools like Clair or Docker Security Scanning to identify potential vulnerabilities.
 
-**Community Support:** If you encounter complex issues, seek help from the Node.js and Docker communities. Many developers have encountered similar problems and may provide valuable insights.
+* **Community Support:** If you encounter complex issues, seek help from the Node.js and Docker communities. Many developers have encountered similar problems and may provide valuable insights.
 
-running Node.js applications inside Docker containers and improve the stability and performance of your application. Remember to document the troubleshooting steps and solutions for future reference and to share knowledge with your team.
+Running Node.js applications inside Docker containers and improve the stability and performance of your application. Remember to document the troubleshooting steps and solutions for future reference and to share knowledge with your team.
 
 ![Logo](/images/newsletter/simplest-native-cicd-logo.jpg) 
 
