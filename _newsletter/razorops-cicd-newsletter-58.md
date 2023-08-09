@@ -18,11 +18,11 @@ heading: Docker
 
 In recent years, the world of software development has witnessed a remarkable transformation with the emergence of containerization. Among the numerous containerization platforms available today, Docker has emerged as the de facto standard, revolutionizing the way applications are built, shipped, and deployed. In this article, we will delve into the world of Docker, exploring its benefits, use cases, and the reasons behind its widespread adoption by developers and organizations worldwide.
 
-## <b> What is Docker ?</b>
+### <b> What is Docker ?</b>
 
 At its core, Docker is an open-source platform that allows developers to automate the deployment of applications within lightweight, portable, and isolated containers. These containers encapsulate an application along with its dependencies, enabling consistent and reliable execution across different environments. Docker provides a standardised format, known as the Docker image, which serves as a blueprint for creating containers.
 
-## <b>Benefits of Docker :</b>
+### <b>Benefits of Docker :</b>
 
 1. **Lightweight:** Docker containers are lightweight and isolated, enabling efficient resource utilization. They share the host operating system kernel, making them faster and more efficient than traditional virtual machines.
 
@@ -40,7 +40,7 @@ At its core, Docker is an open-source platform that allows developers to automat
 
 8. **Flexibility:** Docker provides a vast ecosystem of pre-built images and a wide range of tools and frameworks that can be easily integrated into containers. This flexibility allows developers to leverage existing resources, accelerate development cycles, and experiment with different technologies and setups.
 
-## <b>Use Cases of Docker :</b>
+### <b>Use Cases of Docker :</b>
 
 1. **Application Packaging and Deployment:** Docker simplifies the packaging and deployment of applications, ensuring that they run consistently across different environments. It allows developers to bundle an application, its dependencies, and the required configuration into a single container image. This image can be easily deployed on any system that supports Docker, streamlining the deployment process and reducing compatibility issues.
 
@@ -56,7 +56,7 @@ At its core, Docker is an open-source platform that allows developers to automat
 
 7. **Big Data and Analytics:** Docker can be used to simplify the deployment and management of big data and analytics frameworks. It enables the containerization of tools like Apache Hadoop, Apache Spark, and Elasticsearch, allowing organizations to easily set up and scale data processing and analytics environments. Docker's flexibility and portability make it convenient for running distributed systems and conducting data analysis across multiple nodes.
 
-## <b>Conclusion :</b>
+### <b>Conclusion :</b>
 
 Docker has revolutionized the world of software development and deployment with its containerization capabilities. It offers a wide range of benefits and is applicable to numerous use cases across industries. By leveraging Docker, organizations can achieve lightweight and efficient application deployment, ensuring consistent behavior's across different environments. Docker's portability allows for seamless deployment on various platforms, enabling hybrid and multi-cloud architectures. The scalability and isolation provided by Docker containers make it ideal for implementing microservices architectures and enabling agile development practices.
 

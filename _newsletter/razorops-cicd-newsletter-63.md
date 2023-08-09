@@ -38,7 +38,7 @@ CI/CD (Continuous Integration/Continuous Deployment) pipelines are an integral p
 
 The benefits of CI/CD pipelines from designing and implementing CI/CD workflows to optimizing testing strategies and enabling DevOps practices, Progress Professional Services can help businesses achieve faster, more reliable software development and deployment processes.
 
-## But First, What is CI/CD?
+### <b>But First, What is CI/CD?</b>
 
 * Continuous Integration (CI) is a software engineering methodology where development team members frequently integrate their various projects through automation. A software team using CI usually relies on automation tooling, which empowers teams to build, test and merge code seamlessly and without hassle.
 
@@ -52,7 +52,7 @@ The benefits of CI/CD pipelines from designing and implementing CI/CD workflows 
 
 * Every CI/CD pipeline starts with smaller phases, the first phase being continuous integration and the second one being continuous development or deployment.
 
-## How a CI/CD Pipeline Can Benefit Your DevOps Team and Organization
+### <b> How a CI/CD Pipeline Can Benefit Your DevOps Team and Organization</b>
 
 * Building and using automation ensures efficiency, speeds up build cycles and fewer humans need to be involved.
 
@@ -68,7 +68,7 @@ The benefits of CI/CD pipelines from designing and implementing CI/CD workflows 
 
 * The resulting builds can be auto-deployed to the target server as desired through a CI server.
 
-## How the RazorOps DevOps Framework Helps with CI/CD Integration
+### <b> How the RazorOps DevOps Framework Helps with CI/CD Integration</b>
 
 The RazorOps DevOps framework is designed to facilitate seamless integration of Continuous Integration/Continuous Deployment (CI/CD) processes into software development workflows. Here are some key ways in which the RazorOps DevOps framework can help with CI/CD integration
 
@@ -88,7 +88,7 @@ The RazorOps DevOps framework is designed to facilitate seamless integration of 
 
 RazorOps DevOps framework simplifies CI/CD integration by providing a comprehensive set of tools and features that streamline the entire process, from version control to testing, artefact management, deployment, and monitoring. It helps organisations achieve faster and more reliable software delivery, ensuring efficient and continuous delivery of high-quality applications.
 
-## How Progress Professional Services Assists with Your CI/CD
+### <b> How Progress Professional Services Assists with Your CI/CD</b>
 
 Progress Professional Services offers valuable assistance and expertise in implementing and optimising CI/CD (Continuous Integration/Continuous Deployment) practices within organisations. Here are two key ways in which Progress Professional Services can help with your CI/CD initiatives
 

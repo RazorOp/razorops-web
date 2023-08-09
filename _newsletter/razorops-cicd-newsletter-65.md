@@ -117,15 +117,15 @@ Security automation is crucial for identifying vulnerabilities, enforcing securi
 
 * **Security Incident Response Automation:** Automate security incident response processes to reduce response time and minimize the impact of security incidents. Implement automated incident detection and alerting mechanisms using security information and event management (SIEM) tools like Splunk, ELK Stack, or Azure Sentinel. Set up automated workflows to escalate, investigate, and respond to security incidents promptly. Automate incident communication and reporting to ensure stakeholders are informed in a timely manner.
 
-<b>Continuous Security Monitoring:</b>
+### <b>Continuous Security Monitoring:</b>
 
 Continuous security monitoring is crucial for detecting and responding to security threats in real-time. Here are three paragraphs discussing continuous security monitoring:
 
-Log Management and Analysis Automation: Automate the collection, analysis, and correlation of logs from applications and infrastructure components. Implement log management tools like ELK Stack (Elasticsearch, Logstash, Kibana), Splunk, or Sumo Logic to centralise logs and enable automated log analysis. Configure automated alerts based on predefined security event patterns or thresholds to detect and respond to security incidents.
+* **Log Management and Analysis Automation:** Automate the collection, analysis, and correlation of logs from applications and infrastructure components. Implement log management tools like ELK Stack (Elasticsearch, Logstash, Kibana), Splunk, or Sumo Logic to centralise logs and enable automated log analysis. Configure automated alerts based on predefined security event patterns or thresholds to detect and respond to security incidents.
 
- Intrusion Detection and Prevention Automation: Utilise intrusion detection and prevention systems (IDS/IPS) to automate the detection and prevention of network-based attacks. Implement tools like Snort, Suricata, or Security Onion to analyse network traffic and detect potential security breaches. Automate the response to detected threats by configuring automated blocking or containment actions.
+* **Intrusion Detection and Prevention Automation:** Utilise intrusion detection and prevention systems (IDS/IPS) to automate the detection and prevention of network-based attacks. Implement tools like Snort, Suricata, or Security Onion to analyse network traffic and detect potential security breaches. Automate the response to detected threats by configuring automated blocking or containment actions.
 
-Threat Intelligence Integration: Integrate threat intelligence feeds and automate the analysis of threat intelligence data. Leverage tools like ThreatConnect, MISP, or OpenCTI to collect and analyze threat intelligence information. Automate the correlation of threat intelligence data with security events to enhance incident detection and response capabilities.
+* **Threat Intelligence Integration:** Integrate threat intelligence feeds and automate the analysis of threat intelligence data. Leverage tools like ThreatConnect, MISP, or OpenCTI to collect and analyze threat intelligence information. Automate the correlation of threat intelligence data with security events to enhance incident detection and response capabilities.
 Backup and security automation should be tailored to your organisation's specific needs and compliance requirements. Regularly review and update your automation processes to adapt to evolving security threats and best practices.
 
 ### <b>Configuration management automatization</b>

@@ -47,7 +47,7 @@ DevOps Security is an essential aspect of modern software development practices,
 <span style="font-size: 17px;">
 continuous improvement and adaptation to evolving threats. Implementing these DevOps security best practices will help enhance your organization's security posture and enable the development of more secure and resilient applications.</span>
 
-## <b>What Is Zero Trust Security?</b>
+### <b>What Is Zero Trust Security?</b>
 
 <span style="font-size: 17px;">Zero Trust Security is an approach to cybersecurity that challenges the traditional perimeter-based security model. In a Zero Trust framework, trust is never automatically granted based on a user's location or network access. Instead, every user, device, and network resource is treated as untrusted until verified and authorized</span>
 
@@ -59,11 +59,11 @@ continuous improvement and adaptation to evolving threats. Implementing these De
 
 * <span style="font-size: 17px;">By adopting a Zero Trust Security approach, organisations can enhance their overall security posture by minimising the attack surface, detecting and mitigating potential threats quickly, and protecting critical data and resources more effectively.</span>
 
-## <b>Why Security in SDLC?</b>
+### <b>Why Security in SDLC?</b>
 <span style="font-size: 17px;">
 Security in the Software Development Life Cycle (SDLC) is crucial because it allows organisations to build and deliver secure software products and services. By integrating security practices throughout the SDLC, potential vulnerabilities and weaknesses can be identified and addressed early on, reducing the risk of security breaches and protecting sensitive data. Including security from the outset helps in designing and developing software with security in mind, rather than treating it as an afterthought. This proactive approach ensures that security controls, such as access controls, authentication mechanisms, and encryption, are implemented properly. Incorporating security into the SDLC also enables organisations to comply with industry regulations and standards, build trust with customers, and safeguard their reputation. Ultimately, security in the SDLC helps organisations create resilient and robust software solutions that are less susceptible to cyber threats and provide a secure experience for end-users.</span>
 
-## <b>Challenges of Implementing DevSecOps</b>
+### <b>Challenges of Implementing DevSecOps</b>
 <span style="font-size: 17px;">
 There are many challenges to implementing security into the DevOps workflows. Here are a few of the main ones:</span>
 
@@ -77,7 +77,7 @@ There are many challenges to implementing security into the DevOps workflows. He
 
 <span style="font-size: 18px; font-weight: bold;">Poor tool selections:</span> <span style="font-size: 17px;">Selecting inadequate tools and making poor decisions end up becoming liabilities. This can be done by making the security team a part of the design considerations, tools selection, policymaking, compliance, governance, etc.</span>
 
-## <b>Security Best Practices in SDLC<b>
+### <b>Security Best Practices in SDLC<b>
 <span style="font-size: 17px;">
 Here are some tips for implementing Zero Trust security in your DevOps pipeline:</span>
 
@@ -104,7 +104,7 @@ Here are some tips for implementing Zero Trust security in your DevOps pipeline:
 11. <span style="font-size: 16px;">Have access control policies with clear boundaries on access rights, roles, and responsibilities to clear conflict between the teams.</span>
 <br>
 
-## <b>Notable DevSecOps Strategies</b>
+### <b>Notable DevSecOps Strategies</b>
 
 <span style="font-size: 17px;">
 DevSecOps helps to address these concerns by integrating security into the development process. It also helps to secure the development environment, which is an important step in protecting against cyber attacks. We have some DevSecOps strategies listed below to tackle and mitigate security issues.</span>
