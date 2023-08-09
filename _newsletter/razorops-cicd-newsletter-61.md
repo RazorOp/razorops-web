@@ -3,14 +3,14 @@ title: Container Native DevOps & CICD Newsletter 61
 description: How do DevOps Consulting Services Boost Your Business
 permalink: "/newsletter/razorops-cicd-newsletter-61"
 layout: newsletter
-date: '2023-08-06 12:00:00'
-author: Author Name
+date: '2023-06-20 10:00:00'
+author: Pooja Reddy
 category: devops
-image: "/images/newsletter/how_do_devops%20consulting.jpg"
+image: "/images/newsletter/how-do-devops-consulting.jpg"
 heading: How do DevOps Consulting Services Boost Your Business 
 ---
 
-![](/images/newsletter/how_do_devops%20consulting.jpg)
+![](/images/newsletter/how-do-devops-consulting.jpg)
 <br>
 
 DevOps consulting services can significantly boost your business by helping you optimise your software development and IT operations processes. Here are several key benefits of engaging with DevOps consulting services
@@ -50,6 +50,6 @@ A startup business would streamline its processes to accelerate in the market an
 
 Those mentioned above are some basic features of DevOps services that every startup business needs to elevate in the market.
 
-![Logo](/images/newsletter/Razorops%20native%20container%20logo.jpg) 
+![Logo](/images/newsletter/Razorops-native-container-logo.jpg) 
 
 PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>

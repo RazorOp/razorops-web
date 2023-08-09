@@ -66,7 +66,7 @@ If you liked the newsletter content, kindly give a like, share and subscribe to 
 
 Sponsored
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg)
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg)
 
 PS- We release newsletters every week,  Subscribe and share with your network. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page
 <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>

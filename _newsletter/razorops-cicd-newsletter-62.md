@@ -3,14 +3,14 @@ title: Container Native DevOps & CICD Newsletter 62
 description: DevOps Security Best Practices
 permalink: "/newsletter/razorops-cicd-newsletter-62"
 layout: newsletter
-date: '2023-08-06 12:00:00'
-author: Author Name
+date: '2023-06-27 10:00:00'
+author: Pooja Reddy
 category: devops
-image: "/images/newsletter/security%20best%20practices%20devops.jpg"
+image: "/images/newsletter/security-best-practices-devops.jpg"
 heading: DevOps Security Best Practices 
 ---
 
-![](/images/newsletter/security%20best%20practices%20devops.jpg)
+![](/images/newsletter/security-best-practices-devops.jpg)
 <br>
 
 
@@ -130,7 +130,7 @@ However, "test smart" emphasizes efficiency and effectiveness. Testing smartly i
 
 The "test hard and test smart" approach recognizes the importance of both breadth and depth in software testing. It aims to strike a balance between comprehensive testing coverage and optimise resource utilisation. By adopting this approach, development teams can achieve robust test coverage while efficiently managing their testing efforts, leading to higher quality software releases and improved customer satisfaction.
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg) 
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg) 
 
 PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
  

@@ -3,8 +3,8 @@ title: Container Native DevOps & CICD Newsletter 65
 description: Automate DevOps - Tasks DevOps Should Automate
 permalink: "/newsletter/razorops-cicd-newsletter-65"
 layout: newsletter
-date: '2023-08-06 12:00:00'
-author: Author Name
+date: '2023-07-18 12:00:00'
+author: Pooja Reddy
 category: devops
 image: "/images/newsletter/automate-devops-tasks.jpg"
 heading: Automate DevOps - Tasks DevOps Should Automate
@@ -138,7 +138,7 @@ It also promotes better communication between development and operational teams,
 
 Companies can employ a variety of popular configuration management automation technologies, such as Ansible. This tool enables teams to automate resource deployment and scaling, as well as track and audit configuration changes.
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg)
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg)
 
 PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page 
 <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>

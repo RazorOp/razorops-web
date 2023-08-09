@@ -3,14 +3,14 @@ title: Container Native DevOps & CICD Newsletter 63
 description: The Benefits of CI/CD Pipelines and How Progress Professional Services
 permalink: "/newsletter/razorops-cicd-newsletter-63"
 layout: newsletter
-date: '2023-08-06 12:00:00'
-author: Author Name
+date: '2023-07-04 10:00:00'
+author: Pooja Reddy
 category: devops
-image: "/images/newsletter/Benifits%20of%20CICD%20pipelines%20and%20progress.jpg"
+image: "/images/newsletter/Benifits-of-CICD-pipelines-progress.jpg"
 heading: The Benefits of CI/CD Pipelines and How Progress Professional Services
 ---
 
-![](/images/newsletter/Benifits%20of%20CICD%20pipelines%20and%20progress.jpg)
+![](/images/newsletter/Benifits-of-CICD-pipelines-progress.jpg)
 <br>
 
 
@@ -98,7 +98,7 @@ Progress Professional Services offers valuable assistance and expertise in imple
 
 Progress Professional Services provides the knowledge and support required to implement CI/CD practices effectively. They assist in developing a tailored CI/CD strategy, selecting the right tools, and implementing the necessary automation and best practices to streamline your software delivery processes. Their expertise and guidance enable organisations to achieve faster time-to-market, improved software quality, and increased efficiency in the CI/CD pipeline.
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg)
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg)
 
 PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
 <!-- **[Razorops, Inc.](https://www.linkedin.com/company/razorops/)**   -->

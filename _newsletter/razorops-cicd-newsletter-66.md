@@ -3,17 +3,17 @@ title: Container Native DevOps & CICD Newsletter 66
 description: Unleashing the Software Superpowers DevOps, CI/CD, and Containerization
 permalink: "/newsletter/razorops-cicd-newsletter-66"
 layout: newsletter
-date: '2023-08-08 11:00:00'
-author: Author Name
+date: '2023-07-27 11:00:00'
+author: Pooja Reddy
 category: devops
-image: "/images/newsletter/unleashing-software-suoerpowers-devops.jpg"
+image: "/images/newsletter/unleashing-software-superpowers-devops.jpg"
 heading: Unleashing the Software Superpowers DevOps, CI/CD, and Containerization
 ---
 
 <br>
  
 
-![Unleashing ](/images/newsletter/unleashing-software-suoerpowers-devops.jpg)
+![Unleashing ](/images/newsletter/unleashing-software-superpowers-devops.jpg)
 <br>
 
 A winning trio is taking the industry by storm in the swiftly changing software development:
@@ -176,7 +176,7 @@ Containerization has ushered in a new era of software development and deployment
 
 5. **Continuous Improvement:** The combined approach encourages a culture of continuous improvement, where teams learn from failures and make iterative enhancements to both the software and the development process.
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg)  
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg)  
 
 
 PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a> 

@@ -3,14 +3,14 @@ title: Container Native DevOps & CICD Newsletter 60
 description: Unleashing The Power of DevOps Exploring the 5 Key Principles 
 permalink: "/newsletter/razorops-cicd-newsletter-60"
 layout: newsletter
-date: '2023-08-06 12:00:00'
-author: Author Name
+date: '2023-06-13 12:00:00'
+author: Pooja Reddy
 category: devops
-image: "/images/newsletter/Unleashing%20power%20oF%20DevOps.jpg"
+image: "/images/newsletter/Unleashing-power-of-DevOps.jpg"
 heading: Unleashing The Power of DevOps Exploring the 5 Key Principles 
 ---
 
-![](/images/newsletter/Unleashing%20power%20oF%20DevOps.jpg)
+![](/images/newsletter/Unleashing-power-of-DevOps.jpg)
 <br>
 
 ### <b>Unleashing The Power of DevOps Exploring the 5 Key Principles</b>
@@ -61,7 +61,7 @@ DevOps emphasizes the importance of monitoring and measuring everything in DevOp
 * With its practical guidance and emphasis on leveraging data for improvement, this article serves as an excellent resource for organizations aiming to establish robust monitoring and measurement practices within their DevOps workflows.
 <br>
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg) 
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg) 
 
 
 PS- We release newsletters every week,  Subscribe and share with your network. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page 

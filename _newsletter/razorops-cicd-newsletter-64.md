@@ -3,14 +3,14 @@ title: Container Native DevOps & CICD Newsletter 64
 description: How to Manage Integration Testing for CI/CD and DevOps
 permalink: "/newsletter/razorops-cicd-newsletter-64"
 layout: newsletter
-date: '2023-08-06 12:00:00'
-author: Author Name
+date: '2023-07-11 10:00:00'
+author: Pooja Reddy
 category: devops
-image: "/images/newsletter/manage%20integration%20testing%20for%20CICD%20and%20devops.jpg"
+image: "/images/newsletter/how-manage-integration-testing-for-CICD-devops.jpg.jpg"
 heading: How to Manage Integration Testing for CI/CD and DevOps
 ---
 
-![](/images/newsletter/manage%20integration%20testing%20for%20CICD%20and%20devops.jpg)
+![](/images/newsletter/how-manage-integration-testing-for-CICD-devops.jpg)
 <br>
 
 <font size=5><b> CI/CD</b></font>
@@ -161,6 +161,6 @@ To effectively manage integration testing in CI/CD and DevOps, consider the foll
 
 Effective management of integration testing is essential in CI/CD and DevOps environments to ensure the reliability and quality of software releases. By following best practices such as defining a clear testing strategy, leveraging test automation, using realistic test environments, and fostering collaboration, organisations can identify and address integration issues early, leading to smoother deployments and improved software quality.
 
-![Logo](/images/newsletter/simplest%20native%20cicd%20logo.jpg)
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg)
 
 PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
