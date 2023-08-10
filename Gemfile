@@ -1,16 +1,16 @@
 source "https://rubygems.org"
-# ruby '2.7.2'
 
-gem "rake"
 gem "jekyll"
-gem "kramdown-parser-gfm", "~> 1.1"
-gem "jekyll-seo-tag"
-gem "minima"
+gem "rake"
 gem "puma"
-gem "rubocop", "~> 0.58.2", require: false
 gem "sinatra"
 gem "sinatra-cross_origin", "~> 0.3.1"
+
 gem "json"
+gem "minima"
+gem "jekyll-seo-tag"
+gem "kramdown-parser-gfm", "~> 1.1"
+
 
 
 group :jekyll_plugins do
