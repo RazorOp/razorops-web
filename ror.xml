@@ -69,9 +69,41 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/news-and-updates</link>
+     <title>CICD Newsletter And Updates RazorOps | Razorops</title>
+     <description>get all the latest container-native &amp;amp; DevOps news in one place every week. Subscribe RazorOps weekly CI/CD newsletter today and stay up-to-date.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/schedule-demo</link>
      <title>Razorops Schedule Demo | Razorops</title>
      <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/case-studies/maxamtech/</link>
+     <title>CICD Tool - Razorops case study with Maxamtech | Razorops</title>
+     <description>Have a Look at How Maxamtech Digital Ventures Migrated To Container Native Devops Practices With The Help Of RazorOps CI/CD.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/case-studies/applozic/</link>
+     <title>CICD Tool - Razorops case study with Applozic | Razorops</title>
+     <description>Have a Look at Case Study how Razorops a Complete automated CICD Tool solves the Challenges faced by the Applozic.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/case-studies/72pi/</link>
+     <title>CICD Tool - Razorops case study with 72pi | Razorops</title>
+     <description>Have a look at case study how Razorops solves the challenges faced by the FinTech startup - 72pi.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -96,6 +128,30 @@
      <link>https://razorops.com/blog/top-20-ci-cd-pipeline-interview-questions-answers/</link>
      <title>Top 20 CI/CD Pipeline Interview Questions &amp;amp; Answers | Razorops</title>
      <description>Here you have the top 20 common ci/cd interview questions along with answers. Let’s have a look at it. Razorops is the one of best simplest container native cicd tools.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-68</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 68 | Razorops</title>
+     <description>The Role of Test Reporting in Continuous Testing A Comprehensive Overview</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-67</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 67 | Razorops</title>
+     <description>Reduce Memory Usage of NodeJS apps inside Docker</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-66</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 66 | Razorops</title>
+     <description>Unleashing the Software Superpowers DevOps, CI/CD, and Containerization</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -453,14 +509,6 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management-part-2/</link>
-     <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
-     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/</link>
      <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
      <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
@@ -501,22 +549,6 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/case-studies/applozic/</link>
-     <title>CICD Tool - Razorops case study with Applozic | Razorops</title>
-     <description>Have a Look at Case Study how Razorops a Complete automated CICD Tool solves the Challenges faced by the Applozic.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/case-studies/72pi/</link>
-     <title>CICD Tool - Razorops case study with 72pi | Razorops</title>
-     <description>Have a look at case study how Razorops solves the challenges faced by the FinTech startup - 72pi.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>https://razorops.com/case-studies/edtech-startup/</link>
      <title>CICD Platform - Razorops case study with Si6 | Razorops</title>
      <description>Have a Look at Case Study how Razorops a Complete automated CICD Platform solves the Challenges faced by the Si6.</description>
@@ -528,6 +560,278 @@
      <link>https://razorops.com/case-studies/nimble-buying/</link>
      <title>Razorops case study with Nimble - CI/CD Customer Stories | Razorops</title>
      <description>Lets have a look at Razorops Customer Stories - Check by integrating Razorops automate CI/CD Pipeline how Egnify solved their facing Challenges.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-65</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 65 | Razorops</title>
+     <description>Automate DevOps - Tasks DevOps Should Automate</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-64</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 64 | Razorops</title>
+     <description>How to Manage Integration Testing for CI/CD and DevOps</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-63</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 63 | Razorops</title>
+     <description>The Benefits of CI/CD Pipelines and How Progress Professional Services</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-62</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 62 | Razorops</title>
+     <description>DevOps Security Best Practices</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-61</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 61 | Razorops</title>
+     <description>How do DevOps Consulting Services Boost Your Business</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-60</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 60 | Razorops</title>
+     <description>Unleashing The Power of DevOps Exploring the 5 Key Principles</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-59</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 59 | Razorops</title>
+     <description>CI/CD Pipelines and Software Delivery</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-58</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 58 | Razorops</title>
+     <description>Demystifying Docker - Revolutionizing Application Deployment and Scalability</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-57</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 57 | Razorops</title>
+     <description>Mastering CI/CD. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-56</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 56 | Razorops</title>
+     <description>7 DevOps Trends to Watch for in 2023. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-55</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 55 | Razorops</title>
+     <description>To implement CI/CD for DevOps. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-54</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 54 | Razorops</title>
+     <description>Insights into how DevOps can improve the speed and quality of software delivery. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-53</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 53 | Razorops</title>
+     <description>Tools and technologies for automating software delivery pipelines. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-52</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 52 | Razorops</title>
+     <description>Best practices for implementing DevOps in organizations. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-51</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 51 | Razorops</title>
+     <description>Understanding DevOps: Revolutionizing Software Development and Operations. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-50</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 50 | Razorops</title>
+     <description>Managing Monitoring and Logging Challenges in Microservices Architecture: Best Practices. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-49</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 49 | Razorops</title>
+     <description>Managing Testing, Deployment, and Scaling Challenges with Microservices Architecture. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-48</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 48 | Razorops</title>
+     <description>Managing Security Challenges with Microservices Architecture. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-47</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 47 | Razorops</title>
+     <description>5 Tips for Managing Service Dependencies in Microservice Architecture. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-46</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 46 | Razorops</title>
+     <description>Best Practices and Potential Loopholes for Successful Microservices Architecture. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-45</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 45 | Razorops</title>
+     <description>Simplifying and Automating Container Management: Kubernetes For Enterprises. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-44</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 44 | Razorops</title>
+     <description>Common Cyber Threats For Container-Native Applications. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-43</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 43 | Razorops</title>
+     <description>Mastering Kubernetes On A Budget: 5 Tips To Cut Costs. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-42</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 42 | Razorops</title>
+     <description>Kubernetes Alerts Gone Wrong: How To Fix Inadequate Monitoring And Alerting? Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-41</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 41 | Razorops</title>
+     <description>Google Releases Kubernetes GitOps Observability Dashboard. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-40</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 40 | Razorops</title>
+     <description>6 Ways To Empower Developers and Increase Productivity. The goal of DevOps is to increase productivity. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-39</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 39 | Razorops</title>
+     <description>Bolster Infrastructure as Code Security. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-38</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 38 | Razorops</title>
+     <description>Unleashing The Full Potential Of DevOps With Artificial Intelligence. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-37</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 37 | Razorops</title>
+     <description>Top Stories Of 2022 From The World Of DevOps. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-36</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 36 | Razorops</title>
+     <description>The Rise of Cyber Terrorism, Hackers, and Espionage: 21st Century Tech Threat. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-35</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 35 | Razorops</title>
+     <description>GitOps Workflows Expanding Beyond Kubernetes Clusters. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-34</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 34 | Razorops</title>
+     <description>Argo Graduates From The Cloud Native Computing Foundation. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-33</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 33 | Razorops</title>
+     <description>Malicious Content Found Hidden In Over A Thousand Docker Container Images. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-32</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 32 | Razorops</title>
+     <description>Making The Most Of Kubernetes RBAC. Subscribe to get the latest updates on container-native &amp;amp; DevOps news here.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -776,6 +1080,38 @@
      <link>https://razorops.com/newsletter/razorops-cicd-newsletter-1/</link>
      <title>Container Native DevOps &amp;amp; CICD Newsletter 1 | Razorops</title>
      <description>Get the latest updates on container-native &amp;amp; DevOps news with the new Kubernetes v1.24 release and its latest features along with top picks for the week and upcoming events you don’t want to miss.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/news-and-updates/razorops-celebrates-national-startup-day-with-the-startups-from-across-telangana-at-thub/</link>
+     <title>RazorOps Celebrates National Startup Day with the startups from across Telangana at T-Hub | Razorops</title>
+     <description>RazorOps celebrates National Startup Day with T-Hub. The event’s theme was to celebrate the entrepreneurial spirit across the country.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/news-and-updates/razorops-applauds-the-success-of-our-valuable-customer-maxamtech-digital-ventures/</link>
+     <title>RazorOps Applauds The Success Of Our Valuable Customer Maxamtech Digital Ventures | Razorops</title>
+     <description>Maxamtech Digital Ventures is a six-year-old India-founded company that develops technologies and games for the mobile gaming industry.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/news-and-updates/razorops-at-nastech-2022/</link>
+     <title>RazorOps at NASTech 2022 | Razorops</title>
+     <description>The National Association of Software and Services Companies, or NASSCOM, hosted the third iteration of NASTech from December 6, 2022, to December 10, 2022, in five prestigious cities: Bangalore, Chennai, Hyderabad, Bhubaneshwar, and Kochi</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management-part-2/</link>
+     <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
