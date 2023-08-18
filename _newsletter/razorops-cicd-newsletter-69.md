@@ -3,7 +3,7 @@ title: Container Native DevOps & CICD Newsletter 69
 description: Keeping Data Secure in Cloudtech & DevOps
 permalink: "/newsletter/razorops-cicd-newsletter-69"
 layout: newsletter
-date: '2023-08-18 10:00:00'
+date: '2023-08-17 09:00:00'
 author: Pooja Reddy
 category: devops
 image: "/images/newsletter/Keeping-data-secure-cloudtech-devops.jpg"
