@@ -16,9 +16,11 @@ heading: Keeping Data Secure in Cloudtech & DevOps
 
 In the rapidly evolving landscape of technology, the integration of Cloud and DevOps has revolutionized the way businesses operate, enabling greater efficiency, scalability, and agility. However, with these advancements come heightened concerns about data security. Protecting sensitive information in the cloud and throughout the DevOps pipeline is paramount. This article delves into best practices and strategies to maintain robust data security in the realms of Cloud technology and DevOps.
 
-**<font size=4>Comprehensive Data Encryption:</font>**
+<!-- **<font size=4>Comprehensive Data Encryption:</font>** -->
+**Comprehensive Data Encryption:**
 
 Encryption is the cornerstone of data security. Ensure data is encrypted at rest and in transit. Utilize industry-standard encryption algorithms and key management practices to safeguard information from unauthorized access.
+
 
 **<font size=4>Identity and Access Management (IAM):</font>**
 
