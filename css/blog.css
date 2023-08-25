@@ -366,6 +366,9 @@
   max-width: 750px;
   margin: 0 auto 15px;
 }
+.blog-post-body strong {
+  color: black;
+}
 .doc-body iframe {
   width: 100%;
   height: 600px;
