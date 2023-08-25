@@ -18,11 +18,13 @@ In the rapidly evolving landscape of technology, the integration of Cloud and De
 <br>
 <br>
 
-**<font size=4>Comprehensive Data Encryption:</font>**
+<!-- **<font size=4>Comprehensive Data Encryption:</font>** -->
+**Comprehensive Data Encryption:**
 
 Encryption is the cornerstone of data security. Ensure data is encrypted at rest and in transit. Utilize industry-standard encryption algorithms and key management practices to safeguard information from unauthorized access.
 <br>
 <br>
+
 
 **<font size=4>Identity and Access Management (IAM):</font>**
 
