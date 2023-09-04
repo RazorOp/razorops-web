@@ -1,16 +1,15 @@
 ---
-title: Container Native DevOps & CICD Newsletter 71
-description: Streamlining Kubernetes Workflows The Power of CI/CD Integration
-permalink: "/newsletter/razorops-cicd-newsletter-71"
-layout: newsletter
-date: '2023-09-01 10:00:00'
-author: Pooja Reddy
-category: devops
-image: "/images/newsletter/streamlining-kubernetes-workflow-ci-cd.jpg"
-heading: Streamlining Kubernetes Workflows The Power of CI/CD Integration
+title: Streamlining Kubernetes Workflows The Power of CI/CD Integration
+description: How can organizations achieve optimal efficiency and reliability when streamlining their Kubernetes workflow within a CI/CD pipeline?
+permalink: "/blog/:title/"
+layout: post
+date: '2023-09-01 05:00:00'
+author: Shyam Mohan
+category: cicd
+image: "/images/blog/streamlining-kubernetes-workflow-ci-cd.jpg"
 ---
 
-![](/images/newsletter/streamlining-kubernetes-workflow-ci-cd.jpg)
+![](/images/blog/streamlining-kubernetes-workflow-ci-cd.jpg)
 <br>
 
 
