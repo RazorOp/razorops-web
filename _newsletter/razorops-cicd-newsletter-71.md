@@ -3,7 +3,7 @@ title: Container Native DevOps & CICD Newsletter 71
 description: Navigating Kubernetes CI/CD Best Practices for Effortless Deployment
 permalink: "/newsletter/razorops-cicd-newsletter-71"
 layout: newsletter
-date: '2023-09-06 09:00:00'
+date: '2023-09-05 09:00:00'
 author: Pooja Reddy
 category: devops
 image: "/images/newsletter/Navigating-Kubernetes-ci-cd.png"
