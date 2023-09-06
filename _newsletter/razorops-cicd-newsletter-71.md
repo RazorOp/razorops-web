@@ -60,23 +60,23 @@ Navigating Kubernetes CI/CD is not without its challenges:
 # Best Practices for Kubernetes CI/CD
 <br>
 
-**Infrastructure as Code (IaC):** Store Kubernetes manifests and Helm charts in version control repositories, enabling versioning, collaboration, and automated deployments.
+**1. Infrastructure as Code (IaC):** Store Kubernetes manifests and Helm charts in version control repositories, enabling versioning, collaboration, and automated deployments.
 <br>
 <br>
 
-**Immutable Deployments:** Treat Kubernetes pods as immutable. Updates should involve rolling deployments or blue-green strategies to minimize downtime.
+**2. Immutable Deployments:** Treat Kubernetes pods as immutable. Updates should involve rolling deployments or blue-green strategies to minimize downtime.
 <br>
 <br>
 
-**Automated Testing:** Implement automated testing at multiple levels (unit, integration, and end-to-end) to catch issues early and ensure consistent behavior.
+**3. Automated Testing:** Implement automated testing at multiple levels (unit, integration, and end-to-end) to catch issues early and ensure consistent behavior.
 <br>
 <br>
 
-**Security Scanning:** Integrate security scanning tools into your pipeline to identify vulnerabilities and ensure that only secure code is deployed.
+**4. Security Scanning:** Integrate security scanning tools into your pipeline to identify vulnerabilities and ensure that only secure code is deployed.
 <br>
 <br>
 
-**Monitoring and Observability:** Implement monitoring and observability solutions to gain insights into application performance and troubleshoot issues quickly.
+**5. Monitoring and Observability:** Implement monitoring and observability solutions to gain insights into application performance and troubleshoot issues quickly.
 <br>
 <br>
 
