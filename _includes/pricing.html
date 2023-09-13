@@ -1,328 +1,251 @@
-<!-- <script> 
-  $.get("https://ipinfo.io", function (response) {
-      console.log(response.ip);
-      console.log(response.country);
-      geo(response);
-  }, "jsonp");
 
-  function geo(response) {
-    console.log(response.country);
-    switch (response.country)
-    {
-      case "IN": // Redirect is visitor from Belarus
-        // document.getElementById('growth').innerHTML = '&#8377; 3600'; 
-        // document.getElementById('growth_y').innerHTML = '&#8377; 36000/year'; 
-        // document.getElementById('pro').innerHTML = '&#8377; 14500'; 
-        // document.getElementById('pro_y').innerHTML = '&#8377; 145000/year'; 
-        document.getElementById('growth').innerHTML = '$ 49'; 
-        document.getElementById('growth_y').innerHTML = '$ 499/year'; 
-        document.getElementById('pro').innerHTML = '$ 199'; 
-        document.getElementById('pro_y').innerHTML = '$ 1999/year'; 
-        break;
-      default:
-        document.getElementById('growth').innerHTML = '$ 49'; 
-        document.getElementById('growth_y').innerHTML = '$ 499/year'; 
-        document.getElementById('pro').innerHTML = '$ 199'; 
-        document.getElementById('pro_y').innerHTML = '$ 1999/year'; 
-    }
-  }
-    
-</script>  -->
+<div class="yearly-list">
+  <div class="mt-80 mb-80">
+    <section class="pricing" id="option1" >
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">BASIC</h5>
+              <h6 class="card-price text-center">FREE</span></h6>
+              <hr>
+              <ul>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1/2 vCPU @ 3.4GHz, 1GB RAM</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for individuals</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Pipelines</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Builds</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Private Docker Registry</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Concurrent pipelines</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Parallel actions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
+              </ul>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plus Tier -->
+        <div class="col-lg-3 mb-5">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">GROWTH</h5>
+
+              <h6 class="card-price text-center"> 
+                <span id="pro" style="color:green;">$539</span><br>
+              </h6>
+              <hr>
+              <ul>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>2 vCPU @ 3.4GHz, 4GB RAM</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Includes all BASIC features</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for small teams</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Docker Layer Caching</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Concurrent pipelines</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Parallel actions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
+                <li class="primary-color"><b><span class="fa-li"><i class="fas fa-check"></i></span>30 Day money back guarantee</b></li>
+              </ul>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pro Tier -->
+        <div class="col-lg-3 mb-5">
+          <div class="card top-plan">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+              <h6 class="card-price text-center">
+                <span id="pro" style="color:green;">$2189</span><br>
+              </h6>
+
+              <hr>
+              <ul>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>4 vCPU @ 3.4GHz, 8GB RAM</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Includes all GROWTH features </li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for SME teams</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Kubernetes GitOps</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Helm, Jsonnet, and Kustomize Support</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Artifactory and Reports Support</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>5 Concurrent pipelines</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>5 Parallel actions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+                <li class="primary-color"><b><span class="fa-li"><i class="fas fa-check"></i></span>30 Day money back guarantee</b></li>
+              </ul>
+              <br>
+              <br>
+              <br>
+              <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Enterprise</h5>
+              <h6 class="card-price text-center">Start POC</h6>
+              <hr>
+              <ul>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Includes all PRO features</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited data retention</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>20 concurrent builds and steps</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Behind the firewall support</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Hybrid - Run builds on your infrastructure, and the Razorops UI on our infrastructure.</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>On-premise - Run the full Razorops stack on your own infrastructure.</li>
+              </ul>
+              <br>
+              <a href="/contact" class="btn btn-block btn-primary text-uppercase">Talk to Sales</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+</div>
 
 <div class="monthly-list">
-        
-<div class="mt-80 mb-80">
-  <section class="pricing" id="option1" >
-    <div class="row">
+  <div class="mt-80 mb-80">
+    <section class="pricing" id="option1" >
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">BASIC</h5>
+              <h6 class="card-price text-center">FREE</span></h6>
+              <hr>
+              <ul>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1/2 vCPU @ 3.4GHz, 1GB RAM</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for individuals</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Pipelines</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Builds</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Private Docker Registry</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Concurrent pipelines</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Parallel actions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
+              </ul>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
+            </div>
+          </div>
+        </div>
 
-      <div class="col-lg-3">
-        <div class="card mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">BASIC</h5>
-            <h6 class="card-price text-center">FREE</span></h6>
-            <p class="discount10-yearly">2400 Builds/Year</p>
-            <h5 class="card-title text-muted text-center">3 users included</h5>
-            <hr>
-            <ul>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1/2 vCPU @ 3.4GHz, 1GB RAM</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for individuals</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Pipelines</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Builds</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Private Docker Registry</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Concurrent pipelines</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Parallel actions</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
-            </ul>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
+        <!-- Plus Tier -->
+        <div class="col-lg-3 mb-5">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">GROWTH</h5>
+              <h6 class="card-price text-center"> 
+                <span id="pro" style="color:green;">$49</span><br>
+              </h6>
+              <hr>
+              <ul>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>2 vCPU @ 3.4GHz, 4GB RAM</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Includes all BASIC features</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for small teams</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Docker Layer Caching</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Concurrent pipelines</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Parallel actions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
+                <li class="primary-color"><b><span class="fa-li"><i class="fas fa-check"></i></span>30 Day money back guarantee</b></li>
+              </ul>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pro Tier -->
+        <div class="col-lg-3 mb-5">
+          <div class="card top-plan">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+              <h6 class="card-price text-center">
+                <span id="pro" style="color:green;">$199</span><br>
+              </h6>
+              <hr>
+              <ul>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>4 vCPU @ 3.4GHz, 8GB RAM</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Includes all GROWTH features </li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for SME teams</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Kubernetes GitOps</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Helm, Jsonnet, and Kustomize Support</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Artifactory and Reports Support</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>5 Concurrent pipelines</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>5 Parallel actions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+                <li class="primary-color"><b><span class="fa-li"><i class="fas fa-check"></i></span>30 Day money back guarantee</b></li>
+              </ul>
+              <br>
+              <br>
+              <br>
+              <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Enterprise</h5>
+              <h6 class="card-price text-center">Start POC</h6>
+              <hr>
+              <ul>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Includes all PRO features</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited data retention</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>20 concurrent builds and steps</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Behind the firewall support</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Hybrid - Run builds on your infrastructure, and the Razorops UI on our infrastructure.</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>On-premise - Run the full Razorops stack on your own infrastructure.</li>
+              </ul>
+              <br>
+              <a href="/contact" class="btn btn-block btn-primary text-uppercase">Talk to Sales</a>
+            </div>
           </div>
         </div>
       </div>
-
-      <!-- Plus Tier -->
-      <div class="col-lg-3 mb-5">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">GROWTH</h5>
-
-            <h6 class="card-price text-center"> 
-              <!-- <span><del style="color: red;font-size:20px;">$ 49</del></span><br> -->
-              <span id="pro" style="color:green;">$549</span><br>
-
-              <span class="period">per Year</span></h6>
-            </h6>
-            <!-- <p class="discount10-yearly" id="growth_y">$499/year</p> -->
-            <h5 class="card-title text-muted text-center">per 10 users</h5>
-
-            <hr>
-            <ul>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>2 vCPU @ 3.4GHz, 4GB RAM</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Includes all BASIC features</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for small teams</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Docker Layer Caching</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Factor Authentication</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Concurrent pipelines</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Parallel actions</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
-              <li class="primary-color"><b><span class="fa-li"><i class="fas fa-check"></i></span>30 Day money back guarantee</b></li>
-            </ul>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pro Tier -->
-      <div class="col-lg-3 mb-5">
-        <div class="card top-plan">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-            <h6 class="card-price text-center">
-              <!-- <span><del style="color: red;font-size:20px;">$ 199</del></span><br> -->
-              <span id="pro" style="color:green;">$2149</span><br>
-              <span class="period">per Year</span>
-            </h6>
-            <!-- <p class="discount10-yearly" id="pro_y">$1999/year</p> -->
-            <h5 class="card-title text-muted text-center">per 25 users</h5>
-
-            <hr>
-            <ul>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>4 vCPU @ 3.4GHz, 8GB RAM</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Includes all GROWTH features </li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for Small Medium teams</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Kubernetes GitOps</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Helm, Jsonnet, and Kustomize Support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Artifactory and Reports Support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>5 Concurrent pipelines</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>5 Parallel actions</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-              <li class="primary-color"><b><span class="fa-li"><i class="fas fa-check"></i></span>30 Day money back guarantee</b></li>
-            </ul>
-            <br>
-            <br>
-            <br>
-            <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Enterprise -->
-      <div class="col-lg-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Enterprise</h5>
-            <h6 class="card-price text-center">Start POC</h6>
-            <p class="discount10-yearly">contact us</p>
-            <h5 class="card-title text-muted text-center">Talk to Sales</h5>
-
-            <hr>
-            <ul>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Includes all PRO features</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited data retention</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>20 concurrent builds and steps</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Behind the firewall support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Hybrid - Run builds on your infrastructure, and the Razorops UI on our infrastructure.</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>On-premise - Run the full Razorops stack on your own infrastructure.</li>
-            </ul>
-            <br>
-            <a href="/contact" class="btn btn-block btn-primary text-uppercase">Contact Us</a>
-          </div>
-        </div>
-      </div>
-
-      
-    </div>
-  </section>
-
-</div>
-
-    </div>
-
-
-
-    <div class="yearly-list">
-        
-     <div class="mt-80 mb-80">
-  <section class="pricing" id="option1" >
-    <div class="row">
-
-      <div class="col-lg-3">
-        <div class="card mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">BASIC</h5>
-            <h6 class="card-price text-center">FREE</span></h6>
-            <p class="discount10-yearly">200 Builds/Month</p>
-            <h5 class="card-title text-muted text-center">3 users included</h5>
-            <hr>
-            <ul>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1/2 vCPU @ 3.4GHz, 1GB RAM</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for individuals</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Pipelines</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Builds</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Private Docker Registry</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Concurrent pipelines</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Parallel actions</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
-            </ul>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Plus Tier -->
-      <div class="col-lg-3 mb-5">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">GROWTH</h5>
-
-            <h6 class="card-price text-center"> 
-              <!-- <span><del style="color: red;font-size:20px;">$ 49</del></span><br> -->
-              <span id="pro" style="color:green;">$49</span><br>
-
-              <span class="period">per Month</span></h6>
-            </h6>
-            <!-- <p class="discount10-yearly" id="growth_y">$499/year</p> -->
-            <h5 class="card-title text-muted text-center">per 10 users</h5>
-
-            <hr>
-            <ul>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>2 vCPU @ 3.4GHz, 4GB RAM</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Includes all BASIC features</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for small teams</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Docker Layer Caching</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Factor Authentication</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Concurrent pipelines</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>2 Parallel actions</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
-              <li class="primary-color"><b><span class="fa-li"><i class="fas fa-check"></i></span>30 Day money back guarantee</b></li>
-            </ul>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pro Tier -->
-      <div class="col-lg-3 mb-5">
-        <div class="card top-plan">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-            <h6 class="card-price text-center">
-              <!-- <span><del style="color: red;font-size:20px;">$ 199</del></span><br> -->
-              <span id="pro" style="color:green;">$199</span><br>
-              <span class="period">per Month</span>
-            </h6>
-            <!-- <p class="discount10-yearly" id="pro_y">$1999/year</p> -->
-            <h5 class="card-title text-muted text-center">per 25 users</h5>
-
-            <hr>
-            <ul>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>4 vCPU @ 3.4GHz, 8GB RAM</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Includes all GROWTH features </li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Ideal for Small Medium teams</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Kubernetes GitOps</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Helm, Jsonnet, and Kustomize Support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Artifactory and Reports Support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>5 Concurrent pipelines</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>5 Parallel actions</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-              <li class="primary-color"><b><span class="fa-li"><i class="fas fa-check"></i></span>30 Day money back guarantee</b></li>
-            </ul>
-            <br>
-            <br>
-            <br>
-            <a href="https://dashboard.razorops.com/users/sign_in" class="btn btn-block btn-primary text-uppercase">TRY IT FREE</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Enterprise -->
-      <div class="col-lg-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Enterprise</h5>
-            <h6 class="card-price text-center">Start POC</h6>
-            <p class="discount10-yearly">contact us</p>
-            <h5 class="card-title text-muted text-center">Talk to Sales</h5>
-
-            <hr>
-            <ul>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Includes all PRO features</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited data retention</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>20 concurrent builds and steps</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Behind the firewall support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Hybrid - Run builds on your infrastructure, and the Razorops UI on our infrastructure.</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>On-premise - Run the full Razorops stack on your own infrastructure.</li>
-            </ul>
-            <br>
-            <a href="/contact" class="btn btn-block btn-primary text-uppercase">Contact Us</a>
-          </div>
-        </div>
-      </div>
-
-      
-    </div>
-  </section>
-
-</div>
-
+    </section>
+  </div>
 </div>
 
 <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const checkbox = document.getElementById("status");
-            const monthlyList = document.querySelector(".monthly-list");
-            const yearlyList = document.querySelector(".yearly-list");
+  document.addEventListener("DOMContentLoaded", function () {
+      const checkbox = document.getElementById("status");
+      const monthlyList = document.querySelector(".monthly-list");
+      const yearlyList = document.querySelector(".yearly-list");
 
-            checkbox.addEventListener("change", function () {
-                if (this.checked) {
-                    monthlyList.style.display = "none";
-                    yearlyList.style.display = "block";
-                } else {
-                    monthlyList.style.display = "block";
-                    yearlyList.style.display = "none";
-                }
-            });
-        });
-    </script>
+      checkbox.addEventListener("change", function () {
+          if (this.checked) {
+              monthlyList.style.display = "none";
+              yearlyList.style.display = "block";
+          } else {
+              monthlyList.style.display = "block";
+              yearlyList.style.display = "none";
+          }
+      });
+  });
+</script>
