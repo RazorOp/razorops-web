@@ -84,5 +84,5 @@ If you liked the newsletter content, kindly give a like, share and subscribe to 
 
 
 PS- We release newsletters every week,  Subscribe and share with your network. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page 
-<a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
+<a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> <b>Razorops, Inc.</b></a>
 <!-- **[Razorops, Inc.](https://www.linkedin.com/company/razorops/)** -->

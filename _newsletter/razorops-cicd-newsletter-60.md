@@ -64,5 +64,5 @@ DevOps emphasizes the importance of monitoring and measuring everything in DevOp
 
 
 PS- We release newsletters every week,  Subscribe and share with your network. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page 
-<a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> **Razorops, Inc.**</a>
-**[Razorops, Inc.](https://www.linkedin.com/company/razorops/)**
+<a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> <b>Razorops, Inc.</b></a>
+<!-- **[Razorops, Inc.](https://www.linkedin.com/company/razorops/)** -->
