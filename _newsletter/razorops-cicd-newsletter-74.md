@@ -7,7 +7,7 @@ date: '2023-10-03 09:00:00'
 author: Pooja Reddy
 category: devops
 image: "/images/newsletter/Mastering-kubernetes-guide-seamless-ci-cd-integration.gif"
-heading: Kubernetes CI/CD Pipelines Accelerating Software Delivery
+heading: Mastering Kubernetes A Guide to Seamless CI CD Integration
 ---
 
 ![](/images/newsletter/Mastering-kubernetes-guide-seamless-ci-cd-integration.gif)
