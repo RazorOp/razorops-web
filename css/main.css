@@ -5406,6 +5406,16 @@ width: 250px !important;
 #myform .btn-razorops-new:active{
 outline: 1px solid #345EEF !important;
 }
+
+
+
+#devconform .btn-razorops-new{
+margin: 0px;
+width: 250px !important;
+}
+#devconform .btn-razorops-new:active{
+outline: 1px solid #345EEF !important;
+}
 .get-started-section .get-started-body .get-started-content .get-started-btns{
 margin-top: 40px;
 
@@ -5418,7 +5428,7 @@ padding: 10px 50px;
 
 .signup-cta-section{
 background-color: #345EEF;
-padding: 80px 0px;
+padding: 30px 0px;
 color: white;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-text .head1{
@@ -5447,7 +5457,6 @@ animation: getstartedarrow 5s infinite;
 animation-name: getstartedarrow;
 animation-duration: 4s;
 animation-delay: 2s;
-
 }
 @keyframes getstartedarrow {
 0%   { left:0px; top:0px;}
@@ -5814,3 +5823,102 @@ width: 80% !important;
 	.yearly-list {
 			display: none; 
 	}
+
+
+
+.announcement-area {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  background-color: orange;
+  width: 100%;
+  height: 25px;
+  
+  top:0;
+  text-align: center;
+  
+  margin-top: -10px !important ;
+  margin-bottom: 10px;
+}
+.announcement-area a{
+color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.announcement-area.hidden {
+  display: none;
+}
+
+
+
+
+
+.signup-cta-section-devcon{
+background-color: #345EEF ;
+padding: 30px 0px;
+color: white;
+}
+.signup-cta-section-devcon .v3signup-inner .v3signup-cta-text .head1{
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 40px;
+}
+.signup-cta-section-devcon .v3signup-inner .v3signup-cta-text .head2{
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 80px;
+}
+.signup-cta-section-devcon .v3signup-inner .v3signup-cta-arrow .cta-arrow{
+margin-top: 45px;
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 90px;
+padding: 40px 60px;
+position: relative;
+left: -100px;
+top: 0;
+animation: getstartedarrow 5s infinite;
+animation-name: getstartedarrow;
+animation-duration: 4s;
+animation-delay: 2s;
+}
+
+.signup-cta-section-devcon .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
+justify-content: center;
+align-items: center;
+padding: 12px 5px;
+width: 300px;
+margin-top: 70px;
+background: #FFFFFF;
+border-radius: 25px;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 26px;
+color: #345EEF;
+white-space:unset;
+margin-right: 10px;
+}
+
+@media screen and (max-width:767px){
+.signup-cta-section-devcon .v3signup-inner .v3signup-cta-arrow .cta-arrow{
+display: none !important;
+}
+.signup-cta-section-devcon .v3signup-inner .v3signup-cta-arrow .cta-text{
+margin-top: 35px !important;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 90px;
+}
+.signup-cta-section-devcon .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
+margin-top: 15px !important;
+margin-left: 30px !important;
+}
+/* .signup-cta-section .v3signup-inner .v3signup-ctabtn{
+text-align: center;
+} */
+}
