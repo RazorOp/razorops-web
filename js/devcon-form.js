@@ -19,7 +19,9 @@ const devconform = document.getElementById('devconform');
 
                 userPhone_no.value = userPhone_no.value.slice(0, userPhone_no.maxLength); 
                 submitBtn.innerHTML = '<i class="fa fa-circle-o-notch fa-spin"></i> Submitting...';
-                const res = await fetch("https://app.blinkcrm.in/api/leads", {
+
+                console.log("submitting")
+                const res = fetch("https://app.blinkcrm.in/api/leads", {
                 method: "POST",
                 mode: "cors",
                     headers: {
