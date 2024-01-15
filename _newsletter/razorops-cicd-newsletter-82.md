@@ -1,12 +1,13 @@
 ---
-title: Docker File Best Practices For DevOps Engineer
-description: What are the best practices for creating Dockerfiles tailored for DevOps engineers, focusing on optimizing efficiency, maintainability, and overall adherence to industry standards?
-permalink: "/blog/:title/"
-layout: post
-date: '2024-01-02 05:00:00'
-author: Shyam Mohan
-category: cicd
-image: "/images/blog/docker-file-best-practices.png"
+title: Container Native DevOps & CICD Newsletter 82
+description: Docker File Best Practices For DevOps Engineer
+permalink: "/newsletter/razorops-cicd-newsletter-82"
+layout: newsletter
+date: '2024-01-02 09:00:00'
+author: Pooja Reddy
+category: devops
+image: "/images/newsletter/docker-file-best-practices.png"
+heading: Docker File Best Practices For DevOps Engineer
 ---
 
 ![](/images/blog/docker-file-best-practices.png)
