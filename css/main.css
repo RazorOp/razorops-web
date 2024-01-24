@@ -5922,3 +5922,35 @@ margin-left: 30px !important;
 text-align: center;
 } */
 }
+
+
+.containerb {
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.half {
+flex: 1;
+border: 1px solid #000;
+}
+
+        
+.half:first-child {
+width: calc(49% - 1px);
+}
+
+.half:last-child {
+width: calc(49% - 1px);
+}
+
+ @media only screen and (max-width: 767px) {
+.half {
+flex: 100%; /* Set full width for each section on smaller screens */
+}
+}
+
+.customers-banner.mt-10.do-banner-home-pd {
+margin-top: 0;
+padding-top: 0;
+    }
