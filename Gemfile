@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem 'rack'
+gem 'rake', '~> 13.1'
 gem 'rackup' 
 gem "puma"
 gem "sinatra"
