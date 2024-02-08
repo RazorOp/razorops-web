@@ -5844,6 +5844,11 @@ width: 80% !important;
   text-decoration: none;
   font-weight: bold;
 }
+
+.announcement-area a:hover {
+	color: blue;
+  }
+
 .announcement-area.hidden {
   display: none;
 }
