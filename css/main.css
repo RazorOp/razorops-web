@@ -5846,7 +5846,7 @@ width: 80% !important;
 }
 
 .announcement-area a:hover {
-	color: blue;
+	color: blue !important;
   }
 
 .announcement-area.hidden {
