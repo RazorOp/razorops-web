@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "rake"
+gem 'rack'
+gem 'rackup' 
 gem "puma"
 gem "sinatra"
 gem "sinatra-cross_origin", "~> 0.3.1"
