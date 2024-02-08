@@ -14,13 +14,20 @@ image: "/images/blog/razorops-devops.png"
 ---
 
 ![](/images/blog/razorops-devops.png)
+<br>
 
 DevOps covers a wide range of functions. From configuration management to infrastructure to documentation to quality assurance, DevOps spans the entire software development lifecycle.
 
-[ A ](#a)    | [ B ](#b) | [ C ](#c) | [ D ](#d) | [ E ](#e) | [ F ](#f) | [ G ](#g) | [ H ](#h) | [ I ](#i) | [ J ](#j) | [ K ](#k) | [ L ](#l) | [ M ](#m) | [ N ](#n) | [ O ](#o) | [ P ](#p) | [ Q ](#q) | [ R ](#r) | [ S ](#s) | [ T ](#t) | [ U ](#u) | [ V ](#v) | [ W ](#w) | [ X ](#x) | [ Y ](#y) | [ Z ](#z) |
+<!-- [ A ](#a)    | [ B ](#b) | [ C ](#c) | [ D ](#d) | [ E ](#e) | [ F ](#f) | [ G ](#g) | [ H ](#h) | [ I ](#i) | [ J ](#j) | [ K ](#k) | [ L ](#l) | [ M ](#m) | [ N ](#n) | [ O ](#o) | [ P ](#p) | [ Q ](#q) | [ R ](#r) | [ S ](#s) | [ T ](#t) | [ U ](#u) | [ V ](#v) | [ W ](#w) | [ X ](#x) | [ Y ](#y) | [ Z ](#z) | -->
+<br>
 
+[A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
+<br>
+<br>
 
-# A
+## A {#a}
+<a name="a"></a>
+
  - Agile Organization — A flexible company capable of rapid response and adaptability to both expected and unexpected opportunities and threats.
 
  - Agile Manifesto — The formal proclamation of values and principles to guide an iterative and people-centric approach to software development.
@@ -52,8 +59,8 @@ DevOps covers a wide range of functions. From configuration management to infras
  - [Atom](https://atom.io/) - Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
  
  - [Awsbox](https://awsbox.org/) - A featherweight DYI PaaS on top of awscloud EC2 for deploying node apps.
+ <br>
  
-
 # B
 
  - Bottleneck (Lean) — A step in a process that limits the total capacity of the process or system.

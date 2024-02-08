@@ -5651,15 +5651,15 @@ color: white;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-text .head1{
 font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 49px;
+font-weight: 600;
+font-size: 29px;
+line-height: 40px;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-text .head2{
 font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 90px;
+font-weight: 600;
+font-size: 50px;
+line-height: 80px;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
 margin-top: 45px;
@@ -5921,3 +5921,35 @@ margin-left: 30px !important;
 text-align: center;
 } */
 }
+
+
+.containerb {
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.half {
+flex: 1;
+border: 1px solid #000;
+}
+
+        
+.half:first-child {
+width: calc(49% - 1px);
+}
+
+.half:last-child {
+width: calc(49% - 1px);
+}
+
+ @media only screen and (max-width: 767px) {
+.half {
+flex: 100%; /* Set full width for each section on smaller screens */
+}
+}
+
+.customers-banner.mt-10.do-banner-home-pd {
+margin-top: 0;
+padding-top: 0;
+    }
