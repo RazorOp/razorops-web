@@ -6,7 +6,56 @@ keywords: Container Native Continuous Delivery, Build, Test, Deploy, Continuous 
 canonical_url: "https://razorops.com/"
 image: /images/container-native-cicd.jpg
 ---
+<style>
+  /* Styles for the popup */
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
 
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .form-input {
+    margin-bottom: 10px;
+  }
+
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+</style>
+
+<div id="popup" class="popup">
+  <span class="close-icon" onclick="closePopup()">&times;</span>
+  <h3>Sample Popup</h3>
+  <form id="popupForm">
+    <div class="form-input">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-input">
+      <label for="mobile">Mobile Number:</label>
+      <input type="text" id="mobile" name="mobile" required>
+    </div>
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</div>
 <div class="banner" id="intro">
   <div class="container">
     <center>
@@ -181,6 +230,33 @@ image: /images/container-native-cicd.jpg
     <br />
   </div>
 </div>
+
+
+<script>
+  // Function to display the popup
+  function displayPopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block';
+  }
+
+  // Function to close the popup
+  function closePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+  }
+
+  // Set timeout to display popup after 10 seconds
+  setTimeout(displayPopup, 10000); // 10000 milliseconds = 10 seconds
+
+  // Function to handle form submission (you can modify this according to your needs)
+  document.getElementById('popupForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+    // You can add your form submission logic here, such as sending data to a server
+    // For demonstration purposes, we'll just close the popup
+    closePopup();
+  });
+</script>
+
 
 {% include testimonial.html %}
 
