@@ -10,7 +10,7 @@ image: "/images/newsletter/modernizing-applications-for-kuberenetes.gif"
 heading: Modernizing Applications for Kubernetes
 ---
 
-<img src="/images/newsletter/modernizing-applications-for-kuberenetes.gif" alt="what-is-kubernetes-pod-Qos" title="what-is-kubernetes-pod-Qos">
+<img src="/images/newsletter/modernizing-applications-for-kuberenetes.gif" alt="modernizing-applications-for-kuberenetes" title="modernizing-applications-for-kuberenetes">
 <br>
 
 Modernizing applications for Kubernetes is a crucial step for organizations looking to embrace cloud-native technologies and harness the benefits of containerization, scalability, and agility. Kubernetes has emerged as the de facto standard for container orchestration, providing a robust platform for deploying, managing, and scaling containerized applications. In this blog post, we'll explore the importance of modernizing applications for Kubernetes and outline key steps for successful migration.
@@ -37,6 +37,8 @@ Modernizing applications for Kubernetes is a crucial step for organizations look
 <br>
 
 ### **Key Steps for Modernizing Applications for Kubernetes**
+<br>
+<img src="/images/newsletter/modern-devOps-process.jpg" alt="modern-devOps-process" title="modern-devOps-process">
 <br>
 
 **Containerization:** The first step in modernizing applications for Kubernetes is containerization. This involves packaging the application and its dependencies into containers using technologies like Docker. Containerization enables greater consistency, portability, and scalability.
@@ -101,7 +103,7 @@ By extracting configuration values from your application code, and instead inges
 Now, here’s the same example with the config values externalized to the app’s running environment:
 <br>
 
-`env_config.py`
+`env_`<a href="http://config.py/" target=_blank style="text-decoration: none">config.py</a>
 
 `import os`
 
@@ -126,7 +128,7 @@ Now, here’s the same example with the config values externalized to the app’
 Before running the app, we set the necessary config variables in the local environment:
 <br>
 
-`export APP_DB_HOST=mydb.mycloud.com`
+`export APP_DB_HOST=`<a href="http://mydb.mycloud.com/" target=_blank style="text-decoration: none">mydb.mycloud.com</a>   
 
 `export APP_DB_USER=sammy`
 
@@ -169,20 +171,44 @@ Modernizing applications for Kubernetes is a strategic imperative for organizati
 <br>
 
 
-Upcoming Events
+### **Upcoming Events**
+<br>
+<a href="https://community.cncf.io/events/details/cncf-keptn-community-presents-keptn-community-meeting-apac-emea-2024-02-21/" target=_blank style="text-decoration: none"> <b>Keptn Community Meeting - APAC / EMEA</b></a>
+<br>
+Feb  21 -2:30  – 3: 15PM (PST)
+<br>
+<br>
+<a href="https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-webinar-the-business-value-of-cloud-native-cloud-native-maturity-model-30/" target=_blank style="text-decoration: none"> <b>CNCF On demand webinar: The business value of cloud native - Cloud Native Maturity Model 3.0</b></a>
+<br>
+Feb  22 - 1:30  – Feb 23 1: 30PM (PST)
+<br>
+<br>
+<a href="https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-webinar-scaling-terraform-and-opentofu-with-stack/" target=_blank style="text-decoration: none"> <b>CNCF On demand webinar: Scaling Terraform and OpenTofu with Stack</b></a>
+<br>
+Jan 22 -1:30 PM  –Jan 23 - 1: 30PM (PST)
+<br>
+<br>
 
-Keptn Community Meeting - APAC / EMEA
-| Feb  21 -2:30  – 3: 15PM (PST)
-CNCF On demand webinar: The business value of cloud native - Cloud Native Maturity Model 3.0
-| Feb  22 - 1:30  – Feb 23 1: 30PM (PST)
-CNCF On demand webinar: Scaling Terraform and OpenTofu with Stack
-| Jan 22 -1:30 PM  –Jan 23 - 1: 30PM (PST)
-DevOps Jobs
-Google - Check out all the jobs here
-Accenture - Check out all the jobs here
-Infosys - Check out all the jobs here
-Microsoft - Check out all the jobs here
+### **DevOps Jobs**
+<br>
+<a href="https://www.linkedin.com/company/google/" target=_blank style="text-decoration: none"> 
+<b>Google - </b></a> Check out all the jobs <a href="https://www.linkedin.com/jobs/search/?currentJobId=3396168535&f_C=1441&keywords=devops&refresh=true" target=_blank style="text-decoration: none"> 
+<b>here</b></a>
 
-PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page Razorops, Inc. and give a FREE try to Our SaaS CICD product Sign up for RazorOps today and embark on a journey of automation, efficiency, and innovation. Your team and your projects deserve the best CICD product.
+<a href="https://www.linkedin.com/company/accenture/" target=_blank style="text-decoration: none"> <b>Accenture -</b></a>Check out all the jobs <a href="https://www.linkedin.com/jobs/search/?currentJobId=3819921898&f_C=1033&keywords=devops&refresh=true" target=_blank style="text-decoration: none"> 
+<b>here</b></a>
+
+<a href="https://www.linkedin.com/company/infosys/" target=_blank style="text-decoration: none"> 
+<b>Infosys -</b></a>Check out all the jobs <a href="https://www.linkedin.com/jobs/search/?currentJobId=3418464712&f_C=1283&keywords=devops%20engineer&refresh=true" target=_blank style="text-decoration: none"> 
+<b>here</b></a>
+
+<a href="https://www.linkedin.com/company/microsoft/" target=_blank style="text-decoration: none"> <b>Microsoft -</b></a>Check out all the jobs <a href="https://www.linkedin.com/jobs/search/?currentJobId=3414477236&f_C=1035&keywords=devops&refresh=true" target=_blank style="text-decoration: none"> 
+<b>here</b></a>
+<br>
+<br>
+
+![Logo](/images/newsletter/simplest-native-cicd-logo.jpg)
+<br>
 
 
+PS- We publish this newsletters every week,  Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page <a href="https://www.linkedin.com/company/razorops/" target=_blank style="text-decoration: none"> <b>Razorops, Inc.</b></a>
