@@ -6,19 +6,22 @@ keywords: Container Native Continuous Delivery, Build, Test, Deploy, Continuous 
 canonical_url: "https://razorops.com/"
 image: /images/container-native-cicd.jpg
 ---
+
 <style>
-  /* Styles for the popup */
+
   .popup {
     display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    border: 2px solid #333;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #09143C; 
+    padding: 40px; 
+    border: none; 
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); 
     z-index: 9999;
+    width: 600px; 
   }
 
   .close-icon {
@@ -26,33 +29,64 @@ image: /images/container-native-cicd.jpg
     top: 10px;
     right: 10px;
     cursor: pointer;
+    color: #fff; 
+  }
+
+  h2, p {
+    color: #fff;
+    text-align: center;
   }
 
   .form-input {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .form-input input {
+    width: 100%; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #fff; 
+  }
+
+  .form-input input::placeholder {
+    
+    color: #ccc;
   }
 
   .submit-btn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
     cursor: pointer;
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+  }
+
+  .submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
   }
 </style>
 
 <div id="popup" class="popup">
   <span class="close-icon" onclick="closePopup()">&times;</span>
-  <h3>Sample Popup</h3>
+  <h2>Try Our Software Demo for Free!</h2>
+  <p> Sign up for a free demo by entering your details below.</p>
+  <br>
   <form id="popupForm">
     <div class="form-input">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="name" placeholder="Name" required>
     </div>
     <div class="form-input">
-      <label for="mobile">Mobile Number:</label>
-      <input type="text" id="mobile" name="mobile" required>
+  
+      <input type="text" id="mobile" name="mobile" placeholder="Mobile Number" required>
     </div>
+    <div class="form-input">
+  
+      <input type="text" id="code" name="code" placeholder="Company/Organization Name" required>
+    </div>
+
     <button type="submit" class="submit-btn">Submit</button>
   </form>
 </div>
