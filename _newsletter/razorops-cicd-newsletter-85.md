@@ -151,17 +151,6 @@ Modernizing applications for Kubernetes is a strategic imperative for organizati
 <br>
 
 
-
-### **Tutorials & Guides**
-<br>
-<a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target=_blank style="text-decoration: none;"> <b>Kubernetes Basics</b></a>
-
-<a href="https://kubernetesbestpractices.com/" target=_blank style="text-decoration: none;"> <b>Kubernetes Best Practices</b></a>
-
-<a href="https://kube.academy/" target=_blank style="text-decoration: none;"> <b>KubeAcademy</b></a>
-<br>
-<br>
-
 ### **Top Reading Recommendations**
 <br>
 <a href="https://www.cncf.io/kubeweekly/" target=_blank style="text-decoration: none;"> <b>KubeWeekly Archive</b></a>
