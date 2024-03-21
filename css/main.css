@@ -160,7 +160,17 @@ border-color: #1835cd;
 .btn {
 -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.15);
 		box-shadow: 0 2px 2px rgba(0,0,0,.15);
+		text-decoration: none;
+
 }
+a{
+	text-decoration: none !important;
+}
+
+.text-white{
+	color: white !important;
+}
+
 .rounded{
 border-radius: 200px;
 }
