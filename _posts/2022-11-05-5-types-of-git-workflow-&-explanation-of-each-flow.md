@@ -3,7 +3,6 @@ title: 5 Types of Git WorkFlow & Explanation of each Flow
 description: Introduction about Git WorkFlow & Types of git workflows - Basic, Feature
   Branches, Git Flow, Feature Branches and Merge requests, Forking workflow & their
   explanations.
-keywords: git
 permalink: "/blog/:title/"
 layout: post
 date: '2022-11-05 03:50:00'
@@ -108,3 +107,5 @@ When a developer needs to make a change to an open-source project, they don't wo
 
 ![](/images/blog//git-work-flow.gif)
 
+<br>
+Tags: razorops, git flows types, different git flows, git flow types, git workflow types,	types of git, cicd interview questions, different git workflows, git types, git workflows types

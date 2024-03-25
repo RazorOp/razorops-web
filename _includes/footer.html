@@ -1,3 +1,6 @@
+{% include signup_cta.html %}
+
+
 <!-- Footer -->
 <div class="footer footer--dark">
   <div class="container">
@@ -224,41 +227,24 @@
 
 {% include third-party-js.html %}
 
+
+<!---------------CTA---------------/>
+
 <script>
-  // Function to show the modal after 5 seconds, only once per user session
   function showModalOnce() {
       var lastShown = localStorage.getItem('modalLastShown');
       if (!lastShown || (Date.now() - parseInt(lastShown)) > (4 * 60 * 60 * 1000)) {
-          // Show the modal
           $('#ctaModal').modal('show');
-          
-          // Set flag in localStorage to indicate modal has been shown
           localStorage.setItem('modalLastShown', Date.now());
       }
   }
-
-  // Call the function to show the modal after a 5-second delay
   setTimeout(showModalOnce, 5000);
-
-
 </script>
 
 <!-- <script>
-  // Flag to track whether the modal has been shown
-  var modalShown = false;
-
-  // Function to show the modal after 5 seconds
   function showModalAfterDelay() {
-      if (!modalShown) {
-          // Show the modal
-          $('#ctaModal').modal('show');
-          
-          // Set modalShown flag to true to ensure it only runs once
-          modalShown = true;
-      }
-  }
-
-  // Call the function to show the modal after a 5-second delay
+      $('#ctaModal').modal('show');
+    }
   setTimeout(showModalAfterDelay, 5000);
 </script> -->
 
@@ -280,7 +266,7 @@
           <h3>Try our SaaS solution today!</h3>
           <br>
           <!-- <img src="/images/together.svg" height="300px">   -->
-          <img src="/images/undraw_elements.svg" height="350px">  
+          <img src="/images/undraw_elements.svg" width="350">  
           <br><br><br>
           <div class="btn-primary btn btn-lg full-rounded"><a href="https://dashboard.razorops.com/users/sign_up" class="text-white">Sign Up</a></div>
           <div class="btn-animated btn btn-lg full-rounded"><a href="/schedule-demo" class="text-white">Schedule a Demo</a></div>
@@ -292,23 +278,22 @@
 </div>
 
 
+<!-- <script>
+  function showModalAfterDelay() {
+      $('#azureModal').modal('show');
+    }
+  setTimeout(showModalAfterDelay, 5000);
+</script> -->
+
 <script>
-  // Function to show the modal after 5 seconds, only once per user session
   function showModalOnce() {
       var lastShown = localStorage.getItem('azureModal');
       if (!lastShown || (Date.now() - parseInt(lastShown)) > (4 * 60 * 60 * 1000)) {
-          // Show the modal
           $('#azureModal').modal('show');
-          
-          // Set flag in localStorage to indicate modal has been shown
           localStorage.setItem('azureModal', Date.now());
       }
   }
-
-  // Call the function to show the modal after a 5-second delay
-  setTimeout(showModalOnce, 10000);
-
-
+  setTimeout(showModalOnce, 30000);
 </script>
 
 <!-- Modal -->
@@ -320,13 +305,14 @@
   tabindex="-1"
   aria-labelledby="staticBackdropLabel"
   aria-hidden="true"
+  style="padding-left: 0px !important;"
 >
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-body">
+      <div class="modal-body" style="position: relative;padding: 0px !important;margin-top: -20px;">
         <center>
           <br>
-          <img src="/images/razorops-azure.png" height="480px">  
+          <img src="/images/razorops-azure.png" width="100%">  
           <br><br><br>
           <div class="btn-primary btn btn-lg full-rounded"><a href="/try-razorops-cicd-with-microsoft-azure-kubernetes/" class="text-white">Apply Here</a></div>
           <div class="btn-animated btn btn-lg full-rounded"><a href="/schedule-demo" class="text-white">Schedule a Demo</a></div>
