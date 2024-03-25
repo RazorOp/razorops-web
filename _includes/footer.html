@@ -201,7 +201,7 @@
 {% include third-party-js.html %}
 
 
-<!---------------CTA---------------/>
+<!---------------CTA--------------->
 
 <script>
   function showModalOnce() {
@@ -256,7 +256,7 @@
 <script>
   function showModalOnce() {
     var lastShown = localStorage.getItem('azureModal');
-    if (!lastShown || (Date.now() - parseInt(lastShown)) > (4 * 60 * 60 * 1000)) {
+    if (!lastShown || (Date.now() - parseInt(lastShown)) > (14 * 60 * 60 * 1000)) {
       $('#azureModal').modal('show');
       localStorage.setItem('azureModal', Date.now());
     }
