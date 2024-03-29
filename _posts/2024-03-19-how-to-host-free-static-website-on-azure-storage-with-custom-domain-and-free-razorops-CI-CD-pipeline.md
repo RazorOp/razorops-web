@@ -1,15 +1,15 @@
 ---
-title: How to host FREE Static Website on Azure Storage with custom domain and FREE Razorops CI/CD Pipeline
-description: 
+title: 
+description: How to Set up azure storage account and setting up CI/CD with Razorops for automatic static website deployment?
 permalink: "/blog/:title/"
 layout: post
 date: '2024-03-20 05:00:00'
 author: Shyam Mohan
 category: DevOps
-image: "/images/blog/streamlining-deployment-pipelines-with-devops.png"
+image: "/images/blog/How-to-Host-a-Static-Website-on-Azure-Storage-razorops-with-custom-domain-and-Razorops-CICD-Pipeline.png"
 ---
 
-<img src="/images/blog/streamlining-deployment-pipelines-with-devops.png" alt="streamlining-deployment-pipelines-with-devops" title="streamlining-deployment-pipelines-with-devops">
+<img src="/images/blog/How-to-Host-a-Static-Website-on-Azure-Storage-razorops-with-custom-domain-and-Razorops-CICD-Pipeline.png" alt="How-to-Host-a-Static-Website-on-Azure-Storage-razorops-with-custom-domain-and-Razorops-CICD-Pipeline" title="How-to-Host-a-Static-Website-on-Azure-Storage-razorops-with-custom-domain-and-Razorops-CICD-Pipeline">
 <br>
 <br>
 
@@ -83,9 +83,11 @@ In this tutorial, we go through the step by step procedure of hosting a static w
 1. Navigate to the Azure Portal.
 
 2. Sign in with your Azure account.
-
 <br>
+<br>
+
 <img src="/images/blog/How-to-create-azure-storage-account.png" alt="How-to-create-azure-storage-account" title="How-to-create-azure-storage-account">
+<br>
 <br>
 
 
@@ -229,10 +231,9 @@ Go to the storage account and click on containers, where you can find **$web.** 
 <br>
 <br>
 
-
-
-
-
+<img src="/images/blog/Razorops-ci-cd-static-website.png" alt="Razorops-ci-cd-static-website" title="Razorops-ci-cd-static-website">
+<br>
+<br>
 
 
 ### **Part 2: Configuring a FREE Custom Domain and Enabling HTTPS with Azure CDN**
@@ -291,16 +292,25 @@ Now that you have set up your CDN endpoint, it's time to map your custom domain 
 
 <img src="/images/blog/how-to-login-to-cloudfare.png" alt="how-to-login-to-cloudfare" title="how-to-login-to-cloudfare">
 <br>
+<br>
 
-Select Type as CNAME, enter required name for your website(Example static website), In Target copy and enter the endpoint url provided in domain section of azure as provided in below image
-<br>
-<br>
 
 <img src="/images/blog/Map-the-custom-domain-to-the-CDN-endpoint-using-CNAME-records.png" alt="Map-the-custom-domain-to-the-CDN-endpoint-using-CNAME-records" title="Map-the-custom-domain-to-the-CDN-endpoint-using-CNAME-records">
 <br>
 <br>
 
+
+Select Type as CNAME, enter required name for your website(Example static website), In Target copy and enter the endpoint url provided in domain section of azure as provided in below image
+<br>
+<br>
+
 <img src="/images/blog/How-to-map-the-custom-domain-to-the-CDN-endpoint-using-CNAME-records.png" alt="How-to-map-custom-domain-to-the-CDN-endpoint-using-CNAME-records" title="How-to-map-custom-domain-to-the-CDN-endpoint-using-CNAME-records">
+<br>
+<br>
+<br>
+
+
+<img src="/images/blog/How-to-map-custom-domain-to-the-CDN-endpoint-using-CNAME-records.png" alt="How-to-map-custom-domain-to-the-CDN-endpoint-using-CNAME-records" title="How-to-map-custom-domain-to-the-CDN-endpoint-using-CNAME-records">
 <br>
 <br>
 
@@ -316,15 +326,12 @@ Select Type as CNAME, enter required name for your website(Example static websit
 <br>
 <br>
 
-<img src="/images/blog/How-to-configure-the-custom-domain-and-enable-HTTPS.png" alt="How-to-configure-the-custom-domain-and-enable-HTTPS" title="How-to-configure-the-custom-domain-and-enable-HTTPS">
-<br>
-<br>
-
-<img src="/images/blog/How-to-map-custom-domain-to-the-CDN-endpoint-using-CNAME-records.png" alt="How-to-map-custom-domain-to-the-CDN-endpoint-using-CNAME-records" title="How-to-map-custom-domain-to-the-CDN-endpoint-using-CNAME-records">
-<br>
-<br>
 
 <img src="/images/blog/How-to-configure-custom-domain-and-enable-HTTPS.png" alt="How-to-configure-the-custom-domain-and-enable-HTTPS" title="How-to-configure-the-custom-domain-and-enable-HTTPS">
+<br>
+<br>
+
+<img src="/images/blog/How-to-configure-the-custom-domain-and-enable-HTTPS.png" alt="How-to-configure-the-custom-domain-and-enable-HTTPS" title="How-to-configure-the-custom-domain-and-enable-HTTPS">
 <br>
 <br>
 
@@ -387,82 +394,159 @@ Replace `<appId>, <password>,` and `<tenantId>` with the actual values obtained 
 <br>
 
 After running this command, you should be authenticated to Azure using the specified service principal, and you can proceed with managing resources using the Azure CLI.
+<br>
+<br>
 
+<img src="/images/blog/how-to-create-service-principal-in-azure-cli.png" alt="how-to-create-service-principal-in-azure-cli" title="how-to-create-service-principal-in-azure-cli">
+<br>
+<br>
 
+**Step 2: Setup the Razorops pipeline**
+<br>
 
+**How to Setup the Razorops pipeline**
+<br>
 
-Step 2: Setup the Razorops pipeline
-How to Setup the Razorops pipeline
-Create new account with RazorOps CICD
-Create New WorkFlow/Pipeline form Dashboard
-Add .razorops.yaml file in your static website root folder
+1. Create new account with RazorOps CICD
+
+2. Create New WorkFlow/Pipeline form Dashboard
+
+3. Add .razorops.yaml file in your static website root folder
+<br>
+<br>
 
 Signup with your preferred Source code management platform like Github, Bitbucket or Gitlab.
-https://razorops.com/ 
+<a href="https://razorops.com/" target=_blank style="text-decoration: none"> <b>https://razorops.com/</b></a>
+ 
+<br>
+<br>
 
 
+<img src="/images/blog/how-to-signup-to-razorops.png" alt="how-to-signup-to-razorops" title="how-to-signup-to-razorops">
+<br>
+<br>
 
 Let's say you are using github to sign up, after signup you will be land to Razorops dashboard 
+<br>
+<br>
+
+
+<img src="/images/blog/How-to-create pipeline-on razorops.png" alt="How-to-create pipeline-on razorops" title="How-to-create pipeline-on razorops">
+<br>
+<br>
 
 
 
 
-2. Create your first pipeline
+**2. Create your first pipeline**
+<br>
+
+
+<img src="/images/blog/how-to-add-new-pipeline-in-razorops.png" alt="how-to-add-new-pipeline-in-razorops" title="how-to-add-new-pipeline-in-razorops">
+<br>
+<br>
+
 
 
 
 Select GITHUB to create your first pipeline 
+<br>
+<br>
 
 
+<img src="/images/blog/how-to-select-repository-for-pipeline-in-razorops.png" alt="how-to-select-repository-for-pipeline-in-razorops" title="how-to-select-repository-for-pipeline-in-razorops">
+<br>
+<br>
+
+<img src="/images/blog/how-to-select-repository-for-pipeline-razorops.png" alt="how-to-select-repository-for-pipeline-in-razorops" title="how-to-select-repository-for-pipeline-in-razorops">
+<br>
+<br>
+
+<img src="/images/blog/how-to-check-workflow-razorops.png" alt="How-to-add-variables-in-razorops" title="How-to-add-variables-in-razorops">
+<br>
+<br>
+
+<img src="/images/blog/How-to-add-variables-in-razorops.png" alt="How-to-add-variables-in-razorops" title="How-to-add-variables-in-razorops">
+<br>
+<br>
 
 
+Follow the documents to write CI/CD razorops.yaml file to store files in azure storage account
+<a href="https://docs.razorops.com/" target=_blank style="text-decoration: none"> <b>https://docs.razorops.com/</b></a>
 
-
-
-
-
-
-
-
-Follow the documents to write CI/CD razorops.yaml file to store files in azure storage account 
-https://docs.razorops.com/
 
 .razorops.yaml
 
-global:
-  runner:
-    os_image: ubuntu
+`global:`
 
-tasks:
-  deploy-to-dev:
-    steps:
-      - checkout
-      - commands:
-          #access variables from environment variables of razorops pipeline
-          - az login --service-principal -u $APP_ID -p $PASS --tenant $TENANT
-          - az storage blob upload-batch -s . -d '$web' --account-name razorops --overwrite true
+  `runner:`
+
+  `os_image: ubuntu`
+
+
+`tasks:`
+
+  `deploy-to-dev:`
+
+   `steps:`
+
+   `- checkout`
+
+   `- commands:`
+
+  `#access variables from environment variables of razorops pipeline`
+
+  `- az login --service-principal -u $APP_ID -p $PASS --tenant $TENANT`
+
+  `- az storage blob upload-batch -s . -d '$web' --account-name razorops --overwrite true`
+
+  `--overwrite true`
+  <br>
+  <br>
  
-Use Razorops Variables to securely store the deployment credentials
-Login to Razorops and integrate pipeline using github repo
-Add variables as shown in below image
-https://dashboard.razorops.com/
+### **Use Razorops Variables to securely store the deployment credentials**
+<br>
+
+1. Login to Razorops and integrate pipeline using github repo
+
+2. Add variables as shown in below image
+
+<a href="https://dashboard.razorops.com/users/sign_in" target=_blank style="text-decoration: none"> <b>https://dashboard.razorops.com/</b></a>
+ <br>
+<br>
 
 
 To build the pipeline select on workflows and click on the new pipeline. Click on github and select the repository.  pipeline get automatically build and deploy the jobs or task mentioned in razorops.yaml file
+<br>
+<br>
 
 
+<img src="/images/blog/Razorops-CICD-workflow.png" alt="Razorops-CICD-workflow" title="Razorops-CICD-workflow">
+<br>
+<br>
 
 
-
+<img src="/images/blog/how-to-check-workflow-in-razorops.png" alt="how-to-check-workflow-in-razorops" title="how-to-check-workflow-in-razorops">
+<br>
+<br>
 
 While, pipeline succeeded, go to azure website and can check files uploaded through Razorops in containers of azure storage account. as show below
+<br>
+<br>
 
+<img src="/images/blog/How-t-access-container-in-azure.png" alt="How-to-access-container-in-azure" title="How-to-access-container-in-azure">
+<br>
+<br>
 
 
 
 You can check following github repository for static website code through this link- https://github.com/kshyam/static-website
+<br>
+<br>
 
 
-Conclusion:
+**Conclusion:**
+<br>
+
 Hosting a static website on Azure Storage with a CI/CD pipeline is a straightforward process that brings several advantages. 
 By following these best practices, you can create a reliable and efficient static website infrastructure on Azure. This approach not only simplifies the hosting process but also sets the foundation for scalability and automation, enabling you to focus on creating and delivering content without worrying about infrastructure complexities.
