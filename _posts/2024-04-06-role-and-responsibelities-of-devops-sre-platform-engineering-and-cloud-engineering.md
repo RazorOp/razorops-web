@@ -1,8 +1,15 @@
 ---
+layout: blog
+author: Shyam Mohan
+thumbnail: /images/devops-sre-platform-engineering-cloud-engineering.png
 title: Role and responsibelities of DevOps, SRE, Platform Engineering, and Cloud
   Engineering
-date: 2024-04-08T04:01:00.000Z
-thumbnail: /images/devops-sre-platform-engineering-cloud-engineering.png
+description: " between these roles, each plays a distinct and crucial part in
+  building and maintaining reliable, scalable, and efficient software systems in
+  modern IT environments"
+category: DevOps
+date: 2024-04-05T09:31:00.000Z
+image: /images/devops-sre-platform-engineering-cloud-engineering.png
 ---
 
 <img src="{{ post.image }}" />
