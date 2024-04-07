@@ -16,7 +16,6 @@ paginate: 1
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-admin
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
