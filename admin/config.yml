@@ -7,7 +7,7 @@ media_folder: "images/" # Folder where user uploaded files should go
 collections:
   - label: "Blog"
     name: "blog"
-    folder: "_posts/blog"
+    folder: "_posts/"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
