@@ -241,6 +241,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
+        <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <center>
           <h2>Ready to revolutionize your workflow?</h2>
           <h3>Try our SaaS solution today!</h3>
@@ -264,7 +265,7 @@
   function showModalAfterDelay() {
       $('#azureModal').modal('show');
     }
-  setTimeout(showModalAfterDelay, 5000);
+  setTimeout(showModalAfterDelay, 10000);
 </script> -->
 
 <script>
@@ -280,13 +281,15 @@
 
 <!-- Modal -->
 <div class="modal fade" id="azureModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1"
-  aria-labelledby="staticBackdropLabel" aria-hidden="true" style="padding-left: 0px !important;">
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-body" style="position: relative;padding: 0px !important;margin-top: -20px;">
+      <div class="modal-body">
+        <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
         <center>
           <br>
-          <img src="/images/razorops-azure.png" width="100%">
+          <img src="/images/razorops-azure.png" width="95%">
           <br><br><br>
           <div class="btn-primary btn btn-lg full-rounded"><a href="/try-razorops-cicd-with-microsoft-azure-kubernetes/?utm_source=azure_banner"
               class="text-white">Apply Here</a></div>
