@@ -1,18 +1,9 @@
 ---
-layout: post
-author: Shyam Mohan
-thumbnail: /images/devops-sre-platform-engineering-cloud-engineering.png
 title: Role and responsibelities of DevOps, SRE, Platform Engineering, and Cloud
   Engineering
-description: " between these roles, each plays a distinct and crucial part in
-  building and maintaining reliable, scalable, and efficient software systems in
-  modern IT environments"
-category: DevOps
-date: 2024-04-05T09:31:00.000Z
-image: /images/devops-sre-platform-engineering-cloud-engineering.png
+date: 2024-04-08T04:01:00.000Z
+thumbnail: /images/devops-sre-platform-engineering-cloud-engineering.png
 ---
-
-
 **DevOps:**
 
 Role: DevOps (Development and Operations) is a cultural and professional movement that focuses on collaboration between software development and IT operations teams, aiming to automate and streamline the software delivery process.
