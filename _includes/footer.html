@@ -1,6 +1,5 @@
 {% include signup_cta.html %}
 
-
 <!-- Footer -->
 <div class="footer footer--dark">
   <div class="container">
@@ -196,7 +195,7 @@
 
  
 
-
+<!---------------FOOTER--------------->
 <hr class="footer-hr" />
 
 <div class="lower-footer text-center">
@@ -301,29 +300,3 @@
     </div>
   </div>
 </div>
-
-
-<script>
-  // Function to get URL parameters
-  function getUrlParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-  };
-
-  // Get search query from URL
-  var searchQuery = getUrlParameter('q');
-
-  // Set utm_source and utm_medium parameters
-  var utm_source = 'search';
-  var utm_medium = 'organic';
-
-  // Set utm_source and utm_medium in URL if search query exists
-  if (searchQuery) {
-    var currentUrl = window.location.href;
-    var separator = currentUrl.indexOf('?') !== -1 ? '&' : '?';
-    var newUrl = currentUrl + separator + 'utm_source=' + utm_source + '&utm_medium=' + utm_medium;
-    window.history.replaceState({}, document.title, newUrl);
-  }
-</script>
