@@ -10,7 +10,7 @@ collections:
     folder: "_posts/"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Layout", name: "layout", widget: "string"}
