@@ -36,4 +36,8 @@ collections:
     permalinks: /integration/:title/     
   newsandupdates:
     output: true
-    permalinks: /news-and-updates/:title/     
+    permalinks: /news-and-updates/:title/
+  post:
+    output: true
+    permalinks: /blog/:title/
+

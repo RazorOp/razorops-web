@@ -552,7 +552,8 @@ margin-top: 10px !important;
 .footer {
 position: relative;
 color: #253858;
-background-color: #f8f8f8;
+background-color: #fff;
+/* background-color: #f8f8f8; */
 padding: 50px 0;
 z-index: 1;
 }

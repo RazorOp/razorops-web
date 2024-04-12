@@ -6,10 +6,26 @@
 
 <item>
      <link>https://razorops.com/</link>
-     <title>Container Native Continuous Integration &amp;amp; Deployment | Razorops</title>
-     <description>Razorops is a container native continuous integration and delivery platform to automate testing and deployment across the environments in few steps.</description>
+     <title>Cloud Agnostic DevOps Automation Platform | Razorops</title>
+     <description>Razorops is a Cloud Agnostic DevOps Automation Platform to automate testing and deployment across the environments in few steps.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/about</link>
+     <title>Razorops About | Razorops</title>
+     <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/contact</link>
+     <title>Razorops, inc United States Canada Bengaluru Hyderabad | Razorops</title>
+     <description>Razorops, inc United States Canada Bengaluru Hyderabad - Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -85,6 +101,22 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/try-razorops-cicd-with-digital-ocean-kubernetes/</link>
+     <title>Try Razorops CI/CD with DigitalOcean Kubernetes | Razorops</title>
+     <description>RazorOps is a container native CI/CD Platform partnered with DigitalOcean to provide managed cloud &amp;amp; Kuberentes to automate and manage your software life cycle efficiently. Get $250 DigitalOcean Credits free. Signup Now</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/schedule-demo?utm_source=https%3A%2F%2Frazorops.com%2F&amp;utm_medium=CTA-Schedule-Demo&amp;utm_campaign=Razorops-Schedule-Demo</link>
+     <title>Razorops Schedule Demo | Razorops</title>
+     <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/case-studies/maxamtech/</link>
      <title>CICD Tool - Razorops case study with Maxamtech | Razorops</title>
      <description>Have a Look at How Maxamtech Digital Ventures Migrated To Container Native Devops Practices With The Help Of RazorOps CI/CD.</description>
@@ -109,81 +141,57 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/blog/best-open-source-ci-cd-tools-for-2022/</link>
-     <title>Best Open Source CI/CD Tools for 2022 | Razorops</title>
-     <description>Best Open Source CI/CD Tools for 2022. Let’s have a look at it. Razorops is the one of best simplest container native cicd tools.</description>
+     <link>https://razorops.com/devops/2024/04/05/role-and-responsibelities-of-devops-sre-platform-engineering-and-cloud-engineering</link>
+     <title>Role and responsibelities of DevOps, SRE, Platform Engineering, and Cloud Engineering | Razorops</title>
+     <description>between these roles, each plays a distinct and crucial part in building and maintaining reliable, scalable, and efficient software systems in modern IT environments</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/blog/5-types-of-git-workflow-&amp;-explanation-of-each-flow/</link>
-     <title>5 Types of Git WorkFlow &amp;amp; Explanation of each Flow | Razorops</title>
-     <description>Introduction about Git WorkFlow &amp;amp; Types of git workflows - Basic, Feature Branches, Git Flow, Feature Branches and Merge requests, Forking workflow &amp;amp; their explanations.</description>
+     <link>https://razorops.com/blog/enhancing-collaboration-between-development-operations-with-devops/</link>
+     <title>Enhancing Collaboration between Development and Operations with DevOps | Razorops</title>
+     <description>How can organizations effectively enhance collaboration between development and operations teams through the implementation of DevOps practices?</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/blog/top-20-ci-cd-pipeline-interview-questions-answers/</link>
-     <title>Top 20 CI/CD Pipeline Interview Questions &amp;amp; Answers | Razorops</title>
-     <description>Here you have the top 20 common ci/cd interview questions along with answers. Let’s have a look at it. Razorops is the one of best simplest container native cicd tools.</description>
+     <link>https://razorops.com/blog/effective-monitoring-and-alerting-strategies-in-devops/</link>
+     <title>Effective Monitoring and Alerting Strategies in DevOps | Razorops</title>
+     <description>How can DevOps teams implement robust monitoring and alerting strategies to enhance system performance and response times effectively?</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-68</link>
-     <title>Container Native DevOps &amp;amp; CICD Newsletter 68 | Razorops</title>
-     <description>The Role of Test Reporting in Continuous Testing A Comprehensive Overview</description>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-87</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 87 | Razorops</title>
+     <description>Containerization and Orchestration Empowering DevOps with Kubernetes</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-67</link>
-     <title>Container Native DevOps &amp;amp; CICD Newsletter 67 | Razorops</title>
-     <description>Reduce Memory Usage of NodeJS apps inside Docker</description>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-86</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 86 | Razorops</title>
+     <description>CI/CD Pipelines Streamlining Software Delivery with Automation</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-66</link>
-     <title>Container Native DevOps &amp;amp; CICD Newsletter 66 | Razorops</title>
-     <description>Unleashing the Software Superpowers DevOps, CI/CD, and Containerization</description>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-85</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 85 | Razorops</title>
+     <description>Modernizing Applications for Kubernetes</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/try-razorops-cicd-with-digital-ocean-kubernetes/</link>
-     <title>Try Razorops CI/CD with DigitalOcean Kubernetes | Razorops</title>
-     <description>RazorOps is a container native CI/CD Platform partnered with DigitalOcean to provide managed cloud &amp;amp; Kuberentes to automate and manage your software life cycle efficiently. Get $250 DigitalOcean Credits free. Signup Now</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/schedule-demo?utm_source=https%3A%2F%2Frazorops.com%2F&amp;utm_medium=CTA-Schedule-Demo&amp;utm_campaign=Razorops-Schedule-Demo</link>
-     <title>Razorops Schedule Demo | Razorops</title>
-     <description>Razopos demo with Shyam</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/about</link>
-     <title>Razorops About | Razorops</title>
-     <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/contact</link>
-     <title>Razorops, inc United States Canada Bengaluru Hyderabad | Razorops</title>
-     <description>Razorops, inc United States Canada Bengaluru Hyderabad - Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
+     <link>https://razorops.com/try-razorops-cicd-with-microsoft-azure-kubernetes/</link>
+     <title>Try Razorops CI/CD with Microsoft Azure Kubernetes | Razorops</title>
+     <description>RazorOps is a container native CI/CD Platform partnered with Microsoft Azure to provide managed cloud &amp;amp; Kuberentes to automate and manage your software life cycle efficiently. Get $150k Microsoft Azure Credits free. Signup Now</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -261,9 +269,329 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/schedule-demo?utm_source=signup_banner</link>
+     <title>Razorops Schedule Demo | Razorops</title>
+     <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/try-razorops-cicd-with-microsoft-azure-kubernetes/?utm_source=azure_banner</link>
+     <title>Try Razorops CI/CD with Microsoft Azure Kubernetes | Razorops</title>
+     <description>RazorOps is a container native CI/CD Platform partnered with Microsoft Azure to provide managed cloud &amp;amp; Kuberentes to automate and manage your software life cycle efficiently. Get $150k Microsoft Azure Credits free. Signup Now</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/schedule-demo?utm_source=azure_banner</link>
+     <title>Razorops Schedule Demo | Razorops</title>
+     <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/schedule-demo?utm_source=Jenkins-alternative&amp;utm_medium=schedule-demo-cta&amp;utm_campaign=signup-Jenkins-alternative</link>
      <title>Razorops Schedule Demo | Razorops</title>
      <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/how-to-host-free-static-website-on-azure-storage-with-custom-domain-and-free-razorops-ci-cd-pipeline/</link>
+     <title>How To Host Free Static Website On Azure Storage With Custom Domain And Free Razorops Ci Cd Pipeline | Razorops</title>
+     <description>How to Set up azure storage account and setting up CI/CD with Razorops for automatic static website deployment?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/containerization-and-devops-optimizing-deployment-with-docker-and-kubernetes/</link>
+     <title>Containerization and DevOps Optimizing Deployment with Docker and Kubernetes | Razorops</title>
+     <description>How do Docker and Kubernetes enhance deployment efficiency in Containerization and DevOps?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/streamlining-deployment-pipelines-with-devops-automation/</link>
+     <title>Streamlining Deployment Pipelines with DevOps Automation | Razorops</title>
+     <description>What strategies and tools can be implemented to optimize deployment pipelines through DevOps Automation?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/unlocking-efficiency-collaboration-poer-of-devops/</link>
+     <title>Unlocking Efficiency and Collaboration The Power of DevOps | Razorops</title>
+     <description>How can embracing DevOps unlock efficiency and collaboration to enhance the power of your team’s development processes?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/revolutionize-deve-pipeline-devops-ci-cd/</link>
+     <title>Revolutionize Your Development Pipeline Embrace DevOps for Seamless Integration and Continuous Delivery | Razorops</title>
+     <description>How can the integration of DevOps revolutionize your development pipeline, leading to seamless integration and continuous delivery?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/what-is-kubernetes-pod-qos/</link>
+     <title>What is Kubernetes Pod QoS? | Razorops</title>
+     <description>What does Kubernetes Pod Quality of Service (QoS) entail, and how does it impact the deployment and management of applications within Kubernetes clusters?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/diving-container-registry-in-depth-overview/</link>
+     <title>Diving into Container Registries- An In-Depth Overview | Razorops</title>
+     <description>What are the strategic advantages and potential business implications of adopting container registries, as explored in the comprehensive overview titled ‘Navigating Docker Container Registries’?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/kubernetes-services-and-types/</link>
+     <title>Kubernetes Services &amp;amp; Types | Razorops</title>
+     <description>What are Kubernetes services, and what are the different types available for managing networking and communication between pods in a Kubernetes cluster?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/continuous-delivery-how-does-it-works/</link>
+     <title>What Is Continuous Delivery and How Does It Work? | Razorops</title>
+     <description>How does Continuous Delivery contribute to business efficiency, and what role does it play in streamlining and enhancing the software delivery process?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/conceptual-pillars-of-kubernetes/</link>
+     <title>Conceptual Pillars Of Kubernetes | Razorops</title>
+     <description>What are the fundamental conceptual pillars that constitute the foundation of Kubernetes, a container orchestration platform?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/stages-of-ci-cd-pipeline/</link>
+     <title>Stages of a CI/CD Pipeline | Razorops</title>
+     <description>What are the key stages involved in a CI/CD (Continuous Integration/Continuous Deployment) pipeline for software development?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/git/</link>
+     <title>What is Git ? | Razorops</title>
+     <description>What are the key benefits of utilizing Git as a version control system, and overview of essential Git commands for effective source code management?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/kustomize/</link>
+     <title>What is Kustomize ? | Razorops</title>
+     <description>How do organizations leverage Kustomize in their deployment and configuration management processes?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/boost-software-delivieries-with-docker-kubernetes/</link>
+     <title>Boost Your Software Deliveries with Docker and Kubernetes | Razorops</title>
+     <description>What strategies and benefits are associated with utilizing Docker and Kubernetes to optimize and expedite software delivery processes?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/how-to-build-devops-toolchain-effectievly/</link>
+     <title>How To Build Your DevOps Toolchain Effectively | Razorops</title>
+     <description>How can organizations effectively build and optimize their DevOps toolchain to enhance collaboration, streamline workflows, and achieve seamless integration throughout the software development lifecycle?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/kubernetes/</link>
+     <title>Kubernetes | Razorops</title>
+     <description>What are the essential core concepts of Kubernetes, and how does it facilitate optimization and efficient container orchestration within modern IT environments</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/benifits-of-usingcontainerization-devops-workflow/</link>
+     <title>The Benefits of using containerization in DevOps workflows | Razorops</title>
+     <description>How does the integration of containerization enhance DevOps processes and workflow efficiency?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/five-extensions-make-development-life-easier/</link>
+     <title>5 Docker Extensions to make your development life easier | Razorops</title>
+     <description>What are five Docker Extensions that can enhance and simplify your development workflow?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/four-pillars-successfull-devops-assesment/</link>
+     <title>4 Pillars of Successful DevOps Assessment | Razorops</title>
+     <description>How can organizations effectively evaluate and measure their adherence to the 4 Pillars of Successful DevOps, and what strategies can be employed to enhance their performance in each pillar?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/role-of-containers-kubernetes-devops/</link>
+     <title>The Role of Containers and Kubernetes in DevOps Transformation | Razorops</title>
+     <description>How do Containers and Kubernetes contribute to the evolution and enhancement of DevOps practices?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/devops-automation-best-practices/</link>
+     <title>DevOps Automation and DevOps Best Practices | Razorops</title>
+     <description>How can organizations effectively implement DevOps automation and incorporate DevOps best practices to enhance their software development and deployment processes?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/k8s-exercise-labels-annotations/</link>
+     <title>K8s Exercise Labels and Annotations | Razorops</title>
+     <description>How do Labels and Annotations in Kubernetes (K8s) contribute to enhancing operational efficiency and strategic decision-making for businesses, and what specific advantages or considerations should companies focus on in their implementation?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/security-devops-best-practices-tokeep-your-pipeline-secure/</link>
+     <title>Security in DevOps Best Practices to Keep Your Pipeline Secure | Razorops</title>
+     <description>What are the key best practices for ensuring security in a DevOps pipeline, and how can organizations effectively implement these practices to safeguard their development and deployment processes?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/key-principles-successful-devops-implementation/</link>
+     <title>Key Principles of Successful DevOps Implementation | Razorops</title>
+     <description>What are the core principles underlying a successful DevOps implementation, and how can organisations use these concepts to create long-term gains in both software development and IT operations?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/simplyfying-kubernetes-native-testing-with-testkube/</link>
+     <title>Simplifying Kubernetes Native Testing with TestKube | Razorops</title>
+     <description>What are the critical components in streamlining Kubernetes native testing with TestKube? and How does TestKube simplify Kubernetes native testing, and what are its key aspects?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/power-of-automation-in-devops/</link>
+     <title>The Power of Automation in DevOps | Razorops</title>
+     <description>How can companies effectively harness the Power of Automation in DevOps to enhance their software development and deployment processes?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/evolution-of-devops-from-concept-best-practice/</link>
+     <title>The Evolution of DevOps From Concept to Best Practice | Razorops</title>
+     <description>How has the evolution of DevOps, from its initial concept to becoming a best practice, impacted the efficiency, collaboration, and overall success of businesses, and what key lessons can organizations glean from this journey for their own improvement?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/kubernetes-autoscaling-for-continous-integration-deployment/</link>
+     <title>Kubernetes Autoscaling for Continuous Integration/Continuous Deployment | Razorops</title>
+     <description>What are the key strategies and best practices for implementing Kubernetes autoscaling in a Continuous Integration/Continuous Deployment (CI/CD) environment to optimize resource utilization and ensure seamless application scaling?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/unlocking-kubernetes-deployment-excellence-with-cd-automation/</link>
+     <title>Unlocking Kubernetes Deployment Excellence with CI CD Automation | Razorops</title>
+     <description>How can businesses leverage CI/CD automation to unlock Kubernetes deployment excellence, and what are the potential benefits and challenges associated with implementing such a strategy?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/simplifying-kubernetes-infrastructure-with-cdk8s/</link>
+     <title>Simplifying your Kubernetes infrastructure with cdk8s | Razorops</title>
+     <description>How can the utilization of cdk8s simplify and optimize Kubernetes infrastructure management to drive greater operational efficiency and scalability in modern business environments?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/maximizing-efficiency-collaboration-with-top-tier-devops-services/</link>
+     <title>Maximizing Efficiency and Collaboration with Top-tier DevOps Services | Razorops</title>
+     <description>What are the key strategies and best practices for maximizing both efficiency and collaboration through the implementation of top-tier DevOps services?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/streamlining-kubernetes-workflow-power-of-cicd-integration/</link>
+     <title>Streamlining Kubernetes Workflows The Power of CI/CD Integration | Razorops</title>
+     <description>How can organizations achieve optimal efficiency and reliability when streamlining their Kubernetes workflow within a CI/CD pipeline?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/microservices-architecture/</link>
+     <title>Best Practices and Potential Loopholes for Successful Microservices Architecture | Razorops</title>
+     <description>What is microservice architecture and the best practices for overcoming numerous obstacles with microservice architecture?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/best-practices-to-implement-devops-in-orginazation/</link>
+     <title>Best Practices for implementing DevOps in Organizations | Razorops</title>
+     <description>Why DevOps is necessary in the modern world and how can it be used in organisations and how the Razorops platform enhances the quality and speed of software delivery</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/best-open-source-ci-cd-tools-for-2022/</link>
+     <title>Best Open Source CI/CD Tools for 2022 | Razorops</title>
+     <description>Best Open Source CI/CD Tools for 2022. Let’s have a look at it. Razorops is the one of best simplest container native cicd tools.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/5-types-of-git-workflow-&amp;-explanation-of-each-flow/</link>
+     <title>5 Types of Git WorkFlow &amp;amp; Explanation of each Flow | Razorops</title>
+     <description>Introduction about Git WorkFlow &amp;amp; Types of git workflows - Basic, Feature Branches, Git Flow, Feature Branches and Merge requests, Forking workflow &amp;amp; their explanations.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-20-ci-cd-pipeline-interview-questions-answers/</link>
+     <title>Top 20 CI/CD Pipeline Interview Questions &amp;amp; Answers | Razorops</title>
+     <description>Here you have the top 20 common ci/cd interview questions along with answers. Let’s have a look at it. Razorops is the one of best simplest container native cicd tools.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -509,8 +837,8 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/</link>
-     <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
+     <link>https://razorops.com/webinars/cloud-cost-optimization-container-native-devops/</link>
+     <title>Cloud Cost Optimization &amp;amp; Container Native DevOps | Razorops</title>
      <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
@@ -560,6 +888,158 @@
      <link>https://razorops.com/case-studies/nimble-buying/</link>
      <title>Razorops case study with Nimble - CI/CD Customer Stories | Razorops</title>
      <description>Lets have a look at Razorops Customer Stories - Check by integrating Razorops automate CI/CD Pipeline how Egnify solved their facing Challenges.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-84</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 84 | Razorops</title>
+     <description>Docker Multi-Stage Builds</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-83</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 83 | Razorops</title>
+     <description>Docker Best Practices Optimizing Containerized Environments</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-82</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 82 | Razorops</title>
+     <description>Docker File Best Practices For DevOps Engineer</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-81</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 81 | Razorops</title>
+     <description>CI/CD A Key Component of DevOps for Software Engineering</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-80</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 80 | Razorops</title>
+     <description>Kubernetes Deployments Made Easy</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-79</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 79 | Razorops</title>
+     <description>The Ultimate Roadmap Free Resources for Becoming A DevOps Engineer in 2023</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-78</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 78 | Razorops</title>
+     <description>Kubernetes Deployments &amp;amp; Strategies</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-77</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 77 | Razorops</title>
+     <description>Unleashing the Power of Kubernetes Architecture Fueling Your Success with Container Orchestration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-76</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 76 | Razorops</title>
+     <description>Elevating Kubernetes Deployments CICD Insights and Innovations</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-75</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 75 | Razorops</title>
+     <description>The Role of Continuous Integration and Continuous Deployment (CI/CD) in DevOps</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-74</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 74 | Razorops</title>
+     <description>Mastering Kubernetes A Guide to Seamless CI CD Integration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-73</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 73 | Razorops</title>
+     <description>Kubernetes CI/CD Pipelines Accelerating Software Delivery</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-72</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 72 | Razorops</title>
+     <description>Seamless Kubernetes Deployments Unveiling CI/CD Strategies</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-71</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 71 | Razorops</title>
+     <description>Navigating Kubernetes CI/CD Best Practices for Effortless Deployment</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-70</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 70 | Razorops</title>
+     <description>How can DevOps Consulting Services Streamline Your Development and Operations?</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-69</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 69 | Razorops</title>
+     <description>Keeping Data Secure in Cloudtech &amp;amp; DevOps</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-68</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 68 | Razorops</title>
+     <description>The Role of Test Reporting in Continuous Testing A Comprehensive Overview</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-67</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 67 | Razorops</title>
+     <description>Reduce Memory Usage of NodeJS apps inside Docker</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-66</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 66 | Razorops</title>
+     <description>Unleashing the Software Superpowers DevOps, CI/CD, and Containerization</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -1085,6 +1565,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/news-and-updates/razorops-dsci-event/</link>
+     <title>RazorOps Elevates CI/CD at DSCI Event - Shaping the Future of DevOps Excellence | Razorops</title>
+     <description>RazorOps showcased its commitment to advancing CI/CD practices at the DSCI event, contributing to the evolution of DevOps excellence</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/news-and-updates/razorops-celebrates-national-startup-day-with-the-startups-from-across-telangana-at-thub/</link>
      <title>RazorOps Celebrates National Startup Day with the startups from across Telangana at T-Hub | Razorops</title>
      <description>RazorOps celebrates National Startup Day with T-Hub. The event’s theme was to celebrate the entrepreneurial spirit across the country.</description>
@@ -1103,7 +1591,7 @@
 <item>
      <link>https://razorops.com/news-and-updates/razorops-at-nastech-2022/</link>
      <title>RazorOps at NASTech 2022 | Razorops</title>
-     <description>The National Association of Software and Services Companies, or NASSCOM, hosted the third iteration of NASTech from December 6, 2022, to December 10, 2022, in five prestigious cities: Bangalore, Chennai, Hyderabad, Bhubaneshwar, and Kochi</description>
+     <description>The National Association of Software and Services Companies, or NASSCOM, hosted the third iteration of NASTech from December 6, 2022, to December 10, 2022, in five prestigious cities Bangalore, Chennai, Hyderabad, Bhubaneshwar, and Kochi</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -1112,14 +1600,6 @@
      <link>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management-part-2/</link>
      <title>How to secure Kubernetes and secrets management Rbac, Teleport, valt etc | Razorops</title>
      <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://razorops.com/schedule-demo?utm_source=https%3A%2F%2Frazorops.com%2Ftry-razorops-cicd-with-digital-ocean-kubernetes%2F&amp;utm_medium=CTA-Schedule-demo&amp;utm_campaign=Razorops-schedule-demo</link>
-     <title>Razorops Schedule Demo | Razorops</title>
-     <description>Razopos demo with Shyam</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -1408,6 +1888,14 @@
      <link>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</link>
      <title>Razorops Senior Golang Developer Job | Razorops</title>
      <description>Razorops looking for sr. golang developer to help us build great developer tools for Cloud Native DevOps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/</link>
+     <title>Kubernetes Monitoring, Alerting, and Auditing using DO marketplace tools | Razorops</title>
+     <description>Join our upcoming webinar on CI/CD adoption and Get the most out of Razorops CI/CD with one of our free webinars.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

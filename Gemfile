@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "jekyll"
 gem 'rake', '~> 13.1'
 gem 'rackup' 
-gem "puma"
+gem "webrick"
 gem "sinatra"
 gem "sinatra-cross_origin", "~> 0.3.1"
 
