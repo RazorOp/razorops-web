@@ -5969,7 +5969,7 @@ flex: 100%; /* Set full width for each section on smaller screens */
 }
 }
 
-.customers-banner.mt-10.do-banner-home-pd {
+.customers-banner.mt-10.do-banner-home-			pd {
 margin-top: 0;
 padding-top: 0;
     }
@@ -5978,7 +5978,7 @@ padding-top: 0;
 .top-header{
 	display: flex;
 	width: 100%;
-	height: 50px;
+	height: 38px;
 	top:0;
 	margin-top: -10px !important ;
 	margin-bottom: 10px;
@@ -5992,5 +5992,10 @@ padding-top: 0;
 	line-height: 24px;
 	font-style: normal;
 	font-weight: 600;
-	background: linear-gradient(90deg, #E4CAF8 0%, #FFCFAE 51.56%, #FAFFC6 100%);
+	background: #0069ff;
+	/* background: linear-gradient(90deg, #E4CAF8 0%, #FFCFAE 51.56%, #FAFFC6 100%); */
+}
+
+.top-header a {
+	color: #FFF;
 }
