@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (master by default)
+  branch: cms # Branch to update (master by default)
 
-media_folder: "images/blog/" # Folder where user uploaded files should go
+media_folder: "images/" # Folder where user uploaded files should go
 
 collections:
   - label: "Blog"
@@ -19,4 +19,19 @@ collections:
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+    
+    - label: "Newsletter"
+      name: "newsletter"
+      folder: "_newsletter/"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Image", name: "image", widget: "image"}
+        - {label: "Layout", name: "layout", widget: "string"}
+        - {label: "permalink", name: "permalink", widget: "string"}
+        - {label: "Author", name: "author", widget: "string"}
+        - {label: "Category", name: "category", widget: "string"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Body", name: "body", widget: "markdown"}
 
