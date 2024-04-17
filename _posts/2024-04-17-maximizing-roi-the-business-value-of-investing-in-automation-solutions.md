@@ -1,6 +1,5 @@
 ---
-title: 2024-04-17-Maximizing ROI The Business Value of Investing in Automation
-  Solutions
+title: Maximizing ROI The Business Value of Investing in Automation Solutions
 description: "Dynamic business landscape, the quest for efficiency and agility
   is relentless. As organizations strive to stay ahead, one powerful strategy
   stands out: automation."
