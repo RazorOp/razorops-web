@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: Testing
-date: 2024-04-17T21:55:00.000Z
+date: 2024-04-16T21:55:00.000Z
 ---
 # The Future of Testing Unlocking Potential with Automation
 
