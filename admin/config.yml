@@ -20,18 +20,18 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
     
-    - label: "Newsletter"
-      name: "newsletter"
-      folder: "_newsletter/"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Image", name: "image", widget: "image"}
-        - {label: "Layout", name: "layout", widget: "string"}
-        - {label: "permalink", name: "permalink", widget: "string"}
-        - {label: "Author", name: "author", widget: "string"}
-        - {label: "Category", name: "category", widget: "string"}
-        - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Newsletter"
+    name: "newsletter"
+    folder: "_newsletter/"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Layout", name: "layout", widget: "string"}
+      - {label: "permalink", name: "permalink", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
