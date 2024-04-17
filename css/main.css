@@ -2065,19 +2065,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-.partnercard{
-
-width:auto; 
-max-width: 240px;
-border: 2px solid rgb(11, 36, 182); 
-margin-bottom: 12px;
-padding-top: 10px;
-border-radius: 7px;
-/* height: auto; */
-
-height: 90px;
-box-shadow: 4px 4px 20px 6px rgba(9, 56, 144, 0.25) ;
-}
 .title-card{
 display: flex;
 align-items:center ;
@@ -2093,19 +2080,6 @@ padding: 12px 12px;
 font-size: 16px; 
 padding: 20px 46px 0px 46px;
 text-align: justify;
-}
-.partner-card{
-position: relative;
-border: 2px solid rgb(35, 127, 233);
-
-
-height: auto;
-max-height: 360px;
-margin-bottom: 17px;
-background:  #f6f6f6;
-border-radius: 20px;
-overflow: hidden;
-padding: 10px 10px 20px 10px;
 }
 /* .partner-card:before {
 content: "";
@@ -2300,17 +2274,14 @@ flex-direction: row;
 margin-bottom: 20px;
 }
 .partner-card{
-position: relative;
-border: 2px solid rgb(35, 127, 233);
-
-height: auto;
-max-height: 420px;
-margin-right: 17px;
-background: #f6f6f6;
-border-radius: 20px;
-overflow: hidden;
-
-
+	position: relative;
+	border: 1px solid #166fff;
+	height: auto;
+	max-height: 420px;
+	margin-right: 17px;
+	background: #eff5ff;
+	border-radius: 20px;
+	overflow: hidden;
 }
 .card-border_lightblue{
 border: 1px solid rgb(87, 112, 187);
@@ -2437,18 +2408,7 @@ padding-bottom: 12px;
 padding-left: 12px;
 padding-right: 10px;
 }
-.partner-card{
-position: relative;
-border: 2px solid rgb(35, 127, 233);
-height: auto;
-max-height: 420px;
-margin-right: 17px;
-background: #f6f6f6;
-border-radius: 20px;
-overflow: hidden;
-padding: 20px;
 
-}
 .webinar-register-form-hidden{
 visibility: visible;
 }
