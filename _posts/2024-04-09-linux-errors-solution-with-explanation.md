@@ -8,115 +8,83 @@ author: Shyam Mohan
 category: Linux
 date: 2024-04-08T23:11:00.000Z
 ---
-1. Error: Permission denied
+# 100 Linux Errors & Solution With Explanation
+
+**1.  Error: Permission denied**
 
 Example command:
 
-$ sudo rm /etc/sensitive_file
+    $ sudo rm /etc/sensitive_file
 
-Solution: This error occurs when a user tries to execute a command that requires
-
-higher privileges than what they currently have. The solution is to use
-
-the sudo command before the original command to execute it with superuser
-
-privileges.
+**Solution:** This error occurs when a user tries to execute a command that requires higher privileges than what they currently have. The solution is to use the sudo command before the original command to execute it with superuser privileges.
 
 Corrected command:
 
-$ sudo rm /etc/sensitive_file
+    $ sudo rm /etc/sensitive_file
 
-2. Error: Command not found
+**2.  Error: Command not found**
 
 Example command:
 
-$ some_command
+    $ some_command
 
-Solution: This error indicates that the system cannot find the specified command or
-
-program in the directories listed in the PATH environment variable. The solution is to
-
-either provide the full path to the command or check if the command is installed and
-
-available in the system's PATH.
+**Solution**: This error indicates that the system cannot find the specified command or program in the directories listed in the PATH environment variable. The solution is to either provide the full path to the command or check if the command is installed and available in the system’s PATH.
 
 Corrected command (if the command is installed):
 
-$ /path/to/some_command
+    $ /path/to/some_command
 
-Or install the command if it's missing:
+Or install the command if it’s missing:
 
-$ sudo apt-get install some_package
+    $ sudo apt-get install some_package
 
-3. Error: File or directory not found
-
-Example command:
-
-$ cat /path/to/nonexistent_file
-
-Solution: This error occurs when the specified file or directory does not exist in the
-
-given path. To resolve this issue, ensure that the file or directory exists or provide the
-
-correct path.
-
-Corrected command: Ensure the file exists or provide the correct path.
-
-4. Error: Syntax error near unexpected token
+**3.  Error: File or directory not found**
 
 Example command:
 
-$ for i in {1..5}
+    $ cat /path/to/nonexistent_file
 
-Solution: This error typically occurs in scripts when there's a syntax error. In this
+**Solution:** This error occurs when the specified file or directory does not exist in the given path. To resolve this issue, ensure that the file or directory exists or provide the correct path.
 
-example, it could be due to a missing do keyword after the loop declaration. Check
+**Corrected command:** Ensure the file exists or provide the correct path.
 
-the syntax of the command or script and correct any errors accordingly.
-
-Corrected command:
-
-$ for i in {1..5}; do echo $i; done
-
-5. Error: Segmentation fault (core dumped)
+**4.  Error: Syntax error near unexpected token**
 
 Example command:
 
-$ ./my_program
+    $ for i in {1..5}
 
-Solution: A segmentation fault occurs when a program tries to access memory that it
+**Solution:** This error typically occurs in scripts when there’s a syntax error. In this example, it could be due to a missing do keyword after the loop declaration. Check the syntax of the command or script and correct any errors accordingly.
 
-doesn't have permission to access. This could be due to a bug in the program. To fix
+**Corrected command:**
 
-this, you'll need to debug the program's source code to identify and fix the issue
+    $ for i in {1..5}; do echo $i; done
 
-causing the segmentation fault.
-
-Corrected solution: Debug the program's source code to identify and fix the issue
-
-causing the segmentation fault.
-
-6. Error: Unable to resolve host
+**5.  Error: Segmentation fault (core dumped)**
 
 Example command:
 
-$ ping nonexistent_host
+    $ ./my_program
 
-Solution: This error indicates that the DNS resolver cannot resolve the hostname to
+**Solution:** A segmentation fault occurs when a program tries to access memory that it doesn’t have permission to access. This could be due to a bug in the program. To fix this, you’ll need to debug the program’s source code to identify and fix the issue causing the segmentation fault.
 
-an IP address. Check the hostname spelling and verify DNS configuration
+**Corrected solution:** Debug the program’s source code to identify and fix the issue causing the segmentation fault.
 
-in /etc/resolv.conf. Additionally, ensure that the host is reachable and DNS servers
-
-are configured correctly.
-
-Corrected command: Check hostname spelling and DNS configuration.
-
-7. Error: Connection refused
+**6.  Error: Unable to resolve host**
 
 Example command:
 
-$ ssh user@remote_host
+    $ ping nonexistent_host
+
+**Solution:** This error indicates that the DNS resolver cannot resolve the hostname to an IP address. Check the hostname spelling and verify DNS configuration in /etc/resolv.conf. Additionally, ensure that the host is reachable and DNS servers are configured correctly.
+
+**Corrected command:** Check hostname spelling and DNS configuration.
+
+**7.  Error: Connection refused**
+
+Example command:
+
+    $ ssh user@remote_host
 
 Solution: This error occurs when the remote server actively refuses a connection
 
@@ -128,7 +96,7 @@ Corrected solution: Ensure SSH service is running on the remote host and credent
 
 are correct.
 
-8. Error: No space left on device
+1.  Error: No space left on device
 
 Example command:
 
@@ -144,7 +112,7 @@ Corrected solution: Free up space on the device or allocate more space to the
 
 filesystem.
 
-9. Error: Operation not permitted
+1.  Error: Operation not permitted
 
 Example command:
 
@@ -160,7 +128,7 @@ Corrected command:
 
 $ sudo mount /dev/sdb1 /mnt/usb_drive
 
-10. Error: Invalid argument
+1.  Error: Invalid argument
 
 Example command:
 
@@ -172,13 +140,13 @@ this example, the chmod command expects permissions in octal format (e.g., 644,
 
 755) but 999 is not a valid permission value. Provide a valid argument according to
 
-the command's requirements.
+the command’s requirements.
 
 Corrected command: Provide a valid permission value to chmod command, e.g., $
 
 chmod 755 /path/to/file.
 
-11. Error: No such file or directory
+1.  Error: No such file or directory
 
 Example command:
 
@@ -188,7 +156,7 @@ Solution: This error indicates that the specified directory does not exist. Doub
 
 Corrected command: Ensure the directory exists or provide the correct path.
 
-12. Error: Read-only file system
+1.  Error: Read-only file system
 
 Example command:
 
@@ -202,7 +170,7 @@ Corrected solution: Remount the filesystem as read-write or perform the operatio
 
 on a writable filesystem.
 
-13. Error: Connection timed out
+1.  Error: Connection timed out
 
 Example command:
 
@@ -218,7 +186,7 @@ Corrected solution: Ensure network connectivity, firewall settings, and reachabi
 
 the remote host.
 
-14. Error: Disk quota exceeded
+1.  Error: Disk quota exceeded
 
 Example command:
 
@@ -232,7 +200,7 @@ Corrected solution: Delete unnecessary files or request a quota increase from th
 
 system administrator.
 
-15. Error: Too many open files
+1.  Error: Too many open files
 
 Example command:
 
@@ -246,7 +214,7 @@ Corrected solution: Close unnecessary files or increase the limit using
 
 the ulimit command.
 
-16. Error: Directory not empty
+1.  Error: Directory not empty
 
 Example command:
 
@@ -262,19 +230,19 @@ Corrected solution: Remove files within the directory or use rm -r to recursivel
 
 remove the directory and its contents.
 
-17. Error: Invalid command
+1.  Error: Invalid command
 
 Example command:
 
-$ git comit -m "Fix typo"
+$ git comit -m “Fix typo”
 
 Solution: This error occurs due to a typo or incorrect usage of a command. Doublecheck the command syntax and correct any mistakes.
 
 Corrected command:
 
-$ git commit -m "Fix typo"
+$ git commit -m “Fix typo”
 
-18. Error: Host key verification failed
+1.  Error: Host key verification failed
 
 Example command:
 
@@ -288,7 +256,7 @@ or update the known_hosts file.
 
 Corrected solution: Remove the old host key or update the known_hosts file.
 
-19. Error: Bad file descriptor
+1.  Error: Bad file descriptor
 
 Example command:
 
@@ -302,7 +270,7 @@ Corrected solution: Check file descriptor usage and ensure they are properly
 
 initialized.
 
-20. Error: Operation not supported
+1.  Error: Operation not supported
 
 Example command:
 
@@ -318,7 +286,7 @@ Corrected solution: Use a different command or filesystem type supported by the
 
 system.
 
-21. Error: File exists
+1.  Error: File exists
 
 Example command:
 
@@ -334,7 +302,7 @@ Corrected solution: Choose a different name or remove the existing file/director
 
 before creating a new one.
 
-22. Error: Too many arguments
+1.  Error: Too many arguments
 
 Example command:
 
@@ -348,7 +316,7 @@ Corrected command:
 
 $ ls -l /path/to/directory
 
-23. Error: Unable to lock the administration directory (/var/lib/dpkg/), is
+1.  Error: Unable to lock the administration directory (/var/lib/dpkg/), is
 
 another process using it?
 
@@ -356,7 +324,7 @@ Example command:
 
 $ sudo apt-get install some_package
 
-Solution: This error occurs when another process is using the package manager's lock
+Solution: This error occurs when another process is using the package manager’s lock
 
 file. Ensure no other package manager processes are running and remove the lock
 
@@ -364,9 +332,9 @@ file manually if necessary.
 
 Corrected solution: Check for and terminate any other package manager processes,
 
-or remove the lock file manually if it's not needed.
+or remove the lock file manually if it’s not needed.
 
-24. Error: Operation not permitted
+1.  Error: Operation not permitted
 
 Example command:
 
@@ -382,7 +350,7 @@ Corrected command:
 
 $ sudo ln -s /path/to/source /path/to/destination
 
-25. Error: Resource temporarily unavailable
+1.  Error: Resource temporarily unavailable
 
 Example command:
 
@@ -398,11 +366,11 @@ Corrected solution: Try the operation again later when resources become availabl
 
 adjust resource limits using commands like ulimit.
 
-26. Error: Invalid option -- 'x'
+1.  Error: Invalid option – ‘x’
 
 Example command:
 
-$ grep -x "pattern" file.txt
+$ grep -x “pattern” file.txt
 
 Solution: This error occurs when providing an invalid option to a command. Review
 
@@ -410,13 +378,13 @@ the command syntax and ensure that the options used are valid.
 
 Corrected command:
 
-$ grep "pattern" file.txt
+$ grep “pattern” file.txt
 
-27. Error: Read-only file system
+1.  Error: Read-only file system
 
 Example command:
 
-$ echo "data" > /mnt/read_only_file
+$ echo “data” > /mnt/read_only_file
 
 Solution: This error occurs when trying to write to a read-only filesystem. Remount
 
@@ -426,7 +394,7 @@ Corrected solution: Remount the filesystem as read-write or perform the operatio
 
 on a writable filesystem.
 
-28. Error: Connection refused
+1.  Error: Connection refused
 
 Example command:
 
@@ -442,7 +410,7 @@ Corrected solution: Ensure that the remote service is running and configured to
 
 accept connections on the specified port.
 
-29. Error: Cannot allocate memory
+1.  Error: Cannot allocate memory
 
 Example command:
 
@@ -458,7 +426,7 @@ Corrected solution: Free up memory by closing unnecessary applications or
 
 increasing system memory.
 
-30. Error: No route to host
+1.  Error: No route to host
 
 Example command:
 
@@ -474,7 +442,7 @@ Corrected solution: Check network connectivity, routing tables, and firewall
 
 configurations to ensure a route to the host is available.
 
-31. Error: Command not permitted
+1.  Error: Command not permitted
 
 Example command:
 
@@ -482,7 +450,7 @@ $ sudo ifconfig eth0 down
 
 Solution: This error occurs when trying to execute a command that requires specific
 
-privileges that the current user doesn't have. Use the sudo command to execute the
+privileges that the current user doesn’t have. Use the sudo command to execute the
 
 command with superuser privileges.
 
@@ -490,19 +458,19 @@ Corrected command:
 
 $ sudo ifconfig eth0 down
 
-32. Error: Cannot stat: No such file or directory
+1.  Error: Cannot stat: No such file or directory
 
 Example command:
 
 $ ls /path/to/nonexistent_file
 
-Solution: This error occurs when trying to access a file or directory that doesn't exist.
+Solution: This error occurs when trying to access a file or directory that doesn’t exist.
 
 Double-check the path to the file or directory and ensure it exists.
 
 Corrected solution: Ensure the file or directory exists or provide the correct path.
 
-33. Error: Invalid syntax
+1.  Error: Invalid syntax
 
 Example command:
 
@@ -514,9 +482,9 @@ command syntax and correct any mistakes.
 
 Corrected command:
 
-$ echo "Hello World"
+$ echo “Hello World”
 
-34. Error: Operation not supported
+1.  Error: Operation not supported
 
 Example command:
 
@@ -530,7 +498,7 @@ command.
 
 Corrected solution: Check the filesystem capabilities or use a different command.
 
-35. Error: Filesystem check or mount failed
+1.  Error: Filesystem check or mount failed
 
 Example command:
 
@@ -546,7 +514,7 @@ Corrected solution: Run a filesystem check (fsck) on the device or verify mount
 
 command parameters for errors.
 
-36. Error: Segmentation fault (core dumped)
+1.  Error: Segmentation fault (core dumped)
 
 Example command:
 
@@ -554,17 +522,17 @@ $ ./my_program
 
 Solution: A segmentation fault occurs when a program tries to access memory that it
 
-doesn't have permission to access. This could be due to a bug in the program. To fix
+doesn’t have permission to access. This could be due to a bug in the program. To fix
 
-this, you'll need to debug the program's source code to identify and fix the issue
-
-causing the segmentation fault.
-
-Corrected solution: Debug the program's source code to identify and fix the issue
+this, you’ll need to debug the program’s source code to identify and fix the issue
 
 causing the segmentation fault.
 
-37. Error: Filesystem full
+Corrected solution: Debug the program’s source code to identify and fix the issue
+
+causing the segmentation fault.
+
+1.  Error: Filesystem full
 
 Example command:
 
@@ -580,7 +548,7 @@ Corrected solution: Free up space on the device or allocate more space to the
 
 filesystem.
 
-38. Error: Permission denied
+1.  Error: Permission denied
 
 Example command:
 
@@ -596,7 +564,7 @@ Corrected command:
 
 $ sudo chmod 777 /root/sensitive_file
 
-39. Error: Device not found
+1.  Error: Device not found
 
 Example command:
 
@@ -612,7 +580,7 @@ Corrected solution: Ensure the device is properly connected and recognized by th
 
 system.
 
-40. Error: Read-only filesystem
+1.  Error: Read-only filesystem
 
 Example command:
 
@@ -620,7 +588,7 @@ $ mount -o remount,rw /dev/sda1 /
 
 Solution: This error occurs when trying to remount a filesystem as read-write when
 
-it's currently mounted as read-only. Check the mount options and ensure the
+it’s currently mounted as read-only. Check the mount options and ensure the
 
 filesystem is not mounted read-only.
 
@@ -628,7 +596,7 @@ Corrected solution: Check the mount options and ensure the filesystem is not
 
 mounted read-only before attempting to remount it as read-write.
 
-41. Error: Directory not writable
+1.  Error: Directory not writable
 
 Example command:
 
@@ -644,7 +612,7 @@ Corrected command:
 
 $ sudo touch /usr/bin/new_file
 
-42. Error: Invalid argument
+1.  Error: Invalid argument
 
 Example command:
 
@@ -658,7 +626,7 @@ Corrected command:
 
 $ mv file1 file2 /path/to/directory/
 
-43. Error: File in use
+1.  Error: File in use
 
 Example command:
 
@@ -674,7 +642,7 @@ Corrected solution: Ensure the file is not being accessed by any other process o
 
 terminate the process using the file before attempting to delete it.
 
-44. Error: Insufficient permissions
+1.  Error: Insufficient permissions
 
 Example command:
 
@@ -690,7 +658,7 @@ Corrected command:
 
 $ sudo chown user:group /root/sensitive_file
 
-45. Error: Unknown option
+1.  Error: Unknown option
 
 Example command:
 
@@ -704,7 +672,7 @@ Corrected command:
 
 $ ls
 
-46. Error: File not found
+1.  Error: File not found
 
 Example command:
 
@@ -716,7 +684,7 @@ Ensure the file exists or create it before attempting to access it.
 
 Corrected solution: Ensure the file exists or create it before attempting to access it.
 
-47. Error: Package not found
+1.  Error: Package not found
 
 Example command:
 
@@ -732,7 +700,7 @@ Corrected solution: Double-check the package name or ensure that the correct
 
 repositories are enabled.
 
-48. Error: Dependency missing
+1.  Error: Dependency missing
 
 Example command:
 
@@ -746,7 +714,7 @@ package manager.
 
 Corrected solution: Install the necessary dependencies using the package manager.
 
-49. Error: Permission denied (publickey)
+1.  Error: Permission denied (publickey)
 
 Example command:
 
@@ -762,7 +730,7 @@ Corrected solution: Ensure that the correct SSH keys are configured on both the
 
 client and server and have proper permissions.
 
-50. Error: Connection reset by peer
+1.  Error: Connection reset by peer
 
 Example command:
 
@@ -778,7 +746,7 @@ Corrected solution: Check network connectivity, firewall settings, and SSH
 
 configurations on both the client and server.
 
-51. Error: Invalid user
+1.  Error: Invalid user
 
 Example command:
 
@@ -794,7 +762,7 @@ Corrected solution: Ensure the user exists or create the user before attempting 
 
 operation.
 
-52. Error: Invalid group
+1.  Error: Invalid group
 
 Example command:
 
@@ -810,7 +778,7 @@ Corrected solution: Ensure the group exists or create the group before attemptin
 
 the operation.
 
-53. Error: Invalid file format
+1.  Error: Invalid file format
 
 Example command:
 
@@ -826,7 +794,7 @@ Corrected solution: Check the file format and use the appropriate command or too
 
 for extraction.
 
-54. Error: Disk full
+1.  Error: Disk full
 
 Example command:
 
@@ -842,7 +810,7 @@ Corrected solution: Free up space on the disk or use a different disk with suffi
 
 space.
 
-55. Error: Service not available
+1.  Error: Service not available
 
 Example command:
 
@@ -854,7 +822,7 @@ Corrected solution: Double-check the service name or ensure it is installed and
 
 available on the system.
 
-56. Error: Too many open files in system
+1.  Error: Too many open files in system
 
 Example command:
 
@@ -862,15 +830,15 @@ $ ulimit -n 100000
 
 Solution: This error occurs when the system has reached its limit for open file
 
-descriptors. Increase the system's limit for open files using the ulimit command or
+descriptors. Increase the system’s limit for open files using the ulimit command or
 
 modify system-wide configuration files.
 
-Corrected solution: Increase the system's limit for open files using
+Corrected solution: Increase the system’s limit for open files using
 
 the ulimit command or modify system-wide configuration files.
 
-57. Error: Invalid directory
+1.  Error: Invalid directory
 
 Example command:
 
@@ -886,7 +854,7 @@ Corrected solution: Double-check the directory path or create the directory befo
 
 attempting to change into it.
 
-58. Error: Cannot execute binary file
+1.  Error: Cannot execute binary file
 
 Example command:
 
@@ -894,7 +862,7 @@ $ ./binary_file
 
 Solution: This error occurs when trying to execute a binary file that is not compatible
 
-with the system architecture or lacks executable permissions. Check the file's
+with the system architecture or lacks executable permissions. Check the file’s
 
 compatibility and ensure it has executable permissions.
 
@@ -902,7 +870,7 @@ Corrected solution: Ensure the binary file is compatible with the system archite
 
 and has executable permissions.
 
-59. Error: Resource temporarily unavailable
+1.  Error: Resource temporarily unavailable
 
 Example command:
 
@@ -914,11 +882,11 @@ Retry the operation later when resources become available.
 
 Corrected solution: Retry the operation later when resources become available.
 
-60. Error: Invalid syntax
+1.  Error: Invalid syntax
 
 Example command:
 
-$ grep -iR "pattern" /path/to/directory
+$ grep -iR “pattern” /path/to/directory
 
 Solution: This error occurs when providing an incorrect syntax to a command. Review
 
@@ -926,9 +894,9 @@ the command syntax and correct any mistakes.
 
 Corrected command:
 
-$ grep -i "pattern" /path/to/directory/*
+$ grep -i “pattern” /path/to/directory/*
 
-61. Error: Operation not permitted
+1.  Error: Operation not permitted
 
 Example command:
 
@@ -944,7 +912,7 @@ Corrected command:
 
 $ sudo ifconfig eth0 up
 
-62. Error: Unable to read from file
+1.  Error: Unable to read from file
 
 Example command:
 
@@ -956,7 +924,7 @@ the file exists and the path is correct.
 
 Corrected solution: Ensure the file exists and the path is correct.
 
-63. Error: Invalid parameter
+1.  Error: Invalid parameter
 
 Example command:
 
@@ -968,7 +936,7 @@ Review the command syntax and ensure all parameters are valid.
 
 Corrected solution: Ensure all parameters provided to the command are valid.
 
-64. Error: Operation timed out
+1.  Error: Operation timed out
 
 Example command:
 
@@ -982,7 +950,7 @@ Corrected solution: Check network connectivity, firewall settings, and ensure th
 
 remote host is accessible.
 
-65. Error: Package already installed
+1.  Error: Package already installed
 
 Example command:
 
@@ -998,19 +966,19 @@ Corrected solution: Use the appropriate package manager command to manage the
 
 installed package.
 
-66. Error: Invalid configuration
+1.  Error: Invalid configuration
 
 Example command:
 
 $ nginx -t
 
-Solution: This error occurs when there's a syntax error or invalid configuration in a
+Solution: This error occurs when there’s a syntax error or invalid configuration in a
 
 configuration file. Check the configuration file for errors and correct them.
 
 Corrected solution: Check the configuration file for errors and correct them.
 
-67. Error: Dependency conflict
+1.  Error: Dependency conflict
 
 Example command:
 
@@ -1026,7 +994,7 @@ Corrected solution: Resolve the dependency conflict by either removing conflicti
 
 packages or installing alternative versions.
 
-68. Error: Filesystem corrupted
+1.  Error: Filesystem corrupted
 
 Example command:
 
@@ -1040,11 +1008,11 @@ Corrected solution: Run the filesystem check (fsck) utility on the affected file
 
 to repair any issues.
 
-69. Error: File not writable
+1.  Error: File not writable
 
 Example command:
 
-$ echo "data" > /etc/read_only_file
+$ echo “data” > /etc/read_only_file
 
 Solution: This error occurs when trying to write to a file that is read-only. Change the
 
@@ -1054,7 +1022,7 @@ Corrected solution: Change the permissions of the file or copy it to a writable
 
 location before making changes.
 
-70. Error: Invalid device
+1.  Error: Invalid device
 
 Example command:
 
@@ -1070,7 +1038,7 @@ Corrected solution: Check the device name and ensure it is correct and properly
 
 connected.
 
-71. Error: Permission denied (sudo)
+1.  Error: Permission denied (sudo)
 
 Example command:
 
@@ -1086,7 +1054,7 @@ Corrected solution: Ensure that the user is added to the sudoers list or use a
 
 privileged account to execute the command.
 
-72. Error: Package not found (yum)
+1.  Error: Package not found (yum)
 
 Example command:
 
@@ -1102,7 +1070,7 @@ Corrected solution: Check the package name spelling and ensure the repository is
 
 enabled or available.
 
-73. Error: Invalid syntax (bash script)
+1.  Error: Invalid syntax (bash script)
 
 Example command:
 
@@ -1114,11 +1082,13 @@ script syntax and correct any errors.
 
 Corrected solution: Review the script syntax and correct any errors.
 
-74. Error: Port already in use
+1.  Error: Port already in use
 
 Example command:
 
-$ sudo netstat -tuln | grep :port_number
+$ sudo netstat -tuln
+
+grep :port_number
 
 Solution: This error occurs when trying to bind a service to a port that is already in
 
@@ -1130,7 +1100,7 @@ Corrected solution: Identify the process using the port and either terminate it 
 
 configure the service to use a different port.
 
-75. Error: Invalid file type
+1.  Error: Invalid file type
 
 Example command:
 
@@ -1144,7 +1114,7 @@ Corrected solution: Ensure the destination directory exists or create it before 
 
 the file.
 
-76. Error: Invalid user or group
+1.  Error: Invalid user or group
 
 Example command:
 
@@ -1160,11 +1130,11 @@ Corrected solution: Double-check the user and group names or create them before
 
 executing the command.
 
-77. Error: Invalid option
+1.  Error: Invalid option
 
 Example command:
 
-$ ls --color=always
+$ ls –color=always
 
 Solution: This error occurs when providing an invalid option to a command. Review
 
@@ -1174,7 +1144,7 @@ Corrected solution: Review the command syntax and ensure that the options used
 
 are valid.
 
-78. Error: Unable to resolve dependency
+1.  Error: Unable to resolve dependency
 
 Example command:
 
@@ -1190,7 +1160,7 @@ Corrected solution: Resolve the dependency issues by installing the required
 
 packages or dependencies manually.
 
-79. Error: Filesystem out of space
+1.  Error: Filesystem out of space
 
 Example command:
 
@@ -1204,7 +1174,7 @@ Corrected solution: Free up space by deleting unnecessary files or expanding the
 
 filesystem.
 
-80. Error: Invalid network configuration
+1.  Error: Invalid network configuration
 
 Example command:
 
@@ -1216,7 +1186,7 @@ Corrected solution: Double-check the network configuration parameters and ensure
 
 they are correct.
 
-81. Error: File or directory in use
+1.  Error: File or directory in use
 
 Example command:
 
@@ -1230,7 +1200,7 @@ Corrected solution: Ensure no processes or users are accessing the filesystem be
 
 attempting to unmount it.
 
-82. Error: Invalid package format
+1.  Error: Invalid package format
 
 Example command:
 
@@ -1246,7 +1216,7 @@ Corrected solution: Use the appropriate package manager or command for the
 
 package format.
 
-83. Error: File not found (curl)
+1.  Error: File not found (curl)
 
 Example command:
 
@@ -1260,7 +1230,7 @@ Corrected solution: Double-check the URL or ensure the file exists at the specif
 
 location.
 
-84. Error: Invalid directory path
+1.  Error: Invalid directory path
 
 Example command:
 
@@ -1276,7 +1246,7 @@ Corrected solution: Double-check the directory path or create the directory befo
 
 attempting to change into it.
 
-85. Error: Service not found
+1.  Error: Service not found
 
 Example command:
 
@@ -1290,11 +1260,11 @@ Corrected solution: Double-check the service name or ensure it is installed and
 
 available on the system.
 
-86. Error: Invalid argument (sed)
+1.  Error: Invalid argument (sed)
 
 Example command:
 
-$ sed 's/pattern/replacement/g' file1 file2
+$ sed ‘s/pattern/replacement/g’ file1 file2
 
 Solution: This error occurs when providing invalid arguments to the sed command.
 
@@ -1302,7 +1272,7 @@ Review the sed command syntax and correct any mistakes.
 
 Corrected solution: Review the sed command syntax and correct any mistakes.
 
-87. Error: Invalid command (scp)
+1.  Error: Invalid command (scp)
 
 Example command:
 
@@ -1314,7 +1284,7 @@ Review the scp command syntax and correct any mistakes.
 
 Corrected solution: Review the scp command syntax and correct any mistakes.
 
-88. Error: Directory not empty
+1.  Error: Directory not empty
 
 Example command:
 
@@ -1326,11 +1296,11 @@ Use rm -r to recursively remove the directory and its contents.
 
 Corrected solution: Use rm -r to recursively remove the directory and its contents.
 
-89. Error: Invalid regular expression (grep)
+1.  Error: Invalid regular expression (grep)
 
 Example command:
 
-$ grep -r '(pattern' /path/to/directory
+$ grep -r ‘(pattern’ /path/to/directory
 
 Solution: This error occurs when providing an invalid regular expression to grep.
 
@@ -1338,7 +1308,7 @@ Review the regular expression syntax and correct any mistakes.
 
 Corrected solution: Review the regular expression syntax and correct any mistakes.
 
-90. Error: Invalid disk identifier
+1.  Error: Invalid disk identifier
 
 Example command:
 
@@ -1348,7 +1318,7 @@ Solution: This error occurs when providing an invalid disk identifier to fdisk. 
 
 Corrected solution: Double-check the disk identifier and ensure it is correct.
 
-91. Error: Invalid syntax (awk)
+1.  Error: Invalid syntax (awk)
 
 Example command:
 
@@ -1360,7 +1330,7 @@ syntax and correct any mistakes.
 
 Corrected solution: Review the awk script syntax and correct any mistakes.
 
-92. Error: Invalid file format (tar)
+1.  Error: Invalid file format (tar)
 
 Example command:
 
@@ -1374,7 +1344,7 @@ format.
 
 Corrected solution: Use the appropriate command or tool for the file format.
 
-93. Error: Invalid input/output device
+1.  Error: Invalid input/output device
 
 Example command:
 
@@ -1386,7 +1356,7 @@ Double-check the device identifiers and ensure they are correct.
 
 Corrected solution: Double-check the device identifiers and ensure they are correct.
 
-94. Error: Package already removed
+1.  Error: Package already removed
 
 Example command:
 
@@ -1402,7 +1372,7 @@ Corrected solution: Use a different package management command or check if the
 
 package has been successfully removed.
 
-95. Error: Invalid symbolic link
+1.  Error: Invalid symbolic link
 
 Example command:
 
@@ -1414,7 +1384,7 @@ not exist. Ensure the target file exists or provide the correct path.
 
 Corrected solution: Ensure the target file exists or provide the correct path.
 
-96. Error: Invalid mount point
+1.  Error: Invalid mount point
 
 Example command:
 
@@ -1424,7 +1394,7 @@ Solution: This error occurs when providing an invalid mount point to mount. Doub
 
 Corrected solution: Double-check the mount point path and ensure it exists.
 
-97. Error: Invalid partition table
+1.  Error: Invalid partition table
 
 Example command:
 
@@ -1436,19 +1406,19 @@ Double-check the device identifier and ensure it is correct.
 
 Corrected solution: Double-check the device identifier and ensure it is correct.
 
-98. Error: Unable to parse configuration
+1.  Error: Unable to parse configuration
 
 Example command:
 
 $ nginx -t
 
-Solution: This error occurs when there's an error parsing the configuration file in
+Solution: This error occurs when there’s an error parsing the configuration file in
 
 Nginx. Review the Nginx configuration syntax and correct any mistakes.
 
 Corrected solution: Review the Nginx configuration syntax and correct any mistakes.
 
-99. Error: Invalid cron job
+1.  Error: Invalid cron job
 
 Example command:
 
@@ -1460,7 +1430,7 @@ job syntax and correct any mistakes.
 
 Corrected solution: Review the cron job syntax and correct any mistakes.
 
-100. Error: Command not found
+1.  Error: Command not found
 
 Example command:
 
@@ -1468,7 +1438,7 @@ $ my_custom_command
 
 Solution: This error occurs when trying to execute a command that does not exist in
 
-the system's PATH. Ensure the command is installed or provide the correct path to
+the system’s PATH. Ensure the command is installed or provide the correct path to
 
 the command.
 
