@@ -8,269 +8,91 @@ author: Shyam Mohan
 category: DevOps
 date: 2024-04-22T01:17:00.000Z
 ---
-DevOps
-Interview
-questions
-and answers
-CONTENTS
-DevOps
-1. What are the popularDevOps tools that youuse?
-2. What are the mainbenefits of DevOps?
-3. What is the typical DevOps workflowyouuse inyourorganization?
-4. Howdo youtake DevOps approachwith AmazonWeb Services?
-5. Howwill youruna script automatically whena developer commits a change into GIT?
-6. What are the mainfeatures of AWS OpsWorks Stacks?
-7. Howdoes CloudFormationwork inAWS?
-8. What is CICD inDevOps?
-9. What are the best practices of Continuous Integration(CI)?
-10. What are the benefits of Continuous Integration(CI)?
-11. What are the options for security inJenkins?
-12. What are the mainbenefits of Chef?
-13. Whatisthe architecture of Chef?
-14. What is a Recipe in Chef?
-15. What are the mainbenefits of Ansible?
-16. What are the mainuse cases of Ansible?
-17. What is DockerHub?
-18. What is your favorite scripting language forDevOps?
-19. What is Multi-factorauthentication?
-20. What are the mainbenefits of Nagios?
-21. What is State Stalking in Nagios?
-22. What are the mainfeatures of Nagios?
-23. Whatis Puppet?
-24. Whatis the architecture of Puppet?
-25. What are the mainuse cases of Puppet Enterprise?
-26. What is the use of Kubernetes?
-27. What is the architecture of Kubernetes?
-28. Howdoes Kubernetes provide highavailability of applications ina Cluster?
-29. Why AutomatedTesting is a must requirement forDevOps?
-30. What is Chaos Monkey inDevOps?
-31. Howdo youperformTest Automationin DevOps?
-32. What are the mainservices of AWS that youhave used?
-33. Why GITis consideredbetter than CVS forversion controlsystem?
-34. What is the difference betweena Containeranda Virtual Machine?
-35. What is Serverless architecture?
-36. What are the mainprinciples of DevOps?
-37. Are youmore Dev ormore Ops?
-38. What is a RESTservice?
-39. What are the Three Ways of DevOps?
-40. Howdo youapply DevOps principles to make systemSecure?
-41. What is Self-testing Code?
-42. What is a Deployment Pipeline?
-43. What are the mainfeatures of DockerHub?
-44. What are the security benefits of using Containerbasedsystem?
-45. Howmany heads canyoucreate ina GITrepository?
-46. What is a Passive check in Nagios?
-47. What is a Docker container?
-48. Howwill you remove animage fromDocker?
-49. What are the commonuse cases of Docker?
-50. Can we lose ourdata whena DockerContainer exits?
-DockerQuestions
-51. What is Docker?
-52. What is the difference between Docker image andDocker container?
-53. Howis a Docker containerdifferent froma hypervisor?
-54. Canwe write compose file injsonfile insteadof yaml?
-55. Canwe runmultiple apps onone serverwithDocker?
-56. What are the mainfeatures of Docker-compose?
-57. What is the most popularuse of Docker?
-58. What is the role of opensource development inthe popularity of Docker?
-59. What is the difference between Docker commands: up, runandstart?
-60. What is DockerSwarm?
-61. What are the features of DockerSwarm?
-62. What is a Docker Image?
-63. What is a DockerContainer?
-64. What is DockerMachine?
-65. Why do we use DockerMachine?
-66. Howwill youcreate a ContainerinDocker?
-67. Do youthink Docker is Application-centric orMachine-centric?
-68. Canwe runmore thanone process ina Docker container?
-69. What are the objects createdby DockerCloud inAmazonWeb Services (AWS) EC2?
-70. Howwill you take backupof Docker containervolumes in AWS S3?
-71. What are the three mainsteps of DockerCompose?
-72. What is Pluggable Storage Driverarchitecture in Dockerbased containers?
-73. What are the mainsecurity concerns withDockerbasedcontainers?
-74. Howcanwe check the status of a ContainerinDocker?
-75. What are the mainbenefits of using Docker?
-76. Howdoes Docker simplify Software Development process?
-77. Whatisthe basic architecture behindDocker?
-78. What are the popular tasks that youcando withDockerCommandline tool?
-79. What type of applications- Stateless orStateful are more suitable forDockerContainer?
-80. HowcanDocker runondifferent Linux distributions?
-81. Why do we use Dockerontopof a virtual machine?
-82. Howcan Docker container share resources?
-83. What is the difference between AddandCopy commandina Dockerfile?
-84. What is DockerEntrypoint?
-85. What is ONBUILD commandinDocker?
-86. What is Build cache inDocker?
-87. What are the most commoninstructions inDockerfile?
-88. What is the purpose of EXPOSEcommandinDockerfile?
-89. What are the different kinds of namespaces available ina Container?
-90. Howwill youmonitorDocker inproduction?
-91. What are the Cloudplatformsthatsupport Docker?
-92. Howcan we control the startuporderofservices in Docker compose?
-93. Why Docker compose does notwaitfora containerto be ready before moving onto start nextservice independency order?
-94. Howwill youcustomize Docker compose file fordifferent environments?
-CloudComputingQuestions
-95. What are the benefits of CloudComputing?
-96. Whatis On-demandcomputing inCloudComputing?
-97. What are the different layers of Cloudcomputing?
-98. What resources are providedby Infrastructure as a Service (IAAS) provider?
-99. What is the benefit of Platformas a Service?
-100. What are the mainadvantages of PaaS?
-101. What is the maindisadvantage of PaaS?
-102. What are the different deployment models inCloudcomputing?
-103. What is the difference betweenScalability andElasticity?
-104. What is Software as a Service?
-105. What are the different types of Datacenters inCloudcomputing?
-106. Explainthe various modes of Software as a Service (SaaS) cloudenvironment?
-107. What are the importantthings to care about inSecurity ina cloudenvironment?
-108. Why do we use APIincloudcomputing environment?
-109. What are the different areas of Security Management incloud?
-110. What are the maincost factors of cloudbaseddata center?
-111. Howcanwe measure the cloud-basedservices?
-112. Howa traditional datacenter is different froma cloud environment?
-113. Howwill youoptimize availability of yourapplicationina Cloudenvironment?
-114. What are the requirements forimplementing IaaS strategy inCloud?
-115. What is the scenario inwhichpublic cloudis preferredoverprivate cloud?
-116. Do youthink CloudComputing is a software applicationora hardware service?
-117. Why companies nowpreferCloudComputing architecture overClient ServerArchitecture?
-118. What are the maincharacteristics of CloudComputing architecture?
-119. Howdatabases inCloudcomputing are different fromtraditional databases?
-120. Whatis Virtual Private Network (VPN)?
-121. What are the maincomponents of a VPN?
-122. Howwill yousecure the applicationdata for transport ina cloudenvironment?
-123. What are the large-scale databases available inCloud?
-124. What are the options foropensource NoSQLdatabase ina Cloudenvironment?
-125. What are the important points to considerbefore selecting cloudcomputing?
-126. What is a Systemintegrator inCloud computing?
-127. Whatis virtualizationincloudcomputing?
-128. What is Eucalyptus ina cloudenvironment?
-129. What are the maincomponents ofEucalyptus cloudarchitecture?
-130. Whatis Auto-scaling inCloudcomputing?
-131. What are the benefits of Utility Computing model?
-132. What is a Hypervisor inCloudComputing?
-133. What are the different types of Hypervisor inCloudComputing?
-134. Why Type-1Hypervisorhas betterperformance thanType-2 Hypervisor?
-135. What is CaaS?
-136. Howis Cloudcomputing differentfromcomputing formobile devices?
-137. Why automationof deploymentis very importantinCloudarchitecture?
-138. What are the maincomponents inAmazonCloud?
-139. What are maincomponents inGoogle Cloud?
-140. What are the majorofferings ofMicrosoft Azure Cloud?
-141. What are the reasons of popularity of CloudComputing architecture?
-142. What are the Machine Learning options fromGoogle Cloud?
-143. Howwill youoptimize the CloudComputing environment?
-144. Do youthink Regulations andLegal Compliance is animportant aspect of CloudComputing?
-Unix Questions
-145. Howwill youremove all files incurrent directory? Including the files that are two levels downina sub-directory.
-146. Whatis the difference betweenthe –v and–x optionsinBash shellscripts?
-147. Whatis a Filter inUnix command?
-148. What is Kernel inUnix operating system?
-149. What is a Shell inUnix OS?
-150. What are the different shells inUnix that youknowabout?
-151. What is the first characterof the output inls –l command?
-152. What is the difference betweenMulti-tasking andMulti-user environment?
-153. What is anInode inUnix?
-154. What is the difference betweenabsolute pathandrelative pathinUnix file system?
-155. What are the mainresponsibilities of a Unix Shell?
-156. What is a Shell variable?
-157. What are the important Shell variables that are initializedonstarting a Shell?
-158. Howwill youset the value of Environment variables inUnix?
-159. What is the difference betweena SystemCall anda library function?
-160. What are the networking commands inUnix that youhave used?
-161. What is a Pipeline inUnix?
-162. What is the use of tee commandinUnix?
-163. Howwill youcount the numberof lines andwords ina file inUnix?
-164. What is Bash shell?
-165. Howwill you searchfora name in Unix files?
-166. What are the popularoptions of grepcommandinUnix?
-167. What is the difference betweenwhoami andwho ami commands inUnix?
-168. What is a Superuser in Unix?
-169. Howwill youcheck the informationabout a process in Unix?
-170. Whatis the use of more commandwithcat command?
-171. What are the File modes inUnix?
-172. We wrote a shellscript inUnix but it is not doing anything. What couldbe the reason?
-177. What is the significance of 755 inchmod755 command?
-178. Howcanwe runa process inbackgroundinUnix? Howcanwe kill a process running inbackground?
-179. Howwill you create a readonly file inUnix?
-180. Howdoes alias work inUnix?
-181. Howcanyou redirectI/Oin Unix?
-182. What are the mainsteps takenby a Unix Shell forprocessing a command?
-183. What is a Sticky bit inUnix?
-184. What are the different outputs fromKill commandinUnix?
-185. Howwill youcustomize your environment inUnix?
-186. What are the popular commands forusermanagement inUnix?
-187. Howwill youdebug a shellscript inUnix?
-188. What is the difference betweena Zombie andOrphanprocess inUnix?
-189. Howwill youcheck if a remote host is still alive?
-190. Howwill youget the last executedcommand in Unix?
-191. What is the meaning of “2>&1” ina Unix shell?
-192. Howwill youfindwhichprocess is taking most CPUtime inUnix?
-193. What is the difference betweenSoft link andHardlink inUnix?
-194. Howwill youfindwhich processes are using a file?
-195. Whatis the purpose of nohupinUnix?
-196. Howwill youremove blank lines froma file in Unix?
-197. Howwill youfindthe remote hosts that are connecting to yoursystemon a specific portinUnix?
-198. What is xargs inUnix?
-DevOps Interview Questions
-DevOps
-1. What are the popular DevOps tools that you use?
-We use folowingtoolsfor work inDevOps:
-I. Jenkins : This is an open source automation server used as a continuous integration tool. We can build,
-deployand runautomated tests withJenkins.
-II. GIT:It is a version controltool used for tracking changesin files and software.
+**1. What are the popular DevOps tools that you use?**
+
+We use folowing tools for work in DevOps:
+
+I. Jenkins : This is an open source automation server used as a continuous integration tool. We can build, deploy and run automated tests with Jenkins.
+
+II. GIT: It is a version controltool used for tracking changesin files and software.
+
 III. Docker : This is a popular tool for containerization of services. It is very useful in Cloud based deployments.
-IV. Nagios :We use Nagiosfor monitoring ofITinfrastructure.
-V. Splunk :Thisis a powerfultoolfor log search as wel as monitoring production systems.
-VI. Puppet :We use Puppet to automate our DevOps work so that it isreusable.
-2. What are the main benefits of DevOps?
-DevOpsis a very popular trend inSoftware Development. Some ofthe main benefits ofDevOps are asfolows:
-I. Release Velocity : DevOps practices help in increasing the release velocity. We can release code to
-productionmore oftenand withmore confidence.
-II. Development Cycle : With DevOps, the complete Development cycle from initial design to production
-deployment becomesshorter.
-III. Deployment Rollback : In DevOps, we plan for any failure in deployment rolback due to a bug in code or
-issue in production. This gives confidence in releasing feature without worrying about downtime for rolback.
-IV. Defect Detection: With DevOps approach, we can catch defects much earlier than releasing to production.
-It improvesthe quality ofthe software.
-V. Recovery fromFailure :In case of a failure, we can recover very fast withDevOps process.
-VI. Collaboration:WithDevOps, colaboration between development and operations professionalsincreases.
-VII. Performance-oriented : With DevOps, organization folows performance-oriented culture in which teams
-becomemore productive andmore innovative.
-3. What is the typical DevOps workflow you use in your organization?
+
+IV. Nagios : We use Nagiosfor monitoring ofITinfrastructure.
+
+V. Splunk : This is a powerful tool for log search as wel as monitoring production systems.
+
+VI. Puppet : We use Puppet to automate our DevOps work so that it isreusable.
+
+**2. What are the main benefits of DevOps?**
+
+DevOps is a very popular trend in Software Development. Some of the main benefits of DevOps are as folows:
+
+I. Release Velocity : DevOps practices help in increasing the release velocity. We can release code to production more often and with more confidence.
+
+II. Development Cycle : With DevOps, the complete Development cycle from initial design to production deployment becomes shorter.
+
+III. Deployment Rollback : In DevOps, we plan for any failure in deployment rolback due to a bug in code or issue in production. This gives confidence in releasing feature without worrying about downtime for rolback.
+
+IV. Defect Detection: With DevOps approach, we can catch defects much earlier than releasing to production. It improvesthe quality ofthe software.
+
+V. Recovery fromFailure :In case of a failure, we can recover very fast with DevOps process.
+
+VI. Collaboration: WithDevOps, colaboration between development and operations professionalsincreases.
+
+VII. Performance-oriented : With DevOps, organization folows performance-oriented culture in which teams become more productive and more innovative.
+
+**3. What is the typical DevOps workflow you use in your organization?**
+
 The typicalDevOps workflowin our organization is as folows:
-I. We use AtlassianJira for writingrequirements and trackingtasks.
-II. Based on the Jira tasks, developers checkin code into GITversion controlsystem.
-III. The code checked into GITis built by usingApache Maven.
+
+I. We use Atlassian Jira for writing requirements and tracking tasks.
+
+II. Based on the Jira tasks, developers checkin code into GIT version control system.
+
+III. The code checked into GIT is built by using Apache Maven.
+
 IV. The build processis automated with Jenkins.
+
 V. During the build process, automated testsrun to validate the code checked in by developer.
+
 VI. Code built onJenkinsissent to organization’s Artifactory.
+
 VII. Jenkins automaticaly picksthe librariesfromArtifactory and deploysit to Production.
+
 VIII. DuringProduction deployment Docker images are used to deploy same code onmultiple hosts.
+
 IX. Once code is deployed to Production, we use Nagiosto monitor the health of production servers.
+
 X. Splunk based alertsinformus of any issues or exceptionsin production.
-4. How do you take DevOps approach with Amazon Web Services?
-Amazon Web Services (AWS) provide many tools and features to deploy and manage applications inAWS. As per DevOps,
-we treat infrastructure as code. We mainly use folowing two servicesfromAWS for DevOps:
-I. CloudFormation : We use AWS CloudFormation to create and deploy AWS resources by using templates.
-We can describe our dependencies and pass special parameters in these templates. CloudFormation can read
-these templates and deploy the application and resourcesinAWS cloud.
-II. OpsWorks : AWS provides another service caled OpsWorks that is used for configuration management by
-utilizing Chef framework. We can automate server configuration, deployment and management by using
-OpsWorks. It helpsinmanaging EC2 instancesinAWS as wel as any on-premisesservers.
-5. How will you run a script automatically when a developer commits a
-change into GIT?
-GITprovidesthe feature to execute customscripts when certain event occursinGIT. Thisfeature is caled hooks.
-We canwrite two types ofhooks.
+
+**4. How do you take DevOps approach with Amazon Web Services?**
+
+Amazon Web Services (AWS) provide many tools and features to deploy and manage applications in AWS. As per DevOps, we treat infrastructure as code. We mainly use folowing two services from AWS for DevOps:
+
+I. CloudFormation : We use AWS CloudFormation to create and deploy AWS resources by using templates. We can describe our dependencies and pass special parameters in these templates. CloudFormation can read these templates and deploy the application and resources in AWS cloud.
+II. OpsWorks : AWS provides another service caled OpsWorks that is used for configuration management by utilizing Chef framework. We can automate server configuration, deployment and management by using
+Ops Works. It helps inmanaging EC2 instances in AWS as wel as any on-premisesservers.
+
+**5. How will you run a script automatically when a developer commits a change into GIT?**
+
+GIT providesthe feature to execute custom scripts when certain event occurs in GIT. This feature is caled hooks.
+
+We can write two types ofhooks.
+
 I. Client-side hooks
+
 II. Server-side hooks
-For this case, we can write a Client-side post-commit hook. This hook wil execute a customscript inwhich we can add the
-message and code thatwewantto runautomaticalywitheachcommit.
-6. What are the main features of AWS OpsWorks Stacks?
-Some ofthe main features ofAWS OpsWorks Stacks are asfolows:
-I. Server Suppo rt:AWS OpsWorks Stacks we can automate operational tasks on any server inAWS as wel
-as our own data center.
-II. Scalable Automation : We get automated scaling support with AWS OpsWorks Stacks. Each new instance
-inAWS can read configuration fromOpsWorks. It can even respond to systemevents in same way as other
+
+For this case, we can write a Client-side post-commit hook. This hook wil execute a custom script in which we can add the message and code that we want to run automaticaly with each commit.
+
+**6. What are the main features of AWS OpsWorks Stacks?**
+
+Some ofthe main features ofAWS OpsWorks Stacks are as folows:
+
+I. Server Suppo rt:AWS OpsWorks Stacks we can automate operational tasks on any server in AWS as wel as our own data center.
+
+II. Scalable Automation : We get automated scaling support with AWS OpsWorks Stacks. Each new instance in AWS can read configuration fromOpsWorks. It can even respond to systemevents in same way as other
 instances do.
 III. Dashboard:We can create dashboardsinOpsWorksto display the status of al the stacksinAWS.
 IV. Configuration as Code : AWS OpsWorks Stacks are built on the principle of “Configuration as Code”. We
@@ -1756,35 +1578,48 @@ A soft link is a pointer to a file, directory or a programlocated in a dif erent
 directory.
 Ifwe move, delete or rename a file, the soft linkwil be broken. But a hard link stil remains aftermovingthe file/program.
 We use the command ln–s for creatinga soft link. But a hard link canbe created bylncommandwithout –s option.
-194. How will you find which processes are using a file?
-We canuse lsofcommand to find the list ofProcessIDs ofthe processesthat are accessinga fileinUnix.
-LsofstandsforList OpenFiles.
+
+**194. How will you find which processes are using a file?**
+
+We can use lsof command to find the list of Process IDs of the processes that are accessing a file in Unix. lsof stands for List Open Files.
 Sample command is:
-%lsof/var
-It wil listthe processesthat are accessing/var directoryincurrent unixsystem.
-We can use options –i, -n and –P for diferent uses.
-%lsof–iwil onlylistIP sockets.
-195. What is the purpose of nohup in Unix?
-In Unix, nohup command can be used to run a command in background. But it is dif erent from& option to run a process in background.
-Nohup stands for No Hangup. A nohup process does not stop even ifthe Unix user that started the process has logged out fromthe system.
-But the processstarted with option& wil stop when the user thatstarted the processlogs of.
-196. How will you remove blank lines from a file in Unix?
+
+%lsof /var
+
+It wil list the processes that are accessing/var directory in current unix system. We can use options –i, -n and –P for diferent uses.
+
+%lsof –i will only list IP sockets.
+
+**195. What is the purpose of nohup in Unix?**
+
+In Unix, nohup command can be used to run a command in background. But it is diferent from & option to run a process in background.
+Nohup stands for No Hangup. A nohup process does not stop even if the Unix user that started the process has logged out from the system.
+But the process started with option & wil stop when the user that started the process logs of.
+
+**196. How will you remove blank lines from a file in Unix?**
+
 We can use grep command for this option. Grep command gives –v option to exclude lines that do not match a pattern.
 In anemptyline there is nothingfromstart to end. InGrep command, ^ denotesthatstart ofline and $ denotesthe end ofline.
 % grep –v‘^$’liststhe linesthat are emptyfromstart to the end.
 Once we get this result, we can use > operator to write the output to a new file. So exact command wil be:
+
 % grep –v ‘^$’ file1.txt > file2.txt
-197. How will you find the remote hosts that are connecting to your
-system on a specific port in Unix?
-We canuse netstat command forthis purpose. Netstat command liststhe statistics about network connections. We cangrep forthe port inwhich
-we are interested.
-Exact command wil be:
+
+**197. How will you find the remote hosts that are connecting to your
+system on a specific port in Unix?**
+
+We canuse netstat command forthis purpose. Netstat command liststhe statistics about network connections. We cangrep forthe port in which
+we are interested. Exact command wil be:
+
 % netstst –a | grep “port number”
-198. What is xargs in Unix?
-We use xargs command to build and execute commands that take input fromstandard input. It is generaly used in chaining of commands.
-Xargs breaks the list ofargumentsinto smal sub liststhat canbe handled bya command.
+
+**198. What is xargs in Unix?**
+
+We use xargs command to build and execute commands that take input from standard input. It is generaly used in chaining of commands.
+Xargs breaks the list of arguments into small sub lists that can be handled by a command.
 Folowingis a sample command:
-% find /path -type f-print | xargs rm
-The above command uses find to get the list of al files in /path directory. Then xargs command passes this list to rmcommand so that they can be
-deleted.
-Thanks! !
+
+<code>% find /path -type f-print | xargs rm</code>
+
+The above command uses find to get the list of al files in /path directory. Then xargs command passes this list to rmcommand so that they can be deleted.
+
