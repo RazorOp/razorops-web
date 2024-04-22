@@ -71,8 +71,9 @@ X. Splunk based alertsinformus of any issues or exceptionsin production.
 Amazon Web Services (AWS) provide many tools and features to deploy and manage applications in AWS. As per DevOps, we treat infrastructure as code. We mainly use folowing two services from AWS for DevOps:
 
 I. CloudFormation : We use AWS CloudFormation to create and deploy AWS resources by using templates. We can describe our dependencies and pass special parameters in these templates. CloudFormation can read these templates and deploy the application and resources in AWS cloud.
+
 II. OpsWorks : AWS provides another service caled OpsWorks that is used for configuration management by utilizing Chef framework. We can automate server configuration, deployment and management by using
-Ops Works. It helps inmanaging EC2 instances in AWS as wel as any on-premisesservers.
+Ops Works. It helps inmanaging EC2 instances in AWS as wel as any on-premises servers.
 
 **5. How will you run a script automatically when a developer commits a change into GIT?**
 
