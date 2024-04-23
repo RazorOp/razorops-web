@@ -157,7 +157,9 @@ VII. Al the stakeholders including business partners can see the smal changes de
 environment. This provides earlyfeedback onthe changes to software.
 VIII. Automated CI and testing generates metrics like code-coverage, code complexity that help in improving the
 development process.
-11. What are the options for security in Jenkins?
+
+**11. What are the options for security in Jenkins?**
+
 In Jenkins, it is very important to make the system secure by setting user authentication and authorization. To do this we have
 to do folowing:
 I. First we have to set up the Security Realm. We can integrate Jenkins with LDAP server to create user
@@ -167,14 +169,18 @@ In Jenkins some ofthe optionsto setup security are asfolows:
 I. We canuse Jenkins’ ownUser Database.
 II. We can use LDAP pluginto integrate Jenkins withLDAP server.
 III. We can also setup Matrix based security on Jenkins.
-12. What are the main benefits of Chef?
+
+**12. What are the main benefits of Chef?**
+
 Chefis an automation toolfor keepinginfrastructure as code. It has many benefits. Some ofthese are asfolows:
 I. CloudDeployment:We can use Chefto performautomated deployment inCloud environment.
 II. Multi-cloudsupport:WithChefwe can even use multiple cloud providersfor our infrastructure.
 III. HybridDeployment :Chefsupports bothCloud based as wel as datacenter-based infrastructure.
 IV. High Availability : With Chef automation, we can create high availability environment. In case of hardware
 failure, Chef can maintain or start new servers in automated way to maintain highly available environment.
-13. What is the architecture of Chef?
+
+**13. What is the architecture of Chef?**
+
 Chef is composed of many components like Chef Server, Client etc. Some of the main components in Chef are as folows:
 I. Client: These are the nodes orindividualusersthat communicate withChefserver.
 II. ChefManage : Thisisthe web console thatis used forinteractingwithChefServer.
@@ -185,14 +191,18 @@ separate storage fromthe Chefserver.
 V. PostgreSQL:Thisisthe data repository for Chefserver.
 VI. Chef Server : This is the hub for configuration data. Al the cookbooks and policies are stored in it. It can
 scale to the size ofany enterprise.
-14. What is a Recipe in Chef?
+
+**14. What is a Recipe in Chef?**
+
 In anyorganization, Recipe isthe most fundamentalconfigurationelement.
 It is written inRuby language. It is a colection ofresources defined by using patterns.
 A Recipe isstored ina Cookbook and itmayhave dependencyonotherRecipe.
 We cantagRecipe to create some kind ofgrouping.
 We have to add a Recipe in run-list before using it by chef-client.
 It alwaysmaintainsthe executionorderspecifiedinrun-list.
-15. What are the main benefits of Ansible?
+
+**15. What are the main benefits of Ansible?**
+
 Ansible is a powerful tool for IT Automation for large scale and complex deployments. It increases the productivity of team.
 Some ofthe main benefits ofAnsible are asfolows:
 I. Productivity :It helpsindeliveringand deployingwithspeed. It increases productivityinan organization.
@@ -201,7 +211,9 @@ delivering smartsolutions.
 III. Large-scale :Ansible can be used in smal as wel as very large-scale organizations.
 IV. Simple DevOps : With Ansible, we can write automation in a human-readable language. This simplifies the
 task ofDevOps.
-16. What are the main use cases of Ansible?
+
+**16. What are the main use cases of Ansible?**
+
 Some ofthe popular use cases ofAnsible are asfolows:
 I. AppDeployment :WithAnsible, we can deploy appsin a reliable and repeatable way.
 II. ConfigurationManagement :Ansible supports the automation of configuration management across multiple
@@ -212,12 +224,16 @@ V. Compliance : Ansible helps in verifying and organization’s systems in compa
 regulations.
 VI. Provisioning :We can provide newsystems and resourcesto other users withAnsible.
 VII. Orchestration:Ansible can be used in orchestration of complex deployment in a simple way.
-17. What is Docker Hub?
+
+**17. What is Docker Hub?**
+
 Docker Hub is a cloud-based registry. We can use Docker Hub to link code repositories. We can even build images and store
 theminDocker Hub. It also provideslinksto Docker Cloud to deploy the imagesto our hosts.
 Docker Hub is a central repository for container image discovery, distribution, change management, workflow automation and
 teamcolaboration.
-18. What is your favorite scripting language for DevOps?
+
+**18. What is your favorite scripting language for DevOps?**
+
 In DevOps, we use diferent scripting languages for diferent purposes. There is no single language that can work in al the
 scenarios. Some ofthe popularscripting languagesthat we use are asfolows:
 I. Bash:OnUnix based systems we use Bash shel scripting for automating tasks.
@@ -226,13 +242,17 @@ standard libraries withPython.
 III. Groovy : This is a Java based scripting language. We need JVM instaled in an environment to use Groovy. It
 is verypowerful and it provides verypowerfulfeatures.
 IV. Perl : Thisis anotherlanguage that is veryusefulfortext parsing. We use itinweb applications.
-19. What is Multi-factor authentication?
+
+**19. What is Multi-factor authentication?**
+
 In security implementation, we use Multi-factor authentication (MFA). In MFA, a user is authenticated by multiple means
 before giving accessto a resource orservice. It is diferent fromsimple user/password based authentication.
 The most popular implementation of MFA is Two-factor authentication. In most of the organizations, we use
 username/password and anRSAtokenastwo factorsfor authentication.
 WithMFA, the systembecomes more secure and it cannot be easily hacked.
-20. What are the main benefits of Nagios?
+
+**20. What are the main benefits of Nagios?**
+
 Nagios is open source software to monitor systems, networks and infrastructure. The main benefits of Nagios are as folows:
 I. Monitor : DevOps can configure Nagios to monitor IT infrastructure components, system metrics and
 network protocols.
@@ -241,13 +261,15 @@ III. Response :DevOps acknowledges alerts and takes corrective actions.
 IV. Report :PeriodicalyNagios can publish/send reports on outages, events and SLAs etc.
 V. Maintenance:Duringmaintenance windows, we canalso disable alerts.
 VI. Planning :Based on past data, Nagios helps ininfrastructure planningand upgrades.
-21. What is State Stalking in Nagios?
+
+**21. What is State Stalking in Nagios?**
 State Stalking is a very useful feature. Though al the users do not use it al the time, it is very helpful when we want to
 investigate an issue.
 In State Stalking, we can enable stalking on a host. Nagios wil monitor the state of the host very carefuly and it wil log any
 changesin the state.
 By this we canidentifywhat changes might be causing an issue on the host.
-22. What are the main features of Nagios?
+
+**22. What are the main features of Nagios?**
 Some ofthe main features ofNagios are asfolows:
 I. Visibility :Nagios provides a centralized viewofthe entire ITinfrastructure.
 II. Monitoring :We canmonitor al the mission criticalinfrastructure components withNagios.
@@ -255,12 +277,16 @@ III. Proactive Planning : With Capacity Planning and Trending we can proactively
 the infrastructure.
 IV. Extendable :Nagiosis extendable to a third party toolsinAPIs.
 V. Multi-tenant:Nagios supports multi-tenants architecture.
-23. What is Puppet?
+
+**23. What is Puppet?**
+
 Puppet Enterprise is a DevOps software platformthat is used for automation of infrastructure operations. It runs on Unix as
 wel as onWindows.
 We can define systemconfiguration by usingPuppet’slanguage or RubyDSL.
 The systemconfiguration described inPuppet’slanguage can be distributed to a targetsystemby usingRESTAPI cals.
-24. What is the architecture of Puppet?
+
+**24. What is the architecture of Puppet?**
+
 Puppet is Open Source software. It is based on Client-server architecture. It is a Model Driven system. The client is also
 caled Agent. And server is caled Master.
 It has folowingarchitectural components:
@@ -273,7 +299,9 @@ on dif erent platforms. Puppet agent uses a Facter for passing the information o
 server. InFacter we have informationaboutIP, hostname, OS etc ofthe environment.
 III. Transaction : In Puppet, Agent sends Facter to Master server. Master sends back the catalog to Client.
 Agent applies any configuration changes to system. Once al changes are applied, the result is sent to Server.
-25. What are the main use cases of Puppet Enterprise?
+
+**25. What are the main use cases of Puppet Enterprise?**
+
 We can use Puppet Enterprise for folowing scenarios:
 I. Node Management: We canmanage a large numberofnodes withPuppet.
 II. Code Management :WithPuppet we can define Infrastructure as code. We can review, deploy, and test the
@@ -286,14 +314,17 @@ V. Orchestration : For a large Cluster of nodes, we can orchestrate the complete
 canfolowthe orderinwhichwe want to deploythe infrastructure environments.
 VI. Automation of Configuration : With Configuration automation, the chances of manual errors are reduced.
 The process becomesmore reliable withthis.
-26. What is the use of Kubernetes?
+
+**26. What is the use of Kubernetes?**
 We use Kubernetesfor automationoflarge-scale deployment ofContainerized applications.
 It is anopensource systembased onconceptssimilarto Google’s deployment process ofmilions ofcontainers.
 It can be used on cloud, on-premise datacenter and hybrid infrastructure.
 In Kubernetes we can create a cluster ofservers that are connected to work as a single unit. We can deploy a containerized
 applicationtoal theserversina clusterwithoutspecifyingthemachinename.
 We have to package applications insucha waythat theydo not depend ona specific host.
-27. What is the architecture of Kubernetes?
+
+**27. What is the architecture of Kubernetes?**
+
 The architecture ofKubernetes consists offolowingcomponents:
 Master : There is a master node that is responsible for managing the cluster. Master performs folowing functions in a cluster.
 I. SchedulingApplications
@@ -305,29 +336,38 @@ inthe cluster. There issoftware caled Kubelet on each node. Thissoftware is used
 with theMaster node incluster.
 There is a Kubernetes API that is used by Nodes to communicate with the Master. When we deploy an application on
 Kubernetes, we request Master to start application containers onNodes.
-28. How does Kubernetes provide high availability of applications in a
-Cluster?
+
+**28. How does Kubernetes provide high availability of applications in a Cluster?**
+
 In a Kubernetes cluster, there is a Deployment Controler. This controler monitors the instances created by Kubernetes in a
 cluster. Once a node or the machine hostingthe node goes down, Deployment Controler wil replace the node.
 It is a self-healingmechanisminKubernetesto provide highavailabilityofapplications.
 Therefore in Kubernetes cluster, Kubernetes Deployment Controler is responsible for starting the instances as wel as
 replacingthe instancesincase ofa failure.
-29. Why Automated Testing is a must requirement for DevOps?
+
+**29. Why Automated Testing is a must requirement for DevOps?**
+
 In DevOps approach we release software with high frequency to production. We have to run tests to gain confidence on the
 quality ofsoftware deliverables.
 Running tests manualy is a time taking process. Therefore, we first prepare automation tests and then deliver software. This
 ensuresthat we catchanydefects earlyinour process.
-30. What is Chaos Monkey in DevOps?
+
+**30. What is Chaos Monkey in DevOps?**
+
 Chaos Monkey is a concept made popular by Netflix. In Chaos Monkey, we intentionaly try to shut down the services or
 create failures. Byfailingone ormore services, we test the reliabilityand recoverymechanismofthe Productionarchitecture.
 It checks whether our applications and deployment have survivalstrategybuiltinto it or not.
-31. How do you perform Test Automation in DevOps?
+
+**31. How do you perform Test Automation in DevOps?**
+
 We use Jenkins to create automated flows to run Automation tests. The first part of test automation is to develop test strategy
 and test cases. Once automation test cases are ready for an application, we have to plug these into each Build run.
 In eachBuild we runUnit tests, Integration tests and Functional tests.
 With a Jenkins job, we can automate al these tasks. Once al the automated tests pass, we consider the build as green. This
 helpsin deployment and release processesto build confidence on the application software.
-32. What are the main services of AWS that you have used?
+
+**32. What are the main services of AWS that you have used?**
+
 We use folowingmainservices ofAWS inour environment:
 I. EC2 : This is the Elastic Compute Cloud by Amazon. It is used to for providing computing capability to a
 system. We can use it in places of our standalone servers. We can deploy dif erent kinds of applications on C2.
@@ -336,27 +376,35 @@ III. DynamoDB :We use DynamoDBinAWS for storing data in NoSQLdatabase form.
 IV. AmazonCloudWatch: We use CloudWatchto monitorour applicationinCloud.
 V. Amazon SNS : We use Simple Notification Service to inform users about any issues in Production
 environment.
-33. Why GIT is considered better than CVS for version control system?
+
+**33. Why GIT is considered better than CVS for version control system?**
+
 GIT is a distributed system. In GIT, any person can create its own branch and start checking in the code. Once the code is
 tested, it is merged into mainGIT repo. IN between, Dev, QA and product can validate the implementation of that code.
 InCVS, there is a centralized systemthat maintains al the commits and changes.
 GITis opensource software and there are plentyof extensionsinGITfor use by ourteams.
-34. What is the difference between a Container and a Virtual Machine?
+
+**34. What is the difference between a Container and a Virtual Machine?**
+
 We need to select an Operating System (OS) to get a specific Virtual Machine (VM). VM provides ful OS to an application
 forrunning ina virtualized environment.
 AContainer uses APIs of anOperatingSystem(OS) to provide runtime environment to an application.
 AContaineris verylightweight in comparisonwitha VM.
 VM provides higher level ofsecurity compared to a Container.
 AContainer just providesthe APIsthat are required by the application.
-35. What is Serverless architecture?
+
+**35. What is Serverless architecture?**
+
 Serverless Architecture is a termthat refersto folowing:
 I. AnApplication that depends on a third-party service.
 II. AnApplication inwhichCode isrun on ephemeral containers.
 InAWS, Lambda is a popularservice to implement Serverless architecture.
 Another concept in Serverless Architecture is to treat code as a service or Function as a Service (FAAS). We just write code
 that can be run on any environment or server without the need ofspecifying which server should be used to run this code.
-36. What are the main principles of DevOps?
-DevOpsis diferentfromTechnicalOperations. It hasfolowingmainprinciples:
+
+**36. What are the main principles of DevOps?**
+
+DevOps is diferent from Technical Operations. It has folowing main principles:
 I. Incremental : In DevOps we aim to incrementaly release software to production. We do releases to
 productionmore often thanWaterfal approach of one large release.
 II. Automated:To enable use to make releases more often, we automate the operations fromCode Check in to
@@ -367,14 +415,18 @@ IV. Iterative :DevOps is based on Iterative principle of using a process that is
 we aimtomake the process more eficient and better.
 V. Self-Service : In DevOps, we automate things and give self-service options to other teams so that they are
 empowered to deliver the work intheir domain.
-37. Are you more Dev or more Ops?
+
+**37. Are you more Dev or more Ops?**
+
 This is a tricky question. DevOps is a new concept and in any organization the maturity of DevOps varies from highly
 Operations oriented to highly DevOps oriented. In some projects teams are very mature and practice DevOps in it true form.
 Insome projects, teamsrelymore onOperationsteam.
 As a DevOps person I give first priority to the needs of an organization and project. At some times I may have to performa lot
 ofoperations work. But witheachiteration, I aimto bringDevOps changes incrementalyto anorganization.
 Over time, organization/projectstartsseeing results ofDevOps practices and embracesit fuly.
-38. What is a REST service?
+
+**38. What is a REST service?**
+
 REST is also known as Representational State Transfer. A REST service is a simple software functionality that is available
 over HTTP protocol. It is a lightweightservice that is widelyavailable due to the popularityofHTTP protocol.
 Sine REST is lightweight; it has very good performance in a software system. It is also one of the foundations for creating
@@ -382,7 +434,9 @@ highlyscalable systemsthat provide a service to largenumberofclients.
 Another key feature of a REST service is that as long as the interface is kept same, we can change the underlying
 implementation. E.g. Clients ofREST service can keep caling the same service while we change the implementation fromphp
 to Java.
-39. What are the Three Ways of DevOps?
+
+**39. What are the Three Ways of DevOps?**
+
 Three Ways ofDevOpsrefersto three basic principles ofDevOps culture. These are asfolows:
 I. The First Way: Systems Thinking : In this principle we see the DevOps as a flow of work from left to right.
 This is the time taken from Code check in to the feature being released to End customer. In DevOps culture
@@ -394,7 +448,9 @@ by customer.
 III. The ThirdWay: Continuous Learning : We make use offirst and second way principlesto keep on making
 improvements in the overal process. This is the third principle in which over the time we make the process and
 our operations highlyeficient, automated and error free by continuouslyimprovingthem.
-40. How do you apply DevOps principles to make system Secure?
+
+**40. How do you apply DevOps principles to make system Secure?**
+
 Security of a system is one of the most important goals for an organization. We use folowing ways to apply DevOps to
 security.
 I. Automated Security Testing : We automate and integrate Security testing techniques for Software
@@ -405,7 +461,9 @@ sharing sessions.
 III. Standard Process : At DevOps we try to folow standard deployment and development process that has
 already gone through security audits. This helps in minimizing the introduction of any new security loopholes
 due to change in the standard process.
-41. What is Self-testing Code?
+
+**41. What is Self-testing Code?**
+
 Self-testingCode is an important feature of DevOps culture. In DevOps culture, development teammembers are expected to
 write self-testing code. It means we have to write code along with the tests that can test this code. Once the test passes, we
 feel confident to release the code.
@@ -413,7 +471,9 @@ If we get an issue in production, we first write an automation test to validate 
 issue in release code is fixed, we run the same test to validate that the defect is not there. With each release we keep running
 these testsso that the issue does not appear anymore.
 One ofthe techniques ofwritingSelf-testingcode is Test DrivenDevelopment(TDD).
-42. What is a Deployment Pipeline?
+
+**42. What is a Deployment Pipeline?**
+
 A Deployment Pipeline is an important concept in Continuous Delivery. In Deployment Pipeline we break the build process
 into distinctstages. In each stage we get the feedback to move onto the nextstage.
 It is a colaborative efort between various groupsinvolved in delivering software development.
@@ -422,7 +482,9 @@ After that we run the automated tests. Depending on the scenario, there are stag
 usabilitytestingetc ina Deployment Pipeline.
 In DevOps, our aim is to automate al the stages of Deployment Pipeline. With a smooth running Deployment Pipeline, we can
 achieve the goalofContinuous Delivery.
-43. What are the main features of Docker Hub?
+
+**43. What are the main features of Docker Hub?**
+
 Docker Hub providesfolowingmain features:
 I. Image Repositories : In Docker Hub we can push, pul, find and manage Docker Images. It is a big library
 that hasimagesfromcommunity, oficialas wel as private sources.
@@ -431,7 +493,9 @@ code repository ofthe image.
 III. Webhooks: WithWebhooks inDocker Hub we can trigger actions that can create and build new images by
 pushing a change to repository.
 IV. Github/Bitbucketintegration:Docker Hub also providesintegrationwithGithub and Bitbucketsystems.
-44. What are the security benefits of using Container based system?
+
+**44. What are the security benefits of using Container based system?**
+
 Some ofthe main security benefits of using a Container based systemare asfolows:
 I. Segregation : In a Container based system we segregate the applications on dif erent containers. Each
 application may be running on same host but in a separate container. Each application has access to ports, files
@@ -443,24 +507,32 @@ application that we want to deploy and run. It also reduces the risk of unwanted
 cause security loopholes.
 IV. Security Patch: In a Container based system; we can deploy security patches on multiple containers in a
 uniformway. Also it is easier to patch a Container with an application update.
-45. How many heads can you create in a GIT repository?
+
+**45. How many heads can you create in a GIT repository?**
+
 There can be any number of headsin a GITrepository.
 By default there is one head known as HEAD in each repository inGIT.
-46. What is a Passive check in Nagios?
+
+**46. What is a Passive check in Nagios?**
+
 In Nagios, we can monitor hosts and services by active checks. In addition, Nagios also supports Passive checks that are
 initiated byexternal applications.
 The results ofPassive checks are submitted to Nagios. There are two main use cases ofPassive checks:
 I. We use Passive checks to monitor asynchronous services that do not give positive result with Active checks at
 regular intervals oftime.
 II. We can use Passive checksto monitorservices or applicationsthat are located behind a firewal.
-47. What is a Docker container?
+
+**47. What is a Docker container?**
+
 ADocker Containeris a lightweightsystemthat canbe runon a Linuxoperatingsystemor a virtualmachine. It is a package of
 anapplicationand related dependenciesthat canbe runindependently.
 Since Docker Container is very lightweight, multiple containers can be run simultaneously on a single server or virtual machine.
 With a Docker Container we can create an isolated system with restricted services and processes. A Container has private
 viewofthe operating system. It hasits own processIDspace, file system, and network interface.
 Multiple Docker Containers can share same Kernel.
-48. How will you remove an image from Docker?
+
+**48. How will you remove an image from Docker?**
+
 We can use docker rmi command to delete an image fromour localsystem.
 Exact command is:
 %dockerrmi<Image Id>
@@ -468,7 +540,9 @@ If we want to find IDs of al the Docker images in our local system, we can user 
 %dockerimages
 Ifwe want to remove a docker containerthenwe use docker rmcommand.
 % docker rm<ContainerId>
-49. What are the common use cases of Docker?
+
+**49. What are the common use cases of Docker?**
+
 Some ofthe common use cases ofDocker are as folows:
 I. Setting up Development Environment : We can use Docker to set the development environment with the
 applications onwhichour code is dependent.
@@ -477,37 +551,51 @@ diferentservices and apps withDockerto create the automation-testingenvironment.
 III. Production Deployment : Docker also helps in implementing the Production deployment for an application.
 We can use it to create the exact environment and process that wil be used for doing the production
 deployment.
-50. Can we lose our data when a Docker Container exits?
+
+**50. Can we lose our data when a Docker Container exits?**
+
 A Docker Container has its own file-system. In an application running on Docker Container we can write to this file-system.
 When the container exits, data written to file-systemstil remains. When we restart the container, same data can be accessed
 again.
 Onlywhenwe delete the container, related data wil be deleted.
 Docker Questions
-51. What is Docker?
+
+**51. What is Docker?**
+
 Docker is OpenSource software. It providesthe automationofLinux application deployment in a software container.
 We cando operatingsystemlevelvirtualizationonLinuxwithDocker.
 Docker can package software in a complete file system that contains software code, runtime environment, system tools, &
 librariesthat are required to instal and runthe software ona server.
-52. What is the difference between Docker image and Docker container?
+
+**52. What is the difference between Docker image and Docker container?**
+
 Docker container issimply an instance ofDocker image.
 A Docker image is an immutable file, which is a snapshot of container. We create an image with build command.
 Whenwe use run command, an Image wil produce a container.
 In programming language, an Image is a Class and a Container is an instance of the class.
-53. How is a Docker container different from a hypervisor?
+
+**53. How is a Docker container different from a hypervisor?**
+
 In a Hypervisor environment we first create a VirtualMachine and theninstal anOperatingSystemon it.Afterthat we deploy
 the application. The virtualmachine may also be instaled on diferent hardware configurations.
 In a Docker environment, we just deploy the application in Docker. There is no OS layer in this environment. We specify
 libraries, and rest ofthe kernelis provided byDocker engine.
 In a way, Docker container and hypervisor are complementary to each other.
-54. Can we write compose file in json file instead of yaml?
+
+**54. Can we write compose file in json file instead of yaml?**
+
 Yes. Yamlformat is a superset of json format. Therefore any json file is also a valid Yamlfile.
 Ifwe use a jsonfilethenwe have to specifyindocker command that we are usinga jsonfile asfolows:
 % docker-compose -f docker-compose.json up
-55. Can we run multiple apps on one server with Docker?
+
+**55. Can we run multiple apps on one server with Docker?**
+
 Yes, theoreticaly we can run multiples apps on one Docker server. But in practice, it is better to run dif erent components on
 separate containers.
 Withthis we get cleaner environment and it can be used for multiple uses.
-56. What are the main features of Docker-compose?
+
+**56. What are the main features of Docker-compose?**
+
 Some ofthe main features ofDocker-compose are asfolows:
 I. Multiple environments on same Host : We can use it to create multiple environments on the same host
 server.
@@ -516,17 +604,22 @@ we create a container.
 III. Recreate the changedContainers :We can also use compose to recreate the changed containers.
 IV. Variables in Compose file : Docker compose also supports variables in compose file. In this way we can
 create variations ofour containers.
-57. What is the most popular use of Docker?
+
+**57. What is the most popular use of Docker?**
+
 The most popular use of Docker is in build pipeline. With the use of Docker it is much easier to automate the development to
 deployment processin build pipeline.
 We use Dockerforthe complete build flowfromdevelopment work, testrunand deployment to productionenvironment.
-58. What is the role of open source development in the popularity of
-Docker?
+
+**58. What is the role of open source development in the popularity of Docker?**
+
 Since Linux was an open source operating system, it opened new opportunities for developers who want to contribute to open
 source systems.
 One ofthe very good outcomes of open source software is Docker. It has very powerfulfeatures.
 Docker has wide acceptance due to its usabilityas wel as its opensource approach ofintegratingwithdiferentsystems.
-59. What is the difference between Docker commands: up, run and start?
+
+**59. What is the difference between Docker commands: up, run and start?**
+
 We have up and start commandsin docker-compose. The run command isin docker.
 a. Up: We use this command to build, create, start or restart al the servicesin a docker-compose.ymlfile. It
 also attachesto containersfor a service.
@@ -535,10 +628,14 @@ b. Run: We use this command for adhoc requests. It just starts the service that 
 We generalyuse itrunspecific tests or anyadministrative tasks.
 c. Start : This command is used to start the container that were previously created but are not currently
 running. This command does not create newcontainers.
-60. What is Docker Swarm?
+
+**60. What is Docker Swarm?**
+
 Docker Swarm is used to create a cluster environment. It can turn a group of Docker engines into a Single virtual Docker
 Engine. This creates a systemwith pooled resources. We can use Docker Swarmto scale our application.
-61. What are the features of Docker Swarm?
+
+**61. What are the features of Docker Swarm?**
+
 Some ofthe key features of Docker Swarmare as folows:
 I. Compatible :Docker Swarmis compatible with standard Docker API.
 II. HighScalability : Swarmcan scale up to as much as 1000 nodes and 50000 containers. There is almost no
@@ -548,42 +645,58 @@ IV. High Availability : We can create a highly available system with Docker Swar
 multiplemaster nodesso that incase ofa failure, another node cantake over.
 V. Node Discovery : In Docker Swarm, we can add more nodes and the new nodes can be found with any
 discoveryservice like etcd or zookeeper etc.
-62. What is a Docker Image?
+
+**62. What is a Docker Image?**
+
 Docker Image is the blue print that is used to create a Docker Container. Whenever we want to run a container we have to
 specify the image that we want to run.
 There are many Docker images available online for standard software. We can use these images directly fromthe source.
 The standard set of Docker Images is stored in Docker Hub Registry. We can download these from this location and use it in
 our environment.
 We can also create our ownDocker Image with the software that we want to run as a container.
-63. What is a Docker Container?
-ADocker Containeris a lightweightsystemthat canbe runon a Linuxoperatingsystemor a virtualmachine. It is a package of
+
+**63. What is a Docker Container?**
+
+A Docker Containeris a lightweightsystemthat canbe runon a Linuxoperatingsystemor a virtualmachine. It is a package of
 anapplicationand related dependenciesthat canbe runindependently.
 Since Docker Container is very lightweight, multiple containers can be run simultaneously on a single server or virtual machine.
 With a Docker Container we can create an isolated system with restricted services and processes. A Container has private
 viewofthe operating system. It hasits own processIDspace, file system, and network interface.
 Multiple Docker Containers can share same Kernel.
-64. What is Docker Machine?
+
+**64. What is Docker Machine?**
+
 We can use Docker Machine to instal Docker Engine on virtual hosts. It also provides commands to manage virtual hosts.
 Some ofthe popular Docker machine commands enable usto start, stop, inspect and restart a managed host.
 Docker Machine provides a Command Line Interface (CLI), which is very useful in managing multiple hosts.
-65. Why do we use Docker Machine?
+
+**65. Why do we use Docker Machine?**
+
 There are two main uses ofDocker Machine:
 I. Old Desktop : If we have an old desktop and we want to run Docker then we use Docker Machine to run
 Docker. It islike instaling a virtualmachine on an old hardware systemto runDocker engine.
 II. Remote Hosts : Docker Machine is also used to provision Docker hosts on remote systems. By using
 Docker Machine you can instal Docker Engine on remote hosts and configure clients on them.
-66. How will you create a Container in Docker?
+
+**66. How will you create a Container in Docker?**
+
 To create a Container in Docker we have to create a Docker Image. We can also use an existing Image from Docker Hub
 Registry.
 We can run an Image to create the container.
-67. Do you think Docker is Application-centric or Machine-centric?
+
+**67. Do you think Docker is Application-centric or Machine-centric?**
+
 Docker is an Application-centric solution. It is optimized for deployment of an application. It does not replace a machine by
 creatinga virtualmachine.Rather, itfocuses on providingease ofuse featuresto runanapplication.
-68. Can we run more than one process in a Docker container?
+
+**68. Can we run more than one process in a Docker container?**
+
 Yes, a Docker Container can provide process management that can be used to run multiple processes. There are process
 supervisorslike runit, s6, daemontools etc that can be used to fork additional processesin a Docker container.
-69. What are the objects created by Docker Cloud in Amazon Web
-Services (AWS) EC2?
+
+**69. What are the objects created by Docker Cloud in Amazon Web
+Services (AWS) EC2?**
+
 Docker Cloud createsfolowing objectsinAWS EC2 instance:
 I. VPC : Docker Cloud creates a Virtual Private Cloud with the tag name dc-vpc. It also creates Class Less
 Inter-DomainRouting(CIDR) with the range of 10.78.0.0/16 .
@@ -593,9 +706,13 @@ III. Internet Gateway : Docker Cloud also creates an internet gateway with name 
 to the VPC created earlier.
 IV. Routing Table : Docker Cloud also creates a routing table named dc-route-table in Virtual Private Cloud. In
 this RoutingTable Docker Cloud associatesthe subnet with the Internet Gateway.
-70. How will you take backup of Docker container volumes in AWS S3?
+
+**70. How will you take backup of Docker container volumes in AWS S3?**
+
 We can use a utility named Dockup provided byDocker Cloud to take backup ofDocker container volumesinS3.
-71. What are the three main steps of Docker Compose?
+
+**71. What are the three main steps of Docker Compose?**
+
 Three main steps ofDocker Compose are as folows:
 I. Environment : We first define the environment of our application with a Dockerfile. It can be used to recreate
 the environment at a later point oftime.
@@ -603,14 +720,18 @@ II. Services : Then we define the services that make our app in docker-compose.y
 candefine howthese services canbe runtogetherinanenvironment.
 III. Run : The last step is to run the Docker Container. We use docker-compose up to start and run the
 application.
-72. What is Pluggable Storage Driver architecture in Docker based
-containers?
+
+**72. What is Pluggable Storage Driver architecture in Docker based
+containers?**
+
 Docker storage driver is by default based on a Linux file system. But Docker storage driver also has provision to plug in any
 otherstorage driverthat canbe used for our environment.
 In Pluggable Storage Driver architecture, we can use multiple kinds of file systems in our Docker Container. In Docker info
 commandwe cansee theStorage Driverthatisset onaDockerdaemon.
 We can even plug in shared storage systems with the Pluggable Storage Driver architecture.
-73. What are the main security concerns with Docker based containers?
+
+**73. What are the main security concerns with Docker based containers?**
+
 Docker based containers have folowing security concerns:
 I. Kernel Sharing : In a container-based system, multiple containers share same Kernel. If one container causes
 Kernel to go down, it wil take down al the containers. In a virtual machine environment we do not have this
@@ -626,71 +747,95 @@ other containers.
 V. Secret Sharing : Generaly one container can access other services. To access a service it requires a Key or
 Secret. A malicious user can gain access to this secret. Since multiple containers share the secret, it may lead
 to furthersecurity concerns.
-74. How can we check the status of a Container in Docker?
+
+**74. How can we check the status of a Container in Docker?**
+
 We can use docker ps –a command to get the list of al the containers in Docker. This command also returns the status of these containers.
-75. What are the main benefits of using Docker?
+
+**75. What are the main benefits of using Docker?**
+
 Docker is a very powerful tool. Some ofthe main benefits of using Docker are asfolows:
 I. Utilize Developer Skills : With Docker we maximize the use of Developer skils. With Docker there is less need of build or
 release engineers. Same Developer can create software and wrap it inone single file.
 II. StandardApplicationImage :Docker based systemalows usto bundle the application software and Operating systemfilesin a
 single ApplicationImage that canbe deployed independently.
-III. Uniformdeployment: WithDocker we cancreate one package ofoursoftware and deployit ondiferent platformsseamlessly
-.
-76. How does Docker simplify Software Development process?
+III. Uniformdeployment: WithDocker we cancreate one package ofoursoftware and deployit ondiferent platformsseamlessly.
+
+**76. How does Docker simplify Software Development process?**
+
 Prior to Docker, Developers would develop software and pass it to QA for testing and then it is sent to Build & Release teamfor deployment.
 In Docker workflow, Developer builds an Image after developing and testing the software. This Image is shipped to Registry. FromRegistry it is
 available for deployment to any system. The development process is simpler since steps for QA and Deployment etc take place before the Image
 is built. So Developer getsthe feedback early.
-77. What is the basic architecture behind Docker?
+
+**77. What is the basic architecture behind Docker?**
+
 Docker is built on client server model. Docker server is used to run the images. We use Docker client to communicate with Docker server.
 Clientstel Dockerserver via commands what to do.
 Additionaly there is a Registry thatstores Docker Images. Docker Server can directly contact Registry to download images.
-78. What are the popular tasks that you can do with Docker Command
-line tool?
+
+**78. What are the popular tasks that you can do with Docker Command
+line tool?**
+
 Docker Command Line (DCL) tool is implemented in Go language. It can compile and run on most of the common operating systems. Some of
 the tasksthatwe cando withDockerCommand Line toolare asfolows:
 I. We can download imagesfromRegistrywithDCL.
 II. We can start, stop or terminate a container on a Docker server by DCL.
 III. We can retrieve Docker Logs via DCL.
 IV. We can build a Container Image withDCL.
-79. What type of applications- Stateless or Stateful are more suitable for
-Docker Container?
+
+**79. What type of applications- Stateless or Stateful are more suitable for Docker Container?**
+
 It is preferable to create Stateless application for Docker Container. We can create a container out of our application and take out the configurable
 state parametersfromapplication. Now we can runsame containerinProductionas wel as QAenvironments withdiferent parameters. Thishelps
 in reusing the same Image in dif erent scenarios. Also a stateless application is much easier to scale with Docker Containers than a stateful
 application.
-80. How can Docker run on different Linux distributions?
+
+**80. How can Docker run on different Linux distributions?**
+
 Docker directly works with Linux kernel level libraries. In every Linux distribution, the Kernel is same. Docker containers share same kernel as the
 host kernel.
 Since al the distributionsshare the sameKernel, the container canrunonanyofthese distributions.
-81. Why do we use Docker on top of a virtual machine?
+
+**81. Why do we use Docker on top of a virtual machine?**
+
 Generaly we use Docker on top of a virtual machine to ensure isolation of the application. On a virtual machine we can get the advantage of
 security provided by hypervisor. We can implement dif erent security levels on a virtual machine. And Docker can make use of this to run the
 application at diferentsecurity levels.
-82. How can Docker container share resources?
+
+**82. How can Docker container share resources?**
+
 We can run multiple Docker containers on same host. These containers can share Kernel resources. Each container runs on its own Operating
 Systemand it hasits ownuser-space and libraries.
 So in a way Docker container does not share resources within its own namespace. But the resources that are not in isolated namespace are shared
 between containers. These are the Kernelresources of host machine that have just one copy.
 So in the back-end there is same set ofresourcesthat Docker Containers share.
-83. What is the difference between Add and Copy command in a
-Dockerfile?
+
+**83. What is the difference between Add and Copy command in a
+Dockerfile?**
+
 BothAdd andCopy commands ofDockerfile cancopy newfilesfroma source locationto a destinationinContainer’sfilepath.
 They behave almostsame.
 Themaindiference betweenthese two isthat Add command canalso read the filesfroma URL.
 As per Docker documentation, Copy command is preferable. Since Copy only supports copying local filesto a Container, it is preferred over Add
 command.
-84. What is Docker Entrypoint?
+
+**84. What is Docker Entrypoint?**
+
 We use Docker Entrypoint to set the starting point for a command in a Docker Image.
 We can use the entrypoint as a command for running an Image in the container.
 E.g. We can define folowing entrypoint in docker file and run it asfolowing command:
 ENTRYPOINT[“mycmd”]
 % docker runmycmd
-85. What is ONBUILD command in Docker?
+
+**85. What is ONBUILD command in Docker?**
+
 We use ONBUILDcommand inDockerto runthe instructionsthat have to execute afterthe completionofcurrent Dockerfile build.
 It is used to build a hierarchyofimagesthat have to be build after the parent image is built.
 A Docker build wil execute first ONBUILD command and then it wil execute any other command in Child Dockerfile.
-86. What is Build cache in Docker?
+
+**86. What is Build cache in Docker?**
+
 When we build an Image, Docker wil process each line in Dockerfile. It wil execute the commands on each line in the order that is mentioned in
 the file.
 But at each line, before running any command, Docker wil check if there is already an existing image in its cache that can be reused rather than
@@ -698,7 +843,9 @@ creating a newimage.
 This method ofusing cache inDocker is caled Build cache inDocker.
 We can also specify the option –no-cache=true to let Docker know that we do not want to use cache for Images. With this option, Docker wil
 create al newimages.
-87. What are the most common instructions in Dockerfile?
+
+**87. What are the most common instructions in Dockerfile?**
+
 Some ofthe common instructionsinDockerfile are asfolows:
 I. FROM : We use FROM to set the base image for subsequent instructions. In every valid Dockerfile, FROM is the first
 instruction.
@@ -709,10 +856,14 @@ III. RUN : We use RUN command to execute any instructions in a new layer on top 
 we add something on top ofthe image and use it in subsequentstepsin Dockerfile.
 IV. CMD : We use CMD command to provide default values of an executing container. In a Dockerfile, if we include multiple CMD
 commands, thenonlythe last instructionis used.
-88. What is the purpose of EXPOSE command in Dockerfile?
+
+**88. What is the purpose of EXPOSE command in Dockerfile?**
+
 We use EXPOSE command to informDocker that Container wil listen on a specific network port during runtime.
 But these ports on Container may not be accessible to the host. We can use –p to publish a range of ports fromContainer.
-89. What are the different kinds of namespaces available in a Container?
+
+**89. What are the different kinds of namespaces available in a Container?**
+
 In a Container we have an isolated environment with namespace for each resource that a kernel provides. There are mainly six types of
 namespacesin aContainer.
 I. UTS Namespace : UTS stands for Unix Timesharing System. In UTS namespace every container gets its own hostname and
@@ -726,7 +877,9 @@ pipes etc resourcesthat are shared by processes. The itemsin this namespace do n
 V. UserNamespace :This namespace containsthe users and groupsthat are defined within a container.
 VI. Network Namespace :With this namespace, container providesits own network resourceslike- ports, devices etc. With this
 namespace, Docker creates an independent network stack within each container.
-90. How will you monitor Docker in production?
+
+**90. How will you monitor Docker in production?**
+
 Docker providestoolslike dockerstats and docker eventsto monitor Docker in production.
 We canget reports onimportant statistics withthese commands.
 Docker stats : When we cal docker stats with a container id, we get the CPU, memory usage etc of a container. It is similar to top command in
