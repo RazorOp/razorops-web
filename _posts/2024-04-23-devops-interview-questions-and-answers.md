@@ -8,7 +8,8 @@ author: Shyam Mohan
 category: DevOps
 date: 2024-04-22T01:17:00.000Z
 ---
-![DevOps Interview questions and answers]( /images/DevOps-Interview-questions-and-answers.webp)
+
+![DevOps Interview questions and answers](/images/devops-interview-questions-and-answers.webp)
 
 **1. What are the popular DevOps tools that you use?**
 

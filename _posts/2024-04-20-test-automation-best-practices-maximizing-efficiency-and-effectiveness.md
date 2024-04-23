@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: Testing
-date: 2024-04-22T21:53:00.000Z
+date: 2024-04-20T21:53:00.000Z
 ---
 
 ![Test Automation Best Practices Maximizing Efficiency and Effectiveness](/images/test-automation-best-practices-maximizing-efficiency-and-effectiveness.png.gif)

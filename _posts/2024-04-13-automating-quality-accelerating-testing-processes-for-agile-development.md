@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: Testing
-date: 2024-04-22T22:02:00.000Z
+date: 2024-04-13T22:02:00.000Z
 ---
 
 ![Automating Quality Accelerating Testing Processes for Agile Development](/images/automating-quality-accelerating-testing-processes-for-agile-development.png.webp)
