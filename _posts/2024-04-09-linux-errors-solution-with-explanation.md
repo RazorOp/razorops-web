@@ -8,7 +8,7 @@ author: Shyam Mohan
 category: Linux
 date: 2024-04-08T23:11:00.000Z
 ---
-# 100 Linux Errors & Solution With Explanation
+
 
 **1.  Error: Permission denied**
 
