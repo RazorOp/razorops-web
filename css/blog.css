@@ -411,12 +411,11 @@ font-size: 2em;
 }
 
 .about-the-author{
-  margin-bottom: 30px;
-  border-radius: 10px;
+  border: 1px solid #EFEFEF;
+  border-radius: 4px;
   box-shadow: 0 4px 8px 0 rgba(24, 23, 23, 0.2);
-  padding-bottom: 20px;
-
 }
+
 .about-the-author .author-info h4{
     margin-bottom: 0px !important;
 }
