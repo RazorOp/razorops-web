@@ -79,7 +79,7 @@ Ops Works. It helps inmanaging EC2 instances in AWS as wel as any on-premises se
 
 GIT providesthe feature to execute custom scripts when certain event occurs in GIT. This feature is caled hooks.
 
-We can write two types ofhooks.
+We can write two types of hooks.
 
 I. Client-side hooks
 
@@ -89,55 +89,63 @@ For this case, we can write a Client-side post-commit hook. This hook wil execut
 
 **6. What are the main features of AWS OpsWorks Stacks?**
 
-Some ofthe main features ofAWS OpsWorks Stacks are as folows:
+Some ofthe main features of AWS OpsWorks Stacks are as folows:
 
 I. Server Suppo rt:AWS OpsWorks Stacks we can automate operational tasks on any server in AWS as wel as our own data center.
 
-II. Scalable Automation : We get automated scaling support with AWS OpsWorks Stacks. Each new instance in AWS can read configuration fromOpsWorks. It can even respond to systemevents in same way as other
-instances do.
-III. Dashboard:We can create dashboardsinOpsWorksto display the status of al the stacksinAWS.
-IV. Configuration as Code : AWS OpsWorks Stacks are built on the principle of “Configuration as Code”. We
-can define and maintain configurations like application source code. Same configuration can be replicated on
-multiple servers and environments.
-V. ApplicationSupport :OpsQorkssupports almost al kinds of applications. So it is universal in nature.
-7. How does CloudFormation work in AWS?
-AWS CloudFormation is used for deployingAWS resources.
+II. Scalable Automation : We get automated scaling support with AWS OpsWorks Stacks. Each new instance in AWS can read configuration fromOpsWorks. It can even respond to systemevents in same way as other instances do.
+
+III. Dashboard: We can create dashboards in OpsWorks to display the status of al the stacks in AWS.
+
+IV. Configuration as Code : AWS OpsWorks Stacks are built on the principle of “Configuration as Code”. We can define and maintain configurations like application source code. Same configuration can be replicated on multiple servers and environments.
+
+V. Application Support :OpsWorks supports almost al kinds of applications. So it is universal in nature.
+
+**7. How does CloudFormation work in AWS?**
+
+AWS CloudFormation is used for deploying AWS resources.
 In CloudFormation, we have to first create a template for a resource. A template is a simple text file that contains information
-about a stack onAWS. Astack is a colection ofAWS resourced that we want to deploy together in an AWS as a group.
-Once the template is ready and submitted to AWS, CloudFormation wil create al the resources in the template. This helps in
-automationofbuildingnewenvironmentsinAWS.
-8. What is CICD in DevOps?
-CICD stands for Continuous Integration and Continuous Delivery. These are two dif erent concepts that are complementary to
-each other.
-Continuous Integration (CI) : In CI al the developer work is merged to main branch several times a day. This helps in
-reducing integration problems.
-InCI we try to minimize the duration for which a branch remains checked out. Adeveloper gets early feedback on the new
-code added to mainrepository byusingCI.
+about a stack on AWS. As tack is a colection of AWS resourced that we want to deploy together in an AWS as a group.
+Once the template is ready and submitted to AWS, CloudFormation will create all the resources in the template. This helps in
+automation of building new environments in AWS.
+
+**8. What is CICD in DevOps?**
+
+CICD stands for Continuous Integration and Continuous Delivery. These are two different concepts that are complementary to each other.
+Continuous Integration (CI) : In CI al the developer work is merged to main branch several times a day. This helps in reducing integration problems.
+
+In CI we try to minimize the duration for which a branch remains checked out. A developer gets early feedback on the new
+code added to main repository by using CI.
+
 Continuous Delivery (CD) : In CD, a software team plans to deliver software in short cycles. They perform development,
-testingand release insucha short time that incrementalchanges canbe easilydelivered to production.
+testingand release in such a short time that incremental changes can be easily delivered to production.
+
 In CD, as a DevOps we create a repeatable deployment process that can help achieve the objective of Continuous Delivery.
-9. What are the best practices of Continuous Integration (CI)?
-Some ofthe best practices ofContinuous Integration (CI) are asfolows:
-I. Build Automation : In CI, we create such a build environment that even with one command build can be
-triggered. This automationis done al the wayup to deployment to Productionenvironment.
-II. Main Code Repository : In CI, we maintain a main branch in code repository that stores al the Production
-ready code. Thisisthe branch that we can deploy to Production any time.
-III. Self-testing build : Every build in CI should be self-tested. It means with every build there is a set of tests that
-runsto ensure that changes are ofhighquality.
-IV. Every day commits to baseline : Developers wil commit al of theirs changes to baseline everyday. This
-ensuresthat there is no bigpileup ofcode waitingforintegrationwiththe mainrepositoryfor a longtime.
+
+**9. What are the best practices of Continuous Integration (CI)?**
+
+Some ofthe best practices ofContinuous Integration (CI) are as folows:
+
+I. Build Automation : In CI, we create such a build environment that even with one command build can be triggered. This automationis done all the way up to deployment to Production environment.
+
+II. Main Code Repository : In CI, we maintain a main branch in code repository that stores al the Production ready code. This is the branch that we can deploy to Production any time.
+
+III. Self-testing build : Every build in CI should be self-tested. It means with every build there is a set of tests that runs to ensure that changes are of high quality.
+
+IV. Every day commits to baseline : Developers wil commit all of theirs changes to baseline everyday. This ensuresthat there is no big pileup of code waiting for integration with the main repository for a longtime.
+
 V. Build every commit to baseline : With Automated Continuous Integration, every time a commit is made into
-baseline, a build istriggered. This helpsinconfirmingthat everychange integrates correctly.
-VI. Fast Build Process : One of the requirements of CI is to keep the build process fast so that we can quickly
-identify any problem.
-VII. Productionlike environment testing :In CI, we maintain a production like environment also known as preproduction or staging environment, which is very close to Production environment. We performtesting in this
-environment to check for anyintegrationissues.
-VIII. PublishBuild Results : We publish build results on a common site so that everyone can see these and take
-corrective actions.
-IX. Deployment Automation:The deployment process is automated to the extent that in a build process we can
-add the step of deploying the code to a test environment. On this test environment al the stakeholders can
-access and test the latest delivery.
-10. What are the benefits of Continuous Integration (CI)?
+baseline, a build is triggered. This helps in confirming that everychange integrates correctly.
+
+VI. Fast Build Process : One of the requirements of CI is to keep the build process fast so that we can quickly identify any problem.
+
+VII. Production like environment testing :In CI, we maintain a production like environment also known as preproduction or staging environment, which is very close to Production environment. We performtesting in this environment to check for any integration issues.
+
+VIII. PublishBuild Results : We publish build results on a common site so that everyone can see these and take corrective actions.
+
+IX. Deployment Automation:The deployment process is automated to the extent that in a build process we can add the step of deploying the code to a test environment. On this test environment all the stakeholders can access and test the latest delivery.
+
+**10. What are the benefits of Continuous Integration (CI)?**
 The benefits ofContinuousIntegration (CI) are asfolows:
 I. CImakesthe current build constantlyavailable fortesting, demo and release purpose.
 II. WithCI, developers writemodularcode that works wel withfrequent code check-ins.
