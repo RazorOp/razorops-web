@@ -1,21 +1,21 @@
 ---
-title: DevOps for Startups
-description: DevOps practices come with a range of benefits, some of which – including
-  greater efficiency, security, and organizational collaboration.
-keywords: why devops, devops benefits, benefits of devops, devops advantages, advantages
-  of devops, devops model, devops technical benefits, devops cultural benefits, devops
-  business benefits, devops deployment, devops automation, devops communication, devops
-  collaboration, devops continuous delivery, devops continuous integration, devops
-  integration, why devops
-permalink: "/blog/:title/"
 layout: post
-date: '2022-05-02 14:15:00'
+keywords: why devops, devops benefits, benefits of devops, devops advantages,
+  advantages of devops, devops model, devops technical benefits, devops cultural
+  benefits, devops business benefits, devops deployment, devops automation,
+  devops communication, devops collaboration, devops continuous delivery, devops
+  continuous integration, devops integration, why devops
+title: DevOps for Startups
+description: DevOps practices come with a range of benefits, some of which –
+  including greater efficiency, security, and organizational collaboration.
+image: /images/blog/devops-for-startups.png
+permalink: /blog/:title/
 author: Shyam Mohan
 category: DevOps
-image: "/images/blog/devops-for-startups.png"
+date: 2022-05-02 14:15:00
 ---
 
-![](/images/blog/devops-for-startups.png)
+![devops for startups](/images/blog/devops-for-startups.png)
 
 **It’s hard to find time for DevOps in a startup when there’s so much else to do.**
 
