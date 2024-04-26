@@ -17,15 +17,15 @@ We use folowing tools for work in DevOps:
 
 I. Jenkins : This is an open source automation server used as a continuous integration tool. We can build, deploy and run automated tests with Jenkins.
 
-II. GIT: It is a version controltool used for tracking changesin files and software.
+II. GIT: It is a version control tool used for tracking changes in files and software.
 
 III. Docker : This is a popular tool for containerization of services. It is very useful in Cloud based deployments.
 
-IV. Nagios : We use Nagiosfor monitoring ofITinfrastructure.
+IV. Nagios : We use Nagios for monitoring of IT infrastructure.
 
 V. Splunk : This is a powerful tool for log search as wel as monitoring production systems.
 
-VI. Puppet : We use Puppet to automate our DevOps work so that it isreusable.
+VI. Puppet : We use Puppet to automate our DevOps work so that it is reusable.
 
 **2. What are the main benefits of DevOps?**
 
@@ -37,37 +37,37 @@ II. Development Cycle : With DevOps, the complete Development cycle from initial
 
 III. Deployment Rollback : In DevOps, we plan for any failure in deployment rolback due to a bug in code or issue in production. This gives confidence in releasing feature without worrying about downtime for rolback.
 
-IV. Defect Detection: With DevOps approach, we can catch defects much earlier than releasing to production. It improvesthe quality ofthe software.
+IV. Defect Detection: With DevOps approach, we can catch defects much earlier than releasing to production. It improves the quality ofthe software.
 
-V. Recovery fromFailure :In case of a failure, we can recover very fast with DevOps process.
+V. Recovery from Failure :In case of a failure, we can recover very fast with DevOps process.
 
-VI. Collaboration: WithDevOps, colaboration between development and operations professionalsincreases.
+VI. Collaboration: With DevOps, collaboration between development and operations professionals increases.
 
 VII. Performance-oriented : With DevOps, organization folows performance-oriented culture in which teams become more productive and more innovative.
 
 **3. What is the typical DevOps workflow you use in your organization?**
 
-The typicalDevOps workflowin our organization is as folows:
+The typical DevOps workflow in our organization is as folows:
 
 I. We use Atlassian Jira for writing requirements and tracking tasks.
 
-II. Based on the Jira tasks, developers checkin code into GIT version control system.
+II. Based on the Jira tasks, developers check in code into GIT version control system.
 
 III. The code checked into GIT is built by using Apache Maven.
 
-IV. The build processis automated with Jenkins.
+IV. The build process is automated with Jenkins.
 
-V. During the build process, automated testsrun to validate the code checked in by developer.
+V. During the build process, automated tests run to validate the code checked in by developer.
 
-VI. Code built onJenkinsissent to organization’s Artifactory.
+VI. Code built on Jenkins is sent to organization’s Artifactory.
 
-VII. Jenkins automaticaly picksthe librariesfromArtifactory and deploysit to Production.
+VII. Jenkins automaticaly picks the libraries from Artifactory and deploysit to Production.
 
-VIII. DuringProduction deployment Docker images are used to deploy same code onmultiple hosts.
+VIII. During Production deployment Docker images are used to deploy same code on multiple hosts.
 
-IX. Once code is deployed to Production, we use Nagiosto monitor the health of production servers.
+IX. Once code is deployed to Production, we use Nagios to monitor the health of production servers.
 
-X. Splunk based alertsinformus of any issues or exceptionsin production.
+X. Splunk based alerts in formus of any issues or exceptions in production.
 
 **4. How do you take DevOps approach with Amazon Web Services?**
 
@@ -76,11 +76,11 @@ Amazon Web Services (AWS) provide many tools and features to deploy and manage a
 I. CloudFormation : We use AWS CloudFormation to create and deploy AWS resources by using templates. We can describe our dependencies and pass special parameters in these templates. CloudFormation can read these templates and deploy the application and resources in AWS cloud.
 
 II. OpsWorks : AWS provides another service caled OpsWorks that is used for configuration management by utilizing Chef framework. We can automate server configuration, deployment and management by using
-Ops Works. It helps inmanaging EC2 instances in AWS as wel as any on-premises servers.
+Ops Works. It helps in managing EC2 instances in AWS as wel as any on-premises servers.
 
 **5. How will you run a script automatically when a developer commits a change into GIT?**
 
-GIT providesthe feature to execute custom scripts when certain event occurs in GIT. This feature is caled hooks.
+GIT provides the feature to execute custom scripts when certain event occurs in GIT. This feature is caled hooks.
 
 We can write two types of hooks.
 
@@ -96,7 +96,7 @@ Some ofthe main features of AWS OpsWorks Stacks are as folows:
 
 I. Server Suppo rt:AWS OpsWorks Stacks we can automate operational tasks on any server in AWS as wel as our own data center.
 
-II. Scalable Automation : We get automated scaling support with AWS OpsWorks Stacks. Each new instance in AWS can read configuration fromOpsWorks. It can even respond to systemevents in same way as other instances do.
+II. Scalable Automation : We get automated scaling support with AWS OpsWorks Stacks. Each new instance in AWS can read configuration from OpsWorks. It can even respond to system events in same way as other instances do.
 
 III. Dashboard: We can create dashboards in OpsWorks to display the status of al the stacks in AWS.
 
@@ -149,15 +149,15 @@ VIII. PublishBuild Results : We publish build results on a common site so that e
 IX. Deployment Automation:The deployment process is automated to the extent that in a build process we can add the step of deploying the code to a test environment. On this test environment all the stakeholders can access and test the latest delivery.
 
 **10. What are the benefits of Continuous Integration (CI)?**
-The benefits ofContinuousIntegration (CI) are asfolows:
-I. CImakesthe current build constantlyavailable fortesting, demo and release purpose.
-II. WithCI, developers writemodularcode that works wel withfrequent code check-ins.
-III. Incase ofa unittest failure or bug, developer caneasilyrevert back to the bug-free state ofthe code.
-IV. There is drastic reduction in chaos on release daywithCI practices.
+The benefits of Continuous Integration (CI) are asfolows:
+I. CImakes the current build constantly available for testing, demo and release purpose.
+II. WithCI, developers write modular code that works wel with frequent code check-ins.
+III. Incase ofa unit test failure or bug, developer can easilyr evert back to the bug-free state ofthe code.
+IV. There is drastic reduction in chaos on release day with CI practices.
 V. WithCI, we can detect Integration issues much earlier in the process.
-VI. Automated testingis one very usefulside ef ect ofimplementingCI.
+VI. Automated testing is one very useful side ef ect of implementing CI.
 VII. Al the stakeholders including business partners can see the smal changes deployed into pre-production
-environment. This provides earlyfeedback onthe changes to software.
+environment. This provides early feedback on the changes to software.
 VIII. Automated CI and testing generates metrics like code-coverage, code complexity that help in improving the
 development process.
 
@@ -175,17 +175,17 @@ III. We can also setup Matrix based security on Jenkins.
 
 **12. What are the main benefits of Chef?**
 
-Chefis an automation toolfor keepinginfrastructure as code. It has many benefits. Some ofthese are asfolows:
-I. CloudDeployment:We can use Chefto performautomated deployment inCloud environment.
-II. Multi-cloudsupport:WithChefwe can even use multiple cloud providersfor our infrastructure.
-III. HybridDeployment :Chefsupports bothCloud based as wel as datacenter-based infrastructure.
+Chef is an automation tool for keeping infrastructure as code. It has many benefits. Some of these are as folows:
+I. Cloud Deployment:We can use Chefto perform automated deployment in Cloud environment.
+II. Multi-cloud support:With Chefwe can even use multiple cloud providers for our infrastructure.
+III. Hybrid Deployment :Chefsupports bothCloud based as wel as datacenter-based infrastructure.
 IV. High Availability : With Chef automation, we can create high availability environment. In case of hardware
 failure, Chef can maintain or start new servers in automated way to maintain highly available environment.
 
 **13. What is the architecture of Chef?**
 
 Chef is composed of many components like Chef Server, Client etc. Some of the main components in Chef are as folows:
-I. Client: These are the nodes orindividualusersthat communicate withChefserver.
+I. Client: These are the nodes or individual users that communicate with Chef server.
 II. ChefManage : Thisisthe web console thatis used forinteractingwithChefServer.
 III. Load Balancer : Al the Chef server API requests are routed through Load Balancer. It is implemented in
 Nginx.
@@ -885,866 +885,1254 @@ namespace, Docker creates an independent network stack within each container.
 
 Docker providestoolslike dockerstats and docker eventsto monitor Docker in production.
 We canget reports onimportant statistics withthese commands.
-Docker stats : When we cal docker stats with a container id, we get the CPU, memory usage etc of a container. It is similar to top command in
-Linux.
+Docker stats : When we cal docker stats with a container id, we get the CPU, memory usage etc of a container. It is similar to top command in Linux.
 Docker events :Docker events are a command to see the streamof activitiesthat are going on inDocker daemon.
 Some ofthe commonDocker events are: attach, commit, die, detach, rename, destroy etc.
 We can also use various options to limit or filter the events that we are interested in.
-91. What are the Cloud platforms that support Docker?
-Some ofthe popular cloud platformsthatsupport Docker are:
-I. Amazon AWS
-II. Google Cloud Platform
-III. Microsoft Azure
-IV. IBMBluemix
-92. How can we control the startup order of services in Docker compose?
-InDocker compose we can use the depends_onoptionto controlthe startup order ofservices.
-Withcompose, the services wil start inthe dependencyorder. Dependencies canbe defined inthe optionslike- depends_on, links, volumes_from,
-network_mode etc.
-But Docker does not wait for until a container isready.
-93. Why Docker compose does not wait for a container to be ready before
-moving on to start next service in dependency order?
-The problemwithwaitingfor a containerto be readyisthat ina Distributed system,some services or hosts maybecome unavailable sometimes.
-Similarlyduringstartup also some services mayalso be down.
-Therefore, we have to build resiliency in our application. So that even ifsome services are down we can continue our work or wait for the service
-to become available again.
-We can use wait-for-it or dockerize toolsfor building this kind ofresiliency.
-94. How will you customize Docker compose file for different
-environments?
-InDocker compose there are two files docker-compose.yml and docker-compose.override.yml. We specifyour base configurationindockercompose.ymlfile. For anyenvironmentspecific customizationwe use docker-compose.override.ymlfile.
-We can specify a service in both the files. Docker compose wil merge these files based on folowing rules:
-Forsingle value options, newvalue replacesthe old value.
-Formulti-value options, compose wil concatenate the both set of values.
-We canalso use extendsfield to extend a service configurationto multiple environments. Withextends, child services canuse the common
-configuration defined by parentservice.
-Cloud Computing Questions
-95. What are the benefits of Cloud Computing?
-There are tenmain benefits ofCloud Computing:
-I. Flexibility : The businesses that have fluctuating bandwidth demands need the flexibility of Cloud Computing. If you need high
-bandwidth, you can scale up your cloud capacity. When you do not need high bandwidth, you can just scale down. There is no
-need to be tied into aninflexible fixed capacityinfrastructure.
-II. DisasterRecovery :Cloud Computing providesrobust backup and recovery solutionsthat are hosted in cloud. Due to thisthere
-is no need to spend extra resources on homegrowndisasterrecovery. It also savestimeinsettingup disasterrecovery.
-III. Automatic Software Updates : Most of the Cloud providers give automatic software updates. This reduces the extra task of
-instalingnewsoftware versionand always catchingup withthe latestsoftware instals.
-IV. LowCapital Expenditure : In Cloud computing the model is Pay as you Go. This means there is very less upfront capital
-expenditure. There is a variable payment that is based on the usage.
-V. Collaboration:Ina cloud environment, applications canbe shared betweenteams. Thisincreases colaborationand
-communicationamongteammembers.
-VI. Remote Work: Cloud solutions provide flexibility of working remotely. There is no on site work. One can just connect from
-anywhere and start working.
-VII. Security: Cloud computing solutions are more secure than regular onsite work. Data stored in local servers and computers is
-prone to security attacks. In Cloud Computing, there are very few loose ends. Cloud providers give a secure working environment
-to its users.
-VIII. DocumentControl: Once the documents are stored ina commonrepository, itincreasesthe visibilityand transparencyamong
-companies and their clients. Since there is one shared copy, there are fewer chances ofdiscrepancies.
-IX. Competitive Pricing: InCloud computingthere are multipleplayers,so theykeep competingamongthemselves and provide very
-good pricing. This comes outmuchcheaper compared to otheroptions.
-X. EnvironmentFriendly: Cloud computing saves precious environmentalresources also. By not blocking the resources and
-bandwidth.
-96. What is On-demand computing in Cloud Computing?
-On-demandComputingisthe latestmodelinenterprise systems. It isrelated toCloud computing. It meansITresources canbe provided on
-demand by a Cloud provider.
-In an enterprise systemdemand for computing resources varies fromtime to time. In such a scenario, On-demand computing makes sure that
-servers and ITresources areprovisioned to handle the increase/decrease indemand.
-A cloud providermaintains a pol ofresources. The pool ofresources contains networks, servers, storage, applications and services. Thispool can
-serve the varying demand ofresources and computing by various enterprise clients.
-There are many concepts like- grid computing, utility computing, autonomic computing etc. that are similar to on-demand computing.
-Thisisthe most popular trend in computingmodel as of now.
-97. What are the different layers of Cloud computing?
-Three main layers ofCloud computing are asfolows:
-I. Infrastructure as a Service (IAAS): IAAS providers give low-level abstractions of physical devices. Amazon Web Services
-(AWS) is an example of IAAS. AWS provides EC2 for computing, S3 buckets for storage etc. Mainly the resources in this layer
-arehardware likememory, processorspeed, network bandwidthetc.
-II. Platformas a Service (PAAS): PAAS providers of er managed serviceslike Rails, Django etc. One good example ofPAAS is
-Google App Engineer. These are the environmentsinwhichdevelopers candevelop sophisticated software withease.
-Developersjust focus on developing software, whereasscaling and performance is handled byPAAS provider.
-III. Software as a Service (SAAS) :SAAS provider of er an actualworking software application to clients. Salesforce and Github
-are two good examples of SAAS. They hide the underlying details of the software and just provide an interface to work on the
-system. Behind the scenesthe version ofSoftware can be easily changed.
-98. What resources are provided by Infrastructure as a Service (IAAS)
-provider?
-An IAAS provider can give physical, virtual or both kinds of resources. These resources are used to build cloud.
-IAAS provider handlesthe complexityofmaintainingand deployingthese services.
-IAAS provider also handles security and backup recovery for these services. The main resources in IAAS are servers, storage, routers, switches
-and other related hardware etc.
-99. What is the benefit of Platform as a Service?
-Platformas a service (PaaS) is a kind of cloud computing service. A PaaS provider of ers a platformon which clients can develop, run and
-manage applicationswithout the need ofbuildingthe infrastructure.
-In PAAS clients save time by not creating and managing infrastructure environment associated with the app that they want to develop.
-100. What are the main advantages of PaaS?
-The advantages ofPaaS are:
-I. It alows development work onhigherlevelprogrammingwithveryless complexity.
-II. Teams can focus on just the development ofthe application that makes the application very ef ective.
-III. Maintenance and enhancement ofthe application is much easier.
-IV. It issuitable forsituationsinwhichmultipledevelopers work ona single project but are not co-located.
-101. What is the main disadvantage of PaaS?
-Biggest disadvantage ofPaaS isthat a developer canonlyuse the toolsthat PaaS providermakes available. A developer cannot use the ful range
-ofconventionaltools.
-Some PaaS providers lock in the clients in their platform. This also decreases the flexibility of clients using PaaS.
-102. What are the different deployment models in Cloud computing?
-Cloud computingsupportsfolowing deployment models:
-I. Private Cloud: Some companies build their private cloud. A private cloud is a fuly functional platformthat is owned, operated
-and used by only one organization.
-Primary reason for private cloud is security. Many companies feelsecure in private cloud. The other reasons for building
-private cloud are strategic decisions or controlofoperations.
-There is also a concept ofVirtualPrivate Cloud (VPC). InVPC, private cloud is built and operated bya hostingcompany.
-But itis exclusivelyused byone organization.
-II. Public Cloud: There are cloud platforms by some companies that are open for general public as wel as big companies for use and
-deployment. E.g. GoogleApps, AmazonWeb Services etc.
-The public cloud providers focus on layers and application like- cloud application, infrastructure management etc. In this model
-resources are shared amongdiferent organizations.
-III. Hybrid Cloud: The combination of public and private cloud is known as Hybrid cloud. This approach provides benefits of both
-the approaches- private and public cloud. So it is very robust platform.
-A client getsfunctionalities and features ofboth the cloud platforms. ByusingHybrid cloud an organizationcancreate its own
-cloud as wel as theycanpass the controloftheir cloud to anotherthird party.
-103. What is the difference between Scalability and Elasticity?
-Scalabilityisthe abilityofa systemto handle the increased load onits current hardware and software resources. Ina highlyscalable systemitis
-possible to increase the workload without increasing the resource capacity. Scalability supports any sudden surge in the demand/traf ic with
-currentset ofresources.
-Elasticityisthe abilityofa systemto increase the workload byincreasingthe hardware/software resources dynamicaly. Highlyelastic systems can
-handle the increased demand and trafic bydynamicalycommissionand decommissionresources. Elasticityis animportant characteristic ofCloud
-Computingapplications. Elasticitymeans howwel your architecture is adaptable to workload in real time.
-E.g. If in a system, one server can handle 100 users, 2 servers can handle 200 users and 10 servers can handle 1000 users. But in case for adding
-everyXusers, ifyouneed 2Xthe amount ofservers, thenitis not a scalabledesign.
-Let say, you have just one user login every hour on your site. Your one server can handle thisload. But, if suddenly, 1000 users login at once, can
-yoursystemquicklystart newweb servers onthe flyto handle thisload? Your designis elastic ifit canhandle suchsuddenincrease intrafic so
-quickly.
-104. What is Software as a Service?
-Software as Service is a category of cloud computing in which Software is centraly hosted and it is licensed on a subscription basis. It is also
-knownas On-demand software. Generaly, clients accessthe software byusinga thin-clientlike a web browser.
-Many applicationslike Google docs, Microsoft ofice etc. provide SaaS modelfor theirsoftware.
-The benefit ofSaaS isthat a client canadd more users onthe flybased onits current needs. And client does not need to instal ormaintainany
-software on its premisesto use thissoftware.
-105. What are the different types of Datacenters in Cloud computing?
-Cloud computing consists of dif erent types of Datacenters linked in a grid structure. The main types of Datacenters in Cloud computing are:
-I. Containerized Datacenter
-Asthe name suggests, containerized datacenter provides highlevelofcustomizationfor an organization. These are traditionalkind of
-datacenters. We can choose the dif erent types of servers, memory, network and other infrastructure resources in this datacenter. Also
-we have to plan temperature control, network management and power management in this kind of datacenter.
-II. Low-Density Datacenters
-In a Low-densitydatacenter, we get highlevelof performance. In such a datacenterifwe increase the densityofservers, the issue with
-power comes. With high density of servers, the area gets heated. In such a scenario, ef ective heat and power management is done. To
-reach high levelof performance, we have to optimize the number ofservers’ in the datacenter.
-106. Explain the various modes of Software as a Service (SaaS) cloud
-environment?
-Software as a Service (SaaS) is used to of er dif erent kinds ofsoftware applications in a Cloud environment. Generaly these are of ered on
-subscriptionbasis. Diferent modes ofSaaS are:
-I. Simple multi-tenancy : In thissetup, each client gets its own resources. These resources are not shared with other clients. It is
-more secure option, since there is no sharingofresources. But it anineficient option,since for eachclientmore moneyis needed to
-scale it withthe risingdemands. Also it takestime to scale up the applicationin this mode.
-II. Fine grain multi-tenancy : In this mode, the feature provided to each client is same. The resources are shared among multiple
-clients. It is an eficient mode of cloud service, inwhichdata is kept private amongdif erent clients but computingresources are
-shared. Also itis easier and quickerto scale up the SaaS implementationfor diferent clients.
-107. What are the important things to care about in Security in a cloud
-environment?
-In a cloud-computingenvironment,securityis one ofthe most important aspects.
-Withgrowingconcernof hacking, everyorganizationwantsto make itssoftware systemand data secure. Since ina cloud computingenvironment,
-Software and hardware is not on the premises of an organization, it becomes more important to implement the best security practices.
-Organizations have to keep their Data most secure during the transfer between two locations. Also they have to keep data secure when it is stored
-at a location. Hackers can hack into application or they can get an unauthorized copy of the data. So it becomes important to encrypt the data
-duringtransit aswel as duringrestto protectitfromunwanted hackers.
-108. Why do we use API in cloud computing environment?
-Application Programming Interfaces (API) is used in cloud computing environment for accessing many services. APIs are very easy to use. They
-provide aquick optionto creatediferentset ofapplicationsincloud environment.
-AnAPI provides a simple interface that can be used inmultiple scenarios.
-There are diferent types ofclientsfor cloud computingAPIs. It is easierto serve diferent needs ofmultiple clients withAPIsincloud computing
-environment.
-109. What are the different areas of Security Management in cloud?
-Diferent areas ofSecuritymanagement in cloud are asfolows:
-I. Identity Management : This aspect creates dif erent level of users, roles and their credentials to access the services in cloud.
-II. Access Control :Inthis area, we create multiple levelsof permissions and access areasthat canbe givento a user or role for
-accessinga service incloud environment.
-III. Authentication : In this area, we check the credentials of a user and confirmthat it is the correct user. Generaly this is done by
-user password and multi-factor authenticationlike-verificationbya one-time use code oncel phone.
-IV. Authorization : In this aspect, we check for the permissions that are given to a user or role. If a user is authorized to access a
-service, theyare alowed to use itinthe cloud environment.
-110. What are the main cost factors of cloud based data center?
-Costsin a Cloud based data center are dif erent froma traditional data center. Main cost factors of cloud based data center are asfolows:
-I. Laborcost : We need skiled staf that canwork withthe cloud-based datacenterthat we have selected for our operation. Since
-cloud is not a veryold technology, it mayget dificultto get the rightskil people for handlingcloud based datacenter.
-II. Power cost : In some cloud operations, power costs are borne by the client. Since it is a variable cost, it can increase with the
-increase in scale and usage.
-III. Computing cost : The biggest cost in Cloud environment is the cost that we pay to Cloud provider for giving us computing
-resources. This cost is much higher compared to the labor or power costs.
-111. How can we measure the cloud-based services?
-Ina cloud-computingenvironmentwe payforthe servicesthat we use. So maincriteria to measure a cloud based service its usage.
-For computingresource we measure by usage in terms oftime and the power of computing resource.
-For a storage resource we measure by usage in terms of bytes(giga bytes) and bandwidth used in data transfer.
-Another important aspect of measuring a cloud service is its availability. A cloud provider has to specify the service level agreement (SLA) for the
-time for which service wil be available incloud.
-112. How a traditional datacenter is different from a cloud environment?
-In a traditionaldatacenterthe cost ofincreasingthe scale ofcomputingenvironment ismuchhigherthana Cloud computingenvironment. Alsoina
-traditional data center, there are not much benefits of scaling down the operation when demand decreases. Since most of the expenditure isin
-capitalspent of buying servers etc., scaling down justsaves power cost, whichis very less compared to other fixed costs.
-Also in a Cloud environment there is no need to higher a large number of operations staf to maintain the datacenter. Cloud provider takes care of
-maintainingand upgradingthe resourcesinCloud environment.
-With a traditional datacenter, people cost is very high since we have to hire a large number of technical operation people for in-house datacenter.
-113. How will you optimize availability of your application in a Cloud
-environment?
-In a Cloud environment, it is important to optimize the availability of an application by implementing disaster recovery strategy. For disaster
-recoverywe create a backup applicationinanotherlocationofcloud environment. Incase ofcomplete failure at a data center we use the disaster
-recovery site to runthe application.
-Another aspect of cloud environment is that servers often fail or go down. In such a scenario it is important to implement the application in such a
-waythatwe just kil the slowserver and restart anotherserverto handle the trafic seamlessly.
-114. What are the requirements for implementing IaaS strategy in Cloud?
-Main requirementsto implement IAAS are asfolows:
-I. Operating System(OS): We need anOS to support hypervisor in IaaS. We can use open source OS like Linux for this
-purpose.
-II. Networking : We have to define and implement networking topology for IaaS implementation. We can use public or private
-network for this.
-III. CloudModel :We have to select the right cloud modelforimplementingIaaS strategy. It canbe SaaS, PaaS orCaaS.
-115. What is the scenario in which public cloud is preferred over private
-cloud?
-In a startup mode often we want to test our idea. In such a scenario it makes sense to setup application in public cloud. It is much faster and
-cheaperto use public cloud over private cloud.
-Remember security is a major concern in public cloud. But with time and changes in technology, even public cloud is very secure.
-116. Do you think Cloud Computing is a software application or a
-hardware service?
-CloudComputingis neither a software applicationnor a hardware service. Cloud computingis a systemarchitecture that canbe used to implement
-software as wel as hardware strategyofanorganization.
-Cloud Computing is a highly scalable, highly available and cost ef ective solution for software and hardware needs of an application.
-CloudComputingprovides great ease ofuse inrunningthe software incloud environment. It is also veryfast to implement compared withany
-other traditionalstrategy.
-117. Why companies now prefer Cloud Computing architecture over
-Client Server Architecture?
-InClient Server architecture there is one to one communicationbetweenclient and server. Serveris oftenat in-house datacenter and client can
-access same server fromanywhere. If client is at a remote location, the communicationcan have highlatency.
-In Cloud Computing there can be multiple servers in the cloud. There wil be a Cloud controler that directs the requests to right server node. In
-such a scenario clients can access cloud-based service fromany location and they can be directed to the one nearest to them.
-Another reason for Cloud computing architecture is high availability. Since there are multiple servers behind the cloud, even if one server is down,
-anotherserver can serve the clientsseamlessly.
-118. What are the main characteristics of Cloud Computing architecture?
-Main characteristics ofCloud Computing architecture are asfolows:
-I. Elasticity :InCloud Computingsystemis highlyelastic inthe sense thatit caneasilyadapt itselfto increase or decrease inload.
-There is no need to takeurgent actionswhenthere issurge intrafic requests.
-II. Self-service provisioning :InCloud environment users can provision newresources on their own by just caling some APIs.
-There is no need to fil forms and order actualhardware fromvendors.
-III. Automatedde-provisioning :In case demand/load decreases, extra resources can be automaticaly shut down inCloud
-computing environment.
-IV. Standard Interface : There are standard interfaces to start, stop, suspend or remove an instance in Cloud environment. Most of
-the services are accessibleviapublic and standardAPIsinCloud computing.
-V. Usage based Billing : In a Cloud environment, users are charged for their usage of resources. They can forecast their bil and
-costs based onthe growththeyare expectingintheirload.
-119. How databases in Cloud computing are different from traditional
-databases?
-In a Cloud environment, companies often use dif erent kind of data to store. There are data like email, images, video, pdf, graph etc. in a Cloud
-environment. To store this data oftenNoSQLdatabases are used.
-A NoSQLdatabase likeMongoDBprovidesstorage and retrievalofdata that cannot be stored eficientlyina traditionalRDBMS.
-Database likeNeo4J providesfeaturesto store graphdata like Facebook, LinkedInetc. ina cloud environment.
-Hadoop like database help in storing Big Data based information. It can handle very large-scale information that is generated in a large-scale
-environment.
-120. What is Virtual Private Network (VPN)?
-In a Cloud environment, we can create a virtual private network (VPM) that can be solely used by only one client. This is a secure network in
-whichdata transfer betweenservers ofsame VPN is verysecure.
-By using VPN, an organization uses the public network in a private manner. It increases the privacy of an organization’s data transfer in a cloud
-environment.
-121. What are the main components of a VPN?
-VirtualPrivate Network (VPN) consists offolowingmain components:
-I. Network Access Server (NAS): ANAS server isresponsible for setting up tunnelsin a VPN that is accessesremotely. It
-maintainsthese tunnelsthat connect clientsto VPN.
-II. Firewall:It isthe software that creates barrier betweenVPN and public network. It protectsthe VPN frommalicious activitythat
-can be done fromthe outside network.
-III. AAAServer: Thisis anauthenticationand authorizationserverthat controlsthe access and usage ofVPN. For eachrequest to
-use VPN, AAAserver checksthe userfor correct permissions.
-IV. Encryption:In a VPN, encryption algorithms protect the important private data frommalicious users.
-122. How will you secure the application data for transport in a cloud
-environment?
-Withease ofuse inCloud environment comesthe important aspect ofkeepingdata secure. Manyorganizations have data that istransferred from
-theirtraditionaldatacenterto Cloud datacenter.
-During the transit of data it is important to keep it secure. Once of the best way to secure data is by using HTTPS protocol over Secure Socket
-Layer (SSL).
-Anotherimportant point isto keep the data always encrypted. This protects data frombeingaccessed byanyunauthorized user duringtransit.
-123. What are the large-scale databases available in Cloud?
-In Cloud computing scale is not a limit. So there are very large-scale databases available fromcloud providers. Some of these are:
-I. AmazonDynamoDB :AmazonWeb Services(AWS) provides a NoSQLweb service caled DynamoDBthat provides highly
-available and partition tolerant database system. It has a multi-master design. It uses synchronous replication across multiple
-datacenters. We caneasilyintegrate it withMapReduce and ElasticMapReduce ofAWS.
-II. Google Bigtable : This is a very large-scale high performance cloud based database option fromGoogle. It is available on Google
-Cloud. It canbe scaled to peta bytes. It is a Google proprietaryimplementation. InBigtable, two arbitrarystringvalues, rowkey
-and column key, and timestamp are mapped to an arbitrary byte array. In Bigtable MapReduce algorithmis used for modifying and
-generating the data.
-III. Microsoft Azure SQLDatabase :Microsoft Azure provides cloud based SQLdatabase that can be scaled very easily for
-increased demand. It has verygood securityfeatures and it canbe evenused to buildmulti-tenant apps to service multiple
-customersin cloud.
-124. What are the options for open source NoSQL database in a Cloud
-environment?
-Most ofthe cloud-computingproviderssupport OpenSource NoSQL databases. Some ofthese databases are:
-I. Apache CouchDB :It is a document based NoSQLdatabase fromApache OpenSource. It is compatible withCouch
-ReplicationProtocol. It can communicate in native JSON and can store binary data verywel.
-II. HBase :It is a NoSQLdatabase for use withHadoop based software. It is also available as OpenSource fromApache. It is a
-scalable and distributedBigData database.
-III. MongoDB :It is anopensource database systemthat of ers a flexibledata modelthat canbe used to store various kinds ofdata.
-It provides highperformance and always-onuser experience.
-125. What are the important points to consider before selecting cloud
-computing?
-Cloud computing is a very good option for an organization to scale and outsource its software/hardware needs. But before selecting a cloud
-providerit isimportantto considerfolowingpoints:
-I. Security : One of the most important points is security of the data. We should ask the cloud provider about the options to keep
-data secure incloud duringtransit and atrest.
-II. Data Integrity :Anotherimportant point isto maintainthe integrityofdata incloud. It is essentialto keep data accurate and
-complete in cloud environment.
-III. Data Loss :Ina cloud environment, there are chances ofdata loss. So we should knowthe provisionsto minimizethe data loss. It
-canbe done bykeepingbackup ofdata incloud. Also there should be reliable data recoveryoptionsincase ofdata loss.
-IV. Compliance : While using a cloud environment one must be aware of the rules and regulations that have to be folowed to use the
-cloud. There compliance issues with storing data of a user in an external provider’slocation/servers.
-V. Business Continuity :Incase ofanydisaster, itis important to create business continuityplans so that we canprovide
-uninterrupted service to our end users.
-VI. Availability : Anotherimportant point isthe availabilityofdata and services ina cloud-computingenvironment. It is veryimportant
-to provide highavailabilityfor a good customer experience.
-VII. Storage Cost: Since data isstored incloud, it maybe verycheap to store the data. But the real cost cancome intransfer ofdata
-when we have to pay by bandwidth usage. So storage cost of data in cloud should also include the access cost of data transfer.
-VIII. ComputingCost:One ofthe highest costs ofcloud is computingcost. It canbe veryhighcost withthe increase ofscale. So
-cloud computingoptionsshould be wiselyconsidered inconjunctionwithcomputingcost charged forthem.
-126. What is a System integrator in Cloud computing?
-Often an organization does not know al the options available in a Cloud computing environment. Here comes the role of a SystemIntegrator (SI)
-who specializesinimplementingCloud computingenvironment.
-SI createsthe strategyofcloud setup. It designs the cloud platformforthe use ofits client. It createsthe cloud architecture forthe business need of
-client.
-SI overseesthe overal implementationofcloud strategyand plan. It also guidesthe clientwhile choosingthe right optionsincloud computing
-platform.
-127. What is virtualization in cloud computing?
-Virtualization is the core of cloud computing platform. In cloud we can create a virtual version of hardware, storage and operating systemthat can
-be used to deploythe application.
-A cloud provider gives optionsto create virtualmachinesincloud that can be used by its clients. These virtualmachines are muchcheaperthan
-buyinga fewhigh end computingmachines.
-Incloud we canuse multiple cheap virtualmachinesto implement a resilientsoftware systemthat canbe scaled veryeasilyinquick time. Where as
-buyingan actualhigh-end machine to scale the systemis very costly and time taking.
-128. What is Eucalyptus in a cloud environment?
-Eucalyptusis an open source software to build private and hybrid cloud inAmazonWeb Services(AWS).
-It stands for Elastic Utility Computing Architecture for Linking Your Programs To Useful Systems.
-We can create our own datacenter in a private cloud by using Eucalyptus. It makes use of pooling the computing and storage resources to scale up
-the operations.
-InEucalyptus, we create images ofsoftware applications. These images are deployed to create instances. These instances are used for computing
-needs.
-AEucalyptusinstance can have both public and private ip addresses.
-129. What are the main components of Eucalyptus cloud architecture?
-The main components ofEucalyptus cloud architecture are asfolows:
-I. Cloud Controller (CLC) : Thisis the controler that manages virtual resources like servers, network and storage. It is at the
-highest level in hierarchy. It is a Java programwith web interface for outside world. It can do resource scheduling as wel as
-systemaccounting. There is only one CLC per cloud. It can handle authentication, accounting, reporting and quota management in
-cloud.
-II. Walrus : This is another Java programin Eucalyptus that is equivalent to AWS S3 storage. It provides persistent storage. It also
-containsimages, volumes and snapshotssimilarto AWS. There is only one Walrusin a cloud.
-III. Cluster Controller (CC) : It is a C programthat is the front end for a Eucalyptus cloud cluster. It can communicate with Storage
-controler and Node controler. It managesthe instance execution in cloud.
-IV. Storage Controller(SC):It is a Java programequivalent to EBSinAWS. It caninterface withClusterControler and Node
-Controlertomanage persistent data viaWalrus.
-V. Node Controller (NC) : It is a C programthat can host a virtual machine instance. It is at the lowest level in Eucalyptus cloud. It
-downloadsimagesfromWalrus and creates aninstance for computingrequirementsincloud.
-VI. VMWare Broker : It is an optional component in Eucalyptus. It provides AWS compatible interface to VMWare environment.
-130. What is Auto-scaling in Cloud computing?
-Amazon Web Services (AWS) provides an important feature caled Auto-scaling in the cloud. With Auto-scaling setup we can automaticaly
-provisionand start newinstances inAWS cloud without anyhumanintervention.
-Auto-scaling istriggered based on load and other metrics.
-Let say ifthe load reaches a threshold we can setup auto-scaling to kick in and start a new server to handle additional load.
-131. What are the benefits of Utility Computing model?
-Utility computing is a cloud service model in which provider gives computing resources to users for using on need basis.
-Some ofthe main benefits ofUtility computingare:
-I. Pay per use : Since a user pays for only usage, the cost of Utility computing is pay per use. We pay for the number of servers of
-instancesthat we use incloud.
-II. Easy to Scale : It is easier to scale up the operations in Utility computing. There is no need to plan for time consuming and costly
-hardware purchase.
-III. Maintenance : In Utility computing maintenance of servers is done by cloud provider. So a user can focus on its core business. It
-need notspend time and resources onmaintenance ofserversincloud.
-Utilitycomputingis also known as On-demand computing.
-132. What is a Hypervisor in Cloud Computing?
-Hypervisor is also known as virtual machine monitor (VMM). It is a computer software/hardware that can create and run virtual machines.
-Hypervisorruns on a host machine. Each virtualmachine is caled Guest machine.
-Hypervisor derives its name fromtermsupervisor, which is a traditional name for the kernel of an operating system.
-Hypervisor provides a virtual operating platformto the guest operating system. It manages the execution of guest OS.
-133. What are the different types of Hypervisor in Cloud Computing?
-Hypervisors come in two main types:
-I. Type-1, native orbare-metal hypervisors :Type 1 hypervisor runs directly on the hardware of host machine. It controlsthe
-guest operating systemfromhost machine. It is also caled bare metal hypervisor or native hypervisor.
-Examples of Type-1 are:Xen, Oracle VM Server for SPARC, Oracle VM Server for x86, the CitrixXenServer, Microsoft
-Hyper-Vand VMware ESX/ESXi.
-II. Type-2, hosted hypervisors: Type 2 hypervisor runs like a regular computer programon an operating system. The guest
-operating systemrunslike a process on the host machine. It creates an abstract guest operating systemdif erent fromthe host
-operating system.
-Examples of Type-2 are:VMware Workstation, VMware Player, VirtualBox, Paralels Desktop for Mac and QEMU are
-examples oftype-2 hypervisors.
-134. Why Type-1 Hypervisor has better performance than Type-2
-Hypervisor?
-Type-1 Hypervisor has better performance thanType-2 hypervisor because Type-1 hypervisorskipsthe host operating systemand it runs directly
-onhost hardware. So it canutilize al the resources ofhostmachine.
-In cloud computing Type-1 hypervisors are more popular since Cloud servers may need to run multiple operating systemimages.
-135. What is CaaS?
-CaaS is also known as Communication as a Service. It is available in Telecomdomain. One of the examples for CaaS is Voice Over IP (VoIP).
-CaaS of ers businessfeatureslike desktop cal control, unified messaging, and fax via desktop.
-CaaS also provides services for Cal Center automation like- IVR, ACD, cal recording, multimedia routing and screen sharing.
-136. How is Cloud computing different from computing for mobile
-devices?
-SinceMobile devices are gettingconnected to the Internet inlarge numbers, we oftenuse Cloud computingfor Mobile devices.
-In mobile applications, there can be sudden increase in traf ic as wel as usage. Even some applications become viral very soon. This leads to very
-high load onapplication.
-In such a scenario, it makessense to use Cloud Computing for mobile devices.
-Also mobile devices keep changingovertime, itrequires standard interfaces ofcloud computingfor handlingmultiplemobile devices.
-137. Why automation of deployment is very important in Cloud
-architecture?
-One of the main reasons for selecting Cloud architecture is scalability of the system. In case of heavy load, we have to scale up the systemso that
-there is no performance degradation.
-While scaling up the systemwe have to start new instances. To provision new instances we have to deploy our application on them.
-In such a scenario, if we want to save time, it makes sense to automate the deployment process. Another termfor this is Auto-scaling.
-With a fuly automated deployment process we can start new instances based on automated triggers that are raised by load reaching a threshold.
-138. What are the main components in Amazon Cloud?
-Amazon provides a wide range of products in Amazon Web Services for implementing Cloud computing architecture. In AWS some of the main
-components are asfolows:
-I. Amazon EC2 : This is used for creating instances and getting computing power to run applications in AWS.
-II. Amazon S3 : This is a Simple Storage Service fromAWS to store files and media in cloud.
-III. AmazonDynamoDB :It isthe database solution byAWS in cloud. It can store very large-scale data to meet needs ofeven
-BigData computing.
-IV. AmazonRoute53 :Thisis a cloud based DomainName System(DNS)service fromAWS.
-V. AmazonElastic LoadBalancing (ELB): This component can be used to load balance the various nodesinAWS cloud.
-VI. AmazonCodeDeploy :Thisservice providesfeature to automate the code deployment to any instance inAWS.
-139. What are main components in Google Cloud?
-Google is a newer cloud alternative than Amazon. But Google provides many additional features than AWS. Some of the main components of
-GoogleCloud are asfolows:
-I. Compute Engine :This component provides computing power to Google Cloud users.
-II. Cloud Storage : As the name suggests this is a cloud storage solution fromGoogle for storing large files for application use or just
-serving over the Internet.
-III. CloudBigtable :It is a Google proprietarydatabase fromGoogle inCloud. Nowusers canuse this unique database for creating
-their applications.
-IV. CloudLoadBalancing :Thisis a cloud-based load balancing service fromGoogle.
-V. BigQuery :It is a data-warehouse solution fromGoogle inCloud to performdata analytics oflarge scale.
-VI. Cloud Machine Learning Platform : It is a powerful cloud based machine learning product fromGoogle to perform machine
-learningwithAPIslike- Job Search, Text Analysis, SpeechRecognition, Dynamictranslationetc.
-VII. Cloud IAM : This is an Identity and Access management tool fromGoogle to help administrators run the security and
-authorization/authenticationpolicies ofanorganization.
-140. What are the major offerings of Microsoft Azure Cloud?
-Microsoft is a relatively new entrant to Cloud computing with Azure cloud of ering. Some of the main products of Microsoft cloud are as folows:
-I. Azure Container Service : This is a cloud computing service fromMicrosoft to run and manage Docker based containers.
-II. StorSimple :It is a Storage solution fromMicrosoft for Azure cloud.
-III. AppService :By usingApp Services, users can create Appsfor mobile devices as wel as websites.
-IV. SQLDatabase :It is a Cloud based SQLdatabase fromMicrosoft.
-V. DocumentDB :Thisis a NoSQLdatabase in cloud byMicrosoft.
-VI. Azure Bot Service : We canuse AzureBot Service to create serverless botsthat canbe scaled up ondemand.
-VII. Azure IoTHub:It is a solutionforInternet ofThingsservicesincloud byMicrosoft.
-141. What are the reasons of popularity of Cloud Computing
-architecture?
-These days Cloud Computingis one ofthe mostfavorite architecture amongorganizationsfortheirsystems. Folowingare some ofthe reasonsfor
-popularityofCloudComputingarchitecture:
-I. IoT: Withthe Internet ofThings, there are manytypes ofmachinesjoiningthe Internet and creatingvarious types ofinteractions. In
-sucha scenario, Cloud Computingserves wel to provide scalable interfaces to communicate betweenthe machinesinIoT.
-II. Big Data : Another major trend in today’s computing is Big Data. With Big Data there is very large amount of user / machine data
-that is generated. Using in-house solution to handle Big Data is very costly and capital intensive. In Cloud Computing we can
-handleBigDataveryeasilysincewedo not have toworryabout capitalcosts.
-III. Mobile Devices : A large number of users are going to Mobile computing. With a mobile device users can access a service from
-anylocation. To handlewide-varietyofmobile devices,standard interfaces ofCloud Computingare veryuseful.
-IV. ViralContent:WithgrowthofSocialMedia, content and media is gettingvirali.e. It takes veryshort time to increase the trafic
-exponentialy on a server. In such a scenario Auto-scaling of Cloud Computing architecture can handle such spikes very easily.
-142. What are the Machine Learning options from Google Cloud?
-Google provides a very rich library ofMachine Learning optionsinGoogle Cloud. Some ofthese API are:
-I. Google Cloud ML : This is a general purpose Machine Learning API in cloud. We can use pre-trained models or generate new
-modelsformachine learningwiththis option.
-II. Google Cloud Jobs API : It is an API to link Job Seekers with Opportunities. It is mainly for job search based on skils, demand
-and location.
-III. Google NaturalLanguage API :ThisAPI cando text analysis ofnaturallanguage content. We canuse itfor analyzingthe
-content ofblogs, websites, books etc.
-IV. Google Cloud Speech API : It is a Speech Recognition API fromGoogle to handle spoken text. It can recognize more than 80
-languages and theirrelated variants. It caneventranscribe the userspeechintowrittentext.
-V. Google CloudTranslate API :This API cantranslate contentfromone language to anotherlanguage incloud.
-VI. Google Cloud Vision API : It is a powerful API for Image analysis. It can recognize faces and objects in an image. It can even
-categorize imagesinmultiple relevant categorieswitha simpleRESTAPIcal.
-143. How will you optimize the Cloud Computing environment?
-In a Cloud Computing environment we pay by usage. In such a scenario our usage costs are much higher. To optimize the Cloud Computing
-environmentwe have to keep abalance betweenourusage costs and usage.
-Ifwe are payingfor computinginstances we canchoose optionslikeLambda inAWS, whichis a muchcheaper optionsfor computingincloud.
-Incase ofStorage, ifthe data to be stored is not goingto be accessesfrequentlywe can go forGlacier optioninAWS.
-Similarly when we pay for bandwidth usage, it makes sense to implement a caching strategy so that we use less bandwidth for the content that is
-accessed very frequently.
-It is a chalenging task for an architect in cloud to match the options available in cloud with the budget that an organization has to run its
-applications.
-Optimizations like server-less computing, load balancing, and storage selection can help in keeping the Cloud computing costs low with no
-degradation inUser experience.
-144. Do you think Regulations and Legal Compliance is an important
-aspect of Cloud Computing?
-Yes, in Cloud Computing we are using resources that are owned by the Cloud provider. Due to this our data resides on the servers that can be
-shared by other users ofCloud.
-There are regulations and laws for handling user data. We have to ensure that these regulations are met while selecting and implementing a Cloud
-computing strategy.
-Similarly, if we are in a contract with a client to provide certain Service Level Agreement (SLA) performance, we have to implement the cloud
-solutionin such a way that there is no breach ofSLAagreement due to Cloud provider’sfailures.
-For security there are laws that have to be folowed irrespective of Cloud or Co-located Data center. This is in the interest of our end-customer as
-wel asforthe benefit ofbusiness continuity.
-With Cloud computing architecture we have to do due diligence in selecting Security and Encryption options in Cloud.
-Unix Questions
-145. How will you remove all files in current directory? Including
-the files that are two levels down in a sub-directory.
-In Unix we have rmcommand to remove files and sub-directories. With rmcommand we have –r option that stands for recursive. The –r option
-can delete al filesin a directory recursively.
-It meansifwe our current directory structure is asfolows:
-My_dir
-->Level_1_dir
--> Level_1_dir ->Level_2_dir
--> Level_1_dir->Level_2_dir->a.txt
-Withrm–r * commandwe candelete the file a.txt as wel as sub-directories Level_1_dir and Level_2_dir.
-Command:
-rm– r *
-The asterisk (*)is a wildcard characterthatstandsfor al the files withanyname.
-146. What is the difference between the –v and –x options in Bash shell
-scripts?
-In a BASH Unix shel we can specify the options –v and –x on top of a script as folows:
-#!/bin/bash -x –v
-With –x option BASH shel wil echo the commandslike for, select, case etc. after substituting the arguments and variables. So it wil be an
-expanded formofthe command thatshows al the actions ofthe script. It is veryusefulfor debugginga shel script.
-With –v option BASH shel wil echo every command before substituting the values of arguments and variables. In –v option Unix wil print each
-line asit reads.
-In –voption, Ifwe runthe script, the shel prints the entire file and thenexecutes. Ifwe runthe script interactively, itshows eachcommand after
-pressing enter.
-147. What is a Filter in Unix command?
-InUnix there are manyFilter commandslike- cat, awk, grep, head, tail cut etc.
-AFilter is a software programthat takes an input and produces an output, and it can be used in a streamoperation.
-E.g. cut -d :-f 2 /etc/passwd | grep abc
-We canmixand matchmultiple filtersto create a complexcommand that cansolve a problem.
-Awk and Sed are complexfiltersthat provide fulyprogrammable features.
-EvenData scientists use Unixfiltersto get the overviewofdata stored inthe files.
-148. What is Kernel in Unix operating system?
-Kernelisthe central core component of a Unix operating system(OS).
-AKernelisthe main component that can control everythingwithinUnixOS.
-It is the first programthat is loaded on startup of Unix OS. Once it is loaded it wil manage the rest of the startup process.
-Kernelmanages memory, scheduling as wel as communicationwith peripheralslike printers, keyboards etc.
-But Kernel does not directly interact with a user. For a new task, Kernel wil spawn a shel and user wil work in a shel.
-Kernelprovides manysystemcals. A software programinteracts withKernelby usingsystemcals.
-Kernelhas a protected memoryarea that cannot be overwrittenaccidentalybyanyprocess.
-149. What is a Shell in Unix OS?
-Shel inUnixis a user interface that is used by a user to access Unix services.
-Generaly a Unix Shel is a command line interface (CLI) in which users enter commands by typing or uploading a file.
-We use a Shel to run diferent commands and programs onUnix operating system.
-A Shel also has a command interpreter that can take our commands and send these to be executed by Unix operating system.
-Some ofthe popular Shels onUnix are:Korn shel, BASH, C shel etc.
-150. What are the different shells in Unix that you know about?
-Unix has many flavors ofShel. Some ofthese are asfolows:
-Bourne shel: We use sh for Bourne shel.
-Bourne Again shel: We use bash to run thisshel.
-Kornshel:We canuse kshto for Kornshel.
-Zshel:The command to use thisis zsh
-C shel:We use cshto runC shel.
-EnhancedC shel:tcshisthe command for enhancedC shel.
-151. What is the first character of the output in ls –l command ?
-We use ls -l command to list the files and directories in a directory. With -l option we get long listing format.
-In this format the first character identifies the entry type. The entry type can be one of the folowing:
-b Block specialfile
-c Character special file
-d Directory
-l Symbolic link
-s Socket link
-p FIFO
-- Regularfile
-Ingeneralwe see d for directoryand - for a regular file.
-152. What is the difference between Multi-tasking and Multi-user
-environment?
-In a Multi-taskingenvironment,same user cansubmitmore thanone tasks and operatingsystemwil execute themat the same time.
-In a Multi-user environment, more thanone user caninteract withthe operatingsystemat the same time.
-3. What isCommand SubstitutioninUnix?
-Command substitution is a mechanismby which Shel passes the output of a command as an argument to another command. We can even use it to
-set a variable or use an argument listina forloop.
-E.g. rm`cat files_to_delete`
-Inthis example files_to_delete is a file containingthe list offilesto be deleted. cat command outputs thisfile and givesthe output to rmcommand.
-rmcommand deletesthe files.
-In generalCommand Substitution isrepresented by back quotes`.
-153. What is an Inode in Unix?
-AnInode is a Data Structure inUnixthat denotes a fileor a directoryonfile system. It contains informationaboutfilelike- locationoffileonthe
-disk, access mode, ownership, file type etc.
-EachInode has a number that is used inthe indextable. UnixkernelusesInode numberto accessthe contents ofan Inode.
-We can use ls-i command to get the inode number of a file.
-154. What is the difference between absolute path and relative path in
-Unix file system?
-Absolute path is the complete path of a file or directory fromthe root directory. In generalroot directory is represented by / symbol. If we are in a
-directoryand want to knowthe absolutepath, we canusepwd command.
-Relative pathisthe pathrelative the current locationindirectory.
-E.g. In a directory structure /var/user/kevin/mail if we are in kevin directory then pwd command wil give absolute path as /var/user/kevin.
-Absolute pathofmailfolderis/var/user/kevin/mail. Formailfolder./mailisthe relative pathofmaildirectoryfromkevinfolder.
-155. What are the main responsibilities of a Unix Shell?
-Some ofthe main responsibilities of a UnixShel are asfolows:
-1. Program Execution: A shel is responsible for executing the commands and script files in Unix. User can either interactively enter the commands
-inCommandLineInterface caled terminalortheycanruna scriptfile containingaprogram.
-2. Environment Setup: A shel can define the environment for a user. We can set many environment variables in a shel and use the value of these
-variablesin our program.
-3. Interpreter: A shel acts as an interpreter for our scripts. It has a built in programming language that can be used to implement the logic.
-4. Pipeline: A shel also can hookup a pipeline of commands. When we run multiple commands separated by | pipe character, the shel takes the
-output ofa command and passesitto next one inthe pipeline.
-5. I/O Redirection: Shel is also responsible for taking input fromcommand line interface (CLI) and sending the output back to CLI. We use >, <,
->> charactersforthis purpose.
-156. What is a Shell variable?
-A UnixShel variable is an internal variable that a shel maintains. It is local to that Shel. It is not made available to the parent shel or child shel.
-We generalyuse lower case namesforshel variables inC shel.
-We can set the value of a shel variable by set command.
-E.g. % set max_threads=10
-To delete a Shel variable we can use unset command.
-To use a Shel variable in a script we use $ sign in front of the variable name.
-E.g. echo $max_threads
-157. What are the important Shell variables that are initialized on starting
-a Shell?
-There are folowing important Shel variables that are automaticaly initialized when a Shel starts:
-user:
-term:
-home:
-path:
-These Shel variables take values fromenvironment variables.
-Ifwe change the value ofthese Shel variablesthenthe correspondingenvironment variable value is also changed.
-158. How will you set the value of Environment variables in Unix?
-We canuse 'setenv' command to set the value ofenvironment variables.
-E.g. % setenv [Name] [value]
-% setenv MAX_TIME10
-To print the value ofenvironment variable we canuse 'printenv' command.
-E.g. % printenvMAX_TIME
-Ifwe just use printenvthenitlists al the environment variables and their values.
-To unset or delete an environment variable we use unsetenv command.
-E.g. % unsetenv MAX_TIME
-To use an environment variable in a command we use the prefix $ with the name of variable.
-What isthe specialrule about Shel and Environment variable inBourne Shel?
-InBourne Shel, there is not much dif erence betweenShel variable and Environment variable.
-Once we start a Bourne Shel, it getsthe value ofenvironment variables and defines a correspondingShel variable. Fromthat timeonwardsthe
-shel only refers to Shel variable. But if a change is made to a Shel variable, then we have to explicitly export it to environment so that other shel
-or child processes can use it.
-Also for Shel variables we use set and unset commands.
-159. What is the difference between a System Call and a library function?
-Systemcals are low-level kernel cals. These are handled by the kernel. Systemcals are implemented in kernel ofUnix. An application hasto
-execute specialhardware and systemdependentinstructionto runaSystemcal.
-A library function is also a low level cal but it is implemented in user space. A library cal is a regular function cal whose code resides in a shared
-library.
-160. What are the networking commands in Unix that you have used?
-Some ofthe popular networking commandsinUnix that we use are as folows:
-I. ping :We use this command to test the reachability of a host on an Internet Protocol(IP) network.
-II. telnet : This is another useful command to access another machine on the network. This is command uses Telnet protocol.
-III. tracert : This is short for Traceroute. It is a diagnostic command to display the route and transit delays of packets across Internet
-Protocol.
-IV. ftp:We use ftp commandsto transfer files over the network. ftp uses File Transfer Protocol.
-V. su : This unix command is used to execute commands with the privileges of another user. It is also known as switch user, substitute
-user.
-VI. ssh : This is a secure command that is preferred over Telnet for connecting to another machine. It creates a secure channel over an
-unsecured network. It uses cryptographic protocolto make the communication secure.
-161. What is a Pipeline in Unix?
-A Pipeline inUnixis a chainofcommandsthat are connected througha streaminsucha waythat output of one command becomesinputfor
-another command.
-E.g. ls –l | grep “abc” | wc –l
-Inthe above example we have created pipeline ofthree commandsls, grep and wc.
-First ls –l command is executed and gives the list of files in a directory. Then grep command searches for any line with word “abc” in it. Finaly wc
-–l command countsthe numberoflinesthat are returned bygrep command.
-In general a Pipeline is uni-directional. The data flowsfromleft to right direction.
-162. What is the use of tee command in Unix?
-We use tee command in a shel to read the input by user (standard input) and write it to screen (standard output) as wel as to a file.
-We canuse tee command to split the output ofa programso that itis visible oncommand line interface (CLI) as wel as stored ona file forlater
-use.
-Syntax istee [-a] [-i] [file …]
-163. How will you count the number of lines and words in a file in Unix?
-We can use wc (word count) command for counting the number of lines and words in a file. The wc command provides very good options for
-colectingstatistics ofa file. Some ofthese options are:
-l:This optiongivesline count
-m:This optiongives character count
-c :This optiongives byte count
-w:This optiongives word count
-L:This optiongivesthe lengthofthe longest line
-In case we give more than one files as input to wc command then it gives statistics for individualfiles as wel as the totalstatistics for al files.
-164. What is Bash shell?
-Bash standsfor Bourne AgainShel. It isfree software written to replace Bourne shel.
-We can see folowing line in shel scriptsfor Bash shel.
-#!/bin/bash
-InBashwe use ~/.profile at loginto set environment variables.
-InBashwe canexecute commandsinbatchmode or concurrent mode.
-Inbatchmode commands are separated bysemi colon.
-% command1; command2
-Inconcurrent mode we separate commands by&symbol.
-% command1 & command2
-165. How will you search for a name in Unix files?
-We can use grep command to search for a name or any text in a Unix file.
-Grep standsfor Globaly search a Regular Expression and Print.
-Grep command cansearch for a text inone file as wel as multiple files.
-We can also specify the text to be searched in regular expression pattern.
-% grep ^z *.txt
-Above command searches for lines starting with letter z in al the .txt files in current directory.
-166. What are the popular options of grep command in Unix?
-In Unix, grep is one of the very useful commands. It provides many useful options. Some of the popular options are:
-% grep –i :This optionignores case while doing search.
-% grep –x :This optionis used to search exact word in a file.
-% grep –v:We use this optionto find the linesthat do not have the text we are searching.
-% grep –A10:This optiondisplays 10 lines after the match isfound.
-% grep –c:We can use it to count the number ofmatching lines.
-167. What is the difference between whoami and who am i commands in
-Unix?
-Both the commands whoami and who ami are used to get the user information inUnix.
-Whenwe login asroot user on the network, then bothwhoami and who ami commands wil showthe user asroot.
-But when any other user let say john logs in remotely and runs su –root, whoamiwil show root, but who ami wil show the original user john.
-168. What is a Superuser in Unix?
-Superuser is a special user account. It is used for Unix systemadministration. This user can access al files on the file system. Also Superuser can
-also run any command ona system.
-GeneralySuperuser permission is given to root user.
-Most of the users work on their own user accounts. But when they need to run some additional commands, they can use su to switch to Superuser
-account.
-It is a best practice to not use Superuser account for regular operations.
-169. How will you check the information about a process in Unix?
-We can use ps command to check the status of a processinUnix. It is short for Process Status.
-On runningps commandwe get the list ofprocessesthat are executinginthe Unixenvironment.
-Generalywe use ps –ef command. In this e standsfor every process and fstandsfor ful format.
-This command gives usid ofthe process. We canuse thisid to kil the process.
-170. What is the use of more command with cat command?
-We generalyuse cat command to displaythe contents ofa file.
-Ifa fileis verybigthenthe contents ofthe filewil notfitinscreen, therefore screenwil scrol forward and inthe end we justsee the last page of
-information froma file.
-Withmore commandwe can pause the scrolingofdata froma file indisplay. Ifwe use cat command withmore thenwe justsee the first page ofa
-file first. Onpressingenter button, more commandwil keep changingthe page. Inthis wayitis easierto viewinformationina file.
-When using the cat command to display file contents, large data that does not fit on the screen would scrol of without pausing, therefore making it
-dificultto view. On the other hand, usingthe more command is more appropriate insuchcase because it wil displayfile contents one screenpage
-at a time.
-171. What are the File modes in Unix?
-InUnix, there are three mainpermissionsfor a File.
-I. r = It means a user can read the file
-II. w= It meansthat a user canwrite to thisfile
-III. x= It meansthe a user can execute a file like a shel script
-Furtherthere are three permissionsets.
-I. Owner:User who created the file
-II. Group:This appliesto user of a group to which owner belongs
-III. Other:Thisisrest ofthe usersinUnix system
-Withthe combinationofthese three sets permissions offileinUnixare specified.
-E.g. Ifa filehas permissions –rwxr-xr-- , itmeansthat owner hasread, write, execute access. Group hasread and execute access. Others have
-just read access. So the owner or admin hasto specificaly grant access to Othersto execute the file.
-172. We wrote a shell script in Unix but it is not doing anything. What
-could be the reason?
-Afterwritinga shel script we have to give it execute permissionso thatit can be runinUnixshel.
-We canuse chmod command to change the permissionofa fileinUnix.Ingeneralwe use chmod+xto give execute permissionto usersfor
-executing the shel script.
-E.g. chmod+x abc.txt wil give execute permissionto usersfor executingthe file abc.txt.
-With chmod command we can also specify to which user/group the permission should be granted. The options are:
-173. u isthe owner user
-174. g isthe owner group
-175. o is others
-176. a is al users
-177. What is the significance of 755 in chmod 755 command?
-We use chmod command to change the permissions of a file in Unix. In this command we can pass the file permissions in the formof a three-digit
-number.
-In this number 755, first digit 7 is the permissions given to owner, second digit 5 is the permissions of group and third digit 5 is the permissions of
-al others.
-Also the numbers 7 and 5 are made fromfolowing rules:
-4 = read permission
-2 = write permission
-1 = execute permission
-So 7 = 4 + 2 + 1 = Read + Write + Execute permission
-5 = 4 + 1 = Read + Execute permission
-In out example 755 means, owner hasread, write and execute permissions. Group and others have read and execute permissions.
-178. How can we run a process in background in Unix? How can we kill a
-process running in background?
-InUnix shel we can use symbol& to run a command in background.
-E.g. % ls –lrt &
-Once we use & option it runs the process in background and prints the process ID. We cannot down this process ID for using it in kil command.
-We can also use ps –efcommand to get the processIDof processesrunning in background.
-Once we knowthe processID of a process we can kil it by folowing command:
-% kil -9 processId
-179. How will you create a read only file in Unix?
-We can create a file with Vi editor, cat or any other command. Once the file is created we have to give read only permissions to file. To change file
-permissionto read onlywe use folowingcommand:
-%chmod 400 filename
-180. How does alias work in Unix?
-We use alias in Unix to give a short name to a long command. We can even use it to combine multiple commands and give a short convenient
-name.
-E.g. alias c=’clear’
-Withthis alias we just need to type c for runningclear command.
-In bashwe store aliasin .bash_profile file.
-To get the list of al active alias in a shel we can run the alias command without any argument on command line.
-% alias
-alias h='history'
-alias ki='kil -9'
-aliasl='last'
-181. How can you redirect I/O in Unix?
-In Unix we can redirect the output of command or operation to a file instead of command line interface (CLI). For this we sue redirection pointers.
-These are symbols > and >>.
-Ifwe want to write the output ofls –lrt command to a file we use folowing:
-%ls –lrt > fileList.txt
-Ifwe want to copy one file to another file we use folowing:
-% catsrcFile > copyFile
-Ifwe want to append the contents ofone file at the end ofanotherfilewe use folowing:
-% catsrcFile >> appendToFile
-182. What are the main steps taken by a Unix Shell for processing a
-command?
-AUnixShel takesfolowingmain stepsto process a command:
-I. Parse : First step is to parse the command or set of commands given in a Command Line Interface (CLI). In this step multiple
-consecutive spaces are replaced bysingle space. Multiple commandsthat are delimited bya symbol are divided intomultiple
-individual actions.
-II. Variable : In next step Shel identifies the variables mentioned in commands. Generaly any word prefixed by $ sign is a variable.
-III. CommandSubstitution:In thisstep, Shel executesthe commandsthat are surrounded by back quotes and replacesthatsection
-with the outputfromthe command.
-IV. Wild Card : Once these steps are done, Shel replaces the Wild card characters like asterisk * with the relevant substitution.
-V. Execute :Finaly, Shel executes al the commands and folowsthe sequence inwhichCommands are giveninCLI.
-183. What is a Sticky bit in Unix?
-ASticky bit is a file/directory permission feature inUnix.
-Sometimeswhenwe givewrite permissionto another userthenthat user can delete the filewithoutthe owner knowingabout it. To preventsuchan
-accidentaldeletion offile we use sticky bit.
-Whenwe mark a file/directorywitha stickybit, no user otherthanowner offile/directorygetsthe privilege to delete a file/directory.
-To set the sticky bit we use folowing command:
-%chmod+tfilename
-When we do ls for a file or directory, the entries with sticky bit are listed with letter t in the end of permissions.
-E.g. %ls –lrt
--rwxrwxrwt 5 abc abc 4096 Jan 1 10:10 abc.txt
-To remove the sticky bit we use folowing command:
-%chmod –t filename
-184. What are the different outputs from Kill command in Unix?
-Kil command inUnixcanreturnfolowingoutputs:
-I. 0:It means Kil command wassuccessful
-II. -1: Whenwe get-1 fromKil command itshowsthat there wassome error. Inadditionto -1 we get EPERMor ESRCHinoutput.
-EPERMdenotesthatsystemdoes not permittheprocessto be kiled.
-ESRCHdenotesthat process withPIDmentioned inKil command does not exist anymore. Or due to securityrestrictions we
-cannot accessthat process.
-185. How will you customize your environment in Unix?
-InUnix, almost al the popularshels provide optionsto customize the environment by usingenvironment variables. To make these customizations
-permanentwe canwrite these to specialfilesthat are specific to auserina shel.
-Once we write our customizations to these files, we keep on getting same customization when we open a new shel with same user account.
-The special files for storing customization information for dif erent shels at login time are:
-I. C shel: /etc/.login or ~/.cshrc
-II. TC shel:/etc/.loginor ~/.tshrc
-III. Korn shel: ~etc/ksh.kshrc
-IV. Bash:~/.bash_profile
-186. What are the popular commands for user management in Unix?
-InUnixwe use folowingcommandsfor User Management:
-I. id : This command gives the active user id with login and groups to which user belongs.
-II. who : This command gives the user that is currently logged on system. It also gives the time of login.
-III. last: This command showsthe previousloginsto the systemin a chronologicalorder.
-IV. adduser : We use this command to add a new user.
-V. groupadd:We use this command to add a new group in the system.
-VI. usermod:We user usermod command to add/remove a user to a group inUnix.
-187. How will you debug a shell script in Unix?
-A shel script is a programthat can be executed in Unix shel. Sometimes a shel script does not work as intended. To debug and find the problem
-inshel script we canuse the options provided byshel to debugthe script.
-Inbashshel there are x and v optionsthat canbe used while runninga script.
-% bash –xv<scriptName>
-With option v al the input lines are printed by shel. With option x al the simple commands are printed in expanded format. We can see al the
-arguments passed to a command with–xoption.
-188. What is the difference between a Zombie and Orphan process in
-Unix?
-Zombie is a defunct child processinUnix thatstil has entry in processtable.
-Sometimes a child processisterminated inUnix, but the parent process stil waits onit.
-AZombie processis dif erent fromanOrphan process. An orphan processis a child process whose parent process had died. Once a processis
-orphanit is adopted byinit process. So efectivelyitis not anorphan.
-Therefore if a process exits without cleaning its child processes, they do not become Zombie. Instead init process adopts these child processes.
-Zombie processes are the onesthat are not yet adopted byinit process.
-189. How will you check if a remote host is still alive?
-We can use one of the networking commands in Unix. It is caled ping. With ping command we can ping a remote host.
-Ping utility sends packets in an IP network with ICMP protocol. Once the packet goes fromsource to destination and comes back it records the
-time.
-We can even specify the number of packets we want to send so that we colect more statistics to confirmthe result.
-% pingwww.google.com
-Another optionisto use telnetto remote host to check itsstatus.
-190. How will you get the last executed command in Unix?
-We can use history command to get the list commands that were executed in Unix. Since we are only interested in the last executed command we
-have to use tailto get the last entry.
-Exact command would be asfolows:
-% history | tail-2
-191. What is the meaning of “2>&1” in a Unix shell?
-InUnix shel file descriptor 1 isforstandard output.
-File description 2 isforstandard error.
-We can use “2>&1” in a command so that al the errors fromstandard error go to standard output.
-%catfile 2>&1
-192. How will you find which process is taking most CPU time in Unix?
-In Unix, we can use top command to list the CPU time and memory used by various processes. The top command lists the process IDs and CPU
-time, memory etc used bytopmost processes.
-Top command keeps refreshing the screen at a specified interval. So we can see over the time which process is always appearing on the top most
-rowin the result oftop command.
-Thisisthe processthat is consumingmost CPUtime.
-193. What is the difference between Soft link and Hard link in Unix?
-A soft link is a pointer to a file, directory or a programlocated in a dif erent location. A hard link can point to a programor a file but not to a
-directory.
-Ifwe move, delete or rename a file, the soft linkwil be broken. But a hard link stil remains aftermovingthe file/program.
-We use the command ln–s for creatinga soft link. But a hard link canbe created bylncommandwithout –s option.
 
-**194. How will you find which processes are using a file?**
+**91. What are the Cloud platforms that support Docker?**
+
+Some of the popular cloud platforms that support Docker are:
+
+I. Amazon AWS
+
+II. Google Cloud Platform
+
+III. Microsoft Azure
+
+IV. IBM Bluemix
+
+**92. How can we control the startup order of services in Docker compose?**
+
+In Docker compose we can use the depends_on option to control the startup order of services. With compose, the services will start in the dependency order. Dependencies can be defined in the options like- depends_on, links, volumes_from, network_mode etc.
+
+But Docker does not wait for until a container is ready.
+
+**93. Why Docker compose does not wait for a container to be ready before**
+
+moving on to start next service in dependency order?
+
+The problem with waiting for a container to be ready is that in a Distributed system, some services or hosts may become unavailable sometimes.
+
+Similarly during startup also some services may also be down.
+
+Therefore, we have to build resiliency in our application. So that even if some services are down we can continue our work or wait for the service to become available again.
+
+We can use wait-for-it or dockerize tools for building this kind of resiliency.
+
+****94. How will you customize Docker compose file for different environments?**
+
+In Docker compose there are two files docker-compose. yml and docker-compose. override. yml. We specify our base configuration in docker compose. yml file. For any environment specific customization we use docker-compose. override. yml file.
+
+We can specify a service in both the files. Docker compose will merge these files based on following rules:
+
+For single value options, new value replaces the old value.
+
+For multi-value options, compose will concatenate the both set of values.
+
+We can also use extends field to extend a service configuration to multiple environments. With extends, child services can use the common configuration defined by parent service.
+
+**Cloud Computing Questions**
+
+**95. What are the benefits of Cloud Computing?**
+
+There are ten main benefits of Cloud Computing:
+
+**I. Flexibility :** The businesses that have fluctuating bandwidth demands need the flexibility of Cloud Computing. If you need high bandwidth, you can scale up your cloud capacity. When you do not need high bandwidth, you can just scale down. There is no need to be tied into an inflexible fixed capacity infrastructure.
+
+**II. Disaster Recovery :** Cloud Computing provides robust backup and recovery solutions that are hosted in cloud. Due to this there is no need to spend extra resources on home grown disaster recovery. It also saves time in setting up disaster recovery.
+
+**III. Automatic Software Updates :** Most of the Cloud providers give automatic software updates. This reduces the extra task of installing new software version and always catching up with the latest software instals.
+
+**IV. Low Capital Expenditure :** In Cloud computing the model is Pay as you Go. This means there is very less upfront capital expenditure. There is a variable payment that is based on the usage.
+
+**V. Collaboration:** Ina cloud environment, applications can be shared between teams. This increases collaboration and communication among team members.
+
+**VI. Remote Work:** Cloud solutions provide flexibility of working remotely. There is no on site work. One can just connect from anywhere and start working.
+
+**VII. Security:** Cloud computing solutions are more secure than regular onsite work. Data stored in local servers and computers is prone to security attacks. In Cloud Computing, there are very few loose ends. Cloud providers give a secure working environment to its users.
+
+**VIII. Document Control:** Once the documents are stored in a common repository, it increases the visibility and transparency among companies and their clients. Since there is one shared copy, there are fewer chances of discrepancies.
+
+**IX. Competitive Pricing:** In Cloud computing there are multiple players, so they keep competing among themselves and provide very good pricing. This comes out much cheaper compared to other options.
+
+**X. Environment Friendly:** Cloud computing saves precious environment are sources also. By not blocking the resources and bandwidth.
+
+**96. What is On-demand computing in Cloud Computing?**
+
+On-demand Computing is the latest mode Lin enterprise systems. It is related to Cloud computing. It means IT resources can be provided on demand by a Cloud provider.
+
+In an enterprise system demand for computing resources varies from time to time. In such a scenario, On-demand computing makes sure that servers and IT resources are provisioned to handle the increase/decrease in demand.
+
+A cloud provider maintains a pol of resources. The pool of resources contains networks, servers, storage, applications and services. This pool can serve the varying demand of resources and computing by various enterprise clients.
+
+There are many concepts like- grid computing, utility computing, autonomic computing etc. that are similar to on-demand computing.
+
+This is the most popular trend in computing model as of now.
+
+**97. What are the different layers of Cloud computing?**
+
+Three main layers of Cloud computing are as follows:
+
+**I. Infrastructure as a Service (IAAS):** IAAS providers give low-level abstractions of physical devices. Amazon Web Services (AWS) is an example of IAAS. AWS provides EC2 for computing, S3 buckets for storage etc. Mainly the resources in this layer are hard ware like memory, process or speed, network band width etc.
+
+**II. Plat forms a Service (PAAS):** PAAS providers of er managed services like Rails, Django etc. One good example of PAAS is Google App Engineer. These are the environments in which developers can develop sophisticated software with ease. Developers just focus on developing software, where as scaling and performance is handled by PAAS provider.
+
+**III. Software as a Service (SAAS) :** SAAS provider of er an actual working software application to clients. Salesforce and GitHub are two good examples of SAAS. They hide the underlying details of the software and just provide an interface to work on the system. Behind the scenes the version of Software can be easily changed.
+
+**98. What resources are provided by Infrastructure as a Service (IAAS) provider?**
+
+An IAAS provider can give physical, virtual or both kinds of resources. These resources are used to build cloud.
+
+IAAS provider handles the complex it your maintaining and deploying these services.
+
+IAAS provider also handles security and backup recovery for these services. The main resources in IAAS are servers, storage, routers, switches and other related hardware etc.
+
+**99. What is the benefit of Platform as a Service?**
+
+Platform as a service (PaaS) is a kind of cloud computing service. A PaaS provider of  a plat form on which clients can develop, run and manage applications without the need of building the infrastructure.
+
+In PAAS clients save time by not creating and managing infrastructure environment associated with the app that they want to develop.
+
+**100. What are the main advantages of PaaS?**
+
+The advantages of PaaS are:
+
+I. It allows development work on higher level programming with very less complexity.
+
+II. Teams can focus on just the development of the application that makes the application very of active.
+
+III. Maintenance and enhancement of the application is much easier.
+
+IV. It is suitable for situations  in which multiple developers work on a single project but are not co-located.
+
+**101. What is the main disadvantage of PaaS?**
+
+Biggest disadvantage of PaaS is that a developer can only use the tools that PaaS provider makes available. A developer cannot use the full range of conventional tools.
+
+Some PaaS providers lock in the clients in their platform. This also decreases the flexibility of clients using PaaS.
+
+**102. What are the different deployment models in Cloud computing?**
+
+Cloud computing supports following deployment models:
+
+I. Private Cloud: Some companies build their private cloud. A private cloud is a fully functional plat form that is owned, operated and used by only one organization.
+
+Primary reason for private cloud is security. Many companies feel secure in private cloud. The other reasons for building private cloud are strategic decisions or control of operations.
+
+There is also a concept of Virtual Private Cloud (VPC). In VPC, private cloud is built and operated by a hosting company.
+
+But itis exclusively used by one organization.
+
+II. Public Cloud: There are cloud platforms by some companies that are open for general public as well as big companies for use and deployment. E.g. Google Apps, Amazon Web Services etc.
+
+The public cloud providers focus on layers and application like- cloud application, infrastructure management etc. In this model resources are shared among different organizations.
+
+III. Hybrid Cloud: The combination of public and private cloud is known as Hybrid cloud. This approach provides benefits of both the approaches- private and public cloud. So it is very robust platform.
+
+A client gets functionalities and features of both the cloud platforms. By using Hybrid cloud an organization can create its own cloud as well as they can pass the control of their cloud to another third party.
+
+**103. What is the difference between Scalability and Elasticity?**
+
+Scalability is the ability of a system to handle the increased load on its current hardware and software resources. Ina highly scalable system it is possible to increase the workload without increasing the resource capacity. Scalability supports any sudden surge in the demand/traff ic with current set of resources.
+
+Elasticity is the ability of a system to increase the workload by increasing the hardware/software resources dynamically. Highly elastic systems can handle the increased demand and traffic by dynamically commission and decommission resources. Elasticity is an important characteristic of Cloud Computing applications. Elasticity means how well your architecture is adaptable to workload in real time.
+
+E.g. If in a system, one server can handle 100 users, 2 servers can handle 200 users and 10 servers can handle 1000 users. But in case for adding every users, if you need 2Xthe amount of servers, then it is not a scalable design.
+
+Let say, you have just one user login every hour on your site. Your one server can handle this load. But, if suddenly, 1000 users login at once, can your system quickly start new web servers on the fly to handle this load? Your design is elastic if it can handle such sudden increase in traffic so quickly.
+
+**104. What is Software as a Service?**
+
+Software as Service is a category of cloud computing in which Software is centrally hosted and it is licensed on a subscription basis. It is also known as On-demand software. Generally, clients access the software by using a thin-client like a web browser.
+
+Many applications like Google docs, Microsoft of ice etc. provide SaaS model for their software.
+
+The benefit of SaaS is that a client can add more users on the fly based on its current needs. And client does not need to install maintaining software on its premises to use this software.
+
+**105. What are the different types of Datacenters in Cloud computing?**
+
+Cloud computing consists of dif erent types of Datacenters linked in a grid structure. The main types of Datacenters in Cloud computing are:
+
+**I. Containerized Datacenter**
+
+As the name suggests, containerized datacenter provides high level of customization for an organization. These are traditional kind of datacenters. We can choose the different types of servers, memory, network and other infrastructure resources in this datacenter. Also we have to plan temperature control, network management and power management in this kind of datacenter.
+
+**II. Low-Density Datacenters**
+
+In a Low-density datacenter, we get high level of performance. In such a data center if we increase the density of servers, the issue with power comes. With high density of servers, the area gets heated. In such a scenario, of active heat and power management is done. To reach high level of performance, we have to optimize the number of servers’ in the datacenter.
+
+**106. Explain the various modes of Software as a Service (SaaS) cloud environment?**
+
+Software as a Service (SaaS) is used to of er different kinds of software applications in a Cloud environment. Generally these are of read on subscription basis. 
+Different modes of SaaS are:
+
+**I. Simple multi-tenancy :** In this setup, each client gets its own resources. These resources are not shared with other clients. It is more secure option, since there is no sharing of resources. But it inefficient option, since for each client more money is needed to scale it with the rising demands. Also it takes time to scale up the application in this mode.
+
+**II. Fine grain multi-tenancy :** In this mode, the feature provided to each client is same. The resources are shared among multiple clients. It is an efficient mode of cloud service, in which data is kept private among different clients but computing resources are shared. Also itis easier and quicker to scale up the SaaS implementation for different clients.
+
+**107. What are the important things to care about in Security in a cloud environment?**
+
+In a cloud-computing environment, security is one of the most important aspects. With growing concern of hacking, every organization wants to make its software system and data secure. Since in a cloud computing environment,
+
+Software and hardware is not on the premises of an organization, it becomes more important to implement the best security practices.
+
+Organizations have to keep their Data most secure during the transfer between two locations. Also they have to keep data secure when it is stored
+
+at a location. Hackers can hack into application or they can get an unauthorized copy of the data. So it becomes important to encrypt the data during transit as well as during rest to protect it from unwanted hackers.
+
+**108. Why do we use API in cloud computing environment?**
+
+Application Programming Interfaces (API) is used in cloud computing environment for accessing many services. APIs are very easy to use. They provide a quick option to create different set of applications in cloud environment.
+
+An API provides a simple interface that can be used in multiple scenarios.
+
+There are different types of clients for cloud computing APIs. It is easier to serve different needs of multiple clients with APIs in cloud computing environment.
+
+**109. What are the different areas of Security Management in cloud?**
+
+Different areas of Security management in cloud are as follows:
+
+**I. Identity Management :** This aspect creates dif erent level of users, roles and their credentials to access the services in cloud.
+
+**II. Access Control :** In this area, we create multiple levels of permissions and access are as that can be given to a user or role for accessing a service in cloud environment.
+
+**III. Authentication :** In this area, we check the credentials of a user and confirm that it is the correct user. Generally this is done by user password and multi-factor authentication like-verification by a one-time use code on cell phone.
+
+**IV. Authorization :** In this aspect, we check for the permissions that are given to a user or role. If a user is authorized to access a service, they are allowed to use it in the cloud environment.
+
+**110. What are the main cost factors of cloud based data center?**
+
+Costs in a Cloud based data center are different from a traditional data center. Main cost factors of cloud based data center are as follows:
+
+**I. Labor cost :** We need skilled staff that can work with the cloud-based data center that we have selected for our operation. Since cloud is not a very old technology, it may get difficult to get the right skill people for handling cloud based datacenter.
+
+**II. Power cost :** In some cloud operations, power costs are borne by the client. Since it is a variable cost, it can increase with the increase in scale and usage.
+
+**III. Computing cost :** The biggest cost in Cloud environment is the cost that we pay to Cloud provider for giving us computing resources. This cost is much higher compared to the labor or power costs.
+
+**111. How can we measure the cloud-based services?**
+
+Ina cloud-computing environment we pay for the services that we use. So main criteria to measure a cloud based service its usage. For computing resource we measure by usage in terms of time and the power of computing resource.
+
+For a storage resource we measure by usage in terms of bytes(giga bytes) and bandwidth used in data transfer.
+
+Another important aspect of measuring a cloud service is its availability. A cloud provider has to specify the service level agreement (SLA) for the time for which service will be available in cloud.
+
+**112. How a traditional datacenter is different from a cloud environment?**
+
+In a traditional data center the cost of increasing the scale of computing environment is much higher then Cloud computing environment. Also in a traditional data center, there are not much benefits of scaling down the operation when demand decreases. Since most of the expenditure is in capital spent of buying servers etc., scaling down just saves power cost, which is very less compared to other fixed costs.
+
+Also in a Cloud environment there is no need to higher a large number of operations staff to maintain the datacenter. Cloud provider takes care of maintaining and up grading the resources in Cloud environment.
+
+With a traditional datacenter, people cost is very high since we have to hire a large number of technical operation people for in-house datacenter.
+
+**113. How will you optimize availability of your application in a Cloud environment?**
+
+In a Cloud environment, it is important to optimize the availability of an application by implementing disaster recovery strategy. For disaster recovery we create a backup application in another location of cloud environment. Incase of complete failure at a data center we use the disaster recovery site to run the application.
+
+Another aspect of cloud environment is that servers often fail or go down. In such a scenario it is important to implement the application in such a way that we just kill the slow server and restart another server to handle the traffic seamlessly.
+
+**114. What are the requirements for implementing IaaS strategy in Cloud?**
+
+Main requirements to implement IAAS are as follows:
+
+**I. Operating System(OS):** We need an OS to support hypervisor in IaaS. We can use open source OS like Linux for this purpose.
+
+**II. Networking :** We have to define and implement networking topology for IaaS implementation. We can use public or private, network for this.
+
+**III. Cloud Model :**We have to select the right cloud model for implementing IaaS strategy. It can be SaaS, PaaS or CaaS.
+
+**115. What is the scenario in which public cloud is preferred over private cloud?**
+
+In a startup mode often we want to test our idea. In such a scenario it makes sense to setup application in public cloud. It is much faster and cheaper to use public cloud over private cloud.
+
+Remember security is a major concern in public cloud. But with time and changes in technology, even public cloud is very secure.
+
+**116. Do you think Cloud Computing is a software application or a hardware service?**
+
+Cloud Computing is neither a software application or a hardware service. Cloud computing is a system architecture that can be used to implement software as well as hardware strategy of an organization.
+
+Cloud Computing is a highly scalable, highly available and cost of active solution for software and hardware needs of an application.
+
+Cloud Computing provides great ease of use in running the software in cloud environment. It is also very fast to implement compared with any other traditional strategy.
+
+**117. Why companies now prefer Cloud Computing architecture over Client Server Architecture?**
+
+In Client Server architecture there is one to one communication between client and server. Server is often at in-house datacenter and client can access same server from anywhere. If client is at a remote location, the communication can have high latency.
+
+In Cloud Computing there can be multiple servers in the cloud. There will be a Cloud controller that directs the requests to right server node. In such a scenario clients can access cloud-based service from any location and they can be directed to the one nearest to them.
+
+Another reason for Cloud computing architecture is high availability. Since there are multiple servers behind the cloud, even if one server is down, another server can serve the clients seamlessly.
+
+**118. What are the main characteristics of Cloud Computing architecture?**
+
+Main characteristics of Cloud Computing architecture are as follows:
+
+**I. Elasticity :** In Cloud Computing system is highly elastic in the sense that it can easily adapt it self to increase or decrease in load.
+
+There is no need to take urgent actions when there is surge in traffic requests.
+
+**II. Self-service provisioning :** In Cloud environment users can provision new resources on their own by just calling some APIs.
+
+There is no need to fil forms and order actual hardware from vendors.
+
+**III. Automated-provisioning :** In case demand/load decreases, extra resources can be automatically shut down in Cloud computing environment.
+
+**IV. Standard Interface :** There are standard interfaces to start, stop, suspend or remove an instance in Cloud environment. Most of the services are accessible via public and standard APIs in Cloud computing.
+
+**V. Usage based Billing :** In a Cloud environment, users are charged for their usage of resources. They can forecast their bill and costs based on the growth they are expecting in their load.
+
+**119. How databases in Cloud computing are different from traditional databases?**
+
+In a Cloud environment, companies often use different kind of data to store. There are data like email, images, video, pdf, graph etc. in a Cloud environment. To store this data often No SQL databases are used.
+
+A No SQL database like Mongo DB provides storage and retrieval of data that cannot be stored efficiently in a traditional RDBMS.
+
+Database likeNeo4J provides features to store graph data like Facebook, LinkedIn etc. in a cloud environment.
+
+Hadoop like database help in storing Big Data based information. It can handle very large-scale information that is generated in a large-scale environment.
+
+**120. What is Virtual Private Network (VPN)?**
+
+In a Cloud environment, we can create a virtual private network (VPM) that can be solely used by only one client. This is a secure network in which data transfer between servers of same VPN is very secure.
+
+By using VPN, an organization uses the public network in a private manner. It increases the privacy of an organization’s data transfer in a cloud environment.
+
+**121. What are the main components of a VPN?**
+
+Virtual Private Network (VPN) consists of following main components:
+
+**I. Network Access Server (NAS):** ANAS server is responsible for setting up tunnels in a VPN that is accesses remotely. It maintains these tunnel ls that connect clients to VPN.
+
+**II. Firewall:** It is the software that creates barrier between VPN and public network. It protects the VPN from malicious activity that can be done fromthe outside network.
+
+**III. AAA Server:** This is an authentication and authorization server that controls the access and usage of VPN. For each request to use VPN, AAA server checks the user for correct permissions.
+
+**IV. Encryption:** In a VPN, encryption algorithms protect the important private data from malicious users.
+
+**122. How will you secure the application data for transport in a cloud environment?**
+
+With ease of use in Cloud environment comes the important aspect of keeping data secure. Many organizations have data that is transferred from their traditional data center to Cloud datacenter.
+
+During the transit of data it is important to keep it secure. Once of the best way to secure data is by using HTTPS protocol over Secure Socket Layer (SSL).
+
+Another important point is to keep the data always encrypted. This protects data from being accessed by any unauthorized user during transit.
+
+**123. What are the large-scale databases available in Cloud?**
+
+In Cloud computing scale is not a limit. So there are very large-scale databases available from cloud providers. Some of these are:
+
+**I. Amazon Dynamo DB :** Amazon Web Services(AWS) provides a No SQL web service called Dynamo DB that provides highly available and partition tolerant database system. It has a multi-master design. It uses synchronous replication across multiple datacenters. We can easily integrate it with Map Reduce and Elastic MapReduce of AWS.
+
+**II. Google Bigtable :** This is a very large-scale high performance cloud based database option from Google. It is available on Google
+
+Cloud. It can be scaled to meta bytes. It is a Google proprietary implementation. In Bigtable, two arbitrary string values, row key and column key, and timestamp are mapped to an arbitrary byte array. In Bigtable MapReduce algorithm is used for modifying and generating the data.
+
+**III. Microsoft Azure SQL Database :** Microsoft Azure provides cloud based SQL database that can be scaled very easily for increased demand. It has very good security features and it can be even used to build multi-tenant apps to service multiple customers in cloud.
+
+**124. What are the options for open source NoSQL database in a Cloud environment?**
+
+Most of the cloud-computing providers support Open Source NoSQL databases. Some of these databases are:
+
+**I. Apache CouchDB :** It is a document base No SQL database from Apache Open Source. It is compatible with Couch Replication Protocol. It can communicate in native JSON and can store binary data very well.
+
+**II. HBase :** It is a No SQL database for use with Hadoop based software. It is also available as Open Source from Apache. It is a scalable and distributed Big Data database.
+
+III. MongoDB : It is an opensource database system that of errs a flexible data model that can be used to store various kinds of data. It provides high performance and always-on user experience.
+
+**125. What are the important points to consider before selecting cloud computing?**
+
+Cloud computing is a very good option for an organization to scale and outsource its software/hardware needs. But before selecting a cloud provider it is important to consider following points:
+
+**I. Security :** One of the most important points is security of the data. We should ask the cloud provider about the options to keep data secure in cloud during transit and artist.
+
+**II. Data Integrity :** Another important point is to maintain the integrity of data in cloud. It is essential to keep data accurate and complete in cloud environment.
+
+**III. Data Loss :** Ina cloud environment, there are chances of data loss. So we should know the provisions to minimize the data loss. It can be done by keeping backup of data in cloud. Also there should be reliable data recovery options incase of data loss.
+
+**IV. Compliance :** While using a cloud environment one must be aware of the rules and regulations that have to be followed to use the cloud. There compliance issues with storing data of a user in an external provider’s location/servers.
+
+**V. Business Continuity :** Incase of any disaster, itis important to create business continuity plans so that we can provide uninterrupted service to our end users.
+
+VI. Availability : Another important point is the availability of data and services in a cloud-computing environment. It is very important to provide high availability for a good customer experience.
+
+**VII. Storage Cost:** Since data is stored in cloud, it maybe very cheap to store the data. But the real cost can come in transfer of data when we have to pay by bandwidth usage. So storage cost of data in cloud should also include the access cost of data transfer.
+
+**VIII. Computing Cost:** One of the highest costs of cloud is computing cost. It can be very high cost with the increase of scale. So cloud computing options should be wisely considered in conjunction with computing cost charged for them.
+
+**126. What is a System integrator in Cloud computing?**
+
+Often an organization does not know al the options available in a Cloud computing environment. Here comes the role of a System Integrator (SI) who specializes in implementing Cloud computing environment.
+
+SI creates the strategy of cloud setup. It designs the cloud platform for the use of its client. It creates the cloud architecture for the business need of client.
+
+SI oversees the over all implementation of cloud strategy and plan. It also guides the client while choosing the right options in cloud computing platform.
+
+**127. What is virtualization in cloud computing?**
+
+Virtualization is the core of cloud computing platform. In cloud we can create a virtual version of hardware, storage and operating system that can be used to deploy the application.
+
+A cloud provider gives options to create virtual machines in cloud that can be used by its clients. These virtual machines are much cheaper than buying a few high end computing machines. In cloud we can use multiple cheap virtual machines to implement a resilient software system that can be scaled very easily in quick time. Where as buying an actual high-end machine to scale the system is very costly and time taking.
+
+**128. What is Eucalyptus in a cloud environment?**
+
+Eucalyptus is an open source software to build private and hybrid cloud in Amazon Web Services(AWS).
+
+It stands for Elastic Utility Computing Architecture for Linking Your Programs To Useful Systems.
+
+We can create our own datacenter in a private cloud by using Eucalyptus. It makes use of pooling the computing and storage resources to scale up the operations.
+
+In Eucalyptus, we create images of software applications. These images are deployed to create instances. These instances are used for computing needs.
+
+A Eucalyptus instance can have both public and private ip addresses.
+
+**129. What are the main components of Eucalyptus cloud architecture?**
+
+The main components of Eucalyptus cloud architecture are as follows:
+
+**I. Cloud Controller (CLC) :** This is the controller that manages virtual resources like servers, network and storage. It is at the highest level in hierarchy. It is a Java program with web interface for outside world. It can do resource scheduling as well as system accounting. There is only one CLC per cloud. It can handle authentication, accounting, reporting and quota management in
+cloud.
+
+**II. Walrus :** This is another Java program in Eucalyptus that is equivalent to AWS S3 storage. It provides persistent storage. It also
+
+contains images, volumes and snap shots similar to AWS. There is only one Walrus in a cloud.
+
+**III. Cluster Controller (CC) :** It is a C program that is the front end for a Eucalyptus cloud cluster. It can communicate with Storage controller and Node controller. It manages the instance execution in cloud.
+
+**IV. Storage Controller(SC):** It is a Java program equivalent to EBS in AWS. It can interface with Cluster Controller and Node
+
+Controller to manage persistent data via Walrus.
+
+**V. Node Controller (NC) :** It is a C program that can host a virtual machine instance. It is at the lowest level in Eucalyptus cloud. It downloads images from Walrus and creates an instance for computing requirements in cloud.
+
+**VI. VMWare Broker :** It is an optional component in Eucalyptus. It provides AWS compatible interface to VMWare environment.
+
+**130. What is Auto-scaling in Cloud computing?**
+
+Amazon Web Services (AWS) provides an important feature called Auto-scaling in the cloud. With Auto-scaling setup we can automatically provision and start new instances in AWS cloud without any human intervention.
+
+Auto-scaling is triggered based on load and other metrics.
+
+Let say if the load reaches a threshold we can setup auto-scaling to kick in and start a new server to handle additional load.
+
+**131. What are the benefits of Utility Computing model?**
+
+Utility computing is a cloud service model in which provider gives computing resources to users for using on need basis. Some of the main benefits of Utility computing are:
+
+**I. Pay per use :** Since a user pays for only usage, the cost of Utility computing is pay per use. We pay for the number of servers of instances that we use in cloud.
+
+**II. Easy to Scale :** It is easier to scale up the operations in Utility computing. There is no need to plan for time consuming and costly hardware purchase.
+
+**III. Maintenance :** In Utility computing maintenance of servers is done by cloud provider. So a user can focus on its core business. It need not spend time and resources on maintenance of servers in cloud. Utility computing is also known as On-demand computing.
+
+**132. What is a Hypervisor in Cloud Computing?**
+
+Hypervisor is also known as virtual machine monitor (VMM). It is a computer software/hardware that can create and run virtual machines. Hypervisor runs on a host machine. Each virtual machine is called Guest machine.
+
+Hypervisor derives its name from terms supervisor, which is a traditional name for the kernel of an operating system.
+
+Hypervisor provides a virtual operating platform to the guest operating system. It manages the execution of guest OS.
+
+**133. What are the different types of Hypervisor in Cloud Computing?**
+
+Hypervisors come in two main types:
+
+**I. Type-1, native or bare-metal hypervisors :** Type 1 hypervisor runs directly on the hardware of host machine. It controls the guest operating system  machine. It is also called bare metal hypervisor or native hypervisor.
+
+Examples of Type-1 are: Xen, Oracle VM Server for SPARC, Oracle VM Server for x86, the Citrix Xen Server, Microsoft
+
+Hyper-V and VMware ESX/ESXi.
+
+**II. Type-2, hosted hypervisors:** Type 2 hypervisor runs like a regular computer program on an operating system. The guest operating system runs like a process on the host machine. It creates an abstract guest operating system different from the host operating system.
+
+Examples of Type-2 are: VMware Workstation, VMware Player, VirtualBox, Parale ls Desktop for Mac and QEMU are examples oftype-2 hypervisors.
+
+**134. Why Type-1 Hypervisor has better performance than Type-2 Hypervisor?**
+
+Type-1 Hypervisor has better performance thanType-2 hypervisor because Type-1 hyper visors kips the host operating system and it runs directly
+
+on host hardware. So it can utilize al the resources of host machine.
+
+In cloud computing Type-1 hypervisors are more popular since Cloud servers may need to run multiple operating system images.
+
+**135. What is CaaS?**
+
+CaaS is also known as Communication as a Service. It is available in Telecom domain. One of the examples for CaaS is Voice Over IP (VoIP).
+
+CaaS of ers business features like desktop call control, unified messaging, and fax via desktop.
+
+CaaS also provides services for Cal Center automation like- IVR, ACD, call recording, multimedia routing and screen sharing.
+
+**136. How is Cloud computing different from computing for mobile devices?**
+
+Since Mobile devices are getting  connected to the Internet in large numbers, we of ten use Cloud computing for Mobile devices.
+
+In mobile applications, there can be sudden increase in 
+traffic as well as usage. Even some applications become viral very soon. This leads to very high load on application.
+
+In such a scenario, it makes sense to use Cloud Computing for mobile devices.
+
+Also mobile devices keep changing over time, it requires standard interfaces of cloud computing for handling multiple mobile devices.
+
+**137. Why automation of deployment is very important in Cloud architecture?**
+
+One of the main reasons for selecting Cloud architecture is scalability of the system. In case of heavy load, we have to scale up the system so that there is no performance degradation.
+
+While scaling up the system we have to start new instances. To provision new instances we have to deploy our application on them.
+
+In such a scenario, if we want to save time, it makes sense to automate the deployment process. Another term for this is Auto-scaling. With a fully automated deployment process we can start new instances based on automated triggers that are raised by load reaching a threshold.
+
+**138. What are the main components in Amazon Cloud?**
+
+Amazon provides a wide range of products in Amazon Web Services for implementing Cloud computing architecture. In AWS some of the main components are as follows:
+
+**I. Amazon EC2 :** This is used for creating instances and getting computing power to run applications in AWS.
+
+**II. Amazon S3 :** This is a Simple Storage Service from AWS to store files and media in cloud.
+
+**III. Amazon DynamoDB :** It is the database solution by AWS in cloud. It can store very large-scale data to meet needs of even Big Data computing.
+
+**IV. AmazonRoute53 :** This is a cloud based Domain Name System(DNS)service from AWS.
+
+**V. Amazon Elastic Load Balancing (ELB):** This component can be used to load balance the various nodes in AWS cloud.
+
+**VI. Amazon Code Deploy :** This service provides feature to automate the code deployment to any instance in AWS.
+
+**139. What are main components in Google Cloud?**
+
+Google is a newer cloud alternative than Amazon. But Google provides many additional features than AWS. Some of the main components of Google Cloud are as follows:
+
+**I. Compute Engine :** This component provides computing power to Google Cloud users.
+
+**II. Cloud Storage :** As the name suggests this is a cloud storage solution from Google for storing large files for application use or just serving over the Internet.
+
+**III. Cloud Bigtable :** It is a Google proprietary database from Google in Cloud. Now users can use this unique database for creating their applications.
+
+**IV. Cloud Load Balancing :** This is a cloud-based load balancing service from Google.
+
+**V. Big Query :** It is a data-warehouse solution from Google in Cloud to perform data analytics of large scale.
+
+**VI. Cloud Machine Learning Platform :** It is a powerful cloud based machine learning product from Google to perform machine learning with APIs like- Job Search, Text Analysis, Speech Recognition, Dynamic translation etc.
+
+**VII. Cloud IAM :** This is an Identity and Access management tool from Google to help administrators run the security and authorization/authentication policies of an organization.
+
+**140. What are the major offerings of Microsoft Azure Cloud?**
+
+Microsoft is a relatively new entrant to Cloud computing with Azure cloud of erring. Some of the main products of Microsoft cloud are as follows:
+
+**I. Azure Container Service :** This is a cloud computing service from Microsoft to run and manage Docker based containers.
+
+**II. StorSimple :** It is a Storage solution from Microsoft for Azure cloud.
+
+**III. App Service :** By using App Services, users can create Apps for mobile devices as well as websites.
+
+**IV. SQL Database :** It is a Cloud based SQL database from Microsoft.
+
+**V. Document DB :** This is a No SQL database in cloud by Microsoft.
+
+**VI. Azure Bot Service :**  We can use Azure Bot Service to create serverless bots that can be scaled up on demand.
+
+**VII. Azure loT Hub:** It is a solution for Internet of Things services in cloud by Microsoft.
+
+**141. What are the reasons of popularity of Cloud Computing architecture?**
+
+These days Cloud Computing is one of the most favorite architecture among organizations for their systems. Following are some of the reasons for popularity of Cloud Computing architecture:
+
+**I. IoT:** With the Internet of Things, there are many types of machines joining the Internet and creating various types of interactions. In such a scenario, Cloud Computing serves well to provide scalable interfaces to communicate between the machines in IoT.
+
+**II. Big Data :** Another major trend in today’s computing is Big Data. With Big Data there is very large amount of user / machine data that is generated. Using in-house solution to handle Big Data is very costly and capital intensive. In Cloud Computing we can handle Big Data very easily since we do not have to worry about capital costs.
+
+**III. Mobile Devices :** A large number of users are going to Mobile computing. With a mobile device users can access a service from any location. To handle wide-variety of mobile devices, standard interfaces of Cloud Computing are very useful.
+
+**IV. Viral Content:** With growth of Social Media, content and media is getting viral i.e. It takes very short time to increase the traffic exponentially on a server. In such a scenario Auto-scaling of Cloud Computing architecture can handle such spikes very easily.
+
+**142. What are the Machine Learning options from Google Cloud?**
+
+Google provides a very rich library of Machine Learning options in Google Cloud. Some of these API are:
+
+**I. Google Cloud ML :** This is a general purpose Machine Learning API in cloud. We can use pre-trained models or generate new models form a chine learning with this option.
+
+**II. Google Cloud Jobs API :** It is an API to link Job Seekers with Opportunities. It is mainly for job search based on skills, demand and location.
+
+**III. Google Natural Language API :** This API can do text analysis of natural language content. We can use it for analyzing the content of blogs, websites, books etc.
+
+**IV. Google Cloud Speech API :** It is a Speech Recognition API from Google to handle spoken text. It can recognize more than 80 languages and their related variants. It can even transcribe the user speech into written text.
+
+**V. Google Cloud Translate API :** This API can translate content from one language to another language in cloud.
+
+**VI. Google Cloud Vision API :** It is a powerful API for Image analysis. It can recognize faces and objects in an image. It can even categorize images in multiple relevant categories with a simple REST API cal.
+
+**143. How will you optimize the Cloud Computing environment?**
+
+In a Cloud Computing environment we pay by usage. In such a scenario our usage costs are much higher. To optimize the Cloud Computing environment we have to keep a balance between our usage costs and usage.
+
+If we are paying for computing instances we can choose options like Lambda in AWS, which is a much cheaper options for computing in cloud. Incase of Storage, if the data to be stored is not going to be accesses frequently we can go for Glacier option in AWS.
+
+Similarly when we pay for bandwidth usage, it makes sense to implement a caching strategy so that we use less bandwidth for the content that is accessed very frequently.
+
+It is a challenging task for an architect in cloud to match the options available in cloud with the budget that an organization has to run its applications.
+
+Optimizations like server-less computing, load balancing, and storage selection can help in keeping the Cloud computing costs low with no degradation inUser experience.
+
+144. Do you think Regulations and Legal Compliance is an important aspect of Cloud Computing?
+
+Yes, in Cloud Computing we are using resources that are owned by the Cloud provider. Due to this our data resides on the servers that can be shared by other users of Cloud.
+
+There are regulations and laws for handling user data. We have to ensure that these regulations are met while selecting and implementing a Cloud computing strategy.
+
+Similarly, if we are in a contract with a client to provide certain Service Level Agreement (SLA) performance, we have to implement the cloud solution in such a way that there is no breach of SLA agreement due to Cloud provider’s failures.
+
+For security there are laws that have to be followed irrespective of Cloud or Co-located Data center. This is in the interest of our end-customer as well as for the benefit of business continuity.
+
+With Cloud computing architecture we have to do due diligence in selecting Security and Encryption options in Cloud. 
+
+**Unix Questions**
+
+145. How will you remove all files in current directory? Including the files that are two levels down in a sub-directory.
+
+In Unix we have rm command to remove files and sub-directories. With rm command we have –r option that stands for recursive. The –r option can delete al files in a directory recursively.
+
+It means if we our current directory structure is as follows:
+
+My_dir
+
+->Level_1_dir
+
+-> Level_1_dir ->Level_2_dir
+
+-> Level_1_dir->Level_2_dir->a.txt
+
+With rm–r * command we can delete the file a.txt as well as sub-directories Level_1_dir and Level_2_dir.
+
+Command: rm– r *
+
+The asterisk (*)is a wildcard character that stands for al the files with any name.
+
+**146. What is the difference between the –v and –x options in Bash shell scripts?**
+
+In a BASH Unix shell we can specify the options –v and –x on top of a script as follows:
+
+#!/bin/bash -x –v
+
+With –x option BASH shell will echo the commands like for, select, case etc. after substituting the arguments and variables. So it will be an expanded form of the command that shows al the actions oft he script. It is very useful for debugging a shell script.
+
+With –v option BASH shell will echo every command before substituting the values of arguments and variables. In –v option Unix will print each line a sit reads.
+
+In –v option, If we run the script, the shell prints the entire file and then executes. If we run the script interactively, it shows each command after pressing enter.
+
+**147. What is a Filter in Unix command?**
+
+In Unix there are many Filter commands like- cat, awk, grep, head, tail cut etc.
+
+A Filter is a software program that takes an input and produces an output, and it can be used in a stream operation.
+
+E.g. cut -d :-f 2 /etc/passwd | grep abc
+
+We can mix and match multiple filters to create a complex command that can solve a problem.
+
+Awk and Sed are complex filters that provide fully programmable features.
+
+Even Data scientists use Unix filters to get the over view of data stored in the files.
+
+**148. What is Kernel in Unix operating system?**
+
+Kernel is the central core component of a Unix operating system(OS).
+
+A Kernel is the main component that can control everything with in Unix OS.
+
+It is the first program that is loaded on startup of Unix OS. Once it is loaded it will manage the rest of the startup process.
+
+Kernel manages memory, scheduling as well as communication with peripherals like printers, keyboards etc.
+
+But Kernel does not directly interact with a user. For a new task, Kernel will spawn a shell and user will work in a shell.
+
+Kernel provides many system calls. A software program interacts with Kernel by using system calls.
+
+Kernel has a protected memory area that cannot be over written accidentally by any process.
+
+**149. What is a Shell in Unix OS?**
+
+Shel in Unix is a user interface that is used by a user to access Unix services.
+
+Generally a Unix Shel is a command line interface (CLI) in which users enter commands by typing or uploading a file.
+
+We use a Shel to run different commands and programs on Unix operating system.
+
+A Shel also has a command interpreter that can take our commands and send these to be executed by Unix operating system.
+
+Some of the popular Shells on Unix are: Korn shell, BASH, C shell etc.
+
+**150. What are the different shells in Unix that you know about?**
+
+Unix has many flavors of Shell. Some of these are as follows:
+
+Bourne shell: We use sh for Bourne shel.
+
+Bourne Again shell: We use bash to run this shell.
+
+Korn shell: We can use ksh to for Kornshell.
+
+Z shell: The command to use thisis zsh
+
+C shell: We use csh to run C shell.
+
+EnhancedC shell: tc sh is the command for enhancedC shel.
+
+**151. What is the first character of the output in ls –l command ?**
+
+We use ls -l command to list the files and directories in a directory. With -l option we get long listing format.
+
+In this format the first character identifies the entry type. The entry type can be one of the following:
+
+b Block special file
+
+c Character special file
+
+d Directory
+
+l Symbolic link
+
+s Socket link
+
+p FIFO
+
+- Regular file
+
+In general we see d for directory and - for a regular file.
+
+**152. What is the difference between Multi-tasking and Multi-user environment?**
+
+In a Multi-tasking environment, same user can submit more than one tasks and operating system will execute them at the same time.
+
+In a Multi-user environment, more than one user can interact with the operating system at the same time.
+
+What is Command Substitution in Unix?
+
+Command substitution is a mechanism by which Shel passes the output of a command as an argument to another command. We can even use it to
+
+set a variable or use an argument list in a for loop.
+
+E.g. rm`cat files_to_delete`
+
+In this example files_to_delete is a file containing the list offiles to be deleted. cat command outputs this file and gives the output to rmcommand.
+
+rmcommand deletes the files.
+
+In general Command Substitution is represented by back quotes`.
+
+**153. What is an Inode in Unix?**
+
+An Inode is a Data Structure in Unix that denotes a file or a directory on file system. It contains information about file like- location of file on the disk, access mode, ownership, file type etc.
+
+Each Inode has a number that is used in the index table. Unix kernel uses Inode number to access the contents of an Inode.
+
+We can use ls-i command to get the inode number of a file.
+
+**154. What is the difference between absolute path and relative path in Unix file system?**
+
+Absolute path is the complete path of a file or directory from the root directory. In general root directory is represented by / symbol. If we are in a directory and want to know the absolute path, we can use pwd command.
+
+Relative path is the path relative the current location  in directory.
+
+E.g. In a directory structure /var/user/kevin/mail if we are in kevin directory then pwd command will give absolute path as /var/user/kevin.
+
+Absolute path of mail folder is/var/user/kevin/mail. Form ail folder./mail is the relative path of mail directory from kevin folder.
+
+**155. What are the main responsibilities of a Unix Shell?**
+
+Some of the main responsibilities of a Unix Shel are as follows:
+
+**1. Program Execution:** A shell is responsible for executing the commands and script files in Unix. User can either interactively enter the commands
+in Command Line Interface called terminal or they can run a script file containing a program.
+
+**2. Environment Setup:** A shell can define the environment for a user. We can set many environment variables in a shell and use the value of these variables in our program.
+
+**3. Interpreter:** A shel acts as an interpreter for our scripts. It has a built in programming language that can be used to implement the logic.
+
+**4. Pipeline:** A shell also can hookup a pipeline of commands. When we run multiple commands separated by | pipe character, the shell takes the output of a command and passes it to next one in the pipeline.
+
+**5. I/O Redirection:** Shel is also responsible for taking input from command line interface (CLI) and sending the output back to CLI. We use >, <,
+
+**>> characters for this purpose.**
+
+**156. What is a Shell variable?**
+
+A Unix Shel variable is an internal variable that a shell maintains. It is local to that Shel. It is not made available to the parent shell or child shell.
+
+We generally use lower case names for shel variables in C shell.
+
+We can set the value of a shell variable by set command.
+
+E.g. % set max_threads=10
+
+To delete a Shel variable we can use unset command.
+
+To use a Shel variable in a script we use $ sign in front of the variable name.
+
+E.g. echo $max_threads
+
+**157. What are the important Shell variables that are initialized on starting a Shell?**
+
+There are following important Shel variables that are automatically initialized when a Shel starts:
+
+user:
+
+term:
+
+home:
+
+path:
+
+These Shel variables take values from environment variables.
+
+If we change the value of these Shel variables then the corresponding environment variable value is also changed.
+
+**158. How will you set the value of Environment variables in Unix?**
+
+We can use 'setenv' command to set the value of environment variables.
+
+E.g. % setenv [Name] [value]
+
+% setenv MAX_TIME10
+
+To print the value ofenvironment variable we canuse 'printenv' command.
+
+E.g. % printenvMAX_TIME
+
+Ifwe just use printenvthenitlists al the environment variables and their values.
+
+To unset or delete an environment variable we use unsetenv command.
+
+E.g. % unsetenv MAX_TIME
+
+To use an environment variable in a command we use the prefix $ with the name of variable.
+
+What is the special rule about Shel and Environment variable in Bourne Shel?
+
+In Bourne Shel, there is not much difference between Shel variable and Environment variable.
+
+Once we start a Bourne Shel, it gets the value of environment variables and defines a corresponding Shel variable. From that time on wards the shell only refers to Shel variable. But if a change is made to a Shel variable, then we have to explicitly export it to environment so that other shel or child processes can use it.
+
+Also for Shel variables we use set and unset commands.
+
+**159. What is the difference between a System Call and a library function?**
+
+System calls are low-level kernel calls. These are handled by the kernel. System calls are implemented in kernel of Unix. An application has to execute special hardware and system dependent instruction to run a System cal.
+
+A library function is also a low level cal but it is implemented in user space. A library cal is a regular function cal whose code resides in a shared library.
+
+**160. What are the networking commands in Unix that you have used?**
+
+Some of the popular networking commands in Unix that we use are as follows:
+
+**I. ping :**We use this command to test the reachability of a host on an Internet Protocol(IP) network.
+
+**II. telnet :** This is another useful command to access another machine on the network. This is command uses Telnet protocol.
+
+**III. tracert :** This is short for Traceroute. It is a diagnostic command to display the route and transit delays of packets across Internet Protocol.
+
+**IV. ftp:** We use ftp commands to transfer files over the network. ftp uses File Transfer Protocol.
+
+**V. su :** This unix command is used to execute commands with the privileges of another user. It is also known as switch user, substitute user.
+
+**VI. ssh :** This is a secure command that is preferred over Telnet for connecting to another machine. It creates a secure channel over an unsecured network. It uses cryptographic protocol to make the communication secure.
+
+**161. What is a Pipeline in Unix?**
+
+A Pipeline in Unix is a chain of commands that are connected through a stream in such a wayt hat output of one command becomes input for another command.
+
+E.g. ls –l | grep “abc” | wc –l
+
+In the above example we have created pipeline of three commands ls, grep and wc.
+
+First ls –l command is executed and gives the list of files in a directory. Then grep command searches for any line with word “abc” in it. Finaly wc –l command counts the number of lines that are returned by grep command.
+
+In general a Pipeline is uni-directional. The data fllows from left to right direction.
+
+**162. What is the use of tee command in Unix?**
+
+We use tee command in a shell to read the input by user (standard input) and write it to screen (standard output) as well as to a file.
+
+We can use tee command to split the output of a program so that itis visible on command line interface (CLI) as well as stored on a file for later use.
+
+Syntax istee [-a] [-i] [file …]
+
+**163. How will you count the number of lines and words in a file in Unix?**
+
+We can use wc (word count) command for counting the number of lines and words in a file. The wc command provides very good options for collecting statistics of a file. Some of these options are:
+
+l:This option gives line count
+
+m:This option gives character count
+
+c :This option gives byte count
+
+w:This option gives word count
+
+L:This option gives the length of the longest line
+
+In case we give more than one files as input to wc command then it gives statistics for individual files as wel as the total statistics for al files.
+
+**164. What is Bash shell?**
+
+Bash stands for Bourne Again Shel. It is free software written to replace Bourne shel.
+
+We can see following line in shell scripts for Bash shel.
+
+#!/bin/bash
+
+In Bash we use ~/.profile at log in to set environment variables.
+
+In Bash we can execute commands in batch mode or concurrent mode.
+
+In batch mode commands are separated by semi colon.
+
+% command1; command2
+
+In concurrent mode we separate commands by&symbol.
+
+% command1 & command2
+
+**165. How will you search for a name in Unix files?**
+
+We can use grep command to search for a name or any text in a Unix file.
+
+Grep standsfor Globaly search a Regular Expression and Print.
+
+Grep command cansearch for a text inone file as wel as multiple files.
+
+We can also specify the text to be searched in regular expression pattern.
+
+% grep ^z *.txt
+
+Above command searches for lines starting with letter z in al the .txt files in current directory.
+
+**166. What are the popular options of grep command in Unix?**
+
+In Unix, grep is one of the very useful commands. It provides many useful options. Some of the popular options are:
+
+% grep –i :This optionignores case while doing search.
+
+% grep –x :This optionis used to search exact word in a file.
+
+% grep –v:We use this optionto find the linesthat do not have the text we are searching.
+
+% grep –A10:This optiondisplays 10 lines after the match isfound.
+
+% grep –c:We can use it to count the number ofmatching lines.
+
+**167. What is the difference between who am i and who am i commands in Unix?**
+
+Both the commands who am i and who am i are used to get the user information in Unix.
+
+When we login as root user on the network, then both who am i and who am i commands will show the user as root.
+
+But when any other user let say john logs in remotely and runs su –root, who am i will show root, but who am i will show the original user john.
+
+**168. What is a Superuser in Unix?**
+
+Superuser is a special user account. It is used for Unix system administration. This user can access al files on the file system. Also Superuser can also run any command on a system.
+
+Generally Superuser permission is given to root user.
+
+Most of the users work on their own user accounts. But when they need to run some additional commands, they can use su to switch to Superuser account.
+
+It is a best practice to not use Superuser account for regular operations.
+
+**169. How will you check the information about a process in Unix?**
+
+We can use ps command to check the status of a process in Unix. It is short for Process Status.
+
+On running ps command we get the list of processes that are executing in the Unix environment.
+
+Generally we use ps –ef command. In this e stands for every process and f stands for ful format.
+
+This command gives usid of the process. We can use this id to kil the process.
+
+**170. What is the use of more command with cat command?**
+
+We generally use cat command to display the contents of a file.
+
+If a file is very big then the contents of the file will not fit in screen, therefore screen will scroll forward and in the end we just see the last page of information from a file.
+
+With more command we can pause the scrolling of data from a file in display. If we use cat command with more then we just see the first page of a file first. On pressing enter button, more command will keep changing the page. In this way it is easier to view information in a file.
+
+When using the cat command to display file contents, large data that does not fit on the screen would scroll of without pausing, therefore making it dificult to view. On the other hand, using the more command is more appropriate in such case because it will display file contents one screen page at a time.
+
+**171. What are the File modes in Unix?**
+
+In Unix, there are three main permissions for a File.
+
+I. r = It means a user can read the file
+
+II. w= It means that a user can write to this file
+
+III. x= It means the a user can execute a file like a shell script Further there are three permission sets.
+
+I. Owner: User who created the file
+
+II. Group: This applies to user of a group to which owner belongs
+
+III. Other: This is rest of the users in Unix system
+
+With the combination of these three sets permissions offile in Unix are specified.
+
+E.g. Ifa file has permissions –rwxr-xr-- , it means that owner has read, write, execute access. Group has read and execute access. Others have just read access. So the owner or admin has to specifically grant access to Others to execute the file.
+
+**172. We wrote a shell script in Unix but it is not doing anything. What could be the reason?**
+
+After writing a shel script we have to give it execute permission so that it can be run in Unix shel.
+
+We can use chmod command to change the permission of a file in Unix. In general we use chmod+xto give execute permission to users for executing the shel script.
+
+E.g. chmod+x abc.txt wil give execute permission to users for executing the file abc.txt.
+
+With chmod command we can also specify to which user/group the permission should be granted. The options are:. u is the owner user
+
+**173. What is the significance of 755 in chmod 755 command?**
+
+We use chmod command to change the permissions of a file in Unix. In this command we can pass the file permissions in the formof a three-digit number.
+
+In this number 755, first digit 7 is the permissions given to owner, second digit 5 is the permissions of group and third digit 5 is the permissions of al others.
+
+Also the numbers 7 and 5 are made from following rules:
+
+4 = read permission
+
+2 = write permission
+
+1 = execute permission
+
+So 7 = 4 + 2 + 1 = Read + Write + Execute permission
+
+5 = 4 + 1 = Read + Execute permission
+
+In out example 755 means, owner hasread, write and execute permissions. Group and others have read and execute permissions.
+
+**174. How can we run a process in background in Unix? How can we kill a process running in background?**
+
+In Unix shel we can use symbol& to run a command in background.
+
+E.g. % ls –lrt &
+
+Once we use & option it runs the process in background and prints the process ID. We cannot down this process ID for using it in kil command.
+
+We can also use ps –efcommand to get the process ID of processes running in background.
+
+Once we know the process ID of a process we can kil it by following command:
+
+% kil -9 process Id
+
+**175. How will you create a read only file in Unix?**
+
+We can create a file with Vi editor, cat or any other command. Once the file is created we have to give read only permissions to file. To change file
+
+permission to read only we use following command:
+
+%chmod 400 filename
+
+**176. How does alias work in Unix?**
+
+We use alias in Unix to give a short name to a long command. We can even use it to combine multiple commands and give a short convenient name.
+
+E.g. alias c=’clear’
+
+With this alias we just need to type c for running clear command.
+
+In bash we store alias in .bash_profile file.
+
+To get the list of al active alias in a shel we can run the alias command without any argument on command line.
+
+% alias
+
+alias h='history'
+
+alias ki='kil -9'
+
+aliasl='last'
+
+**177. How can you redirect I/O in Unix?**
+
+In Unix we can redirect the output of command or operation to a file instead of command line interface (CLI). For this we sue redirection pointers.
+
+These are symbols > and >>.
+
+Ifwe want to write the output ofls –lrt command to a file we use folowing:
+
+%ls –lrt > fileList.txt
+
+Ifwe want to copy one file to another file we use folowing:
+
+% catsrcFile > copyFile
+
+Ifwe want to append the contents ofone file at the end ofanotherfilewe use folowing:
+
+% catsrcFile >> appendToFile
+
+**178.  What are the main steps taken by a Unix Shell for processing a command?**
+
+A Unix Shel takes following main steps to process a command:
+
+**I. Parse :** First step is to parse the command or set of commands given in a Command Line Interface (CLI). In this step multiple consecutive spaces are replaced by single space. Multiple commands that are delimited by a symbol are divided into multiple individual actions.
+
+**II. Variable :** In next step Shel identifies the variables mentioned in commands. Generaly any word prefixed by $ sign is a variable.
+
+**III. Command Substitution:** In this step, Shel executes the commands that are surrounded by back quotes and replaces that section with the out put from the command.
+
+**IV. Wild Card :** Once these steps are done, Shel replaces the Wild card characters like asterisk * with the relevant substitution.
+
+**V. Execute :** Finally, Shel executes al the commands and follows the sequence in which Commands are given in CLI.
+
+**179. What is a Sticky bit in Unix?**
+
+A Sticky bit is a file/directory permission feature in Unix.
+
+Some times when we give write permission to another user then that user can delete the file with out the owner knowing about it. To prevent such an accidental deletion of file we use sticky bit.
+
+When we mark a file/directory with a sticky bit, no user other than owner of file/directory gets the privilege to delete a file/directory.
+
+To set the sticky bit we use following command:
+
+%chmod+tfilename
+
+When we do ls for a file or directory, the entries with sticky bit are listed with letter t in the end of permissions.
+
+E.g. %ls –lrt
+
+-rwxrwxrwt 5 abc abc 4096 Jan 1 10:10 abc.txt
+
+To remove the sticky bit we use folowing command:
+
+%chmod –t filename
+
+**180. What are the different outputs from Kill command in Unix?**
+
+Kil command in Unix can return following outputs:
+
+I. 0:It means Kil command was successful
+
+II. -1: When we get-1 from Kil command its hows that there was some error. In addition to -1 we get EPER Mor ESRCH in output.
+
+EPERM denotes that system does not permit the process to be kiled.
+
+ESRCH denotes that process with PID mentioned in Kil command does not exist anymore. Or due to security restrictions we cannot access that process.
+
+**181. How will you customize your environment in Unix?**
+
+In Unix, almost al the popular shels provide options to customize the environment by using environment variables. To make these customizations permanent we can write these to special files that are specific to a user in a shel.
+
+Once we write our customizations to these files, we keep on getting same customization when we open a new shel with same user account.
+
+The special files for storing customization information for different shels at login time are:
+
+I. C shel: /etc/.login or ~/.cshrc
+
+II. TC shel:/etc/.loginor ~/.tshrc
+
+III. Korn shel: ~etc/ksh.kshrc
+
+IV. Bash:~/.bash_profile
+
+**182. What are the popular commands for user management in Unix?**
+
+In Unix we use following commands for User Management:
+
+**I. id :** This command gives the active user id with login and groups to which user belongs.
+
+**II. who :** This command gives the user that is currently logged on system. It also gives the time of login.
+
+**III. last:** This command shows the previous logins to the systemin a chronological order.
+
+**IV. add user :** We use this command to add a new user.
+
+**V. group add:** We use this command to add a new group in the system.
+
+**VI. user mod:** We user user mod command to add/remove a user to a group in Unix.
+
+**183. How will you debug a shell script in Unix?**
+
+A shel script is a program that can be executed in Unix shel. Sometimes a shel script does not work as intended. To debug and find the problem in shel script we can use the options provided by shel to debug the script.
+
+In bash shel there are x and v options that can be used while running a script.
+
+% bash –xv< scriptName>
+
+With option v al the input lines are printed by shel. With option x al the simple commands are printed in expanded format. We can see al the arguments passed to a command with–x option.
+
+**184. What is the difference between a Zombie and Orphan process in Unix?**
+
+Zombie is a defunct child process in Unix that stil has entry in process table.
+
+Sometimes a child process is terminated in Unix, but the parent process stil waits on it.
+
+AZombie process is different from an Orphan process. An orphan process is a child process whose parent process had died. Once a process is orphan it is adopted by in it process. So effectively itis not an orphan.
+
+Therefore if a process exits without cleaning its child processes, they do not become Zombie. Instead init process adopts these child processes.
+
+Zombie processes are the ones that are not yet adopted by in it process.
+
+**185. How will you check if a remote host is still alive?**
+
+We can use one of the networking commands in Unix. It is called ping. With ping command we can ping a remote host.
+
+Ping utility sends packets in an IP network with ICMP protocol. Once the packet goes from source to destination and comes back it records the time.
+
+We can even specify the number of packets we want to send so that we collect more statistics to confirm the result.
+
+% pingwww.google.com
+
+Another option is to use telnet to remote host to check its status.
+
+**186. How will you get the last executed command in Unix?**
+
+We can use history command to get the list commands that were executed in Unix. Since we are only interested in the last executed command we
+
+have to use tail to get the last entry.
+
+Exact command would be as folows:
+
+% history | tail-2
+
+**189. What is the meaning of “2>&1” in a Unix shell?**
+
+In Unix shel file descriptor 1 is for standard output.
+
+File description 2 is for standard error.
+
+We can use “2>&1” in a command so that al the errors from standard error go to standard output.
+
+%catfile 2>&1
+
+**190. How will you find which process is taking most CPU time in Unix?**
+
+In Unix, we can use top command to list the CPU time and memory used by various processes. The top command lists the process IDs and CPU time, memory etc used by topmost processes.
+
+Top command keeps refreshing the screen at a specified interval. So we can see over the time which process is always appearing on the top most row in the result of top command.
+
+This is the process that is consuming most CPU time.
+
+**191. What is the difference between Soft link and Hard link in Unix?**
+
+A soft link is a pointer to a file, directory or a program located in a different location. A hard link can point to a program or a file but not to a directory.
+
+If we move, delete or rename a file, the soft link wil be broken. But a hard link stil remains after moving the file/program.
+
+We use the command ln–s for creating a soft link. But a hard link can be created by ln command without –s option.
+
+**192. How will you find which processes are using a file?**
+
+We can use lsof command to find the list of Process IDs of the processes that are accessing a file in Unix. lsof stands for List Open Files.
+
+Sample command is:
+
+%lsof /var
+
+It wil list the processes that are accessing/var directory in current unix system. We can use options –i, -n and –P for diferent uses.
+
+%lsof –i will only list IP sockets.
+
+**193. How will you find which processes are using a file?**
 
 We can use lsof command to find the list of Process IDs of the processes that are accessing a file in Unix. lsof stands for List Open Files.
 Sample command is:
@@ -1755,22 +2143,22 @@ It wil list the processes that are accessing/var directory in current unix syste
 
 %lsof –i will only list IP sockets.
 
-**195. What is the purpose of nohup in Unix?**
+**194. What is the purpose of nohup in Unix?**
 
 In Unix, nohup command can be used to run a command in background. But it is diferent from & option to run a process in background.
 Nohup stands for No Hangup. A nohup process does not stop even if the Unix user that started the process has logged out from the system.
 But the process started with option & wil stop when the user that started the process logs of.
 
-**196. How will you remove blank lines from a file in Unix?**
+**195. How will you remove blank lines from a file in Unix?**
 
 We can use grep command for this option. Grep command gives –v option to exclude lines that do not match a pattern.
-In anemptyline there is nothingfromstart to end. InGrep command, ^ denotesthatstart ofline and $ denotesthe end ofline.
-% grep –v‘^$’liststhe linesthat are emptyfromstart to the end.
+In anemptyline there is nothing from start to end. InGrep command, ^ denotesthatstart ofline and $ denotesthe end ofline.
+% grep –v‘^$’liststhe lines that are empty from start to the end.
 Once we get this result, we can use > operator to write the output to a new file. So exact command wil be:
 
 % grep –v ‘^$’ file1.txt > file2.txt
 
-**197. How will you find the remote hosts that are connecting to your
+**196. How will you find the remote hosts that are connecting to your
 system on a specific port in Unix?**
 
 We canuse netstat command forthis purpose. Netstat command liststhe statistics about network connections. We cangrep forthe port in which
@@ -1778,7 +2166,7 @@ we are interested. Exact command wil be:
 
 % netstst –a | grep “port number”
 
-**198. What is xargs in Unix?**
+**197. What is xargs in Unix?**
 
 We use xargs command to build and execute commands that take input from standard input. It is generaly used in chaining of commands.
 Xargs breaks the list of arguments into small sub lists that can be handled by a command.
