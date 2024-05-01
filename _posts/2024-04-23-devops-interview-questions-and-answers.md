@@ -13,41 +13,41 @@ date: 2024-04-22T01:17:00.000Z
 
 **1. What are the popular DevOps tools that you use?**
 
-We use folowing tools for work in DevOps:
+We use following tools for work in DevOps:
 
-I. Jenkins : This is an open source automation server used as a continuous integration tool. We can build, deploy and run automated tests with Jenkins.
+**I. Jenkins :** This is an open source automation server used as a continuous integration tool. We can build, deploy and run automated tests with Jenkins.
 
-II. GIT: It is a version control tool used for tracking changes in files and software.
+**II. GIT:** It is a version control tool used for tracking changes in files and software.
 
-III. Docker : This is a popular tool for containerization of services. It is very useful in Cloud based deployments.
+**III. Docker :** This is a popular tool for containerization of services. It is very useful in Cloud based deployments.
 
-IV. Nagios : We use Nagios for monitoring of IT infrastructure.
+**IV. Nagios :** We use Nagios for monitoring of IT infrastructure.
 
-V. Splunk : This is a powerful tool for log search as wel as monitoring production systems.
+**V. Splunk :** This is a powerful tool for log search as wel as monitoring production systems.
 
-VI. Puppet : We use Puppet to automate our DevOps work so that it is reusable.
+**VI. Puppet :** We use Puppet to automate our DevOps work so that it is reusable.
 
 **2. What are the main benefits of DevOps?**
 
-DevOps is a very popular trend in Software Development. Some of the main benefits of DevOps are as folows:
+DevOps is a very popular trend in Software Development. Some of the main benefits of DevOps are as follows:
 
-I. Release Velocity : DevOps practices help in increasing the release velocity. We can release code to production more often and with more confidence.
+**I. Release Velocity :** DevOps practices help in increasing the release velocity. We can release code to production more often and with more confidence.
 
-II. Development Cycle : With DevOps, the complete Development cycle from initial design to production deployment becomes shorter.
+**II. Development Cycle :** With DevOps, the complete Development cycle from initial design to production deployment becomes shorter.
 
-III. Deployment Rollback : In DevOps, we plan for any failure in deployment rolback due to a bug in code or issue in production. This gives confidence in releasing feature without worrying about downtime for rolback.
+**III. Deployment Rollback :** In DevOps, we plan for any failure in deployment rolback due to a bug in code or issue in production. This gives confidence in releasing feature without worrying about downtime for rolback.
 
-IV. Defect Detection: With DevOps approach, we can catch defects much earlier than releasing to production. It improves the quality ofthe software.
+**IV. Defect Detection:** With DevOps approach, we can catch defects much earlier than releasing to production. It improves the quality ofthe software.
 
-V. Recovery from Failure :In case of a failure, we can recover very fast with DevOps process.
+**V. Recovery from Failure :** In case of a failure, we can recover very fast with DevOps process.
 
-VI. Collaboration: With DevOps, collaboration between development and operations professionals increases.
+**VI. Collaboration:**  With DevOps, collaboration between development and operations professionals increases.
 
-VII. Performance-oriented : With DevOps, organization folows performance-oriented culture in which teams become more productive and more innovative.
+**VII. Performance-oriented :** With DevOps, organization folows performance-oriented culture in which teams become more productive and more innovative.
 
 **3. What is the typical DevOps workflow you use in your organization?**
 
-The typical DevOps workflow in our organization is as folows:
+The typical DevOps workflow in our organization is as follows:
 
 I. We use Atlassian Jira for writing requirements and tracking tasks.
 
@@ -61,26 +61,27 @@ V. During the build process, automated tests run to validate the code checked in
 
 VI. Code built on Jenkins is sent to organization’s Artifactory.
 
-VII. Jenkins automaticaly picks the libraries from Artifactory and deploysit to Production.
+VII. Jenkins automatically picks the libraries from Artifactory and deploys it to Production.
 
 VIII. During Production deployment Docker images are used to deploy same code on multiple hosts.
 
 IX. Once code is deployed to Production, we use Nagios to monitor the health of production servers.
 
-X. Splunk based alerts in formus of any issues or exceptions in production.
+X. Splunk based alerts in form us of any issues or exceptions in production.
 
 **4. How do you take DevOps approach with Amazon Web Services?**
 
-Amazon Web Services (AWS) provide many tools and features to deploy and manage applications in AWS. As per DevOps, we treat infrastructure as code. We mainly use folowing two services from AWS for DevOps:
+Amazon Web Services (AWS) provide many tools and features to deploy and manage applications in AWS. As per DevOps, we treat infrastructure as code. We mainly use following two services from AWS for DevOps:
 
-I. CloudFormation : We use AWS CloudFormation to create and deploy AWS resources by using templates. We can describe our dependencies and pass special parameters in these templates. CloudFormation can read these templates and deploy the application and resources in AWS cloud.
+**I. CloudFormation :** We use AWS CloudFormation to create and deploy AWS resources by using templates. We can describe our dependencies and pass special parameters in these templates. CloudFormation can read these templates and deploy the application and resources in AWS cloud.
 
-II. OpsWorks : AWS provides another service caled OpsWorks that is used for configuration management by utilizing Chef framework. We can automate server configuration, deployment and management by using
-Ops Works. It helps in managing EC2 instances in AWS as wel as any on-premises servers.
+**II. Ops Works :** AWS provides another service called Ops Works that is used for configuration management by utilizing Chef framework. We can automate server configuration, deployment and management by using
+
+Ops Works. It helps in managing EC2 instances in AWS as well as any on-premises servers.
 
 **5. How will you run a script automatically when a developer commits a change into GIT?**
 
-GIT provides the feature to execute custom scripts when certain event occurs in GIT. This feature is caled hooks.
+GIT provides the feature to execute custom scripts when certain event occurs in GIT. This feature is called hooks.
 
 We can write two types of hooks.
 
@@ -88,668 +89,783 @@ I. Client-side hooks
 
 II. Server-side hooks
 
-For this case, we can write a Client-side post-commit hook. This hook wil execute a custom script in which we can add the message and code that we want to run automaticaly with each commit.
+For this case, we can write a Client-side post-commit hook. This hook wil execute a custom script in which we can add the message and code that we want to run automatically with each commit.
 
-**6. What are the main features of AWS OpsWorks Stacks?**
+**6. What are the main features of AWS Ops Works Stacks?**
 
-Some ofthe main features of AWS OpsWorks Stacks are as folows:
+Some of the main features of AWS Ops Works Stacks are as follows:
 
-I. Server Suppo rt:AWS OpsWorks Stacks we can automate operational tasks on any server in AWS as wel as our own data center.
+**I. Server Support:** AWS Ops Works Stacks we can automate operational tasks on any server in AWS as wel as our own data center.
 
-II. Scalable Automation : We get automated scaling support with AWS OpsWorks Stacks. Each new instance in AWS can read configuration from OpsWorks. It can even respond to system events in same way as other instances do.
+**II. Scalable Automation :** We get automated scaling support with AWS Ops Works Stacks. Each new instance in AWS can read configuration from Ops Works. It can even respond to system events in same way as other instances do.
 
-III. Dashboard: We can create dashboards in OpsWorks to display the status of al the stacks in AWS.
+**III. Dashboard:** We can create dashboards in Ops Works to display the status of al the stacks in AWS.
 
-IV. Configuration as Code : AWS OpsWorks Stacks are built on the principle of “Configuration as Code”. We can define and maintain configurations like application source code. Same configuration can be replicated on multiple servers and environments.
+**IV. Configuration as Code :** AWS Ops Works Stacks are built on the principle of “Configuration as Code”. We can define and maintain configurations like application source code. Same configuration can be replicated on multiple servers and environments.
 
-V. Application Support :OpsWorks supports almost al kinds of applications. So it is universal in nature.
+**V. Application Support :** Ops Works supports almost al kinds of applications. So it is universal in nature.
 
 **7. How does CloudFormation work in AWS?**
 
 AWS CloudFormation is used for deploying AWS resources.
-In CloudFormation, we have to first create a template for a resource. A template is a simple text file that contains information
-about a stack on AWS. As tack is a colection of AWS resourced that we want to deploy together in an AWS as a group.
-Once the template is ready and submitted to AWS, CloudFormation will create all the resources in the template. This helps in
-automation of building new environments in AWS.
+
+In CloudFormation, we have to first create a template for a resource. A template is a simple text file that contains information about a stack on AWS. As tack is a collection of AWS resourced that we want to deploy together in an AWS as a group.
+
+Once the template is ready and submitted to AWS, CloudFormation will create all the resources in the template. This helps in automation of building new environments in AWS.
 
 **8. What is CICD in DevOps?**
 
 CICD stands for Continuous Integration and Continuous Delivery. These are two different concepts that are complementary to each other.
-Continuous Integration (CI) : In CI al the developer work is merged to main branch several times a day. This helps in reducing integration problems.
 
-In CI we try to minimize the duration for which a branch remains checked out. A developer gets early feedback on the new
-code added to main repository by using CI.
+**Continuous Integration (CI) :** In CI al the developer work is merged to main branch several times a day. This helps in reducing integration problems.
 
-Continuous Delivery (CD) : In CD, a software team plans to deliver software in short cycles. They perform development,
-testingand release in such a short time that incremental changes can be easily delivered to production.
+In CI we try to minimize the duration for which a branch remains checked out. A developer gets early feedback on the new code added to main repository by using CI.
+
+**Continuous Delivery (CD) :** In CD, a software team plans to deliver software in short cycles. They perform development,
+
+testing and release in such a short time that incremental changes can be easily delivered to production.
 
 In CD, as a DevOps we create a repeatable deployment process that can help achieve the objective of Continuous Delivery.
 
 **9. What are the best practices of Continuous Integration (CI)?**
 
-Some ofthe best practices ofContinuous Integration (CI) are as folows:
+Some of the best practices of Continuous Integration (CI) are as follows:
 
-I. Build Automation : In CI, we create such a build environment that even with one command build can be triggered. This automationis done all the way up to deployment to Production environment.
+**I. Build Automation :** In CI, we create such a build environment that even with one command build can be triggered. This automation is done all the way up to deployment to Production environment.
 
-II. Main Code Repository : In CI, we maintain a main branch in code repository that stores al the Production ready code. This is the branch that we can deploy to Production any time.
+**II. Main Code Repository :** In CI, we maintain a main branch in code repository that stores al the Production ready code. This is the branch that we can deploy to Production any time.
 
-III. Self-testing build : Every build in CI should be self-tested. It means with every build there is a set of tests that runs to ensure that changes are of high quality.
+**III. Self-testing build :** Every build in CI should be self-tested. It means with every build there is a set of tests that runs to ensure that changes are of high quality.
 
-IV. Every day commits to baseline : Developers wil commit all of theirs changes to baseline everyday. This ensuresthat there is no big pileup of code waiting for integration with the main repository for a longtime.
+**IV. Every day commits to baseline :** Developers will commit all of theirs changes to baseline everyday. This ensures that there is no big pileup of code waiting for integration with the main repository for a longtime.
 
-V. Build every commit to baseline : With Automated Continuous Integration, every time a commit is made into
-baseline, a build is triggered. This helps in confirming that everychange integrates correctly.
+**V. Build every commit to baseline :** With Automated Continuous Integration, every time a commit is made into
+baseline, a build is triggered. This helps in confirming that every change integrates correctly.
 
-VI. Fast Build Process : One of the requirements of CI is to keep the build process fast so that we can quickly identify any problem.
+**VI. Fast Build Process :** One of the requirements of CI is to keep the build process fast so that we can quickly identify any problem.
 
-VII. Production like environment testing :In CI, we maintain a production like environment also known as preproduction or staging environment, which is very close to Production environment. We performtesting in this environment to check for any integration issues.
+**VII. Production like environment testing :** In CI, we maintain a production like environment also known as preproduction or staging environment, which is very close to Production environment. We perform testing in this environment to check for any integration issues.
 
-VIII. PublishBuild Results : We publish build results on a common site so that everyone can see these and take corrective actions.
+**VIII. Publish Build Results :** We publish build results on a common site so that everyone can see these and take corrective actions.
 
-IX. Deployment Automation:The deployment process is automated to the extent that in a build process we can add the step of deploying the code to a test environment. On this test environment all the stakeholders can access and test the latest delivery.
+**IX. Deployment Automation:** The deployment process is automated to the extent that in a build process we can add the step of deploying the code to a test environment. On this test environment all the stakeholders can access and test the latest delivery.
 
 **10. What are the benefits of Continuous Integration (CI)?**
-The benefits of Continuous Integration (CI) are asfolows:
-I. CImakes the current build constantly available for testing, demo and release purpose.
-II. WithCI, developers write modular code that works wel with frequent code check-ins.
-III. Incase ofa unit test failure or bug, developer can easilyr evert back to the bug-free state ofthe code.
+
+The benefits of Continuous Integration (CI) are as follows:
+
+I. CI makes the current build constantly available for testing, demo and release purpose.
+
+II. With CI, developers write modular code that works well with frequent code check-ins.
+
+III. Incase of a unit test failure or bug, developer can easily r evert back to the bug-free state of the code.
+
 IV. There is drastic reduction in chaos on release day with CI practices.
-V. WithCI, we can detect Integration issues much earlier in the process.
-VI. Automated testing is one very useful side ef ect of implementing CI.
-VII. Al the stakeholders including business partners can see the smal changes deployed into pre-production
-environment. This provides early feedback on the changes to software.
-VIII. Automated CI and testing generates metrics like code-coverage, code complexity that help in improving the
-development process.
+
+V. With CI, we can detect Integration issues much earlier in the process.
+
+VI. Automated testing is one very useful side effect of implementing CI.
+
+VII. Al the stakeholders including business partners can see the small changes deployed into pre-production environment. This provides early feedback on the changes to software.
+
+VIII. Automated CI and testing generates metrics like code-coverage, code complexity that help in improving the development process.
 
 **11. What are the options for security in Jenkins?**
 
-In Jenkins, it is very important to make the system secure by setting user authentication and authorization. To do this we have
-to do folowing:
-I. First we have to set up the Security Realm. We can integrate Jenkins with LDAP server to create user
-authentication.
-II. Second part isto set the authorization for users. This determines which user has accessto what resources.
-In Jenkins some ofthe optionsto setup security are asfolows:
-I. We canuse Jenkins’ ownUser Database.
-II. We can use LDAP pluginto integrate Jenkins withLDAP server.
+In Jenkins, it is very important to make the system secure by setting user authentication and authorization. To do this we have to do following:
+
+I. First we have to set up the Security Realm. We can integrate Jenkins with LDAP server to create user authentication.
+
+II. Second part is to set the authorization for users. This determines which user has access to what resources.
+
+In Jenkins some of the options to setup security are as follows:
+
+I. We can use Jenkins’ own User Database.
+
+II. We can use LDAP plug into integrate Jenkins with LDAP server.
+
 III. We can also setup Matrix based security on Jenkins.
 
 **12. What are the main benefits of Chef?**
 
-Chef is an automation tool for keeping infrastructure as code. It has many benefits. Some of these are as folows:
-I. Cloud Deployment:We can use Chefto perform automated deployment in Cloud environment.
-II. Multi-cloud support:With Chefwe can even use multiple cloud providers for our infrastructure.
-III. Hybrid Deployment :Chefsupports bothCloud based as wel as datacenter-based infrastructure.
-IV. High Availability : With Chef automation, we can create high availability environment. In case of hardware
-failure, Chef can maintain or start new servers in automated way to maintain highly available environment.
+Chef is an automation tool for keeping infrastructure as code. It has many benefits. Some of these are as follows:
+
+**I. Cloud Deployment:** We can use Chef to perform automated deployment in Cloud environment.
+
+**II. Multi-cloud support:** With Chef we can even use multiple cloud providers for our infrastructure.
+
+**III. Hybrid Deployment :** Chef supports both Cloud based as well as datacenter-based infrastructure.
+
+**IV. High Availability :** With Chef automation, we can create high availability environment. In case of hardware failure, Chef can maintain or start new servers in automated way to maintain highly available environment.
 
 **13. What is the architecture of Chef?**
 
-Chef is composed of many components like Chef Server, Client etc. Some of the main components in Chef are as folows:
-I. Client: These are the nodes or individual users that communicate with Chef server.
-II. ChefManage : Thisisthe web console thatis used forinteractingwithChefServer.
-III. Load Balancer : Al the Chef server API requests are routed through Load Balancer. It is implemented in
-Nginx.
-IV. Bookshelf: Thisisthe component thatstores cookbooks. Al the cookbooks are stored in a repository. It is
-separate storage fromthe Chefserver.
-V. PostgreSQL:Thisisthe data repository for Chefserver.
-VI. Chef Server : This is the hub for configuration data. Al the cookbooks and policies are stored in it. It can
-scale to the size ofany enterprise.
+Chef is composed of many components like Chef Server, Client etc. Some of the main components in Chef are as follows:
+
+**I. Client:** These are the nodes or individual users that communicate with Chef server.
+
+**II. Chef Manage :** This is the web console that is used for interacting with Chef Server.
+
+**III. Load Balancer :** Al the Chef server API requests are routed through Load Balancer. It is implemented in Nginx.
+
+**IV. Bookshelf:** This is the component that stores cookbooks. Al the cookbooks are stored in a repository. 
+It is separate storage from the Chef server.
+
+**V. Post greSQL:** This is the data repository for Chef server.
+
+**VI. Chef Server :** This is the hub for configuration data. Al the cookbooks and policies are stored in it. It can scale to the size of any enterprise.
 
 **14. What is a Recipe in Chef?**
 
-In anyorganization, Recipe isthe most fundamentalconfigurationelement.
-It is written inRuby language. It is a colection ofresources defined by using patterns.
-A Recipe isstored ina Cookbook and itmayhave dependencyonotherRecipe.
-We cantagRecipe to create some kind ofgrouping.
+In any organization, Recipe is the most fundamental configuration element.
+
+It is written in Ruby language. It is a collection of resources defined by using patterns.
+
+A Recipe is stored in a Cookbook and it may have dependency on other Recipe.
+
+We can tag Recipe to create some kind of grouping.
+
 We have to add a Recipe in run-list before using it by chef-client.
-It alwaysmaintainsthe executionorderspecifiedinrun-list.
+
+It always maintains the execution order specified in run-list.
 
 **15. What are the main benefits of Ansible?**
 
 Ansible is a powerful tool for IT Automation for large scale and complex deployments. It increases the productivity of team.
-Some ofthe main benefits ofAnsible are asfolows:
-I. Productivity :It helpsindeliveringand deployingwithspeed. It increases productivityinan organization.
-II. Automation : Ansible provides very good options for automation. With automation, people can focus on
-delivering smartsolutions.
-III. Large-scale :Ansible can be used in smal as wel as very large-scale organizations.
-IV. Simple DevOps : With Ansible, we can write automation in a human-readable language. This simplifies the
-task ofDevOps.
+
+Some of the main benefits of Ansible are as follows:
+
+**I. Productivity :** It helps in delivering and deploying with speed. It increases productivity in an organization.
+
+**II. Automation :** Ansible provides very good options for automation. With automation, people can focus on delivering smart solutions.
+
+**III. Large-scale :**Ansible can be used in small as well as very large-scale organizations.
+
+**IV. Simple DevOps :** With Ansible, we can write automation in a human-readable language. This simplifies the task of DevOps.
 
 **16. What are the main use cases of Ansible?**
 
-Some ofthe popular use cases ofAnsible are asfolows:
-I. AppDeployment :WithAnsible, we can deploy appsin a reliable and repeatable way.
-II. ConfigurationManagement :Ansible supports the automation of configuration management across multiple
-environments.
-III. Continuous Delivery :We can release updates with zero downtime withAnsible.
-IV. Security :We canimplement complexsecurity policies withAnsible.
-V. Compliance : Ansible helps in verifying and organization’s systems in comparison with the rules and
-regulations.
-VI. Provisioning :We can provide newsystems and resourcesto other users withAnsible.
-VII. Orchestration:Ansible can be used in orchestration of complex deployment in a simple way.
+Some of the popular use cases of Ansible are as follows:
+
+**I. App Deployment :** With Ansible, we can deploy apps in a reliable and repeatable way.
+
+**II. Configuration Management :** Ansible supports the automation of configuration management across multiple environments.
+
+**III. Continuous Delivery :** We can release updates with zero downtime with Ansible.
+
+**IV. Security :**  We can implement complex security policies with Ansible.
+
+**V. Compliance :**  Ansible helps in verifying and organization’s systems in comparison with the rules and regulations.
+
+**VI. Provisioning :** We can provide new systems and resources to other users with Ansible.
+
+**VII. Orchestration:**  Ansible can be used in orchestration of complex deployment in a simple way.
 
 **17. What is Docker Hub?**
 
-Docker Hub is a cloud-based registry. We can use Docker Hub to link code repositories. We can even build images and store
-theminDocker Hub. It also provideslinksto Docker Cloud to deploy the imagesto our hosts.
-Docker Hub is a central repository for container image discovery, distribution, change management, workflow automation and
-teamcolaboration.
+Docker Hub is a cloud-based registry. We can use Docker Hub to link code repositories. We can even build images and store them in Docker Hub. It also provides links to Docker Cloud to deploy the images to our hosts.
+
+Docker Hub is a central repository for container image discovery, distribution, change management, workflow automation and team collaboration.
 
 **18. What is your favorite scripting language for DevOps?**
 
-In DevOps, we use diferent scripting languages for diferent purposes. There is no single language that can work in al the
-scenarios. Some ofthe popularscripting languagesthat we use are asfolows:
-I. Bash:OnUnix based systems we use Bash shel scripting for automating tasks.
-II. Python : For complicated programming and large modules we use Python. We can easily use a wide variety of
-standard libraries withPython.
-III. Groovy : This is a Java based scripting language. We need JVM instaled in an environment to use Groovy. It
-is verypowerful and it provides verypowerfulfeatures.
-IV. Perl : Thisis anotherlanguage that is veryusefulfortext parsing. We use itinweb applications.
+In DevOps, we use different scripting languages for different purposes. There is no single language that can work in al the scenarios. Some of the popular scripting languages that we use are as follows:
+
+**I. Bash:** On Unix based systems we use Bash shell scripting for automating tasks.
+
+**II. Python :** For complicated programming and large modules we use Python. We can easily use a wide variety of standard libraries with Python.
+
+**III. Groovy :** This is a Java based scripting language. We need JVM in staled in an environment to use Groovy. It is very powerful and it provides very powerful features.
+
+**IV. Perl :** This is another language that is very use full for text parsing. We use it in web applications.
 
 **19. What is Multi-factor authentication?**
 
-In security implementation, we use Multi-factor authentication (MFA). In MFA, a user is authenticated by multiple means
-before giving accessto a resource orservice. It is diferent fromsimple user/password based authentication.
+In security implementation, we use Multi-factor authentication (MFA). In MFA, a user is authenticated by multiple means before giving access to a resource or service. It is different from simple user/password based authentication.
+
 The most popular implementation of MFA is Two-factor authentication. In most of the organizations, we use
-username/password and anRSAtokenastwo factorsfor authentication.
-WithMFA, the systembecomes more secure and it cannot be easily hacked.
+
+username/password and an RSA token as two factors for authentication.
+
+With MFA, the system becomes more secure and it cannot be easily hacked.
 
 **20. What are the main benefits of Nagios?**
 
-Nagios is open source software to monitor systems, networks and infrastructure. The main benefits of Nagios are as folows:
-I. Monitor : DevOps can configure Nagios to monitor IT infrastructure components, system metrics and
-network protocols.
-II. Alert:Nagios wil send alerts when a critical component in infrastructure fails.
-III. Response :DevOps acknowledges alerts and takes corrective actions.
-IV. Report :PeriodicalyNagios can publish/send reports on outages, events and SLAs etc.
-V. Maintenance:Duringmaintenance windows, we canalso disable alerts.
-VI. Planning :Based on past data, Nagios helps ininfrastructure planningand upgrades.
+Nagios is open source software to monitor systems, networks and infrastructure. The main benefits of Nagios are as follows:
+
+**I. Monitor :** DevOps can configure Nagios to monitor IT infrastructure components, system metrics and network protocols.
+
+**II. Alert:** Nagios will send alerts when a critical component in infrastructure fails.
+
+**III. Response :** DevOps acknowledges alerts and takes corrective actions.
+
+**IV. Report :** Periodically Nagios can publish/send reports on outages, events and SLAs etc.
+
+**V. Maintenance:** During maintenance windows, we can also disable alerts.
+
+**VI. Planning :** Based on past data, Nagios helps in infrastructure planning and upgrades.
 
 **21. What is State Stalking in Nagios?**
+
 State Stalking is a very useful feature. Though al the users do not use it al the time, it is very helpful when we want to
 investigate an issue.
-In State Stalking, we can enable stalking on a host. Nagios wil monitor the state of the host very carefuly and it wil log any
-changesin the state.
-By this we canidentifywhat changes might be causing an issue on the host.
+
+In State Stalking, we can enable stalking on a host. Nagios will monitor the state of the host very care fully and it will log any changes in the state.
+
+By this we can identify what changes might be causing an issue on the host.
 
 **22. What are the main features of Nagios?**
-Some ofthe main features ofNagios are asfolows:
-I. Visibility :Nagios provides a centralized viewofthe entire ITinfrastructure.
-II. Monitoring :We canmonitor al the mission criticalinfrastructure components withNagios.
-III. Proactive Planning : With Capacity Planning and Trending we can proactively plan to scale up or scale down
+
+Some of the main features of Nagios are as follows:
+
+**I. Visibility :** Nagios provides a centralized view of the entire IT infrastructure.
+
+**II. Monitoring :** We can monitor al the mission critical infrastructure components with Nagios.
+
+**III. Proactive Planning :** With Capacity Planning and Trending we can proactively plan to scale up or scale down
 the infrastructure.
-IV. Extendable :Nagiosis extendable to a third party toolsinAPIs.
-V. Multi-tenant:Nagios supports multi-tenants architecture.
+
+**IV. Extendable :** Nagios is extendable to a third party tools in APIs.
+
+**V. Multi-tenant:** Nagios supports multi-tenants architecture.
 
 **23. What is Puppet?**
 
-Puppet Enterprise is a DevOps software platformthat is used for automation of infrastructure operations. It runs on Unix as
-wel as onWindows.
-We can define systemconfiguration by usingPuppet’slanguage or RubyDSL.
-The systemconfiguration described inPuppet’slanguage can be distributed to a targetsystemby usingRESTAPI cals.
+Puppet Enterprise is a DevOps software platform that is used for automation of infrastructure operations. It runs on Unix as well as on Windows.
+
+We can define system configuration by using Puppet’s language or Ruby DSL.
+
+The system configuration described in Puppet’s language can be distributed to a target system by using RESTAPI calls.
 
 **24. What is the architecture of Puppet?**
 
-Puppet is Open Source software. It is based on Client-server architecture. It is a Model Driven system. The client is also
-caled Agent. And server is caled Master.
-It has folowingarchitectural components:
-I. Configuration Language : Puppet provides a language that is used to configure Resources. We have to
-specifywhatActionhasto be applied to whichResource.
-The Action has three items for each Resource: type, title and list of attributes of a resource. Puppet code is
-written inManifestsfiles.
-II. Resource Abstraction : We can create Resource Abstraction in Puppet so that we can configure resources
-on dif erent platforms. Puppet agent uses a Facter for passing the information of an environment to Puppet
-server. InFacter we have informationaboutIP, hostname, OS etc ofthe environment.
-III. Transaction : In Puppet, Agent sends Facter to Master server. Master sends back the catalog to Client.
+Puppet is Open Source software. It is based on Client-server architecture. It is a Model Driven system. The client is also called Agent. And server is called Master.
+
+It has following architectural components:
+
+**I. Configuration Language :** Puppet provides a language that is used to configure Resources. We have to specify what Action has to be applied to which Resource.
+
+The Action has three items for each Resource: type, title and list of attributes of a resource. Puppet code is written in Mani fests files.
+
+**II. Resource Abstraction :** We can create Resource Abstraction in Puppet so that we can configure resources on different platforms. Puppet agent uses a Faster for passing the information of an environment to Puppet server. In Facter we have information about IP, hostname, OS etc of the environment.
+
+**III. Transaction :** In Puppet, Agent sends Facter to Master server. Master sends back the catalog to Client.
+
 Agent applies any configuration changes to system. Once al changes are applied, the result is sent to Server.
 
 **25. What are the main use cases of Puppet Enterprise?**
 
-We can use Puppet Enterprise for folowing scenarios:
-I. Node Management: We canmanage a large numberofnodes withPuppet.
-II. Code Management :WithPuppet we can define Infrastructure as code. We can review, deploy, and test the
-environment configurationfor Development, Testingand Productionenvironments.
-III. Reporting & Visualization : Puppet provides Graphical tools to visualize and see the exact status of
-infrastructure configuration.
-IV. Provisioning Automation : With Puppet we can automate deployment and creation of new servers and
-resources. So users and business can get their infrastructure requirements completed very fast withPuppet.
-V. Orchestration : For a large Cluster of nodes, we can orchestrate the complete process by using Puppet. It
-canfolowthe orderinwhichwe want to deploythe infrastructure environments.
-VI. Automation of Configuration : With Configuration automation, the chances of manual errors are reduced.
-The process becomesmore reliable withthis.
+We can use Puppet Enterprise for following scenarios:
+
+**I. Node Management:** We can manage a large number of nodes with Puppet.
+
+**II. Code Management :** With Puppet we can define Infrastructure as code. We can review, deploy, and test the
+environment configuration for Development, Testing and Production environments.
+
+**III. Reporting & Visualization :** Puppet provides Graphical tools to visualize and see the exact status of infrastructure configuration.
+
+**IV. Provisioning Automation :** With Puppet we can automate deployment and creation of new servers and resources. So users and business can get their infrastructure requirements completed very fast with Puppet.
+
+**V. Orchestration :** For a large Cluster of nodes, we can orchestrate the complete process by using Puppet. It
+can follow the order in which we want to deploy the infrastructure environments.
+
+**VI. Automation of Configuration :** With Configuration automation, the chances of manual errors are reduced.
+The process becomes more reliable with this.
 
 **26. What is the use of Kubernetes?**
-We use Kubernetesfor automationoflarge-scale deployment ofContainerized applications.
-It is anopensource systembased onconceptssimilarto Google’s deployment process ofmilions ofcontainers.
+
+We use Kubernetes for automation of large-scale deployment of Containerized applications.
+
+It is an opensource system based on concepts similar to Google’s deployment process of milions of containers.
+
 It can be used on cloud, on-premise datacenter and hybrid infrastructure.
-In Kubernetes we can create a cluster ofservers that are connected to work as a single unit. We can deploy a containerized
-applicationtoal theserversina clusterwithoutspecifyingthemachinename.
-We have to package applications insucha waythat theydo not depend ona specific host.
+
+In Kubernetes we can create a cluster of servers that are connected to work as a single unit. We can deploy a containerized application to al the servers in a cluster without specifying them a chine name.
+
+We have to package applications in such a way that they do not depend on a specific host.
 
 **27. What is the architecture of Kubernetes?**
 
-The architecture ofKubernetes consists offolowingcomponents:
-Master : There is a master node that is responsible for managing the cluster. Master performs folowing functions in a cluster.
-I. SchedulingApplications
+The architecture of Kubernetes consists of following components:
+
+Master : There is a master node that is responsible for managing the cluster. Master performs following functions in a cluster.
+
+I. Scheduling Applications
+
 II. Maintaining desired state of applications
-III. Scalingapplications
-IV. Applyingupdates to applications
-Nodes : A Node in Kubernetes is responsible for running an application. The Node can be a Virtual Machine or a Computer
-inthe cluster. There issoftware caled Kubelet on each node. Thissoftware is used for managingthe node and communicating
-with theMaster node incluster.
-There is a Kubernetes API that is used by Nodes to communicate with the Master. When we deploy an application on
-Kubernetes, we request Master to start application containers onNodes.
+
+III. Scaling applications
+
+IV. Applying updates to applications
+
+Nodes : A Node in Kubernetes is responsible for running an application. The Node can be a Virtual Machine or a Computer in the cluster. There is software called Kubelet on each node. This software is used for managing the node and communicating with the Master node in cluster.
+
+There is a Kubernetes API that is used by Nodes to communicate with the Master. When we deploy an application on Kubernetes, we request Master to start application containers on Nodes.
 
 **28. How does Kubernetes provide high availability of applications in a Cluster?**
 
-In a Kubernetes cluster, there is a Deployment Controler. This controler monitors the instances created by Kubernetes in a
-cluster. Once a node or the machine hostingthe node goes down, Deployment Controler wil replace the node.
-It is a self-healingmechanisminKubernetesto provide highavailabilityofapplications.
-Therefore in Kubernetes cluster, Kubernetes Deployment Controler is responsible for starting the instances as wel as
-replacingthe instancesincase ofa failure.
+In a Kubernetes cluster, there is a Deployment Controller. This controller monitors the instances created by Kubernetes in a
+
+cluster. Once a node or the machine hosting the node goes down, Deployment Controller will replace the node.
+
+It is a self-healing mechanism in Kubernetes to provide high availability of applications.
+
+Therefore in Kubernetes cluster, Kubernetes Deployment Controller is responsible for starting the instances as well as replacing the in stances incase of a failure.
 
 **29. Why Automated Testing is a must requirement for DevOps?**
 
-In DevOps approach we release software with high frequency to production. We have to run tests to gain confidence on the
-quality ofsoftware deliverables.
-Running tests manualy is a time taking process. Therefore, we first prepare automation tests and then deliver software. This
-ensuresthat we catchanydefects earlyinour process.
+In DevOps approach we release software with high frequency to production. We have to run tests to gain confidence on the quality of software deliverables.
+
+Running tests manually is a time taking process. Therefore, we first prepare automation tests and then deliver software. This ensures that we catch any defects early in our process.
 
 **30. What is Chaos Monkey in DevOps?**
 
-Chaos Monkey is a concept made popular by Netflix. In Chaos Monkey, we intentionaly try to shut down the services or
-create failures. Byfailingone ormore services, we test the reliabilityand recoverymechanismofthe Productionarchitecture.
-It checks whether our applications and deployment have survivalstrategybuiltinto it or not.
+Chaos Monkey is a concept made popular by Netflix. In Chaos Monkey, we intentionally try to shut down the services or create failures. By failing one or more services, we test the reliability and recovery mechanism of the Production architecture.
+
+It checks whether our applications and deployment have survival strategy built in to it or not.
 
 **31. How do you perform Test Automation in DevOps?**
 
-We use Jenkins to create automated flows to run Automation tests. The first part of test automation is to develop test strategy
-and test cases. Once automation test cases are ready for an application, we have to plug these into each Build run.
-In eachBuild we runUnit tests, Integration tests and Functional tests.
-With a Jenkins job, we can automate al these tasks. Once al the automated tests pass, we consider the build as green. This
-helpsin deployment and release processesto build confidence on the application software.
+We use Jenkins to create automated flows to run Automation tests. The first part of test automation is to develop test strategy and test cases. Once automation test cases are ready for an application, we have to plug these into each Build run. In each Build we run Unit tests, Integration tests and Functional tests.
+
+With a Jenkins job, we can automate al these tasks. Once al the automated tests pass, we consider the build as green. This helps in deployment and release processes to build confidence on the application software.
 
 **32. What are the main services of AWS that you have used?**
 
-We use folowingmainservices ofAWS inour environment:
-I. EC2 : This is the Elastic Compute Cloud by Amazon. It is used to for providing computing capability to a
-system. We can use it in places of our standalone servers. We can deploy dif erent kinds of applications on C2.
-II. S3 :We use S3 inAmazon for our storage needs.
-III. DynamoDB :We use DynamoDBinAWS for storing data in NoSQLdatabase form.
-IV. AmazonCloudWatch: We use CloudWatchto monitorour applicationinCloud.
-V. Amazon SNS : We use Simple Notification Service to inform users about any issues in Production
-environment.
+We use following main services of AWS in our environment:
+
+**I. EC2 :** This is the Elastic Compute Cloud by Amazon. It is used to for providing computing capability to a system. We can use it in places of our standalone servers. We can deploy different kinds of applications on C2.
+
+**II. S3 :** We use S3 in Amazon for our storage needs.
+
+**III. DynamoDB :** We use Dynamo DB in AWS for storing data in No SQL database form.
+
+**IV. Amazon Cloud Watch:**  We use Cloud Watch to monitor our application in Cloud.
+
+**V. Amazon SNS :**  We use Simple Notification Service to inform users about any issues in Production environment.
 
 **33. Why GIT is considered better than CVS for version control system?**
 
-GIT is a distributed system. In GIT, any person can create its own branch and start checking in the code. Once the code is
-tested, it is merged into mainGIT repo. IN between, Dev, QA and product can validate the implementation of that code.
-InCVS, there is a centralized systemthat maintains al the commits and changes.
-GITis opensource software and there are plentyof extensionsinGITfor use by ourteams.
+GIT is a distributed system. In GIT, any person can create its own branch and start checking in the code. Once the code is tested, it is merged into main GIT repo. IN between, Dev, QA and product can validate the implementation of that code.
+
+In CVS, there is a centralized system that maintains al the commits and changes.
+
+GIT is opensource software and there are plenty of extensions in GIT for use by our teams.
 
 **34. What is the difference between a Container and a Virtual Machine?**
 
-We need to select an Operating System (OS) to get a specific Virtual Machine (VM). VM provides ful OS to an application
-forrunning ina virtualized environment.
-AContainer uses APIs of anOperatingSystem(OS) to provide runtime environment to an application.
-AContaineris verylightweight in comparisonwitha VM.
-VM provides higher level ofsecurity compared to a Container.
-AContainer just providesthe APIsthat are required by the application.
+We need to select an Operating System (OS) to get a specific Virtual Machine (VM). VM provides ful OS to an application for running in a virtualized environment.
+
+A Container uses APIs of an Operating System(OS) to provide runtime environment to an application.
+
+A Container is very light weight in comparison with a VM.
+
+VM provides higher level of security compared to a Container.
+
+A Container just provides the APIs that are required by the application.
 
 **35. What is Serverless architecture?**
 
-Serverless Architecture is a termthat refersto folowing:
-I. AnApplication that depends on a third-party service.
-II. AnApplication inwhichCode isrun on ephemeral containers.
-InAWS, Lambda is a popularservice to implement Serverless architecture.
-Another concept in Serverless Architecture is to treat code as a service or Function as a Service (FAAS). We just write code
-that can be run on any environment or server without the need ofspecifying which server should be used to run this code.
+Serverless Architecture is a term that refers to following:
+
+I. An Application that depends on a third-party service.
+
+II. An Application in which Code is run on ephemeral containers.
+
+In AWS, Lambda is a popular service to implement Serverless architecture.
+
+Another concept in Serverless Architecture is to treat code as a service or Function as a Service (FAAS). We just write code that can be run on any environment or server without the need of specifying which server should be used to run this code.
 
 **36. What are the main principles of DevOps?**
 
-DevOps is diferent from Technical Operations. It has folowing main principles:
-I. Incremental : In DevOps we aim to incrementaly release software to production. We do releases to
-productionmore often thanWaterfal approach of one large release.
-II. Automated:To enable use to make releases more often, we automate the operations fromCode Check in to
-deployment inProduction.
-III. Collaborative : DevOps is not only responsibility of Operations team. It is a colaborative ef ort of Dev, QA,
-Release and DevOpsteams.
-IV. Iterative :DevOps is based on Iterative principle of using a process that is repeatable. But with each iteration
-we aimtomake the process more eficient and better.
-V. Self-Service : In DevOps, we automate things and give self-service options to other teams so that they are
-empowered to deliver the work intheir domain.
+DevOps is different from Technical Operations. It has following main principles:
+
+**I. Incremental :** In DevOps we aim to in crementally release software to production. We do releases to production more often than Water fall approach of one large release.
+
+**II. Automated:** To enable use to make releases more often, we automate the operations from Code Check in to deployment in Production.
+
+**III. Collaborative :** DevOps is not only responsibility of Operations team. It is a collaborative effort of Dev, QA,
+Release and Dev Ops teams.
+
+**IV. Iterative :** DevOps is based on Iterative principle of using a process that is repeatable. But with each iteration
+we aim to make the process more efficient and better.
+
+**V. Self-Service :** In DevOps, we automate things and give self-service options to other teams so that they are empowered to deliver the work in their domain.
 
 **37. Are you more Dev or more Ops?**
 
-This is a tricky question. DevOps is a new concept and in any organization the maturity of DevOps varies from highly
-Operations oriented to highly DevOps oriented. In some projects teams are very mature and practice DevOps in it true form.
-Insome projects, teamsrelymore onOperationsteam.
-As a DevOps person I give first priority to the needs of an organization and project. At some times I may have to performa lot
-ofoperations work. But witheachiteration, I aimto bringDevOps changes incrementalyto anorganization.
-Over time, organization/projectstartsseeing results ofDevOps practices and embracesit fuly.
+This is a tricky question. DevOps is a new concept and in any organization the maturity of DevOps varies from highly Operations oriented to highly DevOps oriented. In some projects teams are very mature and practice DevOps in it true form.
+
+In some projects, teams rely more on Operation steam.
+
+As a DevOps person I give first priority to the needs of an organization and project. At some times I may have to perform a lot of operations work. But with each iteration, I aim to bring DevOps changes in crementally to an organization.
+
+Over time, organization/projects tarts seeing results of DevOps practices and embraces it fully.
 
 **38. What is a REST service?**
 
-REST is also known as Representational State Transfer. A REST service is a simple software functionality that is available
-over HTTP protocol. It is a lightweightservice that is widelyavailable due to the popularityofHTTP protocol.
-Sine REST is lightweight; it has very good performance in a software system. It is also one of the foundations for creating
-highlyscalable systemsthat provide a service to largenumberofclients.
-Another key feature of a REST service is that as long as the interface is kept same, we can change the underlying
-implementation. E.g. Clients ofREST service can keep caling the same service while we change the implementation fromphp
-to Java.
+REST is also known as Representational State Transfer. A REST service is a simple software functionality that is available over HTTP protocol. It is a light weight service that is widely available due to the popularity of HTTP protocol.
+
+Sine REST is lightweight; it has very good performance in a software system. It is also one of the foundations for creating highly scalable systems that provide a service to large number of clients.
+
+Another key feature of a REST service is that as long as the interface is kept same, we can change the under lying  implementation. E.g. Clients of REST service can keep calling the same service while we change the implementation from php to Java.
 
 **39. What are the Three Ways of DevOps?**
 
-Three Ways ofDevOpsrefersto three basic principles ofDevOps culture. These are asfolows:
-I. The First Way: Systems Thinking : In this principle we see the DevOps as a flow of work from left to right.
-This is the time taken from Code check in to the feature being released to End customer. In DevOps culture
-we tryto identifythe bottlenecksin this.
-II. The Second Way: Feedback Loops : Whenever there is an issue in production it is a feedback about the
-whole development and deployment process. We try to make the feedback loop more eficient so that teams
-can get the feedback much faster. It is a way of catching defect much earlier in process than it being reported
-by customer.
-III. The ThirdWay: Continuous Learning : We make use offirst and second way principlesto keep on making
-improvements in the overal process. This is the third principle in which over the time we make the process and
-our operations highlyeficient, automated and error free by continuouslyimprovingthem.
+Three Ways of DevOps refers to three basic principles of DevOps culture. These are as folows:
+
+**I. The First Way:** Systems Thinking : In this principle we see the DevOps as a flow of work from left to right.
+
+This is the time taken from Code check in to the feature being released to End customer. In DevOps culture we try to identify the bottle necks in this.
+
+**II. The Second Way:** Feedback Loops : Whenever there is an issue in production it is a feedback about the
+
+whole development and deployment process. We try to make the feedback loop more efficient so that teams can get the feedback much faster. It is a way of catching defect much earlier in process than it being reported by customer.
+
+**III. The Third Way:** Continuous Learning : We make use of first and second way principles to keep on making improvements in the overall process. This is the third principle in which over the time we make the process and
+our operations highly efficient, automated and error free by continuously improving them.
 
 **40. How do you apply DevOps principles to make system Secure?**
 
-Security of a system is one of the most important goals for an organization. We use folowing ways to apply DevOps to
-security.
-I. Automated Security Testing : We automate and integrate Security testing techniques for Software
-Penetrationtestingand Fuzztestinginsoftware development process.
-II. Early Security Checks : We ensure that teams know about the security concerns at the beginning of a
-project, rather than at the end of delivery. It is achieved by conducting Security trainings and knowledge
-sharing sessions.
-III. Standard Process : At DevOps we try to folow standard deployment and development process that has
-already gone through security audits. This helps in minimizing the introduction of any new security loopholes
-due to change in the standard process.
+Security of a system is one of the most important goals for an organization. We use following ways to apply DevOps to security.
+
+**I. Automated Security Testing :** We automate and integrate Security testing techniques for Software Penetration testing and Fuzz testing in software development process.
+
+**II. Early Security Checks :** We ensure that teams know about the security concerns at the beginning of a project, rather than at the end of delivery. It is achieved by conducting Security trainings and knowledge sharing sessions.
+
+**III. Standard Process :** At DevOps we try to follow standard deployment and development process that has already gone through security audits. This helps in minimizing the introduction of any new security loopholes due to change in the standard process.
 
 **41. What is Self-testing Code?**
 
-Self-testingCode is an important feature of DevOps culture. In DevOps culture, development teammembers are expected to
-write self-testing code. It means we have to write code along with the tests that can test this code. Once the test passes, we
-feel confident to release the code.
-If we get an issue in production, we first write an automation test to validate that the issue happens in current release. Once the
-issue in release code is fixed, we run the same test to validate that the defect is not there. With each release we keep running
-these testsso that the issue does not appear anymore.
-One ofthe techniques ofwritingSelf-testingcode is Test DrivenDevelopment(TDD).
+Self-testing Code is an important feature of DevOps culture. In DevOps culture, development team members are expected to write self-testing code. It means we have to write code along with the tests that can test this code. Once the test passes, we feel confident to release the code.
+
+If we get an issue in production, we first write an automation test to validate that the issue happens in current release. Once the issue in release code is fixed, we run the same test to validate that the defect is not there. With each release we keep running these tests so that the issue does not appear anymore.
+
+One of the techniques of writing Self-testing code is Test Driven Development(TDD).
 
 **42. What is a Deployment Pipeline?**
 
-A Deployment Pipeline is an important concept in Continuous Delivery. In Deployment Pipeline we break the build process
-into distinctstages. In each stage we get the feedback to move onto the nextstage.
-It is a colaborative efort between various groupsinvolved in delivering software development.
-Oftenthe first stage inDeployment Pipeline is compilingthe code and convertinginto binaries.
-After that we run the automated tests. Depending on the scenario, there are stages like performance testing,security check,
-usabilitytestingetc ina Deployment Pipeline.
-In DevOps, our aim is to automate al the stages of Deployment Pipeline. With a smooth running Deployment Pipeline, we can
-achieve the goalofContinuous Delivery.
+A Deployment Pipeline is an important concept in Continuous Delivery. In Deployment Pipeline we break the build process into distinct stages. In each stage we get the feedback to move onto the next stage.
+
+It is a collaborative effort between various groups involved in delivering software development.
+
+Of ten the first stage in Deployment Pipeline is compiling the code and converting into binaries.
+
+After that we run the automated tests. Depending on the scenario, there are stages like performance testing ,security check, usability testing etc in a Deployment Pipeline.
+
+In DevOps, our aim is to automate al the stages of Deployment Pipeline. With a smooth running Deployment Pipeline, we can achieve the goal of Continuous Delivery.
 
 **43. What are the main features of Docker Hub?**
 
-Docker Hub providesfolowingmain features:
-I. Image Repositories : In Docker Hub we can push, pul, find and manage Docker Images. It is a big library
-that hasimagesfromcommunity, oficialas wel as private sources.
-II. Automated Builds : We can use Docker Hub to create new images by making changes to source
-code repository ofthe image.
-III. Webhooks: WithWebhooks inDocker Hub we can trigger actions that can create and build new images by
+Docker Hub provides following main features:
+
+**I. Image Repositories :** In Docker Hub we can push, pul, find and manage Docker Images. It is a big library that has images from community, official as well as private sources.
+
+**II. Automated Builds :** We can use Docker Hub to create new images by making changes to source code repository of the image.
+
+**III. Webhooks:** With Webhooks in Docker Hub we can trigger actions that can create and build new images by
 pushing a change to repository.
-IV. Github/Bitbucketintegration:Docker Hub also providesintegrationwithGithub and Bitbucketsystems.
+
+**IV. Github/Bitbucket integration:** Docker Hub also provides integration with Github and Bitbucket systems.
 
 **44. What are the security benefits of using Container based system?**
 
-Some ofthe main security benefits of using a Container based systemare asfolows:
-I. Segregation : In a Container based system we segregate the applications on dif erent containers. Each
-application may be running on same host but in a separate container. Each application has access to ports, files
-and otherresourcesthat are provided to it bythe container.
-II. Transient : In a Container based system, each application is considered as a transient system. It is better than
-a static systemthat hasfixed environmentwhichcanbe exposed overtime.
-III. Control: We use repeatable scripts to create the containers. This provides us tight control over the software
-application that we want to deploy and run. It also reduces the risk of unwanted changes in setup that can
-cause security loopholes.
-IV. Security Patch: In a Container based system; we can deploy security patches on multiple containers in a
-uniformway. Also it is easier to patch a Container with an application update.
+Some of the main security benefits of using a Container based system are as follows:
+
+**I. Segregation :** In a Container based system we segregate the applications on different containers. Each application may be running on same host but in a separate container. Each application has access to ports, files and other resources that are provided to it by the container.
+
+**II. Transient :** In a Container based system, each application is considered as a transient system. It is better than a static system that has fixed environment which can be exposed overtime.
+
+**III. Control:** We use repeatable scripts to create the containers. This provides us tight control over the software
+application that we want to deploy and run. It also reduces the risk of unwanted changes in setup that can cause security loopholes.
+
+**IV. Security Patch:** In a Container based system; we can deploy security patches on multiple containers in a uniform way. Also it is easier to patch a Container with an application update.
 
 **45. How many heads can you create in a GIT repository?**
 
-There can be any number of headsin a GITrepository.
-By default there is one head known as HEAD in each repository inGIT.
+There can be any number of heads in a GIT repository.
+
+By default there is one head known as HEAD in each repository in GIT.
 
 **46. What is a Passive check in Nagios?**
 
-In Nagios, we can monitor hosts and services by active checks. In addition, Nagios also supports Passive checks that are
-initiated byexternal applications.
-The results ofPassive checks are submitted to Nagios. There are two main use cases ofPassive checks:
-I. We use Passive checks to monitor asynchronous services that do not give positive result with Active checks at
-regular intervals oftime.
-II. We can use Passive checksto monitorservices or applicationsthat are located behind a firewal.
+In Nagios, we can monitor hosts and services by active checks. In addition, Nagios also supports Passive checks that are initiated by external applications.
+
+The results of Passive checks are submitted to Nagios. There are two main use cases of Passive checks:
+
+I. We use Passive checks to monitor asynchronous services that do not give positive result with Active checks at regular intervals of time.
+
+II. We can use Passive checks to monitor services or applications that are located behind a fire wall.
 
 **47. What is a Docker container?**
 
-ADocker Containeris a lightweightsystemthat canbe runon a Linuxoperatingsystemor a virtualmachine. It is a package of
-anapplicationand related dependenciesthat canbe runindependently.
+A Docker Container is a light weight system that can be run on a Linux operating system or a virtual machine. It is a package of an application and related dependencies that can be run independently.
+
 Since Docker Container is very lightweight, multiple containers can be run simultaneously on a single server or virtual machine.
-With a Docker Container we can create an isolated system with restricted services and processes. A Container has private
-viewofthe operating system. It hasits own processIDspace, file system, and network interface.
+
+With a Docker Container we can create an isolated system with restricted services and processes. A Container has private view of the operating system. It has its own process ID space, file system, and network interface.
+
 Multiple Docker Containers can share same Kernel.
 
 **48. How will you remove an image from Docker?**
 
-We can use docker rmi command to delete an image fromour localsystem.
+We can use docker rmi command to delete an image from our local system.
+
 Exact command is:
+
 %dockerrmi<Image Id>
+
 If we want to find IDs of al the Docker images in our local system, we can user docker images command.
+
 %dockerimages
-Ifwe want to remove a docker containerthenwe use docker rmcommand.
-% docker rm<ContainerId>
+
+If we want to remove a docker container then we use docker rmcommand.
+
+% docker rm <ContainerId>
 
 **49. What are the common use cases of Docker?**
 
-Some ofthe common use cases ofDocker are as folows:
-I. Setting up Development Environment : We can use Docker to set the development environment with the
-applications onwhichour code is dependent.
-II. Testing Automation Setup : Docker can also help in creating the Testing Automation setup. We can setup
-diferentservices and apps withDockerto create the automation-testingenvironment.
-III. Production Deployment : Docker also helps in implementing the Production deployment for an application.
-We can use it to create the exact environment and process that wil be used for doing the production
-deployment.
+Some of the common use cases of Docker are as follows:
+
+**I. Setting up Development Environment :** We can use Docker to set the development environment with the applications on which our code is dependent.
+
+**II. Testing Automation Setup :** Docker can also help in creating the Testing Automation setup. We can setup different services and apps with Docker to create the automation-testing environment.
+
+**III. Production Deployment :** Docker also helps in implementing the Production deployment for an application.
+
+We can use it to create the exact environment and process that will be used for doing the production deployment.
 
 **50. Can we lose our data when a Docker Container exits?**
 
 A Docker Container has its own file-system. In an application running on Docker Container we can write to this file-system.
-When the container exits, data written to file-systemstil remains. When we restart the container, same data can be accessed
-again.
-Onlywhenwe delete the container, related data wil be deleted.
-Docker Questions
+
+When the container exits, data written to file-system still remains. When we restart the container, same data can be accessed again.
+
+Only when we delete the container, related data wil be deleted.
+
+**Docker Questions**
 
 **51. What is Docker?**
 
-Docker is OpenSource software. It providesthe automationofLinux application deployment in a software container.
-We cando operatingsystemlevelvirtualizationonLinuxwithDocker.
-Docker can package software in a complete file system that contains software code, runtime environment, system tools, &
-librariesthat are required to instal and runthe software ona server.
+Docker is Open Source software. It provides the automation of Linux application deployment in a software container.
+
+We can do operating system level virtualization on Linux with Docker.
+
+Docker can package software in a complete file system that contains software code, runtime environment, system tools, & libraries that are required to install and run the software on a server.
 
 **52. What is the difference between Docker image and Docker container?**
 
-Docker container issimply an instance ofDocker image.
+Docker container is simply an instance of Docker image.
+
 A Docker image is an immutable file, which is a snapshot of container. We create an image with build command.
-Whenwe use run command, an Image wil produce a container.
+
+When we use run command, an Image will produce a container.
+
 In programming language, an Image is a Class and a Container is an instance of the class.
 
 **53. How is a Docker container different from a hypervisor?**
 
-In a Hypervisor environment we first create a VirtualMachine and theninstal anOperatingSystemon it.Afterthat we deploy
-the application. The virtualmachine may also be instaled on diferent hardware configurations.
-In a Docker environment, we just deploy the application in Docker. There is no OS layer in this environment. We specify
-libraries, and rest ofthe kernelis provided byDocker engine.
+In a Hypervisor environment we first create a Virtual Machine and then install an Operating System on it. After that we deploy the application. The virtual machine may also be installed on different hardware configurations.
+
+In a Docker environment, we just deploy the application in Docker. There is no OS layer in this environment. We specify libraries, and rest of the kernel is provided by Docker engine.
+
 In a way, Docker container and hypervisor are complementary to each other.
 
-**54. Can we write compose file in json file instead of yaml?**
+**54. Can we write compose file in js on file instead of yaml?**
 
-Yes. Yamlformat is a superset of json format. Therefore any json file is also a valid Yamlfile.
-Ifwe use a jsonfilethenwe have to specifyindocker command that we are usinga jsonfile asfolows:
-% docker-compose -f docker-compose.json up
+Yes. Yaml format is a superset of js on format. Therefore any js on file is also a valid Yaml file.
+
+If we use a js on file then we have to specify in docker command that we are using a js on file as follows:
+
+% docker-compose -f docker-compose.js on up
 
 **55. Can we run multiple apps on one server with Docker?**
 
-Yes, theoreticaly we can run multiples apps on one Docker server. But in practice, it is better to run dif erent components on
-separate containers.
-Withthis we get cleaner environment and it can be used for multiple uses.
+Yes, theoretically we can run multiples apps on one Docker server. But in practice, it is better to run different components on separate containers.
+
+With this we get cleaner environment and it can be used for multiple uses.
 
 **56. What are the main features of Docker-compose?**
 
-Some ofthe main features ofDocker-compose are asfolows:
-I. Multiple environments on same Host : We can use it to create multiple environments on the same host
-server.
-II. Preserve Volume Data on Container Creation : Docker compose also preserves the volume data when
-we create a container.
-III. Recreate the changedContainers :We can also use compose to recreate the changed containers.
-IV. Variables in Compose file : Docker compose also supports variables in compose file. In this way we can
-create variations ofour containers.
+Some of the main features of Docker-compose are as follows:
+
+I. Multiple environments on same Host : We can use it to create multiple environments on the same host server.
+
+II. Preserve Volume Data on Container Creation : Docker compose also preserves the volume data when we create a container.
+
+III. Recreate the changed Containers :We can also use compose to recreate the changed containers.
+
+IV. Variables in Compose file : Docker compose also supports variables in compose file. In this way we can create variations of our containers.
 
 **57. What is the most popular use of Docker?**
 
-The most popular use of Docker is in build pipeline. With the use of Docker it is much easier to automate the development to
-deployment processin build pipeline.
-We use Dockerforthe complete build flowfromdevelopment work, testrunand deployment to productionenvironment.
+The most popular use of Docker is in build pipeline. With the use of Docker it is much easier to automate the development to deployment process in build pipeline.
+
+We use Docker for the complete build flow from development work, test run and deployment to production environment.
 
 **58. What is the role of open source development in the popularity of Docker?**
 
-Since Linux was an open source operating system, it opened new opportunities for developers who want to contribute to open
-source systems.
-One ofthe very good outcomes of open source software is Docker. It has very powerfulfeatures.
-Docker has wide acceptance due to its usabilityas wel as its opensource approach ofintegratingwithdiferentsystems.
+Since Linux was an open source operating system, it opened new opportunities for developers who want to contribute to open source systems.
+
+One of the very good outcomes of open source software is Docker. It has very power full features.
+
+Docker has wide acceptance due to its usability as well as its opensource approach of integrating with different systems.
 
 **59. What is the difference between Docker commands: up, run and start?**
 
-We have up and start commandsin docker-compose. The run command isin docker.
-a. Up: We use this command to build, create, start or restart al the servicesin a docker-compose.ymlfile. It
-also attachesto containersfor a service.
-This command canalso start linked services.
-b. Run: We use this command for adhoc requests. It just starts the service that we specificaly want to start.
-We generalyuse itrunspecific tests or anyadministrative tasks.
+We have up and start commands in docker-compose. The run command is in docker.
+
+a. Up: We use this command to build, create, start or restart al the services in a docker-compose. yml file. It
+also attaches to containers for a service.
+
+This command can also start linked services.
+
+b. Run: We use this command for ado requests. It just starts the service that we specifically want to start.
+
+We generally use it run specific tests or any administrative tasks.
+
 c. Start : This command is used to start the container that were previously created but are not currently
-running. This command does not create newcontainers.
+
+running. This command does not create new containers.
 
 **60. What is Docker Swarm?**
 
 Docker Swarm is used to create a cluster environment. It can turn a group of Docker engines into a Single virtual Docker
-Engine. This creates a systemwith pooled resources. We can use Docker Swarmto scale our application.
+
+Engine. This creates a system with pooled resources. We can use Docker Swarm to scale our application.
 
 **61. What are the features of Docker Swarm?**
 
-Some ofthe key features of Docker Swarmare as folows:
-I. Compatible :Docker Swarmis compatible with standard Docker API.
-II. HighScalability : Swarmcan scale up to as much as 1000 nodes and 50000 containers. There is almost no
-performance degradationatthisscale inDockerSwarm.
-III. Networking :Swarmcomes withsupportforDocker Networking.
-IV. High Availability : We can create a highly available system with Docker Swarm. It alows use to create
-multiplemaster nodesso that incase ofa failure, another node cantake over.
+Some of the key features of Docker Swarm are as follows:
+
+I. Compatible :Docker Swarm is compatible with standard Docker API.
+
+II. High Scalability : Swarm can scale up to as much as 1000 nodes and 50000 containers. There is almost no
+
+performance degradation at this scale in Docker Swarm.
+
+III. Networking :Swarm comes with support for Docker Networking.
+
+IV. High Availability : We can create a highly available system with Docker Swarm. It allows use to create
+
+multiple master nodes so that incase of a failure, another node can take over.
+
 V. Node Discovery : In Docker Swarm, we can add more nodes and the new nodes can be found with any
-discoveryservice like etcd or zookeeper etc.
+
+discovery service like etcd or zookeeper etc.
 
 **62. What is a Docker Image?**
 
-Docker Image is the blue print that is used to create a Docker Container. Whenever we want to run a container we have to
-specify the image that we want to run.
-There are many Docker images available online for standard software. We can use these images directly fromthe source.
-The standard set of Docker Images is stored in Docker Hub Registry. We can download these from this location and use it in
-our environment.
-We can also create our ownDocker Image with the software that we want to run as a container.
+Docker Image is the blue print that is used to create a Docker Container. Whenever we want to run a container we have to specify the image that we want to run.
+
+There are many Docker images available online for standard software. We can use these images directly from the source.
+
+The standard set of Docker Images is stored in Docker Hub Registry. We can download these from this location and use it in our environment.
+
+We can also create our own Docker Image with the software that we want to run as a container.
 
 **63. What is a Docker Container?**
 
-A Docker Containeris a lightweightsystemthat canbe runon a Linuxoperatingsystemor a virtualmachine. It is a package of
-anapplicationand related dependenciesthat canbe runindependently.
+A Docker Container is a light weight system that can be run on a Linux operating system or a virtual machine. It is a package of an application and related dependencies that can be run independently.
+
 Since Docker Container is very lightweight, multiple containers can be run simultaneously on a single server or virtual machine.
+
 With a Docker Container we can create an isolated system with restricted services and processes. A Container has private
-viewofthe operating system. It hasits own processIDspace, file system, and network interface.
+
+view of the operating system. It has its own process ID space, file system, and network interface.
+
 Multiple Docker Containers can share same Kernel.
 
 **64. What is Docker Machine?**
 
-We can use Docker Machine to instal Docker Engine on virtual hosts. It also provides commands to manage virtual hosts.
-Some ofthe popular Docker machine commands enable usto start, stop, inspect and restart a managed host.
+We can use Docker Machine to install Docker Engine on virtual hosts. It also provides commands to manage virtual hosts.
+
+Some of the popular Docker machine commands enable us to start, stop, inspect and restart a managed host.
+
 Docker Machine provides a Command Line Interface (CLI), which is very useful in managing multiple hosts.
 
 **65. Why do we use Docker Machine?**
 
-There are two main uses ofDocker Machine:
+There are two main uses of Docker Machine:
+
 I. Old Desktop : If we have an old desktop and we want to run Docker then we use Docker Machine to run
-Docker. It islike instaling a virtualmachine on an old hardware systemto runDocker engine.
+
+Docker. It is like installing a virtual machine on an old hardware system to run Docker engine.
+
 II. Remote Hosts : Docker Machine is also used to provision Docker hosts on remote systems. By using
-Docker Machine you can instal Docker Engine on remote hosts and configure clients on them.
+
+Docker Machine you can install Docker Engine on remote hosts and configure clients on them.
 
 **66. How will you create a Container in Docker?**
 
-To create a Container in Docker we have to create a Docker Image. We can also use an existing Image from Docker Hub
-Registry.
+To create a Container in Docker we have to create a Docker Image. We can also use an existing Image from Docker Hub Registry.
+
 We can run an Image to create the container.
 
 **67. Do you think Docker is Application-centric or Machine-centric?**
 
-Docker is an Application-centric solution. It is optimized for deployment of an application. It does not replace a machine by
-creatinga virtualmachine.Rather, itfocuses on providingease ofuse featuresto runanapplication.
+Docker is an Application-centric solution. It is optimized for deployment of an application. It does not replace a machine by creating a virtual machine. Rather, it focuses on providing ease of use features to run an application.
 
 **68. Can we run more than one process in a Docker container?**
 
-Yes, a Docker Container can provide process management that can be used to run multiple processes. There are process
-supervisorslike runit, s6, daemontools etc that can be used to fork additional processesin a Docker container.
+Yes, a Docker Container can provide process management that can be used to run multiple processes. There are process super visors like run it, s6, daemon tools etc that can be used to fork additional processes in a Docker container.
 
-**69. What are the objects created by Docker Cloud in Amazon Web
-Services (AWS) EC2?**
+**69. What are the objects created by Docker Cloud in Amazon Web Services (AWS) EC2?**
 
-Docker Cloud createsfolowing objectsinAWS EC2 instance:
+Docker Cloud creates following objects in AWS EC2 instance:
+
 I. VPC : Docker Cloud creates a Virtual Private Cloud with the tag name dc-vpc. It also creates Class Less
-Inter-DomainRouting(CIDR) with the range of 10.78.0.0/16 .
+
+Inter-Domain Routing(CIDR) with the range of 10.78.0.0/16 .
+
 II. Subnet : Docker Cloud creates a subnet in each Availability Zone (AZ). In Docker Cloud, each subnet
-istagged withdc-subnet.
-III. Internet Gateway : Docker Cloud also creates an internet gateway with name dc-gateway and attaches it
-to the VPC created earlier.
+is tagged with dc-subnet.
+
+III. Internet Gateway : Docker Cloud also creates an internet gateway with name dc-gateway and attaches it to the VPC created earlier.
+
 IV. Routing Table : Docker Cloud also creates a routing table named dc-route-table in Virtual Private Cloud. In
-this RoutingTable Docker Cloud associatesthe subnet with the Internet Gateway.
+this Routing Table Docker Cloud associates the subnet with the Internet Gateway.
 
 **70. How will you take backup of Docker container volumes in AWS S3?**
 
-We can use a utility named Dockup provided byDocker Cloud to take backup ofDocker container volumesinS3.
+We can use a utility named Dock up provided by Docker Cloud to take backup of Docker container volumesinS3.
 
 **71. What are the three main steps of Docker Compose?**
 
-Three main steps ofDocker Compose are as folows:
-I. Environment : We first define the environment of our application with a Dockerfile. It can be used to recreate
-the environment at a later point oftime.
-II. Services : Then we define the services that make our app in docker-compose.yml. By using this file we
-candefine howthese services canbe runtogetherinanenvironment.
-III. Run : The last step is to run the Docker Container. We use docker-compose up to start and run the
-application.
+Three main steps of Docker Compose are as follows:
 
-**72. What is Pluggable Storage Driver architecture in Docker based
-containers?**
+I. Environment : We first define the environment of our application with a Docker file. It can be used to recreate the environment at a later point of time.
 
-Docker storage driver is by default based on a Linux file system. But Docker storage driver also has provision to plug in any
-otherstorage driverthat canbe used for our environment.
-In Pluggable Storage Driver architecture, we can use multiple kinds of file systems in our Docker Container. In Docker info
-commandwe cansee theStorage Driverthatisset onaDockerdaemon.
+II. Services : Then we define the services that make our app in docker-compose.yml. By using this file we can define how these services can be run to gether in an environment.
+
+III. Run : The last step is to run the Docker Container. We use docker-compose up to start and run the application.
+
+**72. What is Pluggable Storage Driver architecture in Docker based containers?**
+
+Docker storage driver is by default based on a Linux file system. But Docker storage driver also has provision to plug in any other storage driver that can be used for our environment.
+
+In Pluggable Storage Driver architecture, we can use multiple kinds of file systems in our Docker Container. In Docker info command we can see the Storage Driver that is set on a Docker daemon.
+
 We can even plug in shared storage systems with the Pluggable Storage Driver architecture.
 
 **73. What are the main security concerns with Docker based containers?**
 
-Docker based containers have folowing security concerns:
+Docker based containers have following security concerns:
+
 I. Kernel Sharing : In a container-based system, multiple containers share same Kernel. If one container causes
-Kernel to go down, it wil take down al the containers. In a virtual machine environment we do not have this
-issue.
-II. Container Leakage : If a malicious user gains access to one container, it can try to access the other
-containers on the same host. If a container has security vulnerabilities it can alow the user to access other
-containers on same host machine.
-III. Denial of Service : If one container occupies the resources of a Kernel then other containers wil starve for
-resources. It cancreate a DenialofService attack like situation.
-IV. Tampered Images : Sometimes a container image can be tampered. This can lead to further security
-concerns. An attacker can try to run a tampered image to exploit the vulnerabilities in host machines and
-other containers.
-V. Secret Sharing : Generaly one container can access other services. To access a service it requires a Key or
-Secret. A malicious user can gain access to this secret. Since multiple containers share the secret, it may lead
-to furthersecurity concerns.
+
+Kernel to go down, it will take down al the containers. In a virtual machine environment we do not have this issue.
+
+II. Container Leakage : If a malicious user gains access to one container, it can try to access the other containers on the same host. If a container has security vulnerabilities it can allow the user to access other containers on same host machine.
+
+III. Denial of Service : If one container occupies the resources of a Kernel then other containers will starve for
+resources. It can create a Denial of Service attack like situation.
+
+IV. Tampered Images : Sometimes a container image can be tampered. This can lead to further security concerns. An attacker can try to run a tampered image to exploit the vulnerabilities in host machines and other containers.
+
+V. Secret Sharing : Generally one container can access other services. To access a service it requires a Key or
+
+Secret. A malicious user can gain access to this secret. Since multiple containers share the secret, it may lead to further  security concerns.
 
 **74. How can we check the status of a Container in Docker?**
 
@@ -757,137 +873,152 @@ We can use docker ps –a command to get the list of al the containers in Docker
 
 **75. What are the main benefits of using Docker?**
 
-Docker is a very powerful tool. Some ofthe main benefits of using Docker are asfolows:
-I. Utilize Developer Skills : With Docker we maximize the use of Developer skils. With Docker there is less need of build or
-release engineers. Same Developer can create software and wrap it inone single file.
-II. StandardApplicationImage :Docker based systemalows usto bundle the application software and Operating systemfilesin a
-single ApplicationImage that canbe deployed independently.
-III. Uniformdeployment: WithDocker we cancreate one package ofoursoftware and deployit ondiferent platformsseamlessly.
+Docker is a very powerful tool. Some of the main benefits of using Docker are as folows:
+
+I. Utilize Developer Skills : With Docker we maximize the use of Developer skills. With Docker there is less need of build or release engineers. Same Developer can create software and wrap it in one single file.
+
+II. Standard Application Image :Docker based system allows us to bundle the application software and Operating system files in a single Application Image that can be deployed independently.
+
+III. Uniform deployment: With Docker we can create one package of ours of ware and deploy it on different platforms seamlessly.
 
 **76. How does Docker simplify Software Development process?**
 
-Prior to Docker, Developers would develop software and pass it to QA for testing and then it is sent to Build & Release teamfor deployment.
-In Docker workflow, Developer builds an Image after developing and testing the software. This Image is shipped to Registry. FromRegistry it is
-available for deployment to any system. The development process is simpler since steps for QA and Deployment etc take place before the Image
-is built. So Developer getsthe feedback early.
+Prior to Docker, Developers would develop software and pass it to QA for testing and then it is sent to Build & Release team for deployment.
+
+In Docker workflow, Developer builds an Image after developing and testing the software. This Image is shipped to Registry. From Registry it is available for deployment to any system. The development process is simpler since steps for QA and Deployment etc take place before the Image is built. So Developer gets the feedback early.
 
 **77. What is the basic architecture behind Docker?**
 
 Docker is built on client server model. Docker server is used to run the images. We use Docker client to communicate with Docker server.
-Clientstel Dockerserver via commands what to do.
-Additionaly there is a Registry thatstores Docker Images. Docker Server can directly contact Registry to download images.
 
-**78. What are the popular tasks that you can do with Docker Command
-line tool?**
+Clients tell Docker server via commands what to do.
+
+Additionally there is a Registry that stores Docker Images. Docker Server can directly contact Registry to download images.
+
+**78. What are the popular tasks that you can do with Docker Command line tool?**
 
 Docker Command Line (DCL) tool is implemented in Go language. It can compile and run on most of the common operating systems. Some of
-the tasksthatwe cando withDockerCommand Line toolare asfolows:
-I. We can download imagesfromRegistrywithDCL.
+
+the tasks that we can do with Docker Command Line tool are as follows:
+
+I. We can download images from Registry with DCL.
+
 II. We can start, stop or terminate a container on a Docker server by DCL.
+
 III. We can retrieve Docker Logs via DCL.
-IV. We can build a Container Image withDCL.
+
+IV. We can build a Container Image with DCL.
 
 **79. What type of applications- Stateless or Stateful are more suitable for Docker Container?**
 
-It is preferable to create Stateless application for Docker Container. We can create a container out of our application and take out the configurable
-state parametersfromapplication. Now we can runsame containerinProductionas wel as QAenvironments withdiferent parameters. Thishelps
-in reusing the same Image in dif erent scenarios. Also a stateless application is much easier to scale with Docker Containers than a stateful
-application.
+It is preferable to create Stateless application for Docker Container. We can create a container out of our application and take out the configurable state parameters from application. Now we can run same container in Production as well as QA environments with different parameters. This helps in reusing the same Image in different scenarios. Also a stateless application is much easier to scale with Docker Containers than a stateful application.
 
 **80. How can Docker run on different Linux distributions?**
 
-Docker directly works with Linux kernel level libraries. In every Linux distribution, the Kernel is same. Docker containers share same kernel as the
-host kernel.
-Since al the distributionsshare the sameKernel, the container canrunonanyofthese distributions.
+Docker directly works with Linux kernel level libraries. In every Linux distribution, the Kernel is same. Docker containers share same kernel as the host kernel.
+
+Since al the distributions share the same Kernel, the container can run on any of these distributions.
 
 **81. Why do we use Docker on top of a virtual machine?**
 
-Generaly we use Docker on top of a virtual machine to ensure isolation of the application. On a virtual machine we can get the advantage of
-security provided by hypervisor. We can implement dif erent security levels on a virtual machine. And Docker can make use of this to run the
-application at diferentsecurity levels.
+Generally we use Docker on top of a virtual machine to ensure isolation of the application. On a virtual machine we can get the advantage of
+
+security provided by hypervisor. We can implement different security levels on a virtual machine. And Docker can make use of this to run the application at diferent security levels.
 
 **82. How can Docker container share resources?**
 
-We can run multiple Docker containers on same host. These containers can share Kernel resources. Each container runs on its own Operating
-Systemand it hasits ownuser-space and libraries.
-So in a way Docker container does not share resources within its own namespace. But the resources that are not in isolated namespace are shared
-between containers. These are the Kernelresources of host machine that have just one copy.
-So in the back-end there is same set ofresourcesthat Docker Containers share.
+We can run multiple Docker containers on same host. These containers can share Kernel resources. Each container runs on its own Operating System and it has its own user-space and libraries.
 
-**83. What is the difference between Add and Copy command in a
-Dockerfile?**
+So in a way Docker container does not share resources within its own namespace. But the resources that are not in isolated namespace are shared between containers. These are the Kernel resources of host machine that have just one copy.
 
-BothAdd andCopy commands ofDockerfile cancopy newfilesfroma source locationto a destinationinContainer’sfilepath.
-They behave almostsame.
-Themaindiference betweenthese two isthat Add command canalso read the filesfroma URL.
-As per Docker documentation, Copy command is preferable. Since Copy only supports copying local filesto a Container, it is preferred over Add
-command.
+So in the back-end there is same set of resources that Docker Containers share.
 
-**84. What is Docker Entrypoint?**
+**83. What is the difference between Add and Copy command in a Docker file?**
 
-We use Docker Entrypoint to set the starting point for a command in a Docker Image.
-We can use the entrypoint as a command for running an Image in the container.
-E.g. We can define folowing entrypoint in docker file and run it asfolowing command:
+Both Add and Copy commands of Docker file can copy new files from a source location to a destination in Container’s file path. They behave almost same.
+
+The main difference between these two is that Add command can also read the files from a URL.
+
+As per Docker documentation, Copy command is preferable. Since Copy only supports copying local files to a Container, it is preferred over Add command.
+
+**84. What is Docker Entry point?**
+
+We use Docker Entry point to set the starting point for a command in a Docker Image.
+
+We can use the entry point as a command for running an Image in the container.
+
+E.g. We can define following entry point in docker file and run it as following command:
+
 ENTRYPOINT[“mycmd”]
+
 % docker runmycmd
 
 **85. What is ONBUILD command in Docker?**
 
-We use ONBUILDcommand inDockerto runthe instructionsthat have to execute afterthe completionofcurrent Dockerfile build.
-It is used to build a hierarchyofimagesthat have to be build after the parent image is built.
-A Docker build wil execute first ONBUILD command and then it wil execute any other command in Child Dockerfile.
+We use ONBUILD command in Docker to run the instructions that have to execute after the completion of current Docker file build.
+
+It is used to build a hierarchy of images that have to be build after the parent image is built.
+
+A Docker build will execute first ONBUILD command and then it will execute any other command in Child Docker file.
 
 **86. What is Build cache in Docker?**
 
-When we build an Image, Docker wil process each line in Dockerfile. It wil execute the commands on each line in the order that is mentioned in
-the file.
-But at each line, before running any command, Docker wil check if there is already an existing image in its cache that can be reused rather than
-creating a newimage.
-This method ofusing cache inDocker is caled Build cache inDocker.
-We can also specify the option –no-cache=true to let Docker know that we do not want to use cache for Images. With this option, Docker wil
-create al newimages.
+When we build an Image, Docker will process each line in Docker file. It will execute the commands on each line in the order that is mentioned in the file.
 
-**87. What are the most common instructions in Dockerfile?**
+But at each line, before running any command, Docker will check if there is already an existing image in its cache that can be reused rather than creating a new image.
 
-Some ofthe common instructionsinDockerfile are asfolows:
-I. FROM : We use FROM to set the base image for subsequent instructions. In every valid Dockerfile, FROM is the first
-instruction.
-II. LABEL : We use LABEL to organize our images as per project, module, licensing etc. We can also use LABEL to help in
-automation.
-In LABEL we specify a key value pair that can be later used for programmaticaly handling the Dockerfile.
-III. RUN : We use RUN command to execute any instructions in a new layer on top of the current image. With each RUN command
-we add something on top ofthe image and use it in subsequentstepsin Dockerfile.
-IV. CMD : We use CMD command to provide default values of an executing container. In a Dockerfile, if we include multiple CMD
-commands, thenonlythe last instructionis used.
+This method of using cache in Docker is called Build cache in Docker.
 
-**88. What is the purpose of EXPOSE command in Dockerfile?**
+We can also specify the option –no-cache=true to let Docker know that we do not want to use cache for Images. With this option, Docker will create al new images.
 
-We use EXPOSE command to informDocker that Container wil listen on a specific network port during runtime.
-But these ports on Container may not be accessible to the host. We can use –p to publish a range of ports fromContainer.
+**87. What are the most common instructions in Docker file?**
+
+Some of the common instructions in Docker file are as follows:
+
+I. FROM : We use FROM to set the base image for subsequent instructions. In every valid Docker file, FROM is the first instruction.
+
+II. LABEL : We use LABEL to organize our images as per project, module, licensing etc. We can also use LABEL to help in automation.
+
+In LABEL we specify a key value pair that can be later used for programmatically handling the Docker file.
+
+III. RUN : We use RUN command to execute any instructions in a new layer on top of the current image. With each RUN command we add something on top of the image and use it in sub sequent steps in Docker file.
+
+IV. CMD : We use CMD command to provide default values of an executing container. In a Docker file, if we include multiple CMD commands, then only the last instruction is used.
+
+**88. What is the purpose of EXPOSE command in Docker file?**
+
+We use EXPOSE command to inform Docker that Container will listen on a specific network port during runtime.
+
+But these ports on Container may not be accessible to the host. We can use –p to publish a range of ports from Container.
 
 **89. What are the different kinds of namespaces available in a Container?**
 
-In a Container we have an isolated environment with namespace for each resource that a kernel provides. There are mainly six types of
-namespacesin aContainer.
-I. UTS Namespace : UTS stands for Unix Timesharing System. In UTS namespace every container gets its own hostname and
-domain name.
-II. Mount Namespace : This namespace provides its own file systemwithin a container. With this namespace we get root like / in the
-file systemonwhichrest ofthe file structure is based.
-III. PID Namespace : This namespace contains al the processes that run within a Container. We can run ps command to see the
-processesthat are runningwithinaDocker container.
-IV. IPC Namespace : IPC stands for Inter Process Communication. This namespace covers shared memory, semaphores, named
-pipes etc resourcesthat are shared by processes. The itemsin this namespace do not crossthe container boundary.
-V. UserNamespace :This namespace containsthe users and groupsthat are defined within a container.
-VI. Network Namespace :With this namespace, container providesits own network resourceslike- ports, devices etc. With this
-namespace, Docker creates an independent network stack within each container.
+In a Container we have an isolated environment with namespace for each resource that a kernel provides. There are mainly six types of name spaces in a Container.
+
+I. UTS Namespace : UTS stands for Unix Timesharing System. In UTS namespace every container gets its own hostname and domain name.
+
+II. Mount Namespace : This namespace provides its own file system with in a container. With this namespace we get root like / in the file system on which rest of the file structure is based.
+
+III. PID Namespace : This namespace contains al the processes that run within a Container. We can run ps command to see the processes that are running with in a Docker container.
+
+IV. IPC Namespace : IPC stands for Inter Process Communication. This namespace covers shared memory, semaphores, named pipes etc resources that are shared by processes. The items in this namespace do not cross the container boundary.
+
+V. User Namespace :This namespace contains the users and groups that are defined within a container.
+
+VI. Network Namespace :With this namespace, container provides its own network resources like- ports, devices etc. With this namespace, Docker creates an independent network stack within each container.
 
 **90. How will you monitor Docker in production?**
 
-Docker providestoolslike dockerstats and docker eventsto monitor Docker in production.
-We canget reports onimportant statistics withthese commands.
-Docker stats : When we cal docker stats with a container id, we get the CPU, memory usage etc of a container. It is similar to top command in Linux.
-Docker events :Docker events are a command to see the streamof activitiesthat are going on inDocker daemon.
-Some ofthe commonDocker events are: attach, commit, die, detach, rename, destroy etc.
+Docker provides tools like docker stats and docker events to monitor Docker in production.
+
+We can get reports on important statistics with these commands.
+
+Docker stats : When we call docker stats with a container id, we get the CPU, memory usage etc of a container. It is similar to top command in Linux.
+
+Docker events :Docker events are a command to see the stream of activities that are going on in Docker daemon.
+
+Some of the common Docker events are: attach, commit, die, detach, rename, destroy etc.
+
 We can also use various options to limit or filter the events that we are interested in.
 
 **91. What are the Cloud platforms that support Docker?**
