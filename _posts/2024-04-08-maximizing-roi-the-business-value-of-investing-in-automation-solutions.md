@@ -3,7 +3,7 @@ title: Maximizing ROI The Business Value of Investing in Automation Solutions
 description: "Dynamic business landscape, the quest for efficiency and agility
   is relentless. As organizations strive to stay ahead, one powerful strategy
   stands out: automation."
-image: /images/maximizing-roi-the-business-value-of-investing-in-automation-solutions.gif
+image: /images/blog/maximizing-roi-the-business-value-of-investing-in-automation-solutions.webp.gif
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
