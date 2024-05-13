@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: kubernetes
-date: 2024-05-13T10:47:00.000Z
+date: 2024-05-11T16:17:00.000Z
 ---
 ![Top 10 Kubernetes alternatives](/images/blog/top-10-kubernetes-alternatives.webp)
 
