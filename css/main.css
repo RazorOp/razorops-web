@@ -5959,3 +5959,9 @@ padding-top: 0;
 .top-header a {
 	color: #FFF;
 }
+
+.getstarted-text {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;	
+}

@@ -1,10 +1,10 @@
 ---
-title: Razorops | Schedule Demo
+title: Schedule a Meeting with Shyam
 layout: page
-description: Razopos demo with Shyam
+description: Schedule a Meeting with Shyam
 keywords: Razorops demo, cicd demo
-image: /images/razorops-demo.png
-canonical_url: https://razorops.com/schedule-demo/
+image: /images/meet-shyam.webp
+canonical_url: https://razorops.com/meet-shyam/
 ---
 <div class="mb50">
     <div class="calendly-inline-widget" data-url="https://calendly.com/razorops/demo" style="min-width:320px;height:840px;"></div>
