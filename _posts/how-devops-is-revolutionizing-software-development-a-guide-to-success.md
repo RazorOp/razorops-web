@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: DevOps
-date: 2024-05-17T01:05:00.000Z
+date: 2024-05-16T06:35:00.000Z
 ---
 ![How DevOps is Revolutionizing Software Development A Guide to Success](/images/blog/how-devops-is-revolutionizing-software-development-a-guide-to-success.webp)
 
