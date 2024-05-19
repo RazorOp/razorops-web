@@ -11,8 +11,6 @@ image: "/images/newsletter/making-the-most-of-kubernetes-rbac.png"
 heading: Making the Most of Kubernetes RBAC
 ---
 
-![](/images/newsletter/making-the-most-of-kubernetes-rbac.png)
-<br>
 
 # The Headlines
 

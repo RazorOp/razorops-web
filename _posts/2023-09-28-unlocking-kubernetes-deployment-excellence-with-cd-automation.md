@@ -9,12 +9,6 @@ category: cicd
 image: "/images/blog/unlocking-kubernetes%20deployment.gif"
 ---
 
-![](/images/blog/unlocking-kubernetes%20deployment.gif)
-<br>
-
-
-
-
 Software development, agility and efficiency are paramount. Continuous Integration and Continuous Deployment (CI/CD) practices have revolutionised the way we build, test, and deploy software. When coupled with the power of Kubernetes, an open-source container orchestration platform, organisations can achieve a level of deployment excellence that was once only a dream. In this article, we'll explore the synergy between Kubernetes and CI/CD automation, highlighting the benefits and best practices that can lead to seamless, reliable, and scalable deployments.
 <br>
 <br>

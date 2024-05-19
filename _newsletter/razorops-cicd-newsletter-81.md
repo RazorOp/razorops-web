@@ -10,10 +10,6 @@ image: "/images/newsletter/ci-cd-key-component-devops-software-engineering.gif"
 heading: CI/CD A Key Component of DevOps for Software Engineering
 ---
 
-![](/images/newsletter/ci-cd-key-component-devops-software-engineering.gif)
-<br>
-<br>
-
 
 Software engineering, efficiency and agility are paramount. Continuous Integration and Continuous Delivery (CI/CD) stand as the bedrock of modern software development practices, playing a pivotal role in the broader DevOps methodology. This blog aims to unravel the significance of CI/CD and explore how its seamless integration can enhance the software development lifecycle.
 <br>

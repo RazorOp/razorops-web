@@ -11,8 +11,6 @@ image: "/images/newsletter/5-tips-for-managing-service-dependencies-in-microserv
 heading: 5 Tips for Managing Service Dependencies in Microservice Architecture
 ---
 
-![](/images/newsletter/5-tips-for-managing-service-dependencies-in-microservice-architecture.gif)
-<br>
 
 In a microservice architecture, managing service dependencies can be a challenging task. A microservice is an independent service that performs a specific function and communicates with other services to provide a complete system.
 

@@ -10,9 +10,6 @@ image: "/images/newsletter/Navigating-Kubernetes-ci-cd.png"
 heading: Navigating Kubernetes CI/CD Best Practices for Effortless Deployment
 ---
 
-![](/images/newsletter/Navigating-Kubernetes-ci-cd.png)
-<br>
-
 
 # Navigating Kubernetes CI/CD: A Journey Through Continuous Integration and Deployment
 <br>

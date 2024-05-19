@@ -11,8 +11,6 @@ category: Continuous Integration
 image: "/images/blog/razorops-heroku.png"
 ---
 
-<img src="/images/blog/razorops-heroku.png" />
-
 This post i will explain how to deploy rails app on heroku using Razorops CI/CD
 
 Deploying to heroku was super easy as it happen with just a git push, with razorops you can add Unit Testing, Code Scaning support to your Heroku app.

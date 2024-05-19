@@ -10,8 +10,6 @@ image: "/images/newsletter/security-best-practices-devops.jpg"
 heading: DevOps Security Best Practices 
 ---
 
-![](/images/newsletter/security-best-practices-devops.jpg)
-<br>
 
 <div style="font-size: 18px;">
 

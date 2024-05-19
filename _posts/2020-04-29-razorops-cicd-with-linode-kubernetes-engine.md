@@ -10,10 +10,6 @@ category: kubernetes
 image: "/images/blog/linode-kubernetes-engine.webp"
 ---
 
-![](/images/blog/linode-kubernetes-engine.png)
-
-<br>
-<br>
 
 Linode is one of simplest, affordable, and accessible cloud computing platform, It has recentely launched managed Kubernetes called Linod Kubernetes Engine(LKE). 
 

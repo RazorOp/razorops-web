@@ -11,8 +11,6 @@ image: "/images/newsletter/best-practices-for-implementing-devops-in-organizatio
 heading: Best practices for implementing DevOps in organizations
 ---
 
-![](/images/newsletter/best-practices-for-implementing-devops-in-organizations.jpeg)
-<br>
 
 Implementing DevOps in organizations requires a cultural shift and a significant change in the way software is developed, delivered, and maintained. Here are some best practices that can help organizations successfully adopt DevOps
 

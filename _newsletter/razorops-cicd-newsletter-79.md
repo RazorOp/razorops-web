@@ -10,10 +10,6 @@ image: "/images/newsletter/ultimate-roadmap-free-resources-becoming-devops-engin
 heading: The Ultimate Roadmap Free Resources for Becoming A DevOps Engineer in 2023
 ---
 
-![](/images/newsletter/ultimate-roadmap-free-resources-becoming-devops-engineer-2023.gif)
-<br>
-<br>
-
 
 The role of a DevOps engineer has become increasingly crucial. Bridging the gap between development and operations, DevOps professionals play a pivotal role in ensuring seamless collaboration, efficient workflows, and continuous improvement in software delivery. If you're aspiring to embark on a journey towards becoming a DevOps engineer in 2023, you're in the right place. This blog post serves as your comprehensive roadmap, providing a curated list of free resources to help you navigate and master the world of DevOps.
 <br>

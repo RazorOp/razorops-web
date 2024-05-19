@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/security-devops-best-practices-tokeep-your-pipeline-secure.gif"
 ---
 
-![](/images/blog/security-devops-best-practices-tokeep-your-pipeline-secure.gif)
-<br>
-<br>
-
-
 Software development, DevOps practices have become a cornerstone for organizations looking to streamline their processes and deliver high-quality software. While the agility and efficiency DevOps brings to the table are undeniable, it's essential to remember that security should never be compromised in the pursuit of speed. In fact, it should be an integral part of the entire DevOps lifecycle. In this blog, we'll delve into the best practices for maintaining security in your DevOps pipeline.
 <br>
 <br>

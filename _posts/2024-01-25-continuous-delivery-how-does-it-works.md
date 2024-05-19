@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/continuous-delivery-how-it-works.jpg"
 ---
 
-![](/images/blog/continuous-delivery-how-it-works.jpg)
-<br>
-<br>
-
-
 ### **What Is Continuous Delivery?**
 <br>
 Continuous delivery (CD) is an application development practice that involves automatically preparing code changes for release to a production environment. Combined with continuous integration (CI), continuous delivery is a key aspect of modern software development. Together, these two practices are known as CI/CD.

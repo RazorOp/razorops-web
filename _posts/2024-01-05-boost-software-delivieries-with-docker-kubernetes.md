@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/boost-your-software-deliveries-with-docker-kubernetes.gif"
 ---
 
-![](/images/blog/boost-your-software-deliveries-with-docker-kubernetes.gif)
-<br>
-<br>
-
-
 Software delivery are paramount. The ability to swiftly deploy, manage, and scale applications can make a significant difference in staying ahead in the competitive tech industry. Enter Docker and Kubernetes, two revolutionary technologies that have transformed the way we develop, deploy, and manage software.
 <br>
 <br>

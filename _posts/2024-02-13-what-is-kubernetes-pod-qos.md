@@ -9,10 +9,6 @@ category: kubernetes
 image: "/images/blog/what-is-kubernetes-podqos.png"
 ---
 
-<img src="/images/blog/what-is-kubernetes-pod-Qos.png" alt="what-is-kubernetes-pod-Qos" title="what-is-kubernetes-pod-Qos">
-<br>
-
-
 Container orchestration, Kubernetes has emerged as a leading platform for managing and deploying containerized applications. One fundamental concept that plays a crucial role in ensuring optimal performance is the Quality of Service (QoS). In the realm of Kubernetes, this concept is applied at the level of Pods, forming the backbone of resource management within the cluster.
 <br>
 <br>

@@ -10,8 +10,6 @@ image: "/images/newsletter/automate-devops-tasks.jpg"
 heading: Automate DevOps - Tasks DevOps Should Automate
 ---
 
-![](/images/newsletter/automate-devops-tasks.jpg)
-<br>
 
 Automation is an important part of DevOps since it enhances efficiency and decreases errors.
 

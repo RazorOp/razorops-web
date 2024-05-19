@@ -11,8 +11,6 @@ image: "/images/newsletter/to-implement-cicd-for-devops.jpeg"
 heading: To implement CI/CD for DevOps
 ---
 
-![](/images/newsletter/to-implement-cicd-for-devops.jpeg)
-<br>
 
 CI/CD (Continuous Integration/Continuous Deployment) is a set of practices that are essential for DevOps, which emphasizes the automation of software development and delivery processes. Continuous Integration (CI) is the practice of frequently integrating code changes into a central repository and performing automated builds and tests to ensure that the code is functioning correctly. This helps to identify issues early in the development process and ensures that changes are integrated smoothly with the rest of the codebase.Continuous Deployment (CD) is the practice of automating the deployment of code changes to production environments, making it possible to quickly and reliably release new features and fixes. This includes automated testing and the use of deployment pipelines that can automatically deploy changes to multiple environments.
 

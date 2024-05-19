@@ -11,8 +11,6 @@ image: "/images/newsletter/simplifying-and-automating-container-management.gif"
 heading: 'Simplifying and Automating Container Management: Kubernetes For Enterprises'
 ---
 
-![](/images/newsletter/simplifying-and-automating-container-management.gif)
-<br>
 
 Kubernetes is becoming increasingly important to enterprises because it simplifies and automates the deployment, scaling, and management of containerized applications.
 

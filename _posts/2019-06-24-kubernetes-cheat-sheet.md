@@ -25,7 +25,6 @@ table {
     border: 1px solid #e1e1e1;
 }
 </style>
-![](/images/blog/kubernetes-cheat-sheet.png)
 
 
 Kubernetes is an open-source container-orchestration system for automating application deployment, scaling, and management. It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation.

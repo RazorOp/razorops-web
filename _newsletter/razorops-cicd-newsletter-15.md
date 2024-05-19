@@ -13,10 +13,6 @@ heading: The Cilium project is excited to announce the general availability of C
   1.12
 ---
 
-![](/images/newsletter/cilium-project.png)
-
-<br>
-
 **[Cilium 1.12 GA: Cilium Service Mesh and other major new features for enterprise Kubernetes](https://www.cncf.io/blog/2022/07/20/cilium-1-12-ga-cilium-service-mesh-and-other-major-new-features-for-enterprise-kubernetes/)**
 
 <div class="row">

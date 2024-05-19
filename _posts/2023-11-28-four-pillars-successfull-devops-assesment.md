@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/four-pillars-successfull-devops-assesment.png"
 ---
 
-![](/images/blog/four-pillars-successfull-devops-assesment.png)
-<br>
-<br>
-
-
 DevOps isn't just a methodology; it's a culture that fosters collaboration, automation, and continuous improvement within an organization. Conducting a successful DevOps assessment is crucial for understanding where your team stands in its DevOps journey and identifying areas for enhancement. To ensure a comprehensive evaluation, focus on these four pillars:
 <br>
 <br>

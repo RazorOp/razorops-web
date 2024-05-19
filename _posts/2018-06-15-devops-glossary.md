@@ -13,8 +13,6 @@ category: DevOps
 image: "/images/blog/razorops-devops.png"
 ---
 
-![](/images/blog/razorops-devops.png)
-<br>
 
 DevOps covers a wide range of functions. From configuration management to infrastructure to documentation to quality assurance, DevOps spans the entire software development lifecycle.
 

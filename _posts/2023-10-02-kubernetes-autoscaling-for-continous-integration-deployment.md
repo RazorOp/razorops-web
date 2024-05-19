@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/kubernetes-autoscaling-for-continous-interation.gif"
 ---
 
-![](/images/blog/kubernetes-autoscaling-for-continous-interation.gif)
-<br>
-<br>
-
-
 Continuous Integration/Continuous Deployment (CI/CD), the ability to adapt swiftly to fluctuating workloads is paramount. Kubernetes, with its dynamic orchestration capabilities, offers an invaluable toolset for achieving seamless scalability. This article explores the concept of Kubernetes autoscaling and its pivotal role in optimising CI/CD pipelines. We'll delve into strategies, best practices, and real-world examples to empower teams in their quest for reliable and efficient application releases.
 <br>
 <br>

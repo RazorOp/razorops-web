@@ -10,7 +10,6 @@ author: Shyam Mohan
 category: kubernetes
 date: 2024-05-11T16:17:00.000Z
 ---
-![Top 10 Kubernetes alternatives](/images/blog/top-10-kubernetes-alternatives.webp)
 
 **what are kubernetes alternatives features and drawbacks**
 

@@ -13,7 +13,6 @@ heading: RazorOps joins the CCoE program by the Data Security Council of India (
   NASSCOM® initiative).
 ---
 
-![](/images/newsletter/dsci-razorops.png)
 
 On July 26, 2022, in an  **[#Nasscomecandcxomeet](https://www.linkedin.com/feed/hashtag/nasscomecandcxomeet?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BPIIA2YHoTjKPr0QUzLLqbA%3D%3D)** attended by Mr. Jayesh Ranjan-Secretary, Information Technology (IT), Government of Telangana. RazorOps, Inc. was represented by CEO Shyam Mohan, who introduced the RazorOps container native platform and solutions that RazorOps has to offer for cyber security concerns. It gained lots of appreciation and was officiated during the event.
 

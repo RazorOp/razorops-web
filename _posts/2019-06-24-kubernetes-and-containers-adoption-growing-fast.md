@@ -10,8 +10,6 @@ category: kubernetes
 image: "/images/blog/kubernetes-and-containers-adoption-report.png"
 ---
 
-![](/images/blog/kubernetes-and-containers-adoption-report.png)
-
 Cloud-native development and microservices enable development teams to work more efficiently and innovate faster. Operators appreciate the container environment because it increases infrastructure utilization, enabling them to accomplish more with less while managing critical applications at unprecedented scale.
 
 Kubernetes and containers adoption growing fast in the last few years. One survey report published by [Diamanti](https://diamanti.com/wp-content/uploads/2019/06/Diamanti_2019_Container_Survey.pdf), suggests container technology has matured dramatically in one year and moved from developer experimentation to production.

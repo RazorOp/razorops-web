@@ -11,9 +11,6 @@ category: cicd
 image: "/images/blog/cicd-Interview-Questions.gif"
 ---
 
-![](/images/blog/cicd-Interview-Questions.gif)
-<br>
-
 The key to acing a CI/CD interview is preparation. The first step in preparation is to learn as much as you can about the possible company, including its background, offerings, and hiring practices.
 
 In order to help you master your next interview and land your dream job, this blog post includes CICD interview questions, all neatly organized into themes.. Refreshing your technical knowledge is the next item on the list because it will help you stand apart.

@@ -9,11 +9,6 @@ category: DevOps
 image: "/images/blog/effective-monitoring-and-alerting-strategies-in-DevOps.gif"
 ---
 
-<img src="/images/blog/effective-monitoring-and-alerting-strategies-in-DevOps.gif" alt="effective-monitoring-and-alerting-strategies-in-DevOps" title="effective-monitoring-and-alerting-strategies-in-DevOps">
-<br>
-<br>
-
-
 
 DevOps teams play a crucial role in ensuring the continuous delivery of software applications. One of the key pillars of DevOps success is implementing effective monitoring and alerting strategies. In this blog post, we will explore the importance of monitoring and alerting in DevOps, discuss best practices, and provide insights into building a robust monitoring ecosystem.
 <br>

@@ -11,8 +11,6 @@ image: "/images/newsletter/best-practices-and-potential-loopholes-for-successful
 heading: Best Practices and Potential Loopholes for Successful Microservices Architecture
 ---
 
-![](/images/newsletter/best-practices-and-potential-loopholes-for-successful-microservices-architecture.gif)
-<br>
 
 You shouldn't rush into a project without a plan. Once you know your goals and requirements, designing the software architecture is a good next step.
 

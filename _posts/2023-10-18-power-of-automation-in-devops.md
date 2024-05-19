@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/power-of-automation-devops.png"
 ---
 
-![](/images/blog/power-of-automation-devops.png)
-<br>
-<br>
-
-
 In the ever-evolving world of software development and operations, DevOps has emerged as a game-changer. DevOps, short for Development and Operations, is a set of practices and principles that bridge the gap between these two traditionally siloed domains, fostering collaboration and accelerating the delivery of high-quality software. At the heart of DevOps lies automation, a powerful force that revolutionizes the way software is developed, tested, and deployed. In this blog, we'll explore the transformative impact of automation in DevOps and why it has become an indispensable part of modern software development.
 <br>
 <br>

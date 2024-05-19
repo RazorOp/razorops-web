@@ -12,9 +12,6 @@ image: "/images/newsletter/6-ways-to-empower-developers.png"
 heading: 6 Ways To Empower Developers
 ---
 
-![](/images/newsletter/6-ways-to-empower-developers.png)
-<br>
-
 <a href="https://devops.com/6-ways-to-empower-developers-and-increase-productivity/" target="_blank"><b>6 Ways To Empower Developers and Increase ProductivityThe goal of DevOps is to increase productivity</b></a>
 
 54% of engineers say they have too many manual steps within their deployment process, according to an Armory survey. A big goal of DevOps is to increase productivity, yet a lot of organizations still struggle with the efficiency of their software release processes. With the pervasiveness of multi-cloud, developers now face an escalating number of deployment environments.

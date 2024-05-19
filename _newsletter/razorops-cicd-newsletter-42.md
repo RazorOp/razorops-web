@@ -11,8 +11,6 @@ image: "/images/newsletter/kubernetes-alerts-gone-wrong.gif"
 heading: 'Kubernetes Alerts Gone Wrong: How To Fix Inadequate Monitoring And Alerting?'
 ---
 
-![](/images/newsletter/kubernetes-alerts-gone-wrong.gif)
-<br>
 
 Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications. It is widely used by organizations for managing their containerized applications and microservices. However, managing and monitoring a Kubernetes cluster can be a complex and challenging task. Improper monitoring, alerting, and auditing can lead to a number of issues that can negatively impact the performance and reliability of a Kubernetes cluster.
 
