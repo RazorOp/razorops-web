@@ -11,8 +11,7 @@ image: "/images/newsletter/the-global-devsecops.png"
 heading: The Global DevSecOps Market Trends
 ---
 
-![](/images/newsletter/the-global-devsecops.png)
-<br>
+
 
 The market for DevSecOps is anticipated to increase at a CAGR of 24.1% from 2021 to 2028. Factors like the rising number of cybercrimes and internet penetration are also expected to boost the market. The increase in cyberattacks across a variety of industries, including BFSI, retail, and consumer goods, is predicted to fuel market growth. The transition to work-from-home policies in the wake of the pandemic will fuel market expansion.
 

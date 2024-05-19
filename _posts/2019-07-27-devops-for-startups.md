@@ -15,7 +15,6 @@ category: DevOps
 date: 2022-05-02 14:15:00
 ---
 
-![devops for startups](/images/blog/devops-for-startups.png)
 
 **It’s hard to find time for DevOps in a startup when there’s so much else to do.**
 

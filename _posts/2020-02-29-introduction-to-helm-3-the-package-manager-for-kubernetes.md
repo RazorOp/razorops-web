@@ -11,8 +11,6 @@ category: Continuous Integration
 image: "/images/blog/helm-3.png"
 ---
 
-![](/images/blog/helm-3.png)
-
 
 **Helm** 
 is the package manager for Kubernetes (like yum, apt and home brew ) that allows easily package, configure, and deploy applications onto Kubernetes clusters. 

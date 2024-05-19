@@ -9,8 +9,6 @@ category: CICD
 image: "/images/blog/jenkins-vs-razorops.png"
 ---
 
-<img src="/images/blog/jenkins-vs-razorops.png">
-
 Organizations are becoming more aware of the advantages of upgrading their continuous integration and continuous delivery (CI/CD) pipelines and moving them to the cloud, from lowering infrastructure costs to eliminating security threats. But carrying out a transfer is challenging, especially when a variety of platforms and technologies are involved.
 
 <br>

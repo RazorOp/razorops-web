@@ -11,8 +11,6 @@ image: "/images/newsletter/malicious-content.png"
 heading: Malicious Content Found Hidden In Over A Thousand Docker Container Images
 ---
 
-![](/images/newsletter/malicious-content.png)
-<br>
 
 # The Headlines
 

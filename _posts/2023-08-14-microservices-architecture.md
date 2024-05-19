@@ -10,9 +10,6 @@ category: cicd
 image: "/images/blog/best-practices-for-microservices-architecture.png"
 ---
 
-![](/images/blog/best-practices-for-microservices-architecture.png)
-<br>
-
 ### <b>What is Microservices Architecture?</b>
 
 Microservices architecture is a software development approach where an application is built as a collection of small, loosely coupled, independently deployable services. Each service focuses on a specific business capability and operates as an autonomous unit, communicating with other services through well-defined APIs. This architectural style is often used in the context of DevOps to create more efficient, scalable, and manageable systems

@@ -10,8 +10,6 @@ image: "/images/newsletter/how-manage-integration-testing-for-CICD-devops.jpg"
 heading: How to Manage Integration Testing for CI/CD and DevOps
 ---
 
-![](/images/newsletter/how-manage-integration-testing-for-CICD-devops.jpg)
-<br>
 
 ## <b> CI/CD</b>
 

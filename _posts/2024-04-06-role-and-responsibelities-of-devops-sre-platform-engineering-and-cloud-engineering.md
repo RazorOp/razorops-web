@@ -12,9 +12,6 @@ date: 2024-04-05T09:31:00.000Z
 image: /images/devops-sre-platform-engineering-cloud-engineering.jpg
 ---
 
-![](/images/devops-sre-platform-engineering-cloud-engineering.jpg)
-<br>
-<br>
 
 **DevOps:**
 

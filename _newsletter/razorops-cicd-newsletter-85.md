@@ -10,9 +10,6 @@ image: "/images/newsletter/modernizing-applications-for-kuberenetes.gif"
 heading: Modernizing Applications for Kubernetes
 ---
 
-<img src="/images/newsletter/modernizing-applications-for-kuberenetes.gif" alt="modernizing-applications-for-kuberenetes" title="modernizing-applications-for-kuberenetes">
-<br>
-
 Modernizing applications for Kubernetes is a crucial step for organizations looking to embrace cloud-native technologies and harness the benefits of containerization, scalability, and agility. Kubernetes has emerged as the de facto standard for container orchestration, providing a robust platform for deploying, managing, and scaling containerized applications. In this blog post, we'll explore the importance of modernizing applications for Kubernetes and outline key steps for successful migration.
 <br>
 <br>

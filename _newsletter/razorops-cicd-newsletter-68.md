@@ -10,9 +10,6 @@ image: "/images/newsletter/Role-of-test-reporting.jpg"
 heading: The Role of Test Reporting in Continuous Testing A Comprehensive Overview
 ---
 
-![Unleashing ](/images/newsletter/Role-of-test-reporting.jpg)
-<br>
-
 
 Test reporting plays a pivotal role in the realm of continuous testing, serving as a vital bridge between development, testing, and deployment phases. It provides a comprehensive overview of the software's quality, reliability, and readiness throughout the entire software development lifecycle.
 

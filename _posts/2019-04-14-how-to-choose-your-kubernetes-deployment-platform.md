@@ -12,8 +12,6 @@ category: kubernetes
 image: "/images/blog/how-to-choose-your-kubernetes-deployment-platform.png"
 ---
 
-![](/images/blog/how-to-choose-your-kubernetes-deployment-platform.png)
-
 There are some of the most important points while choosing kubernetes deployment platform.
 
 1. Production-Readiness

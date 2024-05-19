@@ -11,8 +11,6 @@ image: "/images/newsletter/an-open-source-standard-for-kubernetes-cost-monitorin
 heading: An Open Source Standard For Kubernetes Cost Monitoring
 ---
 
-![](/images/newsletter/an-open-source-standard-for-kubernetes-cost-monitoring.png)
-<br>
 
 # The Headlines
 

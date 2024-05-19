@@ -9,9 +9,7 @@ author: Aditi Mishra
 category: CICD
 heading: The Advantages of CI/CD Pipeline for Startups
 ---
-<br>
-![](/images/newsletter/razorops-startup.png)
-<br>
+
 
 The **[#business](https://www.linkedin.com/feed/hashtag/business?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BGnc%2BSIkfQ%2FGLMRrL%2FsgbNw%3D%3D)** advantages of CI/CD pipeline for your **[#startup](https://www.linkedin.com/feed/hashtag/startup?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BGnc%2BSIkfQ%2FGLMRrL%2FsgbNw%3D%3D)** include a variety of advantages for your company. Continuous quality means continuous integration and delivery for your startup. Instead of waiting for the entire software or application to be finished, a CI/CD pipeline lets the owner of a tech firm start making money from the released feature.
 

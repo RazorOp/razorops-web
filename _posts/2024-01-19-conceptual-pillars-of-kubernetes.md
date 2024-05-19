@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/conceptual-pillars.png"
 ---
 
-![](/images/blog/conceptual-pillars-of-kubernetes.gif)
-<br>
-<br>
-
-
 Kubernetes, often abbreviated as K8s, is a powerful container orchestration platform that has revolutionized the way modern applications are developed, deployed, and managed. At its core, Kubernetes relies on several conceptual pillars that form the foundation of its design and functionality. Let's delve into these fundamental principles that underpin Kubernetes:
 <br>
 <br>

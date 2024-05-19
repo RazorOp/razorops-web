@@ -11,8 +11,6 @@ category: DevOps
 image: "/images/blog/devops-benefits.jpeg"
 ---
 
-![](/images/blog/devops-benefits.jpeg)
-
 **What is DevOps?**
 
 DevOps is a culture where full development team works together to complete software development and delivery to production.  It is a practice that enables organizations to optimize speed and efficiency across IT functions.

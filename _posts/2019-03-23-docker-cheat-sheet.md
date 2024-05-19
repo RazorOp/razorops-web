@@ -11,8 +11,6 @@ category: Docker
 image: "/images/blog/docker.jpg"
 ---
 
-![](/images/blog/docker.jpg)
-
 
 ## Why Docker
 

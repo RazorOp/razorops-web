@@ -10,8 +10,6 @@ category: CI/CD
 image: "/images/blog/Salesforce-lightning-web-component-pipeline-with-razorops.png"
 ---
 
-![](/images/blog/salesforce-and-razorops.png)
-<br>
 
 **What is lightning component pipeline:**
 

@@ -10,9 +10,6 @@ image: "/images/newsletter/razorops-cicd-microservices.png"
 heading: RazorOps CI/CD for Microservices Architecture
 ---
 
-![](/images/newsletter/razorops-cicd-microservices.png)
-
-
 The goal of any software company is to deliver value and trust to users by providing effective measures to solve a problem in a trusted way, so they prefer you over others. Using a microservices architecture facilitates making this goal reachable by delivering changes more quickly and effectively. Using these short cycles effectively can help teams provide valuable products to the end-user as per demands.
 
 

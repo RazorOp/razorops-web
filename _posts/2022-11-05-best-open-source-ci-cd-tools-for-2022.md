@@ -10,9 +10,6 @@ category: cicd
 image: "/images/blog/best-open-source-cicd-tools-2022.png"
 ---
 
-![](/images/blog/best-open-source-cicd-tools-2022.png)
-<br>
-
 Software development and the DevOps lifecycle now requires continuous integration and delivery, also referred to as CI/CD. To help users automate the steps between a developer checking in code and releasing that code into production, open source CI/CD solutions are created.
 
 Developers can construct CI/CD workflows by writing straightforward code or by using interactive user interfaces, thanks to the broad variety of CI/CD technologies available on the market with appealing features and functionalities. Learn about CI/CD workflow, its advantages, and the top open source CI/CD technologies for 2022 in this post.

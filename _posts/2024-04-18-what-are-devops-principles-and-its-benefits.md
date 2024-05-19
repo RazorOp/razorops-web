@@ -10,7 +10,6 @@ author: Shyam Mohan
 category: DevOps
 date: 2024-04-18T02:05:00.000Z
 ---
-![What are DevOps principles and its benefits](/images/what-are-devops-principles-and-its-benefits.webp)
 
 DevOps principles encompass a set of guiding philosophies and practices aimed at fostering collaboration and integration between software development and IT operations teams. These principles emphasize automation, continuous integration, continuous delivery, and a culture of shared responsibility.
 

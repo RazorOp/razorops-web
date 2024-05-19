@@ -11,8 +11,6 @@ heading: Are You Following These 5 Kubernetes Best Practices?
 permalink: "/newsletter/razorops-cicd-newsletter-30"
 ---
 
-![](/images/newsletter/5-best-practices-kubernetes.png)
-<br>
 
 # The Headlines
 

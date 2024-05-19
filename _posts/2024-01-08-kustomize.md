@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/kustomize.jpg"
 ---
 
-![](/images/blog/kustomize.jpg)
-<br>
-<br>
-
-
 In the dynamic realm of container orchestration, Kubernetes stands tall as the go-to platform for managing and deploying containerized applications. However, as the complexity of applications and infrastructure grows, so does the challenge of efficiently managing configuration files. Enter Kustomize, a powerful tool designed to simplify and streamline Kubernetes configuration management. In this blog post, we'll delve into the world of Kustomize, unraveling its core concepts, benefits, and practical applications.
 <br>
 <br>

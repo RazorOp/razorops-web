@@ -10,9 +10,6 @@ image: "/images/newsletter/docker-launches-the-first-preview-webassembly-tooling
 heading: Docker Launches The First Preview Of Its WebAssembly Tooling
 ---
 
-![](/images/newsletter/docker-launches-the-first-preview-webassembly-tooling.gif)
-<br>
-
 # The Headlines
 
 <br>

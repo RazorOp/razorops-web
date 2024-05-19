@@ -11,8 +11,6 @@ image: "/images/newsletter/top-stories-of-2022-from-the-world-of-devops.png"
 heading: Top Stories Of 2022 From The World Of DevOps
 ---
 
-![](/images/newsletter/top-stories-of-2022-from-the-world-of-devops.png)
-<br>
 
 The year 2022 has been a wild ride for everyone. Amidst all the challenges that we have faced globally due to COVID, war, and inflation, it has certainly paved the way for more innovation. It has served as both a challenge and inspiration to create, build, and advance in our lives.
 

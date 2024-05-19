@@ -11,8 +11,6 @@ image: "/images/newsletter/secured-kubernetes-razorops.png"
 heading: Kubernetes Security Concerns And Prevention
 ---
 
-![](/images/newsletter/secured-kubernetes-razorops.png)
-<br>
 
 At Black Hat, Palo Alto Networks researchers spoke on stage to describe how Kubernetes cluster configurations and system rights can enable container escape and take over. Security experts Yuval Avrahami and Shaul Ben Hai discussed some of the typical strategies and flaws that let attackers get past the boundaries of containers and access other instances on the host server on Thursday at Black Hat USA 2022 in Las Vegas.
 

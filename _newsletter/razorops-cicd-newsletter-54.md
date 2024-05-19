@@ -12,8 +12,6 @@ image: "/images/newsletter/insights-into-how-devops-can-improve-the-speed-and-qu
 heading: Insights into how DevOps can improve the speed and quality of software delivery
 ---
 
-![](/images/newsletter/insights-into-how-devops-can-improve-the-speed-and-quality-of-software-delivery.jpeg)
-<br>
 
 Razorops is a DevOps platform that can help organizations automate their software delivery pipeline and improve the speed and quality of software delivery. Here are some insights into how DevOps with Razorops can improve the speed and quality of software delivery:
 

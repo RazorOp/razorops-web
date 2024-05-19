@@ -9,10 +9,6 @@ category: Docker
 image: "/images/blog/what-is-Docker.jpg"
 ---
 
-<img src="/images/blog/what-is-Docker.jpg" alt="what-is-Docker" title="what-is-Docker">
-<br>
-<br>
-
 ### **Table of contents:**
 <br>
 

@@ -9,12 +9,6 @@ category: cicd
 image: "/images/blog/Simplifying-kubernetes-native-testing-with-testkube.png"
 ---
 
-![](/images/blog/Simplifying-kubernetes-native-testing-with-testkube.png)
-<br>
-<br>
-
-
-
 As Kubernetes continues to dominate the container orchestration landscape, ensuring the reliability and stability of applications running on this platform is paramount. Testing in a Kubernetes-native environment demands specialized tools that understand the intricacies of containerized deployments. Enter TestKube, a powerful testing framework designed specifically for Kubernetes. In this blog post, we'll explore the significance of TestKube and how it simplifies testing workflows in the Kubernetes ecosystem.
 <br>
 <br>

@@ -9,11 +9,6 @@ category: cicd
 image: "/images/blog/five-docker-extensions-make-development-easier.png"
 ---
 
-![](/images/blog/five-docker-extensions-make-development-easier.png)
-<br>
-<br>
-
-
 Docker has revolutionized the way developers build, ship, and run applications. Its simplicity and efficiency in creating lightweight, portable containers have made it a go-to tool in modern software development. However, enhancing Docker's capabilities with extensions can significantly boost productivity and simplify complex tasks. Here are five Docker extensions that can make your development life easier:
 <br>
 <br>

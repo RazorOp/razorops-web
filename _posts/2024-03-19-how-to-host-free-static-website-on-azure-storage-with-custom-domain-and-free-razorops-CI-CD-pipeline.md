@@ -12,9 +12,6 @@ description: How to Set up azure storage account and setting up CI/CD with
 category: DevOps
 ---
 
-<br>
-<br>
-
 ### **Table of contents:**
 
 <br>

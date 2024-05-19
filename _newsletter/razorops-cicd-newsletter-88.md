@@ -1,8 +1,6 @@
 ---
 title: Container Native DevOps & CICD Newsletter 88
-description: Kubernetes as a service (KaaS) is a model in which hyperscalers
-  like AWS, GCP, and Azure allow you to quickly and easily start a Kubernetes
-  cluster and begin deploying workloads on it instantly.
+description: Kubernetes as a service (kaas)
 image: /images/blog/kubernetes-as-a-service-.webp
 layout: newsletter
 permalink: /newsletter/razorops-cicd-newsletter-88
@@ -10,7 +8,6 @@ author: Pooja Reddy
 category: kubernetes
 date: 2024-05-03T00:43:00.000Z
 ---
-**Kubernetes as a service (kaas)**
 
 Kubernetes as a service (KaaS) is a model in which hyperscalers like AWS, GCP, and Azure allow you to quickly and easily start a Kubernetes cluster and begin deploying workloads on it instantly. In this article, we’ll explore different providers and discuss the pros and cons of leveraging KaaS.
 

@@ -9,9 +9,6 @@ category: cicd
 image: "/images/blog/k8s-exercise-label-and-annotations.png"
 ---
 
-![](/images/blog/k8s-exercise-label-and-annotations.png)
-<br>
-
 Kubernetes, often abbreviated as K8s, has revolutionised the way we manage containerized applications. It provides a robust platform for orchestrating and managing containers at scale. One of the key features that sets Kubernetes apart is its powerful metadata system, which includes labels and annotations. In this blog post, we'll take a comprehensive look at how labels and annotations work in Kubernetes and how you can leverage them to enhance the management of your applications.
 <br>
 <br>

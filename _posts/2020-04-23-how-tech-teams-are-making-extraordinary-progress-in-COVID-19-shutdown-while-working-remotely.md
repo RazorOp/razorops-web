@@ -9,8 +9,6 @@ category: Continuous Integration
 image: "/images/blog/progress-in-COVID-19-shutdown-while-working-remotely.png"
 ---
 
-![](/images/blog/progress-in-COVID-19-shutdown-while-working-remotely.png)
-
 COVID-19 has led businesses into extreme work challenges. To overcome these challenges, companies have shifted their working patterns and have embraced Remote Work to avoid any negative impact on employee's health as well as the business. 
 COVID-19 has made IT-sector office culture’s shift to remote work prominently.
 

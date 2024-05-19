@@ -12,8 +12,6 @@ image: "/images/newsletter/razorops-newsletter6.png"
 heading: The Linux Foundation has launched the ‘World of Open Source’ research initiative
 ---
 
-![](/images/newsletter/linux-foundation-launched-newsletter.png)
-
 
 The Linux Foundation has launched the ‘World of Open Source’ research initiative, a series of timely and data-driven reports that provide insight into open source adoption and usage trends. 
 <br>

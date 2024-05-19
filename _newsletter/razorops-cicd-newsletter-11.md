@@ -10,9 +10,6 @@ image: "/images/newsletter/when-not-to-choose-microservices.png"
 heading: 'Microservices: Challenges and When to Avoid Them'
 ---
 
-![](/images/newsletter/when-not-to-choose-microservices.png)
-<br>
-
 Adopting a microservices architecture allows for faster delivery and improved software quality, but companies should consider this carefully before choosing this approach. Despite the advantages of switching from a monolithic model to a microservices approach, there are still challenges to overcome.
 
 <br>

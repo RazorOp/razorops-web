@@ -10,9 +10,6 @@ author: Shyam Mohan
 image: "/images/blog/5-types-of-git-workflows-and-explanation.png"
 ---
 
-![](/images/blog/5-types-of-git-workflows-and-explanation.png)
-<br>
-
 As you might be aware, each team has its own unique workflow based on the project type, size of the company, team preferences, and a number of other factors. The larger the team, the more difficult it is to keep things under control: disputes become more regular, delivery deadlines may postpone, priorities always change - the list may go on and on.
 
 Adapting Git is the first step in resolving these challenges, as it can be used in almost any workflow. Here are the five most common Git workflows that you can use in your company.

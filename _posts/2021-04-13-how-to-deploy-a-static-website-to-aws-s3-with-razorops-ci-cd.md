@@ -11,8 +11,6 @@ category: AWS S3
 image: "/images/blog/how-to-deploy-a-static-website-to-aws-s3-with-razorops-ci-cd.webp"
 ---
 
-<img src="{{page.image}}" >
-
 Follow this post to deploy your static website using aws s3 free of cost just in 15 min. <br>You need following account and tool<br><br>
 1) Website source code (<a href="https://github.com/razorops-public/deploy-a-static-website-to-aws-s3" target="_blank">Sample Code</a>)<br>
 2) Github or Gitlab or Bitbucket account to host your website code<br>

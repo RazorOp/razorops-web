@@ -11,8 +11,6 @@ category: Docker
 image: "/images/blog/docker-image-vs-container.png"
 ---
 
-![](/images/blog/docker-image-vs-container.png)
-<br>
 
 # What is a Docker image?
 

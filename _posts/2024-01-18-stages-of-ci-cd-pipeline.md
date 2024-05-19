@@ -9,12 +9,6 @@ category: cicd
 image: "/images/blog/stages-of-ci-cd-pipeline.jpg"
 ---
 
-![](/images/blog/stages-of-ci-cd-pipeline.jpg)
-<br>
-<br>
-
-
-
 Absolutely, diving into the stages of a Continuous Integration/Continuous Deployment (CI/CD) pipeline can shed light on the software development process's efficiency. Let's break it down into stages
 <br>
 <br>
