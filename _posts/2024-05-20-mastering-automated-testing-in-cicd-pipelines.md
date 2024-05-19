@@ -1,5 +1,5 @@
 ---
-title: 2024-05-20-Mastering Automated Testing in CICD Pipelines
+title: Mastering Automated Testing in CICD Pipelines
 description: Explore the best strategies for implementing automated testing in
   CI/CD pipelines to streamline your development process and ensure high-quality
   software delivery.
