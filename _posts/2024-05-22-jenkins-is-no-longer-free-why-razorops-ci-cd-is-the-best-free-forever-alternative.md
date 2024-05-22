@@ -1,6 +1,6 @@
 ---
-title: "2024-05-22-Jenkins is No Longer Free: Why Razorops CI/CD is the Best
-  Free Forever Alternative"
+title: "Jenkins is No Longer Free: Why Razorops CI/CD is the Best Free Forever
+  Alternative"
 description: " Razorops emerges as a strong contender to jenkines, offering a
   free forever CI/CD solution that combines ease of use, scalability, and robust
   features. "
