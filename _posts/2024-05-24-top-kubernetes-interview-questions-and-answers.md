@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title
 author: Shyam Mohan
 category: Kubernetes
-date: 2024-05-24T02:43:00.000Z
+date: 2024-05-23T08:13:00.000Z
 ---
 Preparing for a Kubernetes interview involves understanding the fundamental concepts, commands, and best practices associated with Kubernetes. Here are some top Kubernetes interview questions along with sample answers to help you prepare:
 
