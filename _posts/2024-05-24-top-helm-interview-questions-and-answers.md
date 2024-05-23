@@ -1,5 +1,5 @@
 ---
-title: 2024-05-24-Top Helm interview questions and answers
+title: Top Helm interview questions and answers
 description: What are Helm charts?  Helm charts are packages of pre-configured
   Kubernetes resources
 image: /images/blog/top-helm-interview-questions-and-answers.webp
