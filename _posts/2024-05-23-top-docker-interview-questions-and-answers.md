@@ -1,5 +1,5 @@
 ---
-title: 2024-05-23-Top Docker  Interview Questions and Answers
+title: Top Docker  Interview Questions and Answers
 description: Here are some top Docker interview questions along with their answers
 image: /images/blog/top-docker-interview-questions-and-answers.webp
 layout: post
