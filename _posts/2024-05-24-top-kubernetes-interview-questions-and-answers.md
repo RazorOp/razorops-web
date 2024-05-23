@@ -1,5 +1,5 @@
 ---
-title: 2024-05-24-Top Kubernetes Interview Questions and Answers
+title: Top Kubernetes Interview Questions and Answers
 description: Here are some real-time Kubernetes interview questions along with
   answers to help you prepare for a Kubernetes-focused interview
 image: /images/blog/top-kubernetes-interview-questions-and-answers.webp
