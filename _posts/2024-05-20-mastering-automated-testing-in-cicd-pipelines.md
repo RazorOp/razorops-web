@@ -5,7 +5,7 @@ description: Explore the best strategies for implementing automated testing in
   software delivery.
 image: /images/blog/mastering-automated-testing-in-cicd-pipelines.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: CICD Pipelines
 date: 2024-05-20T04:44:00.000Z

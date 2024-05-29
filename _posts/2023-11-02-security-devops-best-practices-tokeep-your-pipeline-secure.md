@@ -1,7 +1,7 @@
 ---
 title: Security in DevOps Best Practices to Keep Your Pipeline Secure 
 description: What are the key best practices for ensuring security in a DevOps pipeline, and how can organizations effectively implement these practices to safeguard their development and deployment processes?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-11-02 05:00:00'
 author: Shyam Mohan

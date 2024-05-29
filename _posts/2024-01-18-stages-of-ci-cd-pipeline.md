@@ -1,7 +1,7 @@
 ---
 title: Stages of a CI/CD Pipeline
 description: What are the key stages involved in a CI/CD (Continuous Integration/Continuous Deployment) pipeline for software development?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-01-18 05:00:00'
 author: Shyam Mohan

@@ -6,7 +6,7 @@ title: Best Docker Image Hosting Platforms
 description: Container registry is a repository for storing docker images or
   container images.
 image: /images/blog/container-registry.png
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: Continuous Integration
 date: 2020-02-10 14:15:43

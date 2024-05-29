@@ -9,7 +9,7 @@ title: DevOps for Startups
 description: DevOps practices come with a range of benefits, some of which –
   including greater efficiency, security, and organizational collaboration.
 image: /images/blog/devops-for-startups.png
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: DevOps
 date: 2022-05-02 14:15:00

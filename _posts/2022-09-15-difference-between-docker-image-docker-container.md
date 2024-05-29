@@ -3,7 +3,7 @@ title: Difference between Docker Image & Docker Container
 description: In this article you will understand the difference between docker image
   & docker container. Also you will get a solid understanding of what a docker image,
   a container.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-09-15 15:54:48'
 author: Shiva G

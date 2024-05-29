@@ -1,7 +1,7 @@
 ---
 title: Conceptual Pillars Of Kubernetes
 description: What are the fundamental conceptual pillars that constitute the foundation of Kubernetes, a container orchestration platform?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-01-19 05:00:00'
 author: Shyam Mohan

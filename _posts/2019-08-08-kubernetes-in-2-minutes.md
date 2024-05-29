@@ -2,7 +2,7 @@
 title: Kubernetes in 2 minutes
 description: Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation.
 keywords: kubectl, kubernetes, cheat sheet, Commands, deployment, namespace, healthcheck
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2019-07-25 14:15:43'
 author: Shyam Mohan

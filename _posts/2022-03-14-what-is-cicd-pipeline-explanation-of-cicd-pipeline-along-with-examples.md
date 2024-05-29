@@ -5,7 +5,7 @@ description: Take a look at what is Continuous integration (CI) and continuous d
   with how CICD pipeline works in devops.
 keywords: CICD, CI/CD, workflow, pipeline, devops, continuous integration, continuous
   delivery, deployments, deploy, tests, testing
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-03-14 18:06:28'
 author: Shyam Mohan

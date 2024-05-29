@@ -1,7 +1,7 @@
 ---
 title: DevOps Automation and DevOps Best Practices
 description: How can organizations effectively implement DevOps automation and incorporate DevOps best practices to enhance their software development and deployment processes? 
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-11-15 05:00:00'
 author: Shyam Mohan

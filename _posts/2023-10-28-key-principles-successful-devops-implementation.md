@@ -1,7 +1,7 @@
 ---
 title: Key Principles of Successful DevOps Implementation 
 description: What are the core principles underlying a successful DevOps implementation, and how can organisations use these concepts to create long-term gains in both software development and IT operations?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-10-28 05:00:00'
 author: Shyam Mohan

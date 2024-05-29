@@ -1,7 +1,7 @@
 ---
 title: Revolutionize Your Development Pipeline Embrace DevOps for Seamless Integration and Continuous Delivery
 description: How can the integration of DevOps revolutionize your development pipeline, leading to seamless integration and continuous delivery? 
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-01 05:00:00'
 author: Shyam Mohan

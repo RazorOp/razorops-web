@@ -1,7 +1,7 @@
 ---
 title: Simplifying Kubernetes Native Testing with TestKube
 description: What are the critical components in streamlining Kubernetes native testing with TestKube? and How does TestKube simplify Kubernetes native testing, and what are its key aspects?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-10-19 05:00:00'
 author: Shyam Mohan

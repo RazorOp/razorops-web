@@ -3,7 +3,7 @@ title: 5 Types of Git WorkFlow & Explanation of each Flow
 description: Introduction about Git WorkFlow & Types of git workflows - Basic, Feature
   Branches, Git Flow, Feature Branches and Merge requests, Forking workflow & their
   explanations.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-11-05 03:50:00'
 author: Shyam Mohan

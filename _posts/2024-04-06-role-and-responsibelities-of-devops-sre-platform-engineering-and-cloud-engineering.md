@@ -9,6 +9,7 @@ description: " between these roles, each plays a distinct and crucial part in
   modern IT environments"
 category: DevOps
 date: 2024-04-05T09:31:00.000Z
+permalink: /blog/:title
 image: /images/devops-sre-platform-engineering-cloud-engineering.jpg
 ---
 

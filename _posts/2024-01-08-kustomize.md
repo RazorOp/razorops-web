@@ -1,7 +1,7 @@
 ---
 title: What is Kustomize ?
 description: How do organizations leverage Kustomize in their deployment and configuration management processes?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-01-08 05:00:00'
 author: Shyam Mohan

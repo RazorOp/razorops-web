@@ -1,7 +1,7 @@
 ---
 title: The Benefits of using containerization in DevOps workflows
 description: How does the integration of containerization enhance DevOps processes and workflow efficiency? 
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-12-11 05:00:00'
 author: Shyam Mohan

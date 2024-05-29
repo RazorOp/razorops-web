@@ -1,7 +1,7 @@
 ---
 title: The Role of Containers and Kubernetes in DevOps Transformation
 description: How do Containers and Kubernetes contribute to the evolution and enhancement of DevOps practices?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-11-23 05:00:00'
 author: Shyam Mohan

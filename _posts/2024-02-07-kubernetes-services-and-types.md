@@ -1,7 +1,7 @@
 ---
 title: Kubernetes Services & Types
 description: What are Kubernetes services, and what are the different types available for managing networking and communication between pods in a Kubernetes cluster?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-02-07 05:00:00'
 author: Shyam Mohan

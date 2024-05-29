@@ -4,7 +4,7 @@ description: " software development, testing plays a crucial role in ensuring
   the quality, reliability, and performance of applications."
 image: /images/blog/how-devops-is-revolutionizing-software-development-a-guide-to-success-1-.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: DevOps
 date: 2024-05-16T06:35:00.000Z

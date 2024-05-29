@@ -5,7 +5,7 @@ description: Test automation not only accelerates testing cycles but also
   releases.
 image: /images/mastering-test-automation-strategies-for-efficient-quality-assurance.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: Testing
 date: 2024-04-10T21:45:00.000Z

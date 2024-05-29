@@ -5,7 +5,7 @@ description: software development, agility is key to success. Agile
   collaboration, flexibility, and rapid iterations.
 image: /images/automating-quality-accelerating-testing-processes-for-agile-development.png.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: Testing
 date: 2024-04-13T22:02:00.000Z

@@ -1,7 +1,7 @@
 ---
 title: Kubernetes Autoscaling for Continuous Integration/Continuous Deployment
 description: What are the key strategies and best practices for implementing Kubernetes autoscaling in a Continuous Integration/Continuous Deployment (CI/CD) environment to optimize resource utilization and ensure seamless application scaling?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-10-02 05:00:00'
 author: Shyam Mohan

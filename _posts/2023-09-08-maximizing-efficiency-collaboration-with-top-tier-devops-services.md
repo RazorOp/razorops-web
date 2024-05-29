@@ -1,7 +1,7 @@
 ---
 title: Maximizing Efficiency and Collaboration with Top-tier DevOps Services
 description: What are the key strategies and best practices for maximizing both efficiency and collaboration through the implementation of top-tier DevOps services?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-09-08 05:00:00'
 author: Shyam Mohan

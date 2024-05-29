@@ -1,7 +1,7 @@
 ---
 title: Kubernetes
 description: What are the essential core concepts of Kubernetes, and how does it facilitate optimization and efficient container orchestration within modern IT environments
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-12-22 05:00:00'
 author: Shyam Mohan

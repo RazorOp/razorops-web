@@ -1,7 +1,7 @@
 ---
 title: What is Kubernetes Pod QoS?
 description: What does Kubernetes Pod Quality of Service (QoS) entail, and how does it impact the deployment and management of applications within Kubernetes clusters? 
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-02-13 05:00:00'
 author: Shyam Mohan

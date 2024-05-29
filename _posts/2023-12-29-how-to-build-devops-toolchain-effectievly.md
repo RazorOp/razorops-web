@@ -1,7 +1,7 @@
 ---
 title: How To Build Your DevOps Toolchain Effectively
 description: How can organizations effectively build and optimize their DevOps toolchain to enhance collaboration, streamline workflows, and achieve seamless integration throughout the software development lifecycle?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-12-29 05:00:00'
 author: Shyam Mohan

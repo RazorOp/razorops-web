@@ -5,7 +5,7 @@ description: Test automation has become an indispensable part of software
   cost-effectiveness.
 image: /images/test-automation-best-practices-maximizing-efficiency-and-effectiveness.png.gif
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: Testing
 date: 2024-04-20T21:53:00.000Z

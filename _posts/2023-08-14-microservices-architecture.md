@@ -2,7 +2,7 @@
 title: Best Practices and Potential Loopholes for Successful Microservices Architecture
 description: What is microservice architecture and the best practices for overcoming
   numerous obstacles with microservice architecture?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-08-22 05:00:00'
 author: Shyam Mohan

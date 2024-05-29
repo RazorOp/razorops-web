@@ -1,7 +1,7 @@
 ---
 title: 4 Pillars of Successful DevOps Assessment
 description: How can organizations effectively evaluate and measure their adherence to the 4 Pillars of Successful DevOps, and what strategies can be employed to enhance their performance in each pillar?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-11-28 05:00:00'
 author: Shyam Mohan

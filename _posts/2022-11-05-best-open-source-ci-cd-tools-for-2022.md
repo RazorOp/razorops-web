@@ -2,7 +2,7 @@
 title: Best Open Source CI/CD Tools for 2022
 description: Best Open Source CI/CD Tools for 2022. Let's have a look at it. Razorops
   is the one of best simplest container native cicd tools.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-11-05 04:00:00'
 author: Shyam Mohan

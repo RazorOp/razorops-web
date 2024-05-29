@@ -1,7 +1,7 @@
 ---
 title: Unlocking Kubernetes Deployment Excellence with CI CD Automation
 description: How can businesses leverage CI/CD automation to unlock Kubernetes deployment excellence, and what are the potential benefits and challenges associated with implementing such a strategy?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-09-28 05:00:00'
 author: Shyam Mohan

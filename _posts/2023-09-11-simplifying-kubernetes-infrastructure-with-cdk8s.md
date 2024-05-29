@@ -1,7 +1,7 @@
 ---
 title: Simplifying your Kubernetes infrastructure with cdk8s
 description: How can the utilization of cdk8s simplify and optimize Kubernetes infrastructure management to drive greater operational efficiency and scalability in modern business environments?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-09-11 05:00:00'
 author: Shyam Mohan

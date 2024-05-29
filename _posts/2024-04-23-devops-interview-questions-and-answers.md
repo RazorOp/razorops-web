@@ -3,7 +3,7 @@ title: DevOps Interview questions and answers
 description: DevOps Interview questions and answers
 image: /images/devops-interview-questions-and-answers.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: DevOps
 date: 2024-04-22T01:17:00.000Z

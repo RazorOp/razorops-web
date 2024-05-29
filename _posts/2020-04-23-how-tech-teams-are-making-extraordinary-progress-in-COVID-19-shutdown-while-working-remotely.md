@@ -1,7 +1,7 @@
 ---
 title: How tech teams are making extraordinary progress in COVID-19 shutdown while working remotely?
 description: The tech teams, who already have DevOps processes in place, got huge benefits and did not get much impact.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2020-04-23 14:15:00'
 author: Shyam Mohan

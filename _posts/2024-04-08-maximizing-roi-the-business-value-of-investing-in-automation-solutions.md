@@ -5,7 +5,7 @@ description: "Dynamic business landscape, the quest for efficiency and agility
   stands out: automation."
 image: /images/blog/maximizing-roi-the-business-value-of-investing-in-automation-solutions.webp.gif
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: DevOps
 date: 2024-04-08T21:24:00.000Z

@@ -1,7 +1,7 @@
 ---
 title: Enhancing Collaboration between Development and Operations with DevOps
 description: How can organizations effectively enhance collaboration between development and operations teams through the implementation of DevOps practices?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-25 05:00:00'
 author: Shyam Mohan

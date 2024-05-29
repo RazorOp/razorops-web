@@ -1,7 +1,7 @@
 ---
 title: Effective Monitoring and Alerting Strategies in DevOps
 description: How can DevOps teams implement robust monitoring and alerting strategies to enhance system performance and response times effectively?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-22 05:00:00'
 author: Shyam Mohan

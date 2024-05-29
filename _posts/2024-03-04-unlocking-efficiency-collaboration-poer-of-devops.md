@@ -1,7 +1,7 @@
 ---
 title: Unlocking Efficiency and Collaboration The Power of DevOps
 description: How can embracing DevOps unlock efficiency and collaboration to enhance the power of your team's development processes?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-04 05:00:00'
 author: Shyam Mohan

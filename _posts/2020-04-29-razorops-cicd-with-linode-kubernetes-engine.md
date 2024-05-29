@@ -2,7 +2,7 @@
 title: Razorops CI/CD with Linode Kubernetes Engine
 description: Linode is one of simplest, affordable, and accessible cloud computing platform, It has recentely launched managed Kubernetes called Linod Kubernetes Engine.
 keywords: kubectl, kubernetes, cheat sheet, Commands, deployment, namespace, healthcheck
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2020-04-29 14:15:43'
 author: Shyam Mohan

@@ -5,7 +5,7 @@ description: Certainly! Kubernetes is a powerful container orchestration
   alternatives along with some of their features and drawbacks
 image: /images/blog/top-10-kubernetes-alternatives.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: kubernetes
 date: 2024-05-11T16:17:00.000Z

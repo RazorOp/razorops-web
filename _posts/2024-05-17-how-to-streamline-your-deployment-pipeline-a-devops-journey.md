@@ -4,7 +4,7 @@ description: One of the most critical aspects of ensuring smooth and reliable
   software delivery is streamlining your deployment pipeline.
 image: /images/blog/how-to-streamline-your-deployment-pipeline-a-devops-journey.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: DevOps
 date: 2024-05-17T01:20:00.000Z

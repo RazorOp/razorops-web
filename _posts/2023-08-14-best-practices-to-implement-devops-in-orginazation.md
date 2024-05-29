@@ -1,7 +1,7 @@
 ---
 title: Best Practices for implementing DevOps in Organizations
 description: Why DevOps is necessary in the modern world and how can it be used in organisations and how the Razorops platform enhances the quality and speed of software delivery
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-08-14 04:00:00'
 author: Shyam Mohan

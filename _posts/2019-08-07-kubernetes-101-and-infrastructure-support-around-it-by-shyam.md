@@ -2,7 +2,7 @@
 title: Kubernetes 101 and infrastructure support around it by Shyam
 description: Docker Inc. Hyderabad presents Kubernetes 101 and infrastructure support around it by Shyam from Razorops | June 15, 2019.
 keywords: Docker, Razorops, kubernetes, event
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2019-06-15 14:15:43'
 author: Shyam Mohan

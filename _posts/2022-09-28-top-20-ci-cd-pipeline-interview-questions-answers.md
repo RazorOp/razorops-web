@@ -3,7 +3,7 @@ title: Top 20 CI/CD Pipeline Interview Questions & Answers
 description: Here you have the top 20 common ci/cd interview questions along with
   answers. Let's have a look at it. Razorops is the one of best simplest container
   native cicd tools.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-09-28 16:42:53'
 author: Shiva G

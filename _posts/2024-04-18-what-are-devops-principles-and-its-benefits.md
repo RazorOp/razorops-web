@@ -5,7 +5,7 @@ description: DevOps principles encompass a set of guiding philosophies and
   development and IT operations teams.
 image: /images/what-are-devops-principles-and-its-benefits.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: DevOps
 date: 2024-04-18T02:05:00.000Z

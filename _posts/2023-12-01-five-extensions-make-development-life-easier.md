@@ -1,7 +1,7 @@
 ---
 title: 5 Docker Extensions to make your development life easier
 description: What are five Docker Extensions that can enhance and simplify your development workflow?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-12-01 05:00:00'
 author: Shyam Mohan

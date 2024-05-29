@@ -1,7 +1,7 @@
 ---
 title: K8s Exercise Labels and Annotations 
 description: How do Labels and Annotations in Kubernetes (K8s) contribute to enhancing operational efficiency and strategic decision-making for businesses, and what specific advantages or considerations should companies focus on in their implementation?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-11-10 05:00:00'
 author: Shyam Mohan

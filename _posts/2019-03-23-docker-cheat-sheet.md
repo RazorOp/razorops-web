@@ -3,7 +3,7 @@ title: Docker Cheat Sheet
 description: Developers can build any app in any language using any toolchain. “Dockerized”
   apps are completely portable and can run anywhere
 keywords: Why Docker, Installation, Dockerfile, Layers
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-04-21 14:15:43'
 author: Shyam Mohan

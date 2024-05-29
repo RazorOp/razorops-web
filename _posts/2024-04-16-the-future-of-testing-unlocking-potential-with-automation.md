@@ -4,7 +4,7 @@ description: " software development, testing plays a crucial role in ensuring
   the quality, reliability, and performance of applications."
 image: /images/the-future-of-testing-unlocking-potential-with-automation.webp
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: Testing
 date: 2024-04-16T21:55:00.000Z

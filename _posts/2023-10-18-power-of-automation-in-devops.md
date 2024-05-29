@@ -1,7 +1,7 @@
 ---
 title: The Power of Automation in DevOps
 description: How can companies effectively harness the Power of Automation in DevOps to enhance their software development and deployment processes?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-10-18 05:00:00'
 author: Shyam Mohan

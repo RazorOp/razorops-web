@@ -1,7 +1,7 @@
 ---
 title: Boost Your Software Deliveries with Docker and Kubernetes
 description: What strategies and benefits are associated with utilizing Docker and Kubernetes to optimize and expedite software delivery processes?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-01-05 05:00:00'
 author: Shyam Mohan

@@ -1,7 +1,7 @@
 ---
 title: Containerization and DevOps Optimizing Deployment with Docker and Kubernetes
 description: How do Docker and Kubernetes enhance deployment efficiency in Containerization and DevOps?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-15 05:00:00'
 author: Shyam Mohan

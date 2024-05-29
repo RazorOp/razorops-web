@@ -3,7 +3,7 @@ title: 5 Strategies to Improve the Effectiveness of Your IT Management
 description: IT is pervasive in today’s setting. Businesses, governments, and individuals
   use IT products constantly for different purposes.
 keywords: Kubernetes, containers, Cloud-native, microservices, infrastructure, development
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2019-10-30 14:15:43'
 author: Shyam Mohan

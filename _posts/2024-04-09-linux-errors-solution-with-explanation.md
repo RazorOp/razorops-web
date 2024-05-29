@@ -3,7 +3,7 @@ title: 100 Linux Errors & Solution  With Explanation
 description: 100 Linux Errors & Solution  With Explanation
 image: /images/blog/100-linux-errors-solution-with-explanation.jpg
 layout: post
-permalink: /blog/:title/
+permalink: /blog/:title
 author: Shyam Mohan
 category: Linux
 date: 2024-04-08T23:11:00.000Z

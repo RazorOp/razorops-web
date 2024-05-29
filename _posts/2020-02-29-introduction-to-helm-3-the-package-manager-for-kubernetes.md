@@ -3,7 +3,7 @@ title: Introduction to Helm 3 the Package Manager for Kubernetes
 description: Helm is the package manager for Kubernetes (like yum and apt ) that allows
   easily package, configure, and deploy applications onto Kubernetes clusters
 keywords: helm, Kubernetes clusters, helm 3, helm 2, a package manager for Kubernetes
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2020-02-29 14:15:00'
 author: Shyam Mohan

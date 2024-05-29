@@ -4,7 +4,7 @@ description: 'Best CI/CD Best Practices for devops team to ensure the business s
   & to build the application. Check the complete CI/CD Best Practices in detail: Build
   once, Streamline the tests, Continuous automation, Know the procedures, Continuous
   security, Fix it if it’s broken, Make it daily.'
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-09-01 10:16:21'
 author: Shiva G

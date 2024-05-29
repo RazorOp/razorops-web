@@ -3,7 +3,7 @@ title: Unit Test vs Integration Test | Major Difference between Unit Testing and
   Test
 description: Lets Know about Unit Test & Integration Test along with their benefits.
   Also check the Unit Test vs Integration Test major differences.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-03-25 16:19:08'
 author: Shyam Mohan

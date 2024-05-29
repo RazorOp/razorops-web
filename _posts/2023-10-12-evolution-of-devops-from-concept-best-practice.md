@@ -1,7 +1,7 @@
 ---
 title: The Evolution of DevOps From Concept to Best Practice
 description: How has the evolution of DevOps, from its initial concept to becoming a best practice, impacted the efficiency, collaboration, and overall success of businesses, and what key lessons can organizations glean from this journey for their own improvement?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-10-12 05:00:00'
 author: Shyam Mohan

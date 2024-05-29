@@ -1,7 +1,7 @@
 ---
 title: Streamlining Kubernetes Workflows The Power of CI/CD Integration
 description: How can organizations achieve optimal efficiency and reliability when streamlining their Kubernetes workflow within a CI/CD pipeline?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-09-01 05:00:00'
 author: Shyam Mohan

@@ -1,7 +1,7 @@
 ---
 title: Streamlining Deployment Pipelines with DevOps Automation
 description: What strategies and tools can be implemented to optimize deployment pipelines through DevOps Automation?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-14 05:00:00'
 author: Shyam Mohan

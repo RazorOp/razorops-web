@@ -4,7 +4,7 @@ description: What are Helm charts?  Helm charts are packages of pre-configured
   Kubernetes resources
 image: /images/blog/top-helm-interview-questions-and-answers.webp
 layout: post
-permalink: /blog/;title
+permalink: /blog/:title
 author: Shyam Mohan
 category: Kubernetes
 date: 2024-05-23T03:23:00.000Z
