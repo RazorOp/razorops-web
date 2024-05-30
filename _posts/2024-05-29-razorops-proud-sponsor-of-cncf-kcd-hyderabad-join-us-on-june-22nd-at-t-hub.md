@@ -1,6 +1,5 @@
 ---
-title: "2024-05-29-RazorOps: Proud Sponsor of CNCF KCD Hyderabad - Join Us on
-  June 22nd at T-Hub"
+title: "RazorOps: Proud Sponsor of CNCF KCD Hyderabad - Join Us on June 22nd at T-Hub"
 description: We are thrilled to announce that RazorOps is a proud sponsor of the
   CNCF KCD Hyderabad event, taking place on June 22nd at T-Hub 2.0.
 image: /images/blog/kcd-hyderabad.webp
