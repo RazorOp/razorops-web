@@ -1,12 +1,14 @@
 ---
 title: What is Kubernetes Pod QoS?
-description: What does Kubernetes Pod Quality of Service (QoS) entail, and how does it impact the deployment and management of applications within Kubernetes clusters? 
-permalink: "/blog/:title"
+description: What does Kubernetes Pod Quality of Service (QoS) entail, and how
+  does it impact the deployment and management of applications within Kubernetes
+  clusters?
+image: /images/blog/what-is-kubernetes-podqos.png
 layout: post
-date: '2024-02-13 05:00:00'
+permalink: /blog/:title
 author: Shyam Mohan
-category: kubernetes
-image: "/images/blog/what-is-kubernetes-podqos.png"
+category: Kubernetes
+date: 2024-02-13 05:00:00
 ---
 
 Container orchestration, Kubernetes has emerged as a leading platform for managing and deploying containerized applications. One fundamental concept that plays a crucial role in ensuring optimal performance is the Quality of Service (QoS). In the realm of Kubernetes, this concept is applied at the level of Pods, forming the backbone of resource management within the cluster.
