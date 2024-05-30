@@ -1,12 +1,15 @@
 ---
 title: What is Virtualization & Top 5 Benefits of Virtualization
-description: Let's check what Virtualization is, various types & benefits of Virtualization. How Does Virtualization Work? It is one of the powerful tools that can help reduce administrative overhead which also can increase cost savings, scalability, and efficiency. 
-permalink: "/blog/:title"
+description: Let's check what Virtualization is, various types & benefits of
+  Virtualization. How Does Virtualization Work? It is one of the powerful tools
+  that can help reduce administrative overhead which also can increase cost
+  savings, scalability, and efficiency.
+image: /images/blog/virtualization-benefit.png
 layout: post
-date: '2022-04-27 11:07:05'
+permalink: /blog/:title
 author: Shyam Mohan
-category: Virtual Machine
-image: "/images/blog/virtualization-benefit.png"
+category: DevOps
+date: 2022-04-27 11:07:05
 ---
 
 Virtualization uses software to create an abstract layer over the hardware. By doing this it creates a virtual computer system, known as the  virtual machines (VMs). This will allow organizations to run multiple virtual computers, operating systems, and applications on a single physical server
