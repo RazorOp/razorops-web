@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 .feature-img {
-  width: 30%;
-  height 30%;
+  width: 30%,
+  height 30%
 }
 
 .blog-feature-img {
-  width: 30%;
-  height 30%;
+  width: 30%,
+  height 30%
 }
 
 
@@ -73,9 +73,9 @@
   font-weight: 400;
 }
 
-.blog-post {
-  /*background-color: #fff;*/
-}
+/* .blog-post {
+  background-color: #fff;
+} */
 
 .blog-post img {
   top: 50%;
