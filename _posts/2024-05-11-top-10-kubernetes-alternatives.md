@@ -7,7 +7,7 @@ image: /images/blog/top-10-kubernetes-alternatives.webp
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
-category: kubernetes
+category: Kubernetes
 date: 2024-05-11T16:17:00.000Z
 ---
 
