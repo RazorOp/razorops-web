@@ -3,15 +3,13 @@ title: Razorops CI/CD with heroku apps
 description: Deploying to heroku was super easy as it happen with just a git push,
   with razorops you can add CI/CD support to your Heroku apps.
 keywords: Heroku, deployment, Heroku Token, Pipeline, heroku dashboard
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-04-28 14:15:43'
 author: Shyam Mohan
 category: Continuous Integration
 image: "/images/blog/razorops-heroku.png"
 ---
-
-<img src="/images/blog/razorops-heroku.png" />
 
 This post i will explain how to deploy rails app on heroku using Razorops CI/CD
 

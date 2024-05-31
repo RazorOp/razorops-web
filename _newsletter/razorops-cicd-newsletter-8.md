@@ -10,8 +10,6 @@ image: "/images/newsletter/kubernetes-standard-to-deploy.png"
 heading: Kubernetes-The de facto standard to deploy and operate containerized applications.
 ---
 
-![](/images/newsletter/kubernetes-standard-to-deploy.png)
-
 
 With the increasing adoption of containers among enterprises, Kubernetes, the container-centric management software, has become the de facto standard for deploying and operating containerized applications. Kubernetes is an open source framework for managing containerized workloads and services that enables declarative setup as well as automation. It has a vast and constantly expanding ecosystem. Service, support, and tools for Kubernetes are widely available.
 

@@ -1,19 +1,13 @@
 ---
 title: Unlocking Kubernetes Deployment Excellence with CI CD Automation
 description: How can businesses leverage CI/CD automation to unlock Kubernetes deployment excellence, and what are the potential benefits and challenges associated with implementing such a strategy?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-09-28 05:00:00'
 author: Shyam Mohan
 category: cicd
 image: "/images/blog/unlocking-kubernetes%20deployment.gif"
 ---
-
-![](/images/blog/unlocking-kubernetes%20deployment.gif)
-<br>
-
-
-
 
 Software development, agility and efficiency are paramount. Continuous Integration and Continuous Deployment (CI/CD) practices have revolutionised the way we build, test, and deploy software. When coupled with the power of Kubernetes, an open-source container orchestration platform, organisations can achieve a level of deployment excellence that was once only a dream. In this article, we'll explore the synergy between Kubernetes and CI/CD automation, highlighting the benefits and best practices that can lead to seamless, reliable, and scalable deployments.
 <br>

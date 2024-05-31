@@ -3,7 +3,7 @@ title: Introduction to Container Native CICD
 description: Container Native Software treats containers as the first-class unit of
   infrastructure
 keywords: Docker, kubernetes, container Natice, cicd, pipelines, how it works, razorops
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2019-09-21 14:15:43'
 author: Shyam Mohan

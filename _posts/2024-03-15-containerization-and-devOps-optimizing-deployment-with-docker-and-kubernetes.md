@@ -1,16 +1,13 @@
 ---
 title: Containerization and DevOps Optimizing Deployment with Docker and Kubernetes
 description: How do Docker and Kubernetes enhance deployment efficiency in Containerization and DevOps?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-15 05:00:00'
 author: Shyam Mohan
 category: DevOps
 image: "/images/blog/containerization-and-devOps-optimizing-deployment-with-docker-and-kubernetes.png"
 ---
-
-<img src="/images/blog/containerization-and-devOps-optimizing-deployment-with-docker-and-kubernetes.png" alt="containerization-and-devOps-optimizing-deployment-with-docker-and-kubernetes" title="containerization-and-devOps-optimizing-deployment-with-docker-and-kubernetes">
-<br>
 
 DevOps practices have revolutionized how teams build, test, deploy, and manage applications, enabling rapid delivery without compromising quality. Central to this paradigm shift are containerization technologies like Docker and orchestration platforms like Kubernetes. In this article, we'll explore how containerization and DevOps intersect, and how leveraging Docker and Kubernetes can optimize deployment processes.
 <br>

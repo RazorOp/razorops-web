@@ -5,7 +5,7 @@ description: A precursor to Devops; Agile is a software development and, more br
 keywords: Agile Organization, Automation,cloud computing platform,Behavior Driven
   Development,Configuration Management,Grafana,Continuous Delivery,Openstack,Unit
   Testing
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-04-23 14:15:43'
 author: Shyam Mohan
@@ -13,8 +13,6 @@ category: DevOps
 image: "/images/blog/razorops-devops.png"
 ---
 
-![](/images/blog/razorops-devops.png)
-<br>
 
 DevOps covers a wide range of functions. From configuration management to infrastructure to documentation to quality assurance, DevOps spans the entire software development lifecycle.
 

@@ -1,17 +1,13 @@
 ---
 title: Diving into Container Registries- An In-Depth Overview
 description: What are the strategic advantages and potential business implications of adopting container registries, as explored in the comprehensive overview titled 'Navigating Docker Container Registries'?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-02-12 05:00:00'
 author: Sravani Bikkina
 category: Docker
 image: "/images/blog/what-is-Docker.jpg"
 ---
-
-<img src="/images/blog/what-is-Docker.jpg" alt="what-is-Docker" title="what-is-Docker">
-<br>
-<br>
 
 ### **Table of contents:**
 <br>

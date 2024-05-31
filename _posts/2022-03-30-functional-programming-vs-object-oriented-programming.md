@@ -1,7 +1,7 @@
 ---
 title: Functional Programming VS Object Oriented Programming
 description: Let's check the difference between Functional Programming and  Object Oriented Programming. Functional Programming and Object-oriented programming are completely different programming paradigms. Despite of having different approaches, both of them are designed to make the code efficient
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-03-30 13:04:53'
 author: Shyam Mohan

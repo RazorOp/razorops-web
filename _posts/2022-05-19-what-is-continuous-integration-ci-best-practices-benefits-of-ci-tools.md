@@ -1,7 +1,7 @@
 ---
 title: What is Continuous Integration (CI) - Best Practices, Benefits of CI, Tools
 description: Let's check the complete explanation of Continuous Integration, what are best practices in CI, Benefits of Continuous Integration and  Tools of CI. Continuous integration helps teams to speed up the development process while increasing the code quality.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-05-19 10:51:00'
 author: Shyam Mohan

@@ -2,15 +2,13 @@
 title: Kubernetes and containers adoption growing fast
 description: Kubernetes adoption is fast because more organizations are starting their container journey with Kubernetes as part of their toolkit.
 keywords: Kubernetes, containers, Cloud-native, microservices, infrastructure, development
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2018-09-26 14:15:43'
 author: Shyam Mohan
 category: kubernetes
 image: "/images/blog/kubernetes-and-containers-adoption-report.png"
 ---
-
-![](/images/blog/kubernetes-and-containers-adoption-report.png)
 
 Cloud-native development and microservices enable development teams to work more efficiently and innovate faster. Operators appreciate the container environment because it increases infrastructure utilization, enabling them to accomplish more with less while managing critical applications at unprecedented scale.
 

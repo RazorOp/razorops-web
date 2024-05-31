@@ -4,15 +4,13 @@ description: |-
   There are some of the most important points while choosing kubernetes deployment platform.
   Production-Readiness, Future-Readiness, Ease of Management, Support, and Training
 keywords: Heroku, deployment, Heroku Token, Pipeline, heroku dashboard
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2018-08-27 14:15:43'
 author: Shyam Mohan
 category: kubernetes
 image: "/images/blog/how-to-choose-your-kubernetes-deployment-platform.png"
 ---
-
-![](/images/blog/how-to-choose-your-kubernetes-deployment-platform.png)
 
 There are some of the most important points while choosing kubernetes deployment platform.
 

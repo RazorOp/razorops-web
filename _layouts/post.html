@@ -27,6 +27,7 @@
   
     <!-- navbar -->
     <header class="default-header">{% include header.html %}</header>
+    <br><br>   
     <div class="content-wraper">
       <div class="blog-wraper">
         <div class="container">
@@ -39,38 +40,36 @@
                     {{ page.date | date_to_string }} -
                     <small>{{ page.author }}</small>
                   </time>
+                  <img src="{{ page.image }}" alt="{{page.title}}"/>
                   {{ content }}
                 </div>
               </div>
-              <br><br>
+
+              <br>
               <div class="blog-post-content" id="blog-post-margins">
                 <center><p><b>Enjoyed this article? Share it.</b><p></center>
                 <br>
-                <div class="sharethis-inline-share-buttons"></div>
+              <div class="sharethis-inline-share-buttons"></div>
               </div>
-              <br><br>
-            
+              <br>
 
-            {% if page.author == "Shyam Mohan" %}
-              {% include about-shyam.html %}
-              {% elsif page.author == "Sravani Bikkina" %}
-              {% include about-sravani.html %}
-            {% elsif page.author == "Saurabh Yadav" %}
-              {% include about-saurabh.html %}
-            {% elsif page.author == "Shiva G" %}
-              {% include about-shiva.html %} 
-            {% elsif page.author == "Maheshwari Dantuluri" %}
-              {% include about-maheshwari.html %}    
-            {% endif %}
-
-            </div>
-
-            <div class="col-md-3">
-              {% include blog-menu.html %}
-            </div>
-
-
+              {% if page.author == "Shyam Mohan" %}
+                {% include about-shyam.html %}
+                {% elsif page.author == "Sravani Bikkina" %}
+                {% include about-sravani.html %}
+              {% elsif page.author == "Saurabh Yadav" %}
+                {% include about-saurabh.html %}
+              {% elsif page.author == "Shiva G" %}
+                {% include about-shiva.html %} 
+              {% elsif page.author == "Maheshwari Dantuluri" %}
+                {% include about-maheshwari.html %}    
+              {% endif %}
           </div>
+          
+          <div class="col-md-3">
+            {% include blog-menu.html %}
+          </div>
+
         </div>
       </div>
     </div>

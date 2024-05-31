@@ -2,7 +2,7 @@
 title: Salesforce lightning web component pipeline with Razorops
 description: check how  to use the Lightning Component UI framework for developing
   single page applications for mobile and desktop devices using Razorops CI/CD Tool.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-05-23 11:28:58'
 author: Saurabh Yadav
@@ -10,8 +10,6 @@ category: CI/CD
 image: "/images/blog/Salesforce-lightning-web-component-pipeline-with-razorops.png"
 ---
 
-![](/images/blog/salesforce-and-razorops.png)
-<br>
 
 **What is lightning component pipeline:**
 

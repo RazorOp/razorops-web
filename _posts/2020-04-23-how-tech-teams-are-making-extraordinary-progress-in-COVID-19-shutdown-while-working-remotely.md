@@ -1,15 +1,13 @@
 ---
 title: How tech teams are making extraordinary progress in COVID-19 shutdown while working remotely?
 description: The tech teams, who already have DevOps processes in place, got huge benefits and did not get much impact.
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2020-04-23 14:15:00'
 author: Shyam Mohan
 category: Continuous Integration
 image: "/images/blog/progress-in-COVID-19-shutdown-while-working-remotely.png"
 ---
-
-![](/images/blog/progress-in-COVID-19-shutdown-while-working-remotely.png)
 
 COVID-19 has led businesses into extreme work challenges. To overcome these challenges, companies have shifted their working patterns and have embraced Remote Work to avoid any negative impact on employee's health as well as the business. 
 COVID-19 has made IT-sector office culture’s shift to remote work prominently.

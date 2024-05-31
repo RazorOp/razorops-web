@@ -10,9 +10,6 @@ image: "/images/newsletter/Benifits-of-CICD-pipelines-progress.jpg"
 heading: The Benefits of CI/CD Pipelines and How Progress Professional Services
 ---
 
-![](/images/newsletter/Benifits-of-CICD-pipelines-progress.jpg)
-<br>
-
 
 Organization to thrive and to compete in an ever-changing and agile technology environment, developers should utilise continuous integration and continuous delivery (CI/CD). Releases must be delivered quickly in weeks, days or as needed with mature and well-organised DevOps strategies.
 

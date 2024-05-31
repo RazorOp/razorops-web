@@ -1,18 +1,13 @@
 ---
 title: Enhancing Collaboration between Development and Operations with DevOps
 description: How can organizations effectively enhance collaboration between development and operations teams through the implementation of DevOps practices?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-25 05:00:00'
 author: Shyam Mohan
 category: DevOps
 image: "/images/blog/Enhancing-collaboration-between-development-operations-with-devOps.png"
 ---
-
-<img src="/images/blog/Enhancing-collaboration-between-development-operations-with-devOps.png" alt="Enhancing-collaboration-between-development-operations-with-devOps" title="Enhancing-collaboration-between-development-operations-with-devOps">
-<br>
-<br>
-
 
 The collaboration between development (Dev) and operations (Ops) teams is crucial for delivering high-quality software products and services efficiently. DevOps has emerged as a transformative approach that bridges the gap between these two traditionally siloed functions, fostering a culture of collaboration, automation, and continuous improvement. In this blog post, we'll explore how DevOps enhances collaboration between Dev and Ops teams, leading to faster innovation, improved productivity, and better business outcomes.
 <br>

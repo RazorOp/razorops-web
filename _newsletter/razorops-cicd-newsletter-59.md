@@ -10,9 +10,6 @@ image: "/images/newsletter/cicd-pipelines-software-delivery.jpg"
 heading: CI/CD Pipelines and Software Delivery 
 ---
 
-![](/images/newsletter/cicd-pipelines-software-delivery.jpg)
-
-<br>
 Just a few years back, it was a very long brainstorming-intensive manual process to integrate and deploy code. It usually involved representatives from different teams meeting after a week, month, or quarter to integrate all the developed code, fix the issues, and deploy the merged version to the production environment. But now there are semi- or completely automated continuous integration (CI) and continuous delivery (and/or continuous deployment) (CD) systems to complete these processes in a fast, reliable, and accurate manner. In this blog, we will spotlight the CI/CD pipeline and cover all the basic details you should know.
 
 ### <b> What is a CI/CD Pipeline?</b>

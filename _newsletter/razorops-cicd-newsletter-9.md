@@ -10,9 +10,6 @@ image: "/images/newsletter/razorops-speedup.png"
 heading: RazorOps Speeding up the deployment of microservices with Kubernetes!
 ---
 
-![](/images/newsletter/razorops-speedup.png)
-
-<br>
 
 **What are microservices?**
 
