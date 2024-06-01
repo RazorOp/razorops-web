@@ -13,9 +13,6 @@ heading: Docker Announces Docker Extensions and Docker Desktop for Linux at Dock
   2022
 ---
 
-![](/images/newsletter/docker-newsletter.png)
-<br>
-
 Docker, Inc., a leading provider of cloud-native application development tools, content, and services for developers, announced new features and partnerships to boost developer productivity at DockerCon 2022.
 
 <br>

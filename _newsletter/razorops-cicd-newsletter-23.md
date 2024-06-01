@@ -11,8 +11,6 @@ image: "/images/newsletter/hexa-accepted-as-cncf-sandbox-project.png"
 heading: Hexa Accepted as CNCF Sandbox Project
 ---
 
-![](/images/newsletter/hexa-accepted-as-cncf-sandbox-project.png)
-<br>
 
  Hexa Open Source Project for Multi-Cloud Policy Orchestration Accepted as a CNCF Sandbox Project. Open Source Identity Standard and Policy Orchestration Software Unifies Multi-Cloud Access Policy Management.
 

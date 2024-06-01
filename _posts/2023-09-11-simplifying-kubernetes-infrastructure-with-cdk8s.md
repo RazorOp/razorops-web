@@ -1,18 +1,13 @@
 ---
 title: Simplifying your Kubernetes infrastructure with cdk8s
 description: How can the utilization of cdk8s simplify and optimize Kubernetes infrastructure management to drive greater operational efficiency and scalability in modern business environments?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-09-11 05:00:00'
 author: Shyam Mohan
 category: cicd
 image: "/images/blog/simplifying-kubernetes-infrastructure.png"
 ---
-
-![](/images/blog/simplifying-kubernetes-infrastructure.png)
-<br>
-
-
 
 Kubernetes has become the backbone of modern container orchestration, enabling seamless deployment and management of containerized applications. However, as applications grow in complexity, so do the challenges of managing their Kubernetes infrastructure. Enter cdk8s, a revolutionary toolset that transforms Kubernetes configuration into a developer-friendly experience. In this article, we'll dive deep into cdk8s, exploring its capabilities, benefits, and how it can radically simplify your Kubernetes infrastructure.
 <br>

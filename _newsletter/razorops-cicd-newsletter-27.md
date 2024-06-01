@@ -12,8 +12,6 @@ image: "/images/newsletter/diagrid-dapr-service.png"
 heading: Diagrid launches its fully managed Dapr service for Kubernetes
 ---
 
-![](/images/newsletter/diagrid-dapr-service.png)
-<br>
 
 # The Headlines
 

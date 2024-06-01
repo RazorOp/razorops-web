@@ -4,7 +4,7 @@ description: 'Best CI/CD Best Practices for devops team to ensure the business s
   & to build the application. Check the complete CI/CD Best Practices in detail: Build
   once, Streamline the tests, Continuous automation, Know the procedures, Continuous
   security, Fix it if it’s broken, Make it daily.'
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2022-09-01 10:16:21'
 author: Shiva G
@@ -12,8 +12,6 @@ category: cicd
 image: "/images/blog/top-cicd-best-practices.gif"
 ---
 
-![](/images/blog/top-cicd-best-practices.gif)
-<br>
 
 Developers commonly integrate the code and these frequent modifications in a central repository as part of the software development method is known as continuous integration (CI). Improved software quality, faster quality audit and bug fixes, and quick validation and release cycles are all major goals of continuous integration. Continuous Delivery (CD), which builds on top of Continuous Integration(CI), includes automating both builds and the complete software release process.
 

@@ -11,8 +11,6 @@ image: "/images/newsletter/influence-of-cicd-on-security.png"
 heading: Influence of CI/CD On Security
 ---
 
-![](/images/newsletter/influence-of-cicd-on-security.png)
-<br>
 
  A report says that the combined practice of continuous integration and continuous delivery (CI/CD) is a leading indicator of an organization's adoption of advanced practices associated with software supply chain security. Almost two-thirds of respondents said CI/CD was very or completely established in their organization.
 

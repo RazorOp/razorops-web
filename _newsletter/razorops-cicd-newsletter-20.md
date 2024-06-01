@@ -10,8 +10,6 @@ image: "/images/newsletter/cicd-security.gif"
 heading: CI/CD Security & Why Does It Matter?
 ---
 
-![](/images/newsletter/cicd-security.gif)
-<br>
 
 CI/CD is a modern software practice with roots in the Agile methodology and is foundational to DevOps practices that blur the lines between IT operations and software development. CI/CD stands for Continuous Integration (CI) and Continuous Delivery (CD). It aims to fortify software development and delivery pipelines by establishing security best practices early and continuously in the process.
 <br>

@@ -17,8 +17,6 @@ heading: Brace for impact as Kubernetes support for Dockershim is set to STOP on
 <br>
 
 
-![](/images/newsletter/kubernetes-dockers-newsletter.png)
-<br>
 <br>
 [The removal of dockerism in the newest upcoming version of Kubernetes, the popular container-orchestration system, requires users to migrate to an alternative runtime to stay up to date with future Kubernetes releases. To read more, visit the link.](https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/)
 <br>

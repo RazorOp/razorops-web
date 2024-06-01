@@ -12,8 +12,7 @@ image: "/images/newsletter/razorops-newsletter1.png"
 heading: Kubernetes is all set to release v1.24 with some major updates.
 ---
 
-![](/images/newsletter/container-native-cicd-newsletter.png)
-<br>
+
 [Kubernetes is all set to release v1.24 with some major updates.](https://kubernetes.io/blog/2022/04/07/upcoming-changes-in-kubernetes-1-24/#api-removals-deprecations-and-other-changes-for-kubernetes-1-24)
 <br>
 

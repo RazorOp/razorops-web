@@ -1,18 +1,13 @@
 ---
 title: The Evolution of DevOps From Concept to Best Practice
 description: How has the evolution of DevOps, from its initial concept to becoming a best practice, impacted the efficiency, collaboration, and overall success of businesses, and what key lessons can organizations glean from this journey for their own improvement?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-10-12 05:00:00'
 author: Shyam Mohan
 category: cicd
 image: "/images/blog/evolution-devops-concept-best-practice.png"
 ---
-
-![](/images/blog/evolution-devops-concept-best-practice.png)
-<br>
-<br>
-
 
 Software development, the evolution of DevOps has been nothing short of revolutionary. What began as a simple concept has transformed into a best practice that is reshaping the way organisations develop, deploy, and maintain their software. In this blog post, we will take a journey through the evolution of DevOps, from its humble beginnings to its current status as an indispensable part of modern software development.
 <br>

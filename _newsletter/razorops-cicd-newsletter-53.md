@@ -11,8 +11,6 @@ image: "/images/newsletter/tools-and-technologies-for-automating-software-delive
 heading: Tools and technologies for automating software delivery pipelines
 ---
 
-![](/images/newsletter/tools-and-technologies-for-automating-software-delivery-pipelines.jpeg)
-<br>
 
 Automating software delivery pipelines is the practice of using various tools and technologies to streamline the process of building, testing, and deploying software applications. The goal of automation is to reduce manual effort, minimize errors, and speed up the delivery process. Here are some key components of an automated software delivery pipeline
 

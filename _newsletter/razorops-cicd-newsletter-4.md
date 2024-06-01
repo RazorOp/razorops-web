@@ -12,8 +12,6 @@ image: "/images/newsletter/razorops-newsletter4.png"
 heading: Kubernetes 1.24 ‘Stargazer’ – the first release of 2022
 ---
 
-![](/images/newsletter/kubernetes-first-release-newsletter.png)
-<br>
 
 **[The Kubernetes project has released version 1.24 of Stargazer](https://kubernetes.io/blog/2022/05/03/kubernetes-1-24-release-announcement/)**, its ubiquitous container orchestration system — the first release of 2022 and just in time for KubeCon Europe, which starts on May 16th. **[The Dockershim code, which was deprecated in version 1.20](https://kubernetes.io/blog/2020/12/02/dockershim-faq/)** (issued at the end of 2020), has now been deleted. There are 46 enhancements in this release: fourteen have been promoted to stable, fifteen have been promoted to beta, and thirteen have been promoted to alpha. Two features have also been deprecated, while two have been eliminated.
 

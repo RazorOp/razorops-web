@@ -11,9 +11,6 @@ image: "/images/newsletter/gitops-workflows-expanding-beyond-kubernetes-clusters
 heading: GitOps Workflows Expanding Beyond Kubernetes Clusters
 ---
 
-![](/images/newsletter/gitops-workflows-expanding-beyond-kubernetes-clusters.jpeg)
-<br>
-
 # The Headlines
 
 <br>

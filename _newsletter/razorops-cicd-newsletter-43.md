@@ -11,8 +11,6 @@ image: "/images/newsletter/mastering-kubernetes-on-a-budget.gif"
 heading: 'Mastering Kubernetes On A Budget: 5 Tips To Cut Costs'
 ---
 
-![](/images/newsletter/mastering-kubernetes-on-a-budget.gif)
-<br>
 
 Kubernetes has become a popular platform for managing containerized applications and services in the cloud. However, with its flexibility and scalability comes the potential for high costs. As businesses strive to cut expenditures, reducing Kubernetes costs is essential. Here are five ways enterprises can get started on reducing their Kubernetes costs:
 

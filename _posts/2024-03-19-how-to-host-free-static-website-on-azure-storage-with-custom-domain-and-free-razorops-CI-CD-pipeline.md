@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Shyam Mohan
-permalink: /blog/:title/
+permalink: /blog/:title
 title: How To Host Free Static Website On Azure Storage With Custom Domain And
   Free Razorops Ci Cd Pipeline
 date: 2024-03-20 05:00:00
@@ -11,9 +11,6 @@ description: How to Set up azure storage account and setting up CI/CD with
   Razorops for automatic static website deployment?
 category: DevOps
 ---
-
-<br>
-<br>
 
 ### **Table of contents:**
 

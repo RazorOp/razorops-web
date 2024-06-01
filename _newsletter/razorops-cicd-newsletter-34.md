@@ -11,8 +11,6 @@ image: "/images/newsletter/argo-graduates-from-the-cloud-native-computing-founda
 heading: Argo Graduates From The Cloud Native Computing Foundation
 ---
 
-![](/images/newsletter/argo-graduates-from-the-cloud-native-computing-foundation.png)
-<br>
 
 # The Headlines
 

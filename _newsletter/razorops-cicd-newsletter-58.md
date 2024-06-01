@@ -10,9 +10,6 @@ image: "/images/newsletter/docker.jpg"
 heading: Docker
 ---
 
-![](/images/newsletter/docker.jpg)
-<br>
-
 
 ## <b>Introduction :</b>
 

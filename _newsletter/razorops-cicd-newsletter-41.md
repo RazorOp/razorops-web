@@ -11,8 +11,6 @@ image: "/images/newsletter/google-releases-kubernetes-gitops-observability-dashb
 heading: Google Releases Kubernetes GitOps Observability Dashboard
 ---
 
-![](/images/newsletter/google-releases-kubernetes-gitops-observability-dashboard.png)
-<br>
 
 Google Releases Kubernetes GitOps Observability Dashboard
 

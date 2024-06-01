@@ -1,17 +1,13 @@
 ---
 title: Streamlining Deployment Pipelines with DevOps Automation
 description: What strategies and tools can be implemented to optimize deployment pipelines through DevOps Automation?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-03-14 05:00:00'
 author: Shyam Mohan
 category: DevOps
 image: "/images/blog/streamlining-deployment-pipelines-with-devops.png"
 ---
-
-<img src="/images/blog/streamlining-deployment-pipelines-with-devops.png" alt="streamlining-deployment-pipelines-with-devops" title="streamlining-deployment-pipelines-with-devops">
-<br>
-
 
 DevOps has emerged as a crucial methodology for software development and deployment. DevOps bridges the gap between development and operations teams, fostering collaboration and enabling continuous integration and delivery (CI/CD). At the heart of DevOps lies automation, which streamlines deployment pipelines, enhances productivity, and ensures rapid, reliable software delivery. In this blog post, we'll delve into the significance of DevOps automation and explore strategies for streamlining deployment pipelines effectively.
 <br>

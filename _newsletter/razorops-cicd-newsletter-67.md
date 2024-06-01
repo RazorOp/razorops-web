@@ -10,11 +10,6 @@ image: "/images/newsletter/Reduce-memory-usage-nodejs-inside-docker.jpg"
 heading: Reduce Memory Usage of NodeJS apps inside Docker
 ---
 
-![Unleashing ](/images/newsletter/Reduce-memory-usage-nodejs-inside-docker.jpg)
-<br>
-
-
-
 Reducing memory usage of Node.js apps inside Docker is essential for optimizing container resource consumption and improving application performance.
 
 **Use an Appropriate Base Image:** Choose a lightweight base image for your Docker container, like **‘node:alpine’** or **‘node:slim’**, as these have a smaller footprint compared to the full node image.

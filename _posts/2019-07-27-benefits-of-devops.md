@@ -3,15 +3,13 @@ title: Benefits of DevOps
 description: DevOps practices come with a range of benefits, some of which – including
   greater efficiency, security, and organizational collaboration.
 keywords: Benefits of DevOps, DevOps Toolkit, Automation, Continuous Integration, Continuous Development, DevOps Technical benefits, DevOps Cultural benefits, DevOps Business benefits, communication
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2018-11-20 14:15:43'
 author: Shyam Mohan
 category: DevOps
 image: "/images/blog/devops-benefits.jpeg"
 ---
-
-![](/images/blog/devops-benefits.jpeg)
 
 **What is DevOps?**
 

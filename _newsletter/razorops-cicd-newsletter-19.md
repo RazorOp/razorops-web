@@ -11,9 +11,6 @@ image: "/images/newsletter/kubernetes-version-1.25.png"
 heading: Kubernetes 1.25 Is Jam-Packed With Innovations!
 ---
 
-![](/images/newsletter/kubernetes-version-1.25.png)
-<br>
-
 The upcoming release of <b><a href="https://www.kubernetes.dev/resources/release/" target="_blank">Kubernetes 1.25</a></b> is jam-packed with innovations! Where do we start? This release includes 40 improvements, which is comparable to the 46 in Kubernetes 1.24 and the 45 in Kubernetes 1.23. Thirty-three of the 40 improvements are moving up to Stable, ten already-existing features are getting better, fifteen are brand-new, and two are deprecated.
 
 <br>

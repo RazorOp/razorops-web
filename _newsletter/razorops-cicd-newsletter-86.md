@@ -10,10 +10,6 @@ image: "/images/newsletter/ci-cd-pipelines-streamlining-software-delivery-with-a
 heading: CI/CD Pipelines Streamlining Software Delivery with Automation
 ---
 
-<img src="/images/newsletter/ci-cd-pipelines-streamlining-software-delivery-with-automation.gif" alt="ci-cd-pipelines-streamlining-software-delivery-with-automation" title="ci-cd-pipelines-streamlining-software-delivery-with-automation">
-<br>
-
-
 Software development landscape, efficiency is key. One of the most effective ways to achieve this is through Continuous Integration and Continuous Delivery (CI/CD) pipelines. These automated pipelines streamline the process of building, testing, and deploying software, enabling teams to deliver high-quality code at scale with speed and precision.
 <br>
 <br>

@@ -1,18 +1,13 @@
 ---
 title: What is Kustomize ?
 description: How do organizations leverage Kustomize in their deployment and configuration management processes?
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2024-01-08 05:00:00'
 author: Shyam Mohan
 category: cicd
 image: "/images/blog/kustomize.jpg"
 ---
-
-![](/images/blog/kustomize.jpg)
-<br>
-<br>
-
 
 In the dynamic realm of container orchestration, Kubernetes stands tall as the go-to platform for managing and deploying containerized applications. However, as the complexity of applications and infrastructure grows, so does the challenge of efficiently managing configuration files. Enter Kustomize, a powerful tool designed to simplify and streamline Kubernetes configuration management. In this blog post, we'll delve into the world of Kustomize, unraveling its core concepts, benefits, and practical applications.
 <br>

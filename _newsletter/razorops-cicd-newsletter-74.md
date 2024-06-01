@@ -10,10 +10,6 @@ image: "/images/newsletter/Mastering-kubernetes-guide-seamless-ci-cd-integration
 heading: Mastering Kubernetes A Guide to Seamless CI CD Integration
 ---
 
-![](/images/newsletter/Mastering-kubernetes-guide-seamless-ci-cd-integration.gif)
-<br>
-<br>
-
 Kubernetes has emerged as the de facto standard for container orchestration, enabling organisations to deploy and manage applications at scale. But to fully unlock the potential of Kubernetes, seamless integration with Continuous Integration and Continuous Deployment (CI/CD) pipelines is essential. In this guide, we'll walk you through the key steps to master Kubernetes CI/CD integration for a more efficient and streamlined development workflow.
 <br>
 <br>

@@ -11,8 +11,6 @@ heading: The New Kind Of Industrial Revolution
 permalink: "/newsletter/razorops-cicd-newsletter-29"
 ---
 
-![](/images/newsletter/new-kind-of-industrial-revolution.gif)
-<br>
 
 # The Headlines
 

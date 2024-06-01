@@ -1,18 +1,13 @@
 ---
 title: The Benefits of using containerization in DevOps workflows
 description: How does the integration of containerization enhance DevOps processes and workflow efficiency? 
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2023-12-11 05:00:00'
 author: Shyam Mohan
 category: cicd
 image: "/images/blog/benefits-of-using-containerzation-devops-workflows.png"
 ---
-
-![](/images/blog/benefits-of-using-containerzation-devops-workflows.png)
-<br>
-<br>
-
 
 Software development cycles demand rapid deployment and scalability, traditional infrastructure struggles to keep pace. Enter containerization—a revolutionary technology empowering DevOps teams to streamline their workflows, enhance portability, and drive efficiency in software development and deployment.
 <br>

@@ -12,8 +12,7 @@ image: "/images/newsletter/razorops-newsletter3.png"
 heading: Google donates the Istio service mesh to the Cloud Native Computing Foundation
 ---
 
-![](/images/newsletter/cncf-newsletter.png)
-<br>
+
 
 Google and the Istio Steering Committee have submitted the Istio project for consideration as an incubating project within the Cloud Native Computing Foundation (CNCF). Istio is the last major component of organizations’ Kubernetes ecosystem to sit outside of the CNCF, and its APIs are well-aligned to Kubernetes. Acceptance of Istio will complete the cloud-native stack under the auspices of the foundation, and bring Istio closer to the Kubernetes project. 
 

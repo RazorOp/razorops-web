@@ -11,8 +11,6 @@ image: "/images/newsletter/21st-century-tech-threat.png"
 heading: 'The Rise of Cyber Terrorism, Hackers, and Espionage: 21st Century Tech Threat'
 ---
 
-![](/images/newsletter/21st-century-tech-threat.png)
-<br>
 
 # The Headlines
 

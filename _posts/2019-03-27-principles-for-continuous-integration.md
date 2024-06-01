@@ -3,7 +3,7 @@ title: Principles for Continuous Integration
 description: Principles for Continuous Integration includes few best practices, this
   help DevOps team to streamline delivery process.
 keywords: Continuous Integration, Principles, DevOps, Builds, automate deployments, Github, Gitlab, Bitbucket
-permalink: "/blog/:title/"
+permalink: "/blog/:title"
 layout: post
 date: '2018-08-20 14:15:43'
 author: Shyam Mohan

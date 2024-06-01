@@ -11,9 +11,6 @@ image: "/images/newsletter/7-devops-trends-to-watch-for-in-2023.jpeg"
 heading: 7 DevOps Trends to Watch for in 2023
 ---
 
-![](/images/newsletter/7-devops-trends-to-watch-for-in-2023.jpeg)
-<br>
-
 Nowadays, every organization is considered a software organization. With the rise in cloud-native tools, the DevOps approach is increasingly becoming popular. The year 2022 saw a huge momentum in the topics such as AI/ML, automation, security, etc. DevOps practices are constantly evolving, and it is our job to keep an eye on what to focus on in the coming year. 
 
 While security has always remained one of the biggest challenges for organizations, GitOps made a great move with cloud-native deployments, especially Kubernetes-related deployments. Many such trends positively impacted developers and organizations. However, keeping up with technological advancements and trends is very difficult. To make your lives easier, we are compiling some DevOps trends that will significantly impact the coming year. 

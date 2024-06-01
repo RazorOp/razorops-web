@@ -11,9 +11,6 @@ image: "/images/newsletter/bolster-infrastructure-as-code-security.png"
 heading: Bolster Infrastructure as Code Security
 ---
 
-![](/images/newsletter/bolster-infrastructure-as-code-security.png)
-<br>
-
 <a href="https://www.infosecurity-magazine.com/opinions/bolster-infrastructure-code/" target="_blank"><b>HowTo: Bolster Infrastructure as Code Security</b></a>
 
 Mitigating code-level issues requires that organizations factor security into engineering processes. This "shift-left" approach helps engineers identify and eliminate vulnerable code before deployment and reduce the window of exposure to threats. The approach requires scanning continuously during code creation, code commit, and within CI/CD pipelines.

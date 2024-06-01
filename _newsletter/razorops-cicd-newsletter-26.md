@@ -13,9 +13,6 @@ heading: 'Super Container OS: An Invaluable Resource for Container Start-up, Dep
   and Management'
 ---
 
-![](/images/newsletter/super-container-os.png)
-<br>
-
 # The Headlines
 
 <br>

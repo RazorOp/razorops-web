@@ -11,8 +11,6 @@ image: "/images/newsletter/common-cyber-threats-for-container-native-apps.gif"
 heading: Common Cyber Threats For Container-Native Applications
 ---
 
-![](/images/newsletter/common-cyber-threats-for-container-native-apps.gif)
-<br>
 
 Container-native applications are becoming increasingly popular due to their ease of deployment, scalability, and portability. However, they also pose new challenges for cybersecurity. Here are some common cyber threats that container-native applications are facing:
 

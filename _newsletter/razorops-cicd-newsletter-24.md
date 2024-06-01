@@ -11,8 +11,6 @@ image: "/images/newsletter/free-sbom-generation-tool.png"
 heading: Free SBOM Generation Tool to be integrated by Docker, Inc.
 ---
 
-![](/images/newsletter/free-sbom-generation-tool.png)
-<br>
 
  Docker, Inc. plans to embed the ability to dynamically generate a software bill of materials (SBOM) using the Docker Build command that developers use to build Docker images. Company CEO Scott Johnston says existing SBOM tools can't keep pace with the rate at which developers are ripping and replacing containers.
 
