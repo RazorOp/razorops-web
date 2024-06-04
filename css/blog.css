@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto"); */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+body{
+  font-family: Montserrat;
+}
 .feature-img {
   width: 30%,
   height 30%
@@ -123,6 +127,12 @@
 
 .blog-body{
   padding: 10px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 32px;
+  color: #18204c;
 }
 
 .blog-post-content a {
