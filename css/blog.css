@@ -221,11 +221,12 @@ body{
 
 .blog-post h1 {
   margin-top: 5px;
-  font-size: 1.2em;
+  font-size: 22px;
   margin-bottom: 10px;
 }
-
-
+.blog-post h1:hover{
+  color:#0069ff
+}
 .blog-post a {
   color: #242424;
   text-decoration: none;
@@ -372,9 +373,11 @@ body{
 
 .blog-post time {
   display: block;
-  color: #787878;
+  color: #5B6987;
   margin-top: 10px;
   margin-bottom: 20px;
+  font-weight: 500;
+  font-style: normal;
 }
 .latest-heading {
   margin-top: 0;
@@ -446,5 +449,9 @@ font-size: 2em;
 	overflow: hidden;
 	max-height: 6.5em;
 	line-height: 1.6em;
-
+  font-size: 15px;
+  /* line-height: 24px; */
+  font-style: normal;
+  font-family: Montserrat !important;
+  font-color:#5b5b5b;
 }

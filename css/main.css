@@ -875,10 +875,14 @@ background-size: 100% 100%;
 .customers-banner{
 text-align: center;
 padding: 150px 15px;
-background-image: url("/images/v2/home-banner.webp");
+/* background-image: url("/images/v2/home-banner.webp"); */
+background-image: url("https://rz-react.netlify.app/static/bg-75dd80098a3d7371d4ddde0018824f4d.png");
 background-color: #FFF;
 color: #FFF;
 margin-top: -80px;
+background-size: cover;
+position: relative;
+background-position: center;
 background-size: 100% 100%;
 
 }
