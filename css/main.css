@@ -5952,7 +5952,6 @@ padding-top: 0;
 	align-items: center;
 	gap: 8px;
 	flex-shrink: 0;
-	font-family: Roboto;
 	font-size: 14px;
 	line-height: 24px;
 	font-style: normal;
@@ -5970,3 +5969,9 @@ padding-top: 0;
 	font-size: 20px;
 	text-transform: uppercase;	
 }
+
+
+
+/** NEW V4 COMMON CSS **/
+
+
