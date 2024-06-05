@@ -7,7 +7,7 @@ layout: post
 date: '2019-06-15 14:15:43'
 author: Shyam Mohan
 category: Razorops News
-image: "/images/blog/Kubernetes-101-and-infrastructure-support-around-it-by-Shyam-from-Razorops.png"
+image: "/images/blog/Kubernetes-101-and-infrastructure-support-around-it-by-Shyam-from-Razorops.webp"
 ---
 
 We have got chance to present in Docker Events Hyderabad, Check Out Meetup PPT Slides bellow.
