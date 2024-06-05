@@ -1,5 +1,5 @@
 ---
-title: 2024-05-25-linux-commands-that-every-DevOps-engineer-should-know
+title: Linux commands that every DevOps engineer should know
 description: Some essential Linux commands that every DevOps engineer should
   know. These commands cover a range of functionalities including file and
   directory management, process management, system monitoring, networking, and
