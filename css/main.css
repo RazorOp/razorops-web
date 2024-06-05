@@ -60,8 +60,8 @@ margin-left: 25%;
 margin-top: 20px;
 }
 .searchbox .form-control {
-border-radius: 21px;
-height: 40px;
+border-radius: 30px;
+height: 50px;
 }
 
 .btn-animated {
@@ -880,13 +880,13 @@ padding: 150px 15px;
 background-image: url("https://rz-react.netlify.app/static/bg-75dd80098a3d7371d4ddde0018824f4d.png");
 background-color: #FFF;
 color: #FFF;
-margin-top: -80px;
 background-size: cover;
 position: relative;
 background-position: center;
 background-size: 100% 100%;
-
 }
+
+
 .customers-banner2{
 position: relative;
 text-align: center;
