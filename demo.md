@@ -8,7 +8,7 @@ canonical_url: https://razorops.com/demo/
 ---
 	
 <div class="customers-banner">
-	<img src="/images/v2/razorops-white-logo.png" height="45">
+	<img src="/images/v2/razorops-white-logo.webp" height="45">
 	<h2>Simplest Container Native CI/CD Platform</h2>
 </div>
 

@@ -1,13 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto"); */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+body{
+  font-family: Montserrat;
+}
 .feature-img {
-  width: 30%;
-  height 30%;
+  width: 30%,
+  height 30%
 }
 
 .blog-feature-img {
-  width: 30%;
-  height 30%;
+  width: 30%,
+  height 30%
 }
 
 
@@ -20,6 +24,9 @@
   min-height: calc(100vh - 80px);
   padding-top: 40px;
   padding-bottom: 40px;
+  background-image: url(https://rz-react.netlify.app/static/backgroundPattern-16047a138f95d0a5c4dff6d6440c15a4.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .blog-wraper2 {
   min-height: calc(100vh - 300px);
@@ -73,15 +80,17 @@
   font-weight: 400;
 }
 
-.blog-post {
-  /*background-color: #fff;*/
-}
+/* .blog-post {
+  background-color: #fff;
+} */
 
 .blog-post img {
   top: 50%;
   left: 50%;
   max-width: 100%;
-  border: 1px solid #EEE;
+  border-bottom: 2px solid #EEE;
+  border-radius: 16px;
+  object-fit: fill;
   box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
     0 8px 32px 0 rgba(55, 92, 192, 0.08);
 }
@@ -97,6 +106,8 @@
 
 .blog-content{
   border: 1px solid #EEE;
+  border-radius: 20px;
+  background-color: #f9fafe;
   box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
     0 8px 32px 0 rgba(55, 92, 192, 0.08);
   /* min-height: 480px !important; */
@@ -116,6 +127,12 @@
 
 .blog-body{
   padding: 10px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 32px;
+  color: #18204c;
 }
 
 .blog-post-content a {
@@ -204,11 +221,13 @@
 
 .blog-post h1 {
   margin-top: 5px;
-  font-size: 1.2em;
+  font-size: 21px;
   margin-bottom: 10px;
+  line-height: 1.2;
 }
-
-
+.blog-post h1:hover{
+  color:#0069ff
+}
 .blog-post a {
   color: #242424;
   text-decoration: none;
@@ -270,6 +289,7 @@
   border: 1px solid #ddd;
   color: #2017af;
   line-height: 30px;
+  font-size: 12px;
 }
 .blog-read-more:hover,
 .blog-read-more:focus {
@@ -355,9 +375,12 @@
 
 .blog-post time {
   display: block;
-  color: #787878;
+  color: #5B6987;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
 }
 .latest-heading {
   margin-top: 0;
@@ -429,5 +452,10 @@ font-size: 2em;
 	overflow: hidden;
 	max-height: 6.5em;
 	line-height: 1.6em;
-
+  font-size: 15px;
+  font-weight: 500;
+  /* line-height: 24px; */
+  font-style: normal;
+  font-family: Montserrat !important;
+  color:#5b5b5b;
 }
