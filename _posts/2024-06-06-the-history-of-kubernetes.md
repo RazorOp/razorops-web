@@ -1,5 +1,5 @@
 ---
-title: "2024-06-06-The History of Kubernetes "
+title: The History of Kubernetes
 description: Kubernetes was born at Google, based on the lessons learned from
   Google's internal cluster management system, Borg
 image: /images/blog/the-history-of-kubernetes.webp
