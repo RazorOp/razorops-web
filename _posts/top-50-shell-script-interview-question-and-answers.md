@@ -6,7 +6,7 @@ image: /images/blog/top-50-shell-script-interview-question-and-answers.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: shell script
+category: Linux
 date: 2024-06-07T00:52:00.000Z
 ---
 
