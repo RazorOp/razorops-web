@@ -1,16 +1,16 @@
 ---
-title: Unit Test vs Integration Test | Major Difference between Unit Testing and Integration
-  Test
-description: Lets Know about Unit Test & Integration Test along with their benefits.
-  Also check the Unit Test vs Integration Test major differences.
-permalink: "/blog/:title"
 layout: post
-date: '2022-03-25 16:19:08'
+keywords: QA, quality assurance, testing , type od testing, unit testing,
+  functional testing, test, test tools
+title: Unit Test vs Integration Test | Major Difference between Unit Testing and
+  Integration Test
+description: Lets Know about Unit Test & Integration Test along with their
+  benefits. Also check the Unit Test vs Integration Test major differences.
+image: /images/blog/unit-testing-integration-test.jpg
+permalink: /blog/:title
 author: Shyam Mohan
-category: Quality Assurance(QA)
-keywords: QA, quality assurance, testing , type od testing, unit testing, functional
-  testing, test, test tools
-image: "/images/blog/unit-testing-integration-test.jpg"
+category: Testing
+date: 2022-03-25 16:19:08
 ---
 
 Developing a quality software is considered incomplete without writing tests. Not only does the test assure the quality but it profoundly helps developers while refactoring or re-writing a piece of code. When it comes to testing, having well-planned and thorough testing throughout the software development cycle is very important. The most commonly used types of tests today are unit tests and integration tests.
