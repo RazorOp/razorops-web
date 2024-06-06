@@ -1,5 +1,5 @@
 ---
-title: 2024-05-24 Top 50 Shell Script Interview Question and Answers
+title: Top 50 Shell Script Interview Question and Answers
 description: A shell script is a program written for the shell, or command line
   interpreter, of an operating system.
 image: /images/blog/top-50-shell-script-interview-question-and-answers.webp
