@@ -6,7 +6,7 @@ image: /images/blog/how-to-create-static-pod-in-kubernetes.webp
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
-category: kubernetes
+category: Kubernetes
 date: 2024-05-17T00:27:00.000Z
 ---
 In Kubernetes a static pod is a concept where you can deploy a pod that is not managed by the API server.

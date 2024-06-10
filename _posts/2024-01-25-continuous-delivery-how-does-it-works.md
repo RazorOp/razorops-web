@@ -1,12 +1,14 @@
 ---
 title: What Is Continuous Delivery and How Does It Work?
-description: How does Continuous Delivery contribute to business efficiency, and what role does it play in streamlining and enhancing the software delivery process?
-permalink: "/blog/:title"
+description: How does Continuous Delivery contribute to business efficiency, and
+  what role does it play in streamlining and enhancing the software delivery
+  process?
+image: /images/blog/continuous-delivery-how-it-works.jpg
 layout: post
-date: '2024-01-25 05:00:00'
+permalink: /blog/:title
 author: Shyam Mohan
-category: cicd
-image: "/images/blog/continuous-delivery-how-it-works.jpg"
+category: CICD Pipelines
+date: 2024-01-25 05:00:00
 ---
 
 ### **What Is Continuous Delivery?**

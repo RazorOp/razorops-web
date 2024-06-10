@@ -1,12 +1,14 @@
 ---
 title: Migration Guide - Jenkins to Razorops
-description: Steps to Migrate Jenkins to Razorops. Razorops is the Simplest Container Native CI/CD Tool. Best alternative to Jenkins. Try for Free. Signup Now.
-permalink: "/blog/:title"
+description: Steps to Migrate Jenkins to Razorops. Razorops is the Simplest
+  Container Native CI/CD Tool. Best alternative to Jenkins. Try for Free. Signup
+  Now.
+image: /images/blog/jenkins-vs-razorops.png
 layout: post
-date: '2022-08-03 17:12:27'
+permalink: /blog/:title
 author: Shiva G
-category: CICD
-image: "/images/blog/jenkins-vs-razorops.png"
+category: Jenkins
+date: 2022-08-03 17:12:27
 ---
 
 Organizations are becoming more aware of the advantages of upgrading their continuous integration and continuous delivery (CI/CD) pipelines and moving them to the cloud, from lowering infrastructure costs to eliminating security threats. But carrying out a transfer is challenging, especially when a variety of platforms and technologies are involved.
