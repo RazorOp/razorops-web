@@ -6757,25 +6757,24 @@ text-align: center;
 }
 
 
-.top-header {
-    display: flex;
-    width: 100%;
-    height: 38px;
-    top: 0;
-    margin-top: -10px !important;
-    margin-bottom: 10px;
-    text-transform: capitalize !important;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 24px;
-    font-style: normal;
-    font-weight: 600;
-    background: #0069ff;
-    /* background: linear-gradient(90deg, #E4CAF8 0%, #FFCFAE 51.56%, #FAFFC6 100%); */
+.top-header{
+	display: flex;
+	width: 100%;
+	height: 38px;
+	top:0;
+	margin-top: -10px !important ;
+	margin-bottom: 10px;
+	text-transform: capitalize !important;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	flex-shrink: 0;
+	font-size: 14px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 600;
+	background: #0069ff;
+	/* background: linear-gradient(90deg, #E4CAF8 0%, #FFCFAE 51.56%, #FAFFC6 100%); */
 }
 
 .top-header a {
@@ -7365,3 +7364,13 @@ body {
         width: 140px
     }
 }
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;	
+}
+
+
+
+/** NEW V4 COMMON CSS **/
+
+
