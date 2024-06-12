@@ -7,7 +7,7 @@ image: /images/blog/top-50-monitoring-and-observality-interview-questions-and-an
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: Interview
+category: "Interview Questions "
 date: 2024-06-08T01:16:00.000Z
 ---
 
