@@ -5,7 +5,7 @@ image: /images/blog/top-50-cicd-interview-questions-and-answers.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: CICD
+category: "CICD Pipelines"
 date: 2024-06-08T12:11:00.000Z
 ---
 

@@ -6,7 +6,7 @@ image: /images/blog/the-history-of-kubernetes.webp
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
-category: kubernetes
+category: Kubernetes
 date: 2024-06-06T02:18:00.000Z
 ---
 

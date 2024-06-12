@@ -7,7 +7,7 @@ image: /images/blog/top-50-flexcd-interview-questions-and-answers.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: CICD
+category: FlexCD
 date: 2024-06-08T01:02:00.000Z
 ---
 

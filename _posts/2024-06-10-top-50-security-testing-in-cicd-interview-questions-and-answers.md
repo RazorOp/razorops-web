@@ -6,7 +6,7 @@ image: /images/blog/top-50-security-testing-in-cicd-interview-questions-and-answ
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: CICD
+category: Testing
 date: 2024-06-08T00:13:00.000Z
 ---
 **Top 50 Security Testing In CICD Interview Questions and Answers**

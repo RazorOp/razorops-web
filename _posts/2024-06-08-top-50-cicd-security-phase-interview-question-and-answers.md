@@ -6,7 +6,7 @@ image: /images/blog/top-50-cicd-security-phase-interview-question-and-answers.we
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: CICD
+category: Security
 date: 2024-06-07T23:55:00.000Z
 ---
 **Top 50 CICD Security Phase Interview Question and Answers**

@@ -7,7 +7,7 @@ image: /images/blog/top-50-cloud-engineer-interview-questions-and-answers.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: Cloud
+category: DevOps
 date: 2024-06-08T17:44:00.000Z
 ---
 **1.  What is cloud computing?**

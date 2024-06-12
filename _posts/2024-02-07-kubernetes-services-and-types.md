@@ -7,7 +7,7 @@ image: /images/blog/kubernetes-service-and-types.jpg
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
-category: kubernetes
+category: Kubernetes
 date: 2024-02-07 05:00:00
 ---
 

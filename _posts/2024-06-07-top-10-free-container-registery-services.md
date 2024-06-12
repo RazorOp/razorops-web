@@ -7,7 +7,7 @@ image: /images/blog/top-10-free-container-registery-services.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: "Container Registery "
+category: "Container Registery"
 date: 2024-06-08T17:55:00.000Z
 ---
 

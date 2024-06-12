@@ -6,7 +6,7 @@ image: /images/blog/conceptual-pillars.png
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
-category: kubernetes
+category: Kubernetes
 date: 2024-01-19 05:00:00
 ---
 

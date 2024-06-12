@@ -6,7 +6,7 @@ image: /images/blog/top-10-security-tools-for-cicd-process.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: CICD
+category: Security
 date: 2024-06-08T18:08:00.000Z
 ---
 

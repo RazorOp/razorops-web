@@ -6,7 +6,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2020-04-29 14:15:43'
 author: Shyam Mohan
-category: kubernetes
+category: Kubernetes
 image: "/images/blog/linode-kubernetes-engine.webp"
 ---
 

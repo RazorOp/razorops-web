@@ -7,7 +7,7 @@ image: /images/blog/top-50-sre-interview-question-and-answers.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: SRE
+category: DevOps
 date: 2024-06-08T12:31:00.000Z
 ---
 

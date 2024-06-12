@@ -6,7 +6,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2019-07-25 14:15:43'
 author: Shyam Mohan
-category: kubernetes
+category: Kubernetes
 image: "/images/blog/kubernetes-basic-architecture.png"
 ---
 
