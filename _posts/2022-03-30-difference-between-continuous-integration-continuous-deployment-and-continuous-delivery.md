@@ -6,7 +6,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2022-03-30 10:56:40'
 author: Shyam Mohan
-category: CI/CD
+category: "CICD Pipelines"
 keywords: CICD, CI/CD, workflow, pipeline, devops, continuous integration, continuous
   delivery, deployments, deploy, tests, testing
 image: "/images/blog/continuous-integration-continous-deployment.jpg"

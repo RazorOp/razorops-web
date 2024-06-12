@@ -6,7 +6,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-08-22 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "Docker"
 image: "/images/blog/best-practices-for-microservices-architecture.png"
 ---
 

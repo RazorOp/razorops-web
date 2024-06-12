@@ -9,7 +9,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2022-03-14 18:06:28'
 author: Shyam Mohan
-category: CI/CD
+category: "CICD Pipelines"
 image: "/images/v2/how-it-works.png"
 ---
 

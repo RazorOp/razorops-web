@@ -7,7 +7,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2022-09-28 16:42:53'
 author: Shiva G
-category: cicd
+category: "CICD Pipelines"
 image: "/images/blog/cicd-Interview-Questions.gif"
 ---
 

@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-12-22 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: Kubernetes
 image: "/images/blog/kubernetes.gif"
 ---
 

@@ -8,7 +8,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2022-09-01 10:16:21'
 author: Shiva G
-category: cicd
+category: "CICD Pipelines"
 image: "/images/blog/top-cicd-best-practices.gif"
 ---
 

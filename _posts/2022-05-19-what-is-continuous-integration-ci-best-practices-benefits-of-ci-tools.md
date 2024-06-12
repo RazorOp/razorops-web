@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2022-05-19 10:51:00'
 author: Shyam Mohan
-category: CI/CD
+category: "CICD Pipelines"
 image: "/images/blog/CICD Integration tools and best practices.png"
 ---
 

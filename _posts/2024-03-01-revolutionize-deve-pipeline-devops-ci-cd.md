@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2024-03-01 05:00:00'
 author: Shyam Mohan
-category: CI/CD
+category: "CICD Pipelines"
 image: "/images/blog/revolutionize-your-development-pipeline-embrace-devops-seamless-integration-continous-delivery.png"
 ---
 
