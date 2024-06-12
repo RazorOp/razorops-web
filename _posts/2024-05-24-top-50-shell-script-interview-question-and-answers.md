@@ -6,10 +6,10 @@ image: /images/blog/top-50-shell-script-interview-question-and-answers.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: Linux
-date: 2024-06-07T00:52:00.000Z
+category: Shell Script
+date: 2024-06-07T05:09:00.000Z
 ---
-
+**Top 50 Shell Script Interview Question and Answers**
 
 **1.  What is a shell script?**
     
