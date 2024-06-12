@@ -1,5 +1,5 @@
 ---
-title: 01-06-2024 Top 10 FREE Container Registery Services
+title: " Top 10 FREE Container Registery Services"
 description: Docker Hub offers unlimited public repositories and one private
   repository in its free plan. It includes 1 GB of storage and 100 GB of data
   transfer.
