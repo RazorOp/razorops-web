@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: DevOps
-date: 2024-06-08T11:42:00.000Z
+date: 2024-06-06T11:42:00.000Z
 ---
 
 ### 1. What is Google Cloud Platform (GCP)?

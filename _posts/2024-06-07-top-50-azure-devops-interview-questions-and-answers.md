@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: Azure
-date: 2024-06-08T11:33:00.000Z
+date: 2024-06-07T11:33:00.000Z
 ---
 
 **1.  What is Azure DevOps?**

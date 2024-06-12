@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: Testing
-date: 2024-06-08T18:02:00.000Z
+date: 2024-06-10T18:02:00.000Z
 ---
 **Top 10 Testing Tools for CICD Process**
 

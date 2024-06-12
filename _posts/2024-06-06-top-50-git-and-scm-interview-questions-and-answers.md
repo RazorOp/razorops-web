@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: GIT
-date: 2024-06-07T00:14:00.000Z
+date: 2024-06-06T00:14:00.000Z
 ---
 **Top 50 Git and SCM Interview Questions and Answers**
 

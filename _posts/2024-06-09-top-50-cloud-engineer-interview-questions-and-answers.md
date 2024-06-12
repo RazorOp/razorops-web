@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: DevOps
-date: 2024-06-08T17:44:00.000Z
+date: 2024-06-09T17:44:00.000Z
 ---
 **1.  What is cloud computing?**
     

@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: "Container Registery"
-date: 2024-06-08T17:55:00.000Z
+date: 2024-06-07T17:55:00.000Z
 ---
 
 **1.  Docker Hub:**

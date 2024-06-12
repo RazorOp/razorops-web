@@ -6,7 +6,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: "CICD Pipelines"
-date: 2024-06-08T12:11:00.000Z
+date: 2024-06-06T12:11:00.000Z
 ---
 
 **1.  What is CI/CD?**

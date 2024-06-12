@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: Security
-date: 2024-06-07T23:55:00.000Z
+date: 2024-06-08T23:55:00.000Z
 ---
 **Top 50 CICD Security Phase Interview Question and Answers**
 

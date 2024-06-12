@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: Testing
-date: 2024-06-08T00:13:00.000Z
+date: 2024-06-10T00:13:00.000Z
 ---
 **Top 50 Security Testing In CICD Interview Questions and Answers**
 

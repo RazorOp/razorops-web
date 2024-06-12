@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: Security
-date: 2024-06-08T18:08:00.000Z
+date: 2024-06-09T18:08:00.000Z
 ---
 
 Continuous Integration and Continuous Delivery (CI/CD) pipelines have become the backbone of efficient software delivery. However, with the increasing complexity of applications and the evolving threat landscape, ensuring the security and integrity of these pipelines is paramount. This blog dives into the top 10 security tools that can fortify your CI/CD processes, safeguarding your code and deployments from potential vulnerabilities and attacks.

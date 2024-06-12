@@ -6,7 +6,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: ArgoCD
-date: 2024-06-08T00:43:00.000Z
+date: 2024-06-11T00:43:00.000Z
 ---
 
 
