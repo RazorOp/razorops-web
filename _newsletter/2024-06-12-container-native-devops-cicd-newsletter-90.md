@@ -3,12 +3,11 @@ title: Container Native DevOps & CICD Newsletter 90
 description: Elevate Your DevOps by Mastering Kubernetes Deployment
 image: /images/blog/elevate-your-devops-by-mastering-kubernetes-deployment.gif
 layout: Newsletter
-permalink: /newsletter/razorops-cicd-newsletter-89
+permalink: /newsletter/razorops-cicd-newsletter-90
 author: Pooja Reddy
 category: Kubernetes
 date: 2024-06-17T00:39:00.000Z
 ---
-**Elevate Your DevOps by Mastering Kubernetes Deployment**
 
 software development landscape, businesses are under constant pressure to deliver reliable and scalable applications quickly. DevOps practices have become integral to achieving these goals, and Kubernetes has emerged as a pivotal tool in the DevOps toolkit. Kubernetes, an open-source container orchestration platform, enables automated deployment, scaling, and management of containerized applications. Mastering Kubernetes deployment can significantly elevate your DevOps processes, ensuring your applications are resilient, scalable, and maintainable.
 
