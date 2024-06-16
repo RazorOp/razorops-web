@@ -6,7 +6,7 @@ layout: newsletter
 permalink: /newsletter/razorops-cicd-newsletter-89
 author: Pooja Reddy
 category: Kubernetes
-date: 2024-06-16T21:52:00.000Z
+date: 2024-06-16T03:22:00.000Z
 ---
 # How To Build Docker Image In Kubernetes Pod
 
