@@ -1,7 +1,7 @@
 ---
 title: Container Native DevOps & CICD Newsletter 89
 description: How To Build Docker Image In Kubernetes Pod
-image: /images/blog/how-to-build-docker-image-in-kubernetes-pod-1-.webp
+image: /images/blog/how-to-build-docker-image-in-kubernetes-pod.webp
 layout: newsletter
 permalink: /newsletter/razorops-cicd-newsletter-89
 author: Pooja Reddy
