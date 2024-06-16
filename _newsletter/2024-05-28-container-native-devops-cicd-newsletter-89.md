@@ -8,8 +8,6 @@ author: Pooja Reddy
 category: Kubernetes
 date: 2024-06-16T02:21:00.000Z
 ---
-
-
 In the world of cloud-native applications, Kubernetes and Docker are two fundamental technologies that developers and DevOps professionals rely on. Kubernetes orchestrates containers, ensuring their scalability, resilience, and manageability. Docker, on the other hand, packages applications into lightweight, portable containers. A common use case is building Docker images directly within a Kubernetes pod, allowing for more dynamic and integrated workflows. This blog will guide you through the process of building Docker images inside a Kubernetes pod.
 
 **Building Docker in Docker**
