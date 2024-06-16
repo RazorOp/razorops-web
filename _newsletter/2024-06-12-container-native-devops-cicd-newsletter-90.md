@@ -1,5 +1,5 @@
 ---
-title: 2024-06-12-Container Native DevOps & CICD Newsletter 90
+title: Container Native DevOps & CICD Newsletter 90
 description: Elevate Your DevOps by Mastering Kubernetes Deployment
 image: /images/blog/elevate-your-devops-by-mastering-kubernetes-deployment.gif
 layout: Newsletter
