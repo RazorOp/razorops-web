@@ -202,4 +202,4 @@ PS- We publish this newsletters every week, Subscribe and share with your friend
 
 ![](https://razorops.com/images/newsletter/Razorops-Meeting-Pitch.gif)
 
-_PS- We are going to release newsletters every week, so don't forget to subscribe and share them with your network. We hope this newsletter has provided valuable information._
+PS- We are going to release newsletters every week, so don't forget to subscribe and share them with your network. We hope this newsletter has provided valuable information.
