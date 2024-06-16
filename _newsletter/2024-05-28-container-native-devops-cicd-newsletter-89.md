@@ -1,5 +1,5 @@
 ---
-title: 2024-05-28-Container Native DevOps & CICD Newsletter 89
+title: Container Native DevOps & CICD Newsletter 89
 description: How To Build Docker Image In Kubernetes Pod
 image: /images/blog/how-to-build-docker-image-in-kubernetes-pod.gif
 layout: newsletter
