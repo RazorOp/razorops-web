@@ -198,8 +198,4 @@ May 29, 8 :30 - 9:30 PM (PST)
 
 PS- We publish this newsletters every week, Subscribe and share with your friends. We hope this newsletter has provided valuable information. Follow RazorOps Linkedin Page  [Razorops, Inc.](https://www.linkedin.com/company/razorops/)  and give a FREE try to Our SaaS CICD product  [Sign up](https://dashboard.razorops.com/users/sign_up?utm_source=newsletter)  for RazorOps today and embark on a journey of automation, efficiency, and innovation. Your team and your projects deserve the best CICD automation tools.
 
-**_Sponsored_**
 
-![](https://razorops.com/images/newsletter/Razorops-Meeting-Pitch.gif)
-
-PS- We are going to release newsletters every week, so don't forget to subscribe and share them with your network. We hope this newsletter has provided valuable information.
