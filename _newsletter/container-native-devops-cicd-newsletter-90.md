@@ -6,7 +6,7 @@ layout: newsletter
 permalink: /newsletter/razorops-cicd-newsletter-90
 author: Pooja Reddy
 category: DevOps
-date: 2024-06-17T06:49:00.000Z
+date: 2024-06-17T06:53:00.000Z
 ---
 software development landscape, businesses are under constant pressure to deliver reliable and scalable applications quickly. DevOps practices have become integral to achieving these goals, and Kubernetes has emerged as a pivotal tool in the DevOps toolkit. Kubernetes, an open-source container orchestration platform, enables automated deployment, scaling, and management of containerized applications. Mastering Kubernetes deployment can significantly elevate your DevOps processes, ensuring your applications are resilient, scalable, and maintainable.
 
