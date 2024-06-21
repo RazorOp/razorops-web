@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-11-10 05:00:00'
 author: Shyam Mohan
-category: "Kubenetes"
+category: "Kubernetes"
 image: "/images/blog/k8s-exercise-label-and-annotations.png"
 ---
 

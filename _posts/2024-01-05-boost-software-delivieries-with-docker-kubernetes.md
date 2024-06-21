@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2024-01-05 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "CICD Pipelines"
 image: "/images/blog/boost-your-software-deliveries-with-docker-kubernetes.gif"
 ---
 

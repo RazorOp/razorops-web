@@ -1,4 +1,4 @@
-/---
+---
 title: Top 50 FluxCD Interview Questions and Answers
 description: FluxCD is a Continuous Integration and Continuous Deployment
   (CI/CD) tool designed to automate the software delivery process, from code

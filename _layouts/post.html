@@ -27,11 +27,16 @@
   
     <!-- navbar -->
     <header class="default-header">{% include header.html %}</header>
-    <br><br>   
+    
     <div class="content-wraper">
       <div class="blog-wraper">
         <div class="container">
           <div class="row">
+
+            <div class="col-md-3 hide-on-mobile">
+              {% include blog-menu.html %}
+            </div>
+
             <div class="col-sm-9">
               <div class="blog-post-content" id="blog-post-margins">
                 <div class="blog-post-body">
@@ -66,9 +71,7 @@
               {% endif %}
           </div>
           
-          <div class="col-md-3">
-            {% include blog-menu.html %}
-          </div>
+         
 
         </div>
       </div>

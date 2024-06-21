@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-10-28 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "CICD Pipelines"
 image: "/images/blog/key-principles-sucessfull-devops-implementation.gif"
 ---
 

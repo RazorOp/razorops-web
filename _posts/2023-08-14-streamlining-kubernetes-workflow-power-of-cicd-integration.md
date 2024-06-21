@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-09-01 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "CICD Pipelines"
 image: "/images/blog/streamlining-kubernetes-workflow-ci-cd.jpg"
 ---
 

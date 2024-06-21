@@ -1583,10 +1583,13 @@ background-color: #f3f5f9;
 .pricing .card {
 border: none;
 transition: all 0.2s;
+border: 1px solid #f8f8f8;
+border-radius: 6px;	
 box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-background: #FFF;
+background: #f8f8f8;
 padding: 15px;
 min-height: 480px;
+margin-bottom: 20px;
 }
 
 .pricing .top-plan{
@@ -1902,7 +1905,7 @@ margin-left: -1px;
 margin-top: 10px;
 }
 .content-wraper {
-margin-top: 60px;
+margin-top: 19px;
 }
 }
 /* 
@@ -5841,10 +5844,18 @@ width: calc(49% - 1px);
 width: calc(49% - 1px);
 }
 
- @media only screen and (max-width: 767px) {
-.half {
-flex: 100%; /* Set full width for each section on smaller screens */
-}
+@media only screen and (max-width: 767px) {
+	.half {
+	flex: 100%; /* Set full width for each section on smaller screens */
+	}
+
+	.signup-cta-section .v3signup-inner .v3signup-cta-text .head2 {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 40px;
+	}
+
+
 }
 
 .customers-banner.mt-10.do-banner-home-			pd {
@@ -5887,4 +5898,10 @@ padding-top: 0;
 
 /** NEW V4 COMMON CSS **/
 
-
+.whatsapp {
+	position: sticky;
+	bottom: 0px;
+	text-align: left;
+	z-index: 1;
+	
+}
