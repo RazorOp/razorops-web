@@ -5406,21 +5406,19 @@ padding: 10px 50px;
 
 
 .signup-cta-section{
-background-color: #345EEF;
-padding: 30px 0px;
-color: white;
+	background-image: linear-gradient(135deg, #4e91ff 0%, #141de4 100%);
+	padding: 30px 0px;
+	color: white;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-text .head1{
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
-line-height: 49px;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-text .head2{
 font-style: normal;
 font-weight: 700;
-font-size: 60px;
-line-height: 90px;
+font-size: 48px;
 }
 .signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
 margin-top: 45px;
@@ -5623,39 +5621,7 @@ color: rgb(45, 34, 140);
 font-weight: 600;
 
 }
-.signup-cta-section{
-background-color: #345EEF;
-padding: 80px 0px;
-color: white;
-}
-.signup-cta-section .v3signup-inner .v3signup-cta-text .head1{
-font-style: normal;
-font-weight: 600;
-font-size: 29px;
-line-height: 40px;
-}
-.signup-cta-section .v3signup-inner .v3signup-cta-text .head2{
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 80px;
-}
-.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
-margin-top: 45px;
-font-style: normal;
-font-weight: 700;
-font-size: 90px;
-line-height: 90px;
-padding: 40px 60px;
-position: relative;
-left: -100px;
-top: 0;
-animation: getstartedarrow 5s infinite;
-animation-name: getstartedarrow;
-animation-duration: 4s;
-animation-delay: 2s;
 
-}
 @keyframes getstartedarrow {
 0%   { left:0px; top:0px;}
 25%  { left:80px; top:0px;}
@@ -5833,59 +5799,6 @@ width: 80% !important;
   display: none;
 }
 
-
-
-
-
-.signup-cta-section-devcon{
-background-color: #345EEF ;
-padding: 30px 0px;
-color: white;
-}
-.signup-cta-section-devcon .v3signup-inner .v3signup-cta-text .head1{
-font-style: normal;
-font-weight: 600;
-font-size: 29px;
-line-height: 40px;
-}
-.signup-cta-section-devcon .v3signup-inner .v3signup-cta-text .head2{
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 80px;
-}
-.signup-cta-section-devcon .v3signup-inner .v3signup-cta-arrow .cta-arrow{
-margin-top: 45px;
-font-style: normal;
-font-weight: 700;
-font-size: 90px;
-line-height: 90px;
-padding: 40px 60px;
-position: relative;
-left: -100px;
-top: 0;
-animation: getstartedarrow 5s infinite;
-animation-name: getstartedarrow;
-animation-duration: 4s;
-animation-delay: 2s;
-}
-
-.signup-cta-section-devcon .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
-justify-content: center;
-align-items: center;
-padding: 12px 5px;
-width: 300px;
-margin-top: 70px;
-background: #FFFFFF;
-border-radius: 25px;
-font-style: normal;
-font-weight: 900;
-font-size: 20px;
-line-height: 26px;
-color: #345EEF;
-white-space:unset;
-margin-right: 10px;
-}
 
 @media screen and (max-width:767px){
 .signup-cta-section-devcon .v3signup-inner .v3signup-cta-arrow .cta-arrow{
