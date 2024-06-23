@@ -164,6 +164,12 @@ border-color: #1835cd;
 		text-decoration: none;
 
 }
+
+#navbar li:hover{
+	background-color: #f2f2f2;
+	border-radius: 4px !important;
+}
+
 a{
 	text-decoration: none !important;
 }
