@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-06-27T01:22:00.000Z
+date: 2024-06-27T01:40:00.000Z
 ---
 **What is AWS Fargate?**
 
