@@ -1,5 +1,5 @@
 ---
-title: 2024-06-27-AWS Serverless Application Repository
+title: AWS Serverless Application Repository
 description: It is a managed repository for serverless applications. It is used
   by organizations and independent developers to store and share reusable
   applications.
