@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-06-27T01:16:00.000Z
+date: 2024-06-21T06:46:00.000Z
 ---
 
 **What is AWS Serverless Application Repository?**
