@@ -1035,7 +1035,7 @@ right: 10px;;
 }
 
 .customers-banner {
-    text-align: center;
+    /* text-align: center; */
     padding: 150px 15px;
     /* background-image: url("/images/v2/home-banner.webp"); */
     background-image: url("../images/bg-75dd80098a3d7371d4ddde0018824f4d.webp");
@@ -1048,10 +1048,230 @@ right: 10px;;
     background-size: 100% 100%;
 
 }
+.css-rpele6 {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+}
+@media (min-width: 1200px) {
+    .css-1ucc15y {
+        flex-basis: 50%;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+}
+.css-1ucc15y {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .css-1fs6h3g {
+        font-size: 50px;
+        line-height: 77px;
+    }
+}
+.css-1fs6h3g {
+    font-family: MontserratMedium;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: left;
+}
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .css-1wsvtv1 {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+.css-1wsvtv1 {
+    padding: 20px 0px 0px 0px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+    text-align: left;
+}
+@media (min-width: 1200px) {
+    .css-1o35fvd {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+}
+.css-1o35fvd{
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+.css-1d3bbye {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+}
+@media (min-width: 1200px) {
+    .css-1u97ff2 {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+}
+.css-1u97ff2{
+    box-sizing: border-box;
+    margin: 0;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 1200px) {
+    .css-twpyvg {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+}
+.css-twpyvg{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.css-1wxaqej{
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.css-q5k7tr {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: -16px;
+    width: calc(100% + 16px);
+    margin-left: -16px;
+}
+
+.img-latest-post{
+    width: 575px !important;
+    height: auto;
+    margin-top: 25px;
+    padding: 0px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .css-1ildjns {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+.css-1ildjns {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+    text-align: left;
+}
+/* .css-1wxaqej{
+    padding-left: 16px;
+    padding-top: 16px;
+} */
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .css-84hkkp {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+.css-84hkkp {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: left;
+}
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .css-1myx1rc {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+.css-1myx1rc {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    text-align: left;
+}
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .customers-banner {
+        padding: 100px 100px 50px;
+    } 
+}
 
 .customers-banner2 {
     position: relative;
-    text-align: center;
+    text-align: left;
     padding: 150px 15px;
     margin-top: -80px;
 }
@@ -1101,9 +1321,9 @@ right: 10px;;
 
 
 @media(max-width: 767px) {
-    .customers-banner {
+    /* .customers-banner {
         padding: 100px 15px;
-    }
+    } */
 
     .customers-banner2 {
         padding: 100px 15px;
@@ -1132,7 +1352,7 @@ right: 10px;;
 }
 
 .customers-banner img {
-    max-width: 240px;
+    width: 240px;
     height: auto;
 }
 
@@ -1980,16 +2200,16 @@ css-1fs6h3g {
 
 @media (min-width: 1200px) and (max-width: 1535px) {
     .css-1fs6h3g {
-        font-size: 50px;
-        line-height: 77px;
+        /* font-size: 50px; */
+        /* line-height: 77px; */
     }
 }
 .css-1fs6h3g {
     font-family: MontserratMedium;
     font-weight: 600;
     font-style: normal;
-    /* font-size: 60px; */
-    /* line-height: 90px; */
+    font-size: 60px;
+    line-height: 90px;
     color: #ffffff;
 }
 .css-ezwp13 {
@@ -5958,8 +6178,6 @@ width:auto;
 .btn-razorops:focus {
     color: white !important;
 }
-
-
 @media screen and (max-width:767px) {
     .signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow {
         display: none !important;
@@ -8197,3 +8415,4 @@ padding: 10px;
     /* vertical-align: middle; */
     border-style: solid;
 }
+

@@ -6,15 +6,58 @@ canonical_url: https://razorops.com/news-and-updates
 ---
 
 <div class="customers-banner">
-  <img src="/images/v2/razorops-white-logo.png" height="45">
-  <h2>Simplest Container Native CI/CD Platform</h2>
-  <h2>News & Updates</h2>
-  <div class="searchbox">
-    <center>
-    {% include newsletter-search.html %}
-    </center>
+
+  <div class="css-rpele6">
+
+    <div class="css-1ucc15y">
+      <span class="css-1fs6h3g">News & Updates</span>
+      <span class="css-1wsvtv1">Simplest Container Native CI/CD Platform</span>
+    </div>
+
+    <div class="css-1o35fvd">
+      <div class="searchbox">
+        <center>{% include newsletter-search.html %}</center>
+      </div>
+    </div>
+
   </div>
+
+  <div class="css-1d3bbye">
+
+      <div class="img-latest-post">
+      {% assign latest_post = site.posts.first %}
+      <img src="{{ latest_post.image }}" alt="{{latest_post.title}}" class="img-latest-post"/>
+
+    </div>
+
+    <div class="css-twpyvg">
+      <div class="css-q5k7tr">
+        <div class="css-1wxaqej">
+      <span class="css-1ildjns">{{ latest_post.date }}</span>
+    </div>
+        <div class="css-1wxaqej">
+      <span class="css-84hkkp">{{latest_post.title}}</span>
+    </div>
+        <div class="css-1wxaqej">
+      <span class="css-1myx1rc">{{latest_post.description}}</span>
+    </div>
+      <div class="css-1wxaqej">
+      <span class="css-name" style="text-align: left;">{{latest_post.author}}</span>
+        </div>
+    </div>
+    </div>
+  </div>
+
+
 </div>
+<!-- <img src="/images/v2/razorops-white-logo.png" height="45">
+<h2>Simplest Container Native CI/CD Platform</h2>
+<h2>News & Updates</h2>
+<div class="searchbox">
+  <center>
+  {% include newsletter-search.html %}
+  </center>
+</div> -->
 <!-- <p>.css-10dlnw1</p> -->
 <div class="container">
   <div class="blog-wraper">
