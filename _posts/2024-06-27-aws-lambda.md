@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-06-27T01:09:00.000Z
+date: 2024-06-22T06:39:00.000Z
 ---
 
 **What is AWS Lambda?**
