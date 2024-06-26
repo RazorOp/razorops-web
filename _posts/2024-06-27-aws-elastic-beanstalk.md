@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-06-27T02:11:00.000Z
+date: 2024-06-26T07:41:00.000Z
 ---
 
 
