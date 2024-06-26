@@ -1,5 +1,5 @@
 ---
-title: 2024-06-27- AWS Elastic Beanstalk
+title: AWS Elastic Beanstalk
 description: Beanstalk is a compute service for deploying and scaling
   applications developed in many popular languages.
 image: /images/blog/aws-elastic-beanstalk.webp
