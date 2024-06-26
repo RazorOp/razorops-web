@@ -1,5 +1,5 @@
 ---
-title: 2024-06-27-AWS Fargate
+title: AWS Fargate
 description: AWS Fargate is a serverless compute service that is used for
   containers by Amazon Elastic Container Service (ECS) and Amazon Elastic
   Kubernetes Service (EKS).
