@@ -39,6 +39,26 @@ background-size: cover;
 padding: 200px 0 168px 0;
 }
 
+.getstarted-text {
+	color: #18204C;
+	font-size: 20px;
+	text-transform: uppercase;	
+}
+
+
+.hero__text{
+	margin: 20px 0px 40px 0px ;
+	color: #18204C;
+	text-align: left !important;
+}
+
+.hero__title{
+font-weight: 900 !important; 
+font-size: 68px !important;
+color: #18204C;
+}
+
+
 .instructors_background {
 /* position: absolute; */
 bottom: 0;
@@ -484,6 +504,16 @@ font-size: 19px;
 	background-color: #FFF;
 
 	}
+
+	.hero__title{
+		font-weight: 900 !important; 
+		font-size: 55px !important;
+		color: #18204C;
+		}
+
+	.banner-msg p{
+		display: none !important;
+	}
 }
 
 .nav-dropdown button {
@@ -679,12 +709,11 @@ overflow: hidden;
 position: relative;
 width: 70%;
 /* float: left; */
-margin-top: -45px;
 }
 .banner-msg p {
-font-weight: 400;
-font-size: 20px;
-text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+	width: 750px;
 }
 .banner-actions {
 margin-top: 30px;
@@ -1093,9 +1122,7 @@ font-size: 3.5em;
 .banner-illustration {
 display: none;
 }
-.banner-msg p {
-font-size: 19px;
-}
+
 .banner-actions .btn {
 display: block;
 width: 100% !important;
@@ -3609,9 +3636,7 @@ color: #000;
 text-decoration: none;
 cursor: pointer;
 }
-.modal-dialog{
-width: 60% !important;
-}
+
 .modal-video {
 background-color: #fefefe;
 margin: auto;
@@ -3686,10 +3711,7 @@ border: 1px solid #888;
 width: 94%;
 
 }
-.modal-dialog{
-width: 90% !important;
-margin: 20px !important;
-}
+
 .close {
 color: #aaaaaa;
 float: right;
@@ -4226,22 +4248,6 @@ border-radius: 10px;
 	color: #FFF;
 }
 
-.getstarted-text {
-	color: #18204C;
-	font-size: 20px;
-	text-transform: uppercase;	
-}
-
-
-.hero__text{
-margin: 20px 0px 40px 0px ;
-color: #18204C;
-}
-.hero__title{
-font-weight: 900 !important; 
-font-size: 70px !important;
-color: #18204C;
-}
 
 
 
