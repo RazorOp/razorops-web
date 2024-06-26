@@ -1,5 +1,5 @@
 ---
-title: 2024-06-27-AWS Lambda
+title: AWS Lambda
 description: AWS Lambda is a serverless compute service through which you can
   run your code without provisioning any Servers.
 image: /images/blog/aws-lambda.webp
