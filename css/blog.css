@@ -24,7 +24,7 @@ body{
   min-height: calc(100vh - 80px);
   padding-top: 40px;
   padding-bottom: 40px;
-  background-image: url(https://rz-react.netlify.app/static/backgroundPattern-16047a138f95d0a5c4dff6d6440c15a4.png);
+  background-image: url("../images/backgroundPattern-16047a138f95d0a5c4dff6d6440c15a4.webp");
   background-repeat: no-repeat;
   background-size: auto;
 }
