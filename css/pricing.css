@@ -1,0 +1,181 @@
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .pricing-banner {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+.pricing-banner {
+        background-image: url("../images/bg-75dd80098a3d7371d4ddde0018824f4d.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: left;
+        justify-content: space-between;
+        flex-direction: column;
+}
+.css-1d3bbye {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+@media (min-width: 1200px) {
+    .css-1wog7mh {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+}
+.css-1wog7mh {
+    box-sizing: border-box;
+    margin: 0;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex-grow: 0;
+    max-width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #345eef 0%, #1717d2 100%);
+}
+.css-1d3bbye {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.css-1wxaqej {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .css-qgjnqp {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+.css-qgjnqp {
+    font-family: MontserratMedium;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 70px;
+    color: #ffffff;
+}
+.css-1wxaqej {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.css-1o2idgf {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+}
+@media (min-width: 1200px) {
+    .css-1osi11u {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+}
+.css-1osi11u {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    padding: 60px 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.css-1d3bbye {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+@media (min-width: 1200px) {
+    .css-c3qbe8 {
+        -webkit-flex-basis: 25%;
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 25%;
+    }
+}
+.css-c3qbe8 {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.css-3zyr41 {
+    width: 120px;
+}
