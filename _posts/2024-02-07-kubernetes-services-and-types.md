@@ -1,12 +1,14 @@
 ---
 title: Kubernetes Services & Types
-description: What are Kubernetes services, and what are the different types available for managing networking and communication between pods in a Kubernetes cluster?
-permalink: "/blog/:title"
+description: What are Kubernetes services, and what are the different types
+  available for managing networking and communication between pods in a
+  Kubernetes cluster?
+image: /images/blog/kubernetes-service-and-types.jpg
 layout: post
-date: '2024-02-07 05:00:00'
+permalink: /blog/:title
 author: Shyam Mohan
-category: cicd
-image: "/images/blog/kubernetes-service-and-types.jpg"
+category: Kubernetes
+date: 2024-02-07 05:00:00
 ---
 
 Kubernetes stands out as a powerful tool for managing, scaling, and deploying containerized applications. At the heart of Kubernetes lies its service management capabilities, which play a crucial role in facilitating communication between various components within a cluster. In this guide, we delve into Kubernetes services, exploring their types, functionalities, and best practices.

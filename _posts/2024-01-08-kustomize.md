@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2024-01-08 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "Kubernetes"
 image: "/images/blog/kustomize.jpg"
 ---
 

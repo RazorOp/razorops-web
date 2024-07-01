@@ -6,7 +6,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2022-11-05 04:00:00'
 author: Shyam Mohan
-category: cicd
+category: "CICD Pipelines"
 image: "/images/blog/best-open-source-cicd-tools-2022.png"
 ---
 

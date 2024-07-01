@@ -6,7 +6,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2018-09-26 14:15:43'
 author: Shyam Mohan
-category: kubernetes
+category: Kubernetes
 image: "/images/blog/kubernetes-and-containers-adoption-report.png"
 ---
 

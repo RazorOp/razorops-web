@@ -3,7 +3,7 @@ title: Container Native DevOps & CICD Newsletter 1
 description: Get the latest updates on container-native & DevOps news with the new
   Kubernetes v1.24 release and its latest features along with top picks for the week
   and upcoming events you don't want to miss.
-permalink: "/newsletter/razorops-cicd-newsletter-1/"
+permalink: "/newsletter/razorops-cicd-newsletter-1"
 layout: newsletter
 date: '2022-04-25 15:02:00'
 author: Aditi Mishra

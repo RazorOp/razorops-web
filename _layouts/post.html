@@ -27,11 +27,16 @@
   
     <!-- navbar -->
     <header class="default-header">{% include header.html %}</header>
-    <br><br>   
+    
     <div class="content-wraper">
       <div class="blog-wraper">
         <div class="container">
           <div class="row">
+
+            <div class="col-md-3 hide-on-mobile">
+              {% include blog-menu.html %}
+            </div>
+
             <div class="col-sm-9">
               <div class="blog-post-content" id="blog-post-margins">
                 <div class="blog-post-body">
@@ -45,34 +50,49 @@
                 </div>
               </div>
 
-              <br>
+              <!-- <br>
               <div class="blog-post-content" id="blog-post-margins">
                 <center><p><b>Enjoyed this article? Share it.</b><p></center>
                 <br>
-              <div class="sharethis-inline-share-buttons"></div>
-              </div>
+                <div class="sharethis-inline-share-buttons"></div>
+              </div> -->
+
               <br>
+              <a href="/meet-shyam" title="Meet Shyam">
+                <img src="/images/blog/meet-razorops-team.jpg" alt="meet razorops team" class="img-responsive" style="border-radius: 12px;">
+              </a>
 
-              {% if page.author == "Shyam Mohan" %}
-                {% include about-shyam.html %}
-                {% elsif page.author == "Sravani Bikkina" %}
-                {% include about-sravani.html %}
-              {% elsif page.author == "Saurabh Yadav" %}
-                {% include about-saurabh.html %}
-              {% elsif page.author == "Shiva G" %}
-                {% include about-shiva.html %} 
-              {% elsif page.author == "Maheshwari Dantuluri" %}
-                {% include about-maheshwari.html %}    
-              {% endif %}
           </div>
-          
-          <div class="col-md-3">
-            {% include blog-menu.html %}
-          </div>
-
         </div>
       </div>
     </div>
+
+
+    <div class="container container-center">
+      <div class="blog-wraper2">
+        <div class="blog-post">
+          {% assign blogs = page | related_posts_by_category: site.posts  %} {% for post in blogs limit:6 %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <div class="col-sm-3 post-box">
+              <div class="blog-content">
+                <img src="{{ post.image }}" />
+                <div class="blog-body">
+                  <!-- <time class="pull-right">{{ post.date | date_to_string }}</time> -->
+                  <h1>{{ post.title }}</h1>
+                  <p class="blogs-description">{{ post.description}}</p>
+                  <br />
+                  <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more"
+                    >Read More</a
+                  > -->
+                </div>
+              </div>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
     {% include footer.html %}
   </body>
 </html>

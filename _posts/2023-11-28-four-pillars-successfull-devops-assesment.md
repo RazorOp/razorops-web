@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-11-28 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "DevOps"
 image: "/images/blog/four-pillars-successfull-devops-assesment.png"
 ---
 

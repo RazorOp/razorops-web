@@ -41,3 +41,7 @@ collections:
     output: true
     permalinks: /blog/:title/
 
+  pages:
+    output: true
+    permalinks: /:title/
+

@@ -106,12 +106,12 @@ body{
 
 .blog-content{
   border: 1px solid #EEE;
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: #f9fafe;
   box-shadow: 0 0 1px 0 rgba(18, 32, 73, 0.08),
     0 8px 32px 0 rgba(55, 92, 192, 0.08);
   /* min-height: 480px !important; */
-  height: 482px !important;
+  height: 452px !important;
 }
 
 .blog-post-content p {
@@ -458,4 +458,11 @@ font-size: 2em;
   font-style: normal;
   font-family: Montserrat !important;
   color:#5b5b5b;
+}
+
+/* Hide elements for mobile view (devices with a width of 600px or less) */
+@media only screen and (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
 }

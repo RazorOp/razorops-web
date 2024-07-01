@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-10-18 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "CICD Pipelines"
 image: "/images/blog/power-of-automation-devops.png"
 ---
 

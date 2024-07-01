@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-08-14 04:00:00'
 author: Shyam Mohan
-category: cicd
+category: "DevOps"
 image: "/images/blog/best-practices-for-implementing-devops-in-organizations.png"
 ---
 

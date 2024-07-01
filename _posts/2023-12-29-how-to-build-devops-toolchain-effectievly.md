@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-12-29 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "DevOps"
 image: "/images/blog/how-build-devops-tool-chain.gif"
 ---
 

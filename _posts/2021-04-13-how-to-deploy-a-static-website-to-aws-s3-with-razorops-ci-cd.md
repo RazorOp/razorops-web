@@ -7,7 +7,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2021-04-13 14:15:43'
 author: Shyam Mohan
-category: AWS S3
+category: Razorops CICD
 image: "/images/blog/how-to-deploy-a-static-website-to-aws-s3-with-razorops-ci-cd.webp"
 ---
 

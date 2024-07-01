@@ -6,7 +6,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2022-05-23 11:28:58'
 author: Saurabh Yadav
-category: CI/CD
+category: "Razorops CICD"
 image: "/images/blog/Salesforce-lightning-web-component-pipeline-with-razorops.png"
 ---
 

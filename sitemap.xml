@@ -9,1192 +9,1447 @@
 
 <url>
   <loc>https://razorops.com/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://razorops.com/about</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://razorops.com/contact</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://razorops.com/product</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/pricing</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/jenkins-alternative/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/blog</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/webinars/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/customers</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/news-and-updates</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/schedule-demo</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://razorops.com/try-razorops-cicd-with-digital-ocean-kubernetes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://razorops.com/schedule-demo?utm_source=https%3A%2F%2Frazorops.com%2F&amp;utm_medium=CTA-Schedule-Demo&amp;utm_campaign=Razorops-Schedule-Demo</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/case-studies/maxamtech/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/case-studies/applozic/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/case-studies/72pi/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://razorops.com/devops/2024/04/05/role-and-responsibelities-of-devops-sre-platform-engineering-and-cloud-engineering</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/aws-elastic-beanstalk/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/enhancing-collaboration-between-development-operations-with-devops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/aws-batch/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/effective-monitoring-and-alerting-strategies-in-devops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/amazon-ec2/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-87</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-90</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-86</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-89</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-85</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-88</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://razorops.com/try-razorops-cicd-with-microsoft-azure-kubernetes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/about</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://razorops.com/contact</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/open-source</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/partners</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/referral</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/write-for-us</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/faq</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/terms-of-service</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/privacy-policy</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/security</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://razorops.com/schedule-demo?utm_source=signup_banner</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://razorops.com/try-razorops-cicd-with-microsoft-azure-kubernetes/?utm_source=azure_banner</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://razorops.com/schedule-demo?utm_source=azure_banner</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/sitemap</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://razorops.com/schedule-demo?utm_source=Jenkins-alternative&amp;utm_medium=schedule-demo-cta&amp;utm_campaign=signup-Jenkins-alternative</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/how-to-host-free-static-website-on-azure-storage-with-custom-domain-and-free-razorops-ci-cd-pipeline/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/aws-fargate/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/containerization-and-devops-optimizing-deployment-with-docker-and-kubernetes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/aws-lambda/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/streamlining-deployment-pipelines-with-devops-automation/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/aws-serverless-application-repository/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/unlocking-efficiency-collaboration-poer-of-devops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/unlocking-devops-strategies-insights-and-best-practices-for-seamless-software-delivery/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/revolutionize-deve-pipeline-devops-ci-cd/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-sre-interview-question-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/what-is-kubernetes-pod-qos/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-argocd-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/diving-container-registry-in-depth-overview/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-terraform-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/kubernetes-services-and-types/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-10-testing-tools-for-cicd-process/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/continuous-delivery-how-does-it-works/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-security-testing-in-cicd-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/conceptual-pillars-of-kubernetes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-10-security-tools-for-cicd-process/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/stages-of-ci-cd-pipeline/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-cloud-engineer-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/git/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-cicd-security-phase-interview-question-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/kustomize/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-10-logging-and-monitoring-tools/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/boost-software-delivieries-with-docker-kubernetes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-aws-devops-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/how-to-build-devops-toolchain-effectievly/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-10-free-container-registery-services/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/kubernetes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-azure-devops-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/benifits-of-usingcontainerization-devops-workflow/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-shell-script-interview-question-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/five-extensions-make-development-life-easier/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-cicd-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/four-pillars-successfull-devops-assesment/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-gcp-devops-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/role-of-containers-kubernetes-devops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/the-history-of-kubernetes</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/devops-automation-best-practices/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-monitoring-and-observality-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/k8s-exercise-labels-annotations/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-fluxcd-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/security-devops-best-practices-tokeep-your-pipeline-secure/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-50-git-and-scm-interview-questions-and-answers/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/key-principles-successful-devops-implementation/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/razorops-proud-sponsor-of-cncf-kcd-hyderabad-join-us-on-june-22nd-at-t-hub</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/simplyfying-kubernetes-native-testing-with-testkube/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/linux-commands-that-every-devops-engineer-should-know</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/power-of-automation-in-devops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-kubernetes-interview-questions-and-answers</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/evolution-of-devops-from-concept-best-practice/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-docker-interview-questions-and-answers</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/kubernetes-autoscaling-for-continous-integration-deployment/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-helm-interview-questions-and-answers</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/unlocking-kubernetes-deployment-excellence-with-cd-automation/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/jenkins-is-no-longer-free-why-razorops-ci-cd-is-the-best-free-forever-alternative</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/simplifying-kubernetes-infrastructure-with-cdk8s/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/mastering-automated-testing-in-cicd-pipelines</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/maximizing-efficiency-collaboration-with-top-tier-devops-services/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/how-to-streamline-your-deployment-pipeline-a-devops-journey</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/streamlining-kubernetes-workflow-power-of-cicd-integration/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/how-to-create-static-pod-in-kubernetes</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/microservices-architecture/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/how-devops-is-revolutionizing-software-development-a-guide-to-success</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/best-practices-to-implement-devops-in-orginazation/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/top-10-kubernetes-alternatives</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/best-open-source-ci-cd-tools-for-2022/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/devops-interview-questions-and-answers</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/5-types-of-git-workflow-&amp;-explanation-of-each-flow/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/test-automation-best-practices-maximizing-efficiency-and-effectiveness</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/top-20-ci-cd-pipeline-interview-questions-answers/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/what-are-devops-principles-and-its-benefits</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/difference-between-docker-image-docker-container/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/the-future-of-testing-unlocking-potential-with-automation</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/top-8-ci-cd-best-practices-for-building-successful-applications/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/automating-quality-accelerating-testing-processes-for-agile-development</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/migration-guide-jenkins-to-razorops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/mastering-test-automation-strategies-for-efficient-quality-assurance</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/salesforce-lightning-web-component-pipeline-with-razorops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/linux-errors-solution-with-explanation</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/what-is-continuous-integration-ci-best-practices-benefits-of-ci-tools/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/maximizing-roi-the-business-value-of-investing-in-automation-solutions</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/role-and-responsibelities-of-devops-sre-platform-engineering-and-cloud-engineering</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/devops-for-startups/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/enhancing-collaboration-between-development-operations-with-devops</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/razorops-ci-cd-with-heroku-apps/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/effective-monitoring-and-alerting-strategies-in-devops</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/what-is-virtualization-top-5-benefits-of-virtualization/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/how-to-host-free-static-website-on-azure-storage-with-custom-domain-and-free-razorops-ci-cd-pipeline</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/devops-glossary/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/containerization-and-devops-optimizing-deployment-with-docker-and-kubernetes</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/docker-cheat-sheet/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/streamlining-deployment-pipelines-with-devops-automation</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/functional-programming-vs-object-oriented-programming/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/unlocking-efficiency-collaboration-poer-of-devops</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/difference-between-continuous-integration-continuous-deployment-and-continuous-delivery/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/revolutionize-deve-pipeline-devops-ci-cd</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/unit-test-vs-integration-test-major-difference-between-unit-testing-and-integration-test/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/what-is-kubernetes-pod-qos</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/diving-container-registry-in-depth-overview</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/how-to-deploy-a-static-website-to-aws-s3-with-razorops-ci-cd/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/kubernetes-services-and-types</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/razorops-cicd-with-linode-kubernetes-engine/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/continuous-delivery-how-does-it-works</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/how-tech-teams-are-making-extraordinary-progress-in-covid-19-shutdown-while-working-remotely/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/conceptual-pillars-of-kubernetes</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/introduction-to-helm-3-the-package-manager-for-kubernetes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/stages-of-ci-cd-pipeline</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/best-docker-image-hosting-platforms/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/git</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/5-strategies-to-improve-the-effectiveness-of-your-it-management/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/kustomize</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/introduction-to-container-native-cicd/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/boost-software-delivieries-with-docker-kubernetes</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/kubernetes-in-2-minutes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/how-to-build-devops-toolchain-effectievly</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/kubernetes-101-and-infrastructure-support-around-it-by-shyam/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/kubernetes</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/benefits-of-devops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/benifits-of-usingcontainerization-devops-workflow</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/find-razorops-at-github-marketplace/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/five-extensions-make-development-life-easier</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/kubernetes-cheat-sheet/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/four-pillars-successfull-devops-assesment</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/kubernetes-and-containers-adoption-growing-fast/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/role-of-containers-kubernetes-devops</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/how-to-choose-your-kubernetes-deployment-platform/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/devops-automation-best-practices</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/blog/principles-for-continuous-integration/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/blog/k8s-exercise-labels-annotations</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/security-devops-best-practices-tokeep-your-pipeline-secure</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/key-principles-successful-devops-implementation</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/simplyfying-kubernetes-native-testing-with-testkube</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/power-of-automation-in-devops</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/evolution-of-devops-from-concept-best-practice</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/kubernetes-autoscaling-for-continous-integration-deployment</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/unlocking-kubernetes-deployment-excellence-with-cd-automation</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/simplifying-kubernetes-infrastructure-with-cdk8s</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/maximizing-efficiency-collaboration-with-top-tier-devops-services</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/streamlining-kubernetes-workflow-power-of-cicd-integration</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/microservices-architecture</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/best-practices-to-implement-devops-in-orginazation</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/best-open-source-ci-cd-tools-for-2022</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/5-types-of-git-workflow-&amp;-explanation-of-each-flow</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/top-20-ci-cd-pipeline-interview-questions-answers</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/difference-between-docker-image-docker-container</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/top-8-ci-cd-best-practices-for-building-successful-applications</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/migration-guide-jenkins-to-razorops</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/salesforce-lightning-web-component-pipeline-with-razorops</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/what-is-continuous-integration-ci-best-practices-benefits-of-ci-tools</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/devops-for-startups</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/razorops-ci-cd-with-heroku-apps</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/what-is-virtualization-top-5-benefits-of-virtualization</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/devops-glossary</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/docker-cheat-sheet</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/functional-programming-vs-object-oriented-programming</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/difference-between-continuous-integration-continuous-deployment-and-continuous-delivery</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/unit-test-vs-integration-test-major-difference-between-unit-testing-and-integration-test</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/how-to-deploy-a-static-website-to-aws-s3-with-razorops-ci-cd</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/razorops-cicd-with-linode-kubernetes-engine</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/how-tech-teams-are-making-extraordinary-progress-in-covid-19-shutdown-while-working-remotely</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/introduction-to-helm-3-the-package-manager-for-kubernetes</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/best-docker-image-hosting-platforms</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/5-strategies-to-improve-the-effectiveness-of-your-it-management</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/introduction-to-container-native-cicd</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/kubernetes-in-2-minutes</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/kubernetes-101-and-infrastructure-support-around-it-by-shyam</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/benefits-of-devops</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/find-razorops-at-github-marketplace</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/kubernetes-cheat-sheet</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/kubernetes-and-containers-adoption-growing-fast</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/how-to-choose-your-kubernetes-deployment-platform</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/principles-for-continuous-integration</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/webinars/cloud-cost-optimization-container-native-devops/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/webinars/get-started-with-kubernetes/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/webinars/how-to-write-optimized-and-secure-docker-file-to-create-docker-image/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/webinars/discussion-about-cicd-adoption/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/case-studies/egnify/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/case-studies/edtech-startup/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/case-studies/nimble-buying/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-87</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-86</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-85</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-84</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-83</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-82</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-81</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-80</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-79</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-78</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-77</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-76</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-75</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-74</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-73</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-72</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-71</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-70</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-69</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-68</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-67</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-66</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-65</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-64</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-63</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-62</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-61</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-60</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-59</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-58</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-57</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-56</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-55</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-54</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-53</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-52</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-51</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-50</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-49</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-48</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-47</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-46</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-45</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-44</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-43</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-42</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-41</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-40</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-39</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-38</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-37</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-36</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-35</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-34</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-33</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-32</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-31</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-30</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-29</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-28</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-27</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-26</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-25</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-24</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-23</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-22</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-21</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-20</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-19</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-18</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-17</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-16</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-15</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-14</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-13</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-12</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-11</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-10</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-9</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-8</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-7</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-6</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-5</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-4</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-3</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-2/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-1/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/newsletter/razorops-cicd-newsletter-1</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/news-and-updates/razorops-dsci-event/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/news-and-updates/razorops-celebrates-national-startup-day-with-the-startups-from-across-telangana-at-thub/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/news-and-updates/razorops-applauds-the-success-of-our-valuable-customer-maxamtech-digital-ventures/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/news-and-updates/razorops-at-nastech-2022/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management-part-2/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <loc>https://razorops.com/meet-shyam</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-business-development-manager</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-kubernetes-developer-and-admin</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-golang-developer</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/schedule-demo?utm_source=https%3A%2F%2Frazorops.com%2F&amp;utm_medium=CTA-Schedule-Demo&amp;utm_campaign=Razorops-Schedule-Demo</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/schedule-demo?utm_source=signup_banner</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/schedule-demo?utm_source=azure_banner</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/product?utm_source=Continuous-Integration-Deployment-Delivery&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples/?utm_source=Continuous-Integration-Deployment-Delivery&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples/?utm_source=unit-integrate-testing&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/product?utm_source=unit-integrate-testing&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/blog/difference-between-continuous-integration-continuous-deployment-and-continuous-delivery/?utm_source=ci-cd-pipeline&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/blog/unit-test-vs-integration-test-major-difference-between-unit-testing-and-integration-test/?utm_source=ci-cd-pipeline&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_300922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_300922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_300922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/blog/difference-between-docker-image-docker-container/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter-230922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-event&amp;utm_campaign=Newsletter-230922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-event&amp;utm_campaign=Newsletter-230922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_230922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_230922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_230922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/blog/top-8-ci-cd-best-practices-for-building-successful-applications/?utm_source=Website-Newsletter&amp;utm_medium=Website-Blog&amp;utm_campaign=Newsletter-160922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Website-Event&amp;utm_campaign=Newsletter-160922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Website-Event&amp;utm_campaign=Newsletter-160922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_160922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_160922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_160922</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/blog/what-is-virtualization-top-5-benefits-of-virtualization/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-business-development-manager?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-kubernetes-developer-and-admin?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/jobs-for-golang-developer?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://razorops.com/blog/difference-between-continuous-integration-continuous-deployment-and-continuous-delivery?utm_source=ci-cd-pipeline&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/difference-between-docker-image-docker-container?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter-230922</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/top-8-ci-cd-best-practices-for-building-successful-applications?utm_source=Website-Newsletter&amp;utm_medium=Website-Blog&amp;utm_campaign=Newsletter-160922</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/unit-test-vs-integration-test-major-difference-between-unit-testing-and-integration-test?utm_source=ci-cd-pipeline&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples?utm_source=Continuous-Integration-Deployment-Delivery&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/what-is-cicd-pipeline-explanation-of-cicd-pipeline-along-with-examples?utm_source=unit-integrate-testing&amp;utm_medium=blog&amp;utm_campaign=Internallink</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/blog/what-is-virtualization-top-5-benefits-of-virtualization?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/try-razorops-cicd-with-digital-ocean-kubernetes/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/try-razorops-cicd-with-microsoft-azure-kubernetes/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/try-razorops-cicd-with-microsoft-azure-kubernetes/?utm_source=azure_banner</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://razorops.com/webinars/get-started-with-kubernetes/?utm_source=newsletter&amp;utm_medium=Linkedin-newsletter&amp;utm_campaign=linkedin_newsletter</loc>
-  <lastmod>2024-04-09T11:18:44+00:00</lastmod>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management-part-2/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-event&amp;utm_campaign=Newsletter-230922</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Website-Event&amp;utm_campaign=Newsletter-160922</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/how-to-secure-kubernetes-and-secrets-management/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-event&amp;utm_campaign=Newsletter-230922</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Website-Event&amp;utm_campaign=Newsletter-160922</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_09092022</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/?utm_source=Website-Newsletter&amp;utm_medium=Newsletter-blog&amp;utm_campaign=Newsletter_02092022</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/webinars/kubernetes-monitoring-alerting-and-auditing-using-do-marketplace-tools/</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://razorops.com/?utm_source=dev.to</loc>
+  <lastmod>2024-06-27T03:49:30+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 

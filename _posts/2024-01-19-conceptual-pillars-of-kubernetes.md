@@ -1,12 +1,13 @@
 ---
 title: Conceptual Pillars Of Kubernetes
-description: What are the fundamental conceptual pillars that constitute the foundation of Kubernetes, a container orchestration platform?
-permalink: "/blog/:title"
+description: What are the fundamental conceptual pillars that constitute the
+  foundation of Kubernetes, a container orchestration platform?
+image: /images/blog/conceptual-pillars.png
 layout: post
-date: '2024-01-19 05:00:00'
+permalink: /blog/:title
 author: Shyam Mohan
-category: cicd
-image: "/images/blog/conceptual-pillars.png"
+category: Kubernetes
+date: 2024-01-19 05:00:00
 ---
 
 Kubernetes, often abbreviated as K8s, is a powerful container orchestration platform that has revolutionized the way modern applications are developed, deployed, and managed. At its core, Kubernetes relies on several conceptual pillars that form the foundation of its design and functionality. Let's delve into these fundamental principles that underpin Kubernetes:

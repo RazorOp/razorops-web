@@ -5,7 +5,7 @@ permalink: "/blog/:title"
 layout: post
 date: '2023-11-02 05:00:00'
 author: Shyam Mohan
-category: cicd
+category: "CICD Pipelines"
 image: "/images/blog/security-devops-best-practices-tokeep-your-pipeline-secure.gif"
 ---
 

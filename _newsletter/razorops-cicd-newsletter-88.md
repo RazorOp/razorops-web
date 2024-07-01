@@ -5,7 +5,7 @@ image: /images/blog/kubernetes-as-a-service-.webp
 layout: newsletter
 permalink: /newsletter/razorops-cicd-newsletter-88
 author: Pooja Reddy
-category: kubernetes
+category: Kubernetes
 date: 2024-05-03T00:43:00.000Z
 ---
 
