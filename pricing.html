@@ -8,7 +8,9 @@ image: /images/razorops-demo.png
 ---
 
 <div class="pricing-wraper">
+
 	<div class="container">
+
 		<div class="pricing-header">
 			<!-- <br>
 			<h2 style="text-align:center; font-size: 42px;color: white;" class="section-header"><b>Pricing</b></h2>
@@ -27,25 +29,25 @@ image: /images/razorops-demo.png
 				</div>
 			</center> -->
 
-			<div class="MuiGrid-root MuiGrid-item css-19lgvq3">
-				<span class="css-1fs6h3g">Choose your plan</span>
-				<span class="css-y1ncwi">Start with Free Plan, Scale when you feel, No credit card
+			<div class="pricing-header-left">
+				<span class="pricing-header-title">Choose your plan</span>
+				<span class="pricing-header-description">Start with Free Plan, Scale when you feel, No credit card
 					required.</span>
 				<span class="css-y1ncwi"><b style="color: white;">(Get Addition <i style="color: black;">10% Discount</i>, when you choose to sign up
 				for <i style="color: black;">annual billing</i>)</b></span>
 				
 				<br>
-				<div class="custom-checkbox">
-					<input id="status" type="checkbox" name="status">
-					<label for="status">
-						<div class="status-switch" data-unchecked="Monthly" data-checked="Yearly"></div>
-					</label>
-				</div>
+				<br>
+					<div class="custom-checkbox">
+							<input id="status" type="checkbox" name="status">
+						<label for="status">
+							<div class="status-switch" data-unchecked="Monthly" data-checked="Yearly"></div>
+						</label>
+					</div>
 			</div>
 			<div class="MuiGrid-root MuiGrid-item css-ezwp13"><img alt="" src="../images/dollar.svg" class="css-d6vvil"></div>
 
 		</div>
-
 		<div class="tab-content">
 			<div id="annually" class="tab-pane fade in active">
 				{% include pricing.html %}
@@ -60,3 +62,5 @@ image: /images/razorops-demo.png
 	{% include testimonial.html %}
 
 </div>
+
+<link rel="stylesheet" href="{{ site.baseurl }}/css/pricing.css" />

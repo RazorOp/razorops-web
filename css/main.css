@@ -7033,7 +7033,7 @@ p {
 /* Pricing Toggle button */
 
 
-.custom-checkbox {
+ /* .custom-checkbox {
     width: 280px;
     height: 50px;
     border-radius: 50%;
@@ -7108,7 +7108,7 @@ p {
     color: #141de4;
     left: 50%;
     content: attr(data-checked);
-}
+} */
 
 /* Added styles for the lists */
 .monthly-list,
