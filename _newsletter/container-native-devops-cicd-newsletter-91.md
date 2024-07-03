@@ -100,26 +100,14 @@ Tutorials & Guides
 ### Upcoming Events
 
 [OpenFeature Community Meeting](https://community.cncf.io/events/details/cncf-openfeature-presents-openfeature-community-meeting-2024-07-04/)
-
   
-
-  
-
 July 4, 7:30   – 8:30 PM (PST)
 
 [Community Meeting July 4](https://community.cncf.io/events/details/cncf-kcp-presents-community-meeting-july-4/)
 
-  
-
-  
-
 July 4, 8:30  – 9:30 AM (PST)
 
 [Cloud Native Connect: UCA & Comunidad CNCF](https://community.cncf.io/events/details/cncf-san-salvador-presents-cloud-native-connect-uca-amp-comunidad-cncf/)
-
-  
-
-  
 
 July 6, 04 :30 - 7:30 AM (PST)
 
