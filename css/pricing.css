@@ -1,0 +1,13 @@
+.pricing-wraper {
+  min-height: 80vh;
+  background-color: #ffffff;
+}
+
+.pricing-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.pricing-header p {
+  font-size: 20px;
+}

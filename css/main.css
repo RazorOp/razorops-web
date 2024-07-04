@@ -1723,15 +1723,11 @@ opacity: 1;
 /*-----End of Price------*/
 
 @media only screen and (max-width:990px) {
-.pricingTable {
-margin-bottom: 30px
+	.pricingTable {
+	margin-bottom: 30px
+	}
 }
-}
-.pricing-wraper {
-min-height: 80vh;
-/*padding: 20px 0 80px;*/
-background-color: #ffffff;
-}
+
 
 .customer-wraper {
 min-height: 80vh;
@@ -1739,13 +1735,7 @@ background-color: rgb(255, 255, 255);
 }
 
 
-.pricing-header {
-margin-bottom: 50px;
-text-align: center;
-}
-.pricing-header p {
-font-size: 20px;
-}
+
 
 .box{
 background: #FFF;
