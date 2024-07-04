@@ -1244,7 +1244,7 @@ background-size:100%;
     text-align: left;
 }
 @media (min-width: 1200px) {
-    .css-1o35fvd {
+    .news-banner-right {
         -webkit-flex-basis: 50%;
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -1255,14 +1255,14 @@ background-size:100%;
         max-width: 50%;
     }
 }
-.css-1o35fvd{
+.news-banner-right{
     box-sizing: border-box;
     margin: 0px;
     flex-direction: row;
     display: flex;
     justify-content: flex-end;
 }
-.css-1d3bbye {
+.news-banner-details {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
