@@ -1126,7 +1126,7 @@ right: 10px;;
 }
 
 .customers-banner{
-text-align: center;
+text-align: left;
 padding: 150px 15px;
 /* background-image: url("/images/v2/home-banner.webp"); */
 background-image: url("https://rz-react.netlify.app/static/bg-75dd80098a3d7371d4ddde0018824f4d.png");
@@ -1146,9 +1146,7 @@ padding: 150px 15px;
 margin-top: -80px;
 }
 .customers-banner2::before{
-
-
-content: ' ';
+/* content: ' '; */
 display: block;
 position: absolute;
 left: 0;
