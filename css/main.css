@@ -77,13 +77,13 @@ color: #18204C;
 
 /*---common----*/
 .searchbox {
-    width: 50%;
+    width: 75%;
     margin-left: 25%;
     margin-top: 20px;
 }
 
 .searchbox .form-control {
-border-radius: 30px;
+border-radius: 10px;
 height: 50px;
 }
 
@@ -1125,11 +1125,10 @@ right: 10px;;
     padding: 75px 15px !important;
 }
 
-.customers-banner{
+.customers-banner {
 text-align: left;
-padding: 150px 15px;
-/* background-image: url("/images/v2/home-banner.webp"); */
-background-image: url("https://rz-react.netlify.app/static/bg-75dd80098a3d7371d4ddde0018824f4d.png");
+/* padding: 150px 15px; */
+background-image: url("../images/bg-75dd80098a3d7371d4ddde0018824f4d.webp");
 background-color: #FFF;
 color: #FFF;
 background-size: cover;
@@ -1161,10 +1160,10 @@ background-repeat: no-repeat;
 background-size:100%;
 }
 
-.customers-banner {
-    /* text-align: center; */
+/* .customers-banner {
+    text-align: center;
     padding: 150px 15px;
-    /* background-image: url("/images/v2/home-banner.webp"); */
+    background-image: url("/images/v2/home-banner.webp");
     background-image: url("../images/bg-75dd80098a3d7371d4ddde0018824f4d.webp");
     background-color: #FFF;
     color: #FFF;
@@ -1174,8 +1173,8 @@ background-size:100%;
     background-position: center;
     background-size: 100% 100%;
 
-}
-.css-rpele6 {
+} */
+.news-banner {
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1197,16 +1196,16 @@ background-size:100%;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 40px 0px 40px 0px;
+    padding: 15px 0px 40px 0px;
 }
 @media (min-width: 1200px) {
-    .css-1ucc15y {
+    .news-banner-left {
         flex-basis: 50%;
         flex-grow: 0;
         max-width: 50%;
     }
 }
-.css-1ucc15y {
+.news-banner-left {
     box-sizing: border-box;
     margin: 0;
     display: flex;
@@ -1214,27 +1213,27 @@ background-size:100%;
     align-items: left;
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-1fs6h3g {
+    .news-banner-title {
         font-size: 50px;
         line-height: 77px;
     }
 }
-.css-1fs6h3g {
-    font-family: MontserratMedium;
-    font-weight: 600;
+.news-banner-title {
+    /* font-family: MontserratMedium; */
+    font-weight: 700;
     font-style: normal;
-    font-size: 60px;
-    line-height: 90px;
+    font-size: 50px;
+    line-height: 77px;
     color: #ffffff;
     text-align: left;
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-1wsvtv1 {
+    .news-banner-description {
         font-size: 16px;
         line-height: 27px;
     }
 }
-.css-1wsvtv1 {
+.news-banner-description {
     padding: 20px 0px 0px 0px;
     font-family: Montserrat;
     font-weight: 500;
@@ -1375,6 +1374,10 @@ background-size:100%;
     text-transform: capitalize;
     text-align: left;
 }
+.css-84hkkp:hover {
+    color: #000000;
+    /* background-color:  rgb(0, 0, 0); */
+}
 @media (min-width: 1200px) and (max-width: 1535px) {
     .css-1myx1rc {
         font-size: 16px;
@@ -1382,7 +1385,8 @@ background-size:100%;
     }
 }
 .css-1myx1rc {
-    font-family: Montserrat;131px 100px 50px
+    font-family: Montserrat;
+    padding: 75px 0px 50px;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
@@ -1392,7 +1396,7 @@ background-size:100%;
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
     .customers-banner {
-        padding: 131px 100px 50px;
+        padding: 75px 100px 50px;
     } 
 }
 
