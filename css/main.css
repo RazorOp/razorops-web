@@ -56,7 +56,7 @@ padding: 200px 0 168px 0;
 .hero__title{
 font-weight: 900 !important; 
 font-size: 68px !important;
-color: #18204C;
+color: #18204C !important;
 }
 
 
@@ -935,9 +935,22 @@ opacity:0;
 }
 100% {
 -webkit-transform: translateY(0);
-			transform: translateY(0);
+transform: translateY(0);
 opacity:1;
 }
+}
+.customers-banner1 {
+    text-align: center;
+    padding: 15px;
+    background-image: url(../images/home/t-hub.jpg);
+    background-size: 100% 100%;
+}
+@media (min-width: 821px) {
+    .razorops-do-img {
+        margin-right: 40px;
+        width: 200px;
+        margin-top: -28px;
+    }
 }
 @-webkit-keyframes slideInFromBottom {
 0% {
@@ -2096,18 +2109,13 @@ padding-top: 80px;
         font-size: 9px;
     }
 }
-
-.blog-menu {}
-
 .latest-post-img {
     width: 300px;
     height: 200px;
 }
-
 .list-styles-none {
     list-style: none;
 }
-
 .razorops-demo {
     /*background-image: url("../images/razorops-demo.svg");*/
     margin-top: 60px;
@@ -2217,38 +2225,10 @@ margin-bottom: 20px;
         margin-bottom: 30px
     }
 }
-
-.pricing-wraper {
-    min-height: 80vh;
-    /*padding: 20px 0 80px;*/
-    background-color: #ffffff;
-    /* background-image: url("../images/backgroundPattern-16047a138f95d0a5c4dff6d6440c15a4.webp"); */
-
-}
-
 .customer-wraper {
     min-height: 80vh;
     background-color: rgb(255, 255, 255);
 }
-@media (min-width: 1200px) and (max-width: 1535px) {
-    .pricing-header {
-        padding: 100px;
-    }
-}
-.pricing-header {
-    /* margin-bottom: 80px; */
-    margin: -106px;
-    padding: 160px;
-    text-align: center;
-    background-image: url('../images/bg-75dd80098a3d7371d4ddde0018824f4d.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} 
 .faq{
     /* margin-bottom: 80px; */
     margin: -106px;
