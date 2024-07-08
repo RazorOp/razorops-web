@@ -7215,6 +7215,7 @@ p {
         display: none !important;
     }
 
+
     .signup-cta-section-devcon .v3signup-inner .v3signup-cta-arrow .cta-text {
         margin-top: 35px !important;
         font-style: normal;
@@ -7231,7 +7232,7 @@ p {
     /* .signup-cta-section .v3signup-inner .v3signup-ctabtn{
 text-align: center;
 } */
-}
+
 
 
 .containerb {
@@ -7258,6 +7259,7 @@ text-align: center;
 	.half {
 	flex: 100%; /* Set full width for each section on smaller screens */
 	}
+}
 
 	.signup-cta-section .v3signup-inner .v3signup-cta-text .head2 {
 		font-style: normal;
@@ -7270,13 +7272,13 @@ text-align: center;
 		}
 
 
-}
+
 
 .customers-banner.mt-10.do-banner-home-pd {
 margin-top: 0;
 padding-top: 0;
     }
-}
+
 
 .customers-banner.mt-10.do-banner-home- pd {
     margin-top: 0;
@@ -7295,4 +7297,132 @@ padding-top: 0;
 	text-align: left;
 	z-index: 1;
 	
+}
+/* CSS for Top-clients */
+
+.top-clients {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+@media (min-width: 1200px) {
+    .top-clients-left {
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+}
+.top-clients-left {
+    box-sizing: border-box;
+    margin: 0px;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    padding: 100px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(52, 94, 239) 0%, rgb(23, 23, 210) 100%);
+}
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .top-clients-title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+.top-clients-title {
+    font-family: MontserratMedium;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+}
+@media (min-width: 1200px) {
+    .top-clients-right {
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+}
+.top-clients-right {
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    padding: 60px 40px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+@media (min-width: 1200px) {
+    .top-clients-img-div {
+        flex-basis: 25%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 25%;
+    }
+}
+.top-clients-img-div {
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.top-clients-img {
+    width: 120px;
+}
+
+
+/* CSS for Testimonial */
+
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .testimonial {
+        padding: 70px 0px 0px 0px;
+    }
+}
+
+.testimonial {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+}
+.testimonial-title {
+    font-family: MontserratMedium;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #031b4e;
+}
+.testimonial-subtitle {
+    padding: 10px 0px 120px 0px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #5B5B5B;
 }
