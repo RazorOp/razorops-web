@@ -39,11 +39,8 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    margin: 0px;
     padding: 100px;
-    margin-bottom: 20px;
-    margin-left: -106px;
-    margin-right: -105px;
+    margin: 40px -106px 40px -106px;
 }
 .pricing-header-left {
     box-sizing: border-box;
