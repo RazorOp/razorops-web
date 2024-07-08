@@ -99,17 +99,40 @@ Tutorials & Guides
 
 ### Upcoming Events
 
-[OpenFeature Community Meeting](https://community.cncf.io/events/details/cncf-openfeature-presents-openfeature-community-meeting-2024-07-04/)
+[Keptn Community Meeting - APAC / EMEA](https://community.cncf.io/events/details/cncf-keptn-community-presents-keptn-community-meeting-apac-emea-2024-07-10/)
+
   
-July 4, 7:30   – 8:30 PM (PST)
 
-[Community Meeting July 4](https://community.cncf.io/events/details/cncf-kcp-presents-community-meeting-july-4/)
+  
 
-July 4, 8:30  – 9:30 AM (PST)
+  
 
-[Cloud Native Connect: UCA & Comunidad CNCF](https://community.cncf.io/events/details/cncf-san-salvador-presents-cloud-native-connect-uca-amp-comunidad-cncf/)
+  
 
-July 6, 04 :30 - 7:30 AM (PST)
+July 10, 1:30   – 2:15 PM (PST)
+
+[Cloud Native Live: Tetragon Kubernetes Policy Filtering](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cloud-native-live-tetragon-kubernetes-policy-filtering/)
+
+  
+
+  
+
+  
+
+  
+
+July 10, 9:30  – 10:30 PM (PST)
+
+[Cloud Native Live: BellSoft's Java images](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cloud-native-live-bellsofts-java-images/)
+
+  
+
+  
+
+  
+
+  
+ July 11, 9 :30 - 10:30 PM (PST)
 
 ## DevOps Jobs
 
