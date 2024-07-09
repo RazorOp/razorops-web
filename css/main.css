@@ -270,7 +270,7 @@ border-radius: 35px !important;
 
 .section-header {
     position: relative;
-    margin: 30px 0 30px;
+    margin: 30px 290px 30px;
 }
 
 .section-header2 {
@@ -1366,10 +1366,6 @@ background-size:100%;
     color: #ffffff;
     text-align: left;
 }
-/* .css-1wxaqej{
-    padding-left: 16px;
-    padding-top: 16px;
-} */
 @media (min-width: 1200px) and (max-width: 1535px) {
     .css-84hkkp {
         font-size: 24px;
@@ -7403,17 +7399,17 @@ padding-top: 0;
     background: #ffffff;
 }
 .testimonial-title {
-    font-family: MontserratMedium;
-    font-weight: 700;
+    /* font-family: MontserratMedium; */
+    font-weight: 800;
     font-style: normal;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 48px;
     text-align: center;
     color: #031b4e;
 }
 .testimonial-subtitle {
     padding: 10px 0px 120px 0px;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
@@ -7421,7 +7417,7 @@ padding-top: 0;
     text-align: center;
     color: #5B5B5B;
 }
-.css-16yfuk6 {
+.testimonial-main-div {
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
@@ -7446,13 +7442,13 @@ padding-top: 0;
     background: #ffffff;
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-ku5ckl {
+    .testimonial-main-left-div {
         padding: 40px 40px 40px 100px;
     }
 }
 
 @media (min-width: 1200px) {
-    .css-ku5ckl {
+    .testimonial-main-left-div {
         -webkit-flex-basis: 50%;
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -7463,7 +7459,7 @@ padding-top: 0;
         max-width: 100%;
     }
 }
-.css-1wkwmmc {
+.author-comment-div {
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
@@ -7478,13 +7474,17 @@ padding-top: 0;
     -ms-flex-direction: column;
     flex-direction: column;
 }
+.author-comment-inner-div{
+    padding-left: 16px;
+    padding-top: 16px;
+}
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-13y3wkt {
+    .author-comment {
         font-size: 30px;
         line-height: 40px;
     }
 }
-.css-13y3wkt {
+.author-comment {
     /* font-family: MontserratMedium; */
     font-weight: 700;
     font-style: normal;
@@ -7492,7 +7492,7 @@ padding-top: 0;
     line-height: 40px;
     color: #18204C;
 }
-.css-1hhoyif {
+.author-details-div {
     box-sizing: border-box;
     margin: 0;
     -webkit-flex-direction: row;
@@ -7510,7 +7510,7 @@ padding-top: 0;
     -ms-flex-direction: row;
     flex-direction: row;
 }
-.css-19lgvq3 {
+.author-details-inner-div {
     box-sizing: border-box;
     margin: 0;
     -webkit-flex-direction: row;
@@ -7524,8 +7524,8 @@ padding-top: 0;
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.css-1byujgl {
-    font-family: MontserratMedium;
+.author-name {
+    /* font-family: MontserratMedium; */
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
@@ -7533,8 +7533,8 @@ padding-top: 0;
     color: #18204C;
     text-align: left;
 }
-.css-1esmc26 {
-    font-family: Montserrat;
+.author-role {
+    /* font-family: Montserrat; */
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
@@ -7543,7 +7543,7 @@ padding-top: 0;
     text-align: left;
 }
 @media (min-width: 1200px) {
-    .css-1t2xqxk {
+    .author-img-div {
         -webkit-flex-basis: 50%;
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -7554,7 +7554,7 @@ padding-top: 0;
         max-width: 50%;
     }
 }
-.css-1t2xqxk {
+.author-img-div {
     box-sizing: border-box;
     margin: 0;
     -webkit-flex-direction: row;
@@ -7574,7 +7574,7 @@ padding-top: 0;
     display: flex;
     position: relative;
 }
-.css-1hkaqb1 {
+.author-img {
     width: -webkit-fill-available;
     -webkit-filter: grayscale(1);
 }

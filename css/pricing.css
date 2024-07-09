@@ -40,7 +40,7 @@
     justify-content: space-between;
     flex-direction: row;
     padding: 100px;
-    margin: 40px -106px 40px -106px;
+    margin: -20px -106px 40px -106px;
 }
 .pricing-header-left {
     box-sizing: border-box;
