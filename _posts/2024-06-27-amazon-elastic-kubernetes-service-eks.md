@@ -1,5 +1,5 @@
 ---
-title: 2024-06-27- Amazon Elastic Kubernetes Service(EKS)
+title: Amazon Elastic Kubernetes Service(EKS)
 description: Amazon Elastic Kubernetes Service (Amazon EKS) is a service that
   enables users to manage Kubernetes applications in the AWS cloud or
   on-premises.
