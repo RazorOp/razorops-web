@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-07-10T00:23:00.000Z
+date: 2024-06-29T05:53:00.000Z
 ---
 **What is Amazon Elastic Container Registry?**
 
