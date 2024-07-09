@@ -1,5 +1,5 @@
 ---
-title: 2024-06-28- Amazon Elastic Container Service
+title: Amazon Elastic Container Service
 description: Amazon Elastic Container Service (Amazon ECS) is a regional
   container orchestration service like Docker that allows to execute, stop, and
   manage containers on a cluster.
