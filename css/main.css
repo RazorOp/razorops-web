@@ -1302,7 +1302,7 @@ background-size:100%;
     align-items: center;
 }
 @media (min-width: 1200px) {
-    .css-twpyvg {
+    .latest-post-details-div {
         -webkit-flex-basis: 50%;
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -1313,18 +1313,18 @@ background-size:100%;
         max-width: 50%;
     }
 }
-.css-twpyvg{
+.latest-post-details-div {
     box-sizing: border-box;
     margin: 0px;
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
 }
-.css-1wxaqej{
+.latest-post-details-row{
     padding-left: 16px;
     padding-top: 16px;
 }
-.css-q5k7tr {
+.latest-post-details-inner-div {
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1352,12 +1352,12 @@ background-size:100%;
     border-radius: 40px;
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-1ildjns {
+    .latest-post-date {
         font-size: 16px;
         line-height: 27px;
     }
 }
-.css-1ildjns {
+.latest-post-date {
     font-family: Montserrat;
     font-weight: 500;
     font-style: normal;
@@ -1367,12 +1367,12 @@ background-size:100%;
     text-align: left;
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-84hkkp {
+    .latest-post-title {
         font-size: 24px;
         line-height: 32px;
     }
 }
-.css-84hkkp {
+.latest-post-title {
     font-family: Montserrat;
     font-weight: 700;
     font-style: normal;
@@ -1382,17 +1382,17 @@ background-size:100%;
     text-transform: capitalize;
     text-align: left;
 }
-.css-84hkkp:hover {
+.latest-post-title:hover {
     color: #000000;
     /* background-color:  rgb(0, 0, 0); */
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-1myx1rc {
+    .latest-post-description {
         font-size: 16px;
         line-height: 22px;
     }
 }
-.css-1myx1rc {
+.latest-post-description {
     font-family: Montserrat;
     padding: 75px 0px 50px;
     font-weight: 500;
@@ -7567,7 +7567,7 @@ padding-top: 0;
     -webkit-flex-grow: 0;
     -ms-flex-positive: 0;
     flex-grow: 0;
-    max-width: 100%;
+    max-width: 50%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
