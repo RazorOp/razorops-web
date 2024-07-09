@@ -1,5 +1,5 @@
 ---
-title: 2024-06-29- Amazon Elastic Container Registry
+title: Amazon Elastic Container Registry
 description: Amazon Elastic Container Registry (ECR) is a managed service that
   allows users to store, manage, share, and deploy container images and
   artifacts.
