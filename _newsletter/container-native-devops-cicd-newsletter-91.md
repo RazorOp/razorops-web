@@ -101,8 +101,7 @@ Tutorials & Guides
 
 
 
-[#16 CNL Meetup | Cloud Native Lisbon 🤝 AWS User Group Lisbon & DevOps Porto]
-(https://community.cncf.io/events/details/cncf-cloud-native-lisbon-presents-16-cnl-meetup-cloud-native-lisbon-aws-user-group-lisbon-amp-devops-porto/)
+[#16 CNL Meetup | Cloud Native Lisbon 🤝 AWS User Group Lisbon & DevOps Porto](https://community.cncf.io/events/details/cncf-cloud-native-lisbon-presents-16-cnl-meetup-cloud-native-lisbon-aws-user-group-lisbon-amp-devops-porto/)
   
 July 11, 11:00 PM   – July 12, 2:30 AM (PST)
 
