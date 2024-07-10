@@ -99,19 +99,22 @@ Tutorials & Guides
 
 ### Upcoming Events
 
-[#16 CNL Meetup | Cloud Native Lisbon 🤝 AWS User Group Lisbon & DevOps Porto](https://community.cncf.io/events/details/cncf-cloud-native-lisbon-presents-16-cnl-meetup-cloud-native-lisbon-aws-user-group-lisbon-amp-devops-porto/)
-
-July 11, 11:00 PM   – July 12, 2:30 AM (PST)
 
 [Cloud Native Live: BellSoft's Java images](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cloud-native-live-bellsofts-java-images/)
 
-July 11, 9 :30 - 10:30 PM (PST)  
+July 11, 9 :30 - 10:30 PM (PST)
+
   
 
-[Fridays Virtual Meetup (Edge Computing with Kubernetes by Sergio Méndez , US timezone)](https://community.cncf.io/events/details/cncf-kubernetes-virtual-book-club-presents-fridays-virtual-meetup-edge-computing-with-kubernetes-by-sergio-mendez-us-timezone-2024-07-12/)
+[Monsoon-itoring Clouds](https://community.cncf.io/events/details/cncf-new-delhi-presents-monsoon-itoring-clouds/)
+  
+July 13, 9:00 AM   – 4:00 PM (PST)
 
-| July 12, 9:30  – 10:30 PM (PST)
+  
+[CKA - Grupo de Estudio](https://community.cncf.io/events/details/cncf-cloud-native-latam-presents-cka-grupo-de-estudio-2024-07-15/)
+  
 
+July 16, 6:30  – 7:30 AM (PST)
 
 
 ## DevOps Jobs
