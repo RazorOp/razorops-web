@@ -2294,16 +2294,16 @@ css-1fs6h3g {
     line-height: 90px;
     color: #ffffff;
 }
-.css-ezwp13 {
+.pricing-header-right {
     box-sizing: border-box;
     margin: 0;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
 }
-.css-d6vvil{
-    height: 217px;
-    max-width: 217px;
+.pricing-header-dollar{
+    height: 140px;
+    max-width: 140px;
     vertical-align: middle;
     /* display: block; */
     border-style: solid;

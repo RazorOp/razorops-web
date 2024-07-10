@@ -36,19 +36,24 @@ image: /images/razorops-demo.png
 				for <i style="color: black;">annual billing</i>)</b></span>
 				
 				<br>
-				<br>
-					<div class="custom-checkbox">
-							<input id="status" type="checkbox" name="status">
-						<label for="status">
-							<div class="status-switch" data-unchecked="Monthly" data-checked="Yearly"></div>
-						</label>
-					</div> -->
+				<br> -->
 			</div>
-			<div class="MuiGrid-root MuiGrid-item css-ezwp13"><img alt="" src="../images/dollar.svg" class="css-d6vvil"></div>
+			<div class="pricing-header-right"><img alt="" src="../images/dollar.svg" class="pricing-header-dollar"></div>
 
 		</div>
+
+		<center>
+			<div class="custom-checkbox">
+				<input id="status" type="checkbox" name="status">
+			<label for="status">
+				<div class="status-switch" data-unchecked="Monthly" data-checked="Yearly"></div>
+			</label>
+		</div>
+		</center>
+
 		<div class="tab-content">
 			<div id="annually" class="tab-pane fade in active">
+
 				{% include pricing.html %}
 			</div>
 		</div>
