@@ -1,5 +1,5 @@
 ---
-title: 2024-07-13-Testing and Quality Assurance Within a CI/CD Pipeline
+title: Testing and Quality Assurance Within a CI/CD Pipeline
 description: Testing and QA are critical components of CI/CD pipelines. They
   ensure that code changes do not introduce new bugs
 image: /images/blog/testing-and-quality-assurance-within-a-cicd-pipeline.webp
