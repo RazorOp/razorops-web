@@ -1,5 +1,5 @@
 ---
-title: "2024-07-14-Core CI/CD Concepts: A Comprehensive Overview"
+title: "Core CI/CD Concepts: A Comprehensive Overview"
 description: The integration of CI/CD concepts and automation practices has
   revolutionized the software development landscape
 image: /images/blog/core-cicd-concepts-a-comprehensive-overview.webp
