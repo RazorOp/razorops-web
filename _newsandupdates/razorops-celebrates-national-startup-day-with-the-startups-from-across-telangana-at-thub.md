@@ -3,7 +3,7 @@ title: RazorOps Celebrates National Startup Day with the startups from across Te
   at T-Hub
 description: RazorOps celebrates National Startup Day with T-Hub. The event's theme
   was to celebrate the entrepreneurial spirit across the country.
-permalink: "/news-and-updates/:title/"
+permalink: "/news-and-updates/:title"
 layout: news-and-updates
 date: '2023-01-24 03:00:00'
 author: Aditi Mishra

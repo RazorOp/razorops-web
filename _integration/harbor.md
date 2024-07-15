@@ -3,7 +3,7 @@ title: harbor
 description: Harbor is an open source trusted cloud native registry project that stores
   signs and scans content. Harbor extends the open source Docker Distribution by adding
   the functionalities usually required by users such as security identity and management.
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/harbor/harbor-logo-razorops.png"
 category: container registries

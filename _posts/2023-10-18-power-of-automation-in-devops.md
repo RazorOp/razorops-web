@@ -58,7 +58,9 @@ Automation in DevOps refers to the use of tools and scripts to streamline and ex
 <br>
 <br>
 
-**Continuous Integration (CI):** Automation enables developers to integrate code changes into a shared repository frequently. CI tools like Jenkins, Travis CI, and CircleCI automatically build, test, and validate code changes, ensuring that the software remains stable.
+**Continuous Integration (CI):** Automation enables developers to integrate code changes into a shared repository frequently. CI tools like Razorops CICD. automatically build, test, and validate code changes, ensuring that the software remains stable.
+
+<a href="https://docs.razorops.com/getting_started/" target="_blank">Click here to get started with Razorops CICD  https://docs.razorops.com/getting_started/</a>
 <br>
 <br>
 

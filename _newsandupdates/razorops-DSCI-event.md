@@ -3,7 +3,7 @@ title:
   RazorOps Elevates CI/CD at DSCI Event - Shaping the Future of DevOps Excellence
 description: RazorOps showcased its commitment to advancing CI/CD practices at the DSCI event, contributing to the evolution of DevOps excellence
   
-permalink: "/news-and-updates/:title/"
+permalink: "/news-and-updates/:title"
 layout: news-and-updates
 date: "2023-10-05 03:00:00"
 author: Shyam Mohan

@@ -3,7 +3,7 @@ title: Helm Chart
 description: you to define infrastructure in human and machine-readable code. Review
   the following resources to start learning about the advantages of Infrastructure
   as Code (IaC), and the advantages of Terraform specifically.
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/helm.png"
 category: other tools

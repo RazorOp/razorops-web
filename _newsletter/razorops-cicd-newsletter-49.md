@@ -75,10 +75,7 @@ Microservices architecture is an effective way to build complex applications, bu
 <li>
 <a href="https://www.weave.works/technologies/kubernetes-on-premise/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--R3aI8dDesDdnIgkb0xJvYwAPDt0lUKt8b5LPq_FRAt4FFX2qIFcSCiLiwXle64Xtts0Ql" target="_blank"><b>Kubernetes on-premise: What you need to know</b></a>
 	</li>
-<br>
-<li>
-<a href="https://circleci.com/blog/what-is-helm?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--R3aI8dDesDdnIgkb0xJvYwAPDt0lUKt8b5LPq_FRAt4FFX2qIFcSCiLiwXle64Xtts0Ql" target="_blank"><b>What is Helm? A complete guide</b></a>
-	</li>
+
 	</ul>
 
 <br>

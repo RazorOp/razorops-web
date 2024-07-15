@@ -50,7 +50,9 @@ DevOps automation involves automating various aspects of the software developmen
 <br>
 <br>
 
-* **Continuous Integration and Continuous Deployment (CI/CD):** Implement CI/CD pipelines to automate the build, test, and deployment processes. Tools like Jenkins, GitLab CI/CD, CircleCI or Razorops CICD enable teams to automatically trigger builds, run tests, and deploy code changes to production or staging environments rapidly.
+* **Continuous Integration and Continuous Deployment (CI/CD):** Implement CI/CD pipelines to automate the build, test, and deployment processes. Tools like Razorops CICD enable teams to automatically trigger builds, run tests, and deploy code changes to production or staging environments rapidly.
+<a href="https://docs.razorops.com/getting_started/" target="_blank">Click here to get started with Razorops CICD  https://docs.razorops.com/getting_started/</a>
+
 <br>
 <br>
 

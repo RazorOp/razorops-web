@@ -1,6 +1,6 @@
 ---
 title: firebase
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/firebase-integration.png"
 category: cloud platform

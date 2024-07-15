@@ -3,7 +3,7 @@ title: AKS
 description: ". Gulp purely uses the JavaScript code and helps to run front-end tasks
   and large-scale web applications. It builds system automated tasks like CSS and
   HTML minification, concatenating library files, and compiling the SASS files."
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/AKS-logo.png"
 category: development tools
