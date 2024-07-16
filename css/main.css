@@ -370,6 +370,7 @@ td {
 
 .mt-80 {
     margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .mt-60 {
@@ -2135,7 +2136,7 @@ padding-top: 80px;
 border: none;
 transition: all 0.2s;
 border: 1px solid #f8f8f8;
-border-radius: 6px;	
+border-radius: 20px;	
 box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 background: #f8f8f8;
 padding: 15px;
@@ -2153,7 +2154,7 @@ margin-bottom: 20px;
 
 .pricing .card-title {
     margin: 0.5rem 0;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     letter-spacing: .1rem;
     font-weight: bold;
 }
