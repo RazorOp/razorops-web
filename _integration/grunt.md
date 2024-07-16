@@ -4,7 +4,7 @@ description: Software artifacts are typically created during the software develo
   process and can refer to specific methods or processes in the software's development.
   For example, a software build contains the developer's code as well as a range of
   different
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/grunt-logo.svg"
 category: build tools

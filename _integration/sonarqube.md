@@ -4,7 +4,7 @@ description: Terraform workflow consists of writing configuration, initializing 
   plugins, planning infrastructure changes, and then applying them. Read the following
   resources to learn about the most common CLI subcommands you will use in your Terraform
   workflow.
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/sonarqube-logo-razorops.png"
 category: other tools

@@ -1,6 +1,6 @@
 ---
 title: bitbucket
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/bitbucket-integration.png"
 category: scm

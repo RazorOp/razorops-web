@@ -1,6 +1,6 @@
 ---
 title: github
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/v2/github-black.png"
 category: scm

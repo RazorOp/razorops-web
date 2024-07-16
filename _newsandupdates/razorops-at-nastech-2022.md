@@ -1,7 +1,7 @@
 ---
 title: RazorOps at NASTech 2022
 description: The National Association of Software and Services Companies, or NASSCOM, hosted the third iteration of NASTech from December 6, 2022, to December 10, 2022, in five prestigious cities Bangalore, Chennai, Hyderabad, Bhubaneshwar, and Kochi
-permalink: "/news-and-updates/:title/"
+permalink: "/news-and-updates/:title"
 layout: news-and-updates
 date: '2022-12-26 03:00:00'
 author: Aditi Mishra

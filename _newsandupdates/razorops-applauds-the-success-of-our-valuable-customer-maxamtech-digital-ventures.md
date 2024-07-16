@@ -2,7 +2,7 @@
 title: RazorOps Applauds The Success Of Our Valuable Customer Maxamtech Digital Ventures
 description: Maxamtech Digital Ventures is a six-year-old India-founded company that
   develops technologies and games for the mobile gaming industry.
-permalink: "/news-and-updates/:title/"
+permalink: "/news-and-updates/:title"
 layout: news-and-updates
 date: '2023-01-19 03:00:00'
 author: Aditi Mishra

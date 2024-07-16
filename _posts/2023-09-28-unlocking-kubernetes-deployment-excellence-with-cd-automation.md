@@ -88,7 +88,8 @@ Adopt Infrastructure as Code practices to define and manage your Kubernetes clus
 **3. CI/CD Pipeline Configuration**
 <br>
 
-Set up CI/CD pipelines using tools like Jenkins, GitLab CI/CD, or CircleCI. Define stages for building, testing, and deploying your applications, ensuring seamless integration with Kubernetes.
+Set up CI/CD pipelines using tools like Razorops CICD. Define stages for building, testing, and deploying your applications, ensuring seamless integration with Kubernetes.
+<a href="https://docs.razorops.com/getting_started/" target="_blank">Click here to get started with Razorops CICD  https://docs.razorops.com/getting_started/</a>
 <br>
 <br>
 

@@ -2,7 +2,7 @@
 title: terraform
 description: The track and resources in this section will help you demonstrate that
   you understand Terraform basics.
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/terraform-logo.png"
 category: other tools

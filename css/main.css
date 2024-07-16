@@ -779,32 +779,22 @@ margin-top: 0px !important;
 .footer-item a {
     text-decoration: none;
 }
-
-.lower-footer {
-    color: #000000;
-    background-color: #f8f8f8;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.lower-footer{
+color: #000000;
+padding-top: 20px;
+padding-bottom: 20px;
 }
-
-.footer-hr {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background: rgb(204, 204, 204);
-    height: 1px;
+.footer-hr{
+margin-top: 0px;
+margin-bottom: 0px;
+background: rgb(204, 204, 204);
 }
 
 .d-inline-block {
     display: inline-block;
 }
 
-.lower-footer a {
-    color: #253858;
-}
 
-/* .footer-social{
-margin-left: 20px;
-} */
 .footer-social a {
     display: inline-block;
     margin-bottom: 8px;

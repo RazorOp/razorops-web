@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Continuous integration and delivery simplified for Containers
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://razorops.com/" # the base hostname & protocol for your site
+url: "https://razorops.com" # the base hostname & protocol for your site
 twitter_username: razorops
 github_username: razorop
 

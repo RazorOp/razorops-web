@@ -3,7 +3,7 @@ title: junit
 description: What is more, developers can also examine documentation, code, and other
   artifacts from past products to gather ideas and determine how to approach technical
   problems in new projects.
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/junit-logo.avif"
 category: test coverage report tools

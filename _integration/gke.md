@@ -4,7 +4,7 @@ description: This code acts as the foundation for the software and enables the d
   to test the software before launching it. Code artifacts can include compiled code,
   setup scripts, test suites, generated objects and logs generated during testing
   and quality assurance.
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/GKE-logo.png"
 category: development tools

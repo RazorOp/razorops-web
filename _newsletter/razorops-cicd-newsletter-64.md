@@ -21,7 +21,7 @@ CI/CD (Continuous Integration/Continuous Delivery) is a software development app
 Continuous Integration is the practice of frequently integrating code changes from multiple developers into a shared repository. It involves automating the build and testing process to ensure that changes are integrated smoothly and without conflicts. Key aspects of continuous integration include:
 
 * **Version control:** Use a version control system (e.g., Git) to manage code changes and enable collaboration among developers.
-Automated builds: Automate the process of building the software by using build automation tools (e.g., Jenkins, CircleCI). This ensures that the software can be compiled consistently across different environments.
+Automated builds: Automate the process of building the software by using build automation tools (e.g., Jenkins). This ensures that the software can be compiled consistently across different environments.
 
 * **Automated tests:** Implement automated testing, including unit tests and integration tests, to validate the functionality and quality of the code changes. This helps catch issues early and prevents regression.
 
