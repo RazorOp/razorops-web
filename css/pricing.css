@@ -58,7 +58,7 @@
 .pricing-header-title {
     font-family: MontserratMedium;
     font-family: Robot;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 50px;
     line-height: 77px;
@@ -692,3 +692,47 @@
 .toggle-pricing {
     background-image: url("../images/backgroundPattern-16047a138f95d0a5c4dff6d6440c15a4.webp");
 }
+.pricing-header > .header {
+    margin-bottom: 0px;
+}
+.header{
+    margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        width: 100px;
+        height: 100px;
+        margin-top: 238px;
+        font-size: 24px;
+        background: blue;
+        color: #fff;
+    }
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+        margin-left: 140px;
+    }
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 520%;
+    margin-left: 0px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 87%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+}
+
