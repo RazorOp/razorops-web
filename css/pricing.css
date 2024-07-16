@@ -60,8 +60,8 @@
     font-family: Robot;
     font-weight: 600;
     font-style: normal;
-    /* font-size: 60px; */
-    /* line-height: 90px; */
+    font-size: 50px;
+    line-height: 77px;
     color: #ffffff;
     text-align: left;
 }
@@ -688,4 +688,7 @@
     .tooltip .tooltiptext {
         width: 140px
     }
+}
+.toggle-pricing {
+    background-image: url("../images/backgroundPattern-16047a138f95d0a5c4dff6d6440c15a4.webp");
 }
