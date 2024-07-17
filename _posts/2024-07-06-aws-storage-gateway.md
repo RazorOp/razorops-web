@@ -1,5 +1,5 @@
 ---
-title: 2024-07-06-AWS Storage Gateway
+title: AWS Storage Gateway
 description: AWS Storage Gateway is a hybrid cloud storage service that allows
   youron-premise storage & IT infrastructure to seamlessly integrate with AWS
   Cloud Storage Services.
