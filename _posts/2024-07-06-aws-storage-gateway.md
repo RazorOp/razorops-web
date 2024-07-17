@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-07-17T20:52:00.000Z
+date: 2024-07-08T02:22:00.000Z
 ---
 
 **What is the AWS Storage Gateway?**
