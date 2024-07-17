@@ -1,5 +1,5 @@
 ---
-title: "2024-07-05-Amazon S3 Glacier "
+title: "Amazon S3 Glacier "
 description: Amazon S3 Glacier is a web service with vaults that offer long-term
   data archiving and data backup.
 image: /images/blog/amazon-s3-glacier.webp
