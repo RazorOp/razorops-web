@@ -1,0 +1,256 @@
+---
+layout: home
+title: Cloud Agnostic CICD Automation Platform
+description: Razorops is a Cloud Agnostic DevOps Automation Platform to automate testing and deployment across the environments in few steps.
+keywords: Container Native Continuous Delivery, Build, Test, Deploy, Continuous delivery, Continuous integration, kubernetes, Docker, docker registry,docker container, aws, google cloud, azure kubernetes,Continuous deployment tool
+canonical_url: "https://razorops.com"
+image: /images/home/container-native-cicd.webp
+---
+
+<div class="banner" id="intro">
+  <div class="container">
+      <div class="banner-msg">
+        <!-- <h1 class="hero__title">Release software changes with high velocity</h1> -->
+        <h1 class="hero__title">Cloud Agnostic CICD Automation Platform</h1>
+        <p class="hero__text">
+          Razorops is a container native continuous integration and delivery platform to
+          automate your workflow from development to production in a few steps.
+        </p>
+
+        <div class="banner-actions">
+          <span class="getstarted-text">Signup with...</span><br><br>
+
+          <a
+            href="https://dashboard.razorops.com/users/sign_up"
+            class="btn btn-default btn-lg pr-4 mr-4"
+            >&nbsp;&nbsp;&nbsp;<img
+              src="/images/v2/github-black.svg"
+              alt="github"
+              class="btn-icon"
+            /><b>Github&nbsp;&nbsp;&nbsp;</b></a
+          >
+          <a
+            href="https://dashboard.razorops.com/users/sign_up"
+            class="btn btn-default btn-lg pr-4 mr-4"
+            ><img
+              src="/images/v2/bitbucket.svg"
+              alt="bitbucket"
+              class="btn-icon"
+            /><b>Bitbucket</b></a
+          >
+          <a
+            href="https://dashboard.razorops.com/users/sign_up"
+            class="btn btn-default btn-lg pr-4 mr-4"
+            >&nbsp;&nbsp;&nbsp;&nbsp;<img
+              src="/images/v2/gitlab.svg"
+              alt="gitlab"
+              class="btn-icon"
+            /><b>Gitlab&nbsp;&nbsp;&nbsp;&nbsp;</b></a
+          >
+        </div>
+        <p class="hero__text" >Setup your pipeline less than 30 minutes...
+			</p>
+      </div>
+  </div>
+</div>
+
+<div class="razorops-ci-cd">
+  <div class="container">
+    <div class="section-header"><h2>What is Razorops CICD?</h2></div>
+    <div class="center">
+      <a class="" id="myBtn">
+        <img
+          src="images/home/razorops-demo.webp"
+          alt="razorops deployment pipeline"
+          title="razorops deployment pipeline"
+          class="thumnail-image img-responsive"
+        />
+      </a>
+      <div id="myModal" class="modalnew fade in">
+        <div class="modal-video">
+          <span class="close">&times;</span>
+          
+          <video width="100%" height="540" controls="controls" id="test-audio">
+            <source
+              src="/images/razorops-introduction.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="/images/razorops-introduction.ogg"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        var audio = document.getElementById("test-audio");
+
+        span.onclick = function () {
+          modal.style.display = "none";
+          audio.autoplay = false;
+          audio.pause();
+        };
+
+        btn.onclick = function () {
+          modal.style.display = "block";
+          audio.autoplay = true;
+          audio.load();
+        };
+      </script>
+    </div>
+  </div>
+</div>
+
+<div class="tag-line">
+  <div class="container center">
+    <br />
+    <div class="col-sm-4">
+      <h3><b>Smarter</b></h3>
+      <p class="lead mb-0">
+        Stop maintaining and scaling your local CI/CD infrastructure. 
+        <b>Switch to Cloud!</b>
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <h3><b>Faster</b></h3>
+      <p class="lead mb-0">
+        Customizable pipeline automation speeds deployments to production. 
+        <b>Build more, wait less!</b>
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <h3><b>Better</b></h3>
+      <p class="lead mb-0">
+        Build and Test better, avoid bugs before they reach your users. 
+        <b>Ship your code with confidence!</b>
+      </p>
+    </div>
+    <br />
+    <br />
+  </div>
+</div>
+
+{% include testimonial.html %}
+
+{% include thub-nasscom.html %} 
+<!-- {% include awards.html %} -->
+{% include leader-matrix.html %}
+
+<div class="section-header mt-60"><h2>Latest Use Cases</h2></div>
+{% include customers-home.html %}
+
+<div class="section-header"><h2>Latest Blog Articles</h2></div>
+{% include latest_blog_articles.html %}
+
+<div class="section-header mt-60">
+  <h2>Latest Newsletters</h2>
+</div>
+{% include new-newsletters.html %} 
+
+<!-- <div class="section-header mt-60"><h2>Try RazorOps at Azure Cloud </h2></div>
+{% include azure-cta.html %} -->
+
+<!-- 
+<div class="section-header mt-60"><h2>Try RazorOps at Digital Ocean </h2></div>
+{% include do-cta.html %} -->
+
+
+      <!-- <div class="col-sm-12">
+        <p><b><a href="/blog/core-ci-cd-concepts-a-comprehensive-overview">Core CI/CD Concepts</a> : </b>
+        Continuous Integration (CI) |
+        Continuous Delivery (CD) |
+        Continuous Deployment |
+        Pipeline Automation |
+        Build Automation |
+        Deployment Automation |
+        DevOps Automation |
+        Infrastructure as Code (IaC) |
+        Container Orchestration |
+        Microservices 
+        </p>
+
+        <p><b><a href="/blog/testing-and-quality-assurance-within-a-ci-cd-pipeline">Testing and Quality</a> : </b>
+        Automated Testing |
+        Static Code Analysis (SCA) |
+        Test Automation |
+        Code Quality Analysis |
+        Integration Testing |
+        Performance Testing |
+        Security Automation (DevSecOps) |
+        Code Linting |
+        Test Coverage Analysis |
+        </p>
+
+        <p><b>Deployment Strategies : </b>
+
+        Blue-Green Deployment |
+        Canary Deployment |
+        Feature Flag Management |
+        Automated Rollbacks
+        </p>
+
+        <p><b>Infrastructure and Environment Management : </b>
+
+        Configuration Management |
+        Environment Provisioning |
+        Self-Healing Infrastructure |
+        Immutable Infrastructure |
+        Scalability |
+        High Availability |
+        Cloud Integration |
+        Serverless CI/CD |
+        GitOps
+        </p>
+
+        <p><b>Monitoring and Observability : </b>
+
+        Monitoring and Logging |
+        Application Performance Monitoring (APM) |
+        Telemetry Data |
+        Real-Time Monitoring |
+        Latency Monitoring |
+        Distributed Tracing |
+        Operational Dashboards
+        </p>
+
+        <p><b>Security and Compliance : </b>
+
+        Secrets Management |
+        Security Scanning |
+        Vulnerability Scanning |
+        Compliance Automation |
+        Data Encryption |
+        Role-Based Access Control (RBAC) |
+        Identity and Access Management (IAM) |
+        Zero Trust Security |
+        Policy Enforcement
+        </p>
+        <p><b>DevOps Practices and Culture : </b>
+
+        DevOps Culture |
+        CI/CD Best Practices |
+        Shift Left Testing |
+        Continuous Feedback
+        </p>
+        <p><b>Other Key Concepts : </b>
+
+        Pipeline as Code |
+        Immutable Infrastructure as Code |
+        Environment Isolation |
+        Environment Replication |
+        Resource Management |
+        Auto-scaling |
+        Cluster Management
+        </p>
+        <br>
+        <hr>
+        <br>
+        <br>
+      </div> -->

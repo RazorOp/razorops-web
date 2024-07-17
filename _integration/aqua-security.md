@@ -2,7 +2,7 @@
 title: Aqua Security
 description: with implementations across a broad range of cloud providers and modern
   technology stacks spanning containers, serverless functions and cloud VMs.
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/aquasecurity-logo.png"
 category: other tools

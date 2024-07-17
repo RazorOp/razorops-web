@@ -37,7 +37,7 @@ date: 2024-06-06T12:11:00.000Z
 **6.  What tools are commonly used for CI/CD?**
     
 
-**Answer:** Common tools include Jenkins, GitLab CI, CircleCI, Travis CI, Bamboo, and Azure DevOps.
+**Answer:** Common tools include Jenkins, Razorops CICD, GitLab CI, CircleCI, Travis CI, Bamboo, and Azure DevOps.
 
 **7.  Explain the concept of a pipeline in CI/CD.**
     

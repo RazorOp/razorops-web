@@ -3,7 +3,7 @@ title: maven
 description: Maven project structure and contents are declared in an xml file, pom.xml,
   referred as Project Object Model (POM), which is the fundamental unit of the entire
   Maven system. In later chapters, we will explain POM in detail.
-permalink: "/integration/:title/"
+permalink: "/integration/:title"
 layout: integrationtool
 logo: "/images/integration/maven-logo.png"
 category: build tools
