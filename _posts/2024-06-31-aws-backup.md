@@ -1,5 +1,5 @@
 ---
-title: 2024-06-31- AWS Backup
+title: AWS Backup
 description: AWS Backup is a secure service that automates and governs data
   backup (protection) in the AWS cloud and on-premises.
 image: /images/blog/aws-backup.webp
