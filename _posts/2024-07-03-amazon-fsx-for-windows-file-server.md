@@ -1,5 +1,5 @@
 ---
-title: 2024-07-03-Amazon FSx for Windows File Server
+title: Amazon FSx for Windows File Server
 description: Amazon FSx for Windows File Server is an FSx solution that offers a
   scalable and shared file storage system on the Microsoft Windows server.
 image: /images/blog/amazon-fsx-for-windows-file-server.jpg
