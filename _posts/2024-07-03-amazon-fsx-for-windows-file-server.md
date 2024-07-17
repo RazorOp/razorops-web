@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-07-17T20:29:00.000Z
+date: 2024-07-04T01:59:00.000Z
 ---
 
 **What is Amazon FSx for Windows File Server?**
