@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-07-17T20:45:00.000Z
+date: 2024-07-07T02:15:00.000Z
 ---
 **What is AWS Snowball?**
 
