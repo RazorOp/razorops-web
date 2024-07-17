@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-07-17T20:38:00.000Z
+date: 2024-07-06T02:08:00.000Z
 ---
 **What is Amazon S3 Glacier?**
 
