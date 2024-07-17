@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-07-17T20:00:00.000Z
+date: 2024-07-01T01:30:00.000Z
 ---
 **What is AWS Backup?**
 
