@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-07-17T20:34:00.000Z
+date: 2024-07-05T02:04:00.000Z
 ---
 **What is Amazon FSx for Lustre?**
 
