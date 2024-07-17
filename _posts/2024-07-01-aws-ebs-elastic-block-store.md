@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-07-17T20:09:00.000Z
+date: 2024-07-02T01:39:00.000Z
 ---
 **What is AWS EBS?**
 
