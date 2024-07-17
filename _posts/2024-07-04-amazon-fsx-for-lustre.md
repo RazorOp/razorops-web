@@ -1,5 +1,5 @@
 ---
-title: 2024-07-04-Amazon FSx for Lustre
+title: Amazon FSx for Lustre
 description: Amazon FSx for Lustre is an FSx solution that offers scalable
   storage for the Lustre system (parallel and high-performance file storage
   system).
