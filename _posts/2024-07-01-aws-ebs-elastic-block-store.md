@@ -1,5 +1,5 @@
 ---
-title: 2024-07-01-AWS EBS - Elastic Block Store
+title: AWS EBS - Elastic Block Store
 description: Amazon Elastic Block Store (AWS EBS) is a persistent block-level
   storage (volume) service designed to be used with Amazon EC2 instances.
 image: /images/blog/aws-ebs-elastic-block-store.webp
