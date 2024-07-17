@@ -1,5 +1,5 @@
 ---
-title: 2024-07-06-AWS Snowball
+title: AWS Snowball
 description: AWS Snowball is a storage device used to transfer a large amount of
   data ranging from 50TB - 80TB between Amazon Simple Storage Service and onsite
   data storage location at high speed.
