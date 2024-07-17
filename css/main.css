@@ -2132,7 +2132,7 @@ padding-top: 80px;
     background-color: #f3f5f9;
 }
 
-.pricing .card {
+/* .pricing .card {
 border: none;
 transition: all 0.2s;
 border: 1px solid #f8f8f8;
@@ -2142,7 +2142,7 @@ background: #f8f8f8;
 padding: 15px;
 min-height: 480px;
 margin-bottom: 20px;
-}
+} */
 
 .pricing .top-plan {
     border: 2px solid #1633ff;
@@ -2213,32 +2213,6 @@ margin-bottom: 20px;
 .customer-wraper {
     min-height: 80vh;
     background-color: rgb(255, 255, 255);
-}
-.faq{
-    /* margin-bottom: 80px; */
-    margin: -106px;
-    padding: 20px;
-    text-align: center;
-    background-image: url('../images/bg-75dd80098a3d7371d4ddde0018824f4d.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 0px;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-} 
-.qaf{
-    /* margin-bottom: 80px; */
-    margin: -20px;
-    padding: 51px;
-    margin-left: 269px;
-    text-align: center;
-    background-image: url('../images/bg-75dd80098a3d7371d4ddde0018824f4d.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 0px;
 }
 .css-19lgvq3 {
     box-sizing: border-box;
