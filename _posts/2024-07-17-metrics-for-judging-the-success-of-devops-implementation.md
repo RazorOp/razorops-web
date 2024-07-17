@@ -1,5 +1,5 @@
 ---
-title: 2024-07-17-Metrics for Judging the Success of DevOps Implementation
+title: Metrics for Judging the Success of DevOps Implementation
 description: "Successful DevOps implementation is critical for enhancing the
   efficiency, reliability, and quality of software development and delivery. "
 image: /images/blog/metrics-for-judging-the-success-of-devops-implementation.webp
