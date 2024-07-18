@@ -90,6 +90,7 @@ height: 50px;
 -moz-animation: glowing 3000ms infinite;
 -o-animation: glowing 3000ms infinite;
 animation: glowing 3000ms infinite;
+color: #FFF !important;
 }
 
 @-webkit-keyframes glowing {
@@ -198,22 +199,15 @@ a{
 	color: white !important;
 }
 
-.rounded{
-border-radius: 200px;
+.rounded {
+	border-radius: 200px;
 }
-
-/* .btn.btn-rounded {
-border-radius: 21px !important;
-}
-
-.btn-lg.btn.btn-rounded {
-border-radius: 23px !important;
-margin-bottom: 20px;
-} */
 
 .full-rounded{
 border-radius: 35px !important;
 }
+
+
 @media (min-width: 1400px) {
 	.container {
 	width: 1360px;
@@ -593,7 +587,7 @@ float: none;
 margin-bottom: 10px;
 } 
 .footer-social-left a{
-font-size: 20px;
+font-size: 18px;
 }	
 }
 
@@ -686,6 +680,7 @@ background: rgb(204, 204, 204);
 .d-inline-block {
 display: inline-block;
 vertical-align: middle;
+margin-bottom: 10px;
 }
 
 
