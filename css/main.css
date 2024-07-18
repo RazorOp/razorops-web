@@ -340,7 +340,7 @@ background-color: rgba(255, 255, 255, 0.846);
 margin-top: 40px;
 }
 .section-header h2 {
-font-size: 42px;
+font-size: 40px;
 color: #262626;
 text-align: center;
 }
@@ -5236,185 +5236,197 @@ color: white !important;
 
 
 @media screen and (max-width:767px){
-.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
-display: none !important;
-}
-.compititors-table .table-column .card .card-body .info{
-padding-left: 0px ;
-}
-.compititors-table .table-column .card .card-body .info-head .left-heading,.right-heading{
-display: none;
-}
-.compititors-table .table-column .card .card-body .info .left-head,.right-head{
-visibility: visible;
-display: block;
-margin-left: 12px;
-}
-.compititors-table .table-column .card .card-body .info .basis{
-margin-bottom: 12px;
 
-}
-.xtra-feature{
-margin-top: 20px;
-}
-.xtra-feature .xtrafeature-body .xtrafeature-content{
-padding-top: 0px;
-}
-.xtra-feature .xtrafeature-body .xtrafeature-content h1{
-font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-font-style: normal;
-font-weight: 900;
-font-size: 42px;
-color: #18204C;
-margin-bottom: 0px;
-line-height: 56px;
-}
-.xtra-feature .xtrafeature-body .xtrafeature-content p{
-margin-bottom: 0px;
-margin-top: 10px;
-font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-color: #7C819B;
-line-height: 30px;
-}
-.xtra-feature .xtrafeature-body .xtrafeature-content ul li{
-font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-font-style: normal;
-font-weight: 600;
-font-size: 10px;
-line-height: 28px;
-color: #345EEF;
+	#intro {
+		width: 100%;
+		position: relative;
+		background-color: #8EC5FC;
+		background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+		background-size: cover;
+		padding: 200px 0 168px 0;
+		}
+
+	.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
+	display: none !important;
+	}
 
 
-}
-.integration-section .integration-body .integration-content{
-padding: 0px;
-}
-.integration-section .integration-body .integration-content ul{
-padding-left: 0px!important;
-}
-.faq-section{
-margin-top: 40px;
-}
-.get-started-section .get-started-body .get-started-content{
-padding-top: 0px !important;
-}
-.get-started-section .get-started-body .get-started-content p{
-margin-top: 20px;
-font-style: normal;
-font-weight: 600;
-font-size: 20px !important;
-line-height: 20px;
-color: #7C819B;
-}
-.get-started-section .get-started-body .get-started-content .get-started-head{
-padding: 0px;
-font-style: normal;
-font-weight:900;
-font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-font-size: 42px ;
-line-height: 53px ;
-color: #18204C;
-}
-.content-section .toc-body{
-margin: 0px !important;
-padding: 20px;
-background-color: #e7eefa;
-}
-.competitors-table table thead tr th{
-font-weight: 900;
-font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-font-size: 14px;
-color: #000000;
-}
-.competitors-table table thead tr th img{
-width: 82px !important;
-}
-.about-rops-section  .about-rops-body .about-rops-img{
+	.compititors-table .table-column .card .card-body .info{
+	padding-left: 0px ;
+	}
+	.compititors-table .table-column .card .card-body .info-head .left-heading,.right-heading{
+	display: none;
+	}
+	.compititors-table .table-column .card .card-body .info .left-head,.right-head{
+	visibility: visible;
+	display: block;
+	margin-left: 12px;
+	}
+	.compititors-table .table-column .card .card-body .info .basis{
+	margin-bottom: 12px;
 
-padding-top: 10px !important;
-padding: 20px;
-}
-.about-rops-section .hidden{
-display: block !important;
-}
-.about-rops-section{
-margin-top: 20px !important;
-}
-.about-rops-section .about-body .about-content li{ 
-font-size: 18px !important;
-margin: 0px !important;
-margin-bottom: 20px!important;
-background-color: #345EEF;
-padding: 20px;
-border-radius: 10px;
-color: white;
-}
-.about-rops-section .about-body .section-header2{
-display: none !important;
-}
-.about-rops-section .about-body .about-content{
-padding: 0px !important;
-}
-.about-rops-section .about-body {
-border: 0px!important;
-padding: 15px 0px !important;
-border-radius: 8px;
-background: linear-gradient(178.55deg, rgba(240, 238, 255, 0.904) -1.11%, rgba(255, 255, 255, 0.8) 109.65%);
-box-shadow: 0 14px 18px 0 rgba(2, 34, 104, 0.2);
-margin: 15px !important;
-}
-.about-rops-section .about-body .vstool-card{
-margin-bottom: 15px!important;
-}
-.about-vssection .about-body .about-content{
-padding-left: 10px !important;
-padding-right: 10px !important;
-}
-.about-vssection .about-body .about-content p{
-font-size: 18px;
-}
-.get-started-section .get-started-body .get-started-content .get-started-btns a{
-margin-bottom: 15px;
-width: 80%;
-}
-.get-started-section .get-started-body .get-started-content .get-started-btns {
-text-align: center;
-}
-.signup-cta-section .v3signup-inner .v3signup-ctabtn{
-text-align: center;
-}
-.signup-cta-section .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
-margin-top: 15px !important;
-}
-.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-text{
-margin-top: 35px !important;
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 90px;
-}
-.compititors-cta .cta-body .compititors-cta-btns  .migrate-btn{
-margin-right: 0px;
-margin-left: 0px;
-}
-.compititors-cta .cta-body .compititors-cta-btns{
-text-align: center;
-}
-.compititors-cta .cta-body .compititors-cta-btns .btn{
-float: none;
-margin-left: 0px;
-margin: 0px;
+	}
+	.xtra-feature{
+	margin-top: 20px;
+	}
+	.xtra-feature .xtrafeature-body .xtrafeature-content{
+	padding-top: 0px;
+	}
+	.xtra-feature .xtrafeature-body .xtrafeature-content h1{
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 42px;
+	color: #18204C;
+	margin-bottom: 0px;
+	line-height: 56px;
+	}
+	.xtra-feature .xtrafeature-body .xtrafeature-content p{
+	margin-bottom: 0px;
+	margin-top: 10px;
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color: #7C819B;
+	line-height: 30px;
+	}
+	.xtra-feature .xtrafeature-body .xtrafeature-content ul li{
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 28px;
+	color: #345EEF;
 
-}
-#migrateform  .form-heading{
-margin-bottom: -4px;
-position: relative;
-font-size: 30px;
-top: -20px;
-}
+
+	}
+	.integration-section .integration-body .integration-content{
+	padding: 0px;
+	}
+	.integration-section .integration-body .integration-content ul{
+	padding-left: 0px!important;
+	}
+	.faq-section{
+	margin-top: 40px;
+	}
+	.get-started-section .get-started-body .get-started-content{
+	padding-top: 0px !important;
+	}
+	.get-started-section .get-started-body .get-started-content p{
+	margin-top: 20px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px !important;
+	line-height: 20px;
+	color: #7C819B;
+	}
+	.get-started-section .get-started-body .get-started-content .get-started-head{
+	padding: 0px;
+	font-style: normal;
+	font-weight:900;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 42px ;
+	line-height: 53px ;
+	color: #18204C;
+	}
+	.content-section .toc-body{
+	margin: 0px !important;
+	padding: 20px;
+	background-color: #e7eefa;
+	}
+	.competitors-table table thead tr th{
+	font-weight: 900;
+	font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 14px;
+	color: #000000;
+	}
+	.competitors-table table thead tr th img{
+	width: 82px !important;
+	}
+	.about-rops-section  .about-rops-body .about-rops-img{
+
+	padding-top: 10px !important;
+	padding: 20px;
+	}
+	.about-rops-section .hidden{
+	display: block !important;
+	}
+	.about-rops-section{
+	margin-top: 20px !important;
+	}
+	.about-rops-section .about-body .about-content li{ 
+	font-size: 18px !important;
+	margin: 0px !important;
+	margin-bottom: 20px!important;
+	background-color: #345EEF;
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	}
+	.about-rops-section .about-body .section-header2{
+	display: none !important;
+	}
+	.about-rops-section .about-body .about-content{
+	padding: 0px !important;
+	}
+	.about-rops-section .about-body {
+	border: 0px!important;
+	padding: 15px 0px !important;
+	border-radius: 8px;
+	background: linear-gradient(178.55deg, rgba(240, 238, 255, 0.904) -1.11%, rgba(255, 255, 255, 0.8) 109.65%);
+	box-shadow: 0 14px 18px 0 rgba(2, 34, 104, 0.2);
+	margin: 15px !important;
+	}
+	.about-rops-section .about-body .vstool-card{
+	margin-bottom: 15px!important;
+	}
+	.about-vssection .about-body .about-content{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	}
+	.about-vssection .about-body .about-content p{
+	font-size: 18px;
+	}
+	.get-started-section .get-started-body .get-started-content .get-started-btns a{
+	margin-bottom: 15px;
+	width: 80%;
+	}
+	.get-started-section .get-started-body .get-started-content .get-started-btns {
+	text-align: center;
+	}
+	.signup-cta-section .v3signup-inner .v3signup-ctabtn{
+	text-align: center;
+	}
+	.signup-cta-section .v3signup-inner .v3signup-ctabtn .btn-white-razorops{
+	margin-top: 15px !important;
+	}
+	.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-text{
+	margin-top: 35px !important;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 90px;
+	}
+	.compititors-cta .cta-body .compititors-cta-btns  .migrate-btn{
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+	.compititors-cta .cta-body .compititors-cta-btns{
+	text-align: center;
+	}
+	.compititors-cta .cta-body .compititors-cta-btns .btn{
+	float: none;
+	margin-left: 0px;
+	margin: 0px;
+
+	}
+	#migrateform  .form-heading{
+	margin-bottom: -4px;
+	position: relative;
+	font-size: 30px;
+	top: -20px;
+	}
 
 
 }
