@@ -1,5 +1,5 @@
 body {
-font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 html,
 body {
@@ -33,7 +33,6 @@ margin-left: 10px !important;
 #intro {
 width: 100%;
 position: relative;
-/* background: url(../images/intro-bg.webp) center bottom no-repeat; */
 background: url(../images/razorops-home-bg.webp) center bottom no-repeat;
 background-size: cover;
 padding: 200px 0 168px 0;
@@ -46,16 +45,16 @@ padding: 200px 0 168px 0;
 }
 
 
-.hero__text{
+.hero_text{
 	margin: 20px 0px 40px 0px ;
 	color: #18204C;
 	text-align: left !important;
 }
 
-.hero__title{
+.hero_title{
 font-weight: 900 !important; 
-font-size: 68px !important;
 color: #18204C;
+font-size: 65px;
 }
 
 
@@ -90,7 +89,6 @@ height: 50px;
 -moz-animation: glowing 3000ms infinite;
 -o-animation: glowing 3000ms infinite;
 animation: glowing 3000ms infinite;
-color: #FFF !important;
 }
 
 @-webkit-keyframes glowing {
@@ -505,7 +503,7 @@ font-size: 19px;
 
 	}
 
-	.hero__title{
+	.hero_title{
 		font-weight: 900 !important; 
 		font-size: 55px !important;
 		color: #18204C;
@@ -5170,13 +5168,7 @@ color: #345EEF;
 
 
 }
-/* .integration-section{
-width:auto;
 
-} */
-.integration-section .integration-body .integration-content{
-/* padding: 0px 160px; */
-}
 .integration-section .integration-body .integration-content ul li .dotted-icon{
 padding-top: 28px;
 }
@@ -5236,14 +5228,6 @@ color: white !important;
 
 
 @media screen and (max-width:767px){
-
-	#intro {
-		width: 100%;
-		position: relative;
-		background: rgb(249, 250, 254);
-		background-image: none;
-		background-size: cover;
-		}
 
 	.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
 	display: none !important;
@@ -5730,11 +5714,8 @@ margin-right: 10px;
 
 
 }
-p{
-font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 
-}
 
 .razorops-blue{
 color:#345EEF;
@@ -5939,21 +5920,4 @@ width: calc(49% - 1px);
 
 }
 
-.customers-banner.mt-10.do-banner-home-pd {
-margin-top: 0;
-padding-top: 0;
-    }
 
-
-
-
-
-/** NEW V4 COMMON CSS **/
-
-.whatsapp {
-	position: sticky;
-	bottom: 0px;
-	text-align: left;
-	z-index: 1;
-	
-}
