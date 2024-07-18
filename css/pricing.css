@@ -778,7 +778,7 @@
     }
 }
 
-.css-b7sn9u {
+.pricing-faq-main-div {
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
@@ -808,14 +808,14 @@
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.css-1wxaqej {
+.pricing-faq-inner-div {
     box-sizing: border-box;
     margin: 0;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
 }
-.css-3nyhpq {
+.faq-title-div {
     padding: 20px 60px 40px 60px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -833,7 +833,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.css-lm0qje {
+.faq-title {
     /* font-family: MontserratMedium; */
     font-weight: 600;
     font-style: normal;
@@ -843,7 +843,7 @@
     white-space: pre-wrap;
     text-align: center;
 }
-.css-1r5rczz {
+.faq-que-ans-div {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -853,19 +853,20 @@
     flex-direction: column;
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-ar4fp9 {
+    .faq-que-ans-inner-div {
         width: 800px;
     }
 }
 
-.css-ar4fp9 {
+.faq-que-ans-inner-div {
     padding: 30px;
     margin: 15px;
-    width: 1000px;
+    width: 800px;
     background: #f9fafe;
     border-radius: 14px;
+    cursor: pointer;
 }
-.css-69i1ev {
+.faq-question-div {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -879,22 +880,29 @@
     align-items: center;
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
-    .css-1yqfrxo {
+    .faq-question {
         font-size: 24px;
         line-height: 37px;
     }
 }
 
-.css-1yqfrxo {
+.faq-question {
     /* font-family: MontserratMedium; */
     font-weight: 600;
     font-style: normal;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
     color: #002c9b;
     text-align: left;
 }
-.css-1yxmbwk {
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.toggle-button {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
@@ -939,28 +947,7 @@
     -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-[type=button], [type=submit], button {
-    -webkit-appearance: button;
-}
-button, input, optgroup, select, textarea {
-    color: inherit;
-    line-height: inherit;
-    padding: 0;
-}
-[role=button], button {
-    cursor: pointer;
-}
-button {
-    background-color: transparent;
-    background-image: none;
-}
-button, input, optgroup, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
-}
-.css-vubbuv {
+.faq-svg {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -974,13 +961,8 @@ button, input, optgroup, select, textarea {
     flex-shrink: 0;
     -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    font-size: 1.5rem;
 }
-audio, canvas, embed, iframe, img, object, svg, video {
-    display: block;
-    vertical-align: middle;
-}
-.css-w0pj6f {
+.faq-span {
     overflow: hidden;
     pointer-events: none;
     position: absolute;
@@ -988,7 +970,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     inset: 0px;
     border-radius: inherit;
 }
-.css-1o4grz3 {
+.faq-answer {
     padding: 20px 0px 0px 0px;
     /* font-family: Montserrat; */
     font-weight: 500;
@@ -997,4 +979,23 @@ audio, canvas, embed, iframe, img, object, svg, video {
     font-size: 18px;
     line-height: 28px;
     color: #5b6987;
+    overflow: hidden;
+}
+.ul-type {
+    list-style-type: circle;
+    font-size: 10px;
+}
+
+.primary-color {
+    color: #1633ff !important;
+    font-weight: 700;
+}
+.faq-que-ans-inner-div.active .answer{
+    max-height: 100px;
+}
+.faq-que-ans-inner-div.active .faq-svg {
+    transform: rotate(180deg);
+}
+.faq-que-ans-inner-div.active .faq-svg {
+    transition: transform 0.5s ease-in;
 }
