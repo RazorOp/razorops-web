@@ -71,7 +71,9 @@
     <div class="container container-center">
       <div class="blog-wraper2">
         <div class="blog-post">
-          {% assign blogs = page | related_posts_by_category: site.posts  %} {% for post in blogs limit:8 %}
+          {% assign blogs = page | related_posts_by_category: site.posts  %}
+          
+          {% for post in blogs limit:8 %}
           <a href="{{ site.baseurl }}{{ post.url }}">
             <div class="col-sm-3 post-box">
               <div class="blog-content">
