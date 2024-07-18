@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: default2
+layout: default
 description: null
 keywords: null
 canonical_url: https://razorops.com/privacy-policy/
