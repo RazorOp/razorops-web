@@ -5240,10 +5240,9 @@ color: white !important;
 	#intro {
 		width: 100%;
 		position: relative;
-		background-color: #8EC5FC;
-		background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+		background: rgb(249, 250, 254);
+		background-image: none;
 		background-size: cover;
-		padding: 200px 0 168px 0;
 		}
 
 	.signup-cta-section .v3signup-inner .v3signup-cta-arrow .cta-arrow{
