@@ -54,7 +54,7 @@ padding: 200px 0 168px 0;
 .hero_title{
 font-weight: 900 !important; 
 color: #18204C;
-font-size: 65px;
+font-size: 65px !important;
 }
 
 
