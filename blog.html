@@ -25,7 +25,7 @@ image: /images/razorops-demo.webp
         <a href="{{ site.baseurl }}{{ post.url }}">
           <div class="col-sm-4 post-box">
             <div class="blog-content">
-                <img src="{{ post.image }}"/>
+                <img src="{{ post.image }}" alt="{{ post.title }}"/>
               <div class="blog-body">
                 <time>{{ post.date | date_to_string }}</time>
                 <h1>{{ post.title }}</h1>
