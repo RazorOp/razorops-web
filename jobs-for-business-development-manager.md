@@ -8,7 +8,7 @@ image: /images/Business-Development-Manager-razorops.jpg
 ---
 
 
-<img src="/images/Business-Development-Manager-razorops.jpg">
+<img src="/images/Business-Development-Manager-razorops.jpg" alt="razorops bdm">
 <br>
 **Job description**
 
