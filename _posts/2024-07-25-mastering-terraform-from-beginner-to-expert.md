@@ -1,5 +1,5 @@
 ---
-title: "2024-07-25-Mastering Terraform: From Beginner to Expert"
+title: "Mastering Terraform: From Beginner to Expert"
 description: Gain understanding of Terraform and its benefits, Dive into
   practical guides, tips, and tutorials to automate your infrastructure, enhance
   productivity
