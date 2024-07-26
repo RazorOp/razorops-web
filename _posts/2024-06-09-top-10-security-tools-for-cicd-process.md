@@ -23,7 +23,7 @@ SonarQube stands out as a comprehensive tool for continuous code quality and sec
 Managing dependencies is crucial, and Snyk specializes in identifying and fixing vulnerabilities in dependencies, container images, and Kubernetes applications. Its seamless integration with CI/CD workflows empowers developers to address security concerns proactively during the development process.
 
 ### 3. Checkmarx: Early Detection of Code Vulnerabilities
-![Customer Success Manager at Checkmarx - Goodwall](https://cdn2.goodwall.io/images/0/0-1612799548978-15826.png?width=1280)
+![Scala static analysis comes to Checkmarx - SD Times](https://sdtimes.com/wp-content/uploads/2017/01/0131.sdt-checkmarx.png)
 
 Checkmarx provides Static Application Security Testing (SAST) capabilities, allowing you to identify and remediate vulnerabilities in your codebase early in the development lifecycle. By integrating Checkmarx into your CI/CD pipeline, you can ensure that security is a fundamental aspect of your software development process.
 
@@ -48,7 +48,7 @@ WhiteSource automates the detection of open source vulnerabilities in your codeb
 OWASP ZAP is an open-source tool for identifying vulnerabilities in web applications. By automating OWASP ZAP within your CI/CD pipeline, you can conduct regular security testing to uncover potential threats and ensure the robustness of your web applications.
 
 ### 8. Anchore: Deep Container Image Inspection
-![Anchor PNG transparent image download, size: 2000x2422px](https://pngimg.com/d/anchor_PNG11.png)
+![Anchor PNG Images, Anchor White, Navy Anchor Png Clipart Images Free  Download - Free Transparent PNG Logos](https://www.freepnglogos.com/uploads/anchor-png/anchor-boat-marine-nautical-sailor-ship-tattoo-icon-29.png)
 
 Anchore focuses on container security by performing deep image inspection, analysis, and scanning for vulnerabilities and policy compliance. Integrating Anchore into your CI/CD pipeline enables proactive security measures for containerized applications, reducing the risk of exploitation.
 
@@ -58,7 +58,7 @@ Anchore focuses on container security by performing deep image inspection, analy
 Veracode offers a suite of security testing tools, including static analysis, dynamic analysis, and software composition analysis. By incorporating Veracode into your CI/CD processes, you can conduct thorough security assessments and address vulnerabilities at multiple levels of your application stack.
 
 ### 10. Trivy: Container Vulnerability Scanner
-![trivy" Icon - Download for free – Iconduck](https://static-00.iconduck.com/assets.00/trivy-icon-312x512-i437m5pr.png)
+![Trivy Avis Prix & Alternatives | Comparateur Logiciels.Pro](https://www.logiciels.pro/wp-content/uploads/2021/05/trivy-avis-prix-alternatives-logiciel.webp)
 
 Trivy is an open-source vulnerability scanner designed for containers and other artifacts. Its scanning capabilities encompass vulnerabilities, configuration issues, and compliance violations, making it a valuable addition to CI/CD workflows for ensuring the security of containerized deployments.
 
