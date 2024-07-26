@@ -23,7 +23,7 @@ SonarQube stands out as a comprehensive tool for continuous code quality and sec
 Managing dependencies is crucial, and Snyk specializes in identifying and fixing vulnerabilities in dependencies, container images, and Kubernetes applications. Its seamless integration with CI/CD workflows empowers developers to address security concerns proactively during the development process.
 
 ### 3. Checkmarx: Early Detection of Code Vulnerabilities
-![Checkmarx Logo Download png](https://iconape.com/wp-content/files/rh/349951/svg/checkmarx-seeklogo.com.svg)
+![Customer Success Manager at Checkmarx - Goodwall](https://cdn2.goodwall.io/images/0/0-1612799548978-15826.png?width=1280)
 
 Checkmarx provides Static Application Security Testing (SAST) capabilities, allowing you to identify and remediate vulnerabilities in your codebase early in the development lifecycle. By integrating Checkmarx into your CI/CD pipeline, you can ensure that security is a fundamental aspect of your software development process.
 
@@ -33,12 +33,12 @@ Checkmarx provides Static Application Security Testing (SAST) capabilities, allo
 As containerization gains prominence, Aqua Security offers a suite of tools to secure containerized applications. With features like image scanning, runtime protection, and compliance checks, Aqua Security seamlessly integrates security into CI/CD pipelines, enhancing the overall security posture of your applications.
 
 ### 5. Nexus Lifecycle: Managing Open Source Components Securely
-![Sonatype | BDQ](https://f.hubspotusercontent10.net/hubfs/3430860/Nexus_Lifecycle_logo_stacked.png)
+![Sonatype Lifecycle](https://help.sonatype.com/en/image/uuid-de3876df-1135-02c9-e3f0-6da4fa2b7449.png)
 
 Nexus Lifecycle, from Sonatype, helps manage open source components by ensuring they are secure and compliant with licensing policies. By integrating Nexus Lifecycle into your CI/CD workflows, you can effectively manage the risks associated with open source dependencies, minimizing potential security vulnerabilities.
 
 ### 6. WhiteSource: Automated Open Source Vulnerability Detection
-![WhiteSource Pricing, Features, and Reviews (Jul 2024)](https://images.softwaresuggest.com/software_logo/1568875562_Copy-of-Whitesource_Logo_CMYK_Vertical_Smaller_Version.png)
+![WhiteSource Logo - PNG Logo Vector Brand Downloads (SVG, EPS)](https://cdn.freelogovectors.net/wp-content/uploads/2020/11/white-source-logo.png)
 
 WhiteSource automates the detection of open source vulnerabilities in your codebase and provides real-time alerts and remediation suggestions. Its integration with CI/CD pipelines streamlines vulnerability management, enhancing the security of your software delivery process.
 
@@ -48,7 +48,7 @@ WhiteSource automates the detection of open source vulnerabilities in your codeb
 OWASP ZAP is an open-source tool for identifying vulnerabilities in web applications. By automating OWASP ZAP within your CI/CD pipeline, you can conduct regular security testing to uncover potential threats and ensure the robustness of your web applications.
 
 ### 8. Anchore: Deep Container Image Inspection
-![Anchor PNG transparent image download, size: 1229x1522px](https://pngimg.com/d/anchor_PNG48.png)
+![Anchor PNG transparent image download, size: 2000x2422px](https://pngimg.com/d/anchor_PNG11.png)
 
 Anchore focuses on container security by performing deep image inspection, analysis, and scanning for vulnerabilities and policy compliance. Integrating Anchore into your CI/CD pipeline enables proactive security measures for containerized applications, reducing the risk of exploitation.
 
