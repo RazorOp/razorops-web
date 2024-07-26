@@ -1,0 +1,36 @@
+<!-- _layouts/breadcrumb.html -->
+
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Home</a></li>
+    {% assign url_parts = page.url | split: '/' %}
+    {% for part in url_parts %}
+      {% if part != "" %}
+        {% assign part_url = part_url | append: '/' | append: part %}
+        <li class="breadcrumb-item">
+          {% if forloop.last %}
+            {{ part | humanize }}
+          {% else %}
+            <a href="{{ site.baseurl }}{{ part_url }}">{{ part | capitalize }}</a>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+
+<style>
+
+  /* assets/css/style.css */
+.breadcrumb {
+  background: none;
+  padding: 0;
+  list-style: none;
+  font-weight: 600;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 0.5rem;
+}
+
+
+</style>

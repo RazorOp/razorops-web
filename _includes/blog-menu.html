@@ -4,7 +4,7 @@
 {% assign sorted_categories = site.posts | sort_and_group_categories %}
 <br>
 <p><b>LATEST POSTS</b></p>
-<ul style="margin-left: -22px;">
+<ul style="margin-left: -22px;overflow-y: scroll;height: 2000px;">
   {% for category in sorted_categories %}
     <li>
       <p><b>{{ category.name }}</b></p>
