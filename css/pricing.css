@@ -18,7 +18,10 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.toggle-pricing{
+        background-image: url('../images/backgroundPattern-16047a138f95d0a5c4dff6d6440c15a4.webp');
+        background-repeat: no-repeat;
+}
 @media (min-width: 1200px) and (max-width: 1535px) {
     .pricing-header {
         padding: 100px;
