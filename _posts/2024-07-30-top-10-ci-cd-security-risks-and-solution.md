@@ -1,5 +1,5 @@
 ---
-title: 2024-07-30-Top 10 CI/CD Security Risks and  Solution
+title: Top 10 CI/CD Security Risks and  Solution
 description: "Securing a CI/CD pipeline involves addressing multiple security
   risks across various stages and components. "
 image: /images/blog/top-10-cicd-security-risks-and-solution.webp
