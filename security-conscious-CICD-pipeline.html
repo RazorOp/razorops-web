@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Razorops CI/CD - Secure and Fast Continuous Integration & Deployment</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+---
+layout: home
+title: Razorops CI/CD - Secure and Fast Continuous Integration & Deployment
+description: We fully understand and recognize, that the security of your source code as critical components. Therefore we put lots of efforts to provide a secure infrastructure to use.
+canonical_url: 'https://razorops.com/security-conscious-CICD-pipeline'
+---
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
         .hero-section {
             background: #f8f9fa;
             padding: 60px 0;
             text-align: center;
+            height: 400px;
         }
         .features-section{
           text-align: center;
@@ -25,7 +23,8 @@
           width: 156px;
         }
         .cta-section {
-            background: #007bff;
+            background: rgb(32,0,247);
+            background: radial-gradient(circle, rgba(32,0,247,1) 0%, rgba(49,144,255,1) 100%);
             color: white;
             padding: 60px 0;
             text-align: center;
@@ -34,11 +33,27 @@
             color: white;
             text-decoration: none;
         }
+
+        .thumbnail:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .caption:hover {
+            background-color: #f8f9fa;
+        }
     </style>
-</head>
-<body>
+    
+
+    <div id="home-header">
+        <!-- navbar -->
+        {% include header.html %}
+      </div>
+
     <div class="hero-section">
         <div class="container">
+            <br>
+            <br>
             <h1>Razorops CI/CD</h1>
             <p>Fast, Reliable, and Secure Continuous Integration and Continuous Deployment</p>
             <a href="#features" class="btn btn-primary">Learn More</a>
@@ -49,18 +64,18 @@
       <div class="container">
           <div class="row">
               <div class="col-md-4">
-                <img src="/images/home/Robust-Security.webp">
+                <img src="/images/home/Robust-Security.webp" alt="Robust Security">
                 <h3>Robust Security</h3>
                 <p>Secure your CI/CD pipeline with best-in-class security practices and tools.</p>
              </div>
               <div class="col-md-4">
-                  <img src="/images/home/Seamless-Integration.webp">
+                  <img src="/images/home/Seamless-Integration.webp" alt="Seamless Integration">
                   <h3>Seamless Integration</h3>
                   <p>Experience the fastest CI/CD pipeline with minimal setup and configuration.</p>
               </div>
               <div class="col-md-4">
-                  <img src="/images/home/Fast-Deployment.webp">
-                  <h3>Fast Deployment</h3>
+                  <img src="/images/home/Fast-Deployment.webp" alt="Fast Deployment">
+                  <h3>Super Fast Deployment</h3>
                   <p>Automate your deployment process with ease using Razorops.</p>
               </div>
               
@@ -68,23 +83,98 @@
       </div>
     </div>
 
-    <div class="security-section">
-      <div class="container">
-          <h2>Why Choose a Security-Conscious CI/CD Pipeline?</h2>
-          <p>As attackers increasingly target CI/CD pipelines to steal sensitive information and deliver malicious code, it's essential to implement a secure CI/CD pipeline. With Razorops, you get:</p>
-          <ul>
-              <li>Threat Modeling and Access Control</li>
-              <li>Runtime Application Self-Protection (RASP)</li>
-              <li>Source Composition Analysis (SCA)</li>
-              <li>Static Application Security Testing (SAST)</li>
-              <li>Dynamic Application Security Testing (DAST)</li>
-              <li>Interactive Application Security Testing (IAST)</li>
-              <li>Audit Logging, Monitoring, and Alerts</li>
-              <li>Secure Containers, Artifacts, and Registry</li>
-              <li>Quality Gates and Approval Processes</li>
-          </ul>
+
+    <!-- Security Features Section -->
+    <section class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="display-4">Why Choose a Security-Conscious CI/CD Pipeline?</h2>
+      <p class="lead">As attackers increasingly target CI/CD pipelines to steal sensitive information and deliver malicious code, it's essential to implement a secure CI/CD pipeline. With RazorOps, you get:</p>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/threat-modeling-and-access-control.webp" class="card-img-top" class="img-responsive" alt="Threat Modeling and Access Control">
+          <div class="caption">
+            <h4>Threat Modeling and Access Control</h4>
+            <p class="card-text">Identify and assess potential threats to your pipeline. Implement robust access controls to restrict unauthorized access.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/runtime-application-self-protection.webp" class="card-img-top" class="img-responsive" alt="RASP">
+          <div class="caption">
+            <h4>Runtime Application Self-Protection</h4>
+            <p class="card-text">Monitor and protect your applications in real-time. Automatically detect and mitigate threats during execution.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/source-composition-analysis.webp" class="card-img-top" alt="SCA">
+          <div class="caption">
+            <h4>Source Composition Analysis (SCA)</h4>
+            <p class="card-text">Scan open-source dependencies for vulnerabilities. Ensure compliance with security policies and best practices.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/static-application-security-testing.webp" class="card-img-top" alt="SAST">
+          <div class="caption">
+            <h4>Static Application Security Testing (SAST)</h4>
+            <p class="card-text">Analyze source code for security vulnerabilities early in the development process. Identify and fix security flaws before they become exploitable.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/dynamic-application-security-testing.webp" class="card-img-top" alt="DAST">
+          <div class="caption">
+            <h4>Dynamic Application Security Testing (DAST)</h4>
+            <p class="card-text">Test running applications for security issues. Simulate attacks to find vulnerabilities in the live environment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/interactive-application-security-testing.webp" class="card-img-top" alt="IAST">
+          <div class="caption">
+            <h4>Interactive Application Security Testing (IAST)</h4>
+            <p class="card-text">Combine SAST and DAST techniques for comprehensive security testing. Get real-time feedback on security issues within your application.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/audit-logging-monitoring-and-alerts.webp" class="card-img-top" alt="Audit Logging, Monitoring, and Alerts">
+          <div class="caption">
+            <h4>Audit Logging, Monitoring, and Alerts</h4>
+            <p class="card-text">Maintain detailed logs of all activities within the CI/CD pipeline. Monitor for suspicious activities and receive alerts for potential security incidents.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/secure-containers-artifacts-and-registry.webp" class="card-img-top" alt="Secure Containers, Artifacts, and Registry">
+          <div class="caption">
+            <h4>Secure Containers, Artifacts, and Registry</h4>
+            <p class="card-text">Ensure containers and artifacts are secure and free from vulnerabilities. Use a secure registry to store and manage container images.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-4 mb-4">
+        <div class="thumbnail">
+          <img src="/images/home/quality-gates-and-approval-processes.webp" class="card-img-top" alt="Quality Gates and Approval Processes">
+          <div class="caption">
+            <h4>Quality Gates and Approval Processes</h4>
+            <p class="card-text">Implement quality gates to enforce security policies. Use approval processes to review and approve changes before deployment.</p>
+          </div>
+        </div>
       </div>
     </div>
+  </section>
 
     <div class="cta-section">
       <div class="container">
@@ -95,9 +185,4 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
 
