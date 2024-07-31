@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title
 author: Shyam Mohan
 category: Terrafrom
-date: 2024-07-19T02:16:00.000Z
+date: 2024-08-30T07:46:00.000Z
 ---
 Terraform is an open-source infrastructure as code (IaC) software tool created by HashiCorp. It allows users to define and provision data center infrastructure using a high-level configuration language known as HashiCorp Configuration Language (HCL) or optionally JSON.
 
