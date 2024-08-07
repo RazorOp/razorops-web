@@ -1,6 +1,5 @@
 ---
-title: 2024-07-19-What are microservices, and how do they relate to DevOps
-  architecture
+title: What are microservices, and how do they relate to DevOps architecture
 description: "Microservices architecture and DevOps practices are synergistic,
   enhancing the flexibility, scalability, and speed of software development and
   deployment. "
