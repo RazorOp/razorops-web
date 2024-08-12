@@ -1105,7 +1105,6 @@ color: white;
 background-color: #000;
 text-align: center;
 cursor: pointer;
-width: 20% !important;
 font-size: 18px;
 }
 .banner {
@@ -1624,6 +1623,18 @@ margin-bottom: 60px;
 background-position: -5px 0px;
 min-height: 600px;
 }
+
+#responseMessage {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #00853c;
+		padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
 
 /*----FAQ----*/
 

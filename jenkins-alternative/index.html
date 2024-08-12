@@ -19,7 +19,7 @@ image: '/images/jenkins-alternative.jpg'
       <a class="anchor-text" href="https://docs.razorops.com/?utm_source=Jenkins-alternative&utm_medium=documentation&utm_campaign=signup-Jenkins-alternative" target="_blank"> Documentation</a><br><br>
       <br><br>
       <div class="row banner-bullets">
-        <div class="col-sm-6"><p><span>&#x2713;</span> No plugins </p></div>
+        <div class="col-sm-6"><p><span>&#x2713;</span>No plugins </p></div>
         <div class="col-sm-6"><p><span>&#x2713;</span>No maintenance charges </p></div>
         <div class="col-sm-6"><p><span>&#x2713;</span>No servers required  </p></div>
         <div class="col-sm-6"><p><span>&#x2713;</span>Faster releases </p></div>
@@ -30,668 +30,191 @@ image: '/images/jenkins-alternative.jpg'
     </div>
     <div class="col-sm-6 form-section">
       <div class="form-body">
+        
+        <form id="contactForm">
+          <h2 class="form-heading">Request a call back</h2>
+          <div id="responseMessage"></div>
+          <div class="form-group">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name *" required>
+          </div>
 
-          <form id="myform" method="post" >
-            <h2 class="form-heading">Request a call back</h2>
-            <div class="form-group">
-                <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name *" required>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email *" required>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" id="InputDesignation" name="InputDesignation" placeholder="Designation *" placeholder="Designation">
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-3">
-                
-                <select name="countryCode" id="countryCode" class="form-control">
-                        <option data-countryCode="DZ" value="213">Algeria (+213)</option>
-                        <option data-countryCode="AD" value="376">Andorra (+376)</option>
-                        <option data-countryCode="AO" value="244">Angola (+244)</option>
-                        <option data-countryCode="AI" value="1264">Anguilla (+1264)</option>
-                        <option data-countryCode="AG" value="1268">Antigua & Barbuda (+1268)</option>
-                        <option data-countryCode="AR" value="54">Argentina (+54)</option>
-                        <option data-countryCode="AM" value="374">Armenia (+374)</option>
-                        <option data-countryCode="AW" value="297">Aruba (+297)</option>
-                        <option data-countryCode="AU" value="61">Australia (+61)</option>
-                        <option data-countryCode="AT" value="43">Austria (+43)</option>
-                        <option data-countryCode="AZ" value="994">Azerbaijan (+994)</option>
-                        <option data-countryCode="BS" value="1242">Bahamas (+1242)</option>
-                        <option data-countryCode="BH" value="973">Bahrain (+973)</option>
-                        <option data-countryCode="BD" value="880">Bangladesh (+880)</option>
-                        <option data-countryCode="BB" value="1246">Barbados (+1246)</option>
-                        <option data-countryCode="BY" value="375">Belarus (+375)</option>
-                        <option data-countryCode="BE" value="32">Belgium (+32)</option>
-                        <option data-countryCode="BZ" value="501">Belize (+501)</option>
-                        <option data-countryCode="BJ" value="229">Benin (+229)</option>
-                        <option data-countryCode="BM" value="1441">Bermuda (+1441)</option>
-                        <option data-countryCode="BT" value="975">Bhutan (+975)</option>
-                        <option data-countryCode="BO" value="591">Bolivia (+591)</option>
-                        <option data-countryCode="BA" value="387">Bosnia Herzegovina (+387)</option>
-                        <option data-countryCode="BW" value="267">Botswana (+267)</option>
-                        <option data-countryCode="BR" value="55">Brazil (+55)</option>
-                        <option data-countryCode="BN" value="673">Brunei (+673)</option>
-                        <option data-countryCode="BG" value="359">Bulgaria (+359)</option>
-                        <option data-countryCode="BF" value="226">Burkina Faso (+226)</option>
-                        <option data-countryCode="BI" value="257">Burundi (+257)</option>
-                        <option data-countryCode="KH" value="855">Cambodia (+855)</option>
-                        <option data-countryCode="CM" value="237">Cameroon (+237)</option>
-                        <option data-countryCode="CA" value="1">Canada (+1)</option>
-                        <option data-countryCode="CV" value="238">Cape Verde Islands (+238)</option>
-                        <option data-countryCode="KY" value="1345">Cayman Islands (+1345)</option>
-                        <option data-countryCode="CF" value="236">Central African Republic (+236)</option>
-                        <option data-countryCode="CL" value="56">Chile (+56)</option>
-                        <option data-countryCode="CN" value="86">China (+86)</option>
-                        <option data-countryCode="CO" value="57">Colombia (+57)</option>
-                        <option data-countryCode="KM" value="269">Comoros (+269)</option>
-                        <option data-countryCode="CG" value="242">Congo (+242)</option>
-                        <option data-countryCode="CK" value="682">Cook Islands (+682)</option>
-                        <option data-countryCode="CR" value="506">Costa Rica (+506)</option>
-                        <option data-countryCode="HR" value="385">Croatia (+385)</option>
-                        <option data-countryCode="CU" value="53">Cuba (+53)</option>
-                        <option data-countryCode="CY" value="90392">Cyprus North (+90392)</option>
-                        <option data-countryCode="CY" value="357">Cyprus South (+357)</option>
-                        <option data-countryCode="CZ" value="42">Czech Republic (+42)</option>
-                        <option data-countryCode="DK" value="45">Denmark (+45)</option>
-                        <option data-countryCode="DJ" value="253">Djibouti (+253)</option>
-                        <option data-countryCode="DM" value="1809">Dominica (+1809)</option>
-                        <option data-countryCode="DO" value="1809">Dominican Republic (+1809)</option>
-                        <option data-countryCode="EC" value="593">Ecuador (+593)</option>
-                        <option data-countryCode="EG" value="20">Egypt (+20)</option>
-                        <option data-countryCode="SV" value="503">El Salvador (+503)</option>
-                        <option data-countryCode="GQ" value="240">Equatorial Guinea (+240)</option>
-                        <option data-countryCode="ER" value="291">Eritrea (+291)</option>
-                        <option data-countryCode="EE" value="372">Estonia (+372)</option>
-                        <option data-countryCode="ET" value="251">Ethiopia (+251)</option>
-                        <option data-countryCode="FK" value="500">Falkland Islands (+500)</option>
-                        <option data-countryCode="FO" value="298">Faroe Islands (+298)</option>
-                        <option data-countryCode="FJ" value="679">Fiji (+679)</option>
-                        <option data-countryCode="FI" value="358">Finland (+358)</option>
-                        <option data-countryCode="FR" value="33">France (+33)</option>
-                        <option data-countryCode="GF" value="594">French Guiana (+594)</option>
-                        <option data-countryCode="PF" value="689">French Polynesia (+689)</option>
-                        <option data-countryCode="GA" value="241">Gabon (+241)</option>
-                        <option data-countryCode="GM" value="220">Gambia (+220)</option>
-                        <option data-countryCode="GE" value="7880">Georgia (+7880)</option>
-                        <option data-countryCode="DE" value="49">Germany (+49)</option>
-                        <option data-countryCode="GH" value="233">Ghana (+233)</option>
-                        <option data-countryCode="GI" value="350">Gibraltar (+350)</option>
-                        <option data-countryCode="GR" value="30">Greece (+30)</option>
-                        <option data-countryCode="GL" value="299">Greenland (+299)</option>
-                        <option data-countryCode="GD" value="1473">Grenada (+1473)</option>
-                        <option data-countryCode="GP" value="590">Guadeloupe (+590)</option>
-                        <option data-countryCode="GU" value="671">Guam (+671)</option>
-                        <option data-countryCode="GT" value="502">Guatemala (+502)</option>
-                        <option data-countryCode="GN" value="224">Guinea (+224)</option>
-                        <option data-countryCode="GW" value="245">Guinea - Bissau (+245)</option>
-                        <option data-countryCode="GY" value="592">Guyana (+592)</option>
-                        <option data-countryCode="HT" value="509">Haiti (+509)</option>
-                        <option data-countryCode="HN" value="504">Honduras (+504)</option>
-                        <option data-countryCode="HK" value="852">Hong Kong (+852)</option>
-                        <option data-countryCode="HU" value="36">Hungary (+36)</option>
-                        <option data-countryCode="IS" value="354">Iceland (+354)</option>
-                        <option data-countryCode="IN" value="91" Selected>India (+91)</option>
-                        <option data-countryCode="ID" value="62">Indonesia (+62)</option>
-                        <option data-countryCode="IR" value="98">Iran (+98)</option>
-                        <option data-countryCode="IQ" value="964">Iraq (+964)</option>
-                        <option data-countryCode="IE" value="353">Ireland (+353)</option>
-                        <option data-countryCode="IL" value="972">Israel (+972)</option>
-                        <option data-countryCode="IT" value="39">Italy (+39)</option>
-                        <option data-countryCode="JM" value="1876">Jamaica (+1876)</option>
-                        <option data-countryCode="JP" value="81">Japan (+81)</option>
-                        <option data-countryCode="JO" value="962">Jordan (+962)</option>
-                        <option data-countryCode="KZ" value="7">Kazakhstan (+7)</option>
-                        <option data-countryCode="KE" value="254">Kenya (+254)</option>
-                        <option data-countryCode="KI" value="686">Kiribati (+686)</option>
-                        <option data-countryCode="KP" value="850">Korea North (+850)</option>
-                        <option data-countryCode="KR" value="82">Korea South (+82)</option>
-                        <option data-countryCode="KW" value="965">Kuwait (+965)</option>
-                        <option data-countryCode="KG" value="996">Kyrgyzstan (+996)</option>
-                        <option data-countryCode="LA" value="856">Laos (+856)</option>
-                        <option data-countryCode="LV" value="371">Latvia (+371)</option>
-                        <option data-countryCode="LB" value="961">Lebanon (+961)</option>
-                        <option data-countryCode="LS" value="266">Lesotho (+266)</option>
-                        <option data-countryCode="LR" value="231">Liberia (+231)</option>
-                        <option data-countryCode="LY" value="218">Libya (+218)</option>
-                        <option data-countryCode="LI" value="417">Liechtenstein (+417)</option>
-                        <option data-countryCode="LT" value="370">Lithuania (+370)</option>
-                        <option data-countryCode="LU" value="352">Luxembourg (+352)</option>
-                        <option data-countryCode="MO" value="853">Macao (+853)</option>
-                        <option data-countryCode="MK" value="389">Macedonia (+389)</option>
-                        <option data-countryCode="MG" value="261">Madagascar (+261)</option>
-                        <option data-countryCode="MW" value="265">Malawi (+265)</option>
-                        <option data-countryCode="MY" value="60">Malaysia (+60)</option>
-                        <option data-countryCode="MV" value="960">Maldives (+960)</option>
-                        <option data-countryCode="ML" value="223">Mali (+223)</option>
-                        <option data-countryCode="MT" value="356">Malta (+356)</option>
-                        <option data-countryCode="MH" value="692">Marshall Islands (+692)</option>
-                        <option data-countryCode="MQ" value="596">Martinique (+596)</option>
-                        <option data-countryCode="MR" value="222">Mauritania (+222)</option>
-                        <option data-countryCode="YT" value="269">Mayotte (+269)</option>
-                        <option data-countryCode="MX" value="52">Mexico (+52)</option>
-                        <option data-countryCode="FM" value="691">Micronesia (+691)</option>
-                        <option data-countryCode="MD" value="373">Moldova (+373)</option>
-                        <option data-countryCode="MC" value="377">Monaco (+377)</option>
-                        <option data-countryCode="MN" value="976">Mongolia (+976)</option>
-                        <option data-countryCode="MS" value="1664">Montserrat (+1664)</option>
-                        <option data-countryCode="MA" value="212">Morocco (+212)</option>
-                        <option data-countryCode="MZ" value="258">Mozambique (+258)</option>
-                        <option data-countryCode="MN" value="95">Myanmar (+95)</option>
-                        <option data-countryCode="NA" value="264">Namibia (+264)</option>
-                        <option data-countryCode="NR" value="674">Nauru (+674)</option>
-                        <option data-countryCode="NP" value="977">Nepal (+977)</option>
-                        <option data-countryCode="NL" value="31">Netherlands (+31)</option>
-                        <option data-countryCode="NC" value="687">New Caledonia (+687)</option>
-                        <option data-countryCode="NZ" value="64">New Zealand (+64)</option>
-                        <option data-countryCode="NI" value="505">Nicaragua (+505)</option>
-                        <option data-countryCode="NE" value="227">Niger (+227)</option>
-                        <option data-countryCode="NG" value="234">Nigeria (+234)</option>
-                        <option data-countryCode="NU" value="683">Niue (+683)</option>
-                        <option data-countryCode="NF" value="672">Norfolk Islands (+672)</option>
-                        <option data-countryCode="NP" value="670">Northern Marianas (+670)</option>
-                        <option data-countryCode="NO" value="47">Norway (+47)</option>
-                        <option data-countryCode="OM" value="968">Oman (+968)</option>
-                        <option data-countryCode="PW" value="680">Palau (+680)</option>
-                        <option data-countryCode="PA" value="507">Panama (+507)</option>
-                        <option data-countryCode="PG" value="675">Papua New Guinea (+675)</option>
-                        <option data-countryCode="PY" value="595">Paraguay (+595)</option>
-                        <option data-countryCode="PE" value="51">Peru (+51)</option>
-                        <option data-countryCode="PH" value="63">Philippines (+63)</option>
-                        <option data-countryCode="PL" value="48">Poland (+48)</option>
-                        <option data-countryCode="PT" value="351">Portugal (+351)</option>
-                        <option data-countryCode="PR" value="1787">Puerto Rico (+1787)</option>
-                        <option data-countryCode="QA" value="974">Qatar (+974)</option>
-                        <option data-countryCode="RE" value="262">Reunion (+262)</option>
-                        <option data-countryCode="RO" value="40">Romania (+40)</option>
-                        <option data-countryCode="RU" value="7">Russia (+7)</option>
-                        <option data-countryCode="RW" value="250">Rwanda (+250)</option>
-                        <option data-countryCode="SM" value="378">San Marino (+378)</option>
-                        <option data-countryCode="ST" value="239">Sao Tome & Principe (+239)</option>
-                        <option data-countryCode="SA" value="966">Saudi Arabia (+966)</option>
-                        <option data-countryCode="SN" value="221">Senegal (+221)</option>
-                        <option data-countryCode="CS" value="381">Serbia (+381)</option>
-                        <option data-countryCode="SC" value="248">Seychelles (+248)</option>
-                        <option data-countryCode="SL" value="232">Sierra Leone (+232)</option>
-                        <option data-countryCode="SG" value="65">Singapore (+65)</option>
-                        <option data-countryCode="SK" value="421">Slovak Republic (+421)</option>
-                        <option data-countryCode="SI" value="386">Slovenia (+386)</option>
-                        <option data-countryCode="SB" value="677">Solomon Islands (+677)</option>
-                        <option data-countryCode="SO" value="252">Somalia (+252)</option>
-                        <option data-countryCode="ZA" value="27">South Africa (+27)</option>
-                        <option data-countryCode="ES" value="34">Spain (+34)</option>
-                        <option data-countryCode="LK" value="94">Sri Lanka (+94)</option>
-                        <option data-countryCode="SH" value="290">St. Helena (+290)</option>
-                        <option data-countryCode="KN" value="1869">St. Kitts (+1869)</option>
-                        <option data-countryCode="SC" value="1758">St. Lucia (+1758)</option>
-                        <option data-countryCode="SD" value="249">Sudan (+249)</option>
-                        <option data-countryCode="SR" value="597">Suriname (+597)</option>
-                        <option data-countryCode="SZ" value="268">Swaziland (+268)</option>
-                        <option data-countryCode="SE" value="46">Sweden (+46)</option>
-                        <option data-countryCode="CH" value="41">Switzerland (+41)</option>
-                        <option data-countryCode="SI" value="963">Syria (+963)</option>
-                        <option data-countryCode="TW" value="886">Taiwan (+886)</option>
-                        <option data-countryCode="TJ" value="7">Tajikstan (+7)</option>
-                        <option data-countryCode="TH" value="66">Thailand (+66)</option>
-                        <option data-countryCode="TG" value="228">Togo (+228)</option>
-                        <option data-countryCode="TO" value="676">Tonga (+676)</option>
-                        <option data-countryCode="TT" value="1868">Trinidad & Tobago (+1868)</option>
-                        <option data-countryCode="TN" value="216">Tunisia (+216)</option>
-                        <option data-countryCode="TR" value="90">Turkey (+90)</option>
-                        <option data-countryCode="TM" value="7">Turkmenistan (+7)</option>
-                        <option data-countryCode="TM" value="993">Turkmenistan (+993)</option>
-                        <option data-countryCode="TC" value="1649">Turks & Caicos Islands (+1649)</option>
-                        <option data-countryCode="TV" value="688">Tuvalu (+688)</option>
-                        <option data-countryCode="UG" value="256">Uganda (+256)</option>
-                        <option data-countryCode="GB" value="44">UK (+44)</option>
-                        <option data-countryCode="UA" value="380">Ukraine (+380)</option>
-                        <option data-countryCode="AE" value="971">United Arab Emirates (+971)</option>
-                        <option data-countryCode="UY" value="598">Uruguay (+598)</option>
-                        <option data-countryCode="US" value="1">USA (+1)</option>
-                        <option data-countryCode="UZ" value="7">Uzbekistan (+7)</option>
-                        <option data-countryCode="VU" value="678">Vanuatu (+678)</option>
-                        <option data-countryCode="VA" value="379">Vatican City (+379)</option>
-                        <option data-countryCode="VE" value="58">Venezuela (+58)</option>
-                        <option data-countryCode="VN" value="84">Vietnam (+84)</option>
-                        <option data-countryCode="VG" value="84">Virgin Islands - British (+1284)</option>
-                        <option data-countryCode="VI" value="84">Virgin Islands - US (+1340)</option>
-                        <option data-countryCode="WF" value="681">Wallis & Futuna (+681)</option>
-                        <option data-countryCode="YE" value="969">Yemen (North)(+969)</option>
-                        <option data-countryCode="YE" value="967">Yemen (South)(+967)</option>
-                        <option data-countryCode="ZM" value="260">Zambia (+260)</option>
-                        <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
-                    </optgroup>
-                </select>
-                
-                </div>
-                <div class="col-sm-9">  
-                    <input type="tel" class="form-control" id="InputPhonenumber" name="InputPhonenumber"  maxlength = "10" onkeypress="return checkNumber(event)" placeholder="Phone Number *"  required>
-                  </div> 
+          <div class="form-group">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email *" required>
           </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="InputCompany" name="InputCompany" placeholder="Company Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" id="InputCompanyLink" name="InputCompanyLink" placeholder="Company Website / Company Linkedin">
+
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" class="form-control" placeholder="Mobile with country code *" required>
           </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="InputCountry" name="InputCountry" placeholder="Location">
-            </div>
-            <button class="btn btn-razorops-new" type="submit" id="submitbtn" >Submit</button>
-            <!-- <hr class="hr-text" data-content="or signup with">
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="company_linkedin" name="company_linkedin" placeholder="Website / Linkedin profile *" required>
+          </div>
+
           
-              <div class="form-signup-btns row">
-                <a href="https://dashboard.razorops.com/users/sign_up" class="btn btn-default btn-lg pr-4  mr-4 "><img src="/images/v2/github-black.svg" alt="github" class="btn-icon"><b>Github</b></a>
-                <a href="https://dashboard.razorops.com/users/sign_up" class="btn btn-default btn-lg pr-4  mr-4 "><img src="/images/v2/bitbucket.svg" alt="bitbucket" class="btn-icon"><b>Bitbucket</b></a>
-                <a href="https://dashboard.razorops.com/users/sign_up" class="btn btn-default btn-lg pr-4 mr-4"><img src="/images/v2/gitlab.svg" alt="gitlab" class="btn-icon"><b>Gitlab</b></a>
-              </div> -->
-            <!-- <label for="signup-policy"><p class="signup-agg">By signing up you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label> -->
-          </form>
-   
+          <div class="form-group">
+            <input type="hidden" id="lead_source" name="lead_source" value="jenkins-alternative">
+          </div>
+
+          <div class="form-group">
+            <input type="hidden" id="campaign_id" name="campaign_id" value="280">
+          </div>
+          
+
+          <button type="submit" class="btn btn-razorops-new">Submit</button>
+
+          
+        </form>
       </div>
      
     </div>
   </div>
 </div>
 
+<script src="/js/contact_script.js"></script>
+
+<div class="container competitors-table" id="competitors-table">
+  <h2 class="section-header2 text-center">RazorOps Vs Jenkins</h2>
+  <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Features</th>
+          <th scope="col"><img src="/images/v2/razorops-logo.png" width="120" alt="Razorops" ></th>
+          <th scope="col"><img src="/images/jenkins-logo.png" width="110" alt="Jenkins" ></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Hosting</th>
+          <td class="bg-blue">SAAS hosted, on-prem, closed source, No maintenance headaches</td>
+          <td class="bg-warning">Open source, Self-hosted, maintenance required</td>
+        </tr>
+        <tr>
+          <th scope="row">Modern/Container-native</th>
+          <td class="bg-blue">Container-native from the ground up, more resilient with better environment boundaries</td>
+          <td class="bg-warning">Built years before, though still a good tool for automation and flexible pipelines</td>
+        </tr>
+        <tr>
+          <th scope="row">Extensibility</th>
+          <td class="bg-blue">Marketplace based managed integrations and plugins</td>
+          <td class="bg-warning">Plugins ( made by independent authors and inhouse)</td>
+        </tr>
+        <tr>
+          <th scope="row">Docker Support (docker daemon, storage and image management)</th>
+          <td class="bg-blue">Out-of-box</td>
+          <td class="bg-warning">TBC, Limited</td>
+        </tr>
+        <tr>
+          <th scope="row">Docker Layer Caching</th>
+          <td class="bg-blue">In-build (faster builds)</td>
+          <td class="bg-warning">NO</td>
+        </tr>
+        <tr>
+          <th scope="row">Concurrent/Parallel builds</th>
+          <td class="bg-blue">YES</td>
+          <td class="bg-warning">Limited, Plugin</td>
+        </tr>
+        <tr>
+          <th scope="row">Artifact support</th>
+          <td class="bg-blue">In-build</td>
+          <td class="bg-warning">Plugin based, TBC</td>
+        </tr>
+        <tr>
+          <th scope="row">Test Reports and analysis</th>
+          <td class="bg-blue">In-build</td>
+          <td class="bg-warning">Plugin based, TBC</td>
+        </tr>
+        <tr>
+          <th scope="row">Pipeline as code</th>
+          <td class="bg-blue">YES</td>
+          <td class="bg-warning">NO, TBC</td>
+        </tr>
+        <tr>
+          <th scope="row">Database and service testing</th>
+          <td class="bg-blue">YES</td>
+          <td class="bg-warning">NO</td>
+        </tr>
+        <tr>
+          <th scope="row">Dependency caching</th>
+          <td class="bg-blue">YES</td>
+          <td class="bg-warning">NO</td>
+        </tr>
+        <tr>
+          <th scope="row">Language runtimes</th>
+          <td class="bg-blue">YES, managed by us</td>
+          <td class="bg-warning">YES, Managed by the community</td>
+        </tr>
+        <tr>
+          <th scope="row">Technical Support</th>
+          <td class="bg-blue">YES</td>
+          <td class="bg-warning">NO</td>
+        </tr>
+        <tr>
+          <th scope="row">Git Triggers (push, click, Pull Request, tag )</th>
+          <td class="bg-blue">YES</td>
+          <td class="bg-warning">YES</td>
+        </tr>
+        <tr>
+          <th scope="row">Trigger on a scheduled time</th>
+          <td class="bg-blue">NO</td>
+          <td class="bg-warning">YES</td>
+        </tr>
+        <tr>
+          <th scope="row">CLI / API Access</th>
+          <td class="bg-blue">YES</td>
+          <td class="bg-warning">YES, Limited</td>
+        </tr>
+        <tr>
+          <th scope="row">Notification</th>
+          <td class="bg-blue">Email and chart (slack and others)</td>
+          <td class="bg-warning">TBC, Plugin</td>
+        </tr>
 
 
-<script src="/js/migrate-form.js"></script>
- <!-- <div class="v3clients container">
-<div class="v3gallery row">
-	<div class="client-img-div col-sm-2">
-		<img src="/images/clients-img/auzmor.png" width="100%" id="img1">
-	</div>
-	<div class="client-img-div col-sm-2">
-		<img src="/images/clients-img/azure.png" width="100%" id="img2">
-	</div>
-	<div class="client-img-div col-sm-2">
-		<img src="/images/clients-img/bitbucket.png" width="100%" id="img3">
-	</div>    
-	<div class="client-img-div col-sm-2">
-		<img src="/images/clients-img/digitalocean.png" width="100%" id="img4">
-	</div>
-	<div class="client-img-div col-sm-2">
-		<img src="/images/clients-img/dossier.png" width="100%" id="img5">
-	</div>
-	<div class="client-img-div col-sm-2">
-		<img src="/images/clients-img/trice.png" width="100%" id="img6">
-	</div>
-
-</div>   
-</div>  -->
-
-<!-- <script>
-	var myImage1 = document.getElementById("img1");
-	var myImage2 = document.getElementById("img2");
-	var myImage3 = document.getElementById("img3");
-	var myImage4 = document.getElementById("img4");
-	var myImage5 = document.getElementById("img5");
-	var myImage6 = document.getElementById("img6");
-
-
-
-	
-
-	myImage1.onmouseover = mouseOver1;
-	myImage1.onmouseout = mouseOut1;
-	myImage2.onmouseover = mouseOver2;
-	myImage2.onmouseout = mouseOut2;
-	myImage3.onmouseover = mouseOver3;
-	myImage3.onmouseout = mouseOut3;
-	myImage4.onmouseover = mouseOver4;
-	myImage4.onmouseout = mouseOut4;
-	myImage5.onmouseover = mouseOver5;
-	myImage5.onmouseout = mouseOut5;
-	myImage6.onmouseover = mouseOver6;
-	myImage6.onmouseout = mouseOut6;
-	
-	function mouseOver1() { 
-	  myImage1.src = "/images/clients-img/colored/auzmor.png";
-	}
-	function mouseOver2() { 
-		myImage2.src = "/images/clients-img/colored/azure.jpg";
-	}
-	function mouseOver3() { 
-		myImage3.src = "/images/clients-img/colored/bitbucket.jpg";
-	}
-	function mouseOver4() { 
-		myImage4.src = "/images/clients-img/colored/digitalocean.png";
-	}
-	function mouseOver5() { 
-		myImage5.src = "/images/clients-img/colored/dossier.png";
-	}
-	function mouseOver6() { 
-		myImage6.src = "/images/clients-img/colored/trice.png";
-	}
-
-
-
-
-	function mouseOut1() { 
-		myImage1.src = "/images/clients-img/auzmor.png";
-	}
-	function mouseOut2() { 
-		myImage2.src = "/images/clients-img/azure.png";
-	}
-	function mouseOut3() { 
-		myImage3.src = "/images/clients-img/bitbucket.png";
-	}
-	function mouseOut4() { 
-		myImage4.src = "/images/clients-img/digitalocean.png";
-	}
-	function mouseOut5() { 
-		myImage5.src = "/images/clients-img/dossier.png";
-	}
-	function mouseOut6() { 
-		myImage6.src = "/images/clients-img/trice.png";
-	}
-	
-
-
-
-
-</script> -->
-  
-
-  <!-- <div class=" content-section">
-    <div class="toc-body row">
-      <div class="col-sm-9">
-            <h2 class="content-heading">
-                Table Of Content
-            </h2>
-            <ul class="content-list">
-                <li><a href="#our-tool">What is RazorOps?</a></li>
-                <li><a href="#our-tool">What is Jenkins?</a></li>
-                <li><a href="#competitors-table">RazorOps vs Jenkins</a></li>
-                <li><a href="#which-tool-to-use">Which Tool to Use? (Razorops or Jenkins)</a></li>
-                <li><a href="#compatible-stack">Compatible with your Technology Stack</a></li>
-                <li><a href="#integration-tools">Integrates with your stack</a></li>
-                <li><a href="#faqs">Frequently Asked Questions</a></li>
-            </ul>
-      </div>
-      <div class="col-sm-3">
-        <img src="/images/jenkins-logo-razorops.svg" width="100%" alt="Jenkins Logo">
-      </div>
-        
-  </div>
-  </div> -->
-
-
-  <div class="container about-vssection" >
-    <div class="about-body"  id="our-tool">
-        <h2 class="section-header2 text-center">What is RazorOps CI/CD?</h2>
-        <div class="about-content">
-          <p class="text-center">
-            Razorops is the simplest container-native CI/CD platform that offers complete automation of your software development cycle from development to production.
-          </p>
-          <div class="text-center">
-            <a class="" id="myBtn">
-            <img src="/images/home/razorops-demo.webp" alt="razorops deployment pipeline" title="razorops deployment pipeline" class="thumnail-gifimage img-responsive">
-            </a>
-            <div id="myModal" class="modalnew fade in">
-            <div class="modal-video">
-            <span class="close">&times;</span>
-            <video controls="controls" id="test-audio" width="100%" height="540">
-            <source src="/images/razorops-introduction.mp4" type="video/mp4">
-            <source src="/images/razorops-introduction.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-            </video>
-            </div>
-            </div>
-            <br>
-            <br>
-            <script>
-                      var modal = document.getElementById("myModal");
-                      var btn = document.getElementById("myBtn");
-                      var span = document.getElementsByClassName("close")[0];
-                      var audio = document.getElementById("test-audio");
-                      
-                      span.onclick = function() {
-                        modal.style.display = "none";
-                        audio.autoplay=false;
-                        audio.pause();
-            
-                      }
-                      
-                      btn.onclick = function() {
-                        modal.style.display = "block";
-                        audio.autoplay=true;
-                        audio.load();
-            
-                      }
-
-                      window.onclick = function (event) {
-   
-                          if (event.target == modal) {
-                            modal.style.display = "none";
-                            audio.autoplay = false;
-                            audio.pause();
-                          }
-                      
-                        }
-                      
-                  
-                      </script>
-            </div>
-        </div>
-    </div>
-  </div>
-
-
-  <!-- <div class="container about-vssection" >
-    <div class="about-body" id="our-tool">
-        <h2 class="section-header2 text-center" >What is Jenkins?</h2>
-        <div class="about-content">
-          <p>
-            Jenkins is a well-known open source automation server, used to implement Continuous Integration (CI) and Continuous Delivery (CD) for any software development project. It allows developers around the world to build, test, and deploy their software.
-          </p>
-        </div>
-    </div>
-  </div> -->
-
-
-  <div class="container competitors-table" id="competitors-table">
-    <h2 class="section-header2 text-center">RazorOps Vs Jenkins</h2>
-    <!-- <div class="compare-intro">
-     <ul>
-      <li>
-        Jenkins only provides an on-premises version whereas RazorOps offers both on-premises and SaaS version, which makes it an ideal for users that don't want to operate or maintain backend servers.      
-      </li>
-      <li>
-        The tremendous amount of labor required to run Jenkins is one of its biggest drawbacks. This involves setting up the system initially, scripting to expand it into a strong CD candidate, and then maintaining it. In general, 2 to 5 engineers are required merely to maintain Jenkins on a daily basis. Because Jenkins is an open-source program, many organisations utilise it. The expense of maintaining it frequently makes it an ineffective program. Contrarily, RazorOps integrates declarative pipelines without the requirement of any scripting from users end.      
-      </li>
-     </ul>
-    </div> -->
-    <table class="table table-bordered">
-        <thead>
-          <tr>
-            <th scope="col">Features</th>
-            <th scope="col"><img src="/images/v2/razorops-logo.png" width="120" alt="Razorops" ></th>
-            <th scope="col"><img src="/images/jenkins-logo.png" width="110" alt="Jenkins" ></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Hosting</th>
-            <td class="bg-blue">SAAS hosted, on-prem, closed source, No maintenance headaches</td>
-            <td class="bg-warning">Open source, Self-hosted, maintenance required</td>
-          </tr>
-          <tr>
-            <th scope="row">Modern/Container-native</th>
-            <td class="bg-blue">Container-native from the ground up, more resilient with better environment boundaries</td>
-            <td class="bg-warning">Built years before, though still a good tool for automation and flexible pipelines</td>
-          </tr>
-          <tr>
-            <th scope="row">Extensibility</th>
-            <td class="bg-blue">Marketplace based managed integrations and plugins</td>
-            <td class="bg-warning">Plugins ( made by independent authors and inhouse)</td>
-          </tr>
-          <tr>
-            <th scope="row">Docker Support (docker daemon, storage and image management)</th>
-            <td class="bg-blue">Out-of-box</td>
-            <td class="bg-warning">TBC, Limited</td>
-          </tr>
-          <tr>
-            <th scope="row">Docker Layer Caching</th>
-            <td class="bg-blue">In-build (faster builds)</td>
-            <td class="bg-warning">NO</td>
-          </tr>
-          <tr>
-            <th scope="row">Concurrent/Parallel builds</th>
-            <td class="bg-blue">YES</td>
-            <td class="bg-warning">Limited, Plugin</td>
-          </tr>
-          <tr>
-            <th scope="row">Artifact support</th>
-            <td class="bg-blue">In-build</td>
-            <td class="bg-warning">Plugin based, TBC</td>
-          </tr>
-          <tr>
-            <th scope="row">Test Reports and analysis</th>
-            <td class="bg-blue">In-build</td>
-            <td class="bg-warning">Plugin based, TBC</td>
-          </tr>
-          <tr>
-            <th scope="row">Pipeline as code</th>
-            <td class="bg-blue">YES</td>
-            <td class="bg-warning">NO, TBC</td>
-          </tr>
-          <tr>
-            <th scope="row">Database and service testing</th>
-            <td class="bg-blue">YES</td>
-            <td class="bg-warning">NO</td>
-          </tr>
-          <tr>
-            <th scope="row">Dependency caching</th>
-            <td class="bg-blue">YES</td>
-            <td class="bg-warning">NO</td>
-          </tr>
-          <tr>
-            <th scope="row">Language runtimes</th>
-            <td class="bg-blue">YES, managed by us</td>
-            <td class="bg-warning">YES, Managed by the community</td>
-          </tr>
-          <tr>
-            <th scope="row">Technical Support</th>
-            <td class="bg-blue">YES</td>
-            <td class="bg-warning">NO</td>
-          </tr>
-          <tr>
-            <th scope="row">Git Triggers (push, click, Pull Request, tag )</th>
-            <td class="bg-blue">YES</td>
-            <td class="bg-warning">YES</td>
-          </tr>
-          <tr>
-            <th scope="row">Trigger on a scheduled time</th>
-            <td class="bg-blue">NO</td>
-            <td class="bg-warning">YES</td>
-          </tr>
-          <tr>
-            <th scope="row">CLI / API Access</th>
-            <td class="bg-blue">YES</td>
-            <td class="bg-warning">YES, Limited</td>
-          </tr>
-          <tr>
-            <th scope="row">Notification</th>
-            <td class="bg-blue">Email and chart (slack and others)</td>
-            <td class="bg-warning">TBC, Plugin</td>
-          </tr>
-
-
-          <!-- <tr>
-            <th scope="row" class="bolder-header">Build Environment</th>
-            <td></td>
-            <td></td>
-          </tr> -->
-          <tr>
-            <th scope="row">Linux VM</th>
-            <td class="bg-blue">YES and managed</td>
-            <td class="bg-warning">YES, TBC by you</td>
-          </tr>
-          <tr>
-            <th scope="row">Android / iPhone builds</th>
-            <td class="bg-blue">Limited</td>
-            <td class="bg-warning">Limited</td>
-          </tr>
-          <tr>
-            <th scope="row">Windows</th>
-            <td class="bg-blue">NO</td>
-            <td class="bg-warning">YES, TBC</td>
-          </tr>
-          <tr>
-            <th scope="row">OSX support</th>
-            <td class="bg-blue">NO</td>
-            <td class="bg-warning">YES, TBC</td>
-          </tr>
-        </tbody>
-      </table>
-  </div>  
-
-<!-- <div class="container about-rops-section">
-      <div class="row about-rops-body" id="which-tool-to-use">
-            <div class="col-sm-4 about-rops-img">
-              <h2 class="section-headernew text-center">Which tool to use?<br> Razorops vs Jenkins ?</h2>
-            </div>
-            <div class="about-body col-sm-8 row">
-             
-              <div class="col-sm-4 vstool-card ">
-                  <div class="vstool-content">
-                    <img src="/images/saas.png" width="100%">
-                
-                      <div class="vstool-text">
-                        <h3>SaaS & On-Premises</h3>
-                        <p>
-                          Jenkins only provides an on-premises version because it is an open-source solution. For those that don't want to operate or maintain backend servers, <b>RazorOps offers both on-premises and SaaS versions of the software.</b>
-                        </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-sm-4 vstool-card">
-                  <div class="vstool-content">
-                    <img src="/images/no-script-needed.png" width="100%">
-                  
-                      <div class="vstool-text">
-                        <h3>No scripting is needed</h3>
-                        <p>
-                          Jenkins is an open-source solution, but the cost and complexity of maintaining it make it inefficient. RazorOps, on the other hand, incorporates declarative pipelines with minimal maintenance overhead.<b>Using RazorOps saves developers and DevOps teams time and effort.</b>
-                        </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-sm-4 vstool-card">
-                  <div class="vstool-content">
-                    <img src="/images/usability.png" width="100%">
-                  
-                      <div class="vstool-text">
-                        <h3>Usability</h3>
-                        <p>
-                          The simple fact is that engineers will need a specific quantity of plugins and scripts to make Jenkins work as they need it to. That, in turn, necessitates upkeep. On the other hand, <b>RazorOps provides a UI that is both simple and elegant. The pipelines are declarative and do not require scripting.</b>
-                        </p>
-                      </div>
-                  </div>
-              </div>
-
-            </div>
-      </div>
-  
-</div> -->
+        <!-- <tr>
+          <th scope="row" class="bolder-header">Build Environment</th>
+          <td></td>
+          <td></td>
+        </tr> -->
+        <tr>
+          <th scope="row">Linux VM</th>
+          <td class="bg-blue">YES and managed</td>
+          <td class="bg-warning">YES, TBC by you</td>
+        </tr>
+        <tr>
+          <th scope="row">Android / iPhone builds</th>
+          <td class="bg-blue">Limited</td>
+          <td class="bg-warning">Limited</td>
+        </tr>
+        <tr>
+          <th scope="row">Windows</th>
+          <td class="bg-blue">NO</td>
+          <td class="bg-warning">YES, TBC</td>
+        </tr>
+        <tr>
+          <th scope="row">OSX support</th>
+          <td class="bg-blue">NO</td>
+          <td class="bg-warning">YES, TBC</td>
+        </tr>
+      </tbody>
+    </table>
+</div>  
 
 <div class=" xtra-feature" >
-    <div class=" xtrafeature-body container" id="compatible-stack">
-        <div class="col-sm-6 xtrafeature-content">
-            <h1>
-              Compatible with your Technology Stack
-            </h1>
-            <p>
-              RazorOps is compatible with all widely used languages, services and databases, including Linux, Android, Kubernetes, Docker, MongoDB, MySQL, etc. You can execute that without downloading any plugins because all services are available immediately during every build operation.
-            </p>
-        </div>
-        <div class="col-sm-6 xtrafeature-image">
-            <img src="/images/Razorci-02.gif" alt="Compatible Technology Stack" width="100%">
-        </div>
+  <div class=" xtrafeature-body container" id="compatible-stack">
+    <div class="col-sm-6 xtrafeature-content">
+      <h1>
+        Compatible with your Technology Stack
+      </h1>
+      <p>
+        RazorOps is compatible with all widely used languages, services and databases, including Linux, Android, Kubernetes, Docker, MongoDB, MySQL, etc. You can execute that without downloading any plugins because all services are available immediately during every build operation.
+      </p>
     </div>
+    <div class="col-sm-6 xtrafeature-image">
+      <img src="/images/Razorci-02.gif" alt="Compatible Technology Stack" width="100%">
+    </div>
+  </div>
 </div>  
+
 <img src="/images/Razorci-02.gif" alt="Compatible Technology Stack" id="compatible-img" width="100%">
 
 
@@ -707,514 +230,27 @@ image: '/images/jenkins-alternative.jpg'
             <img src="/images/jenkins-vs-razorops.gif"  height="295" width="528" alt="Razorops vs Jenkins" class="img-responsive">
           </div>
             <a class="btn btn-bluehover migrate-btn" href="#formbanner"> Talk To Us</a>
-            <div class="text-center">
-             
-              <div id="contactusmodal" class="competitorsmodal fade in">
-                <div class="modal-video">
-                  <span class="competitorsclose">&times;</span>
-
-                    <div class="competitorsform-section">
-                      <div class="form-body form-left">
-                
-                          <form id="migrateform" method="post">
-                            <h2 class="form-heading">Talk to us</h2>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="InputName" placeholder="Name*" required>
-                            </div>
-                            <div class="form-group">
-                              <input type="email" class="form-control" id="InputEmail" placeholder="Email*" required>
-                            </div>
-                            <div class="form-group">
-                              <input type="text" class="form-control" id="InputDesignation" placeholder="Designation">
-                            </div>
-                            <div class="form-group row">
-                              <div class="col-sm-3">
-                                
-                                <select name="countryCode" id="countryCode" class="form-control">
-                                        <option data-countryCode="GB" value="47">Norway (+47)</option>
-                                        <option data-countryCode="US" value="44">UK (+44)</option>
-                                        <option data-countryCode="DZ" value="213">Algeria (+213)</option>
-                                        <option data-countryCode="AD" value="376">Andorra (+376)</option>
-                                        <option data-countryCode="AO" value="244">Angola (+244)</option>
-                                        <option data-countryCode="AI" value="1264">Anguilla (+1264)</option>
-                                        <option data-countryCode="AG" value="1268">Antigua & Barbuda (+1268)</option>
-                                        <option data-countryCode="AR" value="54">Argentina (+54)</option>
-                                        <option data-countryCode="AM" value="374">Armenia (+374)</option>
-                                        <option data-countryCode="AW" value="297">Aruba (+297)</option>
-                                        <option data-countryCode="AU" value="61">Australia (+61)</option>
-                                        <option data-countryCode="AT" value="43">Austria (+43)</option>
-                                        <option data-countryCode="AZ" value="994">Azerbaijan (+994)</option>
-                                        <option data-countryCode="BS" value="1242">Bahamas (+1242)</option>
-                                        <option data-countryCode="BH" value="973">Bahrain (+973)</option>
-                                        <option data-countryCode="BD" value="880">Bangladesh (+880)</option>
-                                        <option data-countryCode="BB" value="1246">Barbados (+1246)</option>
-                                        <option data-countryCode="BY" value="375">Belarus (+375)</option>
-                                        <option data-countryCode="BE" value="32">Belgium (+32)</option>
-                                        <option data-countryCode="BZ" value="501">Belize (+501)</option>
-                                        <option data-countryCode="BJ" value="229">Benin (+229)</option>
-                                        <option data-countryCode="BM" value="1441">Bermuda (+1441)</option>
-                                        <option data-countryCode="BT" value="975">Bhutan (+975)</option>
-                                        <option data-countryCode="BO" value="591">Bolivia (+591)</option>
-                                        <option data-countryCode="BA" value="387">Bosnia Herzegovina (+387)</option>
-                                        <option data-countryCode="BW" value="267">Botswana (+267)</option>
-                                        <option data-countryCode="BR" value="55">Brazil (+55)</option>
-                                        <option data-countryCode="BN" value="673">Brunei (+673)</option>
-                                        <option data-countryCode="BG" value="359">Bulgaria (+359)</option>
-                                        <option data-countryCode="BF" value="226">Burkina Faso (+226)</option>
-                                        <option data-countryCode="BI" value="257">Burundi (+257)</option>
-                                        <option data-countryCode="KH" value="855">Cambodia (+855)</option>
-                                        <option data-countryCode="CM" value="237">Cameroon (+237)</option>
-                                        <option data-countryCode="CA" value="1">Canada (+1)</option>
-                                        <option data-countryCode="CV" value="238">Cape Verde Islands (+238)</option>
-                                        <option data-countryCode="KY" value="1345">Cayman Islands (+1345)</option>
-                                        <option data-countryCode="CF" value="236">Central African Republic (+236)</option>
-                                        <option data-countryCode="CL" value="56">Chile (+56)</option>
-                                        <option data-countryCode="CN" value="86">China (+86)</option>
-                                        <option data-countryCode="CO" value="57">Colombia (+57)</option>
-                                        <option data-countryCode="KM" value="269">Comoros (+269)</option>
-                                        <option data-countryCode="CG" value="242">Congo (+242)</option>
-                                        <option data-countryCode="CK" value="682">Cook Islands (+682)</option>
-                                        <option data-countryCode="CR" value="506">Costa Rica (+506)</option>
-                                        <option data-countryCode="HR" value="385">Croatia (+385)</option>
-                                        <option data-countryCode="CU" value="53">Cuba (+53)</option>
-                                        <option data-countryCode="CY" value="90392">Cyprus North (+90392)</option>
-                                        <option data-countryCode="CY" value="357">Cyprus South (+357)</option>
-                                        <option data-countryCode="CZ" value="42">Czech Republic (+42)</option>
-                                        <option data-countryCode="DK" value="45">Denmark (+45)</option>
-                                        <option data-countryCode="DJ" value="253">Djibouti (+253)</option>
-                                        <option data-countryCode="DM" value="1809">Dominica (+1809)</option>
-                                        <option data-countryCode="DO" value="1809">Dominican Republic (+1809)</option>
-                                        <option data-countryCode="EC" value="593">Ecuador (+593)</option>
-                                        <option data-countryCode="EG" value="20">Egypt (+20)</option>
-                                        <option data-countryCode="SV" value="503">El Salvador (+503)</option>
-                                        <option data-countryCode="GQ" value="240">Equatorial Guinea (+240)</option>
-                                        <option data-countryCode="ER" value="291">Eritrea (+291)</option>
-                                        <option data-countryCode="EE" value="372">Estonia (+372)</option>
-                                        <option data-countryCode="ET" value="251">Ethiopia (+251)</option>
-                                        <option data-countryCode="FK" value="500">Falkland Islands (+500)</option>
-                                        <option data-countryCode="FO" value="298">Faroe Islands (+298)</option>
-                                        <option data-countryCode="FJ" value="679">Fiji (+679)</option>
-                                        <option data-countryCode="FI" value="358">Finland (+358)</option>
-                                        <option data-countryCode="FR" value="33">France (+33)</option>
-                                        <option data-countryCode="GF" value="594">French Guiana (+594)</option>
-                                        <option data-countryCode="PF" value="689">French Polynesia (+689)</option>
-                                        <option data-countryCode="GA" value="241">Gabon (+241)</option>
-                                        <option data-countryCode="GM" value="220">Gambia (+220)</option>
-                                        <option data-countryCode="GE" value="7880">Georgia (+7880)</option>
-                                        <option data-countryCode="DE" value="49">Germany (+49)</option>
-                                        <option data-countryCode="GH" value="233">Ghana (+233)</option>
-                                        <option data-countryCode="GI" value="350">Gibraltar (+350)</option>
-                                        <option data-countryCode="GR" value="30">Greece (+30)</option>
-                                        <option data-countryCode="GL" value="299">Greenland (+299)</option>
-                                        <option data-countryCode="GD" value="1473">Grenada (+1473)</option>
-                                        <option data-countryCode="GP" value="590">Guadeloupe (+590)</option>
-                                        <option data-countryCode="GU" value="671">Guam (+671)</option>
-                                        <option data-countryCode="GT" value="502">Guatemala (+502)</option>
-                                        <option data-countryCode="GN" value="224">Guinea (+224)</option>
-                                        <option data-countryCode="GW" value="245">Guinea - Bissau (+245)</option>
-                                        <option data-countryCode="GY" value="592">Guyana (+592)</option>
-                                        <option data-countryCode="HT" value="509">Haiti (+509)</option>
-                                        <option data-countryCode="HN" value="504">Honduras (+504)</option>
-                                        <option data-countryCode="HK" value="852">Hong Kong (+852)</option>
-                                        <option data-countryCode="HU" value="36">Hungary (+36)</option>
-                                        <option data-countryCode="IS" value="354">Iceland (+354)</option>
-                                        <option data-countryCode="IN" value="91" Selected>India (+91)</option>
-                                        <option data-countryCode="ID" value="62">Indonesia (+62)</option>
-                                        <option data-countryCode="IR" value="98">Iran (+98)</option>
-                                        <option data-countryCode="IQ" value="964">Iraq (+964)</option>
-                                        <option data-countryCode="IE" value="353">Ireland (+353)</option>
-                                        <option data-countryCode="IL" value="972">Israel (+972)</option>
-                                        <option data-countryCode="IT" value="39">Italy (+39)</option>
-                                        <option data-countryCode="JM" value="1876">Jamaica (+1876)</option>
-                                        <option data-countryCode="JP" value="81">Japan (+81)</option>
-                                        <option data-countryCode="JO" value="962">Jordan (+962)</option>
-                                        <option data-countryCode="KZ" value="7">Kazakhstan (+7)</option>
-                                        <option data-countryCode="KE" value="254">Kenya (+254)</option>
-                                        <option data-countryCode="KI" value="686">Kiribati (+686)</option>
-                                        <option data-countryCode="KP" value="850">Korea North (+850)</option>
-                                        <option data-countryCode="KR" value="82">Korea South (+82)</option>
-                                        <option data-countryCode="KW" value="965">Kuwait (+965)</option>
-                                        <option data-countryCode="KG" value="996">Kyrgyzstan (+996)</option>
-                                        <option data-countryCode="LA" value="856">Laos (+856)</option>
-                                        <option data-countryCode="LV" value="371">Latvia (+371)</option>
-                                        <option data-countryCode="LB" value="961">Lebanon (+961)</option>
-                                        <option data-countryCode="LS" value="266">Lesotho (+266)</option>
-                                        <option data-countryCode="LR" value="231">Liberia (+231)</option>
-                                        <option data-countryCode="LY" value="218">Libya (+218)</option>
-                                        <option data-countryCode="LI" value="417">Liechtenstein (+417)</option>
-                                        <option data-countryCode="LT" value="370">Lithuania (+370)</option>
-                                        <option data-countryCode="LU" value="352">Luxembourg (+352)</option>
-                                        <option data-countryCode="MO" value="853">Macao (+853)</option>
-                                        <option data-countryCode="MK" value="389">Macedonia (+389)</option>
-                                        <option data-countryCode="MG" value="261">Madagascar (+261)</option>
-                                        <option data-countryCode="MW" value="265">Malawi (+265)</option>
-                                        <option data-countryCode="MY" value="60">Malaysia (+60)</option>
-                                        <option data-countryCode="MV" value="960">Maldives (+960)</option>
-                                        <option data-countryCode="ML" value="223">Mali (+223)</option>
-                                        <option data-countryCode="MT" value="356">Malta (+356)</option>
-                                        <option data-countryCode="MH" value="692">Marshall Islands (+692)</option>
-                                        <option data-countryCode="MQ" value="596">Martinique (+596)</option>
-                                        <option data-countryCode="MR" value="222">Mauritania (+222)</option>
-                                        <option data-countryCode="YT" value="269">Mayotte (+269)</option>
-                                        <option data-countryCode="MX" value="52">Mexico (+52)</option>
-                                        <option data-countryCode="FM" value="691">Micronesia (+691)</option>
-                                        <option data-countryCode="MD" value="373">Moldova (+373)</option>
-                                        <option data-countryCode="MC" value="377">Monaco (+377)</option>
-                                        <option data-countryCode="MN" value="976">Mongolia (+976)</option>
-                                        <option data-countryCode="MS" value="1664">Montserrat (+1664)</option>
-                                        <option data-countryCode="MA" value="212">Morocco (+212)</option>
-                                        <option data-countryCode="MZ" value="258">Mozambique (+258)</option>
-                                        <option data-countryCode="MN" value="95">Myanmar (+95)</option>
-                                        <option data-countryCode="NA" value="264">Namibia (+264)</option>
-                                        <option data-countryCode="NR" value="674">Nauru (+674)</option>
-                                        <option data-countryCode="NP" value="977">Nepal (+977)</option>
-                                        <option data-countryCode="NL" value="31">Netherlands (+31)</option>
-                                        <option data-countryCode="NC" value="687">New Caledonia (+687)</option>
-                                        <option data-countryCode="NZ" value="64">New Zealand (+64)</option>
-                                        <option data-countryCode="NI" value="505">Nicaragua (+505)</option>
-                                        <option data-countryCode="NE" value="227">Niger (+227)</option>
-                                        <option data-countryCode="NG" value="234">Nigeria (+234)</option>
-                                        <option data-countryCode="NU" value="683">Niue (+683)</option>
-                                        <option data-countryCode="NF" value="672">Norfolk Islands (+672)</option>
-                                        <option data-countryCode="NP" value="670">Northern Marianas (+670)</option>
-                                        <option data-countryCode="NO" value="47">Norway (+47)</option>
-                                        <option data-countryCode="OM" value="968">Oman (+968)</option>
-                                        <option data-countryCode="PW" value="680">Palau (+680)</option>
-                                        <option data-countryCode="PA" value="507">Panama (+507)</option>
-                                        <option data-countryCode="PG" value="675">Papua New Guinea (+675)</option>
-                                        <option data-countryCode="PY" value="595">Paraguay (+595)</option>
-                                        <option data-countryCode="PE" value="51">Peru (+51)</option>
-                                        <option data-countryCode="PH" value="63">Philippines (+63)</option>
-                                        <option data-countryCode="PL" value="48">Poland (+48)</option>
-                                        <option data-countryCode="PT" value="351">Portugal (+351)</option>
-                                        <option data-countryCode="PR" value="1787">Puerto Rico (+1787)</option>
-                                        <option data-countryCode="QA" value="974">Qatar (+974)</option>
-                                        <option data-countryCode="RE" value="262">Reunion (+262)</option>
-                                        <option data-countryCode="RO" value="40">Romania (+40)</option>
-                                        <option data-countryCode="RU" value="7">Russia (+7)</option>
-                                        <option data-countryCode="RW" value="250">Rwanda (+250)</option>
-                                        <option data-countryCode="SM" value="378">San Marino (+378)</option>
-                                        <option data-countryCode="ST" value="239">Sao Tome & Principe (+239)</option>
-                                        <option data-countryCode="SA" value="966">Saudi Arabia (+966)</option>
-                                        <option data-countryCode="SN" value="221">Senegal (+221)</option>
-                                        <option data-countryCode="CS" value="381">Serbia (+381)</option>
-                                        <option data-countryCode="SC" value="248">Seychelles (+248)</option>
-                                        <option data-countryCode="SL" value="232">Sierra Leone (+232)</option>
-                                        <option data-countryCode="SG" value="65">Singapore (+65)</option>
-                                        <option data-countryCode="SK" value="421">Slovak Republic (+421)</option>
-                                        <option data-countryCode="SI" value="386">Slovenia (+386)</option>
-                                        <option data-countryCode="SB" value="677">Solomon Islands (+677)</option>
-                                        <option data-countryCode="SO" value="252">Somalia (+252)</option>
-                                        <option data-countryCode="ZA" value="27">South Africa (+27)</option>
-                                        <option data-countryCode="ES" value="34">Spain (+34)</option>
-                                        <option data-countryCode="LK" value="94">Sri Lanka (+94)</option>
-                                        <option data-countryCode="SH" value="290">St. Helena (+290)</option>
-                                        <option data-countryCode="KN" value="1869">St. Kitts (+1869)</option>
-                                        <option data-countryCode="SC" value="1758">St. Lucia (+1758)</option>
-                                        <option data-countryCode="SD" value="249">Sudan (+249)</option>
-                                        <option data-countryCode="SR" value="597">Suriname (+597)</option>
-                                        <option data-countryCode="SZ" value="268">Swaziland (+268)</option>
-                                        <option data-countryCode="SE" value="46">Sweden (+46)</option>
-                                        <option data-countryCode="CH" value="41">Switzerland (+41)</option>
-                                        <option data-countryCode="SI" value="963">Syria (+963)</option>
-                                        <option data-countryCode="TW" value="886">Taiwan (+886)</option>
-                                        <option data-countryCode="TJ" value="7">Tajikstan (+7)</option>
-                                        <option data-countryCode="TH" value="66">Thailand (+66)</option>
-                                        <option data-countryCode="TG" value="228">Togo (+228)</option>
-                                        <option data-countryCode="TO" value="676">Tonga (+676)</option>
-                                        <option data-countryCode="TT" value="1868">Trinidad & Tobago (+1868)</option>
-                                        <option data-countryCode="TN" value="216">Tunisia (+216)</option>
-                                        <option data-countryCode="TR" value="90">Turkey (+90)</option>
-                                        <option data-countryCode="TM" value="7">Turkmenistan (+7)</option>
-                                        <option data-countryCode="TM" value="993">Turkmenistan (+993)</option>
-                                        <option data-countryCode="TC" value="1649">Turks & Caicos Islands (+1649)</option>
-                                        <option data-countryCode="TV" value="688">Tuvalu (+688)</option>
-                                        <option data-countryCode="UG" value="256">Uganda (+256)</option>
-                                        <option data-countryCode="GB" value="44">UK (+44)</option>
-                                        <option data-countryCode="UA" value="380">Ukraine (+380)</option>
-                                        <option data-countryCode="AE" value="971">United Arab Emirates (+971)</option>
-                                        <option data-countryCode="UY" value="598">Uruguay (+598)</option>
-                                        <option data-countryCode="US" value="1">USA (+1)</option>
-                                        <option data-countryCode="UZ" value="7">Uzbekistan (+7)</option>
-                                        <option data-countryCode="VU" value="678">Vanuatu (+678)</option>
-                                        <option data-countryCode="VA" value="379">Vatican City (+379)</option>
-                                        <option data-countryCode="VE" value="58">Venezuela (+58)</option>
-                                        <option data-countryCode="VN" value="84">Vietnam (+84)</option>
-                                        <option data-countryCode="VG" value="84">Virgin Islands - British (+1284)</option>
-                                        <option data-countryCode="VI" value="84">Virgin Islands - US (+1340)</option>
-                                        <option data-countryCode="WF" value="681">Wallis & Futuna (+681)</option>
-                                        <option data-countryCode="YE" value="969">Yemen (North)(+969)</option>
-                                        <option data-countryCode="YE" value="967">Yemen (South)(+967)</option>
-                                        <option data-countryCode="ZM" value="260">Zambia (+260)</option>
-                                        <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
-                                    </optgroup>
-                                </select>
-                                
-                                </div>
-                                <div class="col-sm-9">  
-                                    <input type="tel" class="form-control" id="InputPhonenumber" name="InputPhonenumber"  maxlength = "10" onkeypress="return checkNumber(event)" placeholder="Phone Number*"  required>
-                                </div> 
-                          </div>
-                            <div class="form-group">
-                              <input type="text" class="form-control" id="InputCompany" name="InputCompany" placeholder="Company Name">
-                          </div>
-                            <div class="form-group">
-                              <input type="text" class="form-control" id="InputCompanyLink" name="InputCompanyLink" placeholder="Company Website / Company Linkedin">
-                          </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="InputCountry" placeholder="Country">
-                            </div>
-                            <button class="btn competitors-migratebtn" type="submit" id="migrateSubmitBtn" >Submit</button>
-                            
-                            <label for="signup-policy"><p class="signup-agg">By submitting you agree to our <a href="https://razorops.com/terms-of-service" class="anchorbg-none wo-text-decoration" target="_blank" >Terms of Service</a> and our <a href="https://razorops.com/privacy-policy" class="anchorbg-none wo-text-decoration" target="_blank">Privacy Policy</a></p></label>
-                          </form>
-                  
-                      </div>
-                    
-                    </div>
-              </div>
-              </div>
-              <br>
-              <br>
-              <script src="/js/modal-migrate-form.js"></script>
-              </div>
-            <!-- <a class="btn btn-razorops" href="/blog/migration-from-jenkins-to-razorops/">Migration Guide</a> -->
         </div>
     </div>
   </div>
 </div>  
 
 
-<!-- <section class="container integration-section">
-    <div class="container integration-body" id="integration-tools">
-        <h2 class="section-header2 text-center">Integrates with your stack</h2>
-        <div class="integration-content">
-            <ul>
-                <li class="grid row">
-                    <div class="col-sm-2 integration-head">
-                        <p>Git</p>
-                    </div>
-                    <div class="dotted-icon items-center col-sm-2">
-                  
-                        <img src="/images/dotted-line.png" width="100%">
-                    </div>
-                    <ul class="grid d-flex flex-row col-sm-6 integration-toolicon" width="100%">
-                        <li class="  justify-center">
-                            <img src="/images/v2/github.svg" width="90" alt="github" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo3" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/Git-Icon.png" width="90" alt="logo4" >
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="grid row integration-set">
-                    <div class="col-sm-2 integration-head">
-                        <p>Cloud</p>
-                    </div>
-                    <div class="dotted-icon items-center col-sm-2">
-                      <img src="/images/dotted-line.png" width="100%">
-                    </div>
-                    <ul class="grid d-flex flex-row col-sm-6 integration-toolicon">
-                        <li class="  justify-center">
-                            <img src="/images/case-study-assets/aws-tech-stack.png" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/case-study-assets/google-cloud.png" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/case-study-assets/azure.png" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/case-study-assets/digital-ocean-logo.png" width="90" alt="logo2" >
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="grid row integration-set">
-                    <div class="col-sm-2 integration-head">
-                        <p>Iaas & Paas</p>
-                    </div>
-                    <div class="dotted-icon items-center col-sm-2">
-                      <img src="/images/dotted-line.png" width="100%">
-                    </div>
-                    <ul class="grid d-flex flex-row col-sm-6 integration-toolicon">
-                        <li class="  justify-center">
-                            <img src="/images/v2/github.svg" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="grid row integration-set">
-                    <div class="col-sm-2 integration-head">
-                        <p>Build Tools & Task Runners</p>
-                    </div>
-                    <div class="dotted-icon items-center col-sm-2">
-                      <img src="/images/dotted-line.png" width="100%">
-                    </div>
-                    <ul class="grid d-flex flex-row col-sm-6 integration-toolicon">
-                        <li class="  justify-center">
-                            <img src="/images/v2/github.svg" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="grid row integration-set">
-                    <div class="col-sm-2 integration-head">
-                        <p>Git</p>
-                    </div>
-                    <div class="dotted-icon  items-center col-sm-2">
-                      <img src="/images/dotted-line.png" width="100%">
-                    </div>
-                    <ul class="grid d-flex flex-row col-sm-6 integration-toolicon">
-                        <li class="  justify-center">
-                            <img src="/images/v2/github.svg" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/bitbucket-blue.svg" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
-                        </li>
-                        <li class=" justify-center">
-                            <img src="/images/v2/gitlab-logo.webp" width="90" alt="logo2" >
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section> -->
-
-
 <section class="get-started-section">
-    <div class="container">
-        <div class=" container-fluid row get-started-body">
-            <div class="col-sm-6 ">
-                <img src="/images/v2/let-get-started.png" width="100%" alt="Complete Onboarding & Setup">
-            </div>
-            <div class="col-sm-6 get-started-content">
-                <h1 class="get-started-head">Complete Onboarding & Setup in just 25 minutes.
-                  </h1>
-                <p>You can save a lot of time with RazorOps. Ditch the 8-10 hours of tedious process of setting up a simple pipeline in Jenkins by migration to a much smarter choice- RazorOps.</p>
-                <div class="get-started-btns">
-                    <a href="https://dashboard.razorops.com/users/sign_up?utm_source=Jenkins-alternative&utm_medium=get-started-cta&utm_campaign=signup-Jenkins-alternative" class="btn btn-razorops-new">Get Started</a>
-                    <a href="https://razorops.com/schedule-demo?utm_source=Jenkins-alternative&utm_medium=schedule-demo-cta&utm_campaign=signup-Jenkins-alternative" class="btn btn-razorops-new">Schedule A Demo</a>
-                </div>
-            </div>
-        
-        </div>
-        
-    </div>
-</section>
-
-
-<!-- <div class="container" style="margin-top: 20px;" id="faqs">
-  <div class="pricing-header">
-    <div class="pricing-header">
-      <h2 style="text-align:center;"  class="section-header2"><b>Frequently Asked Questions</b></h2>
+  <div class="container">
+    <div class=" container-fluid row get-started-body">
+      <div class="col-sm-6 ">
+          <img src="/images/v2/let-get-started.png" width="100%" alt="Complete Onboarding & Setup">
+      </div>
+      <div class="col-sm-6 get-started-content">
+          <h1 class="get-started-head">Complete Onboarding & Setup in just 25 minutes.
+            </h1>
+          <p>You can save a lot of time with RazorOps. Ditch the 8-10 hours of tedious process of setting up a simple pipeline in Jenkins by migration to a much smarter choice- RazorOps.</p>
+          <div class="get-started-btns">
+              <a href="https://dashboard.razorops.com/users/sign_up?utm_source=Jenkins-alternative&utm_medium=get-started-cta&utm_campaign=signup-Jenkins-alternative" class="btn btn-razorops-new">Get Started</a>
+              <a href="https://razorops.com/schedule-demo?utm_source=Jenkins-alternative&utm_medium=schedule-demo-cta&utm_campaign=signup-Jenkins-alternative" class="btn btn-razorops-new">Schedule A Demo</a>
+          </div>
+      </div>
     </div>
   </div>
-  
-  
-  
-<main id="faq-panel">
-<article class="panel-groups bs-accordion" id="accordion" role="tablist" aria-multiselectable="true">
-  <section class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-    Q: Why should I pay for RazorOps when Jenkins is available for free?
-          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        <p style="padding: 18px;">
-          To configure and maintain the process without the assistance of a staff of DevOps developers, in order to ship more software more quickly. It can take a specialised engineer up to 8 to 10 hours to set up a single distribution pipeline, which directly adds up to the cost of using it. Any developer can design a full process with RazorOps, including build preparation, deployment, and system notifications, in only 25 minutes. It-works-for-me compatibility issues are eliminated since everyone on the team continues to work in the same development environment. And so that statement that Jenkins is an open source, hence it is free—that's something to reconsider.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          
-  Q. Does RazorOps support microservices?
-          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        <p style="padding: 18px;">
-          RazorOps is compatible with all widely used services and databases, including MongoDB, MySQL, Redis, and Selenium. You can execute that without downloading any plugins because all services are available immediately during every build operation.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-    Q. Does RazorOps offer Docker support?
-          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        <p style="padding: 18px;">
-          You can create unique images using Dockerfiles and upload them to private Docker registries such as Amazon ECR and Google GRAPH. Additionally, you can create unique images using Dockerfiles and upload them to private Docker registries like Amazon ECR, Google GCR, and Docker Hub. RazorOps further enables container orchestration on Kubernetes clusters, such as Google Kubernetes Engine, Amazon EKS, Azure AKS, and DigitalOcean Kubernetes hosting.
-        </p>
-      </div>
-    </div>
-  </section>
-<section class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFour">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-    Q. How is RazorOps better when it comes to safety?
-          <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-      <div class="panel-body">
-        <p style="padding: 18px;">
-          Jenkins configuration requires the usage of third-party plugins created by various organisations. RazorOps is PCI and SOC2 compliant, and SecurityMetrics regularly audits it to make sure everything is up to date with the most recent security requirements. These plugins are frequently no longer supported or have serious security flaws. 
-        </p>
-      </div>
-    </div>
-  </section>
-
-</article>
-</main>
-  
-</div> -->  
+</section>

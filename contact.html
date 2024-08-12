@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Contact United States +1 (916) 272 8503 | Bengaluru | Hyderabad +91 (868) 846 8400
+title: Contact Razorops, Inc. 
 description: Razorops, inc |  United States | Canada | Bengaluru | Hyderabad - Get in touch with us for continuous integration and continuous deployment on various cloud platform.
 keywords: Docker Container,Kubernetes docker,Continuous deployment,Kubernetes,Continuous Integration
 image: /images/razorops-demo.webp
-canonical_url: 'https://razorops.com/docs'
+canonical_url: 'https://razorops.com/contact'
 ---
 
 <div class="container">
   <div class="razorops-contact">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <address>
         <h4>US Office</h4>
         5208 Cumberland Dr,<br>
@@ -38,18 +38,46 @@ canonical_url: 'https://razorops.com/docs'
       </address>
     </div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 form-section">
 
-        <!-- <iframe width="400" height="680" target="_parent" src="https://app.blinkcrm.in/forms/6d3279b3-b7ac-479b-afc7-c1787539e04c?output=embed" style="border-width: 0px;"></iframe> -->
-              
-        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-        <script>
-          hbspt.forms.create({
-          portalId: "6775901",
-          formId: "ac2123e0-dbc1-497b-a2ff-a3296ef11bc3"
-        });
-        </script>
-        
+        <div class="contact-form-container">
+          <h2>Contact Us</h2>
+          <div id="responseMessage"></div>
+          <br>
+          <form id="contactForm">
+            <div class="form-group">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Name *" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" class="form-control" placeholder="Email *" required>
+            </div>
+
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="Mobile with country code *" required>
+            </div>
+
+
+            <div class="form-group">
+                <textarea id="message" name="message" rows="5" class="form-control" placeholder="Your message"></textarea>
+            </div>
+
+            <div class="form-group">
+              <input type="hidden" id="lead_source" name="lead_source" value="contact">
+            </div>
+  
+            <div class="form-group">
+              <input type="hidden" id="campaign_id" name="campaign_id" value="116">
+            </div>
+
+
+            <button type="submit" class="btn btn-razorops-new">Submit</button>
+
+            
+          </form>
+        </div>
+  
+        <script src="/js/contact_script.js"></script>
+
        <div class="clearfix"></div>
     </div>
 
@@ -57,15 +85,8 @@ canonical_url: 'https://razorops.com/docs'
 <br>
 <br>
 <br>
-  <!-- <hr>
-    Freshdesk address
-razorops.freshdesk.com
-
-Your support website for your customers and your team.
-Support email address
-
-support@razorops.freshdesk.com
-
-All emails sent to this address will automatically create tickets in Freshdesk. -->
 
 </div>
+
+
+ 
