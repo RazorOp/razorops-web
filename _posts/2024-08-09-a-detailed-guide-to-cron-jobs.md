@@ -1,5 +1,5 @@
 ---
-title: 2024-08-09-A detailed guide to cron jobs
+title: A detailed guide to cron jobs
 description: "Cron jobs are scheduled commands or scripts on Unix-based systems
   (like Linux and macOS) that are executed at fixed times, intervals, or
   specific dates. "
