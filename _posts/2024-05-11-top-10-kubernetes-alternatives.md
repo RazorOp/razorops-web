@@ -197,7 +197,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
 4.  **Vendor Lock-in**: Using AKS ties you closely to the Azure ecosystem. While AKS provides seamless integration with other Azure services, it may limit your flexibility if you decide to migrate to another cloud provider or use a different container orchestration platform in the future.
 
 
-13 **DigitalOcean Kubernetes (often abbreviated as DOKS):**
+13  **DigitalOcean Kubernetes (often abbreviated as DOKS):**
 
 **Features:**
 
