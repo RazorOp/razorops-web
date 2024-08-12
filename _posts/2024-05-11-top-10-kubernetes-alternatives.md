@@ -55,7 +55,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     -   Complexity: Mesos can be complex to set up and manage, especially for smaller teams or organizations without dedicated DevOps resources.
     -   Learning curve: Mastering all the features and concepts of Mesos may require significant time and effort.
 
-5.  **Rancher**:
+5. **Rancher**:
     
     -   _Features_:
         -   Multi-cluster management: Rancher provides a centralized management interface for deploying and managing Kubernetes clusters across different environments.
@@ -65,7 +65,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
         -   Complexity: Rancher adds an additional layer of complexity compared to standalone Kubernetes, which may not be suitable for all users.
         -   Resource overhead: Rancher requires additional resources to run its management server, which may increase operational overhead.
 
-6.  **Portainer**:
+6. **Portainer**:
 
 -   _Features_:
     -   User-friendly interface: Portainer provides a simple and intuitive web-based interface for managing Docker containers and clusters.
@@ -75,7 +75,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     -   Limited scalability: Portainer may not scale as effectively as Kubernetes or other container orchestration platforms for large-scale production deployments.
     -   Lack of advanced features: Portainer may lack some advanced features found in more comprehensive container orchestration platforms, such as automated scaling and service discovery.
 
-7.  **Google Kubernetes Engine (GKE)**:
+7. **Google Kubernetes Engine (GKE)**:
     
     -   _Features_:
         -   Fully managed: GKE is a fully managed Kubernetes service provided by Google Cloud Platform (GCP), which means Google handles the underlying infrastructure, including cluster management and maintenance.
@@ -161,7 +161,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     
 4.  **Dependency on AWS**: Using Fargate ties you closely to the AWS ecosystem. While Fargate provides seamless integration with other AWS services, it may limit your flexibility if you decide to migrate to another cloud provider or use a different container orchestration platform in the future.
 
-11   **Cloud Foundry**:
+11  **Cloud Foundry**:
    
 -   _Features_:
     -   Platform-as-a-Service (PaaS): Cloud Foundry abstracts away the underlying infrastructure, allowing developers to focus on building and deploying applications without worrying about the infrastructure.
