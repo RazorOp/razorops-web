@@ -161,7 +161,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     
 4.  **Dependency on AWS**: Using Fargate ties you closely to the AWS ecosystem. While Fargate provides seamless integration with other AWS services, it may limit your flexibility if you decide to migrate to another cloud provider or use a different container orchestration platform in the future.
 
-11  **Cloud Foundry**:
+11 **Cloud Foundry**:
    
 -   _Features_:
     -   Platform-as-a-Service (PaaS): Cloud Foundry abstracts away the underlying infrastructure, allowing developers to focus on building and deploying applications without worrying about the infrastructure.
