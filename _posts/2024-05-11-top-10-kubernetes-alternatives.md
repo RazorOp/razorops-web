@@ -55,7 +55,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     -   Complexity: Mesos can be complex to set up and manage, especially for smaller teams or organizations without dedicated DevOps resources.
     -   Learning curve: Mastering all the features and concepts of Mesos may require significant time and effort.
 
-5.  **Rancher**:
+5. **Rancher**:
     
     -   _Features_:
         -   Multi-cluster management: Rancher provides a centralized management interface for deploying and managing Kubernetes clusters across different environments.
@@ -65,7 +65,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
         -   Complexity: Rancher adds an additional layer of complexity compared to standalone Kubernetes, which may not be suitable for all users.
         -   Resource overhead: Rancher requires additional resources to run its management server, which may increase operational overhead.
 
-6.  **Portainer**:
+6. **Portainer**:
 
 -   _Features_:
     -   User-friendly interface: Portainer provides a simple and intuitive web-based interface for managing Docker containers and clusters.
@@ -75,7 +75,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     -   Limited scalability: Portainer may not scale as effectively as Kubernetes or other container orchestration platforms for large-scale production deployments.
     -   Lack of advanced features: Portainer may lack some advanced features found in more comprehensive container orchestration platforms, such as automated scaling and service discovery.
 
-6.  **Google Kubernetes Engine (GKE)**:
+7. **Google Kubernetes Engine (GKE)**:
     
     -   _Features_:
         -   Fully managed: GKE is a fully managed Kubernetes service provided by Google Cloud Platform (GCP), which means Google handles the underlying infrastructure, including cluster management and maintenance.
@@ -85,7 +85,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
         -   Vendor lock-in: GKE ties you closely to the Google Cloud ecosystem, which may limit your flexibility if you want to switch to a different cloud provider in the future.
         -   Cost: While GKE offers a free tier, costs can escalate as your usage increases, especially if you require additional features or resources.
 
-7 **Amazon Elastic Kubernetes Service (EKS):**
+8 **Amazon Elastic Kubernetes Service (EKS):**
 
 **Features:**
 
@@ -110,7 +110,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     
 4.  **Vendor Lock-in**: Using EKS ties you closely to the AWS ecosystem. While EKS provides seamless integration with other AWS services, it may limit your flexibility if you decide to migrate to another cloud provider or use a different container orchestration platform in the future.
 
-8 **Amazon Elastic Container Service (ECS):**
+9 **Amazon Elastic Container Service (ECS):**
 
 **Features:**
 
@@ -136,7 +136,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
 4.  **Learning Curve**: Learning how to use ECS effectively, including understanding its concepts, APIs, and best practices, may require time and effort. Users, especially those new to AWS or container orchestration, may face a learning curve when getting started with ECS.
 
 
-9.**Amazon AWS Fargate:**
+10.**Amazon AWS Fargate:**
 
 **Features:**
 
@@ -161,7 +161,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     
 4.  **Dependency on AWS**: Using Fargate ties you closely to the AWS ecosystem. While Fargate provides seamless integration with other AWS services, it may limit your flexibility if you decide to migrate to another cloud provider or use a different container orchestration platform in the future.
 
-10   **Cloud Foundry**:
+11 **Cloud Foundry**:
    
 -   _Features_:
     -   Platform-as-a-Service (PaaS): Cloud Foundry abstracts away the underlying infrastructure, allowing developers to focus on building and deploying applications without worrying about the infrastructure.
@@ -171,7 +171,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
     -   Limited flexibility: Cloud Foundry may impose constraints on the types of applications and services that can be deployed, which may not be suitable for all use cases.
     -   Learning curve: Adopting Cloud Foundry may require a shift in mindset and development practices, which can be challenging for some organizations.
 
-11. **Azure Kubernetes Service (AKS):**
+12. **Azure Kubernetes Service (AKS):**
 
 **Features:**
 
@@ -197,7 +197,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
 4.  **Vendor Lock-in**: Using AKS ties you closely to the Azure ecosystem. While AKS provides seamless integration with other Azure services, it may limit your flexibility if you decide to migrate to another cloud provider or use a different container orchestration platform in the future.
 
 
-12 **DigitalOcean Kubernetes (often abbreviated as DOKS):**
+13 **DigitalOcean Kubernetes (often abbreviated as DOKS):**
 
 **Features:**
 
