@@ -1,5 +1,5 @@
 ---
-title: 2024-08-09-most popular devops questions and answers
+title: Most popular DevOps questions and answers
 description: Continuous Integration (CI) is the practice of automatically
   integrating code changes from multiple contributors into a shared repository
   several times a day
