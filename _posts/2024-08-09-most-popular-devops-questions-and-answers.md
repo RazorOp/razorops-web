@@ -310,20 +310,18 @@ To create a new feature branch in Gitflow:
 
 bash
 
-Copy code
-
-`git checkout develop
-git checkout -b feature/feature-name` 
+    git checkout develop
+    git checkout -b feature/feature-name
 
 3.  Once the feature is completed, merge it back into `develop`:
 
 bash
 
-Copy code
 
-`git checkout develop
-git merge --no-ff feature/feature-name
-git branch -d feature/feature-name` 
+
+    git checkout develop
+    git merge --no-ff feature/feature-name
+    git branch -d feature/feature-name
 
 ### 42. **What is the purpose of the `release` branch in Gitflow?**
 
@@ -337,25 +335,21 @@ Hotfixes are critical changes that need to be applied to the production environm
 
 1.  A `hotfix` branch is created from `master`:
 
-bash
-
-Copy code
-
-`git checkout master
-git checkout -b hotfix/hotfix-name` 
+    git checkout master
+    git checkout -b hotfix/hotfix-name
 
 2.  Apply the necessary fixes on this branch.
 3.  Once the hotfix is tested, it is merged back into both `master` and `develop`:
 
 bash
 
-Copy code
 
-`git checkout master
-git merge --no-ff hotfix/hotfix-name
-git checkout develop
-git merge --no-ff hotfix/hotfix-name
-git branch -d hotfix/hotfix-name` 
+
+    git checkout master
+    git merge --no-ff hotfix/hotfix-name
+    git checkout develop
+    git merge --no-ff hotfix/hotfix-name
+    git branch -d hotfix/hotfix-name
 
 This ensures the hotfix is available in both production and ongoing development.
 
@@ -378,22 +372,15 @@ The `--no-ff` flag ensures that a merge commit is always created, even if the me
 **Answer:**  
 In Gitflow, versioning typically occurs on the `release` branch. When you create a release branch from `develop`, you usually assign a version number to that release:
 
-bash
 
-Copy code
-
-`git checkout develop
-git checkout -b release/1.0.0` 
+    git checkout develop
+    git checkout -b release/1.0.0
 
 This version number is then finalized before merging into `master`. Tags are often used on the `master` branch to mark the specific commit that corresponds to a production release:
 
-bash
-
-Copy code
-
-`git checkout master
-git merge --no-ff release/1.0.0
-git tag -a 1.0.0 -m "Release 1.0.0"` 
+    git checkout master
+    git merge --no-ff release/1.0.0
+    git tag -a 1.0.0 -m "Release 1.0.0"
 
 ### 47. **How does Gitflow compare to other Git branching strategies, like GitHub Flow or GitLab Flow?**
 
