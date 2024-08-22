@@ -1,5 +1,5 @@
 ---
-title: 2024-07-26 Amazon RDS
+title: Amazon RDS
 description: RDS (Relational Database System) in AWS makes it easy to operate,
   manage, and scale in the cloud.
 image: /images/blog/amazon-rds.webp
