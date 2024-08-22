@@ -1,5 +1,5 @@
 ---
-title: 2024-07-23 Amazon ElastiCache
+title: Amazon ElastiCache
 description: ElastiCache is a fully managed in-memory data store. It
   significantly improves latency and performance for all read-heavy application
   workloads.
