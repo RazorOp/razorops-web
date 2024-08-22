@@ -1,5 +1,5 @@
 ---
-title: 2024-07-24 Amazon Keyspaces
+title: Amazon Keyspaces
 description: Keyspaces is an Apache Cassandra compatible database in AWS. It is
   fully managed by AWS, highly available, and scalable. Management of servers,
   patching is done by Amazon.
