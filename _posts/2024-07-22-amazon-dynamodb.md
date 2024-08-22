@@ -1,5 +1,5 @@
 ---
-title: 2024-07-22 Amazon DynamoDB
+title: Amazon DynamoDB
 description: AWS DynamoDB is a Key-value and DocumentDB database by Amazon.
 image: /images/blog/amazon-dynamodb.webp
 layout: post
