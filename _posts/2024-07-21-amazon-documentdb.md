@@ -1,5 +1,5 @@
 ---
-title: 2024-07-21 Amazon DocumentDB
+title: Amazon DocumentDB
 description: DocumentDB is a fully managed document database service by AWS
   which supports MongoDB workloads. It is highly recommended for storing,
   querying, and indexing JSON Data.
