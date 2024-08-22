@@ -1,5 +1,5 @@
 ---
-title: 2024-07-20  Amazon Aurora
+title: Amazon Aurora
 description: Aurora is the fully managed RDS services offered by AWS. It’s only compatible
 image: /images/blog/amazon-aurora.webp
 layout: post
