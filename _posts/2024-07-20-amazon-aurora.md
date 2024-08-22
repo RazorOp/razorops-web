@@ -62,7 +62,7 @@ So there is no single point of failure in the cluster and applications can perfo
 
 beneficial if the user has intermittent or unpredictable workload. It is available for both MySQL and PostgreSQL.
 
---Back to Index-- 33
+
 
 ● **Fault tolerance and Self-Healing feature-** In Aurora, each set of data is replicated in six copies over 3 AZ. So that it can handle the loss up to 2 copies without impacting the write feature and up to 3 copies without
 
