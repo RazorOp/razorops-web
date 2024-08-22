@@ -1,5 +1,5 @@
 ---
-title: 2024-07-25 Amazon Neptune
+title: Amazon Neptune
 description: Amazon Neptune is a graph database service used as a web service to
   build and run applications that require connected datasets.
 image: /images/blog/amazon-neptune.webp
