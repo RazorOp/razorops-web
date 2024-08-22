@@ -1,5 +1,5 @@
 ---
-title: 2024-07-27 Amazon Redshift
+title: Amazon Redshift
 description: Amazon redshift is a fast and powerful, fully managed,
   petabyte-scale data warehouse service in the cloud.
 image: /images/blog/amazon-redshift.webp
