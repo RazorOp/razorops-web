@@ -47,7 +47,6 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
 
      * Complexity: OpenShift can be complex to set up and manage, especially for smaller teams or organizations without dedicated DevOps resources.
      * Licensing costs: While there is a free, open-source version of OpenShift (OKD), the enterprise version may come with licensing costs, which can be prohibitive for some organizations.
-
 4. **Apache Mesos**:
 
 * *Features*:
@@ -130,7 +129,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
 3. **Costs**: While ECS offers a free tier and pay-as-you-go pricing model, costs can escalate as your usage increases, especially if you require additional features or resources. Users should carefully monitor and optimize their ECS usage to control costs effectively.
 4. **Learning Curve**: Learning how to use ECS effectively, including understanding its concepts, APIs, and best practices, may require time and effort. Users, especially those new to AWS or container orchestration, may face a learning curve when getting started with ECS.
 
-10.**Amazon AWS Fargate:**
+   10.**Amazon AWS Fargate:**
 
 **Features:**
 
@@ -159,7 +158,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
   * Limited flexibility: Cloud Foundry may impose constraints on the types of applications and services that can be deployed, which may not be suitable for all use cases.
   * Learning curve: Adopting Cloud Foundry may require a shift in mindset and development practices, which can be challenging for some organizations.
 
-12. **Azure Kubernetes Service (AKS):**
+**12. Azure Kubernetes Service (AKS):**
 
 **Features:**
 
