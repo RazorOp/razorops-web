@@ -158,7 +158,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
   * Limited flexibility: Cloud Foundry may impose constraints on the types of applications and services that can be deployed, which may not be suitable for all use cases.
   * Learning curve: Adopting Cloud Foundry may require a shift in mindset and development practices, which can be challenging for some organizations.
 
-**12. Azure Kubernetes Service (AKS):**
+**12.  Azure Kubernetes Service (AKS):**
 
 **Features:**
 
