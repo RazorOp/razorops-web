@@ -129,7 +129,7 @@ Certainly! Kubernetes is a powerful container orchestration platform, but it's n
 3. **Costs**: While ECS offers a free tier and pay-as-you-go pricing model, costs can escalate as your usage increases, especially if you require additional features or resources. Users should carefully monitor and optimize their ECS usage to control costs effectively.
 4. **Learning Curve**: Learning how to use ECS effectively, including understanding its concepts, APIs, and best practices, may require time and effort. Users, especially those new to AWS or container orchestration, may face a learning curve when getting started with ECS.
 
-   **10. Amazon AWS Fargate:**
+**10.  Amazon AWS Fargate**
 
 **Features:**
 
