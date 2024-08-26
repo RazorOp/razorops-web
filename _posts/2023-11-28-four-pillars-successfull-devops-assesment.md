@@ -1,12 +1,14 @@
 ---
 title: 4 Pillars of Successful DevOps Assessment
-description: How can organizations effectively evaluate and measure their adherence to the 4 Pillars of Successful DevOps, and what strategies can be employed to enhance their performance in each pillar?
-permalink: "/blog/:title"
+description: How can organizations effectively evaluate and measure their
+  adherence to the 4 Pillars of Successful DevOps, and what strategies can be
+  employed to enhance their performance in each pillar?
+image: /images/blog/4-pillars-of-successful-devops-assessment.webp
 layout: post
-date: '2023-11-28 05:00:00'
+permalink: /blog/:title
 author: Shyam Mohan
-category: "DevOps"
-image: "/images/blog/four-pillars-successfull-devops-assesment.png"
+category: DevOps
+date: 2023-11-28 05:00:00
 ---
 
 DevOps isn't just a methodology; it's a culture that fosters collaboration, automation, and continuous improvement within an organization. Conducting a successful DevOps assessment is crucial for understanding where your team stands in its DevOps journey and identifying areas for enhancement. To ensure a comprehensive evaluation, focus on these four pillars:
