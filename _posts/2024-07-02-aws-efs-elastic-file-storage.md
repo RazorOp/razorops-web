@@ -1,5 +1,5 @@
 ---
-title: 2024-07-02-AWS EFS - Elastic File Storage
+title: AWS EFS - Elastic File Storage
 description: "Amazon Elastic File System (Amazon EFS) provides a scalable, fully
   managed elastic distributed file system based on NFS. "
 image: /images/blog/aws-efs-elastic-file-storage.webp
