@@ -1,6 +1,5 @@
 ---
-title: "2024-08-19-Understanding the Essentials of Software Testing: A
-  Comprehensive Guide"
+title: "Understanding the Essentials of Software Testing: A Comprehensive Guide"
 description: Software testing is the process of evaluating and verifying that a
   software product or application is functioning as intended.
 image: /images/blog/essentials-of-software-testing.webp
