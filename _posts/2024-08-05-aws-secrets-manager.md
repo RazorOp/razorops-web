@@ -1,5 +1,5 @@
 ---
-title: 2024-08-05 AWS Secrets Manager
+title: AWS Secrets Manager
 description: AWS Secrets Manager is a service that replaces secret credentials
   in the code like passwords,
 image: /images/blog/aws-secrets-manager.webp
