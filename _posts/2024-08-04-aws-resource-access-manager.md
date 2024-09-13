@@ -1,5 +1,5 @@
 ---
-title: 2024-08-04 AWS Resource Access Manager
+title: AWS Resource Access Manager
 description: "AWS Resource Access Manager (RAM) is a service that permits users
   to share their resources "
 image: /images/blog/aws-resource-access-manager.webp
