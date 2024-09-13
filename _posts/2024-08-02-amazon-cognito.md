@@ -1,5 +1,5 @@
 ---
-title: 2024-08-02 Amazon Cognito
+title: Amazon Cognito
 description: Amazon Cognito is a service used for authentication, authorization,
   and user management for web or mobile applications.
 image: /images/blog/amazon-cognito.webp
