@@ -1,5 +1,5 @@
 ---
-title: 2024-08-03 AWS Directory Service
+title: AWS Directory Service
 description: "AWS Directory Service, also known as AWS Managed Microsoft Active
   Directory (AD), "
 image: /images/blog/aws-directory-service.webp
