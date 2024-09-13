@@ -1,5 +1,5 @@
 ---
-title: 2024-08-06 AWS Security Hub
+title: AWS Security Hub
 description: AWS Security Hub is a service that provides an extensive view of
   the security aspects of AWS
 image: /images/blog/aws-security-hub.webp
