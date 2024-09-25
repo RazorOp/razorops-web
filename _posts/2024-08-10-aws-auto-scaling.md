@@ -1,5 +1,5 @@
 ---
-title: 2024-08-10 AWS Auto Scaling
+title: AWS Auto Scaling
 description: AWS Auto Scaling keeps on monitoring your Application and automatically
 image: /images/blog/aws-auto-scaling.webp
 layout: post
