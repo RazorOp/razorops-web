@@ -1,5 +1,5 @@
 ---
-title: 2024-08-11 AWS Cloud Formation
+title: AWS Cloud Formation
 description: "AWS CloudFormation is a service that collects AWS and third-party resources "
 image: /images/blog/aws-cloud-formation.webp
 layout: post
