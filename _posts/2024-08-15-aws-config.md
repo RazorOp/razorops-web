@@ -1,5 +1,5 @@
 ---
-title: 2024-08-15 AWS Config
+title: AWS Config
 description: "AWS Config is a service that continuously monitors and evaluates
   the configurations of the AWS resources (services). "
 image: /images/blog/aws-config.webp
