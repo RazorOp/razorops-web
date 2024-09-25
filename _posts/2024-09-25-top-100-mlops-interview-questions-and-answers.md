@@ -1,5 +1,5 @@
 ---
-title: " 2024-09-25-Top 100 MLOps interview questions and answers"
+title: Top 100 MLOps interview questions and answers
 description: Here is a curated list of top 100 MLOps interview questions and
   answers that will help you prepare for a wide range of MLOps interviews.
 image: /images/blog/top-100-mlops-interview-questions-and-answers.webp
