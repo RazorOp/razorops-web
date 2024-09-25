@@ -1,5 +1,5 @@
 ---
-title: 2024-08-16 AWS License Manager
+title: AWS License Manager
 description: AWS License Manager is a service that manages software licenses in AWS
 image: /images/blog/aws-license-manager.webp
 layout: post
