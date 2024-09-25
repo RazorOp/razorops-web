@@ -1,5 +1,5 @@
 ---
-title: 2024-08-14 Amazon CloudWatch
+title: Amazon CloudWatch
 description: Amazon CloudWatch is a service that helps to monitor and manage services
 image: /images/blog/amazon-cloudwatch.webp
 layout: post
