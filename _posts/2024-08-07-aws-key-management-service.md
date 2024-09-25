@@ -1,5 +1,5 @@
 ---
-title: 2024-08-07 AWS Key Management Service
+title: AWS Key Management Service
 description: "AWS Key Management Service (AWS KMS) is a secured service to
   create and control the encryption keys. "
 image: /images/blog/aws-key-management-service.webp
