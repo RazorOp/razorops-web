@@ -1,5 +1,5 @@
 ---
-title: 2024-08-08 AWS Certificate Manager (ACM)
+title: AWS Certificate Manager (ACM)
 description: AWS Certificate Manager is a service that allows a user to provide, manage,
 image: /images/blog/aws-certificate-manager-acm.webp
 layout: post
