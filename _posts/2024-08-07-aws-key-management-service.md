@@ -9,7 +9,6 @@ author: Shyam Mohan
 category: AWS
 date: 2024-08-07T08:00:00.000Z
 ---
-AWS Key Management Service
 
 **What is AWS Key Management Service?** 
 
