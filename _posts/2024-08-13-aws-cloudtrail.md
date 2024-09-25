@@ -1,5 +1,5 @@
 ---
-title: 2024-08-13 AWS CloudTrail
+title: AWS CloudTrail
 description: "AWS CloudTrail is defined as a global service that permits users
   to enable operational "
 image: /images/blog/aws-cloudtrail.webp
