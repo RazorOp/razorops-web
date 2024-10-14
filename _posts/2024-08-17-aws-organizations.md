@@ -1,5 +1,5 @@
 ---
-title: 2024-08-17 AWS Organizations
+title: AWS Organizations
 description: AWS Organizations is a global service that enables users to
   consolidate and manage multiple AWS accounts into an organization.
 image: /images/blog/aws-organizations.webp
