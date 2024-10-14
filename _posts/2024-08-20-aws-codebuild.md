@@ -1,5 +1,5 @@
 ---
-title: 2024-08-20 AWS CodeBuild
+title: AWS CodeBuild
 description: Amazon codeBuild is a fully managed continuous integration service
   that helps developers to build and run test code rapidly.
 image: /images/blog/aws-codebuild.webp
