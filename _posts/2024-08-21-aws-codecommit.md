@@ -1,5 +1,5 @@
 ---
-title: 2024-08-21 AWS CodeCommit
+title: AWS CodeCommit
 description: AWS CodeCommit is a version control service hosted by Amazon Web Services
 image: /images/blog/aws-codecommit.webp
 layout: post
