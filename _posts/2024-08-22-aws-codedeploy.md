@@ -1,5 +1,5 @@
 ---
-title: 2024-08-22 AWS CodeDeploy
+title: AWS CodeDeploy
 description: AWS CodeDeploy is a deployment service that automates application deployments
 image: /images/blog/aws-codedeploy.webp
 layout: post
