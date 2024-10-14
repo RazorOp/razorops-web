@@ -1,5 +1,5 @@
 ---
-title: 2024-08-18 AWS Systems Manager
+title: AWS Systems Manager
 description: "AWS Systems Manager is a service which helps users to manage EC2
   and on-premises systems at scale. "
 image: /images/blog/aws-systems-manager.webp
