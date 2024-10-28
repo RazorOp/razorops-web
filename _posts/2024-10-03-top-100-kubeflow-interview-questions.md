@@ -1,5 +1,5 @@
 ---
-title: 2024-10-03-Top 100 Kubeflow interview questions
+title: Top 100 Kubeflow interview questions
 description: Here's a list of 100 Kubeflow interview questions, organized by
   categories, to cover basic concepts, deployment, pipelines, components, and
   real-world scenarios.
