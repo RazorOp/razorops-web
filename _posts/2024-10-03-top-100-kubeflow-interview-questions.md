@@ -3,7 +3,7 @@ title: Top 100 Kubeflow interview questions
 description: Here's a list of 100 Kubeflow interview questions, organized by
   categories, to cover basic concepts, deployment, pipelines, components, and
   real-world scenarios.
-image: /images/blog/top-100-kubeflow-interview-questions.webp
+image: /images/blog/top-100-kubeflow-interview-questions.jpg
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
@@ -13,6 +13,7 @@ date: 2024-10-03T01:45:00.000Z
 Here's a list of 100 Kubeflow interview questions, organized by categories, to cover basic concepts, deployment, pipelines, components, and real-world scenarios.
 
 ---
+
 
 ### **Basic Concepts**
 
