@@ -1,5 +1,5 @@
 ---
-title: 2024-09-30-Top 100 AI/ML interview questions and answers
+title: Top 100 AI/ML interview questions and answers
 description: Here’s a comprehensive list of 100 AI/ML interview questions for
   developers covering fundamental concepts, algorithms, statistics,
   optimization, deployment, and case-based questions.
