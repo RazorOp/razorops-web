@@ -1,5 +1,5 @@
 ---
-title: 2024-10-05 Top 50 CI/CD Tools  Interview Question  and Answers
+title: Top 50 CI/CD Tools  Interview Question  and Answers
 description: "CI/CD stands for Continuous Integration and Continuous Deployment/Delivery, "
 image: /images/blog/top-50-cicd-tools-interview-question-and-answers.webp
 layout: post
