@@ -1,5 +1,5 @@
 ---
-title: 2024-10-04 Top 50 Version Control Systems Interview Question and Answers
+title: Top 50 Version Control Systems Interview Question and Answers
 description: "  The top 50 Version Control System (VCS) interview questions and
   answers cover a wide range of topics essential for developers, DevOps
   engineers, "
