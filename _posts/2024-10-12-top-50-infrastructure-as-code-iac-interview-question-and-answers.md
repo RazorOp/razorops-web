@@ -1,6 +1,5 @@
 ---
-title: "2024-10-12 Top 50 Infrastructure as Code (IaC) Interview Question and
-  Answers "
+title: "Top 50 Infrastructure as Code (IaC) Interview Question and Answers "
 description: " Infrastructure as Code (IaC) is the practice of managing and
   provisioning infrastructure through code rather than manual processes. "
 image: /images/blog/top-50-infrastructure-as-code-iac-interview-question-and-answers.webp
