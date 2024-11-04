@@ -1,5 +1,5 @@
 ---
-title: "2024-10-09 Top 50 Docker Interview Question and Answers "
+title: "Top 50 Docker Interview Question and Answers "
 description: Docker is a containerization platform that packages applications
   and dependencies into lightweight
 image: /images/blog/top-50-docker-interview-question-and-answers.webp
