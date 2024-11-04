@@ -1,5 +1,5 @@
 ---
-title: "2024-10-08 Top 50 Configuration Management Interview Question and Answers "
+title: "Top 50 Configuration Management Interview Question and Answers "
 description: "Configuration management is a process that systematically manages
   changes and configurations "
 image: /images/blog/top-50-configuration-management-interview-question-and-answers.webp
