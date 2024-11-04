@@ -1,5 +1,5 @@
 ---
-title: 2024-10-11 Top 50 Helm Interview Question and Answers
+title: Top 50 Helm Interview Question and Answers
 description: "Helm is a package manager for Kubernetes, which helps to manage Kubernetes "
 image: /images/blog/top-50-helm-interview-question-and-answers.webp
 layout: post
