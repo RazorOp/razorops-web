@@ -1,5 +1,5 @@
 ---
-title: 2024-10-06 Top 50 GitHub Actions  Interview Question  and Answers
+title: Top 50 GitHub Actions  Interview Question  and Answers
 description: GitHub Actions is a CI/CD platform that enables automation directly
   within GitHub repositories for building, testing, and deploying code.
 image: /images/blog/top-50-github-actions-interview-question-and-answers.webp
