@@ -1,5 +1,5 @@
 ---
-title: 2024-10-13 Top 50 Terraform Interview Question and Answers
+title: Top 50 Terraform Interview Question and Answers
 description: Terraform is an open-source Infrastructure as Code (IaC) tool by
   HashiCorp. It allows users to define and provision infrastructure
 image: /images/blog/top-50-terraform-interview-question-and-answers.webp
