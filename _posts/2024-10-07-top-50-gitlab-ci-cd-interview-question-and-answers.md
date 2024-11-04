@@ -1,5 +1,5 @@
 ---
-title: 2024-10-07 Top 50 GitLab CI/CD Interview Question and Answers
+title: Top 50 GitLab CI/CD Interview Question and Answers
 description: "GitLab CI/CD is a built-in tool in GitLab for continuous
   integration (CI) and continuous delivery/deployment (CD). "
 image: /images/blog/top-50-github-actions-interview-question-and-answers-1-.webp
