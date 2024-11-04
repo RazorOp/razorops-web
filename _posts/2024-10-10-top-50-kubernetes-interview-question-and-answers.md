@@ -1,5 +1,5 @@
 ---
-title: 2024-10-10 Top 50 Kubernetes Interview Question and Answers
+title: Top 50 Kubernetes Interview Question and Answers
 description: " Kubernetes is an open-source container orchestration platform
   designed to automate the deployment, "
 image: /images/blog/top-50-kubernetes-interview-question-and-answers.webp
