@@ -1,5 +1,5 @@
 ---
-title: 2024-10-14 Top 50 AWS CloudFormation Interview Question and Answers
+title: Top 50 AWS CloudFormation Interview Question and Answers
 description: AWS CloudFormation is a service that provides infrastructure as code (IaC),
 image: /images/blog/top-50-aws-cloudformation-interview-question-and-answers.webp
 layout: post
