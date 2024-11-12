@@ -1,5 +1,5 @@
 ---
-title: 2024-10-18 Top 50 Grafana Interview Question and Answers
+title: " Top 50 Grafana Interview Question and Answer"
 description: Grafana is an open-source platform used for monitoring,
   visualization, and alerting on data from a wide variety of sources.
 image: /images/blog/top-50-grafana-interview-question-and-answers.webp
