@@ -1,5 +1,5 @@
 ---
-title: 2024-10-17 Top 50 Prometheus Interview Question and Answers
+title: Top 50 Prometheus Interview Question and Answers
 description: Prometheus is an open-source monitoring and alerting toolkit
   designed primarily for reliability and scalability.
 image: /images/blog/top-50-prometheus-interview-question-and-answers.webp
