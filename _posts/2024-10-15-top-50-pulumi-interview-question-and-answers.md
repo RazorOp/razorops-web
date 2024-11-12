@@ -1,5 +1,5 @@
 ---
-title: 2024-10-15 Top 50 Pulumi Interview Question and Answers
+title: Top 50 Pulumi Interview Question and Answers
 description: Pulumi is an open-source infrastructure-as-code (IaC) tool that
   allows developers to define cloud resources and infrastructure
 image: /images/blog/top-50-pulumi-interview-question-and-answers.webp
