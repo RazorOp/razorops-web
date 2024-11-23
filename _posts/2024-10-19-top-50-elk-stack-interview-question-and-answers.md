@@ -1,5 +1,5 @@
 ---
-title: 2024-10-19 Top 50 ELK Stack Interview Question  and Answers
+title: Top 50 ELK Stack Interview Question  and Answers
 description: "ELK Stack is a collection of three open-source tools:
   Elasticsearch, Logstash, and Kibana"
 image: /images/blog/top-50-elk-stack-interview-question-and-answers.webp
