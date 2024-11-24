@@ -1,5 +1,5 @@
 ---
-title: 2024-10-22 Top 50 Snyk Interview Question and Answers
+title: Top 50 Snyk Interview Question and Answers
 description: "Snyk is a developer-first security platform that helps identify
   and fix vulnerabilities in code, "
 image: /images/blog/top-50-snyk-interview-question-and-answers.webp
