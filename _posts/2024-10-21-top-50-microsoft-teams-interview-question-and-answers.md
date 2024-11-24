@@ -1,5 +1,5 @@
 ---
-title: 2024-10-21 Top 50 Microsoft Teams Interview Question and Answers
+title: Top 50 Microsoft Teams Interview Question and Answers
 description: " Microsoft Teams is a collaboration platform within the Microsoft
   365 suite that combines chat, "
 image: /images/blog/top-50-microsoft-teams-interview-question-and-answers.webp
