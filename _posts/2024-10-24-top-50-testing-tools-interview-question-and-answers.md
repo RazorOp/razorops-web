@@ -1,5 +1,5 @@
 ---
-title: 2024-10-24 Top 50 Testing Tools Interview Question and Answers
+title: Top 50 Testing Tools Interview Question and Answers
 description: "Testing tools are software applications designed to support
   various stages of software testing, including test case management, "
 image: /images/blog/top-50-testing-tools-interview-question-and-answers.webp
