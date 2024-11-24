@@ -1,5 +1,5 @@
 ---
-title: 2024-10-23 Top 50 Aqua Security Interview Question and Answers
+title: Top 50 Aqua Security Interview Question and Answers
 description: "Aqua Security is a cloud-native security solution designed to
   protect containers, Kubernetes, serverless, and cloud workloads. "
 image: /images/blog/top-50-aqua-security-interview-question-and-answers.webp
