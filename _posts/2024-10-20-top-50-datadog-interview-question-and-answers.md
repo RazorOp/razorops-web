@@ -1,5 +1,5 @@
 ---
-title: 2024-10-20 Top 50 Datadog Interview Question  and Answers
+title: Top 50 Datadog Interview Question  and Answers
 description: Datadog is a cloud-based monitoring and analytics platform designed
   for IT infrastructure, applications, and logs.
 image: /images/blog/top-50-datadog-interview-question-and-answers.webp
