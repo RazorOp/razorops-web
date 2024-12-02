@@ -1,5 +1,5 @@
 ---
-title: 2024-11-24 Top 50 Selenium Interview Question and Answers
+title: Top 50 Selenium Interview Question and Answers
 description: Selenium is an open-source automation testing tool for web
   applications. It supports multiple programming languages, including Java,
   Python, and C#.
