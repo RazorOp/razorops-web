@@ -1,5 +1,5 @@
 ---
-title: 2024-11-25 Top 50 JUnit Interview Question and Answers
+title: Top 50 JUnit Interview Question and Answers
 description: JUnit is a popular Java testing framework used for unit testing. It
   provides annotations to identify test methods, asserts for verifying expected
   results,
