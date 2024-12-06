@@ -1,5 +1,5 @@
 ---
-title: 2024-10-22-How to evaluate cloud migration partner
+title: How to evaluate cloud migration partner
 description: When selecting a cloud migration partner, it’s essential to
   evaluate their capabilities, experience, and alignment with your business
   needs.
