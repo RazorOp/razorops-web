@@ -554,16 +554,6 @@ z-index:9999;
 .navbar-nav{
 height: 0px !important;
 }
-.footer-social-right{
-float: right;
-margin-right: 20px;
-} 
-.footer-social-left{
-float: left;
-} 
-.footer-social-left a{
-font-size: 18px;
-}	
 
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -573,22 +563,12 @@ text-transform: capitalize !important;
 }
 
 @media (max-width: 767px) {
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-display: block;
-color: #fff;
-text-align: center;
-text-transform: capitalize;
-}
-.footer-social-right{
-float: none;
-} 
-.footer-social-left{
-float: none;
-margin-bottom: 10px;
-} 
-.footer-social-left a{
-font-size: 18px;
-}	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	}
 }
 
 @media (max-width: 667px) {
@@ -619,80 +599,10 @@ margin-top: 10px !important;
 
 
 
-/*----footer----*/
-.footer {
-position: relative;
-color: #253858;
-background-color: #fff;
-/* background-color: #f8f8f8; */
-padding: 50px 0;
-z-index: 1;
-}
-.copyright {
-float: left;
-padding: 5px;
-}
-.footer-nav .tickrow{
-text-align: left;
-}
-.footer-nav {
-padding: 0;
-margin: 0;
-list-style: none;
-}
-
-.footer-nav > li {
-font-size: 16px;
-display: block;
-margin-bottom: 4px;
-}
-.footer-nav > li > a {
-display: block;
-color: #253858;
-padding: 1px;
-}
-.footer-nav > li > a:hover,
-.footer-nav > li > a:focus {
-color: #000;
-}
-.footer .address-wraper {
-color: #253858;
-}
-.footer-item h2 {
-/* color: ; */
-font-size: 1.4em;
-margin-top: 0;
-margin-bottom: 15px;
-}
-.footer-item a {
-text-decoration: none;
-}
-.lower-footer{
-color: #000000;
-padding-top: 20px;
-padding-bottom: 20px;
-}
-.footer-hr{
-margin-top: 0px;
-margin-bottom: 0px;
-background: rgb(204, 204, 204);
-}
-.d-inline-block {
-display: inline-block;
-vertical-align: middle;
-margin-bottom: 10px;
-}
 
 
-.footer-social a {
-display: inline-block;
-margin-bottom: 8px;
-margin-right: 10px;
-}
-.footer-social-strip{
-margin-top: 28px;
-}
-/*---end---*/
+
+
 .banner {
 /* --min-height: 100vh;
 height: 100%; --*/
@@ -936,7 +846,7 @@ background-size: 100% 100%;
 
 .customers-banner{
 text-align: center;
-padding: 150px 15px;
+padding: 96px 15px;
 /* background-image: url("/images/v2/home-banner.webp"); */
 background-image: url("https://rz-react.netlify.app/static/bg-75dd80098a3d7371d4ddde0018824f4d.png");
 background-color: #FFF;

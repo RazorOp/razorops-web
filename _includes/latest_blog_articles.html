@@ -1,20 +1,31 @@
-<div class="container container-center">
-  <div class="blog-wraper2">
-    <div class="blog-post">
-      {% assign blogs = site.posts %} {% for post in blogs limit:3 %}
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <div class="col-sm-4 post-box">
-          <div class="blog-content">
-            <img src="{{ post.image }}" alt="{{ post.title }}" />
-            <div class="blog-body">
-              <h1>{{ post.title }}</h1>
-              <p class="blogs-description">{{ post.description}}</p>
+
+
+  <div class="container">
+    <div class="blog-wraper">
+      <div class="blog-post">
+        {% assign blogs = site.posts %}
+        {% for post in blogs limit:3  %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <div class="col-sm-4 post-box">
+              <div class="blog-content">
+                  <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                <div class="blog-body">
+                  <time>{{ post.date | date_to_string }}</time>
+                  <h1>{{ post.title }}</h1>
+  
+                  <p class="blogs-description">{{ post.description}}</p>
+                  <br>
+                  <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more">Read More</a> -->
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </a>
-      {% endfor %}
+          </a>
+        {% endfor %}
+        <div class="clearfix"></div>
+        <br>
+        <center>
+          <a href="/blog" title="Read More" class="btn-animated btn btn-lg full-rounded">Read More</a>
+        </center>
+      </div>
     </div>
   </div>
-<div>
-

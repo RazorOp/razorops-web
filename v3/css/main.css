@@ -85,28 +85,11 @@
 }
 .all-razoropslink h3{
     color: #BEBEBE;
-
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
 }
-.all-razoropslink .footer-nav>li a{
-    color: #BEBEBE !important;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
 
-
-}
-.all-razoropslink .footer-nav>li{
-    margin-bottom: 10px;
-}
-.all-razoropslink .footer-nav{
-    list-style: none;
-    padding: 0px;
-}
 .homev3-banner{
     background: #ffffff;
     text-align: center;

@@ -13,6 +13,7 @@ gem "jekyll-seo-tag"
 gem "kramdown-parser-gfm", "~> 1.1"
 
 gem 'csv', '~> 3.3'
+gem 'stringio', '~> 3.1.2'
 
 
 
