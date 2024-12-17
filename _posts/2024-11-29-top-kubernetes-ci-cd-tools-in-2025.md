@@ -1,5 +1,5 @@
 ---
-title: 2024-11-29-Top Kubernetes CI/CD Tools in 2025
+title: Top Kubernetes CI/CD Tools in 2025
 description: "As Kubernetes continues to dominate the container orchestration
   space, the need for robust CI/CD tools to streamline deployment workflows is
   greater than ever. "
