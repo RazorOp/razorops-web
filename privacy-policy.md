@@ -1,9 +1,13 @@
 ---
 title: Privacy Policy
+description: This Privacy Policy describes the information that we gather from
+  you, how we use and disclose your information, and the steps we take to
+  protect your information.
 layout: default
-description: null
 keywords: null
 canonical_url: https://razorops.com/privacy-policy/
+image: /images/blog/privacy-policy.webp
+permalink: /privacy-policy
 ---
 
 **This Privacy Policy is effective as of June 15, 2018.**
