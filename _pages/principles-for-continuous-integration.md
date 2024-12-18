@@ -1,5 +1,9 @@
 ---
 title: Principles for Continuous Integration
+layout: default
+
+permalink: /principles-for-continuous-integration
+
 ---
 
 1. Maintain a code repository

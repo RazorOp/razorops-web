@@ -1,20 +1,8 @@
 <footer class="footer">
   <div class="container">
     <div class="row footer-height" >
-      <div class="col-sm-3">
-        <h5>PRODUCT</h5>
-        <ul>
-          <li><a href="/product">Overview</a></li>
-          <li><a href="/product#how-it-works">How It Works</a></li>
-          <li><a href="/product#features">Features</a></li>
-          <li><a href="/product#integrations">Integrations</a></li>
-          <li><a href="/pricing">Pricing</a></li>
-          <li><a href="/schedule-demo">Schedule Demo</a></li>
-        </ul>
-      </div>
 
-
-      <div class="col-sm-3">
+      <div class="col-sm-2">
         <h5>COMPANY</h5>
         <ul>
           <li><a href="/about" title="About">About Us</a></li>
@@ -27,15 +15,44 @@
           <li><a href="/jobs">We are Hiring!</a></li>
         </ul>
       </div>
+      
+      <div class="col-sm-2">
+        <h5>PRODUCT</h5>
+        <ul>
+          <li><a href="/product">Overview</a></li>
+          <li><a href="/product#how-it-works">How It Works</a></li>
+          <li><a href="/product#features">Features</a></li>
+          <li><a href="/product#integrations">Integrations</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/schedule-demo">Schedule Demo</a></li>
+        </ul>
+      </div>
+
+
+      
+
+      <div class="col-sm-2">
+        <h5>RAZOROPS PAGES</h5>
+        {% assign pages = site.pages %}
+        
+        <ul>
+          {% for page in pages  %}
+            <li><a href="{{ site.baseurl }}{{ page.url }}" title="About">{{ page.title }}</a></li>
+          {% endfor %}
+        </ul>
+        
+      </div>
 
       <div class="col-sm-3">
         <h5>RESOURCES</h5>
         <ul>
+          <li><a href="/blog" title="Blog">Blog</a></li>
+
           <li>
             <a href="https://docs.razorops.com/getting_started/" target="_blank">Getting Started</a>
           </li>
           <li>
-            <a href="/jenkins-alternative/">Migrate From Jenkins To RazorOps</a>
+            <a href="/jenkins-alternative/">Migrate From Jenkins</a>
           </li>
           <li><a href="/customers">Case Studies</a></li>
           <li><a href="/webinars">Webinars</a></li>

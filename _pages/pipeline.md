@@ -1,5 +1,9 @@
 ---
 title: Setting up your first deployment pipeline
+layout: default
+
+permalink: /setting-up-your-first-deployment-pipeline
+
 ---
 
 # Setting up your first deployment pipeline

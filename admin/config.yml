@@ -37,7 +37,7 @@ collections:
 
   - label: "pages"
     name: "pages"
-    folder: "/"
+    folder: "_pages/"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -45,5 +45,7 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Layout", name: "layout", widget: "string"}
       - {label: "permalink", name: "permalink", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
 
