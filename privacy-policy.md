@@ -10,7 +10,11 @@ image: /images/blog/privacy-policy.webp
 permalink: /privacy-policy
 ---
 
+![App Platorm](/images/blog/privacy-policy.webp)
+
+
 **This Privacy Policy is effective as of June 15, 2018.**
+
 
 Welcome, and thank you for your interest in Razorops,(“Razorops” “us” or “we”) and our Service, as described in the Razorops Terms of Service.
 
@@ -84,9 +88,16 @@ Changes and Updates to this Privacy Policy: Please revisit this page periodicall
 
  Please contact us with any questions or comments about this Privacy Policy, your personally identifiable information, our use and disclosure practices, or your consent choices by e-mail at <a href="mailto:support@razorops.com">support@razorops.com</a> 
 
-**Address**
+**Address**:
+
 5208 Cumberland Dr,
+
 Roseville,
+
 United States - 95747
+
+
 Email: support@razorops.com
+
+
 Phone : +1 (916) 272 8503
