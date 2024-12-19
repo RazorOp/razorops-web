@@ -31,7 +31,7 @@
 
       
 
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <h5>RAZOROPS PAGES</h5>
         {% assign pages = site.pages %}
         
@@ -43,7 +43,7 @@
         
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-sm-2">
         <h5>RESOURCES</h5>
         <ul>
           <li><a href="/blog" title="Blog">Blog</a></li>
@@ -117,9 +117,19 @@
 
 
 <script type="text/javascript">
-$(document).ready(function () {
-$("#year").html(new Date().getFullYear());
-});
+  $(document).ready(function () {
+  $("#year").html(new Date().getFullYear());
+  });
+
+  // Select all anchor tags
+  const links = document.querySelectorAll('a');
+
+  // Loop through each link and set target to "_blank"
+  links.forEach(link => {
+    link.setAttribute('target', '_blank');
+  });
+
+
 </script>
 
 

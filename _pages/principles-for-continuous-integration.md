@@ -1,6 +1,6 @@
 ---
 title: Principles for Continuous Integration
-description: RRazorOps makes it easy to keep your code in a central repository
+description: RazorOps makes it easy to keep your code in a central repository
   that all developers can access and collaborate on
 image: /images/blog/power-of-automation-devops.webp
 layout: default

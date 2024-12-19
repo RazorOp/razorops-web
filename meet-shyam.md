@@ -1,6 +1,6 @@
 ---
 title: Schedule a Meeting with Shyam
-layout: default
+layout: page
 description: Book a meeting with Shyam to discuss your project, get expert advice, and explore tailored solutions. Schedule at your convenience today!
 keywords: Razorops demo, cicd demo
 image: /images/meet-shyam.webp

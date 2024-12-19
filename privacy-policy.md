@@ -10,8 +10,6 @@ image: /images/blog/privacy-policy.webp
 permalink: /privacy-policy
 ---
 
-![App Platorm](/images/blog/privacy-policy.webp)
-
 
 **This Privacy Policy is effective as of June 15, 2018.**
 
