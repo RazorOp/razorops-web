@@ -22,7 +22,7 @@
 </item>
 <item>
      <link>https://razorops.com/pricing</link>
-     <title>Razorops Plans and Pricing | Razorops</title>
+     <title>No Surprises, FREE CICD Forever | Razorops</title>
      <description>Start with Free Plan, Scale when you feel, No credit card required.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -109,32 +109,32 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/blog/metrics-for-judging-the-success-of-devops-implementation</link>
-     <title>Metrics for Judging the Success of DevOps Implementation | Razorops</title>
-     <description>Successful DevOps implementation is critical for enhancing the efficiency, reliability, and quality of software development and delivery.</description>
+     <link>https://razorops.com/blog/top-kubernetes-ci-cd-tools-in-2025</link>
+     <title>Top Kubernetes CI/CD Tools in 2025 | Razorops</title>
+     <description>As Kubernetes continues to dominate the container orchestration space, the need for robust CI/CD tools to streamline deployment workflows is greater than ever.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/blog/core-ci-cd-concepts-a-comprehensive-overview</link>
-     <title>Core CI/CD Concepts: A Comprehensive Overview | Razorops</title>
-     <description>The integration of CI/CD concepts and automation practices has revolutionized the software development landscape</description>
+     <link>https://razorops.com/blog/top-50-trends-that-will-impact-the-future-of-devops-in-2025</link>
+     <title>Top 50 Trends That Will Impact the Future of DevOps in 2025 | Razorops</title>
+     <description>The DevOps landscape is constantly evolving, driven by advancements in technology, organizational needs, and the demand for faster, more efficient software delivery.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://razorops.com/blog/testing-and-quality-assurance-within-a-ci-cd-pipeline</link>
-     <title>Testing and Quality Assurance Within a CI/CD Pipeline | Razorops</title>
-     <description>Testing and QA are critical components of CI/CD pipelines. They ensure that code changes do not introduce new bugs</description>
+     <link>https://razorops.com/blog/top-50-junit-interview-question-and-answers/</link>
+     <title>Top 50 JUnit Interview Question and Answers | Razorops</title>
+     <description>JUnit is a popular Java testing framework used for unit testing. It provides annotations to identify test methods, asserts for verifying expected results,</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>https://razorops.com/about</link>
-     <title>Razorops About | Razorops</title>
+     <title>What is Razorops CICD? | Razorops</title>
      <description>Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -142,7 +142,7 @@
 </item>
 <item>
      <link>https://razorops.com/contact</link>
-     <title>Contact United States +1 (916) 272 8503 Bengaluru Hyderabad +91 (868) 846 8400 | Razorops</title>
+     <title>Contact Razorops, Inc. | Razorops</title>
      <description>Razorops, inc United States Canada Bengaluru Hyderabad - Get in touch with us for continuous integration and continuous deployment on various cloud platform.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -173,9 +173,49 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/cicd-offers/</link>
+     <title>Razorops CD/CD Offers | Razorops</title>
+     <description>Building quality software and shipping it quickly has become the core requirement for each business. Razorops offers 45 Days Risk FREE access to all the plans.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/jobs</link>
      <title>Razorops Careers | Razorops</title>
      <description>Come and join razorops team of Kubernetes System engineer to help us build great developer tools on Cloud Native DevOps platform.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/devops-automation-and-cloud-migration-companies-in-india</link>
+     <title>DevOps Automation and Cloud Migration Companies in India | Razorops</title>
+     <description>India is home to numerous IT companies specializing in DevOps and cloud migration services.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/principles-for-continuous-integration</link>
+     <title>Principles for Continuous Integration | Razorops</title>
+     <description>RazorOps makes it easy to keep your code in a central repository that all developers can access and collaborate on</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/setting-up-your-first-deployment-pipeline</link>
+     <title>Setting up your first deployment pipeline | Razorops</title>
+     <description>Deploying applications efficiently and reliably is a cornerstone of modern software development</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/top-12-devops-and-cloud-migration-companies-in-hyderabad</link>
+     <title>Top 12 DevOps and Cloud Migration Companies in Hyderabad | Razorops</title>
+     <description>Hyderabad, also known as Cyberabad, is a technology hub in India, housing numerous IT and consulting companies specializing in DevOps and cloud migration</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -215,7 +255,7 @@
 <item>
      <link>https://razorops.com/privacy-policy</link>
      <title>Privacy Policy | Razorops</title>
-     <description>Cloud Agnostic CICD Automation Platform</description>
+     <description>This Privacy Policy describes the information that we gather from you, how we use and disclose your information, and the steps we take to protect your information.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -232,6 +272,510 @@
      <link>https://razorops.com/schedule-demo?utm_source=Jenkins-alternative&amp;utm_medium=schedule-demo-cta&amp;utm_campaign=signup-Jenkins-alternative</link>
      <title>Razorops Schedule Demo | Razorops</title>
      <description>Razopos demo with Shyam</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-selenium-interview-question-and-answers/</link>
+     <title>Top 50 Selenium Interview Question and Answers | Razorops</title>
+     <description>Selenium is an open-source automation testing tool for web applications. It supports multiple programming languages, including Java, Python, and C#.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-aqua-security-interview-question-and-answers/</link>
+     <title>Top 50 Aqua Security Interview Question and Answers | Razorops</title>
+     <description>Aqua Security is a cloud-native security solution designed to protect containers, Kubernetes, serverless, and cloud workloads.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-snyk-interview-question-and-answers/</link>
+     <title>Top 50 Snyk Interview Question and Answers | Razorops</title>
+     <description>Snyk is a developer-first security platform that helps identify and fix vulnerabilities in code,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-testing-tools-interview-question-and-answers/</link>
+     <title>Top 50 Testing Tools Interview Question and Answers | Razorops</title>
+     <description>Testing tools are software applications designed to support various stages of software testing, including test case management,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/how-to-evaluate-cloud-migration-partner</link>
+     <title>How to evaluate cloud migration partner | Razorops</title>
+     <description>When selecting a cloud migration partner, it’s essential to evaluate their capabilities, experience, and alignment with your business needs.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-microsoft-teams-interview-question-and-answers/</link>
+     <title>Top 50 Microsoft Teams Interview Question and Answers | Razorops</title>
+     <description>Microsoft Teams is a collaboration platform within the Microsoft 365 suite that combines chat,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-datadog-interview-question-and-answers/</link>
+     <title>Top 50 Datadog Interview Question and Answers | Razorops</title>
+     <description>Datadog is a cloud-based monitoring and analytics platform designed for IT infrastructure, applications, and logs.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-elk-stack-interview-question-and-answers/</link>
+     <title>Top 50 ELK Stack Interview Question and Answers | Razorops</title>
+     <description>ELK Stack is a collection of three open-source tools: Elasticsearch, Logstash, and Kibana</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-grafana-interview-question-and-answers/</link>
+     <title>Top 50 Grafana Interview Question and Answer | Razorops</title>
+     <description>Grafana is an open-source platform used for monitoring, visualization, and alerting on data from a wide variety of sources.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-prometheus-interview-question-and-answers/</link>
+     <title>Top 50 Prometheus Interview Question and Answers | Razorops</title>
+     <description>Prometheus is an open-source monitoring and alerting toolkit designed primarily for reliability and scalability.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-monitoring-and-logging-interview-question-and-answers/</link>
+     <title>Top 50 Monitoring and Logging Interview Question and Answers | Razorops</title>
+     <description>Monitoring is the process of tracking metrics, logs, events, and infrastructure to assess performance,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-pulumi-interview-question-and-answers/</link>
+     <title>Top 50 Pulumi Interview Question and Answers | Razorops</title>
+     <description>Pulumi is an open-source infrastructure-as-code (IaC) tool that allows developers to define cloud resources and infrastructure</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-aws-cloudformation-interview-question-and-answers/</link>
+     <title>Top 50 AWS CloudFormation Interview Question and Answers | Razorops</title>
+     <description>AWS CloudFormation is a service that provides infrastructure as code (IaC),</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-terraform-interview-question-and-answers/</link>
+     <title>Top 50 Terraform Interview Question and Answers | Razorops</title>
+     <description>Terraform is an open-source Infrastructure as Code (IaC) tool by HashiCorp. It allows users to define and provision infrastructure</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-infrastructure-as-code-iac-interview-question-and-answers/</link>
+     <title>Top 50 Infrastructure as Code (IaC) Interview Question and Answers | Razorops</title>
+     <description>Infrastructure as Code (IaC) is the practice of managing and provisioning infrastructure through code rather than manual processes.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-helm-interview-question-and-answers/</link>
+     <title>Top 50 Helm Interview Question and Answers | Razorops</title>
+     <description>Helm is a package manager for Kubernetes, which helps to manage Kubernetes</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-kubernetes-interview-question-and-answers/</link>
+     <title>Top 50 Kubernetes Interview Question and Answers | Razorops</title>
+     <description>Kubernetes is an open-source container orchestration platform designed to automate the deployment,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-docker-interview-question-and-answers/</link>
+     <title>Top 50 Docker Interview Question and Answers | Razorops</title>
+     <description>Docker is a containerization platform that packages applications and dependencies into lightweight</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-configuration-management-interview-question-and-answers/</link>
+     <title>Top 50 Configuration Management Interview Question and Answers | Razorops</title>
+     <description>Configuration management is a process that systematically manages changes and configurations</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-gitlab-ci-cd-interview-question-and-answers/</link>
+     <title>Top 50 GitLab CI/CD Interview Question and Answers | Razorops</title>
+     <description>GitLab CI/CD is a built-in tool in GitLab for continuous integration (CI) and continuous delivery/deployment (CD).</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-github-actions-interview-question-and-answers/</link>
+     <title>Top 50 GitHub Actions Interview Question and Answers | Razorops</title>
+     <description>GitHub Actions is a CI/CD platform that enables automation directly within GitHub repositories for building, testing, and deploying code.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-ci-cd-tools-interview-question-and-answers/</link>
+     <title>Top 50 CI/CD Tools Interview Question and Answers | Razorops</title>
+     <description>CI/CD stands for Continuous Integration and Continuous Deployment/Delivery,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-50-version-control-systems-interview-question-and-answers/</link>
+     <title>Top 50 Version Control Systems Interview Question and Answers | Razorops</title>
+     <description>The top 50 Version Control System (VCS) interview questions and answers cover a wide range of topics essential for developers, DevOps engineers,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-100-kubeflow-interview-questions</link>
+     <title>Top 100 Kubeflow interview questions | Razorops</title>
+     <description>Here’s a list of 100 Kubeflow interview questions, organized by categories, to cover basic concepts, deployment, pipelines, components, and real-world scenarios.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-100-ai-ml-interview-questions-and-answers</link>
+     <title>Top 100 AI/ML interview questions and answers | Razorops</title>
+     <description>Here’s a comprehensive list of 100 AI/ML interview questions for developers covering fundamental concepts, algorithms, statistics, optimization, deployment, and case-based questions.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-100-mlops-interview-questions-and-answers</link>
+     <title>Top 100 MLOps interview questions and answers | Razorops</title>
+     <description>Here is a curated list of top 100 MLOps interview questions and answers that will help you prepare for a wide range of MLOps interviews.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/mastering-terraform-from-beginner-to-expert</link>
+     <title>Mastering Terraform: From Beginner to Expert | Razorops</title>
+     <description>Gain understanding of Terraform and its benefits, Dive into practical guides, tips, and tutorials to automate your infrastructure, enhance productivity</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-x-ray/</link>
+     <title>AWS X-Ray | Razorops</title>
+     <description>AWS X-Ray helps to analyze and debug production systems in distributed environments.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-codedeploy/</link>
+     <title>AWS CodeDeploy | Razorops</title>
+     <description>AWS CodeDeploy is a deployment service that automates application deployments</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-codecommit/</link>
+     <title>AWS CodeCommit | Razorops</title>
+     <description>AWS CodeCommit is a version control service hosted by Amazon Web Services</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-codebuild/</link>
+     <title>AWS CodeBuild | Razorops</title>
+     <description>Amazon codeBuild is a fully managed continuous integration service that helps developers to build and run test code rapidly.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/understanding-the-essentials-of-software-testing-a-comprehensive-guide</link>
+     <title>Understanding the Essentials of Software Testing: A Comprehensive Guide | Razorops</title>
+     <description>Software testing is the process of evaluating and verifying that a software product or application is functioning as intended.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-systems-manager/</link>
+     <title>AWS Systems Manager | Razorops</title>
+     <description>AWS Systems Manager is a service which helps users to manage EC2 and on-premises systems at scale.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-organizations/</link>
+     <title>AWS Organizations | Razorops</title>
+     <description>AWS Organizations is a global service that enables users to consolidate and manage multiple AWS accounts into an organization.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-license-manager/</link>
+     <title>AWS License Manager | Razorops</title>
+     <description>AWS License Manager is a service that manages software licenses in AWS</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-config/</link>
+     <title>AWS Config | Razorops</title>
+     <description>AWS Config is a service that continuously monitors and evaluates the configurations of the AWS resources (services).</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-cloudwatch/</link>
+     <title>Amazon CloudWatch | Razorops</title>
+     <description>Amazon CloudWatch is a service that helps to monitor and manage services</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-cloudtrail/</link>
+     <title>AWS CloudTrail | Razorops</title>
+     <description>AWS CloudTrail is defined as a global service that permits users to enable operational</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/most-popular-devops-questions-and-answers</link>
+     <title>Most popular DevOps questions and answers | Razorops</title>
+     <description>Continuous Integration (CI) is the practice of automatically integrating code changes from multiple contributors into a shared repository several times a day</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-cloud-formation/</link>
+     <title>AWS Cloud Formation | Razorops</title>
+     <description>AWS CloudFormation is a service that collects AWS and third-party resources</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-auto-scaling/</link>
+     <title>AWS Auto Scaling | Razorops</title>
+     <description>AWS Auto Scaling keeps on monitoring your Application and automatically</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/a-detailed-guide-to-cron-jobs</link>
+     <title>A detailed guide to cron jobs | Razorops</title>
+     <description>Cron jobs are scheduled commands or scripts on Unix-based systems (like Linux and macOS) that are executed at fixed times, intervals, or specific dates.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-certificate-manager-acm/</link>
+     <title>AWS Certificate Manager (ACM) | Razorops</title>
+     <description>AWS Certificate Manager is a service that allows a user to provide, manage,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-key-management-service/</link>
+     <title>AWS Key Management Service | Razorops</title>
+     <description>AWS Key Management Service (AWS KMS) is a secured service to create and control the encryption keys.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-security-hub/</link>
+     <title>AWS Security Hub | Razorops</title>
+     <description>AWS Security Hub is a service that provides an extensive view of the security aspects of AWS</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-secrets-manager/</link>
+     <title>AWS Secrets Manager | Razorops</title>
+     <description>AWS Secrets Manager is a service that replaces secret credentials in the code like passwords,</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-resource-access-manager/</link>
+     <title>AWS Resource Access Manager | Razorops</title>
+     <description>AWS Resource Access Manager (RAM) is a service that permits users to share their resources</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-directory-service/</link>
+     <title>AWS Directory Service | Razorops</title>
+     <description>AWS Directory Service, also known as AWS Managed Microsoft Active Directory (AD),</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-cognito/</link>
+     <title>Amazon Cognito | Razorops</title>
+     <description>Amazon Cognito is a service used for authentication, authorization, and user management for web or mobile applications.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/aws-iam/</link>
+     <title>AWS IAM | Razorops</title>
+     <description>AWS IAM may be a service that helps you control access to AWS resources</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/top-10-ci-cd-security-risks-and-solution</link>
+     <title>Top 10 CI/CD Security Risks and Solution | Razorops</title>
+     <description>Securing a CI/CD pipeline involves addressing multiple security risks across various stages and components.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-redshift/</link>
+     <title>Amazon Redshift | Razorops</title>
+     <description>Amazon redshift is a fast and powerful, fully managed, petabyte-scale data warehouse service in the cloud.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-rds/</link>
+     <title>Amazon RDS | Razorops</title>
+     <description>RDS (Relational Database System) in AWS makes it easy to operate, manage, and scale in the cloud.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-neptune/</link>
+     <title>Amazon Neptune | Razorops</title>
+     <description>Amazon Neptune is a graph database service used as a web service to build and run applications that require connected datasets.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-keyspaces/</link>
+     <title>Amazon Keyspaces | Razorops</title>
+     <description>Keyspaces is an Apache Cassandra compatible database in AWS. It is fully managed by AWS, highly available, and scalable. Management of servers, patching is done by Amazon.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-elasticache/</link>
+     <title>Amazon ElastiCache | Razorops</title>
+     <description>ElastiCache is a fully managed in-memory data store. It significantly improves latency and performance for all read-heavy application workloads.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-dynamodb/</link>
+     <title>Amazon DynamoDB | Razorops</title>
+     <description>AWS DynamoDB is a Key-value and DocumentDB database by Amazon.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-documentdb/</link>
+     <title>Amazon DocumentDB | Razorops</title>
+     <description>DocumentDB is a fully managed document database service by AWS which supports MongoDB workloads. It is highly recommended for storing, querying, and indexing JSON Data.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/amazon-aurora/</link>
+     <title>Amazon Aurora | Razorops</title>
+     <description>Aurora is the fully managed RDS services offered by AWS. It’s only compatible</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/what-are-microservices-and-how-do-they-relate-to-devops-architecture</link>
+     <title>What are microservices, and how do they relate to DevOps architecture | Razorops</title>
+     <description>Microservices architecture and DevOps practices are synergistic, enhancing the flexibility, scalability, and speed of software development and deployment.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/metrics-for-judging-the-success-of-devops-implementation</link>
+     <title>Metrics for Judging the Success of DevOps Implementation | Razorops</title>
+     <description>Successful DevOps implementation is critical for enhancing the efficiency, reliability, and quality of software development and delivery.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/core-ci-cd-concepts-a-comprehensive-overview</link>
+     <title>Core CI/CD Concepts: A Comprehensive Overview | Razorops</title>
+     <description>The integration of CI/CD concepts and automation practices has revolutionized the software development landscape</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/blog/testing-and-quality-assurance-within-a-ci-cd-pipeline</link>
+     <title>Testing and Quality Assurance Within a CI/CD Pipeline | Razorops</title>
+     <description>Testing and QA are critical components of CI/CD pipelines. They ensure that code changes do not introduce new bugs</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -278,7 +822,7 @@
 </item>
 <item>
      <link>https://razorops.com/blog/aws-efs-elastic-file-storage/</link>
-     <title>2024-07-02-AWS EFS - Elastic File Storage | Razorops</title>
+     <title>AWS EFS - Elastic File Storage | Razorops</title>
      <description>Amazon Elastic File System (Amazon EFS) provides a scalable, fully managed elastic distributed file system based on NFS.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
@@ -1301,6 +1845,22 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-94</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 94 | Razorops</title>
+     <description>Kubernetes and DevOps The Perfect Duo for Cloud-Native Development</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/newsletter/razorops-cicd-newsletter-93</link>
+     <title>Container Native DevOps &amp;amp; CICD Newsletter 93 | Razorops</title>
+     <description>Scaling with Terraform Optimizing Multi-Cloud Deployments</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://razorops.com/newsletter/razorops-cicd-newsletter-92</link>
      <title>Container Native DevOps &amp;amp; CICD Newsletter 92 | Razorops</title>
      <description>CI/CD Pipelines Optimizing the DevOps Workflow</description>
@@ -2071,7 +2631,23 @@
 <item>
      <link>https://razorops.com/meet-shyam</link>
      <title>Schedule a Meeting with Shyam | Razorops</title>
-     <description>Schedule a Meeting with Shyam</description>
+     <description>Book a meeting with Shyam to discuss your project, get expert advice, and explore tailored solutions. Schedule at your convenience today!</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/try-razorops-cicd-with-digital-ocean-kubernetes/</link>
+     <title>Try Razorops CI/CD with DigitalOcean Kubernetes | Razorops</title>
+     <description>RazorOps is a container native CI/CD Platform partnered with DigitalOcean to provide managed cloud &amp;amp; Kuberentes to automate and manage your software life cycle efficiently. Get $250 DigitalOcean Credits free. Signup Now</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://razorops.com/try-razorops-cicd-with-microsoft-azure-kubernetes/</link>
+     <title>Try Razorops CI/CD with Microsoft Azure Kubernetes | Razorops</title>
+     <description>RazorOps is a container native CI/CD Platform partnered with Microsoft Azure to provide managed cloud &amp;amp; Kuberentes to automate and manage your software life cycle efficiently. Get $150k Microsoft Azure Credits free. Signup Now</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
