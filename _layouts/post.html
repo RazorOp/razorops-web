@@ -19,8 +19,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a50d614079115001207f66b&product=inline-share-buttons' async='async'></script>
-    
+    <script>
+
+        // Select all anchor tags
+        const links = document.querySelectorAll('a');
+
+      // Loop through each link and set target to "_blank"
+      links.forEach(link => {
+        link.setAttribute('target', '_blank');
+      });
+    </script>
   </head>
   <body class="layout-blog">
   
