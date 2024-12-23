@@ -3,107 +3,159 @@
 	<div class="section-header"><h2>RazorOps Features</h2></div>
 	<br>
 
+
+	<style>
+		.card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid #EFEFEF;
+      border-radius: 10px;
+      padding: 10px;
+			height: 370px;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      border: 1px solid #EFEFEF;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+
+  </style>
+
 	<div class="container">
 		<div class="row">
 
 			<div class="col-sm-4">
-				<center>
-					<img src="/images/v2/container-native.webp" alt="source code management" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-				<h3>Container Native</h3>
-				<p class="lead mb-0">Software that treats the container as the first-class unit of infrastructure. RazorOps gives a fresh isolated environment for every step in your pipeline.</p>
+				<div class="card">
+					<center>
+						<img src="/images/v2/container-native.webp" alt="source code management" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+					<h3>Container Native</h3>
+					<p class="lead mb-0">Software that treats the container as the first-class unit of infrastructure. RazorOps gives a fresh isolated environment for every step in your pipeline.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-sm-4">
+				<div class="card">
+					<center>
+						<img src="/images/v2/connect-environments.webp" alt="Connect Environments" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+					<h3>Connect Environments</h3>
+					<p class="lead mb-0">Create new <a href="https://kubernetes.io" target="_blank">Kubernetes</a> clusters on any server or cloud no matter where they run. Integrate and promote builds across multiple environments according to your needs (development, staging and more).</p>
+					</div>
 				</div>
 			</div>
 
 			<div class="col-sm-4">
-				<center>
-					<img src="/images/v2/connect-environments.webp" alt="Connect Environments" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-				<h3>Connect Environments</h3>
-				<p class="lead mb-0">Create new <a href="https://kubernetes.io" target="_blank">Kubernetes</a> clusters on any server or cloud no matter where they run. Integrate and promote builds across multiple environments according to your needs (development, staging and more).</p>
+				<div class="card">
+					<center>
+						<img src="/images/v2/pipeline.webp" alt="source code management" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+					<h3>Deployment Pipeline</h3>
+					<p class="lead mb-0">Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class="col-sm-4">
-				<center>
-					<img src="/images/v2/pipeline.webp" alt="source code management" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-				<h3>Deployment Pipeline</h3>
-				<p class="lead mb-0">Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.</p>
-				</div>
-			</div>
 			<div class="clearfix"></div>
 			<br>
 			<br>
 
 			<div class="col-sm-4">
-				<center>
-					<img src="/images/v2/rollback.webp" alt="source code management" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-					<h3>Automatic rollback</h3>
-					<p class="lead mb-0">We analyze data from monitoring tools and uses automated testing tools to look for anomalies and failures to rollback broken within seconds.</p>
+				<div class="card">
+					<center>
+						<img src="/images/v2/rollback.webp" alt="source code management" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+						<h3>Automatic rollback</h3>
+						<p class="lead mb-0">We analyze data from monitoring tools and uses automated testing tools to look for anomalies and failures to rollback broken within seconds.</p>
+					</div>
 				</div>
 			</div>
 
 			<div class="col-sm-4">
-				<center>
-					<img src="/images/v2/gitops.webp" alt="Connect Environments" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-					<h3>Incorporate GitOps</h3>
-					<p class="lead mb-0">Align your pipelines with the branch structure, making it easier to work with branching workflows like feature branching or git-flow.</p>
+				<div class="card">
+
+					<center>
+						<img src="/images/v2/gitops.webp" alt="Connect Environments" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+						<h3>Incorporate GitOps</h3>
+						<p class="lead mb-0">Align your pipelines with the branch structure, making it easier to work with branching workflows like feature branching or git-flow.</p>
+					</div>
 				</div>
 			</div>
 
 			<div class="col-sm-4">
-				<center>
-					<!-- <img src="/images/v2/code-as-config.svg" alt="Code as configuration" class="feature-img"> -->
-					<img src="/images/v2/code-as-configuration.webp" alt="Code as configuration" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-					<h3>Code as configuration</h3>
-					<p class="lead mb-0">Store and manage your configurations in a single <a href="https://docs.razorops.com/configuration/reference.html" target="_blank"> .razorops.yaml</a> file. Only few lines of code to get you started.</p>
+				<div class="card">
+
+					<center>
+						<!-- <img src="/images/v2/code-as-config.svg" alt="Code as configuration" class="feature-img"> -->
+						<img src="/images/v2/code-as-configuration.webp" alt="Code as configuration" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+						<h3>Code as configuration</h3>
+						<p class="lead mb-0">Store and manage your configurations in a single <a href="https://docs.razorops.com/configuration/reference.html" target="_blank"> .razorops.yaml</a> file. Only few lines of code to get you started.</p>
+					</div>
 				</div>
 			</div>
+
 			<div class="clearfix"></div><br><br>
 			<div class="col-sm-4">
-				<center>
-					<img src="/images/v2/git.webp" alt="source code management" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-				<h3>Git as Source Code</h3>
-				<p class="lead mb-0">RazorOps integrates well with top git based source code management systems like GitHub, Bitbucket, and GitLab.</p>
+				<div class="card">
+
+					<center>
+						<img src="/images/v2/git.webp" alt="source code management" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+					<h3>Git as Source Code</h3>
+					<p class="lead mb-0">RazorOps integrates well with top git based source code management systems like GitHub, Bitbucket, and GitLab.</p>
+					</div>
 				</div>
 			</div>
 
 			<div class="col-sm-4">
-				<center>
-					<img src="/images/v2/language-agnostic.webp" alt="language agnostic" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-					<h3>Language Agnostic</h3>
-					<p class="lead mb-0">RazorOps is language agnostic, it works with any language or service that runs inside a Docker container. You can choose public docker images or use your private images.</p>
+				<div class="card">
+
+					<center>
+						<img src="/images/v2/language-agnostic.webp" alt="language agnostic" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+						<h3>Language Agnostic</h3>
+						<p class="lead mb-0">RazorOps is language agnostic, it works with any language or service that runs inside a Docker container. You can choose public docker images or use your private images.</p>
+					</div>
 				</div>
 			</div>
 
 			<div class="col-sm-4">
-				<center>
-					<img src="/images/v2/platform-independent.webp" alt="Platform Independent" class="feature-img img-responsive">
-				</center>
-				<div class="platform-integration-msg">
-					<h3>Platform Independent</h3>
-					<p class="lead mb-0">RazorOps is a cloud based SAAS product, it's a zero installation, quick start platform, you can build your apps for any platform AWS, GCP, Azure, iOS, Android, ReactNative etc.</p>
+				<div class="card">
+
+					<center>
+						<img src="/images/v2/platform-independent.webp" alt="Platform Independent" class="feature-img img-responsive">
+					</center>
+					<div class="platform-integration-msg">
+						<h3>Platform Independent</h3>
+						<p class="lead mb-0">RazorOps is a cloud based SAAS product, it's a zero installation, quick start platform, you can build your apps for any platform AWS, GCP, Azure, iOS, Android, ReactNative etc.</p>
+					</div>
 				</div>
 			</div>
 
 		</div>
 	</div>
 </div>
+<br>
+<br>
+<br>
 
 
 
 {% include deployment.html %}
+<br>
+<br>
+<br>
