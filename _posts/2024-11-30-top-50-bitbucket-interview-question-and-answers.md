@@ -1,5 +1,5 @@
 ---
-title: 2024-11-30 Top 50 Bitbucket Interview Question and Answers
+title: Top 50 Bitbucket Interview Question and Answers
 description: Bitbucket, a popular Git-based repository hosting service, is
   extensively used by teams to manage code, collaborate effectively, and
   streamline workflows.
