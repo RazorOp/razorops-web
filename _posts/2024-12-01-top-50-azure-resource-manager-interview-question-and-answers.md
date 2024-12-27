@@ -1,5 +1,5 @@
 ---
-title: 2024-12-01 Top 50 Azure Resource Manager Interview Question and Answers
+title: Top 50 Azure Resource Manager Interview Question and Answers
 description: "Azure Resource Manager (ARM) is a key feature in Microsoft Azure,
   empowering users to manage resources efficiently through declarative
   templates, policies, and role-based access control. "
