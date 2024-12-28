@@ -1,5 +1,5 @@
 ---
-title: 2024-12-08 Top 50 Azure Interview Question and Answers
+title: Top 50 Azure Interview Question and Answers
 description: Microsoft Azure is one of the leading cloud platforms in the world
   today, offering a wide range of services for developers, IT professionals, and
   organizations.
