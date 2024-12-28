@@ -1,5 +1,5 @@
 ---
-title: 2024-12-04 Top 50 SonarQube Interview Question  and Answers
+title: Top 50 SonarQube Interview Question  and Answers
 description: SonarQube is a widely used platform for continuous code quality and
   security management. It integrates seamlessly with CI/CD pipelines to ensure
   robust, maintainable, and secure codebases.
