@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: "Interview "
-date: 2024-12-02T19:24:00.000Z
+date: 2024-12-02T00:54:00.000Z
 ---
 New Relic is a powerful observability platform widely used for application performance monitoring (APM), infrastructure monitoring, and error tracking. Whether you're a developer, DevOps engineer, or site reliability engineer (SRE), proficiency in New Relic can be a critical asset in your career. This guide provides the top 50 New Relic interview questions and answers to help you prepare effectively.
 
