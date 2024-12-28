@@ -1,5 +1,5 @@
 ---
-title: 2024-12-02 Top 50 New Relic Interview Question and Answers
+title: Top 50 New Relic Interview Question and Answers
 description: New Relic is a powerful observability platform widely used for
   application performance monitoring (APM), infrastructure monitoring, and error
   tracking.
