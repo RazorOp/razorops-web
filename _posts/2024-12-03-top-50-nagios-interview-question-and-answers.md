@@ -1,5 +1,5 @@
 ---
-title: 2024-12-03 Top 50 Nagios Interview Question  and Answers
+title: Top 50 Nagios Interview Question  and Answers
 description: "Nagios is a widely used monitoring tool in IT infrastructure for
   keeping track of systems, applications, and networks. "
 image: /images/blog/top-50-nagios-interview-question-and-answers.webp
