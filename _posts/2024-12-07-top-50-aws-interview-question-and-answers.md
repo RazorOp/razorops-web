@@ -1,5 +1,5 @@
 ---
-title: 2024-12-07 Top 50 AWS Interview Question and Answers
+title: Top 50 AWS Interview Question and Answers
 description: Amazon Web Services (AWS) is one of the leading cloud platforms in
   the world, offering a wide range of cloud services and solutions.
 image: /images/blog/top-50-aws-interview-question-and-answers.webp
