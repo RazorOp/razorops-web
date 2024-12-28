@@ -1,5 +1,5 @@
 ---
-title: 2024-12-09 Top 50 Google Cloud Interview Question and Answers
+title: Top 50 Google Cloud Interview Question and Answers
 description: "Google Cloud has become one of the leading platforms for cloud
   computing, offering a wide range of services that are essential for businesses
   transitioning to the cloud. "
