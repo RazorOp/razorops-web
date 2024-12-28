@@ -1,8 +1,7 @@
 ---
 title: 2024-12-06 Top 50 Jira Interview Question and Answers
-description: Jira is one of the most widely used project management tools,
-  especially in Agile and DevOps environments. If you're preparing for an
-  interview related to Jira,
+description: "Jira is one of the most widely used project management tools,
+  especially in Agile and DevOps environments. "
 image: /images/blog/top-50-jira-interview-question-and-answers.webp
 layout: post
 permalink: /blog/:title/
