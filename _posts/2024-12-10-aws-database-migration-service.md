@@ -1,5 +1,5 @@
 ---
-title: "2024-12-10 AWS Database Migration Service "
+title: "AWS Database Migration Service "
 description: AWS Database Migration Service is a cloud service used to migrate
   relational databases from on-premises, Amazon EC2, or Amazon RDS to AWS
   securely
