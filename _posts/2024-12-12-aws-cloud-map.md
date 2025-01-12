@@ -1,5 +1,5 @@
 ---
-title: 2024-12-12 AWS Cloud Map
+title: AWS Cloud Map
 description: AWS Cloud Map is a service that keeps track of application
   components, location dependencies, attributes and health status, and also
   allows dynamic scaling
