@@ -1,5 +1,5 @@
 ---
-title: 2024-12-14 AWS PrivateLink
+title: AWS PrivateLink
 description: AWS PrivateLink is a network service used to connect to AWS
   services hosted by other AWS accounts (referred to as endpoint services) or
   AWS Marketplace.
