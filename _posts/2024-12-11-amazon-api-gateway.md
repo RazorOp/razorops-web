@@ -1,5 +1,5 @@
 ---
-title: "2024-12-11 Amazon API Gateway "
+title: "Amazon API Gateway "
 description: Amazon API Gateway is a service which creates, publishes,
   maintains, monitors and secures APIs at any scale.
 image: /images/blog/amazon-api-gateway.webp
