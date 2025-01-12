@@ -1,5 +1,5 @@
 ---
-title: 2024-12-15 AWS Transit Gateway
+title: AWS Transit Gateway
 description: "AWS Transit Gateway is a network hub used to interconnect multiple
   VPCs. It can be used to attach all hybrid connectivity "
 image: /images/blog/aws-transit-gateway.webp
