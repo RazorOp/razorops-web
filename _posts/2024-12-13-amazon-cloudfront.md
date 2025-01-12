@@ -1,5 +1,5 @@
 ---
-title: 2024-12-13 Amazon CloudFront
+title: Amazon CloudFront
 description: "Amazon CloudFront is a content delivery network (CDN) service that
   securely delivers any kind of data to customers "
 image: /images/blog/amazon-cloudfront.webp
