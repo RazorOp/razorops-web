@@ -1,5 +1,5 @@
 ---
-title: 2024-12-16 AWS Direct Connect
+title: AWS Direct Connect
 description: AWS Direct Connect is a cloud service that helps to establish a
   dedicated connection from an on-premises network to one or more VPCs in the
   same region.
