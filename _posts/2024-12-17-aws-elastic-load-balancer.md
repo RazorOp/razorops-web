@@ -1,5 +1,5 @@
 ---
-title: 2024-12-17 AWS Elastic Load Balancer
+title: AWS Elastic Load Balancer
 description: " ELB Stands for Elastic Load Balancer. It distributes the incoming
   traffic to multiple targets such as Instances, Containers, Lambda Functions,
   IP Addresses etc."
