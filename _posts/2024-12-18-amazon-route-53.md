@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-12-14T17:24:00.000Z
+date: 2024-12-18T22:54:00.000Z
 ---
 **What is Amazon Route 53?**
 
