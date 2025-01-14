@@ -1,5 +1,5 @@
 ---
-title: 2024-12-18 Amazon Route 53
+title: Amazon Route 53
 description: Route53 is a managed DNS (Domain Name System) service where DNS is
   a collection of rules and records intended
 image: /images/blog/amazon-route-53.webp
