@@ -1,5 +1,5 @@
 ---
-title: 2024-12-20 AWS AppSync
+title: AWS AppSync
 description: AWS AppSync simplifies the process of developing an application by
   providing us to create flexible, secure, extensible, and real-time APIs.
 image: /images/blog/aws-appsync.webp
