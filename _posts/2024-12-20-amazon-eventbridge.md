@@ -1,5 +1,5 @@
 ---
-title: 2024-12-20 Amazon EventBridge
+title: Amazon EventBridge
 description: In simple words, Amazon EventBridge provides an easy solution to
   integrate SAAS, custom-build applications with more than 17+ AWS services with
   the delivery of real-time data from different event sources.
