@@ -1,5 +1,5 @@
 ---
-title: "2024-12-21 AWS SNS (Simple Notification Service) "
+title: "AWS SNS (Simple Notification Service) "
 description: Amazon Simple Notification Service (Amazon SNS) is a web service
   that makes it easy to set up, operate, and send notifications from the cloud.
 image: /images/blog/aws-sns-simple-notification-service.webp
