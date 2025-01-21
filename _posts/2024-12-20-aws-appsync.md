@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-12-20T13:48:00.000Z
+date: 2024-12-22T19:18:00.000Z
 ---
 **What is AWS AppSync?**
 
