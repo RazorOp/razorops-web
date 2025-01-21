@@ -1,5 +1,5 @@
 ---
-title: "2024-12-24 AWS Step Functions "
+title: "AWS Step Functions "
 description: "Step functions allow developers to offload application
   orchestration into fully managed AWS services. "
 image: /images/blog/aws-step-functions.webp
