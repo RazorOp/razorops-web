@@ -1,5 +1,5 @@
 ---
-title: 2024-12-23 Amazon Simple Queue Service (SQS)
+title: Amazon Simple Queue Service (SQS)
 description: Amazon Simple Queue Service (SQS) is a serverless service used to
   decouple (loose couple) serverless applications and components.
 image: /images/blog/amazon-simple-queue-service-sqs.webp
