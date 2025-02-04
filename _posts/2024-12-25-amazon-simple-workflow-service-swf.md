@@ -10,6 +10,7 @@ category: AWS
 date: 2024-12-25T07:48:00.000Z
 ---
 **What is SWF?**
+
 Amazon simple workflow service (Amazon SWF) is a web service that provides generic solutions for distributed program workflows. The primary concepts of Amazon SWF are to implement scheduling, concurrency, and dependencies. Service also responsible to take care of message flow, locking, and state management-related work.
 
 Amazon SWF provides simple API calls that can be executed from code written in any language and run on EC2 instances, or any of the machines located in any part
@@ -24,6 +25,7 @@ of the work and can be accessed via the internet.
 ● Activity Workers: Carry out the activity tasks.
 
 **Features:**
+
 ● Logical separation of each component.
 
 ● Workflow retention for up to 12 months.
@@ -59,6 +61,7 @@ The below diagram shows a real-time example of data warehouse processing.
 At the very first step, the AWS console works as starters/triggers of the workflow, then action will be picked by the deciders, and activity workers will perform their responsibilities once the decider performs the action.
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXenFJQzbKTRYjgUtZAl66QuUfwCFnKtvtQ1WBtN8BRLFcI-USjlICeHRzcNtJZlLygeHrChMeUMnQGjzeuWg6UJXeIOxetAHEmiFskcJetg4W4Cgy5Dcwju6wdua-lBEwrxN5Yx?key=q390jo8iRKV-c2BprE8LOg)**
 	**Pricing:**
+
 Workflow executions: $0.0001 per workflow execution above the free tier.
 
 Open and retained workflows:
