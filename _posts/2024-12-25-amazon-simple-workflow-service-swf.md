@@ -1,5 +1,5 @@
 ---
-title: 2024-12-25 Amazon Simple Workflow Service(SWF)
+title: Amazon Simple Workflow Service(SWF)
 description: "Amazon simple workflow service (Amazon SWF) is a web service that
   provides generic solutions for distributed program workflows. "
 image: /images/blog/amazon-simple-workflow-serviceswf.webp
