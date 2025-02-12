@@ -1,5 +1,5 @@
 ---
-title: "2025-12-26 AWS Cost Explorer "
+title: "AWS Cost Explorer "
 description: "AWS Cost Explorer is a UI-tool that enables users to analyze the
   costs and usage with the help of a graph, the Cost Explorer cost and usage
   reports, and/or the Cost Explorer RI report. "
