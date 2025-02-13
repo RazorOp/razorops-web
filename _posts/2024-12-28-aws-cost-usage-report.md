@@ -1,5 +1,5 @@
 ---
-title: 2024-12-28 AWS Cost & Usage Report
+title: AWS Cost & Usage Report
 description: AWS Cost & Usage Report (AWS CUR) allows users to access the
   detailed set of AWS cost and usage data available, including metadata about
   AWS resources, pricing, Reserved Instances, and Savings Plans.
