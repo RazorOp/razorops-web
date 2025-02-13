@@ -1,5 +1,5 @@
 ---
-title: 2024-12-29 Reserved Instance Reporting
+title: Reserved Instance Reporting
 description: "Reserved Instance Reporting or Reserved Instance Utilization and
   Coverage reports are available in AWS Cost Explorer. It is used to check how
   much Reserved Instance (RIs) is used or overspent by AWS resources "
