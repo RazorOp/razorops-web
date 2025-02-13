@@ -1,5 +1,5 @@
 ---
-title: 2024-12-27 AWS Budgets
+title: AWS Budgets
 description: AWS Budgets enables the customer to set custom budgets to track
   cost and usage from the simplest to the complex use cases.
 image: /images/blog/aws-budgets.webp
