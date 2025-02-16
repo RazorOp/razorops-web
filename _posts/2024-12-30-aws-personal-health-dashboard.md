@@ -1,5 +1,5 @@
 ---
-title: "2024-12-30 AWS Personal Health Dashboard "
+title: "AWS Personal Health Dashboard "
 description: AWS Personal Health Dashboard is powered by the AWS Health API that
   provides alerts and remediation measures to diagnose and resolve issues
   related to AWS resources and infrastructure.
