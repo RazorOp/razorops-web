@@ -1,5 +1,5 @@
 ---
-title: 2024-12-31 AWS Management Console
+title: AWS Management Console
 description: AWS Management Console is a web application that consists of many
   service consoles for managing Amazon Web Services.
 image: /images/blog/aws-management-console.webp
