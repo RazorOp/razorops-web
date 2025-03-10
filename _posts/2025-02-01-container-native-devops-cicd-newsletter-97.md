@@ -1,5 +1,5 @@
 ---
-title: 2025-02-01 Container Native DevOps & CICD Newsletter 97
+title: Container Native DevOps & CICD Newsletter 97
 description: The DevOps Edge Automation & Scalability
 image: /images/blog/the-devops-edge-automation-and-scalability.webp
 layout: newsletter
