@@ -1,5 +1,5 @@
 ---
-title: Container Native DevOps & CICD Newsletter 98
+title: 2025-03-02 Container Native DevOps & CICD Newsletter 98
 description: Cloud & DevOps Strategies Scaling for Success
 image: /images/blog/cloud-and-devops-strategies-scaling-for-success.webp
 layout: newsletter
