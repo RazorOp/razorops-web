@@ -1,5 +1,5 @@
 ---
-title: 2025-01-03 AWS Web Application Firewall
+title: AWS Web Application Firewall
 description: AWS Web Application Firewall (AWS WAF)is a powerful, scalable, and
   fully managed security service designed to protect web applications from
   malicious traffic.
