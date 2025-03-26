@@ -1,5 +1,5 @@
 ---
-title: 2025-01-05 AWS Kinesis
+title: AWS Kinesis
 description: "AWS Kinesis a fully managed service by Amazon Web Services (AWS),
   enables organizations to collect, process, and analyze streaming data
   efficiently. "
