@@ -1,5 +1,5 @@
 ---
-title: 2025-01-04 AWS Elastic  MapReduce
+title: AWS Elastic  MapReduce
 description: Amazon Elastic MapReduce (EMR) is a powerful cloud-based big data
   processing solution that enables businesses to run large-scale data analytics
   and machine learning workloads efficiently.
