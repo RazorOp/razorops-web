@@ -1,5 +1,5 @@
 ---
-title: 2025-01-06 AWS SageMaker
+title: AWS SageMaker
 description: AWS SageMaker is a fully managed service that simplifies the
   end-to-end ML workflow, enabling data scientists and developers to quickly
   build, train, and deploy ML models at scale.
