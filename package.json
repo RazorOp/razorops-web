@@ -8,8 +8,13 @@
     "express": "^4.16.3",
     "surge": "^0.20.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  },
   "scripts": {
+    "build:css": "npx tailwindcss -i ./css/tailwind.css -o ./css/output.css --minify",
+    "watch:css": "npx tailwindcss -i ./css/tailwind.css -o ./css/output.css --watch",
+    "build": "npm run build:css && bundle exec jekyll build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
