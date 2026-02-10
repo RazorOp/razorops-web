@@ -15,27 +15,54 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://razorops.com/">
     
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://razorops.com/">
     <meta property="og:title" content="Razorops | AI-Powered Kubernetes Performance & Cost Optimization">
     <meta property="og:description" content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
-    <meta property="og:image" content="https://razorops.com/images/razorops-og-image.png">
+    <meta property="og:image" content="https://razorops.com/images/razorops-og-image.webp">
+    <meta property="og:image:secure_url" content="https://razorops.com/images/razorops-og-image.webp">
+    <meta property="og:image:type" content="image/webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Razorops - AI-Powered Kubernetes Performance & Cost Optimization Platform">
     <meta property="og:site_name" content="Razorops">
     <meta property="og:locale" content="en_US">
     
-    <!-- Twitter -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://razorops.com/">
     <meta name="twitter:title" content="Razorops | AI-Powered Kubernetes Performance & Cost Optimization">
     <meta name="twitter:description" content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
-    <meta name="twitter:image" content="https://razorops.com/images/razorops-og-image.png">
+    <meta name="twitter:image" content="https://razorops.com/images/razorops-og-image.webp">
+    <meta name="twitter:image:alt" content="Razorops - AI-Powered Kubernetes Optimization">
     <meta name="twitter:site" content="@razorops">
     <meta name="twitter:creator" content="@razorops">
     
-    {% include favicon.html %}
+    <!-- Schema.org / Google+ / Pinterest -->
+    <meta itemprop="name" content="Razorops | AI-Powered Kubernetes Performance & Cost Optimization">
+    <meta itemprop="description" content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
+    <meta itemprop="image" content="https://razorops.com/images/razorops-og-image.webp">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="msvalidate.01" content="7BE6D83892549154237547136EDAE30E">
     
     <!-- Preconnect to external origins for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,6 +73,10 @@
     <style>
         body{font-family:Inter,system-ui,-apple-system,sans-serif;background-color:#09090b;color:#fafafa;margin:0}
         .hero-gradient{background:radial-gradient(circle at 50% -20%,rgba(59,130,246,.15) 0,rgba(9,9,11,0) 50%)}
+        /* Mobile menu responsive styles */
+        @media (min-width: 768px) {
+            .md\:hidden { display: none !important; }
+        }
     </style>
     
     <!-- Main CSS with preload hint -->
@@ -108,24 +139,73 @@
     <header role="banner">
         <nav class="fixed top-0 w-full z-50 border-b border-border glass" role="navigation" aria-label="Main navigation">
             <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+                <!-- Logo - Left aligned -->
                 <a href="/" class="flex items-center gap-2" aria-label="Razorops Home">
                     <div class="w-8 h-8 bg-primary rounded flex items-center justify-center" aria-hidden="true">
                         <svg class="w-5 h-5 text-background" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                     </div>
                     <span class="text-xl font-bold tracking-tight">RAZOROPS</span>
                 </a>
-                <div class="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
+                
+                <!-- Desktop Navigation - Right aligned (hidden on mobile) -->
+                <div class="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground ml-auto">
                     <a href="#features" class="hover:text-primary transition">Features</a>
                     <a href="#how-it-works" class="hover:text-primary transition">How It Works</a>
                     <a href="#beta" class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition">Join Beta</a>
                 </div>
-                <!-- Mobile menu button -->
-                <button type="button" class="md:hidden p-2 text-muted-foreground hover:text-primary" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                
+                <!-- Mobile menu button (hidden on desktop) -->
+                <button type="button" id="mobile-menu-btn" class="md:hidden p-2 text-muted-foreground hover:text-primary transition" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" onclick="toggleMobileMenu()">
+                    <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
+            </div>
+            
+            <!-- Mobile Navigation Menu (hidden by default) -->
+            <div id="mobile-menu" class="md:hidden hidden border-t border-border glass">
+                <div class="px-4 py-4 space-y-3">
+                    <a href="#features" class="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary hover:bg-secondary/50 rounded-md transition" onclick="closeMobileMenu()">Features</a>
+                    <a href="#how-it-works" class="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary hover:bg-secondary/50 rounded-md transition" onclick="closeMobileMenu()">How It Works</a>
+                    <a href="#beta" class="block px-3 py-2 text-base font-medium bg-primary text-primary-foreground rounded-md hover:opacity-90 transition text-center" onclick="closeMobileMenu()">Join Beta</a>
+                </div>
             </div>
         </nav>
     </header>
+    
+    <!-- Mobile Menu Script -->
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            const btn = document.getElementById('mobile-menu-btn');
+            const iconOpen = document.getElementById('menu-icon-open');
+            const iconClose = document.getElementById('menu-icon-close');
+            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+            
+            menu.classList.toggle('hidden');
+            btn.setAttribute('aria-expanded', !isExpanded);
+            iconOpen.classList.toggle('hidden');
+            iconClose.classList.toggle('hidden');
+        }
+        
+        function closeMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            const btn = document.getElementById('mobile-menu-btn');
+            const iconOpen = document.getElementById('menu-icon-open');
+            const iconClose = document.getElementById('menu-icon-close');
+            
+            menu.classList.add('hidden');
+            btn.setAttribute('aria-expanded', 'false');
+            iconOpen.classList.remove('hidden');
+            iconClose.classList.add('hidden');
+        }
+        
+        // Close menu on window resize to desktop
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 768) {
+                closeMobileMenu();
+            }
+        });
+    </script>
 
     <main id="main-content" role="main">
         <section class="relative pt-32 pb-20 px-4 hero-gradient overflow-hidden" aria-labelledby="hero-heading">

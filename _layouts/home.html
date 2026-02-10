@@ -4,9 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta property="og:type" content="Cloud Agnostic CICD Automation Platform">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
+  
+  <!-- Additional Social Media Meta Tags for WhatsApp/LinkedIn -->
+  <meta property="og:image:secure_url" content="{{ page.image | default: '/images/razorops-og-image.png' | absolute_url }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:image:alt" content="{{ page.title | default: site.title }}">
+  <meta itemprop="image" content="{{ page.image | default: '/images/razorops-og-image.png' | absolute_url }}">
+  
   {% include favicon.html %}
   <link rel='stylesheet' href="{{ site.baseurl }}/css/bootstrap.min.css">
   <link rel='stylesheet' href="{{ site.baseurl }}/css/main.css">

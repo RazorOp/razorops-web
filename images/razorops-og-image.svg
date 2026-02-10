@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#09090b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0a1628;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#09090b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blue-glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+  
+  <!-- Blue glow effect at top -->
+  <ellipse cx="600" cy="0" rx="500" ry="200" fill="url(#blue-glow)"/>
+  
+  <!-- Grid pattern -->
+  <g stroke="#1e3a5f" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+  
+  <!-- Logo placeholder - R icon -->
+  <g transform="translate(100, 180)">
+    <rect x="0" y="0" width="80" height="80" rx="16" fill="#3b82f6"/>
+    <text x="40" y="58" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">R</text>
+  </g>
+  
+  <!-- Company name -->
+  <text x="200" y="240" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700" fill="#fafafa">Razorops</text>
+  
+  <!-- Main headline -->
+  <text x="100" y="340" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="600" fill="#fafafa">AI-Powered Kubernetes</text>
+  <text x="100" y="400" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="600" fill="#fafafa">Performance &amp; Cost Optimization</text>
+  
+  <!-- Subheadline -->
+  <text x="100" y="480" font-family="Inter, Arial, sans-serif" font-size="24" fill="#a1a1aa">Reduce cloud bills by up to 60% automatically</text>
+  
+  <!-- CTA button -->
+  <rect x="100" y="520" width="200" height="50" rx="8" fill="#3b82f6"/>
+  <text x="200" y="553" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="white" text-anchor="middle">Get Started</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="1050" cy="200" r="100" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.3"/>
+  <circle cx="1050" cy="200" r="60" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+  <circle cx="1050" cy="200" r="20" fill="#3b82f6" opacity="0.7"/>
+  
+  <!-- Kubernetes-like nodes -->
+  <g transform="translate(900, 350)" opacity="0.6">
+    <circle cx="0" cy="0" r="15" fill="#3b82f6"/>
+    <circle cx="80" cy="-40" r="15" fill="#3b82f6"/>
+    <circle cx="80" cy="40" r="15" fill="#3b82f6"/>
+    <circle cx="160" cy="0" r="15" fill="#3b82f6"/>
+    <line x1="15" y1="0" x2="65" y2="-35" stroke="#3b82f6" stroke-width="2"/>
+    <line x1="15" y1="0" x2="65" y2="35" stroke="#3b82f6" stroke-width="2"/>
+    <line x1="95" y1="-35" x2="145" y2="0" stroke="#3b82f6" stroke-width="2"/>
+    <line x1="95" y1="35" x2="145" y2="0" stroke="#3b82f6" stroke-width="2"/>
+  </g>
+  
+  <!-- Website URL -->
+  <text x="100" y="600" font-family="Inter, Arial, sans-serif" font-size="18" fill="#71717a">razorops.com</text>
+</svg>

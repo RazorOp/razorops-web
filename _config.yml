@@ -2,12 +2,30 @@
 title: Razorops
 email: support@razorops.com
 description: >
-  Cloud Agnostic CICD Automation Platform
+  AI-Powered Kubernetes Performance & Cost Optimization Platform. Reduce cloud bills by up to 60% automatically.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://razorops.com" # the base hostname & protocol for your site
 twitter_username: razorops
 github_username: razorop
+
+# Social Sharing / Open Graph defaults
+logo: /images/razorops-logo.png
+social:
+  name: Razorops
+  links:
+    - https://twitter.com/razorops
+    - https://www.linkedin.com/company/razorops
+    - https://www.youtube.com/channel/UCq-0f5HPIAJ_2Ds6uvwBW4g
+    - https://github.com/razorops-public
+
+# Default image for social sharing (Open Graph, Twitter, WhatsApp)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/razorops-og-image.png
+      og_image: /images/razorops-og-image.png
 
 # Build settings
 markdown: kramdown
