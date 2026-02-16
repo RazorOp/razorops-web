@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-12-28T21:39:00.000Z
+date: 2026-02-12T10:00:00.000Z
 ---
 **What is AWS Cost & Usage Report?**
 

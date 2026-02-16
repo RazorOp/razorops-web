@@ -9,7 +9,7 @@ layout: post
 permalink: blog/:title
 author: Shyam Mohan
 category: Kubernetes
-date: 2025-01-02T04:37:00.000Z
+date: 2026-02-15T10:00:00.000Z
 ---
 **Title: Kubernetes Cost Efficiency and Performance Optimization: Best Practices for Managing Your Cluster**
 

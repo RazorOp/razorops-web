@@ -57,13 +57,13 @@ image: /images/razorops-demo.webp
                         {% endif %}
                     </div>
                 </a>
-                <div class="p-5 flex flex-col grow">
+                <div class="p-6 flex flex-col grow">
                     <div class="flex items-center gap-3 mb-3">
-                        {% if post.category %}
+                        <!-- {% if post.category %}
                         <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wide bg-blue-500/10 text-blue-500 border border-blue-500/20">
                             {{ post.category }}
                         </span>
-                        {% endif %}
+                        {% endif %} -->
                         <time class="text-xs text-muted-foreground" datetime="{{ post.date | date: '%Y-%m-%d' }}">
                             {{ post.date | date: "%b %d, %Y" }}
                         </time>
@@ -86,8 +86,7 @@ image: /images/razorops-demo.webp
                         </div>
                         {% endif %}
                         <a href="{{ site.baseurl }}{{ post.url }}" class="inline-flex items-center gap-1 text-xs font-medium text-blue-500 hover:text-blue-400 transition-colors">
-                            Read more
-                            <svg class="w-3 h-3 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                            Read
                         </a>
                     </div>
                 </div>

@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
 category: AWS
-date: 2024-12-27T07:49:00.000Z
+date: 2026-02-13T10:00:00.000Z
 ---
 **What is AWS Budgets?**
 

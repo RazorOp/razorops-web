@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% seo %}
+    
+    <!-- Additional Social Media Meta Tags for WhatsApp/LinkedIn -->
+    <meta property="og:image:secure_url" content="{{ page.image | default: '/images/razorops-og-image.png' | absolute_url }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ page.title | default: site.title }}">
+    <meta name="twitter:image:alt" content="{{ page.title | default: site.title }}">
+    <meta itemprop="image" content="{{ page.image | default: '/images/razorops-og-image.png' | absolute_url }}">
+    
+    {% include favicon.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/blog.css" />
+
+    <!--
+      HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+
+        // Select all anchor tags
+        const links = document.querySelectorAll('a');
+
+      // Loop through each link and set target to "_blank"
+      links.forEach(link => {
+        link.setAttribute('target', '_blank');
+      });
+    </script>
+  </head>
+  <body class="layout-blog">
+  
+    <!-- navbar -->
+    <header class="default-header">{% include header.html %}</header>
+    
+    <div class="content-wraper">
+      <div class="blog-wraper">
+        <div class="container">
+          <div class="row">
+            
+
+            <div class="col-sm-9">
+              {% include breadcrumb.html %}
+              <div class="blog-post-content" id="blog-post-margins">
+                <div class="blog-post-body">
+                  
+                  <h1>{{ page.title }}</h1>
+                  <time>
+                    {{ page.date | date_to_string }} -
+                    <small>{{ page.author }}</small>
+                  </time>
+                  <img src="{{ page.image }}" alt="{{page.title}}"/>
+                  {{ content }}
+                </div>
+              </div>
+
+              <br>
+              <a href="/schedule-demo" title="Meet Shyam">
+                <img src="/images/blog/meet-razorops-team.jpg" alt="meet razorops team" class="img-responsive" style="border-radius: 12px;">
+              </a>
+
+          </div>
+
+          <div class="col-sm-3 hide-on-mobile">
+            {% include blog-menu.html %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container container-center">
+      <div class="blog-wraper2">
+        <div class="blog-post">
+          {% assign blogs = page | related_posts_by_category: site.posts  %}
+          
+          {% for post in blogs limit:8 %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <div class="col-sm-3 post-box">
+              <div class="blog-content">
+                <img src="{{ post.image }}" />
+                <div class="blog-body">
+                  <!-- <time class="pull-right">{{ post.date | date_to_string }}</time> -->
+                  <h1>{{ post.title }}</h1>
+                  <p class="blogs-description">{{ post.description}}</p>
+                  <br />
+                  <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="blog-read-more"
+                    >Read More</a
+                  > -->
+                </div>
+              </div>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
