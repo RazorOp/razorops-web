@@ -7,8 +7,10 @@ canonical_url: https://razorops.com/terms-of-service
 permalink: /terms-of-service
 ---
 
-<div class="f6 f5-m ph3 ph4-m pv4 pv5-m">
-      <p class="f6 light-gray mv3 mv4-m">These terms of service are effective as of February 1, 2026</p>
+<div class="mb-10">
+  <div class="max-w-5xl mx-auto">
+    <div class="rounded-xl border border-border bg-secondary/20 p-8 md:p-12">
+      <p class="f6 light-gray mv3 mv4-m">These terms of service are effective as of March 1, 2026</p>
       <p>Read carefully the following terms of service, which contain the exclusive terms and conditions between <b>Razorops AI Labs Pvt Ltd</b>, a company registered in India, with an address at CIE, IIIT Hyderabad, Gachibowli, Hyderabad, Telangana, India - 500032 ("Razorops"), and you (together with the business or other entity, if any, for which you are accessing this site or any of the services, <b>"Customer"</b>), regarding the provision and use of the site. You represent and warrant to Razorops that you have full legal authority to accept these terms of service and that you are not banned from accessing or using the site under the laws of any country.</p>
       
       <h2 class="f4 lh-title mv4">1. Acceptance of Terms</h2>
@@ -153,3 +155,5 @@ permalink: /terms-of-service
         Website: <a href="https://razorops.com">https://razorops.com</a>
       </p>
     </div>
+  </div>
+</div>
