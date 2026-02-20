@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: No Surprises, FREE CICD Forever
 description: "Start with Free Plan, Scale when you feel, No credit card required."
 keywords: free cicd softwares, pricing, free plans, razorops, free cicd, Frequently Asked Questions. CICD FAQ
@@ -7,37 +7,177 @@ canonical_url: 'https://razorops.com/pricing'
 image: /images/razorops-demo.png
 ---
 
-<div class="pricing-wraper">
-	<div class="container">
-		<div class="pricing-header">
-			<br>
-			<h2 style="text-align:center; font-size: 42px" class="section-header"><b>Pricing</b></h2>
-			<p>Start with Free Plan, Scale when you feel, No credit card required.</p>
-			<b>(Get Addition <i style="color: red;">10% Discount</i>, when you choose to sign up for <i style="color: red;">annual billing</i>)</b>
-			<br>
-			<br>
 
-			<center>
-			<div class="custom-checkbox">
-				<input id="status" type="checkbox" name="status">
-				<label for="status">
-					<div class="status-switch" data-unchecked="Monthly" data-checked="Yearly"></div>
-				</label>
-			</div>
-			</center>
-		</div>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'hsl(240, 10%, 3.9%)',
+            foreground: 'hsl(0, 0%, 98%)',
+            primary: {
+              DEFAULT: 'hsl(0, 0%, 98%)',
+              foreground: 'hsl(240, 5.9%, 10%)',
+            },
+            secondary: {
+              DEFAULT: 'rgb(39, 39, 42)',
+            },
+            muted: {
+              DEFAULT: 'hsl(240, 3.7%, 15.9%)',
+              foreground: 'hsl(240, 5%, 64.9%)',
+            },
+            border: 'hsl(240, 3.7%, 15.9%)',
+          }
+        }
+      }
+    }
+  </script>
 
-		<div class="tab-content">
-			<div id="annually" class="tab-pane fade in active">
-				{% include pricing.html %}
-			</div>
-		</div>
-		<br><br><br><br><br>
-		
-		{% include faq.html %}
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, sans-serif; }
+    .hero-gradient { background: radial-gradient(circle at 50% -20%, rgba(59,130,246,.15) 0, rgba(9,9,11,0) 50%); }
+  </style>
 
-	</div>
 
-	{% include testimonial.html %}
+<!-- HERO -->
+<section class="relative pt-10 py-12 hero-gradient overflow-hidden">
+  <div class="max-w-4xl mx-auto text-center px-6">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-secondary/50 text-xs font-medium mb-8">
+      <span class="flex h-2 w-2 rounded-full bg-blue-500 animate-pulse"></span>
+      <span>Simple, Transparent Pricing</span>
+    </div>
+    <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">
+      Stop Paying for Idle Kubernetes Capacity
+    </h2>
+    <p class="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
+      Predict. Optimize. Save. <br>
+			RazorOps continuously right-sizes workloads using
+      AI intelligence + runtime analytics.
+    </p>
+  </div>
+</section>
 
-</div>
+<!-- PRICING -->
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+
+    <!-- STARTER -->
+    <div class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <h3 class="text-xl font-bold mb-4">Starter</h3>
+      <p class="text-muted-foreground mb-6">For teams getting visibility into Kubernetes cost.</p>
+
+      <p class="text-4xl font-bold mb-6">Free</p>
+
+      <ul class="space-y-3 text-muted-foreground mb-8">
+        <li>✔ 1 Cluster Monitoring</li>
+        <li>✔ Cost Visibility Dashboard</li>
+        <li>✔ Resource Utilization Insights</li>
+        <li>✔ Manual Optimization Recommendations</li>
+        <li>✔ CI/CD Integration</li>
+      </ul>
+
+      <button class="w-full border border-border bg-transparent hover:bg-secondary/50 py-3 rounded-md transition">
+        Get Started
+      </button>
+    </div>
+
+    <!-- GROWTH -->
+    <div class="group p-8 rounded-xl border border-blue-500/50 bg-secondary/20 hover:border-blue-500 transition-all duration-300 shadow-2xl relative">
+      <span class="absolute -top-3 left-6 bg-blue-500 text-primary-foreground px-3 py-1 text-sm font-medium rounded-full">
+        Most Popular
+      </span>
+
+      <h3 class="text-xl font-bold mb-4">Growth</h3>
+      <p class="text-muted-foreground mb-6">For scaling teams that want automated efficiency.</p>
+
+      <p class="text-4xl font-bold mb-6">$999<span class="text-lg text-muted-foreground">/month</span></p>
+
+      <ul class="space-y-3 text-muted-foreground mb-8">
+        <li>✔ Predictive Autoscaling</li>
+        <li>✔ Rightsizing Engine</li>
+        <li>✔ Multi-Cluster Visibility</li>
+        <li>✔ CI/CD-Aware Optimization</li>
+        <li>✔ Savings Reports</li>
+        <li>✔ Slack / Webhook Alerts</li>
+      </ul>
+
+      <button class="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-3 rounded-md font-bold transition shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+        Start Free Trial
+      </button>
+    </div>
+
+    <!-- AUTONOMOUS -->
+    <div class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <h3 class="text-xl font-bold mb-4">Autonomous</h3>
+      <p class="text-muted-foreground mb-6">For enterprises ready for fully automated optimization.</p>
+
+      <p class="text-4xl font-bold mb-6">Pay as You Save</p>
+
+      <ul class="space-y-3 text-muted-foreground mb-8">
+        <li>✔ Autonomous Optimization Engine</li>
+        <li>✔ Predictive Demand Modeling</li>
+        <li>✔ Automatic Resource Injection</li>
+        <li>✔ Spot + On-Demand Balancing</li>
+        <li>✔ FinOps Governance</li>
+        <li>✔ Dedicated Optimization Advisor</li>
+      </ul>
+
+      <button class="w-full border border-border bg-transparent hover:bg-secondary/50 py-3 rounded-md transition">
+        Talk to Sales
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ROI SECTION -->
+<section class="py-24 border-t border-border bg-zinc-950">
+  <div class="max-w-3xl mx-auto text-center px-6">
+    <h3 class="text-3xl font-bold tracking-tight mb-6">See Your Potential Savings</h3>
+    <p class="text-muted-foreground mb-10">
+      Most teams run Kubernetes at less than 40% utilization. RazorOps helps safely push that to 70%+.
+    </p>
+
+    <div class="border border-border bg-secondary/30 rounded-xl p-8">
+      <p class="text-muted-foreground leading-relaxed">
+        Connect your cluster for a 14-day analysis and receive a verified savings report —
+        no changes required.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-24 px-4 max-w-4xl mx-auto">
+  <div>
+    <h3 class="text-3xl font-bold tracking-tight mb-10 text-center">Frequently Asked Questions</h3>
+
+    <div class="space-y-6">
+      <div class="p-6 rounded-xl border border-border bg-secondary/20">
+        <h4 class="font-bold mb-2">How is savings calculated?</h4>
+        <p class="text-muted-foreground text-sm leading-relaxed">We compare actual usage against optimized predictive allocation models.</p>
+      </div>
+
+      <div class="p-6 rounded-xl border border-border bg-secondary/20">
+        <h4 class="font-bold mb-2">Is this safe for production?</h4>
+        <p class="text-muted-foreground text-sm leading-relaxed">Yes. Guardrails ensure SLOs are never violated before changes are applied.</p>
+      </div>
+
+      <div class="p-6 rounded-xl border border-border bg-secondary/20">
+        <h4 class="font-bold mb-2">Do we need to change workloads?</h4>
+        <p class="text-muted-foreground text-sm leading-relaxed">No application changes required. RazorOps operates at orchestration level.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-24 border-t border-border text-center px-4">
+  <h3 class="text-3xl font-bold tracking-tight mb-4">Ready to eliminate Kubernetes waste?</h3>
+  <p class="text-muted-foreground mb-8">Start with visibility. Upgrade when you see the savings.</p>
+
+  <a href="#" class="h-12 px-8 inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+    Get Started
+  </a>
+</section>
+
