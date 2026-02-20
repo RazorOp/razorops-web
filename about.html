@@ -1,137 +1,206 @@
 ---
-title: What is Razorops CICD?
-layout: page
-description: Razorops is a complete container native CI/CD solution. In a similar manner to Docker, Razorops comes with dedicated support for Kubernetes deployments.
-keywords: Container Native, Docker, kubernetes,Ci and Cd, Devops,Kubernetes,Docker
-  Container
+title: Razorops - AI-Powered Kubernetes Optimization
+layout: default
+description: Razorops is an AI-powered platform that continuously optimizes Kubernetes performance and cost through intelligent rightsizing, predictive scaling, and autonomous resource management.
+keywords: Kubernetes optimization, AI infrastructure, K8s cost optimization, rightsizing, predictive scaling, cloud cost reduction, Kubernetes performance
 image: /images/razorops-demo.webp
 canonical_url: https://razorops.com/about
 ---
 
-  <div class="blog-wraper">
-    <div class="container">
-      <div class="row">
-        <h1>About RazorOps</h1>
-        <p class="large">
-          <b>What is RazorOps CI/CD?</b><br>
-          RazorOps is a modern, lightweight CI/CD platform designed to streamline your software delivery process. 
-          <br>With RazorOps, developers can automate the building, testing, and deployment of applications effortlessly, 
-          enabling faster release cycles and higher-quality software. Engineered for simplicity and speed, RazorOps empowers teams to:
-        </p>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <ul>
-          <li><b>Accelerate Development:</b> Deploy code changes rapidly and confidently with automated pipelines.</li>
-          <li><b>Boost Collaboration:</b> Integrate seamlessly with popular version control systems like GitHub, GitLab, and Bitbucket.</li>
-          <li><b>Ensure Quality:</b> Run comprehensive tests at every stage to catch bugs early.</li>
-          <li><b>Scale with Ease:</b> Leverage containerized environments and Kubernetes for robust, scalable deployments.</li>
-        </ul>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        background: 'hsl(240, 10%, 3.9%)',
+        foreground: 'hsl(0, 0%, 98%)',
+        primary: { DEFAULT: 'hsl(0, 0%, 98%)', foreground: 'hsl(240, 5.9%, 10%)' },
+        secondary: { DEFAULT: 'rgb(39, 39, 42)' },
+        muted: { DEFAULT: 'hsl(240, 3.7%, 15.9%)', foreground: 'hsl(240, 5%, 64.9%)' },
+        border: 'hsl(240, 3.7%, 15.9%)',
+      }
+    }
+  }
+}
+</script>
 
-        <p class="large">
-          Whether you're a startup aiming for quick releases or an enterprise focused on reliability, 
-          RazorOps adapts to your needs, offering unparalleled efficiency in your CI/CD workflows.
-          Discover the power of continuous integration and delivery with RazorOps and unlock your team’s potential to build, 
-          test, and deploy software like never before!
-          <br>
-        </p>
+<style>
+  body { font-family: Inter, system-ui, -apple-system, sans-serif; }
+  .hero-gradient { background: radial-gradient(circle at 50% -20%, rgba(59,130,246,.15) 0, rgba(9,9,11,0) 50%); }
+</style>
 
-        <div class="razorops-ci-cd">
-          <div class="container">
-            <div class="center">
-              <a href="https://www.youtube.com/watch?v=SCa50IKwhV8"  target="_blank">
-                <img
-                  src="images/home/razorops-demo.webp"
-                  alt="razorops deployment pipeline"
-                  title="razorops deployment pipeline"
-                  class="thumnail-image img-responsive"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
+<div class="bg-[#09090b] text-[#fafafa]">
 
-
-        <h2>Our Mission</h2>
-        <p class="large margin-top-small">
-          At RazorOps, our mission is to empower developers and businesses to accelerate software delivery with simplicity, 
-          reliability, and speed. We are dedicated to providing a cutting-edge, seamless CI/CD platform that enhances productivity, 
-          fosters innovation, and ensures efficient deployment pipelines. By enabling teams to focus on building great products, 
-          we strive to be the trusted partner in their journey toward continuous improvement and success in an ever-evolving digital landscape.
-        </p>
-
-        <h2>Our Story</h2>
-        <p class="large margin-top-small">
-          RazorOps was born out of a shared vision among a group of passionate developers and engineers who believed in simplifying the complexities of modern software development. The journey began with a realization: while technology was evolving at breakneck speed, the process of building, testing, and deploying software was often cumbersome, time-consuming, and prone to errors.
-          <br>
-          <br>
-          Driven by the need to create a solution that could bridge this gap, the founding team—comprising DevOps enthusiasts, software architects, and open-source contributors—came together with a common goal: to build a platform that made CI/CD simple, scalable, and accessible to teams of all sizes.
-          <br>
-          <br>
-
-          The early days were spent brainstorming in late-night coding sessions, fueled by countless cups of coffee and an unrelenting determination to solve the challenges of modern development pipelines. With their combined expertise and a strong belief in the power of automation, the team developed RazorOps—a robust CI/CD platform designed to streamline workflows, accelerate delivery, and empower developers to focus on innovation.
-          <br>
-          <br>
-
-          What sets the RazorOps team apart is their relentless commitment to listening to their users. From startups to enterprises, every piece of feedback has been an opportunity to learn, grow, and improve. This user-centric approach has allowed the team to stay agile and continuously adapt to the evolving needs of the developer community.
-          <br>
-          <br>
-
-          Today, RazorOps is more than just a platform—it’s a thriving ecosystem powered by a passionate team dedicated to helping developers build faster, deploy smarter, and scale effortlessly. As the team continues to grow, their mission remains the same: to make software delivery a seamless experience for every developer, everywhere.
-          <br>
-          <br>
-
-          The RazorOps story is one of innovation, collaboration, and an unwavering commitment to excellence, proving that with the right tools and the right people, anything is possible.
-          <br>
-          <br>
-        </p>
-
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="team-card">
-              <img src="/images/team/shyam-mohan.jpeg" alt="Shyam Mohan K" >
-              <h3>Shyam Mohan K</h3>
-              <p class="title">Founder & CEO <br> UPTU Lucknow <br> 15 + Years Build Softwares</p>
-              <b>
-              <a href="https://www.linkedin.com/in/shyam-mohan-k/" target="_blank">LINKEDIN | </a>
-              <a href="/meet-shyam" title="BOOK MEETING">BOOK MEETING</a>
-              </b>
-            </div>
-          </div>
-
-          <div class="col-sm-3">
-            <div class="team-card">
-              <img src="/images/team/dinesh-yadav.jpeg" alt="Dinesh Yadav" >
-              <h3>Dinesh Yadav</h3>
-              <p class="title">Founder & CTO <br> IIIT Hyderabad <br> 15 + Years Build Softwares</p>
-              <br>
-            </div>
-          </div>
-
-          <div class="col-sm-3">
-            <div class="team-card">
-              <img src="/images/team/vinay.jpeg" alt="Vinay Kumar" >
-              <h3>Vinay Kumar</h3>
-              <p class="title">Solutions Engineer<br> IIIT Hyderabad <br> 15 + Years Build Softwares</p>
-              <br>
-              
-            </div>
-          </div>
-
-
-          <div class="col-sm-3">
-            <div class="team-card">
-              <img src="/images/team/deepak.jpeg" alt="Deepak Vig" >
-              <h3>Deepak Vig</h3>
-              <p class="title">Solutions Engineer<br> IIIT Hyderabad <br> 15 + Years Build Softwares</p>
-              <br>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
+<!-- HERO -->
+<section class="relative pt-32 pb-20 px-4 hero-gradient overflow-hidden">
+  <div class="max-w-5xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-secondary/50 text-xs font-medium mb-8">
+      <span class="flex h-2 w-2 rounded-full bg-blue-500 animate-pulse"></span>
+      <span>About Us</span>
     </div>
+    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">
+      About RazorOps
+    </h1>
+    <p class="text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
+      RazorOps is the intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost.
+    </p>
+  </div>
+</section>
+
+<!-- WHAT IS RAZOROPS -->
+<section class="py-24 px-4 max-w-5xl mx-auto">
+  <header class="mb-12">
+    <h2 class="text-3xl font-bold tracking-tight mb-4">What is RazorOps?</h2>
+  </header>
+
+  <p class="text-muted-foreground leading-relaxed mb-8">
+    RazorOps is an AI-powered platform that continuously optimizes Kubernetes clusters for peak performance at the lowest possible cost.
+    By analyzing real-time workload behavior and predicting demand, RazorOps automatically rightsizes resources, eliminates waste,
+    and ensures your infrastructure runs at maximum efficiency. Purpose-built for Kubernetes, RazorOps helps teams to:
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+    <article class="group p-6 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-3 text-green-500">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      </div>
+      <h3 class="font-bold mb-1">Intelligent Rightsizing</h3>
+      <p class="text-muted-foreground text-sm leading-relaxed">Automatically tune CPU and memory requests/limits to match actual workload needs — eliminate overprovisioning instantly.</p>
+    </article>
+
+    <article class="group p-6 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-3 text-cyan-500">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+      </div>
+      <h3 class="font-bold mb-1">Predictive Scaling</h3>
+      <p class="text-muted-foreground text-sm leading-relaxed">Forecast traffic surges before they happen using AI behavioral modeling — scale proactively, not reactively.</p>
+    </article>
+
+    <article class="group p-6 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-3 text-purple-500">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      </div>
+      <h3 class="font-bold mb-1">Cost Optimization</h3>
+      <p class="text-muted-foreground text-sm leading-relaxed">Reduce cloud bills by up to 60% through autonomous resource management, spot instance balancing, and waste elimination.</p>
+    </article>
+
+    <article class="group p-6 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-3 text-amber-500">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+      </div>
+      <h3 class="font-bold mb-1">Performance Guardrails</h3>
+      <p class="text-muted-foreground text-sm leading-relaxed">Maintain SLOs and uptime guarantees while optimizing — never sacrifice application performance for cost savings.</p>
+    </article>
   </div>
 
+  <p class="text-muted-foreground leading-relaxed">
+    Whether you're a growing startup running a handful of clusters or an enterprise managing hundreds,
+    RazorOps adapts to your infrastructure and delivers measurable savings from day one.
+    Stop paying for idle Kubernetes capacity — let AI handle the optimization so your team can focus on building great products.
+  </p>
+</section>
 
-          
+<!-- VIDEO -->
+<!-- <section class="py-12 px-4 max-w-4xl mx-auto text-center">
+  <a href="https://www.youtube.com/watch?v=SCa50IKwhV8" target="_blank" class="block rounded-2xl border border-border overflow-hidden hover:border-blue-500/50 transition-all duration-300">
+    <img src="/images/home/razorops-demo.webp" alt="razorops deployment pipeline" class="w-full" />
+  </a>
+</section> -->
 
+<!-- MISSION -->
+<section class="py-24 px-4 border-t border-border">
+  <div class="max-w-5xl mx-auto">
+    <header class="text-center mb-12">
+      <h2 class="text-3xl font-bold tracking-tight mb-4">Our Mission</h2>
+    </header>
+    <div class="p-8 md:p-12 rounded-2xl border border-border bg-secondary/20">
+      <p class="text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto">
+        At RazorOps, our mission is to make Kubernetes infrastructure intelligent, efficient, and cost-effective for every team.
+        We are dedicated to building an AI platform that autonomously optimizes performance and eliminates wasted cloud spend —
+        so engineering teams can focus on innovation instead of infrastructure tuning. We strive to be the trusted partner
+        in every organization's journey toward efficient, high-performance Kubernetes operations.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- OUR STORY -->
+<section class="py-24 px-4 border-t border-border bg-zinc-950">
+  <div class="max-w-5xl mx-auto">
+    <header class="text-center mb-12">
+      <h2 class="text-3xl font-bold tracking-tight mb-4">Our Story</h2>
+    </header>
+    <div class="space-y-6 text-muted-foreground leading-relaxed">
+      <p>
+        RazorOps was born out of a shared frustration: teams running Kubernetes were consistently overpaying for cloud infrastructure while still experiencing performance issues. Despite the promise of container orchestration, most clusters run at less than 40% utilization — wasting resources, burning budgets, and leaving performance gains on the table.
+      </p>
+      <p>
+        The founding team — comprising DevOps veterans, infrastructure engineers, and AI researchers — came together with a bold goal: to build an intelligent system that could understand Kubernetes workloads deeply and optimize them autonomously. No more manual tuning of resource requests and limits. No more guessing at capacity planning.
+      </p>
+      <p>
+        The early days were spent deep in Kubernetes internals, building behavioral models that could predict workload demand and rightsize resources in real time. With their combined expertise in distributed systems and machine learning, the team developed RazorOps — an AI platform that continuously learns, predicts, and optimizes Kubernetes infrastructure safely and automatically.
+      </p>
+      <p>
+        What sets the RazorOps team apart is their relentless commitment to listening to platform and SRE teams. From startups to large enterprises, every piece of feedback has shaped the product into a solution that balances cost efficiency with performance guarantees — never sacrificing one for the other.
+      </p>
+      <p>
+        Today, RazorOps is more than an optimization tool — it's an autonomous intelligence layer for Kubernetes that helps teams reduce cloud costs by up to 60%, improve resource utilization, and maintain peak performance without lifting a finger. The RazorOps story is one of solving real infrastructure pain with AI-driven automation.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="py-24 px-4 border-t border-border">
+  <div class="max-w-7xl mx-auto">
+    <header class="text-center mb-16">
+      <h2 class="text-3xl font-bold tracking-tight mb-4">Meet the Team</h2>
+      <p class="text-muted-foreground">The people behind RazorOps.</p>
+    </header>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
+      <article class="group p-6 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300 text-center">
+        <img src="/images/team/shyam-mohan.jpeg" alt="Shyam Mohan K" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-border" />
+        <h3 class="font-bold mb-1">Shyam Mohan K</h3>
+        <p class="text-muted-foreground text-sm mb-1">Co Founder &amp; CEO</p>
+        <p class="text-muted-foreground text-xs mb-3">UPTU Lucknow · 15+ Years</p>
+        <div class="flex items-center justify-center gap-3 text-sm">
+          <a href="https://www.linkedin.com/in/shyam-mohan-k/" target="_blank" class="text-muted-foreground hover:text-blue-500 transition">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="/meet-shyam" class="text-muted-foreground hover:text-blue-500 transition text-xs font-medium uppercase tracking-wide">Book Meeting</a>
+        </div>
+      </article>
+
+      <article class="group p-6 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300 text-center">
+        <img src="/images/team/dinesh-yadav.jpeg" alt="Dinesh Yadav" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-border" />
+        <h3 class="font-bold mb-1">Dinesh Yadav</h3>
+        <p class="text-muted-foreground text-sm mb-1">Co Founder &amp; CTO</p>
+        <p class="text-muted-foreground text-xs">IIIT Hyderabad · 15+ Years</p>
+      </article>
+
+      <article class="group p-6 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300 text-center">
+        <img src="/images/team/vinay.jpeg" alt="Vinay Kumar" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-border" />
+        <h3 class="font-bold mb-1">Vinay Kumar</h3>
+        <p class="text-muted-foreground text-sm mb-1">Solutions Engineer</p>
+        <p class="text-muted-foreground text-xs">IIIT Hyderabad · 15+ Years</p>
+      </article>
+
+      <article class="group p-6 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300 text-center">
+        <img src="/images/team/deepak.jpeg" alt="Deepak Vig" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-border" />
+        <h3 class="font-bold mb-1">Deepak Vig</h3>
+        <p class="text-muted-foreground text-sm mb-1">Solutions Engineer</p>
+        <p class="text-muted-foreground text-xs">IIIT Hyderabad · 15+ Years</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+</div>

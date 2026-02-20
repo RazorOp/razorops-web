@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Simplest Container Native CI/CD Platform
 description: Manage your entire pipeline visually or put inside your codebase. No scripts, delays and downtime.
 keywords: Deployment Pipeline, Hosted Helm and docker Registries, Gitops, Automatic rollback, Code as configuration
@@ -7,25 +7,214 @@ canonical_url: 'https://razorops.com/product'
 image: /images/v2/kubernetes-cd.png
 ---
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'hsl(240, 10%, 3.9%)',
+            foreground: 'hsl(0, 0%, 98%)',
+            primary: {
+              DEFAULT: 'hsl(0, 0%, 98%)',
+              foreground: 'hsl(240, 5.9%, 10%)',
+            },
+            secondary: {
+              DEFAULT: 'rgb(39, 39, 42)',
+            },
+            muted: {
+              DEFAULT: 'hsl(240, 3.7%, 15.9%)',
+              foreground: 'hsl(240, 5%, 64.9%)',
+            },
+            border: 'hsl(240, 3.7%, 15.9%)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, sans-serif; }
+    .hero-gradient { background: radial-gradient(circle at 50% -20%, rgba(59,130,246,.15) 0, rgba(9,9,11,0) 50%); }
+  </style>
 
 
-<div class="customers-banner">
-	<img src="/images/v2/razorops-white-logo.png" height="45" alt="razorops">
-	<h2>The Simplest Container Native CI/CD Platform</h2>
-</div>
+<!-- HERO -->
+<section class="relative pt-32 pb-20 px-4 hero-gradient overflow-hidden">
+  <div class="max-w-5xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-secondary/50 text-xs font-medium mb-8">
+      <span class="flex h-2 w-2 rounded-full bg-blue-500 animate-pulse"></span>
+      <span>AI-Powered Kubernetes Optimization</span>
+    </div>
+    <h2 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">
+      Autonomous Performance &amp; Cost Optimization for Kubernetes
+    </h2>
 
-<div class="container" id="how-it-works">
-	<div class="section-header"><h2>How It Works</h2></div>
-	<img src="/images/how-it-works.webp" alt="how razorops works" class="img-responsive">
-</div>
+    <p class="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+      RazorOps continuously learns workload behavior, predicts demand,
+      and right-sizes infrastructure automatically — improving performance
+      while eliminating wasted cloud spend.
+    </p>
 
-{% include features.html %}
-{% include product-screens.html %}
-{% include testimonial.html %}
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a href="#" class="h-12 px-8 inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+        Get Started
+      </a>
+      <a href="#how-it-works" class="h-12 px-8 inline-flex items-center justify-center rounded-md border border-border bg-transparent hover:bg-secondary/50 transition">
+        See How It Works
+      </a>
+    </div>
+  </div>
+</section>
 
+<!-- VALUE PROPS -->
+<section class="py-24 px-4 max-w-7xl mx-auto">
+  <header class="text-center mb-16">
+    <h2 class="text-3xl font-bold tracking-tight mb-4">Engineered for Efficiency</h2>
+    <p class="text-muted-foreground">Intelligent optimization across every dimension of your Kubernetes clusters.</p>
+  </header>
 
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
+    <article class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-4 text-purple-500">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      </div>
+      <h3 class="text-lg font-bold mb-2">Predictive Scaling</h3>
+      <p class="text-muted-foreground text-sm leading-relaxed">
+        Forecast workload demand using behavioral modeling — scale before
+        traffic changes, not after incidents occur.
+      </p>
+    </article>
 
+    <article class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-4 text-blue-500">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      </div>
+      <h3 class="text-lg font-bold mb-2">Continuous Rightsizing</h3>
+      <p class="text-muted-foreground text-sm leading-relaxed">
+        Automatically tune CPU, memory, and node selection to eliminate
+        overprovisioning without risking SLOs.
+      </p>
+    </article>
 
+    <article class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-4 text-orange-600">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+      </div>
+      <h3 class="text-lg font-bold mb-2">Performance-Aware Optimization</h3>
+      <p class="text-muted-foreground text-sm leading-relaxed">
+        Balance latency, throughput, and cost simultaneously — not just
+        reduce infrastructure blindly.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works" class="py-24 px-4 max-w-7xl mx-auto border-t border-border">
+  <header class="text-center mb-16">
+    <h3 class="text-3xl font-bold tracking-tight mb-4">How RazorOps Works</h3>
+    <p class="text-muted-foreground">Four simple steps to autonomous Kubernetes optimization.</p>
+  </header>
+
+  <ol class="grid grid-cols-1 md:grid-cols-4 gap-6">
+    <li class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-4 text-green-500">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+      </div>
+      <h4 class="text-lg font-bold mb-2"><span class="text-green-500">1.</span> Observe</h4>
+      <p class="text-muted-foreground text-sm leading-relaxed">Collect real usage patterns across workloads.</p>
+    </li>
+
+    <li class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-4 text-cyan-500">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+      </div>
+      <h4 class="text-lg font-bold mb-2"><span class="text-cyan-500">2.</span> Learn</h4>
+      <p class="text-muted-foreground text-sm leading-relaxed">Model behavioral trends using AI analysis.</p>
+    </li>
+
+    <li class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-4 text-blue-500">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+      </div>
+      <h4 class="text-lg font-bold mb-2"><span class="text-blue-500">3.</span> Predict</h4>
+      <p class="text-muted-foreground text-sm leading-relaxed">Forecast capacity needs across time windows.</p>
+    </li>
+
+    <li class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-blue-500/50 transition-all duration-300">
+      <div class="mb-4 text-amber-500">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      </div>
+      <h4 class="text-lg font-bold mb-2"><span class="text-amber-500">4.</span> Optimize</h4>
+      <p class="text-muted-foreground text-sm leading-relaxed">Continuously adjust infrastructure safely.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- OUTCOMES -->
+<section class="py-24 px-4 border-t border-border">
+  <header class="text-center mb-16">
+    <h3 class="text-3xl font-bold tracking-tight mb-4">Real Results</h3>
+    <p class="text-muted-foreground">Measurable impact from day one.</p>
+  </header>
+
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 text-center">
+
+    <div class="p-8 rounded-xl border border-border bg-secondary/20">
+      <p class="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">30–60%</p>
+      <p class="text-muted-foreground mt-3">Cloud Cost Reduction</p>
+    </div>
+
+    <div class="p-8 rounded-xl border border-border bg-secondary/20">
+      <p class="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">2×</p>
+      <p class="text-muted-foreground mt-3">Better Resource Utilization</p>
+    </div>
+
+    <div class="p-8 rounded-xl border border-border bg-secondary/20">
+      <p class="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">Zero</p>
+      <p class="text-muted-foreground mt-3">Manual Tuning Required</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- USE CASES -->
+<section class="py-24 px-4 border-t border-border bg-zinc-950">
+  <div class="max-w-6xl mx-auto">
+    <header class="text-center mb-16">
+      <h3 class="text-3xl font-bold tracking-tight mb-4">Built for Modern Platform Teams</h3>
+      <p class="text-muted-foreground">Designed for the teams that keep infrastructure running.</p>
+    </header>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="p-6 rounded-xl border border-border bg-secondary/20">
+        <p class="text-muted-foreground text-sm leading-relaxed">High-scale microservices environments with unpredictable demand.</p>
+      </div>
+      <div class="p-6 rounded-xl border border-border bg-secondary/20">
+        <p class="text-muted-foreground text-sm leading-relaxed">Organizations facing rising Kubernetes spend despite stable traffic.</p>
+      </div>
+      <div class="p-6 rounded-xl border border-border bg-secondary/20">
+        <p class="text-muted-foreground text-sm leading-relaxed">SRE teams tired of manual request/limit tuning cycles.</p>
+      </div>
+      <div class="p-6 rounded-xl border border-border bg-secondary/20">
+        <p class="text-muted-foreground text-sm leading-relaxed">Platform teams needing performance guarantees with cost control.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-24 border-t border-border text-center px-4">
+  <h3 class="text-3xl font-bold tracking-tight mb-4">Let Kubernetes Run at Its Optimal State</h3>
+  <p class="text-muted-foreground mb-8">
+    Connect your cluster and see optimization insights in minutes.
+  </p>
+
+  <a href="#" class="h-12 px-8 inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+    Schedule a Demo
+  </a>
+</section>
 
