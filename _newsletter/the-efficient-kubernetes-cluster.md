@@ -1,8 +1,7 @@
 ---
 title: The Efficient kubernetes Cluster
-description: 'Most platform teams are world-class at measuring deployment
-  frequency, CPU usage, and uptime. Yet, almost nobody is looking at the "dark
-  matter" of their infrastructure:'
+description: Most platform teams are world-class at measuring deployment
+  frequency, CPU usage, and uptime.
 image: /images/blog/gemini_generated_image_z84rlfz84rlfz84r.png
 layout: newsletter
 permalink: /newsletter/the-efficient-kubernetes-cluster
