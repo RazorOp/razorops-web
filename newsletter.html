@@ -1,41 +1,245 @@
 ---
-title: Container Native DevOps & CICD Newsletter |  RazorOps
-layout: blog
-description: get all the latest container-native & DevOps news in one place every week. Subscribe  RazorOps weekly CI/CD newsletter today and stay up-to-date.
-canonical_url: https://razorops.com/newsletter
+layout: null
 ---
 
-<div class="customers-banner">
-  <img src="/images/v2/razorops-white-logo.png" height="45" alt="razorops">
-  <h2>Simplest Container Native CI/CD Platform</h2>
-  <div class="searchbox">
-    <center>
-    {% include newsletter-search.html %}
-    <a href="https://www.linkedin.com/newsletters/container-native-devops-cicd-6920671272087552000/" class="mt-10 btn btn-lg bg-white  full-rounded p-10" target="_blank"><img src="/images/v2/linkedin.svg" alt="Linkedin Newsletter" title="Linkedin Newsletter" width="26" height="26">&nbsp;Subscribe Our Newsletter</a>
-    </center>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="container">
-  <div class="blog-wraper">
-    <div class="blog-post">
-      {% assign newsletter = site.newsletter %}
-      {% for post in newsletter reversed %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <div class="col-sm-4 post-box">
-            <div class="blog-content">
-                <img src="{{ post.image }}"/>
-              <div class="blog-body">
-                <time>{{ post.date | date_to_string }}</time>
-                <h1>{{ post.title }}</h1>
-                <p class="blogs-description">{{ post.description}}</p>
-              </div>
+    <title>Razorops LinkedIn Newsletter | Kubernetes Performance & Cost Insights</title>
+    <meta name="title" content="Razorops LinkedIn Newsletter | Kubernetes Performance & Cost Insights">
+    <meta name="description" content="Follow the Razorops LinkedIn newsletter for practical Kubernetes performance optimization, cloud cost reduction strategies, and DevOps best practices.">
+    <meta name="keywords" content="Kubernetes newsletter, DevOps newsletter, cloud cost optimization, Kubernetes performance, platform engineering, FinOps, SRE best practices">
+    <meta name="author" content="Razorops">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://razorops.com/newsletter/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://razorops.com/newsletter/">
+    <meta property="og:title" content="Razorops LinkedIn Newsletter | Kubernetes Performance & Cost Insights">
+    <meta property="og:description" content="Weekly Kubernetes optimization, cloud cost efficiency, and production-ready DevOps strategies from Razorops.">
+    <meta property="og:image" content="https://razorops.com/images/razorops-og-image.webp">
+    <meta property="og:image:alt" content="Razorops Newsletter for Kubernetes Performance and Cost Optimization">
+    <meta property="og:site_name" content="Razorops">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://razorops.com/newsletter/">
+    <meta name="twitter:title" content="Razorops LinkedIn Newsletter | Kubernetes Performance & Cost Insights">
+    <meta name="twitter:description" content="Get weekly Kubernetes performance and cloud cost optimization playbooks from Razorops.">
+    <meta name="twitter:image" content="https://razorops.com/images/razorops-og-image.webp">
+    <meta name="twitter:site" content="@razorops">
+
+    <meta itemprop="name" content="Razorops LinkedIn Newsletter | Kubernetes Performance & Cost Insights">
+    <meta itemprop="description" content="Weekly Kubernetes optimization insights, cost control frameworks, and practical DevOps guidance.">
+    <meta itemprop="image" content="https://razorops.com/images/razorops-og-image.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="/css/output.css" as="style">
+    <link rel="stylesheet" href="/css/output.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+
+    <style>
+        body { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 0; background-color: #ffffff; color: #09090b; transition: background-color .2s ease, color .2s ease; }
+        html.dark body { background-color: #09090b; color: #fafafa; }
+        .hero-soft { background: radial-gradient(circle at 50% -20%, rgba(255,255,255,.10) 0, rgba(9,9,11,0) 52%); }
+        .section-block { padding-top: 7rem; padding-bottom: 7rem; }
+        @media (min-width: 768px) {
+            .section-block { padding-top: 8rem; padding-bottom: 8rem; }
+        }
+        @media (min-width: 768px) {
+            .md\:hidden { display: none !important; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Razorops Newsletter",
+      "url": "https://razorops.com/newsletter/",
+      "description": "Weekly Kubernetes optimization insights, cloud cost strategies, and DevOps best practices from Razorops.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Razorops",
+        "url": "https://razorops.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Razorops",
+        "url": "https://razorops.com"
+      }
+    }
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-secondary text-foreground px-4 py-2 rounded-md z-[100]">Skip to main content</a>
+
+    <header role="banner">
+        <nav class="fixed top-0 w-full z-50 border-b border-border bg-background/85 backdrop-blur" role="navigation" aria-label="Main navigation">
+            <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+                <a href="/" class="flex items-center gap-2" aria-label="Razorops Home">
+                    <div class="w-8 h-8 bg-muted rounded flex items-center justify-center" aria-hidden="true">
+                        <svg class="w-5 h-5 text-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight">RAZOROPS</span>
+                </a>
+                <div class="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
+                    <a href="#what-you-get" class="hover:text-foreground transition">What You Get</a>
+                    <a href="#who-should-subscribe" class="hover:text-foreground transition">Who It’s For</a>
+                    <a href="/blog" class="hover:text-foreground transition">Blog</a>
+                    <a href="https://www.linkedin.com/newsletters/container-native-devops-cicd-6920671272087552000/" target="_blank" rel="noopener noreferrer" class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition">Follow on LinkedIn</a>
+                </div>
+              
             </div>
-          </div>
-        </a>
-      {% endfor %}
-      <div class="clearfix"></div>
-      <br>
-    </div>
-  </div>
-</div>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="relative pt-32 pb-24 md:pb-28 px-4 hero-soft overflow-hidden min-h-[72vh] flex items-center" aria-labelledby="newsletter-heading">
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="inline-flex items-center px-3 py-1 rounded-full border border-border bg-secondary/40 text-xs font-medium mb-8">Published on LinkedIn for modern DevOps teams</p>
+                <h1 id="newsletter-heading" class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">Kubernetes Performance & Cost Insights, Every Week</h1>
+                <p class="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+                    Get field-tested strategies to improve Kubernetes reliability, optimize cloud spend, and ship faster with fewer operational surprises.
+                </p>
+                <div id="subscribe" class="max-w-xl mx-auto" aria-label="LinkedIn newsletter subscription">
+                    <a href="https://www.linkedin.com/newsletters/container-native-devops-cicd-6920671272087552000/" target="_blank" rel="noopener noreferrer" class="h-11 px-6 inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground font-medium hover:opacity-90 transition w-full sm:w-auto">Follow Newsletter on LinkedIn</a>
+                    <p class="mt-4 text-xs text-muted-foreground">Read and follow directly on LinkedIn. No email required.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="what-you-get" class="section-block px-4" aria-labelledby="what-you-get-heading">
+            <div class="max-w-7xl mx-auto">
+                <header class="text-center mb-12 pb-24">
+                    <h2 id="what-you-get-heading" class="text-3xl font-bold tracking-tight mb-4">What You’ll Get</h2>
+                    <p class="text-muted-foreground">Practical content you can apply directly in production environments.</p>
+                </header>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <article class="h-full p-8 rounded-xl border border-border bg-secondary/20">
+                        <h3 class="text-lg font-bold mb-2">Performance Playbooks</h3>
+                        <p class="text-muted-foreground text-sm leading-relaxed">Actionable guides for cluster tuning, autoscaling, workload right-sizing, and reliability improvements.</p>
+                    </article>
+                    <article class="h-full p-8 rounded-xl border border-border bg-secondary/20">
+                        <h3 class="text-lg font-bold mb-2">Cost Optimization Tactics</h3>
+                        <p class="text-muted-foreground text-sm leading-relaxed">Clear methods to reduce cloud waste, improve utilization, and control spend without slowing delivery.</p>
+                    </article>
+                    <article class="h-full p-8 rounded-xl border border-border bg-secondary/20">
+                        <h3 class="text-lg font-bold mb-2">Engineering Signals</h3>
+                        <p class="text-muted-foreground text-sm leading-relaxed">Short, high-signal updates on Kubernetes, platform engineering, and DevOps trends worth your time.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="who-should-subscribe" class="section-block px-4" aria-labelledby="audience-heading">
+            <div class="max-w-5xl mx-auto text-center">
+                <h2 id="audience-heading" class="text-3xl font-bold tracking-tight mb-8">Who Should Subscribe</h2>
+                <div class="flex flex-wrap justify-center gap-3 text-sm">
+                    <span class="px-4 py-2 rounded-full border border-border bg-secondary/20">Platform Engineers</span>
+                    <span class="px-4 py-2 rounded-full border border-border bg-secondary/20">DevOps Teams</span>
+                    <span class="px-4 py-2 rounded-full border border-border bg-secondary/20">SREs</span>
+                    <span class="px-4 py-2 rounded-full border border-border bg-secondary/20">Cloud Architects</span>
+                    <span class="px-4 py-2 rounded-full border border-border bg-secondary/20">Engineering Managers</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest-newsletters" class="section-block px-4" aria-labelledby="latest-newsletters-heading">
+            <div class="max-w-7xl mx-auto">
+                <header class="text-center mb-24">
+                    <h2 id="latest-newsletters-heading" class="text-3xl font-bold tracking-tight mb-4">Latest Newsletters</h2>
+                    <p class="text-muted-foreground">Read our most recent LinkedIn newsletter issues.</p>
+                </header>
+                <br>
+                <br>
+                <br>
+
+                {% assign latest_newsletters = site.newsletter | sort: 'date' | reverse %}
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {% for post in latest_newsletters limit:3 %}
+                    <article class="h-full rounded-xl border border-border bg-secondary/20 overflow-hidden">
+                        <a href="{{ post.url | relative_url }}" class="block" aria-label="Read {{ post.title }}">
+                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-full aspect-[16/9] object-cover" loading="lazy" decoding="async">
+                        </a>
+                        <div class="p-6 flex flex-col">
+                            <p class="text-xs text-muted-foreground mb-2">{{ post.date | date: "%b %d, %Y" }}</p>
+                            <h3 class="text-lg font-bold mb-4 leading-snug">{{ post.title }}</h3>
+                            <a href="{{ post.url | relative_url }}" class="text-sm font-medium text-foreground underline underline-offset-4 hover:opacity-80 transition">Read More</a>
+                        </div>
+                    </article>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block px-4" aria-labelledby="final-cta-heading">
+            <div class="max-w-3xl mx-auto text-center rounded-2xl border border-border bg-secondary/20 p-10">
+                <h2 id="final-cta-heading" class="text-3xl font-bold tracking-tight mb-4">Make Better Kubernetes Decisions Faster</h2>
+                <p class="text-muted-foreground mb-8">Follow the Razorops LinkedIn newsletter and get weekly insights to improve performance and lower cloud costs.</p>
+                <a href="https://www.linkedin.com/newsletters/container-native-devops-cicd-6920671272087552000/" target="_blank" rel="noopener noreferrer" class="h-11 px-6 inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground font-medium hover:opacity-90 transition">Open LinkedIn Newsletter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 border-t border-border text-center text-sm text-muted-foreground" role="contentinfo">
+        <div class="max-w-7xl mx-auto px-4">
+            <nav class="flex items-center justify-center gap-6 mb-4 flex-wrap" aria-label="Footer navigation">
+                <a href="/blog" class="hover:text-foreground transition">Blog</a>
+                <a href="/privacy-policy" class="hover:text-foreground transition">Privacy Policy</a>
+                <a href="/terms-of-service" class="hover:text-foreground transition">Terms of Service</a>
+            </nav>
+            <p>© <span id="current-year">2026</span> Razorops AI Labs Pvt Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        const root = document.documentElement;
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const moonIcon = document.getElementById('theme-icon-moon');
+        const sunIcon = document.getElementById('theme-icon-sun');
+
+        function setTheme(theme) {
+            if (theme === 'light') {
+                root.classList.remove('dark');
+                moonIcon.classList.add('hidden');
+                sunIcon.classList.remove('hidden');
+                themeToggleBtn.setAttribute('aria-label', 'Switch to dark mode');
+            } else {
+                root.classList.add('dark');
+                moonIcon.classList.remove('hidden');
+                sunIcon.classList.add('hidden');
+                themeToggleBtn.setAttribute('aria-label', 'Switch to light mode');
+            }
+            localStorage.setItem('theme', theme);
+        }
+
+        const savedTheme = localStorage.getItem('theme');
+        setTheme(savedTheme === 'light' ? 'light' : 'dark');
+
+        themeToggleBtn.addEventListener('click', function () {
+            const isDark = root.classList.contains('dark');
+            setTheme(isDark ? 'light' : 'dark');
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+    </script>
+
+</body>
+</html>
