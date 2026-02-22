@@ -9,9 +9,6 @@ author: Shyam Mohan K
 category: Kubernetes
 date: 2026-02-22T06:56:00.000+05:30
 ---
-First Issue (Ready-to-Send Draft)
-Subject Line:
-
 Your Kubernetes Cluster Is Probably 40% Idle
 
 Editor’s Insight
@@ -20,8 +17,11 @@ Kubernetes made infrastructure programmable.
 But it also made waste invisible.
 
 Most teams measure:
+
 ✔ Deploy frequency
+
 ✔ CPU usage
+
 ✔ Uptime
 
 Almost nobody measures:
@@ -32,10 +32,9 @@ Almost nobody measures:
 
 ❌ Autoscaling inefficiency
 
-Cloud bills aren’t high because companies scale.
-They’re high because systems don’t contract intelligently.
+> Cloud bills aren’t high because companies scale. They’re high because systems don’t contract intelligently.
 
-Efficiency is now a reliability concern — not just a finance problem.
+<pre><code>Efficiency is now a reliability concern - not just a finance problem.</code></pre>
 
 Welcome to The Efficient Cluster.
 
