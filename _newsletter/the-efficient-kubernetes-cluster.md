@@ -2,7 +2,7 @@
 title: The Efficient kubernetes Cluster
 description: Most platform teams are world-class at measuring deployment
   frequency, CPU usage, and uptime.
-image: /images/blog/gemini_generated_image_z84rlfz84rlfz84r.png
+image: /images/blog/the-efficient-kubernetes-cluster.png
 layout: newsletter
 permalink: /newsletter/the-efficient-kubernetes-cluster
 author: Shyam Mohan K
@@ -26,11 +26,11 @@ Most teams measure:
 
 Almost nobody measures:
 
-❌ Cost of idle environments
+- Cost of idle environments
 
-❌ Memory overcommit waste
+- Memory overcommit waste
 
-❌ Autoscaling inefficiency
+- Autoscaling inefficiency
 
 > Cloud bills aren’t high because companies scale. They’re high because systems don’t contract intelligently.
 
