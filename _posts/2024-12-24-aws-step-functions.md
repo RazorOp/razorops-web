@@ -9,110 +9,138 @@ author: Shyam Mohan
 category: AWS
 date: 2024-12-24T13:37:00.000Z
 ---
-**What are step functions?**
+## What are AWS Step Functions?
 
-Step functions allow developers to offload application orchestration into fully managed AWS services. This means you can just modularize your code to “Steps” and let AWS worry about handling partial failure cases, retries, or error handling scenarios.
+AWS Step Functions is a serverless orchestration service that lets you coordinate multiple AWS services and microservices into resilient workflows. You define state machines using Amazon States Language (JSON) to sequence tasks, handle retries, parallelism, and errors—allowing you to focus on business logic while AWS manages state, durability, and execution.
 
-**Types of step functions:**
+### Workflow types
 
-1. Standard workflow: Standard workflow can be used for long-running, durable, and auditable workflows.
+1. **Standard Workflows** – ideal for long-running (days to years), auditable, and exactly‑once workflows with detailed execution history.  
+2. **Express Workflows** – designed for high‑volume, event‑driven workloads with millisecond latency and short executions (up to 5 minutes), charging per request and duration.
 
-2. Express Workflow: Express workflow is designed for high volume, and event processing workloads.
+### Key features
 
-**Features:**
+- Declarative state machines (choices, parallels, maps, waits).  
+- Built‑in error handling with retry/backoff.  
+- Integration with 11+ AWS services out‑of‑the‑box (Lambda, ECS, Batch, SageMaker, DynamoDB, SNS, SQS, Glue, etc.).  
+- Visual workflow editor and execution logging in the console.  
+- Automatic state management, scheduling, and concurrency control.  
+- Child workflows and dynamic Parallel/Map states for large‑scale processing.  
 
-● Allow to create workflow which follows a fixed or dynamic sequence.
+### Use cases
 
-● Inbuilt “Retry” and error handling functionality.
+- **Order processing pipeline** – validate order, charge payment, update inventory, notify customer; errors automatically retried, failures sent to DLQ.  
+- **Video transcoding** – fan‑out a video file to parallel Step Functions Map state invoking Lambda that triggers Elastic Transcoder, then merge results.  
+- **Machine learning training** – orchestrate data preprocessing on EMR, training in SageMaker, and model deployment with Lambda.  
+- **IoT data processing** – Express workflow triggered by Kinesis events to filter, enrich, and store telemetry.
 
-● Support integration with AWS native Lambda, SNS, ECS, AWS Fargate, etc.
+### Example state machine (JSON)
 
-● Support GUI audit workflow process, input/output, etc., well.
-
-● GUI provides support to analyze the running process and detect the failures immediately.
-
-● High availability, High scalability and low cost.
-
-● Manages the states of the application during workflow execution.
-
-● Step function is based on the concepts of tasks and state machines.
-
-o Tasks can be defined by using an activity or an AWS Lambda function.
-
-o State machines can express an algorithm that contains relations, input/output.
-
-**Best Practices:**
-
-● Set time-outs in state machine definitions, which help in better task response when something goes wrong in getting a response from an activity.
-
-Example:
-
-"ActivityState": {
-
-"Type": "Task",
-
-"Resource":
-
-"arn:aws:states:us-east-1:123456789012:activity:abc",
-
-**"TimeoutSeconds": 900,**
-
-"HeartbeatSeconds": 40,
-
-"Next": "State2"
-
-}
-
-● Always provide the Amazon S3 arn (amazon resource name) instead of large payloads to the state machine when passing input to Lambda function.
-
-**Example:**
-
+```json
 {
-
-**"Data": "arn:aws:s3:::MyBucket/data.json"**
-
+  "Comment": "Simple order workflow",
+  "StartAt": "ValidateOrder",
+  "States": {
+    "ValidateOrder": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:123:validate",
+      "Next": "ChargePayment",
+      "Retry": [{"ErrorEquals": ["Lambda.ServiceException"],"IntervalSeconds":2,"MaxAttempts":3}]
+    },
+    "ChargePayment": {"Type":"Task","Resource":"arn:aws:lambda:charge","Next":"UpdateInventory"},
+    "UpdateInventory": {"Type":"Task","Resource":"arn:aws:lambda:update","End":true}
+  }
 }
+```
 
-● Handle errors in state machines while invoking AWS lambda functions.
+### Best practices
 
-**Example:**
+- Keep individual states idempotent and stateless.  
+- Use `HeartbeatSeconds` and `TimeoutSeconds` to detect hung tasks.  
+- Pass small payloads or S3 references to avoid state size limits (32 KB).  
+- Use Maps or Parallel states for batch/parallel workloads; handle large iterations with `MaxConcurrency`.  
+- Monitor metrics (`ExecutionsStarted`, `ExecutionsFailed`, `ThrottledEvents`) and set CloudWatch alarms.  
+- Archive history for Standard workflows if retention > 90 days is required (via CloudWatch Logs).
 
-"Retry": [ {
+### Service integrations
 
-             **"ErrorEquals": [ "Lambda.CreditServiceException"]**
+Lambda, ECS/Fargate, Batch, DynamoDB, SQS, SNS, Glue, SageMaker, EMR, CodeBuild, Step Functions (nested), Amazon API Gateway (for callbacks), Activity workers (for on‑prem tasks).
 
-               "IntervalSeconds": 2,
+### Pricing overview
 
-               "MaxAttempts": 3,
- 
-               "BackoffRate": 2
+- Standard: $0.025 per 1,000 state transitions.  
+- Express: $1.00 per 1M requests plus $0.000004 per GB‑second duration.
 
-            } ]
+(Always verify current pricing on AWS site.)
 
-● It has a hard quota of 25K entries during execution history. To avoid this for long-running executions, implement a pattern using the AWS lambda function.
 
-It supports below AWS services:
+## Related Razorops articles
 
-● Lambda
+- [Amazon Simple Workflow Service (SWF)](/blog/amazon-simple-workflow-service-swf/)  
+- [AWS Lambda](/blog/aws-lambda/)  
+- [AWS EventBridge](/blog/aws-eventbridge/)  
+- [AWS Batch](/blog/aws-batch/)  
+- [Top 50 AWS DevOps Interview Questions and Answers](/blog/top-50-aws-devops-interview-questions-and-answers/)
 
-● AWS Batch
 
-● DynamoDB
+## Top 20 AWS Solutions Architect interview FAQs
 
-● ECS/Fargate
+1. Q: What is a VPC and why is it important?
+A: A Virtual Private Cloud isolates resources at the network level, providing subnets, routing, security groups, and private connectivity.
 
-● SNS
+2. Q: Security groups vs NACLs—differences?
+A: Security groups are stateful and attached to instances; NACLs are stateless and apply to subnets.
 
-● SQS
+3. Q: How would you design for high availability?
+A: Use multiple AZs, autoscaling groups, load balancers, and managed services (RDS Multi-AZ).
 
-● SageMaker
+4. Q: What is Auto Scaling and how does it work?
+A: Auto Scaling adjusts EC2 capacity using policies, health checks, and scheduled scaling to meet demand and maintain availability.
 
-● EMR
+5. Q: What is IAM best practice?
+A: Use least privilege, roles for services, enable MFA, rotate credentials, and use centralized identity providers.
 
-**Pricing:**
+6. Q: How does S3 provide durability?
+A: S3 replicates data across multiple AZs and performs continuous integrity checks (11 9s durability for standard storage).
 
-● With Step Functions Express Workflows, you pay only for what you use. You are charged based on the number of requests for your workflow and its duration.
+7. Q: When to use SQS vs SNS?
+A: Use SQS for decoupled queue processing; use SNS for pub/sub notifications to multiple subscribers.
 
-○ $0.025 per 1,000 state transitions (For Standard workflows)
+8. Q: What is cross-region replication (CRR) for S3?
+A: CRR asynchronously copies objects to another region for DR and compliance.
 
-○ $1.00 per 1M requests (For Express workflows)
+9. Q: What is an Auto Scaling group?
+A: ASG maintains EC2 fleet capacity based on policies, scales automatically, and replaces unhealthy instances.
+
+10. Q: How does Route 53 routing policy work (simple, weighted, latency)?
+A: Simple returns a single resource; weighted distributes traffic by weight; latency routes to the lowest-latency region.
+
+11. Q: When to use RDS Multi-AZ vs Read Replica?
+A: Multi-AZ for HA and failover; Read Replica for read scaling and analytics.
+
+12. Q: What is CloudFormation and why use it?
+A: CloudFormation is AWS's IaC service to provision resources declaratively and track drift.
+
+13. Q: How do you optimize costs in AWS?
+A: Rightsize, use spot/reserved/savings plans, lifecycle policies for storage, and monitor spend with Cost Explorer.
+
+14. Q: Explain S3 consistency model.
+A: S3 provides strong read-after-write consistency for new PUTs and updates across all regions.
+
+15. Q: IAM best practices?
+A: Apply least privilege, use roles, enable MFA, rotate credentials, and use centralized identity providers.
+
+16. Q: How do you design a data lake on AWS?
+A: Use S3 for storage, Glue Data Catalog for metadata, Lake Formation for access control, and Athena/EMR/SageMaker for processing.
+
+17. Q: Differences between ALB and NLB?
+A: ALB is Layer 7 with routing features; NLB is Layer 4 optimized for throughput and static IPs.
+
+18. Q: What is a VPC endpoint and when to use it?
+A: VPC endpoints provide private connectivity to AWS services without internet.
+
+19. Q: How would you perform disaster recovery in AWS?
+A: Choose a DR strategy (Backup & Restore, Pilot Light, Warm Standby, Multi-Site) based on RTO/RPO and automate failover when possible.
+
+20. Q: How do you monitor and troubleshoot AWS infrastructure?
+A: Use CloudWatch metrics/logs, CloudTrail for API audits, X-Ray for tracing, VPC Flow Logs for network debugging, and third-party monitoring/APM tools.

@@ -10,89 +10,128 @@ author: Shyam Mohan
 category: AWS
 date: 2024-12-17T13:40:00.000Z
 ---
-**What is AWS Elastic Load Balancer?**
 
-● ELB Stands for Elastic Load Balancer.
+**What is AWS Elastic Load Balancing (ELB)?**
 
-● It distributes the incoming traffic to multiple targets such as Instances, Containers, Lambda Functions, IP Addresses etc.
+Elastic Load Balancing is an AWS service that automatically distributes incoming application traffic across multiple targets — EC2 instances, IP addresses, containers, and Lambda functions — increasing fault tolerance and improving application availability. ELB offers multiple load balancer types optimized for different use cases: Application Load Balancer (ALB), Network Load Balancer (NLB), and Gateway Load Balancer (GWLB). The Classic Load Balancer (CLB) is legacy and not recommended for new deployments.
 
-● It spans in single or multiple availability zones.
+Overview of load balancer types
 
-● It provides high availability, scaling and security for the application.
+- Application Load Balancer (ALB): Layer 7 load balancer designed for HTTP/HTTPS and WebSocket traffic. Supports host‑ and path‑based routing, HTTP/2, gRPC, WebSockets, and advanced features such as WAF integration and request‑level routing.
+- Network Load Balancer (NLB): Layer 4 load balancer for ultra‑low latency, high throughput, and static IP support. Ideal for TCP/UDP/TLS workloads and for preserving the client source IP.
+- Gateway Load Balancer (GWLB): Designed for deploying, scaling, and managing third‑party network virtual appliances (firewalls, IDS/IPS) with transparent GENEVE encapsulation and integration with Gateway Load Balancer endpoints.
 
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNwKX7_5gwlGxExkpWPVod-roH5_r_kxrq98LvWMQ5qJCkZ-u2DTbPc1tj7kdnrkotwlAad3BVsMGWec_ILFWgSntnzKLMRv_rByxgfev8tvrfu8LykuHM1ze2B3FCai9OhvecbA?key=q390jo8iRKV-c2BprE8LOg)**	
-**Types of Elastic Load Balancer**
+Key concepts
 
-**Application Load Balancer**
+- Listener: Ports and protocols the load balancer checks (e.g., HTTP:80, HTTPS:443). Listeners have rules that forward requests to target groups.
+- Target group: Logical grouping of targets with health check config and protocol/port. Targets can be EC2 instances, IPs, or Lambda functions (ALB only for Lambda).
+- Health check: Periodic probes (HTTP/TCP) to mark targets healthy/unhealthy.
+- LCU (Load Balancer Capacity Units): ALB/NLB pricing dimension used to calculate cost based on new connections, active connections, processed bytes, and rule evaluations.
 
-o It is best suited for load balancing of the web applications and websites.
+Example — create an ALB, target group, and listener (AWS CLI)
 
-o It routes traffic to targets within Amazon VPC based on the content of the request.
+```bash
+# create target group
+aws elbv2 create-target-group --name razorops-tg --protocol HTTP --port 80 --vpc-id vpc-0123456789abcdef0 --target-type instance
 
-**Network Load Balancer**
+# create ALB
+ALB_ARN=$(aws elbv2 create-load-balancer --name razorops-alb --subnets subnet-aaa subnet-bbb subnet-ccc --security-groups sg-012345 --query 'LoadBalancers[0].LoadBalancerArn' --output text)
 
-o It is mostly for the application which has ultra-high performance.
+# create listener forwarding to target group
+aws elbv2 create-listener --load-balancer-arn $ALB_ARN --protocol HTTP --port 80 --default-actions Type=forward,TargetGroupArn=arn:aws:elasticloadbalancing:...:targetgroup/razorops-tg/...
+```
 
-o This load balancer also acts as a single point of contact for the clients.
-o This Load Balancer distributes the incoming traffic to the multiple targets.
+Example — minimal Terraform (ALB + target group + attachment)
 
-o The listener checks the connection request from the clients using the protocol and ports we specify.
+```hcl
+resource "aws_lb" "alb" {
+  name               = "razorops-alb"
+  internal           = false
+  load_balancer_type = "application"
+  subnets            = [aws_subnet.public1.id, aws_subnet.public2.id]
+}
 
-o It supports TCP, UDP and TLS protocol.
+resource "aws_lb_target_group" "tg" {
+  name     = "razorops-tg"
+  port     = 80
+  protocol = "HTTP"
+  vpc_id   = aws_vpc.main.id
+}
 
-**Gateway Load Balancer (Newly Introduced)**
+resource "aws_lb_listener" "http" {
+  load_balancer_arn = aws_lb.alb.arn
+  port              = "80"
+  protocol          = "HTTP"
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.tg.arn
+  }
+}
+```
 
-● It is like other load balancers but it is for third-party appliances.
+When to use each load balancer
 
-● This provides load balancing and auto scaling for the fleet of third-party appliances.
+- ALB: microservices, host/path routing, HTTP features (WAF, authentication), WebSockets, gRPC.
+- NLB: TCP/UDP/TLS, static IP, extreme performance, preserve source IP for backend logging or IP‑based access control.
+- GWLB: insert network appliances for inspection and centralized security.
 
-● It is used for security, network analytics and similar use cases.
+Common use cases
 
-**Classic Load Balancer**
+- Host path‑based microservices behind a single ALB (e.g., /api → service A, /ui → service B).
+- Expose TCP services (database proxy, gaming servers) via NLB for low latency and static IPs.
+- Centralized traffic inspection with GWLB integrating third‑party firewalls.
+- Blue/green or canary deployments using weighted target groups and ALB routing.
 
-● It operates at request and connection level.
+Security and best practices
 
-● It is for the EC2 Instance build in the old Classic Network.
+- Terminate TLS at the ALB and use HTTPS between ALB and backend where needed; use AWS Certificate Manager (ACM) for certificate management.
+- Use security groups to restrict access to load balancers and backend targets; minimize open ports.
+- Enable AWS WAF on ALB to filter OWASP class attacks and common threats.
+- Configure deregistration delay and connection draining so in‑flight requests complete before target removal.
+- Enable access logs (S3) for auditing and troubleshooting.
 
-● It is an old generation Load Balancer.
+Observability and metrics
 
-● AWS recommends to use Application or Network Load Balancer instead.
+- ALB metrics: RequestCount, HTTPCode_Target_2XX/3XX/4XX/5XX, TargetResponseTime, HealthyHostCount, UnHealthyHostCount.
+- NLB metrics: NewFlowCount, ActiveFlowCount, ProcessedBytes.
+- Enable CloudWatch Alarms on error and latency metrics; integrate with AWS X‑Ray for end‑to‑end tracing when using Lambda or instrumented services.
 
-**Listeners**
+Health checks and routing considerations
 
-● A listener is a process that checks for connection requests, using the protocol and port that you configured.
+- Design health checks to reflect real user experience (e.g., lightweight endpoint that performs a DB check if the service depends on DB availability).
+- Use path‑based health checks where appropriate; avoid overly aggressive thresholds that flaps targets.
 
-● You can add HTTP, HTTPS or both.
+Pricing summary
 
-Target Group
+- ALB pricing: charged per hour (or partial hour) and per LCU; NLB: per hour and per NCU/data processed; GWLB: hourly and per GB processed. Refer to AWS pricing pages for up‑to‑date rates.
 
-● It is the destination of the ELB.
+Related Razorops posts
 
-● Different target groups can be created for different types of requests.
+- [AWS VPC](/blog/aws-vpc/)
+- [AWS Lambda](/blog/aws-lambda/)
+- [Amazon Route 53](/blog/amazon-route-53/)
+- [AWS WAF](/blog/aws-web-application-firewall/)
+- [AWS Auto Scaling](/blog/aws-auto-scaling/)
 
-● For example, one target group i.e., a fleet of instances will be handling the general request and other target groups will handle the other type of request such as micro services.
+Top 20 AWS Solutions Architect — ELB focused FAQ
 
-● Currently, three types of target supported by ELB: Instance, IP and Lambda Functions.
-
-**Health Check**
-
-● Health checks will be checking the health of Targets regularly and if any target is unhealthy then traffic will not be sent to that Target.
-
-● We can define the number of consecutive health checks failure then only the Load Balancer will not send the traffic to those Targets.
-
-● e.g., If 4 EC2 are registered as Target behind Application Load Balancer and if one of the EC2 Instance is not healthy then Load Balancer will not send the traffic to that EC2 Instance
-
-**Use Cases:**
-
-● Web Application Deployed in Multiple Servers: If a web
-Application/Website is deployed in multiple EC2 Instances then we can distribute the traffic between the Application Load Balancers.
-
-● Building a Hybrid Cloud: Elastic Load Balancing offers the ability to load balance across AWS and on-premises resources, using a single load balancer. You can achieve this by registering all of your resources to the same target group and associating the target group with a load balancer.
-
-● Migrating to AWS: ELB supports the load balancing capabilities critical for you to migrate to AWS. ELB is well positioned to load balance both traditional as well as cloud native applications with auto scaling capabilities that eliminate the guess work in capacity planning.
-
-**Charges:**
-
-● Charges will be based on each hour or partial hour that the ELB is running.
-
-● Charges will also depend on the LCU (Load Balancer Units)
+1. Q: What is the difference between ALB and NLB? — ALB is Layer 7 (HTTP/HTTPS) with host/path routing and HTTP features; NLB is Layer 4 (TCP/UDP/TLS) for extreme performance and static IPs.
+2. Q: When should I use GWLB? — Use GWLB to deploy and scale third‑party network virtual appliances for inspection, IDS/IPS, and traffic steering.
+3. Q: Can ALB handle WebSockets and gRPC? — Yes; ALB supports both WebSockets and gRPC (HTTP/2) with proper listener configuration.
+4. Q: How do I preserve client IP? — Use NLB (preserves source IP) or enable X‑Forwarded‑For header on ALB and capture the header at the backend.
+5. Q: How does SSL/TLS termination work? — You can terminate TLS at the load balancer using ACM certificates and optionally re‑encrypt to backends.
+6. Q: What is a target group? — A logical group of targets with health checks; listeners forward traffic to target groups based on rules.
+7. Q: How many targets per target group? — Soft limits exist per account/region; AWS service quotas apply — request increases when necessary.
+8. Q: How to do blue/green deployments with ELB? — Use separate target groups and switch listener rules or use weighted routing for gradual traffic shift.
+9. Q: What is connection draining/deregistration delay? — A timeout allowing in‑flight requests to complete when removing a target.
+10. Q: How to debug unhealthy targets? — Check target health status, backend logs, security groups, NACLs, and CloudWatch metrics; enable access logs.
+11. Q: Does ALB support sticky sessions? — Yes, ALB supports session affinity (stickiness) via target group stickiness based on cookies.
+12. Q: Can I register IP addresses as targets? — Yes; ALB/NLB support IP targets for on‑prem or cross‑VPC targets (subject to routing and permissions).
+13. Q: How to load balance Lambda functions? — ALB supports invoking Lambda functions as targets for HTTP(S) traffic.
+14. Q: How to integrate WAF? — AWS WAF can be attached to ALB (or CloudFront) to protect against common web attacks.
+15. Q: How is health check configured? — Health check protocol, path, interval, timeout, healthy/unhealthy thresholds are set per target group.
+16. Q: Can ELB route to ECS/EKS containers? — Yes; register container instances or use AWS integration with ECS service and target groups.
+17. Q: What is cross‑zone load balancing? — Distributes traffic evenly across targets in all AZs; ALB has it enabled by default; NLB can be enabled.
+18. Q: How to secure backend instances? — Restrict backend security groups to only accept traffic from the load balancer security group; use private subnets for targets.
+19. Q: What logs are available? — ALB/NLB access logs (S3), CloudWatch metrics, and VPC Flow Logs for networking-level analysis.
+20. Q: What quotas should I monitor? — Number of load balancers, listeners, target groups, and rules per load balancer; monitor AWS service quotas and request increases proactively.

@@ -9,143 +9,139 @@ author: Shyam Mohan
 category: AWS
 date: 2024-12-18T22:54:00.000Z
 ---
+
 **What is Amazon Route 53?**
 
-Route53 is a managed DNS (Domain Name System) service where DNS is a collection of rules and records intended to help clients/users understand how to reach any server by its domain name.
-
-**Route 53 hosted zone** is a collection of records for a specified domain that can be managed together. There are two types of zones:
-
-● Public host zone – It determines how traffic is routed on the Internet.
-
-● Private hosted zone – It determines how traffic is routed within VPC.
-
-**Route 53 TTL (seconds):**
-
-● It is the amount of time for which a DNS resolver creates a cache information about the records and reduces the query latency.
-
-● Default TTL does not exist for any record type but always specifies a TTL of 60 seconds or less so that clients/users can respond quickly to changes in
-health status.
-
-**Route53 CNAME vs. Alias**
-
-**CNAME**
-
-It points a hostname to any other hostname. 
-
-(app.mything.com -> abc.anything.com) 
-
-It works only for the non-root domains. (abcxyz.maindomain.com) 
-
-Route 53 charges for CNAME queries. 
-
-It points to any DNS record that is hosted anywhere.
-
-**Alias**
-
-It points a hostname to an AWS Resource. (app.mything.com ->abc.amazonaws.com) 
-
-It works for the root domain and non-root domain. (maindomain.com) 
-
-Route 53 doesn’t charge for Alias queries. 
-
-It points to an ELB, CloudFront distribution, Elastic Beanstalk environment, S3 bucket as a static website, or another record in the same hosted zone.
-
-The most common records supported in Route 53 are:
-
-● A: hostname to IPv4
-
-● AAAA: hostname to IPv6
-
-● CNAME: hostname to hostname
-
-● Alias: hostname to AWS resource.
-
-Other supported records are:
-
-● CAA (certification authority authorization)
-
-● MX (mail exchange record)
-
-● NAPTR (name authority pointer record)
-
-● NS (name server record)
-
-● PTR (pointer record)
-
-● SOA (start of authority record)
-
-● SPF (sender policy framework)
-
-● SRV (service locator)
-
-● TXT (text record)
-
-**Route 53 Routing Policies:**
-
-Simple:
-
-● It is used when there is a need to redirect traffic to a single resource.
-
-● It does not support health checks.
-
-Weighted:
-
-● It is similar to simple, but you can specify a weight associated with resources.
-
-● It supports health checks.
-
-Failover:
-
-● If the primary resource is down (based on health checks), it will route to a secondary destination.
-
-● It supports health checks.
-
-Geo-location:
-
-● It routes traffic to the closest geographic location you are in.
-
-Geo-proximity:
-
-● It routes traffic based on the location of resources to the closest region within a geographic area.
-
-Latency based:
-
-● It routes traffic to the destination that has the least latency.
-
-Multi-value answer:
-
-● It distributes DNS responses across multiple IP addresses.
-
-● If a web server becomes unavailable after a resolver cache a response, a user can try up to eight other IP addresses from the response to reduce downtime.
-
-**Use cases:**
-
-● When users try to register a domain with Route 53, it becomes the trustworthy DNS server for that domain and creates a public hosted zone.
-
-● Users can have their domain registered in one AWS account and the hosted zone in another AWS account.
-
-● For private hosted zones, the following VPC settings must be ‘true’:
-
-○ enableDnsHostname.
-
-○ enableDnsSupport.
-
-● Health checks can be pointed at:
-
-○ Endpoints (can be IP addresses or domain names.)
-
-○ Status of other health checks.
-
-○ Status of a CloudWatch alarm.
-
-● Route53 as a Registrar: A domain name registrar is an organization that manages the reservation of Internet domain names.
-
-● Domain Registrar != DNS
-
-**Price details:**
-
-● There are no contracts or any down payments for using Amazon Route 53.
-
-● Route 53 charges annually for each domain name registered via Route 53.
-
-● Different rates are applied for Standard Queries, Latency Based Routing Queries, Geo DNS and Geo Proximity Queries.
+Amazon Route 53 is AWS's highly available and scalable Domain Name System (DNS) web service. It provides domain registration, DNS routing, health checks, DNSSEC, and private DNS for Amazon VPCs. Route 53 is designed for low latency, high reliability, and seamless integration with other AWS services (ALB/NLB, CloudFront, S3, API Gateway, Global Accelerator).
+
+Hosted zones and record types
+
+- Hosted zone: a container for DNS records for a domain (public hosted zone for Internet DNS, private hosted zone for VPC‑local DNS).
+- Common record types: A, AAAA, CNAME, TXT, MX, SRV, PTR, NS, SOA, CAA. Route 53 also supports Alias records (special AWS‑aware records that map to AWS resources) and multivalue records.
+
+Key features
+
+- Alias records: route apex/root domains to AWS resources without CNAME restrictions and without extra query charges.
+- Routing policies: simple, weighted, latency, failover, geolocation, geoproximity, and multivalue answer.
+- Health checks and DNS failover: monitor endpoints and automatically fail over DNS traffic.
+- DNSSEC: domain signing to protect against DNS spoofing (supported for public hosted zones and registrar integration).
+- Route 53 Resolver: inbound/outbound endpoints, forwarding rules and hybrid DNS for on‑premises integration.
+- Query logging: write DNS queries to CloudWatch Logs, S3, or Kinesis for analysis and auditing.
+
+Practical example — create a public hosted zone and an A/alias record (AWS CLI)
+
+```bash
+# create hosted zone
+aws route53 create-hosted-zone --name example.com --caller-reference $(date +%s)
+
+# create an A record for www pointing to an ALB (alias)
+cat > record.json <<'JSON'
+{
+  "Comment": "Create alias record to ALB",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "www.example.com.",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "Z35SXDOTRQ7X7K", # ALB hosted zone id
+          "DNSName": "dualstack-my-alb-123456.us-east-1.elb.amazonaws.com.",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}
+JSON
+
+aws route53 change-resource-record-sets --hosted-zone-id Z123ABC456 --change-batch file://record.json
+```
+
+Practical example — create a health check and simple failover policy (AWS CLI)
+
+```bash
+# create health check
+HC_ID=$(aws route53 create-health-check --caller-reference $(date +%s) --health-check-config 'Type=HTTP,ResourcePath=/health,Port=80,FailureThreshold=3' --query 'HealthCheck.Id' --output text)
+
+# create failover records that reference the health check
+# (similar change-batch JSON with Failover: PRIMARY/SECONDARY and HealthCheckId fields)
+```
+
+Minimal Terraform snippet — hosted zone + weighted record
+
+```hcl
+resource "aws_route53_zone" "main" {
+  name = "example.com"
+}
+
+resource "aws_route53_record" "www" {
+  zone_id = aws_route53_zone.main.zone_id
+  name    = "www"
+  type    = "A"
+
+  alias {
+    name                   = aws_lb.example.dns_name
+    zone_id                = aws_lb.example.zone_id
+    evaluate_target_health = false
+  }
+}
+
+resource "aws_route53_record" "weighted" {
+  zone_id = aws_route53_zone.main.zone_id
+  name    = "api"
+  type    = "A"
+  ttl     = 60
+  set_identifier = "blue"
+  weight = 10
+  records = ["10.0.1.10"]
+}
+```
+
+Best practices
+
+- Use Alias records for AWS targets (ALB, CloudFront, S3 static websites) to avoid extra DNS lookups and charges.
+- Keep TTLs balanced: low TTL for dynamic failover (30–60s), higher TTLs for stable records to reduce resolver traffic.
+- Use Route 53 health checks selectively — they incur cost; prefer service‑level health metrics (ELB target health) where possible.
+- Enable Query Logging to detect suspicious patterns and support troubleshooting.
+- Use Route 53 Resolver for hybrid DNS: create inbound/outbound endpoints and forwarding rules for on‑prem DNS integration.
+- Protect zones with DNSSEC and enforce secure registrar settings for critical domains.
+
+Use cases
+
+- Global traffic management: route users to the lowest latency region or regionally appropriate endpoints.
+- Canary / blue‑green deployments: weighted routing to shift traffic gradually.
+- Disaster recovery: failover routing with health checks to secondary regions.
+- Private service discovery: private hosted zones for service discovery inside VPCs.
+- Hybrid DNS: forward on‑prem queries into AWS and resolve internal AWS names from on‑prem.
+
+Related Razorops posts
+
+- [AWS VPC](/blog/aws-vpc/)
+- [AWS Lambda](/blog/aws-lambda/)
+- [Amazon CloudFront](/blog/amazon-cloudfront/)
+- [Amazon S3](/blog/amazon-s3/)
+- [AWS Route 53 Resolver & Hybrid DNS](/blog/aws-route53-resolver/) 
+
+Top 20 AWS Solutions Architect — Route 53 focused FAQ
+
+1. Q: What is Route 53? — AWS's managed DNS and domain registration service with health checks, DNSSEC, and hybrid DNS features.
+2. Q: Public vs Private hosted zone? — Public zones serve Internet DNS; private zones serve DNS within one or more VPCs.
+3. Q: What is an Alias record? — A Route 53‑specific record that maps a name to an AWS resource (ALB, CloudFront, S3, etc.) and is free of query charges.
+4. Q: CNAME vs Alias for apex domain? — Apex/root domains cannot use CNAME; use Alias to point the root to AWS resources.
+5. Q: How to implement failover? — Use health checks plus failover routing policy with PRIMARY/SECONDARY records.
+6. Q: When to use weighted routing? — For traffic splitting (canary, blue/green) or A/B tests with controlled percentages.
+7. Q: How does latency routing work? — Route 53 uses latency measurements between user location and AWS regions to route to the lowest latency endpoint.
+8. Q: What is DNSSEC and should I enable it? — DNSSEC signs records to prevent spoofing; enable for public zones where integrity is required.
+9. Q: How to integrate on‑prem DNS? — Use Route 53 Resolver inbound/outbound endpoints and forwarding rules to bridge DNS.
+10. Q: What are Route 53 Resolver endpoints? — ENIs running in your VPC that enable DNS queries to flow between VPC and on‑prem networks.
+11. Q: How to log DNS queries? — Configure Query Logging to CloudWatch Logs, S3, or Kinesis for analysis and security monitoring.
+12. Q: How to reduce DNS costs? — Use Alias records, reasonable TTLs, and cacheable records to minimize query counts.
+13. Q: Can Route 53 route directly to non‑AWS endpoints? — Yes — records can point to any IP or external hostname; API Destinations are for event routing (EventBridge).
+14. Q: How to ensure fast DNS propagation? — Use low TTLs for record updates during deployments, then increase TTLs after stabilization.
+15. Q: How to secure domain registration? — Use registrar lock, enable automatic renewal, and restrict account IAM permissions.
+16. Q: What is multivalue answer routing? — Route 53 returns multiple healthy IP addresses for a query; clients can try alternatives if one fails.
+17. Q: How to handle international routing? — Use geolocation or geoproximity routing policies to route users based on their location.
+18. Q: How does Route 53 support global failover? — Combine health checks with latency/geolocation and failover policies to direct traffic across regions.
+19. Q: How to test routing changes safely? — Use weighted records with low percentages and monitor via health checks and query logs.
+20. Q: Does Route 53 provide DDoS protection? — Route 53 itself isn't an anti‑DDoS product; use AWS Shield (Standard is included) and Shield Advanced for protection, and pair with CloudFront and WAF for mitigation.

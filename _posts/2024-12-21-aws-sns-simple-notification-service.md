@@ -9,48 +9,138 @@ author: Shyam Mohan
 category: AWS
 date: 2024-12-21T09:05:00.000Z
 ---
-**What is AWS SNS?**
+## What is AWS SNS?
 
-Amazon Simple Notification Service (Amazon SNS) is a web service that makes it easy to set up, operate, and send notifications from the cloud.
+Amazon Simple Notification Service (SNS) is a fully managed pub/sub messaging service that enables applications, end‑users, and devices to receive notifications from the cloud. Publishers send messages to an SNS **topic**; the service then delivers copies of those messages to **subscribers** using protocols such as HTTP/S, email, SMS, Amazon SQS, Lambda, and mobile push (APNS, FCM, etc.).
 
-It provides developers with a highly scalable, flexible, and cost-effective approach to publish messages from an application and deliver them to subscribers or other
-applications. It provides push notifications directly to mobile devices and delivers notifications by SMS text messages, email to Amazon Simple Queue Service
-(SQS), or any HTTP client.
-It allows developers to group multiple recipients using topics.
+SNS simplifies building distributed systems by decoupling senders and receivers, enabling fan‑out architectures, and handling message delivery at scale.
 
-It consists of topics and subscribers.
+### Topic types
 
-A topic is an access point for allowing recipients to get identical copies for the same notification. One topic can support deliveries to multiple end-points – for example -
-we can group together to android, IOS, and SMS text messages.
+- **Standard topics**: offer high throughput, at‑least‑once delivery, and best‑effort ordering. They support unlimited subscribers and are used for general pub/sub needs.  
+- **FIFO topics**: guarantee exactly‑once processing and preserve message order. Throughput is 300/sec per API action (3,000/sec with batching). Use when ordering and deduplication are critical (e.g. financial transactions).
 
-Two types of topics can be defined in the AWS SNS service.
-1. Standard topic is used when incoming messages are not in order. In other words, messages can be delivered as they are received.
-2. FIFO topic is designed to maintain order of the messages between the applications, especially when the events are critical. Duplication will be avoided in this case.
+### Core features
 
-**Features:**
+- Scalable, push‑based delivery to multiple endpoints.  
+- Flexible protocols: HTTP/S, email/JSON, SMS, SQS, Lambda, mobile push.  
+- Message filtering with subscription policies (attribute-based filtering).  
+- Delivery retries and dead‑letter queues for failed notifications.  
+- Message encryption with SSE‑KMS and FIFO deduplication.  
+- Mobile push notifications via Amazon Pinpoint integration.  
 
-● Instantaneous, push-based delivery.
+### Use cases
 
-● Simple API and easy integration with AWS services.
+- **Application-to-person (A2P)**: send SMS alerts, transactional emails, or mobile push to end-users (e.g. order confirmations, OTP codes).  
+- **Application-to-application (A2A)**: trigger Lambda functions, push messages into SQS queues, or notify downstream microservices in event-driven architectures.  
+- **Fan-out**: an SNS topic subscribed by multiple SQS queues to distribute workload across services.  
+- **Workflow triggering**: notify Step Functions or ECS tasks when events occur.
 
-● Flexible message delivery over multiple message protocols.
+### Example (Node.js)
 
-● Cost-effective – as pay as pay-as-you-go model.
+```javascript
+const AWS = require('aws-sdk');
+const sns = new AWS.SNS();
 
-● Fully managed and durable with automatic scalability.
+// publish message
+sns.publish({
+  TopicArn: 'arn:aws:sns:us-east-1:123:MyTopic',
+  Message: 'Hello subscribers',
+  MessageAttributes: { priority: { DataType: 'String', StringValue: 'high' } }
+});
 
-**Use cases:**
+// create subscription
+sns.subscribe({
+  TopicArn: 'arn:aws:sns:us-east-1:123:MyTopic',
+  Protocol: 'email',
+  Endpoint: 'user@example.com'
+});
+```
 
-● SNS application to person: below use cases show SNS service publishes messages to topic, sending messages to each customer’s cell phone. This is an example of an AWS application to personal service.
+### Best practices
 
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdVDmIjIxQg03zH63qTKLVIvCFFN7mIZ2TqK85ieBQaO2SZFTlVpZ4KEapLW5m62RTEhP5rsUZk47VlgwanP1n6PJkQ3FdmptBkJAEGrF_can87Rpmgr3eiCWl3OjhV-voEtAKH5Q?key=q390jo8iRKV-c2BprE8LOg)**
+- Use message attributes to filter subscriptions and reduce unnecessary traffic.  
+- Encrypt topics with KMS and restrict access with IAM policies.  
+- Monitor `NumberOfMessagesPublished`, `NumberOfNotificationsDelivered`, and `NumberOfNotificationsFailed` metrics; set alarms on delivery failures.  
+- For global delivery, use SNS with endpoint region configuration or Amazon Pinpoint.  
+- Prefer FIFO only when ordering/deduplication is required; standard topics are more cost‑efficient for most workloads.
 
-● SNS Application to Application: In this type of service, where SNS topic would interact with different AWS services such as AWS Lambda, Node JS app, and SQS services. For example, AWS S3 service has only configuration with AWS SNS service, which will be responsible for sending identical messages to other AWS services.
+### Pricing overview
+
+- Standard topics: $0.50 per 1M requests published; additional costs for SMS, email, or mobile push delivery.  
+- FIFO topics: $2.00 per 1M requests published/delivered plus data payload charges.  
+- First 1M publishes per month are free.  
+
+(Refer to AWS pricing page for latest rates.)
 
 
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdqLsmbH4MXkD5L1i3LzCU_QldjNV21Ecgyy9MuR57z7GBaoK8Iv9CdoYA58CtY8uS0XaBZHSHtuwiAuPqMekl8DWCnlIKzLLPgwRKNipFSCB9kmV4txnao8h9cWabKFSaz8yiGg?key=q390jo8iRKV-c2BprE8LOg)**
-**Pricing:**
+## Related Razorops articles
 
-● Standard Topics: First 1 million Amazon SNS requests per month are free. There will be a cost associated with $0.50 per 1 million requests.
+- [AWS SQS](/blog/amazon-simple-queue-service-sqs/)  
+- [AWS Step Functions](/blog/aws-step-functions/)  
+- [AWS EventBridge](/blog/aws-eventbridge/)  
+- [AWS Lambda](/blog/aws-lambda/)  
+- [Top 50 AWS DevOps Interview Questions and Answers](/blog/top-50-aws-devops-interview-questions-and-answers/)
 
-● FIFO Topics: Amazon SNS FIFO topic pricing is based on the number of published messages, the number of subscribed messages, and their respective amount of payload data.
+
+## Top 20 AWS Solutions Architect interview FAQs
+
+1. Q: What is a VPC and why is it important?
+A: A Virtual Private Cloud isolates resources at the network level, providing subnets, routing, security groups, and private connectivity.
+
+2. Q: Security groups vs NACLs—differences?
+A: Security groups are stateful and attached to instances; NACLs are stateless and apply to subnets.
+
+3. Q: How would you design for high availability?
+A: Use multiple AZs, autoscaling groups, load balancers, and managed services (RDS Multi-AZ).
+
+4. Q: What is Auto Scaling and how does it work?
+A: Auto Scaling adjusts EC2 capacity using policies, health checks, and scheduled scaling to meet demand and maintain availability.
+
+5. Q: What is IAM best practice?
+A: Use least privilege, roles for services, enable MFA, rotate credentials, and use centralized identity providers.
+
+6. Q: How does S3 provide durability?
+A: S3 replicates data across multiple AZs and performs continuous integrity checks (11 9s durability for standard storage).
+
+7. Q: When to use SQS vs SNS?
+A: Use SQS for decoupled queue processing; use SNS for pub/sub notifications to multiple subscribers.
+
+8. Q: What is cross-region replication (CRR) for S3?
+A: CRR asynchronously copies objects to another region for DR and compliance.
+
+9. Q: What is an Auto Scaling group?
+A: ASG maintains EC2 fleet capacity based on policies, scales automatically, and replaces unhealthy instances.
+
+10. Q: How does Route 53 routing policy work (simple, weighted, latency)?
+A: Simple returns a single resource; weighted distributes traffic by weight; latency routes to the lowest-latency region.
+
+11. Q: When to use RDS Multi-AZ vs Read Replica?
+A: Multi-AZ for HA and failover; Read Replica for read scaling.
+
+12. Q: What is CloudFormation and why use it?
+A: Declarative IaC to provision AWS resources and track drift.
+
+13. Q: How do you optimize costs in AWS?
+A: Rightsize, use spot/reserved/savings plans, lifecycle policies for storage, and monitor spend with Cost Explorer.
+
+14. Q: Explain S3 consistency model.
+A: S3 provides strong read-after-write consistency for new objects and updates across all regions.
+
+15. Q: IAM best practices?
+A: Apply least privilege, use roles, enable MFA, rotate credentials, and use centralized identity providers.
+
+16. Q: How do you design a data lake on AWS?
+A: Use S3 for storage, Glue Data Catalog for metadata, Lake Formation for access control, and Athena/EMR/SageMaker for processing.
+
+17. Q: Differences between ALB and NLB?
+A: ALB is Layer 7 with routing features; NLB is Layer 4 optimized for throughput and static IPs.
+
+18. Q: What is a VPC endpoint and when to use it?
+A: VPC endpoints provide private connectivity to AWS services without using the public internet.
+
+19. Q: How would you perform disaster recovery in AWS?
+A: Choose a DR strategy (Backup & Restore, Pilot Light, Warm Standby, Multi-Site) based on RTO/RPO and automate failover when possible.
+
+20. Q: How do you monitor and troubleshoot AWS infrastructure?
+A: Use CloudWatch metrics/logs, CloudTrail for API audits, X-Ray for tracing, VPC Flow Logs for network debugging, and third-party monitoring/APM tools.
