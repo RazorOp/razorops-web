@@ -73,13 +73,75 @@
     
     <!-- Critical CSS inline for above-the-fold content -->
     <style>
-        body{font-family:Inter,system-ui,-apple-system,sans-serif;background-color:#09090b;color:#fafafa;margin:0}
-        .hero-gradient{background:radial-gradient(circle at 50% -20%,rgba(59,130,246,.15) 0,rgba(9,9,11,0) 50%)}
-        /* Mobile menu responsive overrides */
-        @media (min-width: 768px) {
-            .md\:hidden { display: none !important; }
-            .md\:flex { display: flex !important; }
+        
+        /* Markdown Table Styles */
+        table {
+            width: 100%;
+            border: 1px solid #e5e7eb;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
+     
+        table thead th {
+            color: white;
+            font-weight: 600;
+            border: 1px solid #d1d5db;
+        }
+        table tbody td {
+            padding: 5px;
+            border: 1px solid #e5e7eb;
+            font-size: 13px;
+        }
+
+        h3{
+            padding-top: 20px;
+        }
+        
+        
+        /* Nested Paragraph Styles */
+        ol p {
+            margin-top: 20px;
+        }
+        
+        li p {
+            margin-top: 20px;
+        }
+        
+        /* Code and Pre Block Styles */
+        code {
+            background-color: #f3f4f6;
+            color: #dc2626;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+        }
+        
+        pre {
+            background-color: #1f2937;
+            color: #f3f4f6;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #374151;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            overflow-x: auto;
+            line-height: 1.5;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 13px;
+    
+        }
+        
+        pre code {
+            background-color: transparent;
+            color: #f3f4f6;
+            padding: 0;
+            border-radius: 0;
+            
+        }
+
+
+     
     </style>
     
     <!-- Main CSS with preload hint -->
@@ -208,9 +270,9 @@
         });
     </script>
 
-    <main id="main-content" role="main" class="pt-10">
+    <main id="main-content" role="main" style="margin-top: 80px;">
         <!-- Blog Post Hero Section -->
-        <section class="relative pt-24 sm:pt-28 md:pt-32 pb-12 overflow-hidden" aria-labelledby="post-title">
+        <section class="relative pb-12 overflow-hidden" aria-labelledby="post-title">
             <div class="max-w-4xl mx-auto px-4">
                 <!-- Breadcrumb -->
                 <nav aria-label="Breadcrumb" class="mb-6">
@@ -224,7 +286,7 @@
                 </nav>
                 
                 <!-- Transparent Box Container for Post -->
-                <article class="bg-white/5 backdrop-blur-sm border border-border/50 rounded-2xl p-6 sm:p-8 md:p-12 shadow-2xl">
+                <article class="bg-white/5 backdrop-blur-sm border border-border/50 rounded-2xl p-6 sm:p-5 md:p-5 shadow-2xl">
                     <header class="mb-8">
                         <h1 id="post-title" class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground">{{ page.title }}</h1>
                         <div class="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-6">
@@ -346,7 +408,7 @@
         <br>
     </main>
 
-    {% include new_footer.html %}
+    {% include footer.html %}
 
   </body>
 </html>

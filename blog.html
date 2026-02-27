@@ -9,14 +9,28 @@ image: /images/razorops-demo.webp
 
 <!-- Blog Hero Section -->
 <section class="relative pt-8 pb-12 px-4 hero-gradient" aria-labelledby="blog-heading">
-    <div class="max-w-5xl mx-auto text-center">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-secondary/50 text-xs font-medium mb-6">
+    <div class="max-w-5xl mx-auto text-center height-full flex flex-col items-center justify-center gap-6">
+        <div class="inline-flex items-center mt-4 gap-2 px-3 py-1 rounded-full border border-border bg-secondary/50 text-xs font-medium mb-6">
             <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
               Engineering Blog
         </div>
-        <h1 id="blog-heading" class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">
+        <h1 id="blog-heading" class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">
             Latest Blog Posts
         </h1>
+        
+        <!-- Search Input -->
+        <div class="mt-8 w-full max-w-2xl">
+            <form id="blog-search-form" onsubmit="performBlogSearch(event)" style="width: 100%;">
+                <input 
+                    type="text" 
+                    id="blog-search-input" 
+                    class="w-full px-6 py-4 text-lg rounded-full bg-white border-2 border-primary placeholder-gray-400 focus:outline-none focus:ring-4 focus:ring-primary/30 shadow-lg transition" 
+                    style="color: black !important;"
+                    placeholder="Search razorops.com..."
+                    autocomplete="on"
+                />
+            </form>
+        </div>
     </div>
 </section>
 
@@ -165,4 +179,33 @@ image: /images/razorops-demo.webp
         // Show/hide empty state
         noResults.classList.toggle('hidden', visibleCount > 0);
     }
+</script>
+
+<!-- Blog Search Script -->
+<script>
+    function performBlogSearch(event) {
+        event.preventDefault();
+        const searchTerm = document.getElementById('blog-search-input').value.trim();
+        
+        if (!searchTerm) {
+            alert('Please enter a search term');
+            return;
+        }
+        
+        const query = 'site:razorops.com ' + searchTerm;
+        const searchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+        window.open(searchUrl, '_blank');
+    }
+    
+    // Allow Enter key to submit
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('blog-search-input');
+        if (searchInput) {
+            searchInput.addEventListener('keypress', function(event) {
+                if (event.key === 'Enter') {
+                    performBlogSearch(event);
+                }
+            });
+        }
+    });
 </script>

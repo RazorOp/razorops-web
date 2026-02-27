@@ -7,7 +7,7 @@ canonical_url: https://razorops.com/terms-of-service
 permalink: /terms-of-service
 ---
 
-<div class="mb-10">
+<div class="mb-10 mt-16">
   <div class="max-w-5xl mx-auto">
     <div class="rounded-xl border border-border bg-secondary/20 p-8 md:p-12">
       <p class="f6 light-gray mv3 mv4-m">These terms of service are effective as of March 1, 2026</p>

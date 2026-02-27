@@ -8,7 +8,7 @@ image: /images/blog/privacy-policy.webp
 permalink: /privacy-policy
 ---
 
-<div class="mb-10">
+<div class="mb-10 mt-16">
   <div class="max-w-5xl mx-auto">
     <div class="rounded-xl border border-border bg-secondary/20 p-8 md:p-12">
       <p><strong>This Privacy Policy is effective as of March 1, 2026.</strong></p>
