@@ -342,12 +342,29 @@ permalink: /
                         <input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" required autocomplete="tel" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" aria-required="true">
                     </div>
 
+                     <div class="space-y-2">
+                        <label for="website" class="text-sm font-medium leading-none">Website/Linkedin</label>
+                        <input id="website" name="website" type="text" placeholder="Enter website or linkedin" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" aria-required="true">
+                    </div>
+
                     <div class="space-y-2">
                         <label for="cluster_size" class="text-sm font-medium leading-none">Cluster Size</label>
                         <select id="cluster_size" name="location" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
                             <option value="1-5">1-5 Clusters</option>
                             <option value="5-20">5-20 Clusters</option>
                             <option value="20+">20+ Clusters</option>
+                        </select>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="cluster_size" class="text-sm font-medium leading-none">Approx. K8s monthly bill</label>
+                        <select id="company_size" name="company_size" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
+                            <option value="1000">Less then $5000</option>
+                            <option value="5000">$5000+</option>
+                            <option value="10000">$10,000+</option>
+                            <option value="20000">$20,000+</option>
+                            <option value="50000">$50,000+</option>
+                            <option value="100000">$100,000+</option>
                         </select>
                     </div>
                     
@@ -395,6 +412,8 @@ permalink: /
             const email = form.querySelector('#email').value.trim();
             const phone = form.querySelector('#phone').value.trim();
             const clusterSize = form.querySelector('#cluster_size').value;
+            const website = form.querySelector('#website').value.trim();
+            const companySize = form.querySelector('#company_size').value;
             
             // Basic validation
             if (!firstName || !email || !phone) {
@@ -419,6 +438,8 @@ permalink: /
                     phone: phone,
                     email: email,
                     location: clusterSize,
+                    website: website,
+                    company_name: companySize,
                     lead_source: "Razorops Beta Signup",
                     campaign_id: "6291"
                 }
