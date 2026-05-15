@@ -3,6 +3,7 @@ permalink: /
 ---
 <!DOCTYPE html>
 <html lang="en" class="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +11,32 @@ permalink: /
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-687T4V6K46"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-687T4V6K46');
+        gtag('config', 'G-687T4V6K46');
     </script>
-    
+
     <!-- Primary Meta Tags -->
     <title>Razorops | AI-Powered Kubernetes Performance & Cost Optimization</title>
     <meta name="title" content="Razorops | AI-Powered Kubernetes Performance & Cost Optimization">
-    <meta name="description" content="Razorops is the intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60% automatically.">
-    <meta name="keywords" content="Kubernetes optimization, K8s cost optimization, AI infrastructure, cloud cost reduction, Kubernetes autoscaling, DevOps automation, container orchestration, cloud native">
+    <meta name="description"
+        content="Razorops is the intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60% automatically.">
+    <meta name="keywords"
+        content="Kubernetes optimization, K8s cost optimization, AI infrastructure, cloud cost reduction, Kubernetes autoscaling, DevOps automation, container orchestration, cloud native">
     <meta name="author" content="Razorops">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://razorops.com/">
-    
+
     <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://razorops.com/">
     <meta property="og:title" content="Razorops | AI-Powered Kubernetes Performance & Cost Optimization">
-    <meta property="og:description" content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
+    <meta property="og:description"
+        content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
     <meta property="og:image" content="https://razorops.com/images/razorops-og-image.webp">
     <meta property="og:image:secure_url" content="https://razorops.com/images/razorops-og-image.webp">
     <meta property="og:image:type" content="image/webp">
@@ -41,20 +45,22 @@ permalink: /
     <meta property="og:image:alt" content="Razorops - AI-Powered Kubernetes Performance & Cost Optimization Platform">
     <meta property="og:site_name" content="Razorops">
     <meta property="og:locale" content="en_US">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://razorops.com/">
     <meta name="twitter:title" content="Razorops | AI-Powered Kubernetes Performance & Cost Optimization">
-    <meta name="twitter:description" content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
+    <meta name="twitter:description"
+        content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
     <meta name="twitter:image" content="https://razorops.com/images/razorops-og-image.webp">
     <meta name="twitter:image:alt" content="Razorops - AI-Powered Kubernetes Optimization">
     <meta name="twitter:site" content="@razorops">
     <meta name="twitter:creator" content="@razorops">
-    
+
     <!-- Schema.org / Google+ / Pinterest -->
     <meta itemprop="name" content="Razorops | AI-Powered Kubernetes Performance & Cost Optimization">
-    <meta itemprop="description" content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
+    <meta itemprop="description"
+        content="The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Reduce cloud bills by up to 60%.">
     <meta itemprop="image" content="https://razorops.com/images/razorops-og-image.webp">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
@@ -76,30 +82,68 @@ permalink: /
     <meta name="theme-color" content="#ffffff">
 
     <meta name="msvalidate.01" content="7BE6D83892549154237547136EDAE30E">
-    
+
     <!-- Preconnect to external origins for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://app.blinkcrm.in">
-    
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700&display=swap"
+        rel="stylesheet">
+
     <!-- Critical CSS inline for above-the-fold content -->
     <style>
-        body{font-family:Inter,system-ui,-apple-system,sans-serif;background-color:#09090b;color:#fafafa;margin:0}
-        .hero-gradient{background:radial-gradient(circle at 50% -20%,rgba(59,130,246,.15) 0,rgba(9,9,11,0) 50%)}
+        :root {
+            --font-body: 'Inter', sans-serif;
+            --font-heading: 'Merriweather', serif;
+
+            --text-body: 18px;
+            --text-small: 14px;
+            --text-h1: clamp(2.2rem, 4vw, 3.5rem);
+            --text-h2: clamp(1.75rem, 3vw, 2.4rem);
+            --text-h3: clamp(1.3rem, 2vw, 1.7rem);
+
+            --line-body: 1.75;
+            --line-heading: 1.2;
+
+            --bg: #0f172a;
+            --surface: #111827;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --accent: #38bdf8;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font-body);
+            font-size: var(--text-body);
+            line-height: var(--line-body);
+            color: var(--text);
+            background: var(--bg);
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+
+        .hero-gradient {
+            background: radial-gradient(circle at 50% -20%, rgba(59, 130, 246, .15) 0, rgba(9, 9, 11, 0) 50%)
+        }
+
         /* Mobile menu responsive styles */
         @media (min-width: 768px) {
-            .md\:hidden { display: none !important; }
+            .md\:hidden {
+                display: none !important;
+            }
         }
     </style>
-    
+
     <!-- Main CSS with preload hint -->
     <link rel="preload" href="/css/output.css" as="style">
     <link rel="stylesheet" href="/css/output.css">
-    
-    <!-- Defer non-critical CSS -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
-    
+
+
+
     <!-- JSON-LD Structured Data for Organization -->
     <script type="application/ld+json">
     {
@@ -121,7 +165,7 @@ permalink: /
         }
     }
     </script>
-    
+
     <!-- JSON-LD Structured Data for SoftwareApplication -->
     <script type="application/ld+json">
     {
@@ -146,52 +190,80 @@ permalink: /
     </script>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4088406505945385"
-     crossorigin="anonymous"></script>
-     
+        crossorigin="anonymous"></script>
+
 </head>
+
 <body>
     <!-- Skip to main content link for accessibility -->
-    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary text-primary-foreground px-4 py-2 rounded-md z-[100]">Skip to main content</a>
+    <a href="#main-content"
+        class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary text-primary-foreground px-4 py-2 rounded-md z-[100]">Skip
+        to main content</a>
 
     <header role="banner">
-        <nav class="fixed top-0 w-full z-50 border-b border-border glass" role="navigation" aria-label="Main navigation">
+        <nav class="fixed top-0 w-full z-50 border-b border-border glass" role="navigation"
+            aria-label="Main navigation">
             <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
                 <!-- Logo - Left aligned -->
                 <a href="/" class="flex items-center gap-2" aria-label="Razorops Home">
                     <div class="w-8 h-8 bg-primary rounded flex items-center justify-center" aria-hidden="true">
-                        <svg class="w-5 h-5 text-background" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        <svg class="w-5 h-5 text-background" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
                     </div>
                     <span class="text-xl font-bold tracking-tight">RAZOROPS</span>
                 </a>
-                
+
                 <!-- Desktop Navigation - Right aligned (hidden on mobile) -->
                 <div class="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground ml-auto">
                     <a href="#features" class="hover:text-primary transition">Features</a>
                     <a href="#how-it-works" class="hover:text-primary transition">How It Works</a>
                     <a href="/blog" class="hover:text-primary transition">Blog</a>
 
-                    <a href="#beta" class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition">Join Beta</a>
+                    <a href="#beta"
+                        class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition">Join
+                        Beta</a>
                 </div>
-                
+
                 <!-- Mobile menu button (hidden on desktop) -->
-                <button type="button" id="mobile-menu-btn" class="md:hidden p-2 text-muted-foreground hover:text-primary transition" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" onclick="toggleMobileMenu()">
-                    <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                    <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <button type="button" id="mobile-menu-btn"
+                    class="md:hidden p-2 text-muted-foreground hover:text-primary transition" aria-label="Open menu"
+                    aria-expanded="false" aria-controls="mobile-menu" onclick="toggleMobileMenu()">
+                    <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
                 </button>
             </div>
-            
+
             <!-- Mobile Navigation Menu (hidden by default) -->
             <div id="mobile-menu" class="md:hidden hidden border-t border-border glass">
                 <div class="px-4 py-4 space-y-3">
-                    <a href="#features" class="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary hover:bg-secondary/50 rounded-md transition" onclick="closeMobileMenu()">Features</a>
-                    <a href="#how-it-works" class="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary hover:bg-secondary/50 rounded-md transition" onclick="closeMobileMenu()">How It Works</a>
-                    <a href="/blog" class="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary hover:bg-secondary/50 rounded-md transition" onclick="closeMobileMenu()">Blog</a>
-                    <a href="#beta" class="block px-3 py-2 text-base font-medium bg-primary text-primary-foreground rounded-md hover:opacity-90 transition text-center" onclick="closeMobileMenu()">Join Beta</a>
+                    <a href="#features"
+                        class="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary hover:bg-secondary/50 rounded-md transition"
+                        onclick="closeMobileMenu()">Features</a>
+                    <a href="#how-it-works"
+                        class="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary hover:bg-secondary/50 rounded-md transition"
+                        onclick="closeMobileMenu()">How It Works</a>
+                    <a href="/blog"
+                        class="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary hover:bg-secondary/50 rounded-md transition"
+                        onclick="closeMobileMenu()">Blog</a>
+                    <a href="#beta"
+                        class="block px-3 py-2 text-base font-medium bg-primary text-primary-foreground rounded-md hover:opacity-90 transition text-center"
+                        onclick="closeMobileMenu()">Join Beta</a>
                 </div>
             </div>
         </nav>
     </header>
-    
+
     <!-- Mobile Menu Script -->
     <script>
         function toggleMobileMenu() {
@@ -200,27 +272,27 @@ permalink: /
             const iconOpen = document.getElementById('menu-icon-open');
             const iconClose = document.getElementById('menu-icon-close');
             const isExpanded = btn.getAttribute('aria-expanded') === 'true';
-            
+
             menu.classList.toggle('hidden');
             btn.setAttribute('aria-expanded', !isExpanded);
             iconOpen.classList.toggle('hidden');
             iconClose.classList.toggle('hidden');
         }
-        
+
         function closeMobileMenu() {
             const menu = document.getElementById('mobile-menu');
             const btn = document.getElementById('mobile-menu-btn');
             const iconOpen = document.getElementById('menu-icon-open');
             const iconClose = document.getElementById('menu-icon-close');
-            
+
             menu.classList.add('hidden');
             btn.setAttribute('aria-expanded', 'false');
             iconOpen.classList.remove('hidden');
             iconClose.classList.add('hidden');
         }
-        
+
         // Close menu on window resize to desktop
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', function () {
             if (window.innerWidth >= 768) {
                 closeMobileMenu();
             }
@@ -230,22 +302,26 @@ permalink: /
     <main id="main-content" role="main">
         <section class="relative pt-32 pb-20 px-4 hero-gradient overflow-hidden" aria-labelledby="hero-heading">
             <div class="max-w-5xl mx-auto text-center">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-secondary/50 text-xs font-medium mb-8" role="status" aria-live="polite">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-secondary/50 text-xs font-medium mb-8"
+                    role="status" aria-live="polite">
                     <span class="flex h-2 w-2 rounded-full bg-blue-500 animate-pulse" aria-hidden="true"></span>
                     <span>v1.0 Private Beta Now Open</span>
                 </div>
-                <h1 id="hero-heading" class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">
+                <h1 id="hero-heading"
+                    class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">
                     Kubernetes Performance and <br class="hidden sm:inline">Cost Optimization using AI
                 </h1>
                 <p class="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-                    Meet RazorOps: The intelligent AI platform that continuously tunes your Kubernetes clusters for peak performance at the lowest possible cost. Automatically.
+                    Meet RazorOps: The intelligent AI platform that continuously tunes your Kubernetes clusters for peak
+                    performance at the lowest possible cost. Automatically.
                 </p>
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <a href="#beta" class="h-12 px-8 inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all w-full sm:w-auto">
+                    <a href="#beta"
+                        class="h-12 px-8 inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all w-full sm:w-auto">
                         Request Beta Access
                     </a>
                     <!-- <a href="https://docs.razorops.com" class="h-12 px-8 inline-flex items-center justify-center rounded-md border border-border bg-transparent hover:bg-secondary transition-all w-full sm:w-auto text-sm" rel="noopener"> -->
-                        <!-- View Documentation -->
+                    <!-- View Documentation -->
                     <!-- </a> -->
                 </div>
             </div>
@@ -258,69 +334,110 @@ permalink: /
             </header>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6" role="list">
-            <article class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300" role="listitem">
-                <div class="mb-4 text-orange-600" aria-hidden="true">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
-                </div>
-                <h3 class="text-lg font-bold mb-2">Peak Performance</h3>
-                <p class="text-muted-foreground text-sm leading-relaxed">
-                    Proactive scaling ensures 99.9% uptime and zero lag during sudden traffic spikes.
-                </p>
-            </article>
+                <article
+                    class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300"
+                    role="listitem">
+                    <div class="mb-4 text-orange-600" aria-hidden="true">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Peak Performance</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed">
+                        Proactive scaling ensures 99.9% uptime and zero lag during sudden traffic spikes.
+                    </p>
+                </article>
 
-        
 
-            <article class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300" role="listitem">
-                <div class="mb-4 text-purple-500" aria-hidden="true"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></div>
-                <h3 class="text-lg font-bold mb-2">Predictive Scaling</h3>
-                <p class="text-muted-foreground text-sm leading-relaxed">Our AI predicts traffic surges before they happen, ensuring your apps never drop a single packet.</p>
-            </article>
 
-            <article class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300" role="listitem">
-                <div class="mb-4 text-blue-500" aria-hidden="true"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                <h3 class="text-lg font-bold mb-2">Cost Autopilot</h3>
-                <p class="text-muted-foreground text-sm leading-relaxed">Automatically reclaim unused CPU and memory. Reduce your cloud bill by up to 60% without lifting a finger.</p>
-            </article>
-        </div>
+                <article
+                    class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300"
+                    role="listitem">
+                    <div class="mb-4 text-purple-500" aria-hidden="true"><svg class="w-8 h-8" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg></div>
+                    <h3 class="text-lg font-bold mb-2">Predictive Scaling</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed">Our AI predicts traffic surges before they
+                        happen, ensuring your apps never drop a single packet.</p>
+                </article>
+
+                <article
+                    class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300"
+                    role="listitem">
+                    <div class="mb-4 text-blue-500" aria-hidden="true"><svg class="w-8 h-8" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg></div>
+                    <h3 class="text-lg font-bold mb-2">Cost Autopilot</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed">Automatically reclaim unused CPU and
+                        memory. Reduce your cloud bill by up to 60% without lifting a finger.</p>
+                </article>
+            </div>
         </section>
 
-        <section id="how-it-works" class="py-24 px-4 max-w-7xl mx-auto border-t border-border" aria-labelledby="how-it-works-heading">
+        <section id="how-it-works" class="py-24 px-4 max-w-7xl mx-auto border-t border-border"
+            aria-labelledby="how-it-works-heading">
             <header class="text-center mb-16">
                 <h2 id="how-it-works-heading" class="text-3xl font-bold tracking-tight mb-4">How It Works</h2>
                 <p class="text-muted-foreground">Three simple steps to autonomous Kubernetes optimization.</p>
             </header>
 
             <ol class="grid grid-cols-1 md:grid-cols-3 gap-6" role="list">
-                <li class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300">
+                <li
+                    class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300">
                     <div class="mb-4 text-green-500" aria-hidden="true">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1">
+                            </path>
+                        </svg>
                     </div>
                     <h3 class="text-lg font-bold mb-2"><span class="text-green-500">1.</span> Connect</h3>
-                    <p class="text-muted-foreground text-sm leading-relaxed">Securely integrate Razorops with your existing K8s clusters in minutes.</p>
+                    <p class="text-muted-foreground text-sm leading-relaxed">Securely integrate Razorops with your
+                        existing K8s clusters in minutes.</p>
                 </li>
 
-                <li class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300">
+                <li
+                    class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300">
                     <div class="mb-4 text-cyan-500" aria-hidden="true">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                            </path>
+                        </svg>
                     </div>
                     <h3 class="text-lg font-bold mb-2"><span class="text-cyan-500">2.</span> Analyze</h3>
-                    <p class="text-muted-foreground text-sm leading-relaxed">Our AI Agent builds a baseline of your application's resource fingerprints.</p>
+                    <p class="text-muted-foreground text-sm leading-relaxed">Our AI Agent builds a baseline of your
+                        application's resource fingerprints.</p>
                 </li>
 
-                <li class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300">
+                <li
+                    class="group p-8 rounded-xl border border-border bg-secondary/20 hover:border-primary/50 transition-all duration-300">
                     <div class="mb-4 text-amber-500" aria-hidden="true">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
                     </div>
                     <h3 class="text-lg font-bold mb-2"><span class="text-amber-500">3.</span> Optimize</h3>
-                    <p class="text-muted-foreground text-sm leading-relaxed">Watch as Razorops executes precise, real-time adjustments to your infrastructure.</p>
+                    <p class="text-muted-foreground text-sm leading-relaxed">Watch as Razorops executes precise,
+                        real-time adjustments to your infrastructure.</p>
                 </li>
             </ol>
         </section>
 
         <section id="beta" class="py-24 px-4 border-t border-border bg-zinc-950" aria-labelledby="beta-heading">
-            <div class="max-w-xl mx-auto border border-border rounded-2xl bg-secondary/30 p-8 md:p-12 shadow-2xl relative">
-                <div class="absolute -top-12 left-1/2 -translate-x-1/2 w-24 h-24 bg-blue-500/10 blur-3xl" aria-hidden="true"></div>
-                
+            <div
+                class="max-w-xl mx-auto border border-border rounded-2xl bg-secondary/30 p-8 md:p-12 shadow-2xl relative">
+                <div class="absolute -top-12 left-1/2 -translate-x-1/2 w-24 h-24 bg-blue-500/10 blur-3xl"
+                    aria-hidden="true"></div>
+
                 <header class="text-center mb-8">
                     <h2 id="beta-heading" class="text-3xl font-bold tracking-tight mb-2">Get Early Access</h2>
                     <p class="text-muted-foreground">Limited spots available for the private beta.</p>
@@ -328,28 +445,44 @@ permalink: /
 
                 <form id="beta-signup-form" class="space-y-4" aria-label="Beta signup form">
                     <div class="space-y-2">
-                        <label for="first_name" class="text-sm font-medium leading-none">Name <span class="text-red-500" aria-hidden="true">*</span></label>
-                        <input id="first_name" name="first_name" type="text" placeholder="Your Name" required autocomplete="name" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" aria-required="true">
+                        <label for="first_name" class="text-sm font-medium leading-none">Name <span class="text-red-500"
+                                aria-hidden="true">*</span></label>
+                        <input id="first_name" name="first_name" type="text" placeholder="Your Name" required
+                            autocomplete="name"
+                            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                            aria-required="true">
                     </div>
 
                     <div class="space-y-2">
-                        <label for="email" class="text-sm font-medium leading-none">Work Email <span class="text-red-500" aria-hidden="true">*</span></label>
-                        <input id="email" name="email" type="email" placeholder="name@company.com" required autocomplete="email" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" aria-required="true">
+                        <label for="email" class="text-sm font-medium leading-none">Work Email <span
+                                class="text-red-500" aria-hidden="true">*</span></label>
+                        <input id="email" name="email" type="email" placeholder="name@company.com" required
+                            autocomplete="email" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm 
+                            ring-offset-background placeholder:text-muted-foreground 
+                            focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring 
+                            focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                            aria-required="true">
                     </div>
 
                     <div class="space-y-2">
-                        <label for="phone" class="text-sm font-medium leading-none">Mobile Number <span class="text-red-500" aria-hidden="true">*</span></label>
-                        <input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" required autocomplete="tel" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" aria-required="true">
+                        <label for="phone" class="text-sm font-medium leading-none">Mobile Number</label>
+                        <input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm 
+                            ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none 
+                            focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
+                            disabled:cursor-not-allowed disabled:opacity-50">
                     </div>
 
-                     <div class="space-y-2">
+                    <div class="space-y-2">
                         <label for="website" class="text-sm font-medium leading-none">Website/Linkedin</label>
-                        <input id="website" name="website" type="text" placeholder="Enter website or linkedin" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" aria-required="true">
+                        <input id="website" name="website" type="text" placeholder="Enter website or linkedin"
+                            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                            aria-required="true">
                     </div>
 
                     <div class="space-y-2">
                         <label for="cluster_size" class="text-sm font-medium leading-none">Cluster Size</label>
-                        <select id="cluster_size" name="location" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
+                        <select id="cluster_size" name="location"
+                            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
                             <option value="1-5">1-5 Clusters</option>
                             <option value="5-20">5-20 Clusters</option>
                             <option value="20+">20+ Clusters</option>
@@ -357,8 +490,10 @@ permalink: /
                     </div>
 
                     <div class="space-y-2">
-                        <label for="cluster_size" class="text-sm font-medium leading-none">Approx. K8s monthly bill</label>
-                        <select id="company_size" name="company_size" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
+                        <label for="cluster_size" class="text-sm font-medium leading-none">Approx. K8s monthly
+                            bill</label>
+                        <select id="company_size" name="company_size"
+                            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
                             <option value="1000">Less then $5000</option>
                             <option value="5000">$5000+</option>
                             <option value="10000">$10,000+</option>
@@ -367,12 +502,13 @@ permalink: /
                             <option value="100000">$100,000+</option>
                         </select>
                     </div>
-                    
-                    <button type="submit" class="w-full h-11 bg-primary text-primary-foreground font-bold rounded-md hover:bg-primary/90 transition-colors mt-6 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+
+                    <button type="submit"
+                        class="w-full h-11 bg-primary text-primary-foreground font-bold rounded-md hover:bg-primary/90 transition-colors mt-6 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
                         Join Private Beta
                     </button>
                 </form>
-                
+
                 <p class="text-center text-xs text-muted-foreground mt-6 uppercase tracking-widest font-semibold">
                     Trusted by teams running K8s at AWS, Google Cloud, Azure & more
                 </p>
@@ -387,10 +523,10 @@ permalink: /
     <script>
         // Set current year dynamically
         document.getElementById('current-year').textContent = new Date().getFullYear();
-        
+
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
@@ -400,13 +536,13 @@ permalink: /
         });
 
         // Form submission handler
-        document.getElementById('beta-signup-form').addEventListener('submit', async function(e) {
+        document.getElementById('beta-signup-form').addEventListener('submit', async function (e) {
             e.preventDefault();
-            
+
             const form = e.target;
             const submitBtn = form.querySelector('button[type="submit"]');
             const originalBtnText = submitBtn.textContent;
-            
+
             // Get form values
             const firstName = form.querySelector('#first_name').value.trim();
             const email = form.querySelector('#email').value.trim();
@@ -414,9 +550,9 @@ permalink: /
             const clusterSize = form.querySelector('#cluster_size').value;
             const website = form.querySelector('#website').value.trim();
             const companySize = form.querySelector('#company_size').value;
-            
+
             // Basic validation
-            if (!firstName || !email || !phone) {
+            if (!firstName || !email) {
                 submitBtn.textContent = 'Please fill all fields';
                 submitBtn.classList.add('bg-red-600');
                 setTimeout(() => {
@@ -425,12 +561,12 @@ permalink: /
                 }, 2000);
                 return;
             }
-            
+
             // Disable button and show loading state
             submitBtn.disabled = true;
             submitBtn.textContent = 'Submitting...';
             submitBtn.setAttribute('aria-busy', 'true');
-            
+
             // Prepare the payload
             const payload = {
                 lead: {
@@ -444,7 +580,7 @@ permalink: /
                     campaign_id: "6291"
                 }
             };
-            
+
             try {
                 const response = await fetch('https://app.blinkcrm.in/api/leads', {
                     method: 'POST',
@@ -455,7 +591,7 @@ permalink: /
                     },
                     body: JSON.stringify(payload)
                 });
-                
+
                 if (response.ok) {
                     // Success - show success message
                     submitBtn.textContent = '✓ Thank you! We\'ll be in touch.';
@@ -463,7 +599,7 @@ permalink: /
                     submitBtn.classList.add('bg-green-600');
                     submitBtn.setAttribute('aria-busy', 'false');
                     form.reset();
-                    
+
                     // Reset button after 4 seconds
                     setTimeout(() => {
                         submitBtn.textContent = originalBtnText;
@@ -480,7 +616,7 @@ permalink: /
                 submitBtn.classList.remove('bg-primary');
                 submitBtn.classList.add('bg-red-600');
                 submitBtn.setAttribute('aria-busy', 'false');
-                
+
                 // Reset button after 3 seconds
                 setTimeout(() => {
                     submitBtn.textContent = originalBtnText;
@@ -493,4 +629,5 @@ permalink: /
     </script>
 
 </body>
+
 </html>
