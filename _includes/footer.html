@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <footer class="py-12 border-t border-border text-center text-sm text-muted-foreground" role="contentinfo">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex items-center justify-center gap-2 mb-4">
@@ -30,6 +31,213 @@
                 </a>
             </div>
             <p>© <span id="current-year">2026</span> Razorops AI Labs Pvt Ltd. All rights reserved.</p>
+=======
+<!-- <footer class="footer">
+  <div class="container">
+    <div class="row footer-height" >
+
+      <div class="col-sm-2">
+        <h5>COMPANY</h5>
+        <ul>
+          <li><a href="/about" title="About">About Us</a></li>
+          <li><a href="/contact" title="Conatct">Contact Us</a></li>
+          <li><a href="/customers">Customers</a></li>
+          <li><a href="/open-source">Open Source</a></li>
+          <li><a href="/partners">Partners</a></li>
+          <li><a href="/referral">Refer and Earn</a></li>
+          <li><a href="/jobs">We are Hiring!</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-sm-2">
+        <h5>PRODUCT</h5>
+        <ul>
+          <li><a href="/product">Overview</a></li>
+          <li><a href="/product#how-it-works">How It Works</a></li>
+          <li><a href="/product#features">Features</a></li>
+          <li><a href="/product#integrations">Integrations</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/schedule-demo">Schedule Demo</a></li>
+        </ul>
+      </div>
+
+
+      
+
+      <div class="col-sm-3">
+        <h5>RAZOROPS PAGES</h5>
+        {% assign pages = site.pages %}
+        
+        <ul>
+          {% for page in pages  %}
+            <li><a href="{{ site.baseurl }}{{ page.url }}" title="About">{{ page.title }}</a></li>
+          {% endfor %}
+        </ul>
+        
+      </div>
+
+      <div class="col-sm-2">
+        <h5>RESOURCES</h5>
+        <ul>
+          <li><a href="/blog" title="Blog">Blog</a></li>
+
+          <li>
+            <a href="https://docs.razorops.com/getting_started/" target="_blank">Getting Started</a>
+          </li>
+          <li>
+            <a href="/jenkins-alternative/">Migrate From Jenkins</a>
+          </li>
+          <li><a href="/customers">Case Studies</a></li>
+          <li><a href="/webinars">Webinars</a></li>
+          <li><a href="/blog" title="Blog">Blog</a></li>
+          <li><a href="/newsletter" title="Newsletter">Newsletter</a></li>
+          <li><a href="/write-for-us">Write for us</a></li>
+          <li><a href="https://razorops.freshdesk.com/support/solutions/89000064241">How to Guides</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-3">
+        <h5>SUPPORT</h5>
+        <ul>
+          <li>
+            <a href="https://razorops.freshdesk.com/" target="_blank">Go to Support Portal</a>
+          </li>
+          <li><a href="/community/">Community</a></li>
+          <li><a href="/faq" title="FAQ">FAQ</a></li>
+          <li><a href="/terms-of-service">Terms of Service</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/security">Security</a></li>
+          <li>
+            <a href="https://razorops.statuspage.io/" target="_blank">Status Page</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <div class="row bottom-bar">
+    <div class="col-sm-12">
+      <p>Copyright &copy; <span id="year"></span> Razorops, Inc. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/company/razorops" target="_blank"><img src="/images/v2/linkedin.svg"
+        alt="Linkedin" title="Linkedin" width="25" height="25" /></a>&nbsp;&nbsp;
+        <a href="https://twitter.com/razorops" target="_blank"><img src="/images/v2/twitter.svg" alt="Twitter"
+        title="Twitter" width="25" height="25" /></a>&nbsp;&nbsp;
+        <a href=" https://www.facebook.com/razorops" target="_blank" class="mobile-hide"><img src="/images/v2/facebook.svg" alt="Facebook"
+        title="Facebook" width="25" height="25" /></a>&nbsp;&nbsp;
+        <a href="https://www.youtube.com/channel/UCq-0f5HPIAJ_2Ds6uvwBW4g/videos" target="_blank"><img
+        src="/images/v2/youtube.svg" alt="youtube" title="Youtube" width="25" height="25" /></a>&nbsp;&nbsp;
+        <a href="https://t.me/+F3o5iCzYFqeSd54d" target="_blank"><img src="/images/v2/telegram.png" alt="telegram"
+        title="Telegram" width="25" height="25" /></a>&nbsp;&nbsp;
+        <a href="https://razorops.quora.com/" target="_blank" class="mobile-hide"><img src="/images/v2/quora-logo.png" alt="quora"
+        title="Quora" width="28" height="28" /></a>&nbsp;&nbsp;
+        <a href="https://www.instagram.com/razoropscicd/" target="_blank"><img src="/images/instagram_logo.webp"
+        alt="Instagram" title="instagram" width="24" height="24" /></a>&nbsp;&nbsp;
+        <a href="https://chat.whatsapp.com/GHqlbyWGn778P88UwOovaQ" target="_blank"><img src="/images/v2/whatsapp.svg"
+        title="whatsapp" alt="Whatsapp" width="25" height="25" /></a>
+      </p>
+    </div>
+  </div>
+
+
+
+</footer>
+ -->
+
+
+
+
+
+<script type="text/javascript">
+  $(document).ready(function () {
+  $("#year").html(new Date().getFullYear());
+  });
+
+
+
+</script>
+
+
+{% include third-party-js.html %}
+
+<div id="ecoscale-popup" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:#0f172a;border:1px solid #334155;border-radius:16px;padding:48px;max-width:480px;margin:20px;text-align:center;box-shadow:0 25px 60px rgba(0,0,0,0.5);">
+    <div style="width:64px;height:64px;border-radius:50%;background:#3b82f6;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;">
+      <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+    </div>
+    <h2 style="color:#fafafa;font-size:24px;font-weight:700;margin:0 0 12px;font-family:Inter,sans-serif;">Razorops is Now EcoScale</h2>
+    <p style="color:#94a3b8;font-size:16px;line-height:1.6;margin:0 0 24px;font-family:Inter,sans-serif;">We've rebranded to better serve you. You'll be redirected to our new website in <span id="countdown" style="color:#3b82f6;font-weight:700;">2</span> seconds.</p>
+    <div style="width:100%;height:4px;background:#1e293b;border-radius:2px;overflow:hidden;">
+      <div id="progress-bar" style="height:100%;background:#3b82f6;border-radius:2px;width:0%;transition:width 1s linear;"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var redirectTimer = setTimeout(function() {
+    var popup = document.getElementById('ecoscale-popup');
+    if (popup) popup.style.display = 'flex';
+    var countdown = 2;
+    var countdownEl = document.getElementById('countdown');
+    var progressBar = document.getElementById('progress-bar');
+    if (progressBar) {
+      progressBar.style.width = '100%';
+      progressBar.style.transition = 'width 2s linear';
+      setTimeout(function() { progressBar.style.width = '0%'; }, 50);
+    }
+    var interval = setInterval(function() {
+      countdown--;
+      if (countdownEl) countdownEl.textContent = countdown;
+      if (countdown <= 0) {
+        clearInterval(interval);
+        window.location.href = 'https://ecoscale.dev';
+      }
+    }, 1000);
+  }, 3000);
+})();
+</script>
+
+
+<!---------------CTA--------------->
+
+<!-- 
+<script>
+  function showModalOnce() {
+    $('#azureModal').modal('show');
+  }
+  setTimeout(showModalOnce, 5000);
+</script> -->
+
+<!-- <script>
+  function showModalOnce() {
+    var lastShown = localStorage.getItem('azureModal');
+    if (!lastShown || (Date.now() - parseInt(lastShown)) > (14 * 60 * 60 * 1000)) {
+    $('#azureModal').modal('show');
+    localStorage.setItem('azureModal', Date.now());
+    }
+  }
+  setTimeout(showModalOnce, 7000);
+</script> -->
+
+<div class="modal fade" id="azureModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1"
+aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
+        <div class="center">
+          <a href="https://www.youtube.com/watch?v=SCa50IKwhV8"  target="_blank">
+            <img
+              src="images/home/razorops-demo.webp"
+              alt="razorops deployment pipeline"
+              title="razorops deployment pipeline"
+              class="thumnail-image img-responsive"
+            />
+          </a>
+>>>>>>> blog
         </div>
     </footer>
 
