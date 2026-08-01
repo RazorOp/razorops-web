@@ -10,7 +10,7 @@ layout: post
 date: '2022-04-23 14:15:43'
 author: Shyam Mohan
 category: DevOps
-image: "/images/blog/razorops-devops.png"
+image: "/images/blog/razorops-kubernetes.webp"
 ---
 
 
